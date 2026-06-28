@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Module 7 — The Art of Prompting Claude</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', sans-serif; background: #f0f4ff; color: #1a1a2e; }
+  .nav-bar { background: #16213e; padding: 10px 24px; display: flex; justify-content: space-between; align-items: center; }
+  .nav-bar a { color: #a0aec0; text-decoration: none; font-size: 0.9rem; }
+  .nav-bar a:hover { color: white; }
+  .progress-dots { display: flex; gap: 6px; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; background: #2d3a5e; }
+  .dot.done { background: #48bb78; } .dot.active { background: #e94560; }
+  .hero { background: linear-gradient(135deg, #1a3a1a 0%, #2d6a2d 100%); color: white; text-align: center; padding: 48px 24px 32px; }
+  .badge { display: inline-block; background: #68d391; color: #1a3a1a; font-size: 12px; font-weight: 700; padding: 4px 12px; border-radius: 20px; letter-spacing: 1px; margin-bottom: 16px; text-transform: uppercase; }
+  .hero h1 { font-size: 2rem; margin-bottom: 10px; }
+  .hero p { font-size: 1.05rem; opacity: 0.85; max-width: 520px; margin: 0 auto; }
+  .container { max-width: 760px; margin: 0 auto; padding: 32px 20px 60px; }
+  .section-title { font-size: 0.75rem; font-weight: 700; color: #e94560; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 12px; margin-top: 36px; }
+
+  /* BEFORE/AFTER */
+  .ba-card { background: white; border: 3px solid #1a1a2e; border-radius: 12px; overflow: hidden; box-shadow: 6px 6px 0 #1a1a2e; margin-bottom: 28px; }
+  .ba-header { background: #1a1a2e; color: white; font-size: 11px; font-weight: 700; padding: 6px 14px; text-transform: uppercase; letter-spacing: 1px; display: flex; justify-content: space-between; align-items: center; }
+  .technique-tag { background: #e94560; padding: 2px 8px; border-radius: 4px; font-size: 10px; }
+  .ba-body { display: grid; grid-template-columns: 1fr 1fr; }
+  @media (max-width: 540px) { .ba-body { grid-template-columns: 1fr; } }
+  .ba-col { padding: 18px; }
+  .ba-col.before { background: #fff5f5; border-right: 2px solid #fed7d7; }
+  .ba-col.after  { background: #f0fff4; }
+  .col-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px; }
+  .before .col-label { color: #e53e3e; }
+  .after  .col-label { color: #38a169; }
+  .prompt-box { background: white; border: 1.5px solid; border-radius: 8px; padding: 10px 12px; font-size: 0.85rem; line-height: 1.5; margin-bottom: 10px; font-family: 'Courier New', monospace; }
+  .before .prompt-box { border-color: #fc8181; }
+  .after  .prompt-box { border-color: #68d391; }
+  .response-box { border-radius: 8px; padding: 10px 12px; font-size: 0.82rem; line-height: 1.5; border: 1.5px solid; }
+  .before .response-box { background: #fff0f0; border-color: #fed7d7; color: #744; }
+  .after  .response-box { background: #f0fff4; border-color: #9ae6b4; color: #234; }
+  .why-box { background: #fff8e1; border-top: 2px solid #ffe082; padding: 12px 18px; font-size: 0.82rem; line-height: 1.5; color: #555; }
+  .why-box strong { color: #d69e2e; }
+
+  /* TECHNIQUE CARDS */
+  .technique-grid { display: flex; flex-direction: column; gap: 0; background: white; border: 3px solid #1a1a2e; border-radius: 12px; overflow: hidden; box-shadow: 6px 6px 0 #1a1a2e; }
+  .tech-item { padding: 18px 20px; border-bottom: 1.5px solid #e2e8f0; display: flex; gap: 14px; align-items: flex-start; cursor: pointer; transition: background 0.15s; }
+  .tech-item:last-child { border-bottom: none; }
+  .tech-item:hover { background: #f7f9ff; }
+  .tech-num { width: 28px; height: 28px; background: #1a1a2e; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.78rem; font-weight: 700; flex-shrink: 0; margin-top: 2px; }
+  .tech-content { flex: 1; }
+  .tech-name { font-weight: 700; font-size: 0.9rem; margin-bottom: 4px; }
+  .tech-short { font-size: 0.82rem; color: #666; line-height: 1.4; }
+  .tech-expand { font-size: 0.82rem; line-height: 1.5; background: #f0f4ff; border: 1.5px solid #c3cef6; border-radius: 8px; padding: 10px 12px; margin-top: 10px; display: none; }
+  .tech-expand.show { display: block; }
+
+  /* KEY FACTS */
+  .key-facts { background: #1a3a1a; color: white; border-radius: 12px; padding: 24px; }
+  .key-facts h3 { color: #68d391; margin-bottom: 16px; font-size: 1rem; }
+  .fact-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  .fact-list li { display: flex; align-items: flex-start; gap: 10px; font-size: 0.9rem; line-height: 1.5; }
+  .fact-list li::before { content: "✏️"; flex-shrink: 0; }
+
+  .quiz-box { background: white; border: 3px solid #1a1a2e; border-radius: 12px; padding: 24px; box-shadow: 6px 6px 0 #1a1a2e; }
+  .quiz-options { display: flex; flex-direction: column; gap: 10px; margin-top: 14px; }
+  .quiz-btn { background: #f0f4ff; border: 2px solid #c3cef6; border-radius: 8px; padding: 12px 16px; text-align: left; font-size: 0.9rem; cursor: pointer; transition: all 0.2s; font-family: inherit; }
+  .quiz-btn:hover { background: #e3f2fd; border-color: #90caf9; }
+  .quiz-btn.correct { background: #e8f5e9; border-color: #48bb78; color: #2d6a4f; }
+  .quiz-btn.wrong   { background: #ffebee; border-color: #ef9a9a; color: #b71c1c; }
+  .quiz-feedback { margin-top: 14px; padding: 12px; border-radius: 8px; font-size: 0.88rem; display: none; }
+  .quiz-feedback.show { display: block; }
+  .quiz-feedback.correct { background: #e8f5e9; color: #2d6a4f; border: 1px solid #a5d6a7; }
+  .quiz-feedback.wrong   { background: #fff8e1; color: #7b5e00; border: 1px solid #ffe082; }
+  .next-bar { display: flex; justify-content: space-between; align-items: center; margin-top: 36px; padding-top: 24px; border-top: 2px solid #e2e8f0; }
+  .btn { background: #e94560; color: white; border: none; border-radius: 8px; padding: 12px 24px; font-size: 0.95rem; font-weight: 700; cursor: pointer; text-decoration: none; display: inline-block; }
+  .btn:hover { background: #c73652; }
+  .btn.secondary { background: white; color: #1a1a2e; border: 2px solid #1a1a2e; }
+  .btn.secondary:hover { background: #f0f4ff; }
+</style>
+</head>
+<body>
+
+<div class="nav-bar">
+  <a href="index.html">← Back to Home</a>
+  <div class="progress-dots">
+    <div class="dot done"></div><div class="dot done"></div><div class="dot done"></div>
+    <div class="dot done"></div><div class="dot done"></div><div class="dot done"></div>
+    <div class="dot active"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div>
+  </div>
+  <span style="color:#a0aec0;font-size:0.85rem;">7 / 10</span>
+</div>
+
+<div class="hero">
+  <div class="badge">Module 7 · Phase 2</div>
+  <h1>The Art of Prompting Claude</h1>
+  <p>The same question can get a mediocre answer or a brilliant one — depending on how you ask. Here's how to ask well.</p>
+</div>
+
+<div class="container">
+
+  <p class="section-title">Before & After — See the Difference</p>
+
+  <!-- Technique 1: Give a Role -->
+  <div class="ba-card">
+    <div class="ba-header">Technique 1: Give Claude a Role <span class="technique-tag">Role-Setting</span></div>
+    <div class="ba-body">
+      <div class="ba-col before">
+        <div class="col-label">❌ Vague Prompt</div>
+        <div class="prompt-box">"Explain machine learning."</div>
+        <div class="response-box">Machine learning is a subset of artificial intelligence that uses algorithms to parse data, learn from it, and make informed decisions. It includes supervised, unsupervised, and reinforcement learning paradigms…</div>
+      </div>
+      <div class="ba-col after">
+        <div class="col-label">✅ With a Role</div>
+        <div class="prompt-box">"You are a patient teacher explaining to someone with no technical background. Explain machine learning using a simple everyday analogy."</div>
+        <div class="response-box">Imagine teaching a child to spot dogs in photos. You show them 1,000 pictures — "dog" or "not dog" — until they get good at it. Machine learning works the same way: instead of a child, it's a computer finding patterns from examples.</div>
+      </div>
+    </div>
+    <div class="why-box"><strong>Why it works:</strong> Claude adapts to the role you give it. "Patient teacher for non-technical person" reshapes tone, vocabulary, and analogy choice entirely.</div>
+  </div>
+
+  <!-- Technique 2: Specify the output format -->
+  <div class="ba-card">
+    <div class="ba-header">Technique 2: Specify the Output Format <span class="technique-tag">Format Control</span></div>
+    <div class="ba-body">
+      <div class="ba-col before">
+        <div class="col-label">❌ No Format</div>
+        <div class="prompt-box">"Give me tips for a job interview."</div>
+        <div class="response-box">Sure! For a job interview, preparation is key. You should research the company beforehand and make sure you understand the role. It's also important to practice your answers…</div>
+      </div>
+      <div class="ba-col after">
+        <div class="col-label">✅ Format Specified</div>
+        <div class="prompt-box">"Give me 5 job interview tips as a numbered list. Each tip: one bold headline + one sentence explanation. Keep it under 150 words total."</div>
+        <div class="response-box"><strong>1. Research the company.</strong> Spend 20 mins on their website so you can reference their work naturally.<br><strong>2. Prepare your "why us" answer.</strong> Interviewers always ask — have a specific, genuine reason ready. …</div>
+      </div>
+    </div>
+    <div class="why-box"><strong>Why it works:</strong> Claude is excellent at following format instructions. Numbered list, word count, structure — specify it and you get exactly that.</div>
+  </div>
+
+  <!-- Technique 3: Give context -->
+  <div class="ba-card">
+    <div class="ba-header">Technique 3: Give Context About Yourself <span class="technique-tag">Context</span></div>
+    <div class="ba-body">
+      <div class="ba-col before">
+        <div class="col-label">❌ No Context</div>
+        <div class="prompt-box">"How do I ask for a raise?"</div>
+        <div class="response-box">To ask for a raise, schedule a meeting with your manager, prepare your case with data on your contributions, research market rates, and choose a good time…</div>
+      </div>
+      <div class="ba-col after">
+        <div class="col-label">✅ With Context</div>
+        <div class="prompt-box">"I'm a 28-year-old graphic designer at a small agency in Malaysia. I've been there 2 years, just led a big campaign, but I'm nervous about confrontation. How do I ask for a raise in a way that feels natural, not aggressive?"</div>
+        <div class="response-box">Given your context — a small team, a recent win, and a preference for warmth over confrontation — try framing it as a conversation about growth rather than a demand. Start with: "I'd love to talk about where I'm headed here…"</div>
+      </div>
+    </div>
+    <div class="why-box"><strong>Why it works:</strong> Claude uses every detail you give it. Situation, personality, cultural context, constraints — the more specific you are, the more tailored the response.</div>
+  </div>
+
+  <!-- Technique 4: Ask it to think step by step -->
+  <div class="ba-card">
+    <div class="ba-header">Technique 4: Ask Claude to Think Step-by-Step <span class="technique-tag">Reasoning</span></div>
+    <div class="ba-body">
+      <div class="ba-col before">
+        <div class="col-label">❌ Direct Question</div>
+        <div class="prompt-box">"Should I quit my job to start a business?"</div>
+        <div class="response-box">It depends on your financial situation, the strength of your idea, your risk tolerance, and whether you have a support system…</div>
+      </div>
+      <div class="ba-col after">
+        <div class="col-label">✅ Step-by-Step</div>
+        <div class="prompt-box">"I'm thinking of quitting my job to start a business. Think through this step by step: What are the key questions I should answer first? What are the biggest risks? What would a cautious advisor say vs. an encouraging one?"</div>
+        <div class="response-box">Step 1 — Key questions to answer first: Do you have 6 months of living expenses saved? Is there evidence people will pay for this? … Step 2 — Biggest risks: … Step 3 — Cautious advisor: … Encouraging advisor: …</div>
+      </div>
+    </div>
+    <div class="why-box"><strong>Why it works:</strong> When you ask Claude to think step-by-step, it actually reasons more carefully. It's one of the most reliable ways to get deeper, more structured thinking.</div>
+  </div>
+
+  <!-- Technique 5: Tell it what NOT to do -->
+  <div class="ba-card">
+    <div class="ba-header">Technique 5: Tell It What NOT to Do <span class="technique-tag">Constraints</span></div>
+    <div class="ba-body">
+      <div class="ba-col before">
+        <div class="col-label">❌ No Constraints</div>
+        <div class="prompt-box">"Write a bio for my LinkedIn."</div>
+        <div class="response-box">Sarah is a passionate and results-driven professional with a proven track record of delivering innovative solutions and leveraging synergies across cross-functional teams…</div>
+      </div>
+      <div class="ba-col after">
+        <div class="col-label">✅ With Constraints</div>
+        <div class="prompt-box">"Write a LinkedIn bio for me. Do NOT use: 'passionate', 'results-driven', 'synergies', or corporate buzzwords. Write in first person, warm tone, under 80 words."</div>
+        <div class="response-box">I'm a graphic designer who loves turning messy briefs into clean, memorable work. For the past 5 years I've been helping brands in Southeast Asia look as good as their ideas. Currently open to freelance projects and full-time roles.</div>
+      </div>
+    </div>
+    <div class="why-box"><strong>Why it works:</strong> Claude takes "don't do X" seriously. Banning clichés, formats, or tones often produces more creative, human-sounding output than vague positive instructions.</div>
+  </div>
+
+  <!-- TECHNIQUE CHEAT SHEET -->
+  <p class="section-title">The 5 Techniques — Quick Reference</p>
+  <div class="technique-grid">
+    <div class="tech-item" onclick="toggleTech(this)">
+      <div class="tech-num">1</div>
+      <div class="tech-content">
+        <div class="tech-name">Give Claude a Role</div>
+        <div class="tech-short">"You are a patient teacher for non-technical people…"</div>
+        <div class="tech-expand">Start your prompt with a role. The more specific, the better. "You are a no-nonsense financial advisor" gives very different output than "you are a warm, encouraging coach."</div>
+      </div>
+    </div>
+    <div class="tech-item" onclick="toggleTech(this)">
+      <div class="tech-num">2</div>
+      <div class="tech-content">
+        <div class="tech-name">Specify the Format</div>
+        <div class="tech-short">"Give me a numbered list. Each item: bold headline + one sentence."</div>
+        <div class="tech-expand">Tell Claude exactly what you want: bullet list, numbered steps, table, paragraph, email format. Add length limits: "under 100 words", "exactly 3 paragraphs".</div>
+      </div>
+    </div>
+    <div class="tech-item" onclick="toggleTech(this)">
+      <div class="tech-num">3</div>
+      <div class="tech-content">
+        <div class="tech-name">Give Your Context</div>
+        <div class="tech-short">"I'm a 28-year-old designer in Malaysia who's nervous about confrontation…"</div>
+        <div class="tech-expand">Include: your background, the situation, your constraints, your audience. Claude uses every detail to personalise the response. More context = more relevant answer.</div>
+      </div>
+    </div>
+    <div class="tech-item" onclick="toggleTech(this)">
+      <div class="tech-num">4</div>
+      <div class="tech-content">
+        <div class="tech-name">Ask for Step-by-Step Thinking</div>
+        <div class="tech-short">"Think through this step by step…"</div>
+        <div class="tech-expand">Adding "think step by step" or "reason through this carefully before answering" makes Claude slow down and reason more deeply. Great for complex decisions, analysis, and planning.</div>
+      </div>
+    </div>
+    <div class="tech-item" onclick="toggleTech(this)">
+      <div class="tech-num">5</div>
+      <div class="tech-content">
+        <div class="tech-name">Add Constraints (What NOT to Do)</div>
+        <div class="tech-short">"Do NOT use buzzwords. Do NOT exceed 150 words."</div>
+        <div class="tech-expand">Negative constraints are powerful. Banning clichés, formats, or styles often unlocks more original output. Pair with positive direction: "Avoid X. Instead, aim for Y."</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- KEY FACTS -->
+  <p class="section-title">Key Facts</p>
+  <div class="key-facts">
+    <h3>What to remember about prompting Claude</h3>
+    <ul class="fact-list">
+      <li>Claude responds to <strong>role</strong> — tell it who to be and it adapts tone, depth, and vocabulary</li>
+      <li>Claude follows <strong>format instructions precisely</strong> — numbered lists, word limits, structure all work</li>
+      <li><strong>Context is gold</strong> — the more you share about yourself and your situation, the more tailored the response</li>
+      <li>"<strong>Think step by step</strong>" genuinely improves reasoning quality — not just a trick</li>
+      <li><strong>Negative constraints</strong> often produce better results than vague positive ones — "don't use jargon" beats "keep it simple"</li>
+    </ul>
+  </div>
+
+  <!-- QUIZ -->
+  <p class="section-title">Quick Check</p>
+  <div class="quiz-box">
+    <h3>🧠 Which prompt is most likely to get a useful, tailored response from Claude?</h3>
+    <div class="quiz-options">
+      <button class="quiz-btn" onclick="answer7(this,false)">A) "Help me write an email."</button>
+      <button class="quiz-btn" onclick="answer7(this,false)">B) "Write a professional email."</button>
+      <button class="quiz-btn" onclick="answer7(this,true)">C) "I need to email my landlord to politely complain about a broken heater that's been unfixed for 2 weeks. I want to be firm but not aggressive. Write it in a professional tone, under 150 words."</button>
+      <button class="quiz-btn" onclick="answer7(this,false)">D) "You are an email expert. Write the best email ever."</button>
+    </div>
+    <div class="quiz-feedback" id="qf7"></div>
+  </div>
+
+  <div class="next-bar">
+    <a href="module_06_who_is_claude.html" class="btn secondary">← Module 6</a>
+    <a href="module_08_projects_memory.html" class="btn">Next: Claude Projects →</a>
+  </div>
+
+</div>
+
+<script>
+function toggleTech(el) {
+  const expand = el.querySelector('.tech-expand');
+  expand.classList.toggle('show');
+}
+function answer7(btn, correct) {
+  document.querySelectorAll('.quiz-btn').forEach(b => b.disabled = true);
+  const fb = document.getElementById('qf7');
+  if (correct) {
+    btn.classList.add('correct');
+    fb.className = 'quiz-feedback show correct';
+    fb.innerHTML = '✅ Exactly! Option C has everything: context (landlord, broken heater, 2 weeks), tone goal (firm but not aggressive), format (professional), and length constraint (under 150 words). Claude has everything it needs to write something genuinely useful.';
+  } else {
+    btn.classList.add('wrong');
+    fb.className = 'quiz-feedback show wrong';
+    fb.innerHTML = '💡 The answer is C. Options A and B are too vague — Claude will default to generic output. Option D gives a role but no context or constraints. C provides situation, tone, format, and length — all the ingredients for a tailored response.';
+  }
+}
+</script>
+</body>
+</html>
