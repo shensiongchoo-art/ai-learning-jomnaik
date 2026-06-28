@@ -720,10 +720,31 @@ async function fetchFeedProxy(feedUrl, sourceName) {
   });
 }
 
+async function fetchFeedCorsproxy(feedUrl, sourceName) {
+  const proxyUrl = `https://corsproxy.io/?${encodeURIComponent(feedUrl)}`;
+  const res = await fetch(proxyUrl, { signal: AbortSignal.timeout(12000) });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const text = await res.text();
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(text, 'text/xml');
+  const items = doc.querySelectorAll('item, entry');
+  return Array.from(items).slice(0, 8).map(item => {
+    const title = item.querySelector('title')?.textContent || 'Untitled';
+    const link  = item.querySelector('link')?.textContent ||
+                  item.querySelector('link')?.getAttribute('href') || '#';
+    const pubDate = item.querySelector('pubDate, published, updated')?.textContent || '';
+    const desc = item.querySelector('description, summary, content')?.textContent || '';
+    return { title: title.trim(), link: link.trim(), pubDate, source: sourceName, snippet: stripHtml(desc).slice(0, 120) };
+  });
+}
+
 async function fetchFeed(url, name) {
-  try { return await fetchFeedRss2json(url, name); } catch(e1) {
-    try { return await fetchFeedProxy(url, name); } catch(e2) {
-      return [];
+  // Try allorigins first (most reliable, no key needed), then corsproxy, then rss2json
+  try { return await fetchFeedProxy(url, name); } catch(e1) {
+    try { return await fetchFeedCorsproxy(url, name); } catch(e2) {
+      try { return await fetchFeedRss2json(url, name); } catch(e3) {
+        return [];
+      }
     }
   }
 }
