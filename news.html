@@ -12,12 +12,11 @@
     --border: #2e3250;
     --text: #e8eaf0;
     --muted: #8b8fa8;
-    --accent1: #6c63ff;   /* US AI — purple */
-    --accent2: #ff4e4e;   /* China AI — red */
-    --accent3: #00c896;   /* Hardware — green */
-    --accent4: #f9a825;   /* Other AI — amber */
-    --accent5: #29b6f6;   /* Policy — blue */
-    --tag-bg: rgba(108,99,255,0.15);
+    --accent1: #6c63ff;
+    --accent2: #ff4e4e;
+    --accent3: #00c896;
+    --accent4: #f9a825;
+    --accent5: #29b6f6;
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -145,6 +144,16 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    transition: box-shadow 0.2s, opacity 0.2s;
+  }
+
+  /* drag states */
+  .col.dragging {
+    opacity: 0.45;
+    box-shadow: 0 0 0 2px var(--accent1);
+  }
+  .col.drag-over {
+    box-shadow: 0 0 0 2px var(--accent3);
   }
 
   .col-header {
@@ -153,6 +162,18 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    cursor: grab;
+    user-select: none;
+  }
+  .col-header:active { cursor: grabbing; }
+
+  .drag-handle {
+    font-size: 1rem;
+    color: var(--muted);
+    opacity: 0.5;
+    margin-left: auto;
+    flex-shrink: 0;
+    cursor: grab;
   }
 
   .col-icon { font-size: 1.3rem; }
@@ -160,7 +181,6 @@
   .col-subtitle { font-size: 0.72rem; color: var(--muted); margin-top: 2px; }
 
   .col-badge {
-    margin-left: auto;
     font-size: 0.68rem;
     font-weight: 700;
     padding: 2px 8px;
@@ -195,6 +215,7 @@
     cursor: pointer;
     text-decoration: none;
     display: block;
+    color: inherit;
   }
   .news-item:hover { border-color: #4a4f72; transform: translateY(-1px); }
 
@@ -228,7 +249,6 @@
     gap: 8px;
   }
 
-  .news-age { }
   .news-snippet {
     font-size: 0.76rem;
     color: #6c7190;
@@ -262,7 +282,6 @@
     margin-bottom: 8px;
   }
 
-  /* error state */
   .feed-error {
     font-size: 0.8rem;
     color: var(--muted);
@@ -271,6 +290,192 @@
     line-height: 1.6;
   }
   .feed-error a { color: var(--accent1); }
+
+  /* ══════════════════════════════════════════
+     ARTICLE PREVIEW MODAL
+  ══════════════════════════════════════════ */
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.75);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    backdrop-filter: blur(4px);
+  }
+  .modal-overlay.open { display: flex; }
+
+  .modal {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    width: 100%;
+    max-width: 780px;
+    max-height: 88vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 24px 60px rgba(0,0,0,0.6);
+    animation: modalIn 0.22s ease;
+  }
+  @keyframes modalIn {
+    from { opacity: 0; transform: scale(0.96) translateY(10px); }
+    to   { opacity: 1; transform: scale(1) translateY(0); }
+  }
+
+  .modal-header {
+    padding: 18px 20px 14px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    flex-shrink: 0;
+  }
+
+  .modal-meta-block { flex: 1; min-width: 0; }
+  .modal-source-tag {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: var(--accent1);
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .modal-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.4;
+    color: var(--text);
+    margin-bottom: 4px;
+  }
+  .modal-date {
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+
+  .modal-close {
+    background: var(--card);
+    border: 1px solid var(--border);
+    color: var(--muted);
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: background 0.15s;
+  }
+  .modal-close:hover { background: var(--border); color: var(--text); }
+
+  .modal-body {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+    scrollbar-width: thin;
+  }
+  .modal-body::-webkit-scrollbar { width: 5px; }
+  .modal-body::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+
+  /* images strip */
+  .modal-images {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    margin-bottom: 18px;
+    scrollbar-width: thin;
+    padding-bottom: 4px;
+  }
+  .modal-images::-webkit-scrollbar { height: 4px; }
+  .modal-images::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+  .modal-images img {
+    height: 160px;
+    width: auto;
+    max-width: 320px;
+    border-radius: 8px;
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 1px solid var(--border);
+    background: var(--card);
+  }
+
+  /* article text */
+  .modal-content {
+    font-size: 0.9rem;
+    line-height: 1.75;
+    color: #c8cadb;
+  }
+  .modal-content p { margin-bottom: 12px; }
+
+  /* loading spinner inside modal */
+  .modal-loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    padding: 40px 20px;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  .spinner {
+    width: 32px;
+    height: 32px;
+    border: 3px solid var(--border);
+    border-top-color: var(--accent1);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+
+  /* show more */
+  .modal-footer {
+    padding: 14px 20px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+  }
+  .modal-word-count {
+    font-size: 0.74rem;
+    color: var(--muted);
+  }
+  .btn-read-more {
+    background: var(--accent1);
+    color: #fff;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+  .btn-read-more:hover { opacity: 0.85; }
+  .btn-show-more {
+    background: transparent;
+    color: var(--accent1);
+    border: 1px solid var(--accent1);
+    padding: 6px 14px;
+    border-radius: 8px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .btn-show-more:hover { background: rgba(108,99,255,0.12); }
 
   /* ── NEWSLETTERS SECTION ── */
   .newsletters-section {
@@ -378,6 +583,16 @@
     color: #444865;
     border-top: 1px solid var(--border);
   }
+  .next-refresh-badge {
+    display: inline-block;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 3px 10px;
+    margin-left: 8px;
+    font-size: 0.72rem;
+    color: var(--muted);
+  }
 </style>
 </head>
 <body>
@@ -388,7 +603,7 @@
     <div class="logo">🤖</div>
     <div class="header-titles">
       <h1>AI News Hub</h1>
-      <p>Live briefing across 5 AI categories · Updated on demand</p>
+      <p>Live briefing across 5 AI categories · Auto-refreshes twice daily</p>
     </div>
   </div>
   <div class="header-right">
@@ -400,10 +615,14 @@
   </div>
 </header>
 
-<!-- CATEGORY TABS (mobile) -->
+<!-- CATEGORY TABS -->
 <div class="tabs-bar" id="tabsBar"></div>
 
 <main>
+  <!-- drag hint -->
+  <p style="font-size:0.74rem;color:var(--muted);padding:12px 0 0;text-align:right;">
+    ⠿ Drag column headers to reorder
+  </p>
 
   <!-- NEWS GRID -->
   <div class="news-grid" id="newsGrid">
@@ -564,55 +783,72 @@
 
 <footer>
   AI News Hub · Part of your AI Learning Journey · Feeds via public RSS · Last refresh: <span id="footerTime">—</span>
+  <span class="next-refresh-badge" id="nextRefreshBadge">Next auto-refresh: —</span>
 </footer>
+
+<!-- ═══════ ARTICLE PREVIEW MODAL ═══════ -->
+<div class="modal-overlay" id="modalOverlay" onclick="closeModalOnOverlay(event)">
+  <div class="modal" id="modal">
+    <div class="modal-header">
+      <div class="modal-meta-block">
+        <div class="modal-source-tag" id="modalSource">SOURCE</div>
+        <div class="modal-title" id="modalTitle">Article Title</div>
+        <div class="modal-date" id="modalDate"></div>
+      </div>
+      <button class="modal-close" onclick="closeModal()" title="Close">✕</button>
+    </div>
+    <div class="modal-body" id="modalBody">
+      <!-- content injected here -->
+    </div>
+    <div class="modal-footer" id="modalFooter">
+      <span class="modal-word-count" id="modalWordCount"></span>
+      <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+        <button class="btn-show-more" id="btnShowMore" style="display:none" onclick="showMoreContent()">Show more…</button>
+        <a class="btn-read-more" id="btnReadMore" href="#" target="_blank" rel="noopener">Read full article ↗</a>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- ═══════════════ JAVASCRIPT ═══════════════ -->
 <script>
-// ── CONFIG: 5 categories with RSS feeds ──
+// ── CONFIG ──
 const CATEGORIES = [
   {
-    id: 'us-ai',
-    cls: 'col-1',
-    icon: '🇺🇸',
+    id: 'us-ai', cls: 'col-1', icon: '🇺🇸',
     title: 'US & Global AI',
     subtitle: 'Claude · OpenAI · Google · Meta · Mistral',
     badge: 'Category 1',
     feeds: [
-      { name: 'TechCrunch AI',  url: 'https://techcrunch.com/category/artificial-intelligence/feed/' },
+      { name: 'TechCrunch AI',   url: 'https://techcrunch.com/category/artificial-intelligence/feed/' },
       { name: 'Ars Technica AI', url: 'https://arstechnica.com/ai/feed/' },
       { name: 'MIT Tech Review', url: 'https://www.technologyreview.com/feed/' },
     ]
   },
   {
-    id: 'china-ai',
-    cls: 'col-2',
-    icon: '🐉',
+    id: 'china-ai', cls: 'col-2', icon: '🐉',
     title: 'China AI',
     subtitle: 'Deepseek · Qwen · GLM · MiniMax · ByteDance',
     badge: 'Category 2',
     feeds: [
-      { name: 'SCMP Tech',      url: 'https://www.scmp.com/rss/5/feed' },
-      { name: 'Pandaily',       url: 'https://pandaily.com/feed/' },
-      { name: 'Reuters Tech',   url: 'https://feeds.reuters.com/reuters/technologyNews' },
+      { name: 'SCMP Tech',    url: 'https://www.scmp.com/rss/5/feed' },
+      { name: 'Pandaily',     url: 'https://pandaily.com/feed/' },
+      { name: 'Reuters Tech', url: 'https://feeds.reuters.com/reuters/technologyNews' },
     ]
   },
   {
-    id: 'hardware',
-    cls: 'col-3',
-    icon: '⚡',
+    id: 'hardware', cls: 'col-3', icon: '⚡',
     title: 'AI Hardware',
     subtitle: 'Nvidia · AMD · TSMC · AI PCs · New chips',
     badge: 'Category 3',
     feeds: [
       { name: 'The Verge',         url: 'https://www.theverge.com/ai-artificial-intelligence/rss/index.xml' },
-      { name: 'Tom\'s Hardware',   url: 'https://www.tomshardware.com/feeds/all' },
+      { name: "Tom's Hardware",    url: 'https://www.tomshardware.com/feeds/all' },
       { name: 'Ars Technica Tech', url: 'https://arstechnica.com/gadgets/feed/' },
     ]
   },
   {
-    id: 'other-ai',
-    cls: 'col-4',
-    icon: '🔬',
+    id: 'other-ai', cls: 'col-4', icon: '🔬',
     title: 'Other AI Tech',
     subtitle: 'Robotics · Agents · Science · Video · Audio',
     badge: 'Category 4',
@@ -623,9 +859,7 @@ const CATEGORIES = [
     ]
   },
   {
-    id: 'policy',
-    cls: 'col-5',
-    icon: '⚖️',
+    id: 'policy', cls: 'col-5', icon: '⚖️',
     title: 'AI Policy & Safety',
     subtitle: 'EU AI Act · US policy · Safety research',
     badge: 'Category 5',
@@ -637,20 +871,27 @@ const CATEGORIES = [
   }
 ];
 
-// CORS proxies (tried in order)
-const PROXIES = [
-  url => `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(url)}&api_key=&count=8`,
-  url => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`,
-];
+// ══════════════════════════════════════════════════════
+// 1. GRID BUILD + DRAG-TO-REORDER
+// ══════════════════════════════════════════════════════
+let colOrder = JSON.parse(localStorage.getItem('colOrder') || 'null');
 
-// ── BUILD GRID ──
 function buildGrid() {
   const grid = document.getElementById('newsGrid');
   grid.innerHTML = '';
-  CATEGORIES.forEach(cat => {
+
+  // apply saved order
+  const ordered = colOrder
+    ? colOrder.map(id => CATEGORIES.find(c => c.id === id)).filter(Boolean)
+    : CATEGORIES;
+
+  ordered.forEach(cat => {
     const col = document.createElement('div');
     col.className = `col ${cat.cls}`;
     col.id = `col-${cat.id}`;
+    col.draggable = true;
+    col.dataset.catId = cat.id;
+
     col.innerHTML = `
       <div class="col-header">
         <div class="col-icon">${cat.icon}</div>
@@ -659,15 +900,68 @@ function buildGrid() {
           <div class="col-subtitle">${cat.subtitle}</div>
         </div>
         <span class="col-badge">${cat.badge}</span>
+        <span class="drag-handle" title="Drag to reorder">⠿</span>
       </div>
       <div class="news-list" id="list-${cat.id}">
         ${skeletons(5)}
       </div>
     `;
+
+    // drag events
+    col.addEventListener('dragstart', onDragStart);
+    col.addEventListener('dragend',   onDragEnd);
+    col.addEventListener('dragover',  onDragOver);
+    col.addEventListener('dragleave', onDragLeave);
+    col.addEventListener('drop',      onDrop);
+
     grid.appendChild(col);
   });
 }
 
+let dragSrc = null;
+
+function onDragStart(e) {
+  dragSrc = this;
+  this.classList.add('dragging');
+  e.dataTransfer.effectAllowed = 'move';
+}
+function onDragEnd(e) {
+  this.classList.remove('dragging');
+  document.querySelectorAll('.col').forEach(c => c.classList.remove('drag-over'));
+}
+function onDragOver(e) {
+  e.preventDefault();
+  e.dataTransfer.dropEffect = 'move';
+  if (this !== dragSrc) this.classList.add('drag-over');
+}
+function onDragLeave(e) {
+  this.classList.remove('drag-over');
+}
+function onDrop(e) {
+  e.preventDefault();
+  this.classList.remove('drag-over');
+  if (!dragSrc || dragSrc === this) return;
+
+  const grid = document.getElementById('newsGrid');
+  const cols  = [...grid.children];
+  const srcIdx = cols.indexOf(dragSrc);
+  const tgtIdx = cols.indexOf(this);
+
+  if (srcIdx < tgtIdx) {
+    grid.insertBefore(dragSrc, this.nextSibling);
+  } else {
+    grid.insertBefore(dragSrc, this);
+  }
+
+  // persist order
+  const newOrder = [...grid.children].map(c => c.dataset.catId);
+  localStorage.setItem('colOrder', JSON.stringify(newOrder));
+  colOrder = newOrder;
+}
+
+// ══════════════════════════════════════════════════════
+// 2. FEED FETCHING (unchanged logic)
+// ══════════════════════════════════════════════════════
 function skeletons(n) {
   return Array.from({length: n}, () => `
     <div class="skeleton-card">
@@ -679,7 +973,6 @@ function skeletons(n) {
   `).join('');
 }
 
-// ── FETCH via rss2json ──
 async function fetchFeedRss2json(feedUrl, sourceName) {
   const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feedUrl)}&count=8`;
   const res = await fetch(apiUrl, { signal: AbortSignal.timeout(10000) });
@@ -687,36 +980,28 @@ async function fetchFeedRss2json(feedUrl, sourceName) {
   const data = await res.json();
   if (data.status !== 'ok') throw new Error('rss2json error');
   return (data.items || []).map(item => ({
-    title: item.title || 'Untitled',
-    link: item.link || '#',
+    title:   item.title || 'Untitled',
+    link:    item.link  || '#',
     pubDate: item.pubDate,
-    source: sourceName,
+    source:  sourceName,
     snippet: stripHtml(item.description || item.content || '').slice(0, 120),
   }));
 }
 
-// ── FETCH via allorigins + manual XML parse ──
 async function fetchFeedProxy(feedUrl, sourceName) {
   const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(feedUrl)}`;
   const res = await fetch(proxyUrl, { signal: AbortSignal.timeout(12000) });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const data = await res.json();
   const parser = new DOMParser();
-  const doc = parser.parseFromString(data.contents, 'text/xml');
+  const doc  = parser.parseFromString(data.contents, 'text/xml');
   const items = doc.querySelectorAll('item, entry');
   return Array.from(items).slice(0, 8).map(item => {
-    const title = item.querySelector('title')?.textContent || 'Untitled';
-    const link  = item.querySelector('link')?.textContent ||
-                  item.querySelector('link')?.getAttribute('href') || '#';
+    const title   = item.querySelector('title')?.textContent || 'Untitled';
+    const link    = item.querySelector('link')?.textContent  || item.querySelector('link')?.getAttribute('href') || '#';
     const pubDate = item.querySelector('pubDate, published, updated')?.textContent || '';
-    const desc = item.querySelector('description, summary, content')?.textContent || '';
-    return {
-      title: title.trim(),
-      link:  link.trim(),
-      pubDate,
-      source: sourceName,
-      snippet: stripHtml(desc).slice(0, 120),
-    };
+    const desc    = item.querySelector('description, summary, content')?.textContent || '';
+    return { title: title.trim(), link: link.trim(), pubDate, source: sourceName, snippet: stripHtml(desc).slice(0, 120) };
   });
 }
 
@@ -726,27 +1011,22 @@ async function fetchFeedCorsproxy(feedUrl, sourceName) {
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const text = await res.text();
   const parser = new DOMParser();
-  const doc = parser.parseFromString(text, 'text/xml');
+  const doc  = parser.parseFromString(text, 'text/xml');
   const items = doc.querySelectorAll('item, entry');
   return Array.from(items).slice(0, 8).map(item => {
-    const title = item.querySelector('title')?.textContent || 'Untitled';
-    const link  = item.querySelector('link')?.textContent ||
-                  item.querySelector('link')?.getAttribute('href') || '#';
+    const title   = item.querySelector('title')?.textContent || 'Untitled';
+    const link    = item.querySelector('link')?.textContent  || item.querySelector('link')?.getAttribute('href') || '#';
     const pubDate = item.querySelector('pubDate, published, updated')?.textContent || '';
-    const desc = item.querySelector('description, summary, content')?.textContent || '';
+    const desc    = item.querySelector('description, summary, content')?.textContent || '';
     return { title: title.trim(), link: link.trim(), pubDate, source: sourceName, snippet: stripHtml(desc).slice(0, 120) };
   });
 }
 
 async function fetchFeed(url, name) {
-  // Try allorigins first (most reliable, no key needed), then corsproxy, then rss2json
-  try { return await fetchFeedProxy(url, name); } catch(e1) {
-    try { return await fetchFeedCorsproxy(url, name); } catch(e2) {
-      try { return await fetchFeedRss2json(url, name); } catch(e3) {
-        return [];
-      }
-    }
-  }
+  try { return await fetchFeedProxy(url, name); }    catch(e1) {
+  try { return await fetchFeedCorsproxy(url, name); } catch(e2) {
+  try { return await fetchFeedRss2json(url, name); }  catch(e3) { return []; }
+  }}
 }
 
 function stripHtml(html) {
@@ -763,7 +1043,6 @@ function timeAgo(dateStr) {
   return `${Math.round(diff/86400)}d ago`;
 }
 
-// ── RENDER ITEMS ──
 function renderItems(catId, items) {
   const list = document.getElementById(`list-${catId}`);
   if (!items.length) {
@@ -777,33 +1056,36 @@ function renderItems(catId, items) {
     return;
   }
   list.innerHTML = items.map(item => `
-    <a class="news-item" href="${item.link}" target="_blank" rel="noopener">
+    <div class="news-item" onclick="openPreview(${JSON.stringify(item).replace(/"/g,'&quot;')})">
       <div class="news-source">${item.source}</div>
       <div class="news-title">${item.title}</div>
       ${item.snippet ? `<div class="news-snippet">${item.snippet}…</div>` : ''}
       <div class="news-meta">
         <span class="news-age">${timeAgo(item.pubDate)}</span>
+        <span style="color:#4a4f72">· click to preview</span>
       </div>
-    </a>
+    </div>
   `).join('');
 }
 
-// ── LOAD ALL FEEDS ──
 async function loadAllFeeds() {
   const btn = document.getElementById('refreshBtn');
   btn.classList.add('spinning');
   btn.disabled = true;
 
-  // reset skeletons
-  CATEGORIES.forEach(cat => {
-    document.getElementById(`list-${cat.id}`).innerHTML = skeletons(5);
+  // restore ordered cols
+  const grid = document.getElementById('newsGrid');
+  const ordered = colOrder
+    ? colOrder.map(id => CATEGORIES.find(c => c.id === id)).filter(Boolean)
+    : CATEGORIES;
+
+  ordered.forEach(cat => {
+    const listEl = document.getElementById(`list-${cat.id}`);
+    if (listEl) listEl.innerHTML = skeletons(5);
   });
 
-  const promises = CATEGORIES.map(async cat => {
-    const results = await Promise.all(
-      cat.feeds.map(f => fetchFeed(f.url, f.name))
-    );
-    // merge, dedupe by title, sort by date
+  const promises = ordered.map(async cat => {
+    const results = await Promise.all(cat.feeds.map(f => fetchFeed(f.url, f.name)));
     const seen = new Set();
     const merged = results.flat().filter(item => {
       if (seen.has(item.title)) return false;
@@ -817,14 +1099,230 @@ async function loadAllFeeds() {
 
   const now = new Date().toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
   document.getElementById('lastUpdated').textContent = `Updated ${now}`;
-  document.getElementById('footerTime').textContent = now;
+  document.getElementById('footerTime').textContent  = now;
   btn.classList.remove('spinning');
   btn.disabled = false;
+
+  updateNextRefreshBadge();
 }
 
-// ── INIT ──
+// ══════════════════════════════════════════════════════
+// 3. TWICE-DAILY AUTO-REFRESH  (every 12 hours)
+// ══════════════════════════════════════════════════════
+const AUTO_REFRESH_MS = 12 * 60 * 60 * 1000; // 12 hours
+let nextRefreshAt = null;
+
+function scheduleAutoRefresh() {
+  nextRefreshAt = Date.now() + AUTO_REFRESH_MS;
+  updateNextRefreshBadge();
+  setTimeout(() => {
+    loadAllFeeds();
+    scheduleAutoRefresh();
+  }, AUTO_REFRESH_MS);
+}
+
+function updateNextRefreshBadge() {
+  if (!nextRefreshAt) return;
+  const badge = document.getElementById('nextRefreshBadge');
+  const diff  = nextRefreshAt - Date.now();
+  const h = Math.floor(diff / 3600000);
+  const m = Math.floor((diff % 3600000) / 60000);
+  badge.textContent = `Next auto-refresh in ${h}h ${m}m`;
+}
+// update badge every minute
+setInterval(updateNextRefreshBadge, 60000);
+
+// ══════════════════════════════════════════════════════
+// 4. ARTICLE PREVIEW MODAL
+// ══════════════════════════════════════════════════════
+const WORD_LIMIT = 1000;
+let fullArticleText = '';
+let fullArticleWords = [];
+
+function openPreview(item) {
+  // reset
+  fullArticleText  = '';
+  fullArticleWords = [];
+
+  // populate header
+  document.getElementById('modalSource').textContent = item.source;
+  document.getElementById('modalTitle').textContent  = item.title;
+  document.getElementById('modalDate').textContent   = item.pubDate ? new Date(item.pubDate).toLocaleString() : '';
+  document.getElementById('btnReadMore').href = item.link;
+  document.getElementById('btnShowMore').style.display = 'none';
+  document.getElementById('modalWordCount').textContent = '';
+
+  // show modal
+  document.getElementById('modalOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+
+  // show loading
+  document.getElementById('modalBody').innerHTML = `
+    <div class="modal-loading">
+      <div class="spinner"></div>
+      <span>Fetching article preview…</span>
+    </div>`;
+
+  fetchArticlePreview(item.link, item.snippet);
+}
+
+async function fetchArticlePreview(url, fallbackSnippet) {
+  let html = null;
+
+  // Try allorigins
+  try {
+    const res  = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`, { signal: AbortSignal.timeout(12000) });
+    if (res.ok) {
+      const data = await res.json();
+      html = data.contents;
+    }
+  } catch(e) {}
+
+  // Try corsproxy if allorigins failed
+  if (!html) {
+    try {
+      const res = await fetch(`https://corsproxy.io/?${encodeURIComponent(url)}`, { signal: AbortSignal.timeout(12000) });
+      if (res.ok) html = await res.text();
+    } catch(e) {}
+  }
+
+  if (!html) {
+    renderModalFallback(fallbackSnippet);
+    return;
+  }
+
+  parseAndRenderArticle(html, fallbackSnippet);
+}
+
+function parseAndRenderArticle(html, fallbackSnippet) {
+  const parser = new DOMParser();
+  const doc    = parser.parseFromString(html, 'text/html');
+
+  // remove clutter
+  ['script','style','nav','header','footer','aside','form',
+   '.ad','[class*="sidebar"]','[class*="banner"]','[id*="ad"]',
+   '[class*="cookie"]','[class*="popup"]','[class*="newsletter"]',
+   '[class*="related"]','[class*="social"]'].forEach(sel => {
+    try { doc.querySelectorAll(sel).forEach(el => el.remove()); } catch(e){}
+  });
+
+  // extract images (up to 5)
+  const imgs = [];
+  doc.querySelectorAll('img[src]').forEach(img => {
+    if (imgs.length >= 5) return;
+    let src = img.getAttribute('src') || '';
+    if (!src || src.startsWith('data:') || src.length < 10) return;
+    // make absolute
+    if (src.startsWith('//')) src = 'https:' + src;
+    if (src.startsWith('/')) {
+      try {
+        const u = new URL(document.getElementById('btnReadMore').href);
+        src = u.origin + src;
+      } catch(e) {}
+    }
+    // basic quality filter: skip tiny tracker-style urls
+    if (!src.startsWith('http')) return;
+    imgs.push(src);
+  });
+
+  // extract article text
+  const candidates = [
+    'article', '[class*="article-body"]', '[class*="post-body"]',
+    '[class*="entry-content"]', '[class*="article-content"]',
+    'main', '.content', '#content', '.story', '.story-body'
+  ];
+  let container = null;
+  for (const sel of candidates) {
+    container = doc.querySelector(sel);
+    if (container) break;
+  }
+  if (!container) container = doc.body;
+
+  // get paragraphs
+  const paras = Array.from(container ? container.querySelectorAll('p, h2, h3, li') : [])
+    .map(el => el.textContent.trim())
+    .filter(t => t.length > 30);
+
+  fullArticleText  = paras.join('\n\n');
+  fullArticleWords = fullArticleText.split(/\s+/).filter(Boolean);
+
+  if (!fullArticleWords.length) {
+    renderModalFallback(fallbackSnippet);
+    return;
+  }
+
+  renderModalContent(imgs, false);
+}
+
+function renderModalContent(imgs, showAll) {
+  const words    = fullArticleWords;
+  const limited  = !showAll && words.length > WORD_LIMIT;
+  const preview  = limited ? words.slice(0, WORD_LIMIT).join(' ') + '…' : words.join(' ');
+  const wordCount = words.length;
+
+  // images strip
+  let imgsHtml = '';
+  if (imgs && imgs.length) {
+    imgsHtml = `<div class="modal-images">
+      ${imgs.map(src => `<img src="${src}" alt="" onerror="this.remove()" loading="lazy">`).join('')}
+    </div>`;
+  }
+
+  // text
+  const paras = preview.split('\n\n').map(p => `<p>${p}</p>`).join('');
+  document.getElementById('modalBody').innerHTML = imgsHtml +
+    `<div class="modal-content">${paras}</div>`;
+
+  // word count badge
+  document.getElementById('modalWordCount').textContent =
+    `~${wordCount.toLocaleString()} words${limited ? ` · showing first ${WORD_LIMIT}` : ''}`;
+
+  // show more button
+  const btnMore = document.getElementById('btnShowMore');
+  if (limited) {
+    btnMore.style.display = 'inline-flex';
+    btnMore._imgs = imgs;
+  } else {
+    btnMore.style.display = 'none';
+  }
+}
+
+function showMoreContent() {
+  const imgs = document.getElementById('btnShowMore')._imgs || [];
+  renderModalContent(imgs, true);
+}
+
+function renderModalFallback(snippet) {
+  document.getElementById('modalBody').innerHTML = `
+    <div class="modal-content">
+      <p style="color:var(--muted);font-size:0.82rem;margin-bottom:16px;">
+        ⚠️ Couldn't load full article preview — the site may block external access.
+      </p>
+      ${snippet ? `<p>${snippet}…</p>` : ''}
+    </div>`;
+  document.getElementById('modalWordCount').textContent = 'Preview limited · click "Read full article" to open source';
+}
+
+function closeModal() {
+  document.getElementById('modalOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function closeModalOnOverlay(e) {
+  if (e.target === document.getElementById('modalOverlay')) closeModal();
+}
+
+// ESC to close
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeModal();
+});
+
+// ══════════════════════════════════════════════════════
+// INIT
+// ══════════════════════════════════════════════════════
 buildGrid();
 loadAllFeeds();
+scheduleAutoRefresh();
 </script>
 </body>
 </html>
