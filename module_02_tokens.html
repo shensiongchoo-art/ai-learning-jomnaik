@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Module 2 — Tokens</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', sans-serif; background: #f0f4ff; color: #1a1a2e; }
+
+  .nav-bar {
+    background: #16213e; padding: 10px 24px; display: flex;
+    justify-content: space-between; align-items: center;
+  }
+  .nav-bar a { color: #a0aec0; text-decoration: none; font-size: 0.9rem; }
+  .nav-bar a:hover { color: white; }
+  .progress-dots { display: flex; gap: 8px; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; background: #2d3a5e; }
+  .dot.active { background: #e94560; }
+  .dot.done   { background: #48bb78; }
+
+  .hero {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: white; text-align: center; padding: 48px 24px 32px;
+  }
+  .hero .badge {
+    background: #f6ad55; color: #1a1a2e; font-size: 12px; font-weight: 700;
+    padding: 4px 12px; border-radius: 20px; letter-spacing: 1px;
+    display: inline-block; margin-bottom: 16px; text-transform: uppercase;
+  }
+  .hero h1 { font-size: 2rem; margin-bottom: 10px; }
+  .hero p { font-size: 1.05rem; opacity: 0.8; max-width: 520px; margin: 0 auto; }
+
+  .container { max-width: 760px; margin: 0 auto; padding: 32px 20px 60px; }
+
+  .section-title {
+    font-size: 0.75rem; font-weight: 700; color: #e94560;
+    text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 12px;
+    margin-top: 36px;
+  }
+
+  /* ANALOGY INTRO */
+  .analogy-box {
+    background: white; border: 3px solid #f6ad55; border-radius: 12px;
+    padding: 24px; box-shadow: 6px 6px 0 #f6ad55;
+  }
+  .lego-grid {
+    display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px;
+  }
+  .lego-brick {
+    background: #f6ad55; color: #1a1a2e; font-weight: 700; font-size: 0.9rem;
+    padding: 8px 14px; border-radius: 6px; border: 2px solid #d69e2e;
+    box-shadow: 0 4px 0 #b7791f;
+  }
+  .lego-brick.purple { background: #9f7aea; border-color: #6b46c1; box-shadow: 0 4px 0 #553c9a; color: white; }
+  .lego-brick.green  { background: #68d391; border-color: #38a169; box-shadow: 0 4px 0 #276749; color: #1a1a2e; }
+  .lego-brick.blue   { background: #63b3ed; border-color: #3182ce; box-shadow: 0 4px 0 #2c5282; color: white; }
+  .lego-brick.pink   { background: #fc8181; border-color: #e53e3e; box-shadow: 0 4px 0 #c53030; color: white; }
+
+  /* INTERACTIVE DEMO */
+  .demo-box {
+    background: white; border: 3px solid #1a1a2e; border-radius: 12px;
+    padding: 28px; box-shadow: 6px 6px 0 #1a1a2e;
+  }
+  .demo-box h3 { font-size: 1rem; margin-bottom: 8px; }
+  .demo-box p  { font-size: 0.88rem; color: #555; margin-bottom: 20px; }
+
+  .sentence-input {
+    width: 100%; padding: 12px 16px; font-size: 1rem;
+    border: 2px solid #c3cef6; border-radius: 8px;
+    font-family: inherit; outline: none; margin-bottom: 12px;
+  }
+  .sentence-input:focus { border-color: #667eea; }
+
+  .tokenize-btn {
+    background: #1a1a2e; color: white; border: none; border-radius: 8px;
+    padding: 10px 24px; font-size: 0.9rem; font-weight: 700;
+    cursor: pointer; font-family: inherit; margin-bottom: 20px;
+  }
+  .tokenize-btn:hover { background: #2d3a5e; }
+
+  .token-display {
+    min-height: 60px; display: flex; flex-wrap: wrap; gap: 6px;
+    align-items: center;
+  }
+
+  .token-chip {
+    padding: 6px 12px; border-radius: 6px; font-size: 0.9rem; font-weight: 600;
+    cursor: pointer; border: 2px solid transparent;
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .token-chip:hover { transform: translateY(-3px); box-shadow: 0 4px 8px rgba(0,0,0,0.15); }
+
+  .token-colors {
+    --c0: #fef3c7; --b0: #f59e0b;
+    --c1: #dbeafe; --b1: #3b82f6;
+    --c2: #d1fae5; --b2: #10b981;
+    --c3: #ede9fe; --b3: #8b5cf6;
+    --c4: #fee2e2; --b4: #ef4444;
+    --c5: #fce7f3; --b5: #ec4899;
+  }
+
+  .stats-row {
+    display: flex; gap: 16px; margin-top: 16px; flex-wrap: wrap;
+  }
+  .stat-chip {
+    background: #f0f4ff; border: 1px solid #c3cef6;
+    padding: 8px 14px; border-radius: 8px; font-size: 0.85rem;
+  }
+  .stat-chip strong { color: #e94560; }
+
+  .token-tooltip {
+    background: #1a1a2e; color: white; padding: 8px 12px; border-radius: 6px;
+    font-size: 0.8rem; margin-top: 12px; display: none;
+  }
+  .token-tooltip.show { display: block; }
+
+  /* EXAMPLES TABLE */
+  .examples-box {
+    background: white; border: 3px solid #1a1a2e; border-radius: 12px;
+    padding: 24px; box-shadow: 6px 6px 0 #1a1a2e;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.88rem; margin-top: 12px; }
+  th { background: #1a1a2e; color: white; padding: 10px 14px; text-align: left; }
+  td { padding: 10px 14px; border-bottom: 1px solid #e2e8f0; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f7f9ff; }
+
+  /* WHY IT MATTERS */
+  .why-box {
+    background: #1a1a2e; color: white; border-radius: 12px; padding: 24px;
+  }
+  .why-box h3 { color: #f6ad55; margin-bottom: 16px; }
+  .why-list { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+  .why-list li { display: flex; gap: 10px; font-size: 0.9rem; line-height: 1.5; align-items: flex-start; }
+  .why-list li::before { content: "🧱"; flex-shrink: 0; }
+
+  /* QUIZ */
+  .quiz-box {
+    background: white; border: 3px solid #1a1a2e; border-radius: 12px;
+    padding: 24px; box-shadow: 6px 6px 0 #1a1a2e;
+  }
+  .quiz-options { display: flex; flex-direction: column; gap: 10px; margin-top: 14px; }
+  .quiz-btn {
+    background: #f0f4ff; border: 2px solid #c3cef6; border-radius: 8px;
+    padding: 12px 16px; text-align: left; font-size: 0.9rem; cursor: pointer;
+    transition: all 0.2s; font-family: inherit;
+  }
+  .quiz-btn:hover { background: #e3f2fd; border-color: #90caf9; }
+  .quiz-btn.correct { background: #e8f5e9; border-color: #48bb78; color: #2d6a4f; }
+  .quiz-btn.wrong   { background: #ffebee; border-color: #ef9a9a; color: #b71c1c; }
+  .quiz-feedback { margin-top: 14px; padding: 12px; border-radius: 8px; font-size: 0.88rem; display: none; }
+  .quiz-feedback.show { display: block; }
+  .quiz-feedback.correct { background: #e8f5e9; color: #2d6a4f; border: 1px solid #a5d6a7; }
+  .quiz-feedback.wrong   { background: #fff8e1; color: #7b5e00; border: 1px solid #ffe082; }
+
+  .next-bar {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-top: 36px; padding-top: 24px; border-top: 2px solid #e2e8f0;
+  }
+  .btn {
+    background: #e94560; color: white; border: none; border-radius: 8px;
+    padding: 12px 24px; font-size: 0.95rem; font-weight: 700;
+    cursor: pointer; text-decoration: none; display: inline-block;
+  }
+  .btn:hover { background: #c73652; }
+  .btn.secondary { background: white; color: #1a1a2e; border: 2px solid #1a1a2e; }
+  .btn.secondary:hover { background: #f0f4ff; }
+</style>
+</head>
+<body>
+
+<div class="nav-bar">
+  <a href="index.html">← Back to Home</a>
+  <div class="progress-dots">
+    <div class="dot done"></div>
+    <div class="dot active"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+  </div>
+  <span style="color:#a0aec0;font-size:0.85rem;">2 / 5</span>
+</div>
+
+<div class="hero">
+  <div class="badge">Module 2</div>
+  <h1>Tokens — The Lego Bricks of Language</h1>
+  <p>LLMs don't read words. They read tiny pieces called tokens. Let's see them in action.</p>
+</div>
+
+<div class="container">
+
+  <p class="section-title">The Analogy</p>
+  <div class="analogy-box">
+    <p style="font-size:0.95rem;line-height:1.6;">
+      Think of a sentence like a Lego structure. You don't build with whole words — you build with <strong>bricks</strong>. An LLM breaks every sentence into small pieces (tokens) before it can read it. Some tokens are whole words. Some are just parts of words. Some are punctuation.
+    </p>
+    <div class="lego-grid">
+      <div class="lego-brick">Chat</div>
+      <div class="lego-brick purple">GPT</div>
+      <div class="lego-brick green"> is</div>
+      <div class="lego-brick blue"> really</div>
+      <div class="lego-brick pink"> smart</div>
+      <div class="lego-brick">un</div>
+      <div class="lego-brick purple">believ</div>
+      <div class="lego-brick green">able</div>
+      <div class="lego-brick blue">!</div>
+    </div>
+    <p style="font-size:0.82rem;color:#888;margin-top:12px;">
+      ↑ Each brick above is roughly one token. "unbelievable" splits into 3 bricks: "un" + "believ" + "able"
+    </p>
+  </div>
+
+  <!-- INTERACTIVE DEMO -->
+  <p class="section-title">Try It Yourself</p>
+  <div class="demo-box">
+    <h3>🧱 Token Explorer</h3>
+    <p>Type any sentence and click "Break into tokens" to see how an LLM would read it.</p>
+    <input class="sentence-input" type="text" id="inputText"
+      value="The quick brown fox jumps over the lazy dog."
+      placeholder="Type a sentence here...">
+    <br>
+    <button class="tokenize-btn" onclick="tokenize()">Break into tokens →</button>
+    <div class="token-display" id="tokenDisplay"></div>
+    <div class="stats-row" id="statsRow"></div>
+    <div class="token-tooltip" id="tooltip"></div>
+  </div>
+
+  <!-- EXAMPLES TABLE -->
+  <p class="section-title">Real Examples</p>
+  <div class="examples-box">
+    <h3 style="font-size:1rem;margin-bottom:4px;">How words split into tokens</h3>
+    <p style="font-size:0.85rem;color:#666;margin-bottom:8px;">Roughly speaking — actual splits vary by model</p>
+    <table>
+      <tr><th>Word / Phrase</th><th>Approx. Tokens</th><th>Why?</th></tr>
+      <tr><td>cat</td><td>1 token</td><td>Short, common word — one brick</td></tr>
+      <tr><td>unbelievable</td><td>3 tokens</td><td>Long word — split: "un" + "believ" + "able"</td></tr>
+      <tr><td>ChatGPT</td><td>2 tokens</td><td>"Chat" + "GPT"</td></tr>
+      <tr><td>Hello, world!</td><td>4 tokens</td><td>"Hello" + "," + " world" + "!"</td></tr>
+      <tr><td>I love pizza</td><td>4 tokens</td><td>"I" + " love" + " pizza" — spaces count!</td></tr>
+      <tr><td>1000 words of text ≈</td><td>~750 tokens</td><td>A useful rule of thumb</td></tr>
+    </table>
+  </div>
+
+  <!-- WHY IT MATTERS -->
+  <p class="section-title">Why Does This Matter?</p>
+  <div class="why-box">
+    <h3>🧱 Why tokens matter to you</h3>
+    <ul class="why-list">
+      <li>LLMs have a limit on how many tokens they can process at once — called the <strong>context window</strong> (we'll learn this in Module 3)</li>
+      <li>When you pay to use an LLM API, you pay per token — so longer messages cost more</li>
+      <li>Unusual words (like technical jargon or names) often split into more tokens, which can affect quality</li>
+      <li>Understanding tokens helps you write better prompts — shorter, clearer prompts use fewer tokens and often get better results</li>
+    </ul>
+  </div>
+
+  <!-- QUIZ -->
+  <p class="section-title">Quick Check</p>
+  <div class="quiz-box">
+    <h3>🧠 The word "unbelievable" would most likely be split into how many tokens?</h3>
+    <div class="quiz-options">
+      <button class="quiz-btn" onclick="answer2(this, false)">A) 1 token — it's just one word</button>
+      <button class="quiz-btn" onclick="answer2(this, true)">B) 2-3 tokens — long words get split into parts</button>
+      <button class="quiz-btn" onclick="answer2(this, false)">C) 12 tokens — one per letter</button>
+      <button class="quiz-btn" onclick="answer2(this, false)">D) 0 tokens — LLMs skip uncommon words</button>
+    </div>
+    <div class="quiz-feedback" id="quiz-feedback2"></div>
+  </div>
+
+  <div class="next-bar">
+    <a href="module_01_what_is_llm.html" class="btn secondary">← Module 1</a>
+    <a href="module_03_context_window.html" class="btn">Next: Context Window →</a>
+  </div>
+
+</div>
+
+<script>
+const COLORS = [
+  {bg:'#fef3c7',border:'#f59e0b',text:'#78350f'},
+  {bg:'#dbeafe',border:'#3b82f6',text:'#1e3a8a'},
+  {bg:'#d1fae5',border:'#10b981',text:'#065f46'},
+  {bg:'#ede9fe',border:'#8b5cf6',text:'#4c1d95'},
+  {bg:'#fee2e2',border:'#ef4444',text:'#7f1d1d'},
+  {bg:'#fce7f3',border:'#ec4899',text:'#831843'},
+];
+
+function simpleTokenize(text) {
+  // Simplified tokenizer: split on common patterns
+  const tokens = [];
+  // Split by spaces, keeping punctuation separate
+  const words = text.split(//);
+  let colorIdx = 0;
+  for (let w of words) {
+    if (!w) continue;
+    // Split long words into sub-tokens (rough approximation)
+    if (w.length > 8 && /^[a-zA-Z]+$/.test(w)) {
+      // Break into ~4-char chunks
+      let i = 0;
+      while (i < w.length) {
+        const chunk = w.slice(i, i+4);
+        tokens.push({text: chunk, color: colorIdx % COLORS.length});
+        colorIdx++;
+        i += 4;
+      }
+    } else if (w.trim()) {
+      tokens.push({text: w, color: colorIdx % COLORS.length});
+      colorIdx++;
+    }
+  }
+  return tokens;
+}
+
+function tokenize() {
+  const text = document.getElementById('inputText').value;
+  if (!text.trim()) return;
+  const tokens = simpleTokenize(text);
+  const display = document.getElementById('tokenDisplay');
+  const stats = document.getElementById('statsRow');
+  const tooltip = document.getElementById('tooltip');
+
+  display.innerHTML = tokens.map((t, i) => {
+    const c = COLORS[t.color];
+    return `<span class="token-chip" 
+      style="background:${c.bg};border-color:${c.border};color:${c.text};"
+      onclick="showTooltip(${i}, '${t.text.replace(/'/g,"\'")}', ${tokens.length})"
+      >${t.text}</span>`;
+  }).join('');
+
+  const charCount = text.length;
+  const wordCount = text.trim().split(/\s+/).length;
+  stats.innerHTML = `
+    <div class="stat-chip">Tokens: <strong>${tokens.length}</strong></div>
+    <div class="stat-chip">Words: <strong>${wordCount}</strong></div>
+    <div class="stat-chip">Characters: <strong>${charCount}</strong></div>
+    <div class="stat-chip">Ratio: <strong>~${(charCount/tokens.length).toFixed(1)}</strong> chars/token</div>
+  `;
+  tooltip.classList.remove('show');
+}
+
+function showTooltip(idx, text, total) {
+  const tooltip = document.getElementById('tooltip');
+  tooltip.className = 'token-tooltip show';
+  tooltip.innerHTML = `Token #${idx+1} of ${total}: "<strong>${text}</strong>" — Each coloured brick is one token the LLM reads separately.`;
+}
+
+function answer2(btn, isCorrect) {
+  const allBtns = document.querySelectorAll('.quiz-btn');
+  const feedback = document.getElementById('quiz-feedback2');
+  allBtns.forEach(b => b.disabled = true);
+  if (isCorrect) {
+    btn.classList.add('correct');
+    feedback.className = 'quiz-feedback show correct';
+    feedback.innerHTML = '✅ Right! Long words typically split into 2-4 tokens. "unbelievable" → "un" + "believ" + "able". Tokens are more like syllable clusters than whole words.';
+  } else {
+    btn.classList.add('wrong');
+    feedback.className = 'quiz-feedback show wrong';
+    feedback.innerHTML = '💡 The answer is B. Tokens aren't letters and aren't always whole words — they're chunks of roughly 3-5 characters. "unbelievable" splits into parts like "un" + "believ" + "able".';
+  }
+}
+
+// Run tokenizer on load
+window.onload = tokenize;
+</script>
+</body>
+</html>
