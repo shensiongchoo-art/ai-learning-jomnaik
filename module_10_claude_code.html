@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Module 10 — Claude Code</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', sans-serif; background: #f0f4ff; color: #1a1a2e; }
+  .nav-bar { background: #16213e; padding: 10px 24px; display: flex; justify-content: space-between; align-items: center; }
+  .nav-bar a { color: #a0aec0; text-decoration: none; font-size: 0.9rem; }
+  .nav-bar a:hover { color: white; }
+  .progress-dots { display: flex; gap: 6px; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; background: #2d3a5e; }
+  .dot.done { background: #48bb78; } .dot.active { background: #e94560; }
+  .hero { background: linear-gradient(135deg, #0a1628 0%, #1a3a5c 100%); color: white; text-align: center; padding: 48px 24px 32px; }
+  .badge { display: inline-block; background: #63b3ed; color: #0a1628; font-size: 12px; font-weight: 700; padding: 4px 12px; border-radius: 20px; letter-spacing: 1px; margin-bottom: 16px; text-transform: uppercase; }
+  .hero h1 { font-size: 2rem; margin-bottom: 10px; }
+  .hero p { font-size: 1.05rem; opacity: 0.85; max-width: 540px; margin: 0 auto; }
+  .container { max-width: 760px; margin: 0 auto; padding: 32px 20px 60px; }
+  .section-title { font-size: 0.75rem; font-weight: 700; color: #e94560; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 12px; margin-top: 36px; }
+
+  .panel { background: white; border: 3px solid #1a1a2e; border-radius: 12px; overflow: hidden; box-shadow: 6px 6px 0 #1a1a2e; margin-bottom: 24px; }
+  .panel-header { background: #1a1a2e; color: white; font-size: 11px; font-weight: 700; padding: 5px 12px; text-transform: uppercase; letter-spacing: 1px; }
+  .panel-body { display: flex; min-height: 150px; }
+  .scene { width: 170px; min-width: 170px; background: #ebf8ff; border-right: 3px solid #1a1a2e; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 16px 12px; gap: 8px; }
+  .char { font-size: 3rem; line-height: 1; }
+  .char-label { font-size: 11px; font-weight: 700; color: #666; text-transform: uppercase; text-align: center; }
+  .speech-area { flex: 1; padding: 20px; display: flex; flex-direction: column; gap: 10px; }
+  .bubble { border-radius: 12px; padding: 12px 16px; font-size: 0.9rem; line-height: 1.6; border: 2px solid; }
+  .narrator { background: #fff8e1; border-color: #ffe082; font-style: italic; font-size: 0.86rem; color: #555; }
+  .claude-b { background: #ebf8ff; border-color: #90cdf4; }
+  .human-b  { background: #e8f5e9; border-color: #a5d6a7; }
+  .code-b   { background: #1a1a2e; color: #68d391; border-color: #2d6a4f; font-family: 'Courier New', monospace; font-size: 0.82rem; }
+  .speaker  { font-size: 10px; font-weight: 700; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+  .tag { display: inline-block; color: white; font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 4px; margin-top: 6px; background: #3182ce; }
+  .tag.green { background: #38a169; } .tag.purple { background: #805ad5; } .tag.orange { background: #dd6b20; }
+
+  /* CONCEPT CARDS */
+  .concept-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  .concept-card { background: white; border: 3px solid #1a1a2e; border-radius: 12px; overflow: hidden; box-shadow: 4px 4px 0 #1a1a2e; }
+  .cc-header { display: flex; align-items: center; gap: 14px; padding: 16px 20px; cursor: pointer; }
+  .cc-icon { font-size: 2rem; flex-shrink: 0; }
+  .cc-title-area { flex: 1; }
+  .cc-title { font-weight: 700; font-size: 1rem; margin-bottom: 3px; }
+  .cc-subtitle { font-size: 0.82rem; color: #666; }
+  .cc-badge { font-size: 10px; font-weight: 700; padding: 3px 8px; border-radius: 4px; flex-shrink: 0; }
+  .cc-body { padding: 0 20px; max-height: 0; overflow: hidden; transition: max-height 0.3s, padding 0.3s; }
+  .cc-body.open { max-height: 600px; padding: 0 20px 20px; }
+  .cc-analogy { background: #f0f4ff; border: 1.5px solid #c3cef6; border-radius: 8px; padding: 12px 14px; font-size: 0.85rem; line-height: 1.5; margin-bottom: 12px; }
+  .cc-detail { font-size: 0.85rem; line-height: 1.6; color: #444; }
+  .cc-detail ul { margin-left: 16px; margin-top: 8px; display: flex; flex-direction: column; gap: 5px; }
+  .cc-detail li { font-size: 0.83rem; }
+  .cc-example { background: #f0fff4; border: 1.5px solid #9ae6b4; border-radius: 8px; padding: 10px 14px; font-size: 0.82rem; line-height: 1.5; margin-top: 10px; color: #276749; }
+  .cc-example strong { color: #1a4a2e; }
+
+  /* WORKFLOW */
+  .workflow-box { background: white; border: 3px solid #1a1a2e; border-radius: 12px; padding: 24px; box-shadow: 6px 6px 0 #1a1a2e; }
+  .workflow-steps { display: flex; flex-direction: column; gap: 0; margin-top: 16px; }
+  .wf-step { display: flex; gap: 16px; align-items: flex-start; }
+  .wf-line { display: flex; flex-direction: column; align-items: center; gap: 0; }
+  .wf-dot  { width: 32px; height: 32px; border-radius: 50%; background: #1a1a2e; color: white; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: 700; flex-shrink: 0; }
+  .wf-connector { width: 2px; background: #c3cef6; flex: 1; min-height: 24px; }
+  .wf-content { flex: 1; padding-bottom: 20px; }
+  .wf-title { font-weight: 700; font-size: 0.9rem; margin-bottom: 4px; }
+  .wf-desc  { font-size: 0.82rem; color: #666; line-height: 1.4; }
+  .wf-step:last-child .wf-connector { display: none; }
+
+  /* INSTRUCTIONS GUIDE */
+  .guide-box { background: #0a1628; color: white; border-radius: 12px; padding: 24px; }
+  .guide-box h3 { color: #63b3ed; margin-bottom: 16px; font-size: 1rem; }
+  .guide-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 500px) { .guide-grid { grid-template-columns: 1fr; } }
+  .guide-item { background: rgba(255,255,255,0.05); border-radius: 8px; padding: 14px; border: 1px solid rgba(255,255,255,0.1); }
+  .guide-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+  .guide-do   .guide-label { color: #68d391; }
+  .guide-dont .guide-label { color: #fc8181; }
+  .guide-item ul { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+  .guide-item li { font-size: 0.82rem; line-height: 1.4; display: flex; gap: 6px; }
+  .guide-do   li::before { content: "✓"; color: #68d391; flex-shrink: 0; font-weight: 700; }
+  .guide-dont li::before { content: "✗"; color: #fc8181; flex-shrink: 0; font-weight: 700; }
+
+  .key-facts { background: #0a1628; color: white; border-radius: 12px; padding: 24px; }
+  .key-facts h3 { color: #63b3ed; margin-bottom: 16px; font-size: 1rem; }
+  .fact-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  .fact-list li { display: flex; align-items: flex-start; gap: 10px; font-size: 0.9rem; line-height: 1.5; }
+  .fact-list li::before { content: "💻"; flex-shrink: 0; }
+
+  .quiz-box { background: white; border: 3px solid #1a1a2e; border-radius: 12px; padding: 24px; box-shadow: 6px 6px 0 #1a1a2e; }
+  .quiz-options { display: flex; flex-direction: column; gap: 10px; margin-top: 14px; }
+  .quiz-btn { background: #f0f4ff; border: 2px solid #c3cef6; border-radius: 8px; padding: 12px 16px; text-align: left; font-size: 0.9rem; cursor: pointer; transition: all 0.2s; font-family: inherit; }
+  .quiz-btn:hover { background: #e3f2fd; border-color: #90caf9; }
+  .quiz-btn.correct { background: #e8f5e9; border-color: #48bb78; color: #2d6a4f; }
+  .quiz-btn.wrong   { background: #ffebee; border-color: #ef9a9a; color: #b71c1c; }
+  .quiz-feedback { margin-top: 14px; padding: 12px; border-radius: 8px; font-size: 0.88rem; display: none; }
+  .quiz-feedback.show { display: block; }
+  .quiz-feedback.correct { background: #e8f5e9; color: #2d6a4f; border: 1px solid #a5d6a7; }
+  .quiz-feedback.wrong   { background: #fff8e1; color: #7b5e00; border: 1px solid #ffe082; }
+
+  .complete-banner { background: linear-gradient(135deg, #0a1628, #1a3a2e); color: white; border-radius: 12px; padding: 28px; text-align: center; margin-top: 36px; }
+  .complete-banner h2 { font-size: 1.4rem; margin-bottom: 10px; }
+  .complete-banner p  { font-size: 0.9rem; opacity: 0.85; margin-bottom: 20px; }
+  .next-bar { display: flex; justify-content: space-between; align-items: center; margin-top: 24px; padding-top: 24px; border-top: 2px solid rgba(255,255,255,0.15); }
+  .btn { background: #48bb78; color: white; border: none; border-radius: 8px; padding: 12px 24px; font-size: 0.95rem; font-weight: 700; cursor: pointer; text-decoration: none; display: inline-block; }
+  .btn:hover { background: #38a169; }
+  .btn.secondary { background: rgba(255,255,255,0.1); color: white; border: 2px solid rgba(255,255,255,0.3); }
+  .btn.secondary:hover { background: rgba(255,255,255,0.2); }
+</style>
+</head>
+<body>
+
+<div class="nav-bar">
+  <a href="index.html">← Back to Home</a>
+  <div class="progress-dots">
+    <div class="dot done"></div><div class="dot done"></div><div class="dot done"></div>
+    <div class="dot done"></div><div class="dot done"></div>
+    <div class="dot done"></div><div class="dot done"></div><div class="dot done"></div>
+    <div class="dot done"></div><div class="dot active"></div>
+  </div>
+  <span style="color:#a0aec0;font-size:0.85rem;">10 / 10</span>
+</div>
+
+<div class="hero">
+  <div class="badge">Module 10 · Phase 2 Finale</div>
+  <h1>Claude Code — Your AI Developer</h1>
+  <p>Claude Code isn't just a chatbot. It's an AI that can plan, build, and execute real tasks — using tools, writing code, and connecting to external systems. Here's how it works.</p>
+</div>
+
+<div class="container">
+
+  <p class="section-title">The Story</p>
+
+  <div class="panel">
+    <div class="panel-header">Panel 1 — Claude vs. Claude Code</div>
+    <div class="panel-body">
+      <div class="scene"><div class="char">🤖</div><div class="char-label">Two Claudes</div></div>
+      <div class="speech-area">
+        <div class="bubble narrator">You've been talking to Claude the AI assistant — a brilliant conversationalist who can write, analyse, explain, and advise. But there's another version of Claude designed specifically for building things.</div>
+        <div class="bubble narrator">Think of it this way: regular Claude is a brilliant consultant who gives you advice and writes reports. <strong>Claude Code</strong> is a senior developer you can direct to actually build things — and it does the work, step by step, on your computer or in the cloud.</div>
+        <span class="tag">Claude = advisor. Claude Code = builder.</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-header">Panel 2 — The Developer You Direct</div>
+    <div class="panel-body">
+      <div class="scene"><div class="char">👨‍💻</div><div class="char-label">Claude Code at Work</div></div>
+      <div class="speech-area">
+        <div class="bubble narrator">You don't give Claude Code code. You give it <strong>goals in plain English</strong>. It figures out the steps, writes the code, runs it, checks the results, and fixes problems — all on its own.</div>
+        <div class="bubble human-b"><div class="speaker">You tell Claude Code</div>"Build me a webpage that shows today's weather for Kuala Lumpur, with a nice design."</div>
+        <div class="bubble claude-b"><div class="speaker">Claude Code does</div>Searches for a weather API → writes the HTML and JavaScript → connects to the API → tests it → shows you the result → adjusts the design based on your feedback.</div>
+        <span class="tag green">You describe the outcome. It handles the execution.</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONCEPTS -->
+  <p class="section-title">The Key Concepts — Click Each to Explore</p>
+  <div class="concept-grid">
+
+    <div class="concept-card">
+      <div class="cc-header" onclick="toggleConcept(this)">
+        <div class="cc-icon">🧰</div>
+        <div class="cc-title-area">
+          <div class="cc-title">Skills — The Toolbox</div>
+          <div class="cc-subtitle">Reusable abilities Claude Code can pick up and use</div>
+        </div>
+        <div class="cc-badge" style="background:#fef3c7;color:#92400e;">Click to expand</div>
+      </div>
+      <div class="cc-body">
+        <div class="cc-analogy">🔧 <strong>Analogy:</strong> Imagine a developer's toolbox. Each tool is a skill — a web scraper, a PDF reader, a chart builder, a data analyser. Claude Code can pick up whichever tool a task needs, use it, and put it down.</div>
+        <div class="cc-detail">
+          Skills are pre-built capabilities that Claude Code can deploy. Instead of writing everything from scratch each time, it can call on skills it already knows:
+          <ul>
+            <li>Read and extract data from PDFs</li>
+            <li>Scrape information from websites</li>
+            <li>Generate charts and visualisations</li>
+            <li>Search academic papers or databases</li>
+            <li>Write and run code in Python, R, or shell</li>
+          </ul>
+        </div>
+        <div class="cc-example"><strong>In practice:</strong> You say "Summarise this PDF report." Claude Code uses its PDF reading skill to extract the text, then its summarisation ability to produce a clean summary — without you specifying how.</div>
+      </div>
+    </div>
+
+    <div class="concept-card">
+      <div class="cc-header" onclick="toggleConcept(this)">
+        <div class="cc-icon">🔌</div>
+        <div class="cc-title-area">
+          <div class="cc-title">MCP — The USB Ports</div>
+          <div class="cc-subtitle">How Claude Code connects to external tools and services</div>
+        </div>
+        <div class="cc-badge" style="background:#e0f2fe;color:#0c4a6e;">Click to expand</div>
+      </div>
+      <div class="cc-body">
+        <div class="cc-analogy">🔌 <strong>Analogy:</strong> Your laptop has USB ports. You can plug in a keyboard, a mouse, an external hard drive, a microphone — whatever you need. MCP (Model Context Protocol) is Claude Code's USB standard. It lets developers "plug in" new tools and services.</div>
+        <div class="cc-detail">
+          MCP is a protocol — a standardised way for Claude Code to connect to external tools:
+          <ul>
+            <li>Connect to your company's database</li>
+            <li>Read and write files on your computer</li>
+            <li>Send emails or calendar invites</li>
+            <li>Search Google or internal documentation</li>
+            <li>Control software on your machine</li>
+          </ul>
+          A developer "plugs in" a new MCP tool, and Claude Code can now use that service — just like plugging in a new USB device.
+        </div>
+        <div class="cc-example"><strong>In practice:</strong> A developer adds an MCP connector for your company's CRM. Now Claude Code can read customer records, update them, and send follow-up emails — all directed by plain English instructions.</div>
+      </div>
+    </div>
+
+    <div class="concept-card">
+      <div class="cc-header" onclick="toggleConcept(this)">
+        <div class="cc-icon">🤖</div>
+        <div class="cc-title-area">
+          <div class="cc-title">Agentic Workflows — The Autonomous Builder</div>
+          <div class="cc-subtitle">When Claude Code plans and executes multi-step tasks on its own</div>
+        </div>
+        <div class="cc-badge" style="background:#f0fdf4;color:#166534;">Click to expand</div>
+      </div>
+      <div class="cc-body">
+        <div class="cc-analogy">🏗️ <strong>Analogy:</strong> You hire a contractor to renovate your kitchen. You tell them what you want — modern, open-plan, white cabinets — and they figure out the sequence: demo, electrical, plumbing, tiling, cabinets, paint. They report back at each stage. You're not writing the step-by-step instructions. That's an agentic workflow.</div>
+        <div class="cc-detail">
+          In an agentic workflow, Claude Code:
+          <ul>
+            <li>Receives a high-level goal ("Build me a sales report")</li>
+            <li>Breaks it into steps autonomously</li>
+            <li>Executes each step — fetching data, writing code, running it</li>
+            <li>Checks results and adjusts</li>
+            <li>Reports back to you with the finished output</li>
+          </ul>
+          You stay in control at key decision points — but you're not writing every step manually.
+        </div>
+        <div class="cc-example"><strong>In practice:</strong> "Analyse our sales data for Q1 and make a summary with charts." Claude Code reads the data files, writes analysis code, generates charts, spots the key trends, and delivers a formatted report — all from that one instruction.</div>
+      </div>
+    </div>
+
+    <div class="concept-card">
+      <div class="cc-header" onclick="toggleConcept(this)">
+        <div class="cc-icon">💬</div>
+        <div class="cc-title-area">
+          <div class="cc-title">Syntax — How Developers Talk to Claude Code</div>
+          <div class="cc-subtitle">The patterns and structure behind effective Claude Code instructions</div>
+        </div>
+        <div class="cc-badge" style="background:#faf5ff;color:#44337a;">Click to expand</div>
+      </div>
+      <div class="cc-body">
+        <div class="cc-analogy">📋 <strong>Analogy:</strong> A contractor needs a good brief. "Make it nice" → poor brief. "White cabinets, quartz countertops, pendant lights above the island, under 50k budget, done by March" → great brief. Claude Code responds the same way — better structure = better results.</div>
+        <div class="cc-detail">
+          Developers use consistent patterns when giving Claude Code instructions:
+          <ul>
+            <li><strong>Steps:</strong> Define discrete tasks (fetch data → analyse → chart → report)</li>
+            <li><strong>Inputs:</strong> Specify what data or files to work with</li>
+            <li><strong>Outputs:</strong> Define what deliverable to produce (CSV, chart, PDF)</li>
+            <li><strong>Constraints:</strong> Set limits ("use only free APIs", "keep files under 5MB")</li>
+            <li><strong>Checkpoints:</strong> Ask Claude Code to pause and show results before continuing</li>
+          </ul>
+        </div>
+        <div class="cc-example"><strong>In practice:</strong> Instead of "analyse my data", a developer writes: "Step 1: Load sales.csv. Step 2: Group by region and calculate totals. Step 3: Create a bar chart. Step 4: Save as chart.png. Pause and show me the chart before writing the final report." This gives Claude Code clear structure to work within.</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- HOW IT FLOWS -->
+  <p class="section-title">How a Claude Code Task Flows</p>
+  <div class="workflow-box">
+    <h3 style="font-size:1rem;margin-bottom:4px;">From your instruction to finished output</h3>
+    <div class="workflow-steps">
+      <div class="wf-step">
+        <div class="wf-line"><div class="wf-dot">1</div><div class="wf-connector"></div></div>
+        <div class="wf-content"><div class="wf-title">You give a goal in plain English</div><div class="wf-desc">"Analyse our customer survey responses and identify the top 3 complaints."</div></div>
+      </div>
+      <div class="wf-step">
+        <div class="wf-line"><div class="wf-dot">2</div><div class="wf-connector"></div></div>
+        <div class="wf-content"><div class="wf-title">Claude Code makes a plan</div><div class="wf-desc">Breaks the goal into steps: read file → process text → identify themes → count frequency → summarise</div></div>
+      </div>
+      <div class="wf-step">
+        <div class="wf-line"><div class="wf-dot">3</div><div class="wf-connector"></div></div>
+        <div class="wf-content"><div class="wf-title">It uses its skills and MCP tools</div><div class="wf-desc">Reads the survey file, runs analysis code, connects to any needed external services</div></div>
+      </div>
+      <div class="wf-step">
+        <div class="wf-line"><div class="wf-dot">4</div><div class="wf-connector"></div></div>
+        <div class="wf-content"><div class="wf-title">It checks and fixes its own work</div><div class="wf-desc">Reviews the output for quality, corrects errors, and tries again if something doesn't look right</div></div>
+      </div>
+      <div class="wf-step">
+        <div class="wf-line"><div class="wf-dot">5</div><div class="wf-connector"></div></div>
+        <div class="wf-content"><div class="wf-title">It delivers the result to you</div><div class="wf-desc">A finished report, chart, or file — and an explanation of what it found and how</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- INSTRUCTIONS GUIDE -->
+  <p class="section-title">How to Give Claude Code Good Instructions</p>
+  <div class="guide-box">
+    <h3>Your non-coder guide to directing Claude Code</h3>
+    <div class="guide-grid">
+      <div class="guide-item guide-do">
+        <div class="guide-label">✓ Do this</div>
+        <ul>
+          <li>Describe the outcome you want, not the technical steps</li>
+          <li>Specify the file or data it should work with</li>
+          <li>Say what format you want the output in</li>
+          <li>Ask it to pause and show you results before proceeding</li>
+          <li>Break big tasks into smaller goals if you're unsure</li>
+        </ul>
+      </div>
+      <div class="guide-item guide-dont">
+        <div class="guide-label">✗ Avoid this</div>
+        <ul>
+          <li>Vague instructions ("make it better", "do something with the data")</li>
+          <li>Assuming it knows which file to use — tell it explicitly</li>
+          <li>Skipping the review step on important outputs</li>
+          <li>Asking it to do 10 things in one sentence</li>
+          <li>Forgetting it can make mistakes — always check the result</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- KEY FACTS -->
+  <p class="section-title">Key Facts</p>
+  <div class="key-facts">
+    <h3>What to remember about Claude Code</h3>
+    <ul class="fact-list">
+      <li>Claude Code is an <strong>agentic AI</strong> — it doesn't just answer questions, it plans and executes multi-step tasks</li>
+      <li><strong>Skills</strong> = pre-built capabilities Claude Code can use (like tools in a toolbox)</li>
+      <li><strong>MCP</strong> = the protocol for connecting Claude Code to external services (like USB ports)</li>
+      <li><strong>Agentic workflows</strong> = Claude Code autonomously handles a sequence of steps toward a goal</li>
+      <li>You give it a goal in plain English — it figures out <em>how</em> to achieve it</li>
+      <li>As a non-coder, you can direct Claude Code effectively by being clear about <strong>goal, inputs, and expected output</strong></li>
+    </ul>
+  </div>
+
+  <!-- QUIZ -->
+  <p class="section-title">Final Check</p>
+  <div class="quiz-box">
+    <h3>🧠 A developer adds a new MCP connector so Claude Code can access your company's internal database. What does this mean?</h3>
+    <div class="quiz-options">
+      <button class="quiz-btn" onclick="answer10(this,false)">A) Claude Code now has a new conversation skill it can use in chat</button>
+      <button class="quiz-btn" onclick="answer10(this,false)">B) The database has been trained into Claude Code's model</button>
+      <button class="quiz-btn" onclick="answer10(this,true)">C) Claude Code can now read, query, and update your database as part of its tasks — like plugging in a new USB device</button>
+      <button class="quiz-btn" onclick="answer10(this,false)">D) Claude Code becomes a database administrator automatically</button>
+    </div>
+    <div class="quiz-feedback" id="qf10"></div>
+  </div>
+
+  <div class="complete-banner">
+    <h2>🎉 Phase 2 Complete!</h2>
+    <p>You now understand Claude's identity and values, how to prompt it effectively, how Projects and memory work, what system prompts are, and the key concepts behind Claude Code. You're ready to work alongside developers with confidence.</p>
+    <div class="next-bar">
+      <a href="module_09_system_prompts.html" class="btn secondary">← Module 9</a>
+      <a href="index.html" class="btn">Back to Home 🏠</a>
+    </div>
+  </div>
+
+</div>
+
+<script>
+function toggleConcept(header) {
+  const body = header.nextElementSibling;
+  const badge = header.querySelector('.cc-badge');
+  body.classList.toggle('open');
+  badge.textContent = body.classList.contains('open') ? 'Click to collapse' : 'Click to expand';
+}
+function answer10(btn, correct) {
+  document.querySelectorAll('.quiz-btn').forEach(b => b.disabled = true);
+  const fb = document.getElementById('qf10');
+  if (correct) {
+    btn.classList.add('correct');
+    fb.className = 'quiz-feedback show correct';
+    fb.innerHTML = '✅ Exactly! MCP is the "USB standard" — a developer plugs in a connector and Claude Code can now access that service. The database isn't trained into the model; it's connected via a live channel that Claude Code can query in real time.';
+  } else {
+    btn.classList.add('wrong');
+    fb.className = 'quiz-feedback show wrong';
+    fb.innerHTML = '💡 The answer is C. MCP connects Claude Code to external tools at runtime — like a USB port. The database isn't trained into Claude Code (B), and Claude Code is still directed by your instructions (D). It just now has a new "port" to query your data.';
+  }
+}
+</script>
+</body>
+</html>
