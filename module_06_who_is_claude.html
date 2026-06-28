@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Module 6 — Who is Claude?</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', sans-serif; background: #f0f4ff; color: #1a1a2e; }
+
+  .nav-bar { background: #16213e; padding: 10px 24px; display: flex; justify-content: space-between; align-items: center; }
+  .nav-bar a { color: #a0aec0; text-decoration: none; font-size: 0.9rem; }
+  .nav-bar a:hover { color: white; }
+  .progress-dots { display: flex; gap: 6px; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; background: #2d3a5e; }
+  .dot.done   { background: #48bb78; }
+  .dot.active { background: #e94560; }
+
+  .hero {
+    background: linear-gradient(135deg, #1a1a2e 0%, #2d3748 100%);
+    color: white; text-align: center; padding: 48px 24px 32px;
+  }
+  .badge { display: inline-block; background: #9f7aea; color: white; font-size: 12px; font-weight: 700; padding: 4px 12px; border-radius: 20px; letter-spacing: 1px; margin-bottom: 16px; text-transform: uppercase; }
+  .hero h1 { font-size: 2rem; margin-bottom: 10px; }
+  .hero p { font-size: 1.05rem; opacity: 0.8; max-width: 520px; margin: 0 auto; }
+
+  .container { max-width: 760px; margin: 0 auto; padding: 32px 20px 60px; }
+  .section-title { font-size: 0.75rem; font-weight: 700; color: #e94560; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 12px; margin-top: 36px; }
+
+  /* PANELS */
+  .panel { background: white; border: 3px solid #1a1a2e; border-radius: 12px; overflow: hidden; box-shadow: 6px 6px 0 #1a1a2e; margin-bottom: 24px; }
+  .panel-header { background: #1a1a2e; color: white; font-size: 11px; font-weight: 700; padding: 5px 12px; text-transform: uppercase; letter-spacing: 1px; }
+  .panel-body { display: flex; min-height: 150px; }
+  .scene { width: 170px; min-width: 170px; background: #f5f0ff; border-right: 3px solid #1a1a2e; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 16px 12px; gap: 8px; }
+  .char { font-size: 3rem; line-height: 1; }
+  .char-label { font-size: 11px; font-weight: 700; color: #666; text-transform: uppercase; text-align: center; }
+  .speech-area { flex: 1; padding: 20px; display: flex; flex-direction: column; gap: 10px; }
+  .bubble { border-radius: 12px; padding: 12px 16px; font-size: 0.9rem; line-height: 1.6; border: 2px solid; }
+  .narrator  { background: #fff8e1; border-color: #ffe082; font-style: italic; font-size: 0.86rem; color: #555; }
+  .claude-b  { background: #f5f0ff; border-color: #c4b5fd; }
+  .human-b   { background: #e8f5e9; border-color: #a5d6a7; }
+  .speaker   { font-size: 10px; font-weight: 700; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+  .tag { display: inline-block; color: white; font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 4px; margin-top: 6px; background: #9f7aea; }
+  .tag.green { background: #38a169; }
+  .tag.red   { background: #e53e3e; }
+  .tag.blue  { background: #3182ce; }
+
+  /* VALUES GRID */
+  .values-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  @media (max-width: 500px) { .values-grid { grid-template-columns: 1fr 1fr; } }
+  .value-card { background: white; border: 2px solid #e2e8f0; border-radius: 10px; padding: 16px 12px; text-align: center; transition: border-color 0.2s, transform 0.15s; cursor: pointer; }
+  .value-card:hover { border-color: #9f7aea; transform: translateY(-2px); }
+  .value-card .v-icon { font-size: 2rem; margin-bottom: 8px; }
+  .value-card .v-title { font-size: 0.85rem; font-weight: 700; margin-bottom: 6px; color: #1a1a2e; }
+  .value-card .v-desc  { font-size: 0.78rem; color: #666; line-height: 1.4; }
+  .value-detail { background: #f5f0ff; border: 2px solid #c4b5fd; border-radius: 10px; padding: 14px 16px; font-size: 0.87rem; line-height: 1.5; margin-top: 12px; display: none; }
+  .value-detail.show { display: block; }
+
+  /* COMPARE TABLE */
+  .compare-box { background: white; border: 3px solid #1a1a2e; border-radius: 12px; padding: 24px; box-shadow: 6px 6px 0 #1a1a2e; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin-top: 12px; }
+  th { background: #1a1a2e; color: white; padding: 10px 14px; text-align: left; }
+  td { padding: 10px 14px; border-bottom: 1px solid #e2e8f0; vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f7f9ff; }
+  .check { color: #38a169; font-weight: 700; }
+  .cross { color: #e53e3e; font-weight: 700; }
+
+  /* KEY FACTS */
+  .key-facts { background: #1a1a2e; color: white; border-radius: 12px; padding: 24px; }
+  .key-facts h3 { color: #c4b5fd; margin-bottom: 16px; font-size: 1rem; }
+  .fact-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  .fact-list li { display: flex; align-items: flex-start; gap: 10px; font-size: 0.9rem; line-height: 1.5; }
+  .fact-list li::before { content: "🤖"; flex-shrink: 0; }
+
+  /* QUIZ */
+  .quiz-box { background: white; border: 3px solid #1a1a2e; border-radius: 12px; padding: 24px; box-shadow: 6px 6px 0 #1a1a2e; }
+  .quiz-options { display: flex; flex-direction: column; gap: 10px; margin-top: 14px; }
+  .quiz-btn { background: #f0f4ff; border: 2px solid #c3cef6; border-radius: 8px; padding: 12px 16px; text-align: left; font-size: 0.9rem; cursor: pointer; transition: all 0.2s; font-family: inherit; }
+  .quiz-btn:hover { background: #e3f2fd; border-color: #90caf9; }
+  .quiz-btn.correct { background: #e8f5e9; border-color: #48bb78; color: #2d6a4f; }
+  .quiz-btn.wrong   { background: #ffebee; border-color: #ef9a9a; color: #b71c1c; }
+  .quiz-feedback { margin-top: 14px; padding: 12px; border-radius: 8px; font-size: 0.88rem; display: none; }
+  .quiz-feedback.show { display: block; }
+  .quiz-feedback.correct { background: #e8f5e9; color: #2d6a4f; border: 1px solid #a5d6a7; }
+  .quiz-feedback.wrong   { background: #fff8e1; color: #7b5e00; border: 1px solid #ffe082; }
+
+  .next-bar { display: flex; justify-content: space-between; align-items: center; margin-top: 36px; padding-top: 24px; border-top: 2px solid #e2e8f0; }
+  .btn { background: #e94560; color: white; border: none; border-radius: 8px; padding: 12px 24px; font-size: 0.95rem; font-weight: 700; cursor: pointer; text-decoration: none; display: inline-block; }
+  .btn:hover { background: #c73652; }
+  .btn.secondary { background: white; color: #1a1a2e; border: 2px solid #1a1a2e; }
+  .btn.secondary:hover { background: #f0f4ff; }
+</style>
+</head>
+<body>
+
+<div class="nav-bar">
+  <a href="index.html">← Back to Home</a>
+  <div class="progress-dots">
+    <div class="dot done"></div><div class="dot done"></div><div class="dot done"></div>
+    <div class="dot done"></div><div class="dot done"></div>
+    <div class="dot active"></div><div class="dot"></div><div class="dot"></div>
+    <div class="dot"></div><div class="dot"></div>
+  </div>
+  <span style="color:#a0aec0;font-size:0.85rem;">6 / 10</span>
+</div>
+
+<div class="hero">
+  <div class="badge">Module 6 · Phase 2</div>
+  <h1>Who is Claude?</h1>
+  <p>Claude isn't just a smart LLM. It's an AI with a specific character, values, and a code of conduct baked in. Here's who you're actually talking to.</p>
+</div>
+
+<div class="container">
+
+  <p class="section-title">The Story</p>
+
+  <div class="panel">
+    <div class="panel-header">Panel 1 — Not All Librarians Are the Same</div>
+    <div class="panel-body">
+      <div class="scene"><div class="char">📚</div><div class="char-label">Two Librarians</div></div>
+      <div class="speech-area">
+        <div class="bubble narrator">Remember our well-read librarian from Module 1? Different LLMs are like different librarians — they all read the same enormous library, but they were <strong>trained differently</strong> and have different personalities, rules, and goals.</div>
+        <div class="bubble narrator">Claude is a specific librarian, built by a company called Anthropic. What makes Claude distinctive isn't just how smart it is — it's <em>how it was taught to behave</em>.</div>
+        <span class="tag blue">Claude = a librarian with a professional code of conduct</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-header">Panel 2 — The Professional with a Code</div>
+    <div class="panel-body">
+      <div class="scene"><div class="char">👔</div><div class="char-label">The Code of Conduct</div></div>
+      <div class="speech-area">
+        <div class="bubble narrator">Imagine hiring two contractors. Both are skilled. But one has no professional guidelines — they'll do whatever you ask, no questions. The other is a certified professional: they follow a code of conduct, they'll flag dangerous requests, and they'll tell you honestly when they disagree.</div>
+        <div class="bubble narrator">Claude is the second type. Anthropic gave it a set of values — not as a restriction, but as a character trait. Claude is designed to be genuinely helpful, honest, and to avoid causing harm.</div>
+        <span class="tag">This is called Constitutional AI</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-header">Panel 3 — What is Constitutional AI?</div>
+    <div class="panel-body">
+      <div class="scene"><div class="char">📜</div><div class="char-label">The Constitution</div></div>
+      <div class="speech-area">
+        <div class="bubble narrator">Most LLMs are trained purely to predict text. Anthropic took a different approach: they gave Claude a written set of principles — a "constitution" — and trained it to evaluate its own responses against those principles.</div>
+        <div class="bubble claude-b">
+          <div class="speaker">Claude's inner process (simplified)</div>
+          "Before I reply, let me check: is this response honest? Is it helpful? Could it cause harm? Would it embarrass Anthropic? If yes to the last two — revise."
+        </div>
+        <span class="tag green">Claude trained itself to align with these values — not just follow rules</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-header">Panel 4 — Claude Has a Personality</div>
+    <div class="panel-body">
+      <div class="scene"><div class="char">😊</div><div class="char-label">Claude's Character</div></div>
+      <div class="speech-area">
+        <div class="bubble narrator">Claude isn't just following instructions when it's warm, curious, or direct. Anthropic says these are <em>genuine character traits</em> that emerged from training — not a mask.</div>
+        <div class="bubble claude-b">
+          <div class="speaker">Claude's actual traits (per Anthropic)</div>
+          Intellectual curiosity · Warmth and care · Playful wit balanced with depth · Directness and openness · Commitment to honesty
+        </div>
+        <span class="tag">These stay consistent whether you ask it to write a poem or debug code</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-header">Panel 5 — What Claude Won't Do (and Why)</div>
+    <div class="panel-body">
+      <div class="scene"><div class="char">🚫</div><div class="char-label">The Limits</div></div>
+      <div class="speech-area">
+        <div class="bubble narrator">Claude will sometimes decline requests or push back. This isn't a bug — it's the code of conduct in action.</div>
+        <div class="bubble human-b"><div class="speaker">User</div>"Help me write something that deceives my customers."</div>
+        <div class="bubble claude-b"><div class="speaker">Claude</div>"I'm not comfortable helping with that — it could harm people who trust you. I'd be glad to help you write something compelling and persuasive that's also honest."</div>
+        <span class="tag red">It says no — and explains why, and offers an alternative</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- VALUES INTERACTIVE -->
+  <p class="section-title">Claude's Core Values — Click to Explore</p>
+  <div class="values-grid">
+    <div class="value-card" onclick="showValue('helpful')">
+      <div class="v-icon">🤝</div>
+      <div class="v-title">Genuinely Helpful</div>
+      <div class="v-desc">Not helpful in a watered-down, hedge-everything way</div>
+    </div>
+    <div class="value-card" onclick="showValue('honest')">
+      <div class="v-icon">🪞</div>
+      <div class="v-title">Honest</div>
+      <div class="v-desc">Won't say what you want to hear if it isn't true</div>
+    </div>
+    <div class="value-card" onclick="showValue('harmless')">
+      <div class="v-icon">🛡️</div>
+      <div class="v-title">Avoids Harm</div>
+      <div class="v-desc">Considers impact on you, third parties, and society</div>
+    </div>
+    <div class="value-card" onclick="showValue('curious')">
+      <div class="v-icon">🔭</div>
+      <div class="v-title">Intellectually Curious</div>
+      <div class="v-desc">Genuinely interested in ideas across every field</div>
+    </div>
+    <div class="value-card" onclick="showValue('direct')">
+      <div class="v-icon">🎯</div>
+      <div class="v-title">Direct</div>
+      <div class="v-desc">Gives real answers, not endless qualifications</div>
+    </div>
+    <div class="value-card" onclick="showValue('calibrated')">
+      <div class="v-icon">⚖️</div>
+      <div class="v-title">Calibrated</div>
+      <div class="v-desc">Says "I'm not sure" when it isn't — doesn't fake confidence</div>
+    </div>
+  </div>
+  <div class="value-detail" id="value-detail"></div>
+
+  <!-- COMPARE TABLE -->
+  <p class="section-title">Claude vs. a Generic LLM</p>
+  <div class="compare-box">
+    <h3 style="font-size:1rem;margin-bottom:4px;">What makes Claude different</h3>
+    <table>
+      <tr><th>Aspect</th><th>Generic LLM</th><th>Claude</th></tr>
+      <tr><td>Trained on values?</td><td><span class="cross">✗</span> Mostly pattern only</td><td><span class="check">✓</span> Constitutional AI training</td></tr>
+      <tr><td>Pushes back on harmful requests?</td><td>Sometimes, inconsistently</td><td><span class="check">✓</span> Consistently, with explanation</td></tr>
+      <tr><td>Has a stable personality?</td><td>Varies by prompt</td><td><span class="check">✓</span> Consistent character traits</td></tr>
+      <tr><td>Admits uncertainty?</td><td>Often overconfident</td><td><span class="check">✓</span> Flags when it's unsure</td></tr>
+      <tr><td>Offers alternatives when declining?</td><td>Rarely</td><td><span class="check">✓</span> Usually redirects helpfully</td></tr>
+    </table>
+  </div>
+
+  <!-- KEY FACTS -->
+  <p class="section-title">Key Facts</p>
+  <div class="key-facts">
+    <h3>What to remember about Claude's identity</h3>
+    <ul class="fact-list">
+      <li>Claude was made by <strong>Anthropic</strong> — a safety-focused AI company founded in 2021</li>
+      <li><strong>Constitutional AI</strong> = Claude was trained against a written set of principles, not just human feedback</li>
+      <li>Claude's values (honest, helpful, harmless) are character traits — not just rules it follows</li>
+      <li>When Claude declines, it almost always explains why and offers an alternative — it's not just saying "no"</li>
+      <li>Claude's personality stays consistent regardless of the platform or app you use it on</li>
+    </ul>
+  </div>
+
+  <!-- QUIZ -->
+  <p class="section-title">Quick Check</p>
+  <div class="quiz-box">
+    <h3>🧠 What is "Constitutional AI"?</h3>
+    <div class="quiz-options">
+      <button class="quiz-btn" onclick="answer6(this,false)">A) A law that governments use to regulate AI systems</button>
+      <button class="quiz-btn" onclick="answer6(this,true)">B) A training approach where Claude was taught to evaluate its own responses against a set of written principles</button>
+      <button class="quiz-btn" onclick="answer6(this,false)">C) A type of hardware that makes Claude run faster</button>
+      <button class="quiz-btn" onclick="answer6(this,false)">D) A filter that blocks bad words after Claude generates a response</button>
+    </div>
+    <div class="quiz-feedback" id="qf6"></div>
+  </div>
+
+  <div class="next-bar">
+    <a href="index.html" class="btn secondary">← Home</a>
+    <a href="module_07_prompting_claude.html" class="btn">Next: Prompting Claude →</a>
+  </div>
+
+</div>
+
+<script>
+const VALUE_DETAILS = {
+  helpful: "🤝 <strong>Genuinely Helpful</strong>: Anthropic designed Claude to be the equivalent of a brilliant friend who gives you real information — not overly cautious, hedge-everything advice. If your friend were a doctor, they'd tell you what they actually think, not just say 'see a professional'.",
+  honest:  "🪞 <strong>Honest</strong>: Claude won't tell you what you want to hear if it isn't true. If your business plan has a flaw, it'll say so — diplomatically, but directly. It also won't pretend to be human or claim certainty it doesn't have.",
+  harmless:"🛡️ <strong>Avoids Harm</strong>: Claude considers not just you, but third parties and society. It won't help you do something that could harm others, even if you frame it as a hypothetical or creative exercise.",
+  curious: "🔭 <strong>Intellectually Curious</strong>: Claude genuinely finds ideas fascinating — from quantum physics to medieval history to startup strategy. This isn't performance; it shapes the quality and depth of its answers.",
+  direct:  "🎯 <strong>Direct</strong>: Claude gives you a real answer. It doesn't bury the point in qualifications or dodge questions. If you ask its opinion, it gives one — with the reasoning behind it.",
+  calibrated: "⚖️ <strong>Calibrated</strong>: Claude adjusts its confidence to match its actual certainty. You'll notice it says 'I think', 'I'm not sure', or 'you should verify this' when appropriate — instead of pretending to know everything.",
+};
+function showValue(key) {
+  const d = document.getElementById('value-detail');
+  d.innerHTML = VALUE_DETAILS[key];
+  d.className = 'value-detail show';
+}
+function answer6(btn, correct) {
+  document.querySelectorAll('.quiz-btn').forEach(b => b.disabled = true);
+  const fb = document.getElementById('qf6');
+  if (correct) {
+    btn.classList.add('correct');
+    fb.className = 'quiz-feedback show correct';
+    fb.innerHTML = '✅ Exactly! Constitutional AI means Claude was trained to self-evaluate against a set of written principles — not just copy human feedback. It learned to ask itself: "Is this honest? Is this helpful? Could this cause harm?"';
+  } else {
+    btn.classList.add('wrong');
+    fb.className = 'quiz-feedback show wrong';
+    fb.innerHTML = '💡 The answer is B. Constitutional AI is Anthropic's training method — Claude was given a written "constitution" of principles and trained to evaluate its own outputs against them. It's a training technique, not a law or hardware feature.';
+  }
+}
+</script>
+</body>
+</html>
