@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Module 13 — What is Codex and the API?</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', sans-serif; background: #0d1117; color: #e2e8f0; min-height: 100vh; }
+
+  .hero {
+    background: linear-gradient(135deg, #1a1a2e 0%, #0f3460 60%, #533483 100%);
+    padding: 52px 24px 40px; text-align: center; position: relative; overflow: hidden;
+  }
+  .hero::before {
+    content: ''; position: absolute; top: -40%; left: -40%; width: 180%; height: 180%;
+    background: radial-gradient(ellipse, rgba(147,112,219,0.1) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .module-badge { display: inline-block; background: rgba(147,112,219,0.2); color: #b794f4; border: 1px solid rgba(147,112,219,0.4); padding: 5px 16px; border-radius: 20px; font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 18px; }
+  .hero h1 { font-size: 2.2rem; font-weight: 800; line-height: 1.2; margin-bottom: 10px; }
+  .hero h1 span { color: #b794f4; }
+  .hero-meta { font-size: 0.82rem; opacity: 0.6; margin-bottom: 16px; }
+  .hero p { font-size: 1rem; opacity: 0.8; max-width: 560px; margin: 0 auto; line-height: 1.6; }
+
+  .nav-breadcrumb { text-align: center; padding: 14px 20px; font-size: 0.78rem; color: #4a5568; border-bottom: 1px solid #1e2736; }
+  .nav-breadcrumb a { color: #63b3ed; text-decoration: none; }
+  .nav-breadcrumb a:hover { text-decoration: underline; }
+
+  .container { max-width: 800px; margin: 0 auto; padding: 40px 20px 80px; }
+  .section-label { font-size: 0.7rem; font-weight: 700; color: #b794f4; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 16px; margin-top: 36px; }
+
+  /* COMIC */
+  .comic-strip { display: flex; flex-direction: column; gap: 0; border-radius: 16px; overflow: hidden; border: 2px solid #2d3748; margin-bottom: 8px; }
+  .comic-panel { display: flex; min-height: 155px; border-bottom: 2px solid #2d3748; }
+  .comic-panel:last-child { border-bottom: none; }
+  .panel-scene { flex: 0 0 200px; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px 12px; font-size: 3.4rem; position: relative; }
+  .panel-dialogue { flex: 1; padding: 22px 26px; display: flex; flex-direction: column; justify-content: center; }
+  .panel-num { position: absolute; top: 9px; left: 11px; font-size: 0.62rem; font-weight: 700; color: rgba(255,255,255,0.28); letter-spacing: 1px; }
+  .speech-bubble { background: white; color: #1a1a2e; border-radius: 12px; padding: 10px 14px; font-size: 0.84rem; line-height: 1.5; margin-bottom: 10px; font-weight: 500; }
+  .speech-bubble.thought { background: #ede8ff; font-style: italic; }
+  .caption { font-size: 0.77rem; color: #a0aec0; line-height: 1.5; font-style: italic; }
+
+  /* ANALOGY */
+  .analogy-card { background: #161b27; border: 1px solid #2d3748; border-radius: 14px; padding: 26px; margin-bottom: 8px; border-left: 4px solid #b794f4; }
+  .analogy-card h3 { font-size: 0.95rem; color: #b794f4; margin-bottom: 14px; }
+  .analogy-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .analogy-item { background: rgba(255,255,255,0.04); border-radius: 10px; padding: 13px; }
+  .a-label { font-size: 0.68rem; font-weight: 700; color: #718096; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 5px; }
+  .a-real { font-size: 0.87rem; font-weight: 700; color: #d6bcfa; margin-bottom: 4px; }
+  .a-analogy { font-size: 0.79rem; color: #a0aec0; line-height: 1.4; }
+
+  /* CONCEPT MAP */
+  .concept-map { background: #161b27; border: 1px solid #2d3748; border-radius: 14px; padding: 26px; margin-bottom: 8px; }
+  .concept-map h3 { font-size: 0.95rem; margin-bottom: 18px; text-align: center; }
+  .map-center { text-align: center; margin-bottom: 18px; }
+  .map-node { display: inline-block; background: linear-gradient(135deg, #553c9a, #b794f4); color: white; padding: 13px 26px; border-radius: 30px; font-weight: 800; font-size: 1.05rem; box-shadow: 0 4px 20px rgba(183,148,244,0.35); }
+  .map-spokes { display: grid; grid-template-columns: 1fr 1fr; gap: 11px; }
+  .spoke { background: rgba(255,255,255,0.04); border: 1px solid #2d3748; border-radius: 10px; padding: 13px; }
+  .spoke-icon { font-size: 1.5rem; margin-bottom: 5px; }
+  .spoke-title { font-size: 0.83rem; font-weight: 700; margin-bottom: 4px; color: #d6bcfa; }
+  .spoke-desc { font-size: 0.77rem; color: #a0aec0; line-height: 1.4; }
+
+  /* FLOW */
+  .api-flow { background: #161b27; border: 1px solid #2d3748; border-radius: 14px; padding: 26px; margin-bottom: 8px; }
+  .api-flow h3 { font-size: 0.95rem; margin-bottom: 18px; }
+  .flow-steps { display: flex; align-items: stretch; gap: 5px; flex-wrap: nowrap; }
+  .flow-box { background: rgba(255,255,255,0.05); border: 1px solid #2d3748; border-radius: 9px; padding: 11px 10px; text-align: center; flex: 1; min-width: 0; }
+  .f-icon { font-size: 1.5rem; margin-bottom: 5px; }
+  .f-label { font-size: 0.68rem; font-weight: 700; color: #b794f4; margin-bottom: 2px; }
+  .f-desc { font-size: 0.65rem; color: #718096; line-height: 1.3; }
+  .flow-arrow { font-size: 1.2rem; color: #4a5568; flex-shrink: 0; display: flex; align-items: center; }
+
+  /* TABLE */
+  .compare-table { background: #161b27; border: 1px solid #2d3748; border-radius: 14px; overflow: hidden; margin-bottom: 8px; }
+  .compare-table table { width: 100%; border-collapse: collapse; }
+  .compare-table th { background: rgba(183,148,244,0.12); padding: 11px 14px; text-align: left; font-size: 0.76rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #b794f4; border-bottom: 1px solid #2d3748; }
+  .compare-table td { padding: 11px 14px; font-size: 0.82rem; border-bottom: 1px solid #1e2736; color: #a0aec0; vertical-align: top; line-height: 1.5; }
+  .compare-table tr:last-child td { border-bottom: none; }
+  .compare-table td:first-child { font-weight: 600; color: #e2e8f0; }
+
+  /* QUIZ */
+  .quiz-section { background: #161b27; border: 1px solid #2d3748; border-radius: 14px; padding: 26px; margin-bottom: 8px; }
+  .quiz-section h3 { font-size: 0.95rem; margin-bottom: 18px; }
+  .quiz-q { margin-bottom: 20px; }
+  .quiz-q p { font-size: 0.88rem; font-weight: 600; margin-bottom: 10px; line-height: 1.4; }
+  .quiz-opts { display: flex; flex-direction: column; gap: 7px; }
+  .quiz-opt { background: rgba(255,255,255,0.05); border: 1px solid #2d3748; border-radius: 8px; padding: 10px 14px; font-size: 0.82rem; cursor: pointer; transition: all 0.2s; text-align: left; color: #e2e8f0; }
+  .quiz-opt:hover:not(:disabled) { border-color: #b794f4; background: rgba(183,148,244,0.08); }
+  .quiz-opt.correct { background: rgba(72,187,120,0.15); border-color: #48bb78; color: #68d391; }
+  .quiz-opt.wrong   { background: rgba(252,129,129,0.1); border-color: #fc8181; color: #fc8181; }
+  .quiz-feedback { font-size: 0.77rem; margin-top: 8px; line-height: 1.4; padding: 8px 12px; border-radius: 6px; display: none; }
+  .quiz-feedback.show { display: block; }
+  .quiz-feedback.good { background: rgba(72,187,120,0.1); color: #68d391; }
+  .quiz-feedback.bad  { background: rgba(252,129,129,0.1); color: #fc8181; }
+
+  /* NAV */
+  .module-nav { display: flex; gap: 12px; margin-top: 40px; }
+  .nav-btn { flex: 1; padding: 13px 18px; border-radius: 10px; text-align: center; text-decoration: none; font-weight: 700; font-size: 0.87rem; transition: all 0.2s; }
+  .nav-prev { background: rgba(255,255,255,0.06); color: #a0aec0; border: 1px solid #2d3748; }
+  .nav-prev:hover { background: rgba(255,255,255,0.1); color: #e2e8f0; }
+  .nav-next { background: #b794f4; color: #1a1a2e; }
+  .nav-next:hover { background: #d6bcfa; transform: translateY(-1px); }
+
+  @media (max-width: 600px) {
+    .hero h1 { font-size: 1.7rem; }
+    .analogy-grid, .map-spokes { grid-template-columns: 1fr; }
+    .flow-steps { flex-direction: column; }
+    .flow-arrow { transform: rotate(90deg); align-self: center; }
+    .panel-scene { flex: 0 0 80px; font-size: 2.2rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav-breadcrumb">
+  <a href="index.html">← Hub</a> · Phase 3 · <strong>Module 13 — What is Codex and the API?</strong>
+</nav>
+
+<div class="hero">
+  <div class="module-badge">Module 13 · Phase 3 · ~5 min</div>
+  <h1>What is <span>Codex</span> and the API?</h1>
+  <div class="hero-meta">🌐 ~5 min · Comic + Concept Map · Quiz included</div>
+  <p>Think of the API as a <strong>Translator Booth</strong> — it lets any app whisper to an AI and get a smart answer back. No coding experience needed to understand it.</p>
+</div>
+
+<div class="container">
+
+  <p class="section-label">🎭 The Story — The Translator Booth</p>
+  <div class="comic-strip">
+
+    <div class="comic-panel" style="background:#12182b;">
+      <div class="panel-scene" style="background:rgba(147,112,219,0.08);">
+        <div class="panel-num">PANEL 1</div>
+        🏢
+      </div>
+      <div class="panel-dialogue">
+        <div class="speech-bubble">Imagine a huge office building. Inside is a genius translator who can read and write in every language — English, code, JSON, Python, anything.</div>
+        <div class="caption">This translator is the AI model. But most apps can't walk inside and talk to her directly.</div>
+      </div>
+    </div>
+
+    <div class="comic-panel" style="background:#0f1520;">
+      <div class="panel-scene" style="background:rgba(99,179,237,0.07);">
+        <div class="panel-num">PANEL 2</div>
+        📞
+      </div>
+      <div class="panel-dialogue">
+        <div class="speech-bubble">So the building has a <strong>Translator Booth</strong> at the front desk — a standardised window where anyone can pass a note in, and get a reply back out.</div>
+        <div class="caption">That booth is the <strong>API</strong> (Application Programming Interface). A formal way for apps to send requests and receive responses.</div>
+      </div>
+    </div>
+
+    <div class="comic-panel" style="background:#12182b;">
+      <div class="panel-scene" style="background:rgba(72,187,120,0.07);">
+        <div class="panel-num">PANEL 3</div>
+        🧩
+      </div>
+      <div class="panel-dialogue">
+        <div class="speech-bubble">OpenAI built special translators trained specifically on <em>code</em>. They called this family of code-specialist models <strong>Codex</strong>.</div>
+        <div class="caption">Codex is an AI model series optimised for code. It powers things like GitHub Copilot.</div>
+      </div>
+    </div>
+
+    <div class="comic-panel" style="background:#0f1520;">
+      <div class="panel-scene" style="background:rgba(246,173,85,0.07);">
+        <div class="panel-num">PANEL 4</div>
+        🔌
+      </div>
+      <div class="panel-dialogue">
+        <div class="speech-bubble">Any app — a website, a phone app, a VS Code plugin — can call the Translator Booth (API), say "I need code help," and the Codex model replies with real, working code.</div>
+        <div class="caption">The app doesn't need to know how the AI works inside. It just uses the window.</div>
+      </div>
+    </div>
+
+    <div class="comic-panel" style="background:#12182b;">
+      <div class="panel-scene" style="background:rgba(183,148,244,0.08);">
+        <div class="panel-num">PANEL 5</div>
+        🎯
+      </div>
+      <div class="panel-dialogue">
+        <div class="speech-bubble thought">So when I use GitHub Copilot to autocomplete my code… it's secretly passing my code through the Translator Booth to Codex, getting a suggestion back, and showing it to me?</div>
+        <div class="caption">Exactly. The API is invisible to you — but it's the pipe making everything smart.</div>
+      </div>
+    </div>
+
+  </div>
+
+  <p class="section-label">🔁 The Analogy Map</p>
+  <div class="analogy-card">
+    <h3>Translator Booth = API &nbsp;·&nbsp; Code Specialist = Codex</h3>
+    <div class="analogy-grid">
+      <div class="analogy-item">
+        <div class="a-label">Real World</div>
+        <div class="a-real">API</div>
+        <div class="a-analogy">The Translator Booth — the standardised window any app uses to talk to an AI model.</div>
+      </div>
+      <div class="analogy-item">
+        <div class="a-label">Real World</div>
+        <div class="a-real">Codex</div>
+        <div class="a-analogy">The code-specialist translator inside the booth — trained on billions of lines of code.</div>
+      </div>
+      <div class="analogy-item">
+        <div class="a-label">Real World</div>
+        <div class="a-real">API request</div>
+        <div class="a-analogy">Sliding your note through the window — your app's question or code snippet.</div>
+      </div>
+      <div class="analogy-item">
+        <div class="a-label">Real World</div>
+        <div class="a-real">API response</div>
+        <div class="a-analogy">The reply that comes back — code, explanation, or a completed function.</div>
+      </div>
+      <div class="analogy-item">
+        <div class="a-label">Real World</div>
+        <div class="a-real">GitHub Copilot</div>
+        <div class="a-analogy">An app that uses the Translator Booth 100+ times per hour, invisibly, as you type.</div>
+      </div>
+      <div class="analogy-item">
+        <div class="a-label">Real World</div>
+        <div class="a-real">API key</div>
+        <div class="a-analogy">Your membership card — proves you're allowed to use the booth and tracks your usage.</div>
+      </div>
+    </div>
+  </div>
+
+  <p class="section-label">🗺 Concept Map — How It All Connects</p>
+  <div class="concept-map">
+    <h3>The Codex + API Ecosystem</h3>
+    <div class="map-center">
+      <div class="map-node">OpenAI API</div>
+    </div>
+    <div class="map-spokes">
+      <div class="spoke">
+        <div class="spoke-icon">🧠</div>
+        <div class="spoke-title">Models inside</div>
+        <div class="spoke-desc">GPT-4 (text), Codex (code), DALL·E (images). You pick which model to call through the same API booth.</div>
+      </div>
+      <div class="spoke">
+        <div class="spoke-icon">🔑</div>
+        <div class="spoke-title">API Key</div>
+        <div class="spoke-desc">A secret password developers use. Identifies who's asking and tracks billing. Never share it publicly.</div>
+      </div>
+      <div class="spoke">
+        <div class="spoke-icon">📦</div>
+        <div class="spoke-title">Request & Response</div>
+        <div class="spoke-desc">You send: model name + your message. You receive: the AI's text or code reply, structured as JSON.</div>
+      </div>
+      <div class="spoke">
+        <div class="spoke-icon">💳</div>
+        <div class="spoke-title">Pay-per-use</div>
+        <div class="spoke-desc">You pay per token (word-chunk) sent and received. No big subscription needed — pay as you go.</div>
+      </div>
+    </div>
+  </div>
+
+  <p class="section-label">⚡ How an API Call Works — Step by Step</p>
+  <div class="api-flow">
+    <h3>The Journey of One Request (e.g. GitHub Copilot)</h3>
+    <div class="flow-steps">
+      <div class="flow-box">
+        <div class="f-icon">✍️</div>
+        <div class="f-label">You type code</div>
+        <div class="f-desc">In VS Code or any editor</div>
+      </div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-box">
+        <div class="f-icon">📤</div>
+        <div class="f-label">App sends request</div>
+        <div class="f-desc">Code + API key → OpenAI</div>
+      </div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-box">
+        <div class="f-icon">🧠</div>
+        <div class="f-label">Model processes</div>
+        <div class="f-desc">Codex predicts next tokens</div>
+      </div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-box">
+        <div class="f-icon">📥</div>
+        <div class="f-label">Response arrives</div>
+        <div class="f-desc">JSON with completion text</div>
+      </div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-box">
+        <div class="f-icon">💡</div>
+        <div class="f-label">Suggestion shown</div>
+        <div class="f-desc">Copilot shows code in grey</div>
+      </div>
+    </div>
+    <p style="margin-top:14px;font-size:0.76rem;color:#718096;text-align:center;">This round trip takes &lt;1 second. Happens every time you pause typing for ~500ms.</p>
+  </div>
+
+  <p class="section-label">📊 Codex vs GPT vs Claude — Quick Comparison</p>
+  <div class="compare-table">
+    <table>
+      <tr>
+        <th>Aspect</th><th>Codex</th><th>GPT-4 / ChatGPT</th><th>Claude</th>
+      </tr>
+      <tr>
+        <td>Primary strength</td><td>Code generation &amp; completion</td><td>General text + reasoning</td><td>Long docs + safe reasoning</td>
+      </tr>
+      <tr>
+        <td>Who built it</td><td>OpenAI</td><td>OpenAI</td><td>Anthropic</td>
+      </tr>
+      <tr>
+        <td>How you use it</td><td>Via API (devs only)</td><td>ChatGPT.com or API</td><td>Claude.ai or API</td>
+      </tr>
+      <tr>
+        <td>Trained on</td><td>Code + text (heavy code bias)</td><td>Text + code + web</td><td>Text + documents + code</td>
+      </tr>
+      <tr>
+        <td>Known for powering</td><td>GitHub Copilot, Cursor IDE</td><td>ChatGPT, Bing Chat</td><td>Claude.ai, MorphMind, many apps</td>
+      </tr>
+      <tr>
+        <td>Non-coder access</td><td>Indirect (via tools like Copilot)</td><td>Direct (just chat)</td><td>Direct (just chat)</td>
+      </tr>
+    </table>
+  </div>
+
+  <p class="section-label">🧠 Quick Quiz</p>
+  <div class="quiz-section">
+    <h3>Check your understanding</h3>
+
+    <div class="quiz-q" id="q1">
+      <p>1. What does the "Translator Booth" represent in our analogy?</p>
+      <div class="quiz-opts">
+        <button class="quiz-opt" onclick="answer('q1',this,false,'The AI model is inside the building — the booth is the access window, not the AI itself.')">The AI model doing the thinking</button>
+        <button class="quiz-opt" onclick="answer('q1',this,true,'Correct! The API is the standardised interface — the window apps use to send requests and get responses without knowing what\'s inside.')">The API — the standardised interface apps use to communicate with AI</button>
+        <button class="quiz-opt" onclick="answer('q1',this,false,'The API key is your membership card — it proves identity and tracks usage, but isn\'t the booth itself.')">The API key that identifies the developer</button>
+      </div>
+      <div class="quiz-feedback" id="q1-fb"></div>
+    </div>
+
+    <div class="quiz-q" id="q2">
+      <p>2. What makes Codex different from GPT-4?</p>
+      <div class="quiz-opts">
+        <button class="quiz-opt" onclick="answer('q2',this,false,'Both are made by OpenAI — that\'s not the distinction.')">Codex is made by Anthropic; GPT-4 by OpenAI</button>
+        <button class="quiz-opt" onclick="answer('q2',this,false,'Both use the same API. The difference is the specialist inside, not the booth.')">Codex uses a different API booth</button>
+        <button class="quiz-opt" onclick="answer('q2',this,true,'Exactly! Codex is specifically trained and optimised for code — it\'s the code-specialist translator, while GPT-4 is a general-purpose text and reasoning model.')">Codex is specifically trained for code; GPT-4 is general text + reasoning</button>
+      </div>
+      <div class="quiz-feedback" id="q2-fb"></div>
+    </div>
+
+    <div class="quiz-q" id="q3">
+      <p>3. When you use GitHub Copilot, what is happening behind the scenes?</p>
+      <div class="quiz-opts">
+        <button class="quiz-opt" onclick="answer('q3',this,false,'Copilot runs on remote OpenAI servers — there\'s no local model on your machine.')">A local model on your computer generates suggestions</button>
+        <button class="quiz-opt" onclick="answer('q3',this,true,'Spot on! Every suggestion Copilot shows you came from an API call to a Codex model — your code went out, a completion came back, all in under a second.')">Copilot sends your code via API to Codex, which returns a completion</button>
+        <button class="quiz-opt" onclick="answer('q3',this,false,'Copilot uses the OpenAI API — GitHub provides the IDE plugin, not the AI model.')">GitHub\'s own AI runs the code completion without any external API</button>
+      </div>
+      <div class="quiz-feedback" id="q3-fb"></div>
+    </div>
+  </div>
+
+  <div class="module-nav">
+    <a href="module_12_chatgpt_features.html" class="nav-btn nav-prev">← Module 12: ChatGPT Features</a>
+    <a href="module_14_chatgpt_vs_claude.html" class="nav-btn nav-next">Module 14: ChatGPT vs Claude →</a>
+  </div>
+
+</div>
+
+<script>
+function answer(qid, btn, correct, feedback) {
+  const q = document.getElementById(qid);
+  if (q.dataset.answered) return;
+  q.dataset.answered = '1';
+  q.querySelectorAll('.quiz-opt').forEach(b => b.disabled = true);
+  btn.classList.add(correct ? 'correct' : 'wrong');
+  const fb = document.getElementById(qid + '-fb');
+  fb.textContent = feedback;
+  fb.className = 'quiz-feedback show ' + (correct ? 'good' : 'bad');
+  if (!correct) {
+    q.querySelectorAll('.quiz-opt').forEach(b => {
+      if (b.onclick && b.onclick.toString().includes(',true,')) b.classList.add('correct');
+    });
+  }
+}
+</script>
+</body>
+</html>
