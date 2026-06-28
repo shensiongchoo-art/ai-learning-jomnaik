@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Module 4 — Temperature</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', sans-serif; background: #f0f4ff; color: #1a1a2e; }
+
+  .nav-bar { background: #16213e; padding: 10px 24px; display: flex; justify-content: space-between; align-items: center; }
+  .nav-bar a { color: #a0aec0; text-decoration: none; font-size: 0.9rem; }
+  .nav-bar a:hover { color: white; }
+  .progress-dots { display: flex; gap: 8px; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; background: #2d3a5e; }
+  .dot.active { background: #e94560; }
+  .dot.done   { background: #48bb78; }
+
+  .hero {
+    background: linear-gradient(135deg, #7b2d00 0%, #c05621 100%);
+    color: white; text-align: center; padding: 48px 24px 32px;
+  }
+  .hero .badge {
+    background: #fbd38d; color: #7b2d00; font-size: 12px; font-weight: 700;
+    padding: 4px 12px; border-radius: 20px; letter-spacing: 1px;
+    display: inline-block; margin-bottom: 16px; text-transform: uppercase;
+  }
+  .hero h1 { font-size: 2rem; margin-bottom: 10px; }
+  .hero p { font-size: 1.05rem; opacity: 0.9; max-width: 520px; margin: 0 auto; }
+
+  .container { max-width: 760px; margin: 0 auto; padding: 32px 20px 60px; }
+
+  .section-title {
+    font-size: 0.75rem; font-weight: 700; color: #e94560;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    margin-bottom: 12px; margin-top: 36px;
+  }
+
+  /* PANELS */
+  .panel { background: white; border: 3px solid #1a1a2e; border-radius: 12px; overflow: hidden; box-shadow: 6px 6px 0 #1a1a2e; margin-bottom: 24px; }
+  .panel-header { background: #1a1a2e; color: white; font-size: 11px; font-weight: 700; padding: 5px 12px; text-transform: uppercase; letter-spacing: 1px; }
+  .panel-body { display: flex; min-height: 140px; }
+  .scene { width: 160px; min-width: 160px; background: #fff8f0; border-right: 3px solid #1a1a2e; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 16px 12px; gap: 8px; }
+  .char { font-size: 3rem; line-height: 1; }
+  .char-label { font-size: 11px; font-weight: 700; color: #666; text-transform: uppercase; text-align: center; }
+  .speech-area { flex: 1; padding: 20px; display: flex; flex-direction: column; gap: 10px; }
+  .bubble { background: #f0f4ff; border: 2px solid #c3cef6; border-radius: 12px; padding: 12px 16px; font-size: 0.9rem; line-height: 1.5; }
+  .bubble.narrator { background: #fff8e1; border-color: #ffe082; font-style: italic; font-size: 0.86rem; color: #555; }
+  .tag { display: inline-block; background: #e94560; color: white; font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 4px; margin-top: 6px; }
+  .tag.warm { background: #dd6b20; }
+  .tag.cool { background: #3182ce; }
+  .tag.hot  { background: #c53030; }
+
+  /* SLIDER DEMO */
+  .slider-demo {
+    background: white; border: 3px solid #1a1a2e; border-radius: 12px;
+    padding: 28px; box-shadow: 6px 6px 0 #1a1a2e;
+  }
+  .slider-demo h3 { font-size: 1rem; margin-bottom: 6px; }
+  .slider-demo p  { font-size: 0.85rem; color: #555; margin-bottom: 24px; }
+
+  .slider-row { display: flex; align-items: center; gap: 16px; margin-bottom: 8px; }
+  .slider-label-left  { font-size: 0.8rem; color: #3182ce; font-weight: 700; min-width: 80px; }
+  .slider-label-right { font-size: 0.8rem; color: #c53030; font-weight: 700; min-width: 80px; text-align: right; }
+
+  input[type=range] {
+    flex: 1; height: 8px; border-radius: 4px; outline: none; cursor: pointer;
+    -webkit-appearance: none;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none; width: 24px; height: 24px;
+    border-radius: 50%; border: 3px solid #1a1a2e; cursor: pointer;
+    background: white; box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+
+  .temp-display {
+    text-align: center; margin-bottom: 20px;
+  }
+  .temp-value { font-size: 2.5rem; font-weight: 700; }
+  .temp-label { font-size: 0.9rem; color: #666; margin-top: 4px; }
+  .temp-emoji { font-size: 1.8rem; }
+
+  .prompt-display {
+    background: #f7f9ff; border: 2px solid #c3cef6; border-radius: 8px;
+    padding: 14px 16px; font-size: 0.88rem; color: #444; margin-bottom: 16px;
+  }
+  .prompt-display strong { color: #1a1a2e; }
+
+  .response-box {
+    background: #f0fff4; border: 2px solid #9ae6b4; border-radius: 8px;
+    padding: 16px; font-size: 0.9rem; line-height: 1.6; min-height: 80px;
+    transition: all 0.3s;
+  }
+  .response-label { font-size: 11px; font-weight: 700; color: #276749; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+
+  /* SCALE */
+  .scale-box {
+    background: white; border: 3px solid #1a1a2e; border-radius: 12px;
+    padding: 24px; box-shadow: 6px 6px 0 #1a1a2e;
+  }
+  .scale-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 16px; }
+  .scale-item {
+    text-align: center; padding: 16px 12px; border-radius: 10px;
+    border: 2px solid; cursor: pointer; transition: transform 0.15s;
+  }
+  .scale-item:hover { transform: translateY(-2px); }
+  .scale-item.cool-item  { background: #ebf8ff; border-color: #63b3ed; }
+  .scale-item.mid-item   { background: #fffaf0; border-color: #f6ad55; }
+  .scale-item.hot-item   { background: #fff5f5; border-color: #fc8181; }
+  .scale-item .s-icon    { font-size: 2rem; margin-bottom: 8px; }
+  .scale-item .s-temp    { font-size: 0.8rem; font-weight: 700; margin-bottom: 6px; }
+  .scale-item .s-label   { font-size: 0.75rem; color: #666; }
+  .scale-item .s-uses    { font-size: 0.72rem; margin-top: 8px; color: #888; font-style: italic; }
+
+  /* KEY FACTS */
+  .key-facts { background: #1a1a2e; color: white; border-radius: 12px; padding: 24px; }
+  .key-facts h3 { color: #fbd38d; margin-bottom: 16px; font-size: 1rem; }
+  .fact-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  .fact-list li { display: flex; align-items: flex-start; gap: 10px; font-size: 0.9rem; line-height: 1.5; }
+  .fact-list li::before { content: "🔥"; flex-shrink: 0; }
+
+  /* QUIZ */
+  .quiz-box { background: white; border: 3px solid #1a1a2e; border-radius: 12px; padding: 24px; box-shadow: 6px 6px 0 #1a1a2e; }
+  .quiz-options { display: flex; flex-direction: column; gap: 10px; margin-top: 14px; }
+  .quiz-btn { background: #f0f4ff; border: 2px solid #c3cef6; border-radius: 8px; padding: 12px 16px; text-align: left; font-size: 0.9rem; cursor: pointer; transition: all 0.2s; font-family: inherit; }
+  .quiz-btn:hover { background: #e3f2fd; border-color: #90caf9; }
+  .quiz-btn.correct { background: #e8f5e9; border-color: #48bb78; color: #2d6a4f; }
+  .quiz-btn.wrong   { background: #ffebee; border-color: #ef9a9a; color: #b71c1c; }
+  .quiz-feedback { margin-top: 14px; padding: 12px; border-radius: 8px; font-size: 0.88rem; display: none; }
+  .quiz-feedback.show { display: block; }
+  .quiz-feedback.correct { background: #e8f5e9; color: #2d6a4f; border: 1px solid #a5d6a7; }
+  .quiz-feedback.wrong   { background: #fff8e1; color: #7b5e00; border: 1px solid #ffe082; }
+
+  .next-bar { display: flex; justify-content: space-between; align-items: center; margin-top: 36px; padding-top: 24px; border-top: 2px solid #e2e8f0; }
+  .btn { background: #e94560; color: white; border: none; border-radius: 8px; padding: 12px 24px; font-size: 0.95rem; font-weight: 700; cursor: pointer; text-decoration: none; display: inline-block; }
+  .btn:hover { background: #c73652; }
+  .btn.secondary { background: white; color: #1a1a2e; border: 2px solid #1a1a2e; }
+  .btn.secondary:hover { background: #f0f4ff; }
+</style>
+</head>
+<body>
+
+<div class="nav-bar">
+  <a href="index.html">← Back to Home</a>
+  <div class="progress-dots">
+    <div class="dot done"></div>
+    <div class="dot done"></div>
+    <div class="dot done"></div>
+    <div class="dot active"></div>
+    <div class="dot"></div>
+  </div>
+  <span style="color:#a0aec0;font-size:0.85rem;">4 / 5</span>
+</div>
+
+<div class="hero">
+  <div class="badge">Module 4</div>
+  <h1>Temperature — Dial Up the Creativity</h1>
+  <p>Why does the same question sometimes get a boring answer and sometimes a brilliant one? Meet Temperature.</p>
+</div>
+
+<div class="container">
+
+  <p class="section-title">The Analogy</p>
+
+  <div class="panel">
+    <div class="panel-header">Panel 1 — The Two Chefs</div>
+    <div class="panel-body">
+      <div class="scene">
+        <div class="char">👨‍🍳</div>
+        <div class="char-label">Two Chefs, Same Kitchen</div>
+      </div>
+      <div class="speech-area">
+        <div class="bubble narrator">
+          Imagine two chefs given the same task: "Make me something with chicken."
+        </div>
+        <div class="bubble" style="background:#ebf8ff;border-color:#63b3ed;">
+          <strong>Chef Predictable (Low Temperature):</strong><br>
+          "Certainly. I'll make roast chicken with potatoes and gravy. Classic, reliable, exactly what you'd expect."
+        </div>
+        <div class="bubble" style="background:#fff5f5;border-color:#fc8181;">
+          <strong>Chef Creative (High Temperature):</strong><br>
+          "Ooh! Spicy mango chicken tacos with a lime-coconut drizzle and candied chilli flakes on top — trust me!"
+        </div>
+        <span class="tag cool">Low temp = safe & predictable</span>
+        <span class="tag hot" style="margin-left:6px;">High temp = creative & surprising</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-header">Panel 2 — The Dial</div>
+    <div class="panel-body">
+      <div class="scene">
+        <div class="char">🎛️</div>
+        <div class="char-label">The Temperature Setting</div>
+      </div>
+      <div class="speech-area">
+        <div class="bubble narrator">
+          Temperature is a number, usually between 0 and 1 (sometimes up to 2).
+        </div>
+        <div class="bubble narrator">
+          At <strong>temperature = 0</strong>, the LLM always picks the most likely next word. Completely predictable.
+        </div>
+        <div class="bubble narrator">
+          At <strong>temperature = 1+</strong>, the LLM picks more randomly — it rolls the dice and chooses less expected words. More surprising, more creative, but also more likely to go off-track.
+        </div>
+        <span class="tag warm">Neither is better — it depends what you need</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- INTERACTIVE SLIDER -->
+  <p class="section-title">Try the Dial</p>
+  <div class="slider-demo">
+    <h3>🎛️ Temperature Explorer</h3>
+    <p>Drag the slider and see how the same prompt gets different responses at different temperature settings.</p>
+
+    <div class="temp-display">
+      <div class="temp-emoji" id="tempEmoji">🌡️</div>
+      <div class="temp-value" id="tempValue">0.5</div>
+      <div class="temp-label" id="tempLabel">Balanced</div>
+    </div>
+
+    <div class="slider-row">
+      <span class="slider-label-left">❄️ 0.0<br>Predictable</span>
+      <input type="range" id="tempSlider" min="0" max="20" value="10" oninput="updateTemp(this.value)">
+      <span class="slider-label-right">🔥 2.0<br>Wild</span>
+    </div>
+
+    <div class="prompt-display">
+      <strong>Prompt:</strong> "Write one sentence describing a sunset."
+    </div>
+
+    <div class="response-label">LLM's response at this temperature:</div>
+    <div class="response-box" id="responseBox"></div>
+  </div>
+
+  <!-- SCALE -->
+  <p class="section-title">When to Use What</p>
+  <div class="scale-box">
+    <h3 style="font-size:1rem;margin-bottom:4px;">Choosing the right temperature</h3>
+    <p style="font-size:0.85rem;color:#666;">Click each card to learn more</p>
+    <div class="scale-grid">
+      <div class="scale-item cool-item" onclick="showDetail('cold')">
+        <div class="s-icon">❄️</div>
+        <div class="s-temp" style="color:#2c5282;">0.0 – 0.3</div>
+        <div class="s-label"><strong>Precise & Safe</strong></div>
+        <div class="s-uses">Maths, code, facts, legal docs</div>
+      </div>
+      <div class="scale-item mid-item" onclick="showDetail('mid')">
+        <div class="s-icon">🌤️</div>
+        <div class="s-temp" style="color:#7b4f00;">0.4 – 0.7</div>
+        <div class="s-label"><strong>Balanced</strong></div>
+        <div class="s-uses">Emails, summaries, explanations</div>
+      </div>
+      <div class="scale-item hot-item" onclick="showDetail('hot')">
+        <div class="s-icon">🔥</div>
+        <div class="s-temp" style="color:#822727;">0.8 – 2.0</div>
+        <div class="s-label"><strong>Creative & Wild</strong></div>
+        <div class="s-uses">Stories, poems, brainstorming</div>
+      </div>
+    </div>
+    <div id="scaleDetail" style="margin-top:16px;padding:14px;background:#f7f9ff;border-radius:8px;font-size:0.88rem;display:none;"></div>
+  </div>
+
+  <!-- KEY FACTS -->
+  <p class="section-title">Key Facts</p>
+  <div class="key-facts">
+    <h3>What to remember about Temperature</h3>
+    <ul class="fact-list">
+      <li>Temperature controls how <strong>predictable vs. creative</strong> the LLM's output is</li>
+      <li>Low temperature = picks the safest, most expected word every time</li>
+      <li>High temperature = takes more risks, picks surprising words — great for creativity, risky for facts</li>
+      <li>Most LLM apps set a default temperature automatically — you often don't need to touch it</li>
+      <li>If the LLM gives boring, repetitive answers → try higher temperature. If it goes off-topic → lower it</li>
+    </ul>
+  </div>
+
+  <!-- QUIZ -->
+  <p class="section-title">Quick Check</p>
+  <div class="quiz-box">
+    <h3>🧠 You're using an LLM to double-check a legal contract. What temperature setting is best?</h3>
+    <div class="quiz-options">
+      <button class="quiz-btn" onclick="answer4(this, true)">A) Low temperature — you want precise, consistent, predictable output</button>
+      <button class="quiz-btn" onclick="answer4(this, false)">B) High temperature — more creative answers might spot problems</button>
+      <button class="quiz-btn" onclick="answer4(this, false)">C) It doesn't matter — temperature only affects length of response</button>
+      <button class="quiz-btn" onclick="answer4(this, false)">D) Maximum temperature — legal language needs maximum variation</button>
+    </div>
+    <div class="quiz-feedback" id="quiz-feedback4"></div>
+  </div>
+
+  <div class="next-bar">
+    <a href="module_03_context_window.html" class="btn secondary">← Module 3</a>
+    <a href="module_05_hallucination.html" class="btn">Next: Hallucination →</a>
+  </div>
+
+</div>
+
+<script>
+const RESPONSES = {
+  cold: [
+    "The sun set slowly below the horizon, casting long orange light across the sky.",
+    "The sky turned orange and red as the sun disappeared below the horizon.",
+    "The sunset painted the sky in shades of orange and pink.",
+  ],
+  mild: [
+    "As the sun dipped below the hills, the whole sky blushed from gold to deep violet.",
+    "The horizon burned with amber and rose as the last light of day melted away.",
+    "Golden light stretched across the clouds as evening swallowed the afternoon.",
+  ],
+  hot: [
+    "The sky split open like a ripe mango—screaming tangerine, bruised plum, and one ridiculous streak of neon pink no painter would dare invent.",
+    "Twilight arrived uninvited, smearing its garish watercolours across the clouds like a child who just discovered the orange crayon.",
+    "The sun, finally fed up with the whole day, collapsed into the sea in a blaze of furious crimson and left the clouds to clean up the mess.",
+  ]
+};
+
+function updateTemp(val) {
+  const temp = (val / 10).toFixed(1);
+  document.getElementById('tempValue').textContent = temp;
+  const slider = document.getElementById('tempSlider');
+
+  let category, label, emoji, color;
+  if (val <= 5) {
+    category = 'cold'; label = 'Precise & predictable'; emoji = '❄️';
+    color = 'linear-gradient(90deg, #bee3f8, #90cdf4)';
+  } else if (val <= 13) {
+    category = 'mild'; label = 'Balanced'; emoji = '🌤️';
+    color = 'linear-gradient(90deg, #fef3c7, #fbd38d)';
+  } else {
+    category = 'hot'; label = 'Creative & wild'; emoji = '🔥';
+    color = 'linear-gradient(90deg, #fed7d7, #fc8181)';
+  }
+
+  document.getElementById('tempLabel').textContent = label;
+  document.getElementById('tempEmoji').textContent = emoji;
+  slider.style.background = color;
+
+  const responses = RESPONSES[category];
+  const pick = responses[Math.floor(Math.random() * responses.length)];
+  const box = document.getElementById('responseBox');
+  box.textContent = pick;
+  if (category === 'cold') box.style.background = '#ebf8ff';
+  else if (category === 'mild') box.style.background = '#fffaf0';
+  else box.style.background = '#fff5f5';
+}
+
+const DETAILS = {
+  cold: '❄️ <strong>Low Temperature (0.0–0.3)</strong>: Perfect for tasks where accuracy matters more than creativity. Code, maths, medical info, legal checks — anywhere a wrong word is a real problem.',
+  mid:  '🌤️ <strong>Balanced (0.4–0.7)</strong>: The sweet spot for most everyday tasks. Emails, summaries, Q&A, explanations — reliable but not robotic.',
+  hot:  '🔥 <strong>High Temperature (0.8–2.0)</strong>: Unleash the creative chef. Brainstorming, poetry, storytelling, naming things — great for when you want surprises. Watch out: it may stray from facts.',
+};
+
+function showDetail(type) {
+  const d = document.getElementById('scaleDetail');
+  d.style.display = 'block';
+  d.innerHTML = DETAILS[type];
+}
+
+function answer4(btn, isCorrect) {
+  document.querySelectorAll('.quiz-btn').forEach(b => b.disabled = true);
+  const feedback = document.getElementById('quiz-feedback4');
+  if (isCorrect) {
+    btn.classList.add('correct');
+    feedback.className = 'quiz-feedback show correct';
+    feedback.innerHTML = '✅ Correct! For precise, high-stakes tasks like legal contracts, you want the LLM to be predictable and consistent — not improvising. Low temperature = follow the recipe exactly.';
+  } else {
+    btn.classList.add('wrong');
+    feedback.className = 'quiz-feedback show wrong';
+    feedback.innerHTML = '💡 The answer is A. Legal work needs precision, not creativity. High temperature would make the LLM take unpredictable word choices — risky when exact meaning matters. Low temperature = stick to the recipe.';
+  }
+}
+
+// Initialize
+updateTemp(10);
+</script>
+</body>
+</html>
