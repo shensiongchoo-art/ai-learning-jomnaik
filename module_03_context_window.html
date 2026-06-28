@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Module 3 — Context Window</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', sans-serif; background: #f0f4ff; color: #1a1a2e; }
+
+  .nav-bar {
+    background: #16213e; padding: 10px 24px; display: flex;
+    justify-content: space-between; align-items: center;
+  }
+  .nav-bar a { color: #a0aec0; text-decoration: none; font-size: 0.9rem; }
+  .nav-bar a:hover { color: white; }
+  .progress-dots { display: flex; gap: 8px; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; background: #2d3a5e; }
+  .dot.active { background: #e94560; }
+  .dot.done   { background: #48bb78; }
+
+  .hero {
+    background: linear-gradient(135deg, #1a1a2e 0%, #0f3460 100%);
+    color: white; text-align: center; padding: 48px 24px 32px;
+  }
+  .hero .badge {
+    background: #63b3ed; color: #1a1a2e; font-size: 12px; font-weight: 700;
+    padding: 4px 12px; border-radius: 20px; letter-spacing: 1px;
+    display: inline-block; margin-bottom: 16px; text-transform: uppercase;
+  }
+  .hero h1 { font-size: 2rem; margin-bottom: 10px; }
+  .hero p { font-size: 1.05rem; opacity: 0.8; max-width: 520px; margin: 0 auto; }
+
+  .container { max-width: 760px; margin: 0 auto; padding: 32px 20px 60px; }
+
+  .section-title {
+    font-size: 0.75rem; font-weight: 700; color: #e94560;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    margin-bottom: 12px; margin-top: 36px;
+  }
+
+  /* COMIC PANELS */
+  .panel {
+    background: white; border: 3px solid #1a1a2e; border-radius: 12px;
+    overflow: hidden; box-shadow: 6px 6px 0 #1a1a2e; margin-bottom: 24px;
+  }
+  .panel-header {
+    background: #1a1a2e; color: white; font-size: 11px; font-weight: 700;
+    padding: 5px 12px; text-transform: uppercase; letter-spacing: 1px;
+  }
+  .panel-body { display: flex; min-height: 160px; }
+  .scene {
+    width: 180px; min-width: 180px; background: #f7f9ff;
+    border-right: 3px solid #1a1a2e;
+    display: flex; flex-direction: column; align-items: center;
+    justify-content: center; padding: 20px 12px; gap: 8px;
+  }
+  .char { font-size: 3rem; line-height: 1; }
+  .char-label { font-size: 11px; font-weight: 700; color: #666; text-transform: uppercase; text-align: center; }
+  .speech-area { flex: 1; padding: 20px; display: flex; flex-direction: column; gap: 12px; }
+  .bubble {
+    background: #f0f4ff; border: 2px solid #c3cef6; border-radius: 12px;
+    padding: 12px 16px; font-size: 0.92rem; line-height: 1.5;
+  }
+  .bubble.narrator { background: #fff8e1; border-color: #ffe082; font-style: italic; font-size: 0.88rem; color: #555; }
+  .bubble.user     { background: #e8f5e9; border-color: #a5d6a7; }
+  .bubble.llm      { background: #e3f2fd; border-color: #90caf9; }
+  .bubble.warning  { background: #fff5f5; border-color: #fc8181; }
+  .speaker { font-size: 10px; font-weight: 700; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+  .tag { display: inline-block; background: #e94560; color: white; font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 4px; margin-top: 6px; }
+  .tag.blue { background: #3182ce; }
+  .tag.green { background: #38a169; }
+  .tag.orange { background: #dd6b20; }
+
+  /* TANK VISUALIZER */
+  .tank-demo {
+    background: white; border: 3px solid #1a1a2e; border-radius: 12px;
+    padding: 28px; box-shadow: 6px 6px 0 #1a1a2e;
+  }
+  .tank-demo h3 { font-size: 1rem; margin-bottom: 6px; }
+  .tank-demo p  { font-size: 0.85rem; color: #555; margin-bottom: 20px; }
+
+  .tank-wrap { position: relative; }
+  .tank-labels { display: flex; justify-content: space-between; font-size: 0.8rem; color: #666; margin-bottom: 6px; }
+  .tank-bar-bg {
+    height: 40px; background: #e2e8f0; border-radius: 8px;
+    overflow: hidden; border: 2px solid #a0aec0;
+  }
+  .tank-bar-fill {
+    height: 100%; border-radius: 6px; transition: width 0.5s;
+    display: flex; align-items: center; padding-left: 12px;
+    font-size: 0.8rem; font-weight: 700; color: white;
+  }
+  .tank-legend {
+    display: flex; gap: 16px; margin-top: 12px; flex-wrap: wrap;
+    font-size: 0.82rem;
+  }
+  .legend-item { display: flex; align-items: center; gap: 6px; }
+  .legend-dot { width: 12px; height: 12px; border-radius: 3px; }
+
+  .messages-list { margin-top: 20px; display: flex; flex-direction: column; gap: 8px; }
+  .msg-row {
+    display: flex; align-items: center; gap: 10px; padding: 8px 12px;
+    border-radius: 8px; font-size: 0.85rem; border: 1px solid;
+  }
+  .msg-row.in-window { background: #e8f5e9; border-color: #a5d6a7; }
+  .msg-row.forgotten { background: #f5f5f5; border-color: #e0e0e0; opacity: 0.5; text-decoration: line-through; }
+  .msg-icon { font-size: 1.2rem; }
+
+  .add-btn {
+    background: #1a1a2e; color: white; border: none; border-radius: 8px;
+    padding: 10px 20px; font-size: 0.9rem; font-weight: 700; cursor: pointer;
+    font-family: inherit; margin-top: 14px;
+  }
+  .add-btn:hover { background: #2d3a5e; }
+  .reset-btn {
+    background: white; color: #1a1a2e; border: 2px solid #1a1a2e; border-radius: 8px;
+    padding: 10px 20px; font-size: 0.9rem; font-weight: 700; cursor: pointer;
+    font-family: inherit; margin-top: 14px; margin-left: 10px;
+  }
+
+  /* KEY FACTS */
+  .key-facts { background: #1a1a2e; color: white; border-radius: 12px; padding: 24px; }
+  .key-facts h3 { color: #63b3ed; margin-bottom: 16px; font-size: 1rem; }
+  .fact-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  .fact-list li { display: flex; align-items: flex-start; gap: 10px; font-size: 0.9rem; line-height: 1.5; }
+  .fact-list li::before { content: "🐟"; flex-shrink: 0; }
+
+  /* COMPARISON TABLE */
+  .compare-box {
+    background: white; border: 3px solid #1a1a2e; border-radius: 12px;
+    padding: 24px; box-shadow: 6px 6px 0 #1a1a2e;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.88rem; margin-top: 12px; }
+  th { background: #1a1a2e; color: white; padding: 10px 14px; text-align: left; }
+  td { padding: 10px 14px; border-bottom: 1px solid #e2e8f0; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f7f9ff; }
+
+  /* QUIZ */
+  .quiz-box { background: white; border: 3px solid #1a1a2e; border-radius: 12px; padding: 24px; box-shadow: 6px 6px 0 #1a1a2e; }
+  .quiz-options { display: flex; flex-direction: column; gap: 10px; margin-top: 14px; }
+  .quiz-btn { background: #f0f4ff; border: 2px solid #c3cef6; border-radius: 8px; padding: 12px 16px; text-align: left; font-size: 0.9rem; cursor: pointer; transition: all 0.2s; font-family: inherit; }
+  .quiz-btn:hover { background: #e3f2fd; border-color: #90caf9; }
+  .quiz-btn.correct { background: #e8f5e9; border-color: #48bb78; color: #2d6a4f; }
+  .quiz-btn.wrong   { background: #ffebee; border-color: #ef9a9a; color: #b71c1c; }
+  .quiz-feedback { margin-top: 14px; padding: 12px; border-radius: 8px; font-size: 0.88rem; display: none; }
+  .quiz-feedback.show { display: block; }
+  .quiz-feedback.correct { background: #e8f5e9; color: #2d6a4f; border: 1px solid #a5d6a7; }
+  .quiz-feedback.wrong   { background: #fff8e1; color: #7b5e00; border: 1px solid #ffe082; }
+
+  .next-bar { display: flex; justify-content: space-between; align-items: center; margin-top: 36px; padding-top: 24px; border-top: 2px solid #e2e8f0; }
+  .btn { background: #e94560; color: white; border: none; border-radius: 8px; padding: 12px 24px; font-size: 0.95rem; font-weight: 700; cursor: pointer; text-decoration: none; display: inline-block; }
+  .btn:hover { background: #c73652; }
+  .btn.secondary { background: white; color: #1a1a2e; border: 2px solid #1a1a2e; }
+  .btn.secondary:hover { background: #f0f4ff; }
+</style>
+</head>
+<body>
+
+<div class="nav-bar">
+  <a href="index.html">← Back to Home</a>
+  <div class="progress-dots">
+    <div class="dot done"></div>
+    <div class="dot done"></div>
+    <div class="dot active"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+  </div>
+  <span style="color:#a0aec0;font-size:0.85rem;">3 / 5</span>
+</div>
+
+<div class="hero">
+  <div class="badge">Module 3</div>
+  <h1>The Context Window</h1>
+  <p>Why does the LLM sometimes forget what you said earlier? Meet the memory tank.</p>
+</div>
+
+<div class="container">
+
+  <p class="section-title">The Story</p>
+
+  <!-- Panel 1 -->
+  <div class="panel">
+    <div class="panel-header">Panel 1 — The Goldfish Problem</div>
+    <div class="panel-body">
+      <div class="scene">
+        <div class="char">🐟</div>
+        <div class="char-label">The LLM's Memory</div>
+      </div>
+      <div class="speech-area">
+        <div class="bubble narrator">
+          You might have heard the myth that goldfish have a 3-second memory. That's not quite true for fish — but it's a great way to think about LLMs.
+        </div>
+        <div class="bubble narrator">
+          An LLM doesn't have a permanent memory. Every conversation lives inside a <strong>tank</strong>. When the tank is full, old messages fall out — the LLM simply can't see them anymore.
+        </div>
+        <span class="tag blue">Key concept: the tank = context window</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Panel 2 -->
+  <div class="panel">
+    <div class="panel-header">Panel 2 — What's In the Tank?</div>
+    <div class="panel-body">
+      <div class="scene">
+        <div class="char">💬</div>
+        <div class="char-label">Your Conversation</div>
+      </div>
+      <div class="speech-area">
+        <div class="bubble narrator">
+          Every message in your conversation takes up space in the tank — your messages AND the LLM's replies. Even the instructions you give at the start live in the tank.
+        </div>
+        <div class="bubble user">
+          <div class="speaker">You said (message 1)</div>
+          "My name is Sarah. I'm a teacher."
+        </div>
+        <div class="bubble llm">
+          <div class="speaker">LLM replied</div>
+          "Hi Sarah! Great to meet a teacher. How can I help?"
+        </div>
+        <span class="tag green">Both messages now occupy tank space</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Panel 3 -->
+  <div class="panel">
+    <div class="panel-header">Panel 3 — The Tank Gets Full</div>
+    <div class="panel-body">
+      <div class="scene">
+        <div class="char">🌊</div>
+        <div class="char-label">Tank Overflow!</div>
+      </div>
+      <div class="speech-area">
+        <div class="bubble narrator">
+          After many messages, the tank is full. The oldest messages — including "My name is Sarah" — fall out.
+        </div>
+        <div class="bubble user">
+          <div class="speaker">You ask (message 47)</div>
+          "Can you use my name in your reply?"
+        </div>
+        <div class="bubble warning">
+          <div class="speaker">LLM replies (confused)</div>
+          "I don't see your name in our conversation. Could you remind me?"
+        </div>
+        <span class="tag orange">It's not being rude — it genuinely can't see that far back!</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Panel 4 -->
+  <div class="panel">
+    <div class="panel-header">Panel 4 — Different Tanks for Different Models</div>
+    <div class="panel-body">
+      <div class="scene">
+        <div class="char">🪣</div>
+        <div class="char-label">Tank Sizes Vary</div>
+      </div>
+      <div class="speech-area">
+        <div class="bubble narrator">
+          Different LLMs have different tank sizes. Some models can hold the equivalent of a short email. Others can hold an entire novel.
+        </div>
+        <div class="bubble narrator">
+          The size is measured in tokens (remember those Lego bricks from Module 2!). A common size is 128,000 tokens — roughly a full novel.
+        </div>
+        <span class="tag green">Bigger tank = longer conversations without forgetting</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- INTERACTIVE DEMO -->
+  <p class="section-title">Watch the Tank Fill Up</p>
+  <div class="tank-demo">
+    <h3>🐟 Memory Tank Simulator</h3>
+    <p>Add messages to the conversation and watch what happens when the tank gets full.</p>
+
+    <div class="tank-labels">
+      <span>Empty</span>
+      <span id="fillLabel">0 / 10 slots used</span>
+      <span>Full</span>
+    </div>
+    <div class="tank-bar-bg">
+      <div class="tank-bar-fill" id="tankFill" style="width:0%;background:#48bb78;">0%</div>
+    </div>
+    <div class="tank-legend">
+      <div class="legend-item"><div class="legend-dot" style="background:#48bb78;"></div> In memory</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#fc8181;"></div> Forgotten</div>
+    </div>
+
+    <div class="messages-list" id="messageList"></div>
+
+    <div>
+      <button class="add-btn" onclick="addMessage()">+ Add a message</button>
+      <button class="reset-btn" onclick="resetTank()">↺ Reset</button>
+    </div>
+  </div>
+
+  <!-- COMPARISON TABLE -->
+  <p class="section-title">Context Windows in the Wild</p>
+  <div class="compare-box">
+    <h3 style="font-size:1rem;margin-bottom:4px;">Rough guide to context window sizes</h3>
+    <p style="font-size:0.85rem;color:#666;margin-bottom:8px;">As of 2024 — models are growing their tanks all the time</p>
+    <table>
+      <tr><th>Model</th><th>Context Window</th><th>Roughly equivalent to</th></tr>
+      <tr><td>GPT-3.5 (early)</td><td>4,096 tokens</td><td>~3 pages of text</td></tr>
+      <tr><td>GPT-4</td><td>128,000 tokens</td><td>~300 pages / a short novel</td></tr>
+      <tr><td>Claude (recent)</td><td>200,000 tokens</td><td>~500 pages / a long novel</td></tr>
+      <tr><td>Gemini 1.5 Pro</td><td>1,000,000 tokens</td><td>~2,500 pages / several books</td></tr>
+    </table>
+  </div>
+
+  <!-- KEY FACTS -->
+  <p class="section-title">Key Facts</p>
+  <div class="key-facts">
+    <h3>What to remember about the Context Window</h3>
+    <ul class="fact-list">
+      <li>The context window is the LLM's short-term memory — everything it can "see" in a conversation</li>
+      <li>It includes your messages AND the LLM's replies — both eat up tank space</li>
+      <li>When it's full, the oldest messages are dropped silently — the LLM won't warn you</li>
+      <li>Starting a new chat = emptying the tank. All memory is gone</li>
+      <li>Some tools (like Claude Projects) save context across sessions — but that's an add-on, not the default</li>
+    </ul>
+  </div>
+
+  <!-- QUIZ -->
+  <p class="section-title">Quick Check</p>
+  <div class="quiz-box">
+    <h3>🧠 You're in a long conversation and the LLM seems to have forgotten your name. Why?</h3>
+    <div class="quiz-options">
+      <button class="quiz-btn" onclick="answer3(this, false)">A) The LLM is being lazy and not paying attention</button>
+      <button class="quiz-btn" onclick="answer3(this, false)">B) There's a bug in the software</button>
+      <button class="quiz-btn" onclick="answer3(this, true)">C) Your earlier message fell outside the context window and the LLM can no longer see it</button>
+      <button class="quiz-btn" onclick="answer3(this, false)">D) The LLM deleted your message for privacy reasons</button>
+    </div>
+    <div class="quiz-feedback" id="quiz-feedback3"></div>
+  </div>
+
+  <div class="next-bar">
+    <a href="module_02_tokens.html" class="btn secondary">← Module 2</a>
+    <a href="module_04_temperature.html" class="btn">Next: Temperature →</a>
+  </div>
+
+</div>
+
+<script>
+const MESSAGES = [
+  {who:"👤 You", text:"Hi! My name is Sarah and I'm a teacher."},
+  {who:"🤖 LLM", text:"Nice to meet you, Sarah! How can I help today?"},
+  {who:"👤 You", text:"I need help creating a lesson plan about volcanoes."},
+  {who:"🤖 LLM", text:"Great topic! Here are some ideas for a volcano lesson..."},
+  {who:"👤 You", text:"Can you make it suitable for 10 year olds?"},
+  {who:"🤖 LLM", text:"Absolutely! At age 10, hands-on experiments work well..."},
+  {who:"👤 You", text:"What about a quiz for the end of the lesson?"},
+  {who:"🤖 LLM", text:"Sure! Here are 5 quiz questions about volcanoes..."},
+  {who:"👤 You", text:"Can you write a summary email to send to parents?"},
+  {who:"🤖 LLM", text:"Of course! Here is a draft parent email..."},
+  {who:"👤 You", text:"Now use my name in your sign-off."},
+  {who:"🤖 LLM", text:"I'm sorry, I don't see your name in our conversation — could you remind me? (Sarah's message has fallen out of the tank!)"},
+];
+
+let currentIdx = 0;
+const MAX_VISIBLE = 8;
+
+function addMessage() {
+  if (currentIdx >= MESSAGES.length) return;
+  const list = document.getElementById('messageList');
+  const msg = MESSAGES[currentIdx];
+  const div = document.createElement('div');
+  div.className = 'msg-row in-window';
+  div.id = 'msg-' + currentIdx;
+  div.innerHTML = `<span class="msg-icon">${msg.who.split(' ')[0]}</span><strong>${msg.who.split(' ').slice(1).join(' ')}:</strong> ${msg.text}`;
+  list.appendChild(div);
+  currentIdx++;
+
+  // Forget old messages when over limit
+  const total = currentIdx;
+  const forgottenCount = total > MAX_VISIBLE ? total - MAX_VISIBLE : 0;
+  for (let i = 0; i < total; i++) {
+    const el = document.getElementById('msg-' + i);
+    if (!el) continue;
+    if (i < forgottenCount) {
+      el.className = 'msg-row forgotten';
+    } else {
+      el.className = 'msg-row in-window';
+    }
+  }
+
+  // Update tank bar
+  const pct = Math.min(100, Math.round((currentIdx / MAX_VISIBLE) * 100));
+  const fill = document.getElementById('tankFill');
+  fill.style.width = pct + '%';
+  fill.textContent = pct + '%';
+  if (pct < 60) fill.style.background = '#48bb78';
+  else if (pct < 90) fill.style.background = '#f6ad55';
+  else fill.style.background = '#e94560';
+
+  const inMemory = Math.min(currentIdx, MAX_VISIBLE);
+  document.getElementById('fillLabel').textContent = inMemory + ' / ' + MAX_VISIBLE + ' slots used';
+}
+
+function resetTank() {
+  currentIdx = 0;
+  document.getElementById('messageList').innerHTML = '';
+  document.getElementById('tankFill').style.width = '0%';
+  document.getElementById('tankFill').style.background = '#48bb78';
+  document.getElementById('tankFill').textContent = '0%';
+  document.getElementById('fillLabel').textContent = '0 / ' + MAX_VISIBLE + ' slots used';
+}
+
+function answer3(btn, isCorrect) {
+  const allBtns = document.querySelectorAll('.quiz-btn');
+  const feedback = document.getElementById('quiz-feedback3');
+  allBtns.forEach(b => b.disabled = true);
+  if (isCorrect) {
+    btn.classList.add('correct');
+    feedback.className = 'quiz-feedback show correct';
+    feedback.innerHTML = '✅ Exactly! The context window is finite. Once it fills up, older messages get dropped. The LLM isn't forgetting — it simply can't see those messages anymore. Try the tank simulator above to watch it happen!';
+  } else {
+    btn.classList.add('wrong');
+    feedback.className = 'quiz-feedback show wrong';
+    feedback.innerHTML = '💡 The answer is C. There's no bug and no privacy deletion — it's just that the context window has a size limit. When it fills up, the oldest messages fall off the bottom. The LLM only "sees" what's currently in the tank.';
+  }
+}
+</script>
+</body>
+</html>
