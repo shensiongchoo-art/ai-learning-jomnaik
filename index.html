@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Literacy Learning Hub — All Phases</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', sans-serif; background: #0d1117; color: #e2e8f0; min-height: 100vh; }
+
+  .hero {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    padding: 60px 24px 48px; text-align: center; position: relative; overflow: hidden;
+  }
+  .hero::before {
+    content: ''; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%;
+    background: radial-gradient(ellipse at center, rgba(99,179,237,0.07) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .phase-badge { display: inline-block; background: rgba(99,179,237,0.15); color: #63b3ed; border: 1px solid #63b3ed; padding: 5px 16px; border-radius: 20px; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 20px; }
+  .hero h1 { font-size: 2.6rem; font-weight: 800; margin-bottom: 12px; line-height: 1.2; }
+  .hero h1 span { color: #63b3ed; }
+  .hero p { font-size: 1.05rem; opacity: 0.75; max-width: 580px; margin: 0 auto 28px; line-height: 1.6; }
+  .start-btn { display: inline-block; background: #e94560; color: white; font-size: 1rem; font-weight: 700; padding: 14px 32px; border-radius: 10px; text-decoration: none; transition: background 0.2s, transform 0.15s; box-shadow: 0 4px 16px rgba(233,69,96,0.35); }
+  .start-btn:hover { background: #c73652; transform: translateY(-2px); }
+  .hero-sub { margin-top: 16px; font-size: 0.82rem; opacity: 0.5; }
+
+  .stats-row { display: flex; justify-content: center; gap: 0; background: rgba(255,255,255,0.04); border-top: 1px solid rgba(255,255,255,0.08); border-bottom: 1px solid rgba(255,255,255,0.08); }
+  .stat { flex: 1; max-width: 180px; text-align: center; padding: 20px 16px; border-right: 1px solid rgba(255,255,255,0.08); }
+  .stat:last-child { border-right: none; }
+  .stat .s-val { font-size: 1.8rem; font-weight: 800; color: #63b3ed; line-height: 1; }
+  .stat .s-lab { font-size: 0.78rem; color: #a0aec0; margin-top: 4px; }
+
+  .container { max-width: 820px; margin: 0 auto; padding: 48px 20px 80px; }
+  .section-label { font-size: 0.72rem; font-weight: 700; color: #e94560; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 20px; }
+  .phase-header { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; margin-top: 40px; }
+  .phase-pill { font-size: 11px; font-weight: 700; padding: 4px 12px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; }
+  .phase-pill.p1 { background: rgba(233,69,96,0.15); color: #fc8181; border: 1px solid rgba(233,69,96,0.3); }
+  .phase-pill.p2 { background: rgba(159,122,234,0.15); color: #d6bcfa; border: 1px solid rgba(159,122,234,0.3); }
+  .phase-pill.p3 { background: rgba(104,211,145,0.15); color: #68d391; border: 1px solid rgba(104,211,145,0.3); }
+  .phase-header h2 { font-size: 1.1rem; font-weight: 700; }
+  .phase-header p  { font-size: 0.8rem; color: #718096; margin-top: 2px; }
+
+  .modules-grid { display: flex; flex-direction: column; gap: 14px; }
+
+  .module-card { background: #161b27; border: 1px solid #2d3748; border-radius: 14px; padding: 0; overflow: hidden; text-decoration: none; color: inherit; display: flex; transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s; }
+  .module-card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.3); }
+  .card-accent { width: 6px; min-width: 6px; flex-shrink: 0; }
+  .card-body { flex: 1; padding: 18px 20px; display: flex; align-items: center; gap: 16px; }
+  .card-icon { font-size: 2.2rem; flex-shrink: 0; }
+  .card-content { flex: 1; }
+  .card-num   { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px; }
+  .card-title { font-size: 1rem; font-weight: 700; margin-bottom: 4px; }
+  .card-desc  { font-size: 0.81rem; color: #a0aec0; line-height: 1.4; margin-bottom: 8px; }
+  .card-tags  { display: flex; flex-wrap: wrap; gap: 5px; }
+  .ctag { font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .card-arrow { font-size: 1.2rem; color: #4a5568; flex-shrink: 0; padding-right: 4px; }
+  .module-card:hover .card-arrow { color: #a0aec0; }
+
+  /* Phase 1 */
+  .m1 .card-accent{background:#e94560;} .m1 .card-num{color:#e94560;} .m1:hover{border-color:#e94560;}
+  .m2 .card-accent{background:#f6ad55;} .m2 .card-num{color:#f6ad55;} .m2:hover{border-color:#f6ad55;}
+  .m3 .card-accent{background:#63b3ed;} .m3 .card-num{color:#63b3ed;} .m3:hover{border-color:#63b3ed;}
+  .m4 .card-accent{background:#fc8181;} .m4 .card-num{color:#fc8181;} .m4:hover{border-color:#fc8181;}
+  .m5 .card-accent{background:#9f7aea;} .m5 .card-num{color:#9f7aea;} .m5:hover{border-color:#9f7aea;}
+  /* Phase 2 */
+  .m6  .card-accent{background:#b794f4;} .m6 .card-num{color:#b794f4;}  .m6:hover{border-color:#b794f4;}
+  .m7  .card-accent{background:#68d391;} .m7 .card-num{color:#68d391;}  .m7:hover{border-color:#68d391;}
+  .m8  .card-accent{background:#4299e1;} .m8 .card-num{color:#4299e1;}  .m8:hover{border-color:#4299e1;}
+  .m9  .card-accent{background:#d6bcfa;} .m9 .card-num{color:#d6bcfa;}  .m9:hover{border-color:#d6bcfa;}
+  .m10 .card-accent{background:#63b3ed;} .m10 .card-num{color:#63b3ed;} .m10:hover{border-color:#63b3ed;}
+  /* Phase 3 */
+  .m11 .card-accent{background:#68d391;} .m11 .card-num{color:#68d391;} .m11:hover{border-color:#68d391;}
+  .m12 .card-accent{background:#38b2ac;} .m12 .card-num{color:#38b2ac;} .m12:hover{border-color:#38b2ac;}
+  .m13 .card-accent{background:#b794f4;} .m13 .card-num{color:#b794f4;} .m13:hover{border-color:#b794f4;}
+  .m14 .card-accent{background:#63b3ed;} .m14 .card-num{color:#63b3ed;} .m14:hover{border-color:#63b3ed;}
+
+  .learn-box { background: #161b27; border: 1px solid #2d3748; border-radius: 14px; padding: 28px; margin-bottom: 8px; }
+  .learn-box h2 { font-size: 1rem; margin-bottom: 16px; color: #e2e8f0; }
+  .learn-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .learn-item { display: flex; gap: 10px; align-items: flex-start; font-size: 0.83rem; color: #a0aec0; line-height: 1.4; }
+  .learn-item::before { content: "✓"; color: #48bb78; font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+  @media (max-width: 480px) { .learn-grid { grid-template-columns: 1fr; } }
+
+  /* News Hub card */
+  .news-hub-card {
+    background: linear-gradient(135deg, #0f1624 0%, #131c30 100%);
+    border: 1px solid #2d3748;
+    border-radius: 14px;
+    padding: 24px 28px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.2s, transform 0.15s, box-shadow 0.2s;
+  }
+  .news-hub-card:hover {
+    border-color: #6c63ff;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 28px rgba(108,99,255,0.2);
+  }
+  .news-hub-icon { font-size: 2.8rem; flex-shrink: 0; }
+  .news-hub-body { flex: 1; }
+  .news-hub-badge {
+    display: inline-block;
+    background: rgba(108,99,255,0.15);
+    color: #a78bfa;
+    border: 1px solid rgba(108,99,255,0.4);
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 0.68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+  }
+  .news-hub-body h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 5px; }
+  .news-hub-body p  { font-size: 0.82rem; color: #718096; line-height: 1.5; }
+  .news-hub-cats {
+    display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px;
+  }
+  .news-hub-cat {
+    font-size: 0.72rem;
+    padding: 3px 10px;
+    border-radius: 12px;
+    border: 1px solid #2d3748;
+    background: rgba(255,255,255,0.04);
+    color: #a0aec0;
+  }
+  .news-hub-arrow {
+    font-size: 1.6rem;
+    color: #6c63ff;
+    flex-shrink: 0;
+  }
+
+  .roadmap { background: #161b27; border: 1px solid #2d3748; border-radius: 14px; padding: 28px; margin-top: 40px; }
+  .roadmap h2 { font-size: 1rem; margin-bottom: 20px; }
+  .phase-row { display: flex; gap: 0; }
+  .phase-item { flex: 1; text-align: center; padding: 16px 10px; border-radius: 8px; }
+  .phase-item.done    { background: rgba(72,187,120,0.08); border: 1px solid rgba(72,187,120,0.25); }
+  .phase-item.current { background: rgba(99,179,237,0.08); border: 1px solid rgba(99,179,237,0.25); }
+  .phase-item.upcoming{ opacity: 0.4; }
+  .phase-icon { font-size: 1.6rem; margin-bottom: 6px; }
+  .phase-name { font-size: 0.8rem; font-weight: 700; margin-bottom: 4px; }
+  .phase-item.done .phase-name    { color: #68d391; }
+  .phase-item.current .phase-name { color: #63b3ed; }
+  .phase-desc { font-size: 0.72rem; color: #718096; line-height: 1.4; }
+  .phase-connector { display: flex; align-items: center; color: #2d3748; font-size: 1.2rem; padding: 0 4px; }
+
+  .complete-banner { background: linear-gradient(135deg, rgba(72,187,120,0.1), rgba(99,179,237,0.1)); border: 1px solid rgba(72,187,120,0.25); border-radius: 14px; padding: 22px 28px; text-align: center; margin-top: 24px; }
+  .complete-banner h3 { font-size: 1rem; color: #68d391; margin-bottom: 8px; }
+  .complete-banner p { font-size: 0.82rem; color: #a0aec0; line-height: 1.5; }
+
+  .divider { height: 1px; background: #1e2736; margin: 8px 0 36px; }
+
+  .footer { text-align: center; padding: 24px; font-size: 0.78rem; color: #4a5568; border-top: 1px solid #1e2736; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="phase-badge">All 3 Phases Complete — AI Literacy Hub</div>
+  <h1>Your <span>AI Literacy</span><br>Learning Hub</h1>
+  <p>14 interactive modules covering LLM fundamentals, Claude, Claude Code, ChatGPT, and Codex — using analogies, comics, and hands-on demos. No coding required.</p>
+  <a href="module_01_what_is_llm.html" class="start-btn">▶ Start from the Beginning</a>
+  <div class="hero-sub">~65 minutes total · Works in any browser · No install needed</div>
+</div>
+
+<div class="stats-row">
+  <div class="stat"><div class="s-val">14</div><div class="s-lab">Modules</div></div>
+  <div class="stat"><div class="s-val">3</div><div class="s-lab">Phases</div></div>
+  <div class="stat"><div class="s-val">14</div><div class="s-lab">Quizzes</div></div>
+  <div class="stat"><div class="s-val">~65</div><div class="s-lab">Minutes</div></div>
+</div>
+
+<div class="container">
+
+  <!-- WHAT YOU'LL LEARN -->
+  <div class="learn-box">
+    <h2>After all 3 phases, you'll be able to:</h2>
+    <div class="learn-grid">
+      <div class="learn-item">Explain what an LLM is, how it reads tokens, and what context means</div>
+      <div class="learn-item">Understand Claude's values, personality, and Constitutional AI design</div>
+      <div class="learn-item">Write effective prompts using 5 proven techniques</div>
+      <div class="learn-item">Use Claude Projects to build a persistent, context-aware workspace</div>
+      <div class="learn-item">Explain system prompts — the hidden developer configuration layer</div>
+      <div class="learn-item">Understand Claude Code concepts: skills, MCP, agentic workflows</div>
+      <div class="learn-item">Explain what ChatGPT is and how it differs from Claude</div>
+      <div class="learn-item">Understand what Codex and the API are — the invisible pipes behind AI tools</div>
+      <div class="learn-item">Know when to use ChatGPT vs Claude for different tasks</div>
+      <div class="learn-item">Have a complete mental model of the modern AI landscape</div>
+    </div>
+  </div>
+
+  <!-- PHASE 1 -->
+  <div class="phase-header">
+    <div>
+      <div style="display:flex;align-items:center;gap:10px;">
+        <span class="phase-pill p1">Phase 1</span>
+        <h2>LLM Fundamentals</h2>
+      </div>
+      <p>What LLMs are, how they read, remember, and think — and their biggest weakness</p>
+    </div>
+  </div>
+  <div class="modules-grid">
+    <a href="module_01_what_is_llm.html" class="module-card m1">
+      <div class="card-accent"></div>
+      <div class="card-body">
+        <div class="card-icon">📚</div>
+        <div class="card-content">
+          <div class="card-num">Module 1 · ~4 min</div>
+          <div class="card-title">What is an LLM?</div>
+          <div class="card-desc">The world's most well-read librarian — and why she predicts words instead of looking up facts.</div>
+          <div class="card-tags"><span class="ctag" style="background:rgba(233,69,96,0.15);color:#fc8181;">Comic panels</span><span class="ctag" style="background:rgba(255,255,255,0.07);color:#a0aec0;">Quiz</span></div>
+        </div>
+        <div class="card-arrow">→</div>
+      </div>
+    </a>
+    <a href="module_02_tokens.html" class="module-card m2">
+      <div class="card-accent"></div>
+      <div class="card-body">
+        <div class="card-icon">🧱</div>
+        <div class="card-content">
+          <div class="card-num">Module 2 · ~3 min</div>
+          <div class="card-title">Tokens — The Lego Bricks of Language</div>
+          <div class="card-desc">LLMs read in tiny pieces. Type a sentence and watch it split into colour-coded tokens live.</div>
+          <div class="card-tags"><span class="ctag" style="background:rgba(246,173,85,0.15);color:#f6ad55;">Interactive demo</span><span class="ctag" style="background:rgba(255,255,255,0.07);color:#a0aec0;">Quiz</span></div>
+        </div>
+        <div class="card-arrow">→</div>
+      </div>
+    </a>
+    <a href="module_03_context_window.html" class="module-card m3">
+      <div class="card-accent"></div>
+      <div class="card-body">
+        <div class="card-icon">🐟</div>
+        <div class="card-content">
+          <div class="card-num">Module 3 · ~4 min</div>
+          <div class="card-title">The Context Window</div>
+          <div class="card-desc">The goldfish memory tank — add messages and watch the oldest ones fall out in real time.</div>
+          <div class="card-tags"><span class="ctag" style="background:rgba(99,179,237,0.15);color:#63b3ed;">Tank simulator</span><span class="ctag" style="background:rgba(255,255,255,0.07);color:#a0aec0;">Quiz</span></div>
+        </div>
+        <div class="card-arrow">→</div>
+      </div>
+    </a>
+    <a href="module_04_temperature.html" class="module-card m4">
+      <div class="card-accent"></div>
+      <div class="card-body">
+        <div class="card-icon">🎛️</div>
+        <div class="card-content">
+          <div class="card-num">Module 4 · ~4 min</div>
+          <div class="card-title">Temperature — Dial Up the Creativity</div>
+          <div class="card-desc">Drag a slider and watch the same prompt shift from safe and predictable to wild and creative.</div>
+          <div class="card-tags"><span class="ctag" style="background:rgba(252,129,129,0.15);color:#fc8181;">Slider demo</span><span class="ctag" style="background:rgba(255,255,255,0.07);color:#a0aec0;">Quiz</span></div>
+        </div>
+        <div class="card-arrow">→</div>
+      </div>
+    </a>
+    <a href="module_05_hallucination.html" class="module-card m5">
+      <div class="card-accent"></div>
+      <div class="card-body">
+        <div class="card-icon">⚠️</div>
+        <div class="card-content">
+          <div class="card-num">Module 5 · ~5 min</div>
+          <div class="card-title">Hallucination — When AI Makes Things Up</div>
+          <div class="card-desc">Spot fake citations, learn the defence checklist, and understand why confidence ≠ accuracy.</div>
+          <div class="card-tags"><span class="ctag" style="background:rgba(159,122,234,0.15);color:#9f7aea;">Comic + game</span><span class="ctag" style="background:rgba(255,255,255,0.07);color:#a0aec0;">Checklist</span></div>
+        </div>
+        <div class="card-arrow">→</div>
+      </div>
+    </a>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- PHASE 2 -->
+  <div class="phase-header">
+    <div>
+      <div style="display:flex;align-items:center;gap:10px;">
+        <span class="phase-pill p2">Phase 2</span>
+        <h2>Claude &amp; Claude Code</h2>
+      </div>
+      <p>Claude's identity, prompting techniques, Projects, system prompts, and Claude Code concepts</p>
+    </div>
+  </div>
+  <div class="modules-grid">
+    <a href="module_06_who_is_claude.html" class="module-card m6">
+      <div class="card-accent"></div>
+      <div class="card-body">
+        <div class="card-icon">🤖</div>
+        <div class="card-content">
+          <div class="card-num">Module 6 · ~4 min</div>
+          <div class="card-title">Who is Claude?</div>
+          <div class="card-desc">Constitutional AI, Claude's values and personality, and what makes it different from a generic LLM.</div>
+          <div class="card-tags"><span class="ctag" style="background:rgba(183,148,244,0.15);color:#b794f4;">Character comic</span><span class="ctag" style="background:rgba(255,255,255,0.07);color:#a0aec0;">6 value cards</span></div>
+        </div>
+        <div class="card-arrow">→</div>
+      </div>
+    </a>
+    <a href="module_07_prompting_claude.html" class="module-card m7">
+      <div class="card-accent"></div>
+      <div class="card-body">
+        <div class="card-icon">✏️</div>
+        <div class="card-content">
+          <div class="card-num">Module 7 · ~5 min</div>
+          <div class="card-title">The Art of Prompting Claude</div>
+          <div class="card-desc">5 techniques shown as before/after panels — role, format, context, step-by-step, constraints.</div>
+          <div class="card-tags"><span class="ctag" style="background:rgba(104,211,145,0.15);color:#68d391;">Before/after panels</span><span class="ctag" style="background:rgba(255,255,255,0.07);color:#a0aec0;">Cheat sheet</span></div>
+        </div>
+        <div class="card-arrow">→</div>
+      </div>
+    </a>
+    <a href="module_08_projects_memory.html" class="module-card m8">
+      <div class="card-accent"></div>
+      <div class="card-body">
+        <div class="card-icon">🗂️</div>
+        <div class="card-content">
+          <div class="card-num">Module 8 · ~4 min</div>
+          <div class="card-title">Claude Projects &amp; Memory</div>
+          <div class="card-desc">Give your contractor a permanent desk. What Projects are, what persists, what resets.</div>
+          <div class="card-tags"><span class="ctag" style="background:rgba(66,153,225,0.15);color:#4299e1;">Story comic</span><span class="ctag" style="background:rgba(255,255,255,0.07);color:#a0aec0;">Persist/reset guide</span></div>
+        </div>
+        <div class="card-arrow">→</div>
+      </div>
+    </a>
+    <a href="module_09_system_prompts.html" class="module-card m9">
+      <div class="card-accent"></div>
+      <div class="card-body">
+        <div class="card-icon">🤫</div>
+        <div class="card-content">
+          <div class="card-num">Module 9 · ~4 min</div>
+          <div class="card-title">System Prompts — The Hidden Briefing</div>
+          <div class="card-desc">The secret instructions developers give Claude before you arrive — and how they shape everything.</div>
+          <div class="card-tags"><span class="ctag" style="background:rgba(214,188,250,0.15);color:#d6bcfa;">Behind-scenes comic</span><span class="ctag" style="background:rgba(255,255,255,0.07);color:#a0aec0;">4 real examples</span></div>
+        </div>
+        <div class="card-arrow">→</div>
+      </div>
+    </a>
+    <a href="module_10_claude_code.html" class="module-card m10">
+      <div class="card-accent"></div>
+      <div class="card-body">
+        <div class="card-icon">💻</div>
+        <div class="card-content">
+          <div class="card-num">Module 10 · ~6 min</div>
+          <div class="card-title">Claude Code — Your AI Developer</div>
+          <div class="card-desc">Skills (toolbox), MCP (USB ports), agentic workflows, and how to give Claude Code great instructions.</div>
+          <div class="card-tags"><span class="ctag" style="background:rgba(99,179,237,0.15);color:#63b3ed;">Story + concepts</span><span class="ctag" style="background:rgba(255,255,255,0.07);color:#a0aec0;">Non-coder guide</span></div>
+        </div>
+        <div class="card-arrow">→</div>
+      </div>
+    </a>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- PHASE 3 -->
+  <div class="phase-header">
+    <div>
+      <div style="display:flex;align-items:center;gap:10px;">
+        <span class="phase-pill p3">Phase 3</span>
+        <h2>ChatGPT &amp; Codex</h2>
+      </div>
+      <p>What ChatGPT is, how it evolved, what Codex and the API do, and how it compares to Claude</p>
+    </div>
+  </div>
+  <div class="modules-grid">
+    <a href="module_11_what_is_chatgpt.html" class="module-card m11">
+      <div class="card-accent"></div>
+      <div class="card-body">
+        <div class="card-icon">💬</div>
+        <div class="card-content">
+          <div class="card-num">Module 11 · ~4 min</div>
+          <div class="card-title">What is ChatGPT?</div>
+          <div class="card-desc">The Smart Newspaper Columnist — brilliant, opinionated, and trained on everything ever written.</div>
+          <div class="card-tags"><span class="ctag" style="background:rgba(104,211,145,0.15);color:#68d391;">Comic panels</span><span class="ctag" style="background:rgba(255,255,255,0.07);color:#a0aec0;">Quiz</span></div>
+        </div>
+        <div class="card-arrow">→</div>
+      </div>
+    </a>
+    <a href="module_12_chatgpt_features.html" class="module-card m12">
+      <div class="card-accent"></div>
+      <div class="card-body">
+        <div class="card-icon">🗞️</div>
+        <div class="card-content">
+          <div class="card-num">Module 12 · ~5 min</div>
+          <div class="card-title">ChatGPT Memory &amp; Plugins</div>
+          <div class="card-desc">The Columnist Gets an Office — how ChatGPT evolved with memory, web browsing, and custom GPTs.</div>
+          <div class="card-tags"><span class="ctag" style="background:rgba(56,178,172,0.15);color:#38b2ac;">Visual story</span><span class="ctag" style="background:rgba(255,255,255,0.07);color:#a0aec0;">Feature map</span></div>
+        </div>
+        <div class="card-arrow">→</div>
+      </div>
+    </a>
+    <a href="module_13_codex_api.html" class="module-card m13">
+      <div class="card-accent"></div>
+      <div class="card-body">
+        <div class="card-icon">🌐</div>
+        <div class="card-content">
+          <div class="card-num">Module 13 · ~5 min</div>
+          <div class="card-title">What is Codex and the API?</div>
+          <div class="card-desc">The Translator Booth — the invisible pipe that lets any app whisper to an AI and get a smart answer back.</div>
+          <div class="card-tags"><span class="ctag" style="background:rgba(183,148,244,0.15);color:#b794f4;">Comic + concept map</span><span class="ctag" style="background:rgba(255,255,255,0.07);color:#a0aec0;">Quiz</span></div>
+        </div>
+        <div class="card-arrow">→</div>
+      </div>
+    </a>
+    <a href="module_14_chatgpt_vs_claude.html" class="module-card m14">
+      <div class="card-accent"></div>
+      <div class="card-body">
+        <div class="card-icon">⚖️</div>
+        <div class="card-content">
+          <div class="card-num">Module 14 · ~5 min</div>
+          <div class="card-title">ChatGPT vs Claude</div>
+          <div class="card-desc">Two expert colleagues — different strengths, different personalities. Know which to call for what.</div>
+          <div class="card-tags"><span class="ctag" style="background:rgba(99,179,237,0.15);color:#63b3ed;">Side-by-side</span><span class="ctag" style="background:rgba(255,255,255,0.07);color:#a0aec0;">When to use which</span></div>
+        </div>
+        <div class="card-arrow">→</div>
+      </div>
+    </a>
+  </div>
+
+  <!-- ROADMAP -->
+  <!-- AI NEWS HUB CARD -->
+  <a href="news.html" class="news-hub-card">
+    <div class="news-hub-icon">📡</div>
+    <div class="news-hub-body">
+      <div class="news-hub-badge">Live · Updated on demand</div>
+      <h3>AI News Hub</h3>
+      <p>Stay current with the AI landscape as you learn — live headlines across 5 categories, curated newsletter picks, and on-demand briefings.</p>
+      <div class="news-hub-cats">
+        <span class="news-hub-cat">🇺🇸 US &amp; Global AI</span>
+        <span class="news-hub-cat">🐉 China AI</span>
+        <span class="news-hub-cat">⚡ AI Hardware</span>
+        <span class="news-hub-cat">🔬 Other AI Tech</span>
+        <span class="news-hub-cat">⚖️ Policy &amp; Safety</span>
+      </div>
+    </div>
+    <div class="news-hub-arrow">→</div>
+  </a>
+
+  <div class="roadmap">
+    <h2>🗺 Your Learning Roadmap</h2>
+    <div class="phase-row">
+      <div class="phase-item done">
+        <div class="phase-icon">🧠</div>
+        <div class="phase-name">Phase 1 ✓</div>
+        <div class="phase-desc">LLM Fundamentals<br>What, tokens, context,<br>temperature, hallucination</div>
+      </div>
+      <div class="phase-connector">→</div>
+      <div class="phase-item done">
+        <div class="phase-icon">🤖</div>
+        <div class="phase-name">Phase 2 ✓</div>
+        <div class="phase-desc">Claude &amp; Claude Code<br>Identity, prompting,<br>Projects, system prompts</div>
+      </div>
+      <div class="phase-connector">→</div>
+      <div class="phase-item done">
+        <div class="phase-icon">💬</div>
+        <div class="phase-name">Phase 3 ✓</div>
+        <div class="phase-desc">ChatGPT &amp; Codex<br>GPTs, features, API,<br>vs Claude comparison</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="complete-banner">
+    <h3>🎉 All 14 Modules Complete!</h3>
+    <p>You now have a complete, non-coder mental model of the modern AI landscape — from LLM internals to Claude vs ChatGPT. Open any module to revisit, or start from the beginning for a full refresher.</p>
+  </div>
+
+</div>
+
+<div class="footer">
+  AI Literacy Hub · All 3 Phases · 14 modules + Live News Hub · Open in any browser
+</div>
+
+</body>
+</html>
