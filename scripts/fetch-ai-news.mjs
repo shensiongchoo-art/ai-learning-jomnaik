@@ -4,6 +4,7 @@ import crypto from 'node:crypto';
 const FEED_PATH = 'data/news-feed.json';
 const MAX_ITEMS = 350;
 const PER_SOURCE_LIMIT = 10;
+const MAX_IMAGES = 5;
 
 const SOURCES = [
   { category: 'US & Global AI', source: 'TechCrunch AI', url: 'https://techcrunch.com/category/artificial-intelligence/feed/', strict: false },
@@ -96,6 +97,54 @@ function parseDate(value) {
   return Number.isNaN(date.getTime()) ? '' : date.toISOString();
 }
 
+function attr(tagText, name) {
+  const re = new RegExp(`${name}=["']([^"']+)["']`, 'i');
+  return decodeEntities(tagText.match(re)?.[1] || '');
+}
+
+function validImageUrl(url = '') {
+  if (!url || typeof url !== 'string') return false;
+  if (url.startsWith('data:') || url.length < 12) return false;
+  try {
+    const u = new URL(url.startsWith('//') ? `https:${url}` : url);
+    if (!/^https?:$/.test(u.protocol)) return false;
+    const lower = u.href.toLowerCase();
+    if (lower.includes('tracking') || lower.includes('pixel') || lower.includes('avatar')) return false;
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function absoluteImage(url, articleUrl) {
+  if (!url) return '';
+  try {
+    if (url.startsWith('//')) return `https:${url}`;
+    if (url.startsWith('/')) return new URL(url, articleUrl || 'https://example.com').href;
+    return new URL(url).href;
+  } catch {
+    return '';
+  }
+}
+
+function extractImages(block, articleUrl) {
+  const candidates = [];
+  const add = value => {
+    const url = absoluteImage(decodeEntities(value || ''), articleUrl);
+    if (validImageUrl(url) && !candidates.includes(url)) candidates.push(url);
+  };
+
+  [...block.matchAll(/<media:content[^>]+>/gi)].forEach(m => add(attr(m[0], 'url')));
+  [...block.matchAll(/<media:thumbnail[^>]+>/gi)].forEach(m => add(attr(m[0], 'url')));
+  [...block.matchAll(/<enclosure[^>]+>/gi)].forEach(m => {
+    const type = attr(m[0], 'type');
+    if (!type || type.toLowerCase().startsWith('image/')) add(attr(m[0], 'url'));
+  });
+  [...block.matchAll(/<img[^>]+src=["']([^"']+)["'][^>]*>/gi)].forEach(m => add(m[1]));
+
+  return candidates.slice(0, MAX_IMAGES);
+}
+
 function relevanceScore(item, strict) {
   const text = `${item.title || ''} ${item.snippet || ''}`.toLowerCase();
   if (EXCLUDE_TERMS.some(term => text.includes(term))) return -10;
@@ -125,6 +174,7 @@ function parseFeed(xml, feed) {
       publishedAt,
       fetchedAt: new Date().toISOString(),
       snippet,
+      images: extractImages(block, link),
       score: 0
     };
     item.score = relevanceScore(item, feed.strict);
@@ -140,7 +190,7 @@ async function fetchSource(feed) {
     const res = await fetch(feed.url, {
       signal: controller.signal,
       headers: {
-        'user-agent': 'ai-learning-jomnaik-news-bot/1.1 (+https://github.com/shensiongchoo-art/ai-learning-jomnaik)'
+        'user-agent': 'ai-learning-jomnaik-news-bot/1.2 (+https://github.com/shensiongchoo-art/ai-learning-jomnaik)'
       }
     });
     if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
@@ -175,6 +225,7 @@ function keepRelevantExisting(item) {
     ...item,
     title: stripHtml(item.title || 'Untitled'),
     snippet: stripHtml(item.snippet || '').slice(0, 260),
+    images: Array.isArray(item.images) ? item.images.filter(validImageUrl).slice(0, MAX_IMAGES) : [],
     category,
     source: item.source || 'Unknown source'
   };
