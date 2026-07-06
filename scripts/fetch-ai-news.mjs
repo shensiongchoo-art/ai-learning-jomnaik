@@ -5,6 +5,10 @@ const FEED_PATH = 'data/news-feed.json';
 const MAX_ITEMS = 350;
 const PER_SOURCE_LIMIT = 10;
 const MAX_IMAGES = 5;
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY || '';
+const OPENAI_TRANSLATE_MODEL = process.env.OPENAI_TRANSLATE_MODEL || 'gpt-5.5';
+const TRANSLATE_BATCH_SIZE = 8;
+const TRANSLATE_MAX_PER_RUN = 80;
 
 const SOURCES = [
   { category: 'US & Global AI', source: 'TechCrunch AI', url: 'https://techcrunch.com/category/artificial-intelligence/feed/', strict: false },
@@ -190,7 +194,7 @@ async function fetchSource(feed) {
     const res = await fetch(feed.url, {
       signal: controller.signal,
       headers: {
-        'user-agent': 'ai-learning-jomnaik-news-bot/1.2 (+https://github.com/shensiongchoo-art/ai-learning-jomnaik)'
+        'user-agent': 'ai-learning-jomnaik-news-bot/1.3 (+https://github.com/shensiongchoo-art/ai-learning-jomnaik)'
       }
     });
     if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
@@ -225,6 +229,11 @@ function keepRelevantExisting(item) {
     ...item,
     title: stripHtml(item.title || 'Untitled'),
     snippet: stripHtml(item.snippet || '').slice(0, 260),
+    titleZh: stripHtml(item.titleZh || ''),
+    snippetZh: stripHtml(item.snippetZh || '').slice(0, 320),
+    translatedAt: item.translatedAt || '',
+    translationProvider: item.translationProvider || '',
+    translationModel: item.translationModel || '',
     images: Array.isArray(item.images) ? item.images.filter(validImageUrl).slice(0, MAX_IMAGES) : [],
     category,
     source: item.source || 'Unknown source'
@@ -232,6 +241,108 @@ function keepRelevantExisting(item) {
   cleaned.score = relevanceScore(cleaned, strict);
   cleaned.id = item.id || stableId(cleaned);
   return cleaned.score > 0 ? cleaned : null;
+}
+
+function needsTranslation(item) {
+  return !!OPENAI_API_KEY && item.title && (!item.titleZh || !item.snippetZh);
+}
+
+function chunks(list, size) {
+  const out = [];
+  for (let i = 0; i < list.length; i += size) out.push(list.slice(i, i + size));
+  return out;
+}
+
+function responseText(data) {
+  if (typeof data.output_text === 'string') return data.output_text;
+  const parts = [];
+  for (const item of data.output || []) {
+    for (const content of item.content || []) {
+      if (content.type === 'output_text' && content.text) parts.push(content.text);
+      if (content.type === 'text' && content.text) parts.push(content.text);
+    }
+  }
+  return parts.join('\n');
+}
+
+function extractJson(text) {
+  const raw = String(text || '').trim().replace(/^```json\s*/i, '').replace(/```$/i, '').trim();
+  const start = raw.indexOf('[');
+  const end = raw.lastIndexOf(']');
+  if (start === -1 || end === -1 || end <= start) throw new Error('No JSON array found in translation response');
+  return JSON.parse(raw.slice(start, end + 1));
+}
+
+async function translateBatch(batch) {
+  if (!OPENAI_API_KEY || !batch.length) return [];
+  const payload = batch.map(item => ({
+    id: item.id,
+    title: item.title,
+    snippet: item.snippet || ''
+  }));
+
+  const res = await fetch('https://api.openai.com/v1/responses', {
+    method: 'POST',
+    headers: {
+      'Authorization': `Bearer ${OPENAI_API_KEY}`,
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      model: OPENAI_TRANSLATE_MODEL,
+      input: [
+        {
+          role: 'system',
+          content: 'Translate AI news titles and snippets into natural Simplified Chinese for a Malaysian/Chinese technical reader. Preserve company names, product names, model names, ticker symbols, and URLs. Do not add facts. Return only a JSON array.'
+        },
+        {
+          role: 'user',
+          content: `Translate these items. Return JSON array with objects: {"id":"...","titleZh":"...","snippetZh":"..."}.\n${JSON.stringify(payload)}`
+        }
+      ]
+    })
+  });
+
+  if (!res.ok) {
+    const body = await res.text();
+    throw new Error(`OpenAI translation failed ${res.status}: ${body.slice(0, 300)}`);
+  }
+
+  const data = await res.json();
+  return extractJson(responseText(data));
+}
+
+async function translateMissing(items) {
+  if (!OPENAI_API_KEY) {
+    console.log('OPENAI_API_KEY not set; skipping Simplified Chinese translation.');
+    return { items, translated: 0 };
+  }
+
+  const targets = items.filter(needsTranslation).slice(0, TRANSLATE_MAX_PER_RUN);
+  if (!targets.length) return { items, translated: 0 };
+
+  const byId = new Map(items.map(item => [item.id, item]));
+  let translated = 0;
+  for (const batch of chunks(targets, TRANSLATE_BATCH_SIZE)) {
+    try {
+      const results = await translateBatch(batch);
+      for (const result of results) {
+        const item = byId.get(result.id);
+        if (!item) continue;
+        if (result.titleZh) item.titleZh = stripHtml(result.titleZh).slice(0, 220);
+        if (result.snippetZh) item.snippetZh = stripHtml(result.snippetZh).slice(0, 420);
+        if (item.titleZh || item.snippetZh) {
+          item.translatedAt = new Date().toISOString();
+          item.translationProvider = 'openai';
+          item.translationModel = OPENAI_TRANSLATE_MODEL;
+          translated += 1;
+        }
+      }
+    } catch (err) {
+      console.warn(`Translation batch skipped: ${err.message}`);
+    }
+  }
+
+  return { items, translated };
 }
 
 async function main() {
@@ -243,18 +354,30 @@ async function main() {
   for (const item of [...existing, ...fetched]) {
     const key = normalizeTitle(item.title);
     const current = byTitle.get(key);
-    if (!current || sortKey(item) > sortKey(current)) byTitle.set(key, item);
+    if (!current) {
+      byTitle.set(key, item);
+      continue;
+    }
+    const preferred = sortKey(item) > sortKey(current) ? { ...current, ...item } : { ...item, ...current };
+    preferred.titleZh = current.titleZh || item.titleZh || '';
+    preferred.snippetZh = current.snippetZh || item.snippetZh || '';
+    preferred.translatedAt = current.translatedAt || item.translatedAt || '';
+    preferred.translationProvider = current.translationProvider || item.translationProvider || '';
+    preferred.translationModel = current.translationModel || item.translationModel || '';
+    byTitle.set(key, preferred);
   }
 
   const oldIds = new Set(existing.map(item => item.id));
-  const merged = [...byTitle.values()]
+  let merged = [...byTitle.values()]
     .sort((a, b) => sortKey(b) - sortKey(a))
-    .slice(0, MAX_ITEMS)
-    .map(({ score, ...item }) => item);
+    .slice(0, MAX_ITEMS);
+
+  const translation = await translateMissing(merged);
+  merged = translation.items.map(({ score, ...item }) => item);
 
   const newCount = merged.filter(item => !oldIds.has(item.id)).length;
   await fs.writeFile(FEED_PATH, JSON.stringify(merged, null, 2) + '\n');
-  console.log(`Fetched ${fetched.length} relevant items, appended ${newCount} new items, stored ${merged.length} total relevant items.`);
+  console.log(`Fetched ${fetched.length} relevant items, appended ${newCount} new items, translated ${translation.translated} items, stored ${merged.length} total relevant items.`);
 }
 
 main().catch(err => {
