@@ -2,25 +2,38 @@ import fs from 'node:fs/promises';
 import crypto from 'node:crypto';
 
 const FEED_PATH = 'data/news-feed.json';
-const MAX_ITEMS = 500;
-const PER_SOURCE_LIMIT = 8;
+const MAX_ITEMS = 350;
+const PER_SOURCE_LIMIT = 10;
 
 const SOURCES = [
-  { category: 'US & Global AI', source: 'TechCrunch AI', url: 'https://techcrunch.com/category/artificial-intelligence/feed/' },
-  { category: 'US & Global AI', source: 'Ars Technica AI', url: 'https://arstechnica.com/ai/feed/' },
-  { category: 'US & Global AI', source: 'MIT Technology Review', url: 'https://www.technologyreview.com/feed/' },
-  { category: 'China AI', source: 'SCMP Tech', url: 'https://www.scmp.com/rss/5/feed' },
-  { category: 'China AI', source: 'Pandaily', url: 'https://pandaily.com/feed/' },
-  { category: 'China AI', source: 'Reuters Technology', url: 'https://feeds.reuters.com/reuters/technologyNews' },
-  { category: 'AI Hardware', source: 'The Verge AI', url: 'https://www.theverge.com/ai-artificial-intelligence/rss/index.xml' },
-  { category: 'AI Hardware', source: "Tom's Hardware", url: 'https://www.tomshardware.com/feeds/all' },
-  { category: 'AI Hardware', source: 'Ars Technica Gadgets', url: 'https://arstechnica.com/gadgets/feed/' },
-  { category: 'Other AI Tech', source: 'VentureBeat AI', url: 'https://venturebeat.com/category/ai/feed/' },
-  { category: 'Other AI Tech', source: 'MIT News AI', url: 'https://news.mit.edu/topic/artificial-intelligence2/feed' },
-  { category: 'Other AI Tech', source: 'arXiv AI', url: 'https://rss.arxiv.org/rss/cs.AI' },
-  { category: 'AI Policy & Safety', source: 'Future of Life Institute', url: 'https://futureoflife.org/feed/' },
-  { category: 'AI Policy & Safety', source: 'TechCrunch Policy', url: 'https://techcrunch.com/category/policy/feed/' },
-  { category: 'AI Policy & Safety', source: 'MIT Technology Review', url: 'https://www.technologyreview.com/feed/' }
+  { category: 'US & Global AI', source: 'TechCrunch AI', url: 'https://techcrunch.com/category/artificial-intelligence/feed/', strict: false },
+  { category: 'US & Global AI', source: 'Ars Technica AI', url: 'https://arstechnica.com/ai/feed/', strict: false },
+  { category: 'US & Global AI', source: 'MIT Technology Review', url: 'https://www.technologyreview.com/feed/', strict: true },
+  { category: 'China AI', source: 'Pandaily', url: 'https://pandaily.com/feed/', strict: true },
+  { category: 'China AI', source: 'SCMP Tech', url: 'https://www.scmp.com/rss/5/feed', strict: true },
+  { category: 'AI Hardware', source: 'Tom\'s Hardware', url: 'https://www.tomshardware.com/feeds/all', strict: true },
+  { category: 'AI Hardware', source: 'The Verge AI', url: 'https://www.theverge.com/ai-artificial-intelligence/rss/index.xml', strict: true },
+  { category: 'Other AI Tech', source: 'VentureBeat AI', url: 'https://venturebeat.com/category/ai/feed/', strict: false },
+  { category: 'Other AI Tech', source: 'MIT News AI', url: 'https://news.mit.edu/topic/artificial-intelligence2/feed', strict: false },
+  { category: 'Other AI Tech', source: 'arXiv AI', url: 'https://rss.arxiv.org/rss/cs.AI', strict: false },
+  { category: 'AI Policy & Safety', source: 'Future of Life Institute', url: 'https://futureoflife.org/feed/', strict: true },
+  { category: 'AI Policy & Safety', source: 'TechCrunch Policy', url: 'https://techcrunch.com/category/policy/feed/', strict: true }
+];
+
+const INCLUDE_TERMS = [
+  'ai', 'artificial intelligence', 'machine learning', 'deep learning', 'llm', 'large language model',
+  'claude', 'chatgpt', 'openai', 'anthropic', 'gemini', 'google deepmind', 'mistral', 'meta ai',
+  'deepseek', 'qwen', 'kimi', 'zhipu', 'bytedance', 'baidu', 'alibaba', 'tencent', 'kuaishou',
+  'agent', 'agents', 'agentic', 'automation', 'robot', 'robotics', 'embodied', 'autonomous',
+  'gpu', 'nvidia', 'amd', 'intel', 'tsmc', 'semiconductor', 'chip', 'chips', 'accelerator', 'hbm',
+  'data center', 'datacenter', 'model', 'inference', 'training', 'reasoning', 'alignment', 'safety',
+  'regulation', 'policy', 'copyright', 'benchmark', 'codex', 'claude code', 'cursor', 'windsurf'
+];
+
+const EXCLUDE_TERMS = [
+  'taylor swift', 'travis kelce', 'ebola', 'heatwave', 'earthquake', 'wildfire', 'forest fire',
+  'football', 'basketball', 'playstation', 'half-life', 'gaming keyboard', 'keyboard review',
+  'mouse review', 'holiday parade', 'celebrity', 'wedding', 'shark species', 'seafood'
 ];
 
 function decodeEntities(text = '') {
@@ -32,6 +45,7 @@ function decodeEntities(text = '') {
     .replace(/&quot;/g, '"')
     .replace(/&#39;/g, "'")
     .replace(/&#x27;/g, "'")
+    .replace(/&#8217;/g, '’')
     .trim();
 }
 
@@ -60,10 +74,19 @@ function itemBlocks(xml) {
   return [...xml.matchAll(/<entry[\s\S]*?<\/entry>/gi)].map(m => m[0]);
 }
 
+function normalizeTitle(title = '') {
+  return stripHtml(title)
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .replace(/\b(the|a|an|to|of|and|or|for|with|in|on|at|from|by|is|are)\b/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 function stableId(item) {
   return crypto
     .createHash('sha256')
-    .update(`${item.link || ''}|${item.title || ''}|${item.source || ''}`)
+    .update(`${item.link || ''}|${normalizeTitle(item.title)}|${item.source || ''}`)
     .digest('hex')
     .slice(0, 16);
 }
@@ -73,13 +96,26 @@ function parseDate(value) {
   return Number.isNaN(date.getTime()) ? '' : date.toISOString();
 }
 
+function relevanceScore(item, strict) {
+  const text = `${item.title || ''} ${item.snippet || ''}`.toLowerCase();
+  if (EXCLUDE_TERMS.some(term => text.includes(term))) return -10;
+  let score = 0;
+  for (const term of INCLUDE_TERMS) {
+    if (text.includes(term)) score += term.length > 8 ? 2 : 1;
+  }
+  if (/\b(ai|llm|gpu)\b/i.test(text)) score += 2;
+  if (item.category === 'AI Hardware' && /(gpu|nvidia|amd|intel|tsmc|chip|semiconductor|hbm|accelerator|ai pc)/i.test(text)) score += 3;
+  if (item.category === 'China AI' && /(deepseek|qwen|kimi|zhipu|alibaba|tencent|baidu|bytedance|kuaishou|huawei|china.*ai|ai.*china)/i.test(text)) score += 3;
+  return strict ? score : Math.max(score, 1);
+}
+
 function parseFeed(xml, feed) {
   return itemBlocks(xml).slice(0, PER_SOURCE_LIMIT).map(block => {
     const title = stripHtml(tag(block, 'title')) || 'Untitled';
     const link = stripHtml(tag(block, 'link')) || atomLink(block) || '#';
     const publishedAt = parseDate(tag(block, 'pubDate') || tag(block, 'published') || tag(block, 'updated'));
     const rawSnippet = tag(block, 'description') || tag(block, 'summary') || tag(block, 'content');
-    const snippet = stripHtml(rawSnippet).slice(0, 220);
+    const snippet = stripHtml(rawSnippet).slice(0, 260);
     const item = {
       id: '',
       title,
@@ -88,11 +124,13 @@ function parseFeed(xml, feed) {
       category: feed.category,
       publishedAt,
       fetchedAt: new Date().toISOString(),
-      snippet
+      snippet,
+      score: 0
     };
+    item.score = relevanceScore(item, feed.strict);
     item.id = stableId(item);
     return item;
-  });
+  }).filter(item => item.score > 0);
 }
 
 async function fetchSource(feed) {
@@ -102,7 +140,7 @@ async function fetchSource(feed) {
     const res = await fetch(feed.url, {
       signal: controller.signal,
       headers: {
-        'user-agent': 'ai-learning-jomnaik-news-bot/1.0 (+https://github.com/shensiongchoo-art/ai-learning-jomnaik)'
+        'user-agent': 'ai-learning-jomnaik-news-bot/1.1 (+https://github.com/shensiongchoo-art/ai-learning-jomnaik)'
       }
     });
     if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
@@ -130,25 +168,42 @@ function sortKey(item) {
   return new Date(item.publishedAt || item.fetchedAt || 0).getTime();
 }
 
+function keepRelevantExisting(item) {
+  const category = item.category || 'Other AI Tech';
+  const strict = ['China AI', 'AI Hardware', 'AI Policy & Safety'].includes(category);
+  const cleaned = {
+    ...item,
+    title: stripHtml(item.title || 'Untitled'),
+    snippet: stripHtml(item.snippet || '').slice(0, 260),
+    category,
+    source: item.source || 'Unknown source'
+  };
+  cleaned.score = relevanceScore(cleaned, strict);
+  cleaned.id = item.id || stableId(cleaned);
+  return cleaned.score > 0 ? cleaned : null;
+}
+
 async function main() {
   await fs.mkdir('data', { recursive: true });
-  const existing = await readExisting();
+  const existing = (await readExisting()).map(keepRelevantExisting).filter(Boolean);
   const fetched = (await Promise.all(SOURCES.map(fetchSource))).flat();
 
-  const byId = new Map();
-  for (const item of existing) byId.set(item.id || stableId(item), item);
-  let newCount = 0;
-  for (const item of fetched) {
-    if (!byId.has(item.id)) newCount += 1;
-    byId.set(item.id, { ...byId.get(item.id), ...item });
+  const byTitle = new Map();
+  for (const item of [...existing, ...fetched]) {
+    const key = normalizeTitle(item.title);
+    const current = byTitle.get(key);
+    if (!current || sortKey(item) > sortKey(current)) byTitle.set(key, item);
   }
 
-  const merged = [...byId.values()]
+  const oldIds = new Set(existing.map(item => item.id));
+  const merged = [...byTitle.values()]
     .sort((a, b) => sortKey(b) - sortKey(a))
-    .slice(0, MAX_ITEMS);
+    .slice(0, MAX_ITEMS)
+    .map(({ score, ...item }) => item);
 
+  const newCount = merged.filter(item => !oldIds.has(item.id)).length;
   await fs.writeFile(FEED_PATH, JSON.stringify(merged, null, 2) + '\n');
-  console.log(`Fetched ${fetched.length} items, appended ${newCount} new items, stored ${merged.length} total items.`);
+  console.log(`Fetched ${fetched.length} relevant items, appended ${newCount} new items, stored ${merged.length} total relevant items.`);
 }
 
 main().catch(err => {
