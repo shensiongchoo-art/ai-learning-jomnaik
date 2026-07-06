@@ -21,7 +21,10 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Fetch and append AI news
+      - name: Fetch, translate, and append AI news
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_TRANSLATE_MODEL: ${{ vars.OPENAI_TRANSLATE_MODEL || 'gpt-5.5' }}
         run: node scripts/fetch-ai-news.mjs
 
       - name: Commit updated news feed
