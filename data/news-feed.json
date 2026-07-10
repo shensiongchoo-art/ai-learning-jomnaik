@@ -1,5 +1,302 @@
 [
   {
+    "id": "2efc802379a709ce",
+    "title": "Humanoid Robot Performs First Live Surgery: Unitree G1 Completes Gallbladder Removal on Living Subject",
+    "link": "https://pandaily.com/unitree-g1-robot-gallbladder-surgery-jul2026",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-07-10T03:03:41.000Z",
+    "fetchedAt": "2026-07-10T03:35:43.049Z",
+    "snippet": "A modified Unitree G1 humanoid robot successfully performed laparoscopic cholecystectomy on a living subject, marking the first time a general-purpose humanoid has completed live surgery.",
+    "images": [
+      "https://cms-image.pandaily.com/1/unitree_g1_surgery_9c6acecef7.png"
+    ]
+  },
+  {
+    "id": "0629cb8c499edfe4",
+    "title": "Global AI Market Shift: Why Developers Are Choosing Cost-Efficient Models",
+    "link": "https://pandaily.com/global-ai-cost-efficiency-shift-deepseek-zhipu-qwen-jul2026",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-07-10T02:37:58.000Z",
+    "fetchedAt": "2026-07-10T03:35:43.050Z",
+    "snippet": "Cost-efficient AI models from DeepSeek, Zhipu AI, and Qwen have captured over 20% of OpenRouter's weekly token share, signaling a structural shift in how developers choose AI infrastructure.",
+    "images": [
+      "https://cms-image.pandaily.com/1/article2_3111ff8807.png"
+    ]
+  },
+  {
+    "id": "ad1e77cd316be743",
+    "title": "Dexmal Launches Embodied MaaS and DexOS, Solving Model Scaling Into Real-World Scenarios",
+    "link": "https://pandaily.com/dexmal-embodied-maas-dexos-model-jul2026",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-07-10T02:12:48.000Z",
+    "fetchedAt": "2026-07-10T03:35:43.050Z",
+    "snippet": "Dexmal unveils DM0.5 foundation model, DexOS operating system, and embodied MaaS platform at Action developer conference, aiming to create the Android of robotics.",
+    "images": [
+      "https://cms-image.pandaily.com/1/article5_b1b2800630.png"
+    ]
+  },
+  {
+    "id": "f6ffce6dbb7e3e56",
+    "title": "One Rises, One Falls on Lock-Up Expiry Day: The Divergent Paths of Zhipu AI and MiniMax",
+    "link": "https://pandaily.com/zhipu-minimax-lockup-expiry-divergence-jul2026",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-07-10T02:12:37.000Z",
+    "fetchedAt": "2026-07-10T03:35:43.050Z",
+    "snippet": "Zhipu AI shares surged 13% while MiniMax plunged 18% on lock-up expiry, reflecting fundamentally different business models and market confidence in China's two leading AI companies.",
+    "images": [
+      "https://cms-image.pandaily.com/1/article1_f0da167872.png"
+    ]
+  },
+  {
+    "id": "4a9e6c5b4d15ca71",
+    "title": "Market Cap Down 60%, Insta360 Announces Robot Ambition With CameraMan Concept",
+    "link": "https://pandaily.com/insta360-cameraman-robot-ambition-jul2026",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-07-10T02:10:40.000Z",
+    "fetchedAt": "2026-07-10T03:35:43.050Z",
+    "snippet": "Insta360 unveils CameraMan robot vision on its 11th anniversary, positioning it as an intelligent photography robot integrating six years of AI chip, camera, and audio technology development.",
+    "images": [
+      "https://cms-image.pandaily.com/1/article4_8adc18ad42.png"
+    ]
+  },
+  {
+    "id": "5755f10da56161ae",
+    "title": "OpenAI says GPT 5.6 is the &#8216;preferred model’ for Microsoft Copilot 365 amid breakup chatter",
+    "link": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-07-10T00:16:54.000Z",
+    "fetchedAt": "2026-07-10T03:35:43.046Z",
+    "snippet": "OpenAI's new family of models will continue to power Microsoft's suite of workplace and productivity apps.",
+    "images": []
+  },
+  {
+    "id": "f7249b8907fc9f13",
+    "title": "Fidji Simo steps down from OpenAI’s no. 2 role",
+    "link": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-07-09T23:38:00.000Z",
+    "fetchedAt": "2026-07-10T03:35:43.046Z",
+    "snippet": "OpenAI's No. 2 executive, Fidji Simo, is stepping down from her full-time role after her medical leave proved longer than expected — a leadership vacuum that comes at a tricky time as the company eyes a possible IPO and races to catch Anthropic in the enterpri",
+    "images": []
+  },
+  {
+    "id": "39b6440851ebfc4b",
+    "title": "Iran mourners defiant as Khamenei buried: ‘only revenge can soothe the pain’",
+    "link": "https://www.scmp.com/news/world/middle-east/article/3360040/iran-mourners-defiant-khamenei-burial-only-revenge-can-soothe-pain?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-07-09T22:55:15.000Z",
+    "fetchedAt": "2026-07-10T03:35:43.649Z",
+    "snippet": "Iran on Friday laid to rest its former supreme leader Ali Khamenei over four months after his killing in an air strike, as two days of US and Iranian attacks raised fears of a return to all-out war. Khamenei’s flag-covered coffin was carried aloft into the shr",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/10/538a51fc-b41d-47d0-b7b6-0a77db9a9f93_57e36ddc.jpg?itok=VoK0voss&v=1783637713"
+    ]
+  },
+  {
+    "id": "5f2244b612da8d0f",
+    "title": "OpenAI launches its new family of models with GPT-5.6",
+    "link": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-07-09T22:24:24.000Z",
+    "fetchedAt": "2026-07-10T03:35:43.046Z",
+    "snippet": "OpenAI's latest family of models promises improvements across a range of areas, including cybersecurity.",
+    "images": []
+  },
+  {
+    "id": "e305d5bc3d0d579c",
+    "title": "An AI agent startup just let its agent run its $100M fundraise",
+    "link": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-07-09T22:08:58.000Z",
+    "fetchedAt": "2026-07-10T03:35:43.046Z",
+    "snippet": "Lyzr, a startup that builds AI agents for enterprises, used its own AI agent to raise a $100 million round — proof, evidently, that the product actually works.",
+    "images": []
+  },
+  {
+    "id": "6d53c05578b2b42e",
+    "title": "OpenAI is shutting down Atlas, but its AI browser ambitions are still growing",
+    "link": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-07-09T22:03:54.000Z",
+    "fetchedAt": "2026-07-10T03:35:43.046Z",
+    "snippet": "OpenAI is sunsetting its AI-powered browser after less than a year. But it's moving some agentic browsing features to its desktop app and a Chrome extension.",
+    "images": []
+  },
+  {
+    "id": "c49140235ace236c",
+    "title": "Elon Musk praises Mythos/Fable, promises not to &#8216;cut off’ Anthropic",
+    "link": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-07-09T21:57:42.000Z",
+    "fetchedAt": "2026-07-10T03:35:43.046Z",
+    "snippet": "Should Anthropic trust Elon Musk to host its models? With about $40 billion in revenue at stake, Musk insists that the company can.",
+    "images": []
+  },
+  {
+    "id": "cab6a55bf7f284c8",
+    "title": "Can AI answer the $3 trillion question?",
+    "link": "https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-07-09T21:47:50.000Z",
+    "fetchedAt": "2026-07-10T03:35:43.046Z",
+    "snippet": "The AI ROI debate has returned and the numbers are even bigger, as are, perhaps, the consequences.",
+    "images": []
+  },
+  {
+    "id": "dba43f26208ff21c",
+    "title": "OpenAI wants its new tool to do your work for you and with you",
+    "link": "https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you/",
+    "source": "Ars Technica AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-07-09T21:25:55.000Z",
+    "fetchedAt": "2026-07-10T03:35:43.083Z",
+    "snippet": "Rebranded Codex promises independent workflows that can run \"for hours if needed.\"",
+    "images": [
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/07/gptwork-1152x648-1783630571.webp",
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/07/gptwork-500x500-1783630553.webp"
+    ]
+  },
+  {
+    "id": "885ee04f15c59a40",
+    "title": "Anthropic found a hidden space where Claude puzzles over concepts",
+    "link": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
+    "source": "MIT Technology Review",
+    "category": "US & Global AI",
+    "publishedAt": "2026-07-09T20:22:28.000Z",
+    "fetchedAt": "2026-07-10T03:35:43.014Z",
+    "snippet": "The AI firm Anthropic has developed a technique that has given it the clearest glimpse yet at what’s really going on inside large language models as they answer questions or carry out tasks. What they found ranges from the mundane to the unnerving. Researchers",
+    "images": [
+      "https://wp.technologyreview.com/wp-content/uploads/2026/07/Screenshot-2026-07-09-at-20.29.29.png?w=180"
+    ]
+  },
+  {
+    "id": "20083553b9eee4c8",
+    "title": "Humanoid robots controlled by surgeons did world-first operation on live pigs",
+    "link": "https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs/",
+    "source": "Ars Technica AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-07-09T20:12:03.000Z",
+    "fetchedAt": "2026-07-10T03:35:43.083Z",
+    "snippet": "Preclinical trial is testing the feasibility of humanoid robots in surgery.",
+    "images": [
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/07/humanoid-robot-surgeons-1152x648.png",
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/07/humanoid-robot-surgeons-500x500.png"
+    ]
+  },
+  {
+    "id": "59adcacb9c5df847",
+    "title": "Meta enters the crowded AI coding battle with Muse Spark 1.1",
+    "link": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-07-09T19:40:45.000Z",
+    "fetchedAt": "2026-07-10T03:35:43.046Z",
+    "snippet": "Meta's pitch to users is Spark's ability to handle large agentic workloads, fix bugs, and help with large code migrations — the kind of automation that enterprises are increasingly turning to AI companies to provide.",
+    "images": []
+  },
+  {
+    "id": "ceef22e2523f42a3",
+    "title": "New York Times says OpenAI hid evidence in ChatGPT copyright trial",
+    "link": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-07-09T19:05:58.000Z",
+    "fetchedAt": "2026-07-10T03:35:43.047Z",
+    "snippet": "News publishers say OpenAI hid tools and datasets that could identify copyrighted journalism in ChatGPT outputs, escalating their lawsuit with a new motion for sanctions.",
+    "images": []
+  },
+  {
+    "id": "b17ea1de2b2479eb",
+    "title": "OpenAI may have made a fatal misstep in copyright fight with news orgs",
+    "link": "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/",
+    "source": "Ars Technica AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-07-09T18:57:53.000Z",
+    "fetchedAt": "2026-07-10T03:35:43.083Z",
+    "snippet": "OpenAI may be sanctioned for hiding, deleting ChatGPT logs in NYT copyright fight.",
+    "images": [
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2270682238-1152x648.jpg",
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2270682238-500x500.jpg"
+    ]
+  },
+  {
+    "id": "6501a5a1d7dad1dd",
+    "title": "Google will now disclose which ads are made with AI",
+    "link": "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-07-09T18:40:51.000Z",
+    "fetchedAt": "2026-07-10T03:35:43.047Z",
+    "snippet": "While Google prohibits misleading and deceptive ads, an ad can still leverage AI to create some type of synthetic or digitally altered content. Until now, that's something Google only required election ads to disclose.",
+    "images": []
+  },
+  {
+    "id": "d7005a25c3a46042",
+    "title": "Turkish president’s ‘unusual’ gift to Nato leaders: 1 revolver, 6 bullets",
+    "link": "https://www.scmp.com/news/world/europe/article/3360035/turkish-presidents-unusual-gift-nato-leaders-1-revolver-6-bullets?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-07-09T17:15:39.000Z",
+    "fetchedAt": "2026-07-10T03:35:43.649Z",
+    "snippet": "What does a world leader do with a gun and six bullets? That was the conundrum Nato leaders faced after the Turkish president offered them each a revolver after the Ankara summit. Several leaders said they had only discovered the contents of President Recep Ta",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/10/0f44bbd1-603b-461e-81c9-378a46d4d9e2_9a82b808.jpg?itok=HVkzJGNS&v=1783619735"
+    ]
+  },
+  {
+    "id": "071845cf0c018dbc",
+    "title": "Florida airport renamed for Trump in latest push to expand his brand",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3360034/florida-airport-renamed-trump-latest-push-expand-his-brand?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-07-09T16:41:53.000Z",
+    "fetchedAt": "2026-07-10T03:35:43.649Z",
+    "snippet": "A Florida airport was renamed after Donald Trump on Thursday, accelerating a push by the US president and supporters to plaster his name and image on everything from national landmarks to banknotes. “This will soon be one of the Greatest and Most Spectacular A",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/10/c03a98a3-dd14-403c-b2ed-adc5c5a14e29_d56364ad.jpg?itok=jK9ZhEOY&v=1783620380"
+    ]
+  },
+  {
+    "id": "f4b1096dd70673cb",
+    "title": "Ingenious father fixes dead RTX 3070 with a jerry-rigged capacitor from an old radio — Saves worried son $120 in repair costs, GPU 'works better than before' now",
+    "link": "https://www.tomshardware.com/pc-components/gpus/ingenious-father-fixes-dead-rtx-3070-with-a-jerry-rigged-capacitor-from-an-old-radio-saves-worried-son-usd120-in-repair-costs-gpu-works-better-than-before-now",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-07-09T15:53:52.000Z",
+    "fetchedAt": "2026-07-10T03:35:43.338Z",
+    "snippet": "A Russian family has just saved the house $120 in GPU repairs after the father fixed it with a salvaged capacitor from an old radio.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/veSRcVMhTD6JwsMkdSNiSD-1280-80.jpg"
+    ]
+  },
+  {
+    "id": "f4c3390d01cb1349",
+    "title": "While the U.S. flip-flops on chip sanctions, China is building its own chip supply market — export controls are creating conditions for a Sino-Russian chip trade alliance",
+    "link": "https://www.tomshardware.com/tech-industry/while-the-u-s-flip-flops-on-chip-sanctions-china-is-building-its-own-chip-supply-market-export-controls-are-creating-conditions-for-a-sino-russian-chip-trade-alliance",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-07-09T15:24:39.000Z",
+    "fetchedAt": "2026-07-10T03:35:43.338Z",
+    "snippet": "As the U.S. makes up its mind on export controls for Chinese chips, China has been developing its own supply chain, and associated trade network.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/TcVPgWQ9UJ8tyoKuGfeHZV-1280-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/ANu9aBzADbe49opeKu4gnP.jpg",
+      "https://cdn.mos.cms.futurecdn.net/7MZMURSJPtmeHiTyUkVCZE.png"
+    ]
+  },
+  {
     "id": "2c3baa56680e048a",
     "title": "Anthropic’s new Claude feature is quietly selling you on AI",
     "link": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/",
@@ -8,7 +305,12 @@
     "publishedAt": "2026-07-09T14:53:09.000Z",
     "fetchedAt": "2026-07-09T15:15:50.488Z",
     "snippet": "Claude’s new Reflect dashboard doesn’t just visualize how you use AI. It also subtly reinforces how much of your daily work now depends on Anthropic’s chatbot.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a387fcfa8123bcd6",
@@ -21,6 +323,24 @@
     "snippet": "A court in Hungary on Thursday sentenced an Irish citizen to 14 years in prison for strangling an American tourist to death in the country’s capital in 2024. The victim, 31-year-old Mackenzie Michalski from Portland, Oregon, was in Hungary on holiday and repor",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/09/68d19ba1-9a91-4082-9e6f-98a5fb2590fe_80cf53b4.jpg?itok=qDmr2_N-&v=1783608776"
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "2eb95e7f279f07c1",
+    "title": "Irish man gets 14 years’ jail for killing US tourist in Hungary in ‘intimate encounter’",
+    "link": "https://www.scmp.com/news/world/europe/article/3360031/irish-man-gets-14-years-jail-killing-us-tourist-hungary?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-07-09T14:52:59.000Z",
+    "fetchedAt": "2026-07-10T03:35:43.649Z",
+    "snippet": "A court in Hungary on Thursday sentenced an Irish citizen to 14 years in prison for strangling an American tourist to death in the country’s capital in 2024. The victim, 31-year-old Mackenzie Michalski from Portland, Oregon, was in Hungary on holiday and repor",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/10/68d19ba1-9a91-4082-9e6f-98a5fb2590fe_8984eb27.jpg?itok=pK1tiKKb&v=1783632976"
     ]
   },
   {
@@ -32,7 +352,12 @@
     "publishedAt": "2026-07-09T14:51:00.000Z",
     "fetchedAt": "2026-07-09T15:15:50.489Z",
     "snippet": "Three big AI IPOs are set to generate more value than all the U.S. VC backed exits since 2000.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "8fb9f5a4b0b02b92",
@@ -45,7 +370,12 @@
     "snippet": "AMD's quiet revival of older Ryzen processors continues, with the Ryzen 7 4700LE now appearing in a prebuilt gaming desktop priced at $799.99.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/rCiXwPTcMSwJqsP8z2SLnf-1280-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "bdcacbdfba3af28a",
@@ -59,7 +389,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/rxLeKvgEq52xDLyGj6HuGA-1280-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/jrxHvZyRPTnNco8ChdmqMJ.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "486afc96f7aa766b",
@@ -72,7 +407,12 @@
     "snippet": "Nvidia is creating a set of collectible trading cards that will be given away for free during live events and giveaways this summer.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/BZwK7AtoTXWwUJYz5heZX6-1280-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "2a2e5f9119b4ff2e",
@@ -85,7 +425,12 @@
     "snippet": "A Brown University professor suspected that almost his entire class cheated on take-home mid-term exams using AI tools after they scored unusually high. In-person final exams showed that only two students scored within 10% of their midterm score, with just one",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/jHH4vHTLmR7MgroUYTY4F4-1280-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "5f8d816544e8e89c",
@@ -98,7 +443,12 @@
     "snippet": "Nvidia and Sega have scheduled an event next week to celebrate their history and longstanding friendship.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/dSAk9RQSC9eyGYPAaBcL9k-1280-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "fffa42b287e353ae",
@@ -109,7 +459,12 @@
     "publishedAt": "2026-07-09T13:00:00.000Z",
     "fetchedAt": "2026-07-09T15:15:50.489Z",
     "snippet": "Benchmark-backed Ollama has amassed 176,000 stars, and nearly 17,000 forks on GitHub by helping developers easily run AI on their PCs.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "5c942e6484bd619b",
@@ -120,7 +475,12 @@
     "publishedAt": "2026-07-09T13:00:00.000Z",
     "fetchedAt": "2026-07-09T15:15:50.490Z",
     "snippet": "In an interesting twist that takes advantage of the company's core product, users can chat with these shows' characters, ask them questions, and even roleplay different storylines.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "6b428ca84dd3e7b5",
@@ -134,7 +494,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/eZV796hTDov6DGLQmbVpGD-1280-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/foKjm6VD93KrYY8reBrf3S.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "ffc15d8456308e14",
@@ -147,7 +512,12 @@
     "snippet": "FTC clearance to acquire Mesh Optical hands Musk the missing layer between Terafab's chips and Gigasat's satellites, amid tightening interconnect AI bottleneck",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/9J3HRQh4jNkfiJ9NVYkEjG-1280-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "6453f8e159e59210",
@@ -157,10 +527,15 @@
     "category": "China AI",
     "publishedAt": "2026-07-09T12:30:06.000Z",
     "fetchedAt": "2026-07-09T15:15:51.118Z",
-    "snippet": "The proliferation of artificial intelligence models and the increasing parity in their performance suggest they are becoming a commodity. Soon, AI services will be priced by cost rather than the uniqueness of their model. With electricity the main cost of the ",
+    "snippet": "The proliferation of artificial intelligence models and the increasing parity in their performance suggest they are becoming a commodity. Soon, AI services will be priced by cost rather than the uniqueness of their model. With electricity the main cost of the",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/08/8a00b6ab-269d-4575-94f0-35e5c7206179_d6a8a411.jpg?itok=dSO2xxwc&v=1783482047"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "36a750900b55dc41",
@@ -170,10 +545,15 @@
     "category": "US & Global AI",
     "publishedAt": "2026-07-09T12:10:00.000Z",
     "fetchedAt": "2026-07-09T15:15:50.515Z",
-    "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Four nuclear reactors hit a big milestone in the US —Casey Crownhart I was really looking forward to July 4, and not just ",
+    "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Four nuclear reactors hit a big milestone in the US —Casey Crownhart I was really looking forward to July 4, and not just",
     "images": [
       "https://wp.technologyreview.com/wp-content/uploads/2025/02/Photomontage-1.jpg?w=3000"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a0ebc5b6ddfb690f",
@@ -184,7 +564,12 @@
     "publishedAt": "2026-07-09T12:00:00.000Z",
     "fetchedAt": "2026-07-09T15:15:50.490Z",
     "snippet": "Nilekani remains Fundamentum's anchor investor as the firm expands its leadership team and targets AI and fintech startups in India.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "b694c0eeecf5e6e7",
@@ -197,7 +582,12 @@
     "snippet": "Attackers can exploit how AI bots hallucinate software URLs to create massive botnets. The vulnerability is endemic to every model.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/iBu6BXKDx9eNtLPFhAZHXh-1280-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "7ed21a1e230b6e4c",
@@ -210,7 +600,12 @@
     "snippet": "A German court on Thursday handed down a 10-year prison sentence to a 26-year-old man who fatally assaulted a train conductor during a ticket inspection in the western state of Rhineland-Palatinate five months ago. The court sitting in Zweibrücken found that t",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/09/990cf242-e698-4903-83b0-a73b0721b908_2de474d6.jpg?itok=Jit8rPji&v=1783595430"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "093f6371d8880f1e",
@@ -223,7 +618,12 @@
     "snippet": "Unitree pursues affordable industrial-scale humanoids while UBTECH targets ultra-realistic luxury consumer robots, representing two competing visions for embodied AI commercialization.",
     "images": [
       "https://cms-image.pandaily.com/1/article4_095fb8987a.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "0010fb904aa2720b",
@@ -236,7 +636,12 @@
     "snippet": "China private nuclear fusion sector surges as multiple startups adopt differentiated technical routes, driven by AI energy demand and policy support, targeting demonstration reactors by 2030.",
     "images": [
       "https://cms-image.pandaily.com/1/article2_05d149956c.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "8adb3adc312ac45b",
@@ -249,7 +654,12 @@
     "snippet": "Huawei Mate 90 series set for September launch with HarmonyOS 7 and a new Kirin chip using Tao's Law LogicFolding technology, achieving 53.5% transistor density improvement.",
     "images": [
       "https://cms-image.pandaily.com/1/article3_6587d36c4e.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "146335ecee59521f",
@@ -262,7 +672,12 @@
     "snippet": "ByteDance Seed team releases Seedream 5.0 Pro with complex information visualization, precise editing, real photography质感, and native multilingual generation across 17 test scenarios.",
     "images": [
       "https://cms-image.pandaily.com/1/article1_69f026a363.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "411de0591da63250",
@@ -273,7 +688,12 @@
     "publishedAt": "2026-07-09T04:00:00.000Z",
     "fetchedAt": "2026-07-09T15:15:50.882Z",
     "snippet": "arXiv:2607.06624v1 Announce Type: new Abstract: We present AgentLens, a production-assessed benchmark for interactive code agents. Most code-agent benchmarks reduce a run to a single bit -- did the task pass? -- but the people who actually use these agents exp",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "6179e71ebac4d0f7",
@@ -284,7 +704,12 @@
     "publishedAt": "2026-07-09T04:00:00.000Z",
     "fetchedAt": "2026-07-09T15:15:50.883Z",
     "snippet": "arXiv:2607.06720v1 Announce Type: new Abstract: Training large language models (LLMs) with extended reasoning has enabled in-context search, in which models iteratively generate, critique, and revise solution attempts. We provide a theoretical analysis of in-c",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "52d03b8a2a105826",
@@ -295,7 +720,12 @@
     "publishedAt": "2026-07-09T04:00:00.000Z",
     "fetchedAt": "2026-07-09T15:15:50.883Z",
     "snippet": "arXiv:2607.06757v1 Announce Type: new Abstract: Agent-based modeling (ABM) has the capability to model millions of individuals and their interactions, which is useful for policy making. However, ABMs have traditionally relied on static prior, which prevents th",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "95d4bc371ecc4fbb",
@@ -306,7 +736,12 @@
     "publishedAt": "2026-07-09T04:00:00.000Z",
     "fetchedAt": "2026-07-09T15:15:50.883Z",
     "snippet": "arXiv:2607.06760v1 Announce Type: new Abstract: Autonomous systems under partial observability act on beliefs, not raw sensor events. QANTIS treats the quantum processor as a calibrated belief-update service in that loop: it receives a prior and an observation",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "81e25dae684ed6e7",
@@ -316,8 +751,13 @@
     "category": "Other AI Tech",
     "publishedAt": "2026-07-09T04:00:00.000Z",
     "fetchedAt": "2026-07-09T15:15:50.883Z",
-    "snippet": "arXiv:2607.06764v1 Announce Type: new Abstract: Recent progress on ARC-AGI-1 from disclosed architectures has come broadly from two regimes: heavy test-time compute over frontier models (evolutionary search, exhaustive sampling, extended chain-of-thought), or ",
-    "images": []
+    "snippet": "arXiv:2607.06764v1 Announce Type: new Abstract: Recent progress on ARC-AGI-1 from disclosed architectures has come broadly from two regimes: heavy test-time compute over frontier models (evolutionary search, exhaustive sampling, extended chain-of-thought), or",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "cf98a11e7deac764",
@@ -328,7 +768,12 @@
     "publishedAt": "2026-07-09T04:00:00.000Z",
     "fetchedAt": "2026-07-09T15:15:50.883Z",
     "snippet": "arXiv:2607.06820v1 Announce Type: new Abstract: Recent advances in AI for Mathematics have focused largely on autoformalization and theorem proving, leaving the role of Computer Algebra Systems (CAS) in agentic LLM workflows underexplored. We propose a ReAct-s",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "596bf598ec4f2281",
@@ -339,7 +784,12 @@
     "publishedAt": "2026-07-09T04:00:00.000Z",
     "fetchedAt": "2026-07-09T15:15:50.883Z",
     "snippet": "arXiv:2607.06906v1 Announce Type: new Abstract: Agentic AI development today runs on token maxing: buying capability with tokens -- longer reasoning traces, more turns, wider tool payloads, bigger replayed contexts -- so tokens per task grow faster than task v",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e3a6406660382c46",
@@ -350,7 +800,12 @@
     "publishedAt": "2026-07-09T04:00:00.000Z",
     "fetchedAt": "2026-07-09T15:15:50.883Z",
     "snippet": "arXiv:2607.06925v1 Announce Type: new Abstract: Compact world models that condition on a language goal promise to ground relations such as ``put the red block left of the blue block'' using a sparse set of explicit \\emph{reference anchors}. We ask when such re",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e5e666f79518d52e",
@@ -361,7 +816,12 @@
     "publishedAt": "2026-07-09T04:00:00.000Z",
     "fetchedAt": "2026-07-09T15:15:50.883Z",
     "snippet": "arXiv:2607.06993v1 Announce Type: new Abstract: Customer behavior modeling underpins recommendation, marketing, and decision support, yet existing approaches either optimize predictive accuracy without explaining decisions or simulate users without grounding t",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "6e78692dfaae0e0f",
@@ -372,7 +832,12 @@
     "publishedAt": "2026-07-09T04:00:00.000Z",
     "fetchedAt": "2026-07-09T15:15:50.883Z",
     "snippet": "arXiv:2607.07021v1 Announce Type: new Abstract: Humans continuously coordinate with others in dynamic interactions, often through implicit, hard-to-quantify social norms that act as shared tacit expectations among interacting agents. As AI agents, including la",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "f1217b01d468527b",
