@@ -2,20 +2,30 @@
 
 Static AI literacy learning hub with an AI News Hub.
 
-## Mandarin translation
+## Translations
 
-The English lessons remain the source pages at the repository root. Simplified Chinese versions live under `zh-CN/` with matching filenames, for example:
+The English lessons remain the source pages at the repository root. Translated versions live under locale folders with matching filenames:
 
 - `index.html` ↔ `zh-CN/index.html`
+- `index.html` ↔ `ms-MY/index.html`
 - `module_10_claude_code.html` ↔ `zh-CN/module_10_claude_code.html`
+- `module_10_claude_code.html` ↔ `ms-MY/module_10_claude_code.html`
 
-Each lesson loads `assets/language-switcher.js`, which adds a fixed English/简体中文 switcher pointing to the matching page. Translation style guidance lives in `docs/TRANSLATION_GUIDE.md`.
+Each lesson loads `assets/language-switcher.js`, which adds an English / 简体中文 / Bahasa Melayu selector pointing to the matching page. Translation style guidance lives in `docs/TRANSLATION_GUIDE.md`.
+
+The shared switcher also includes a light color mode toggle while preserving the original page styling as the default.
 
 Run the locale check before publishing translation changes:
 
 ```bash
 node scripts/validate-locales.mjs
 ```
+
+## Curriculum freshness model
+
+The AI News Hub is the current-events layer. Core lessons should stay focused on mandatory fundamentals: LLMs, tokens, context, hallucination, prompting, system prompts, RAG, memory, APIs, agents, safety, and comparison literacy.
+
+Use news as a signal for review, not as an automatic lesson rewrite. The detailed update policy is in `docs/CONTENT_UPDATE_PLAN.md`.
 
 ## AI News Hub scheduled feed
 

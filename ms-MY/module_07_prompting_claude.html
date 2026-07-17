@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ms-MY">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prompting Claude - AI Learning JomNaik</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #111827 0%, #172554 48%, #312e81 100%);
+      color: #f8fafc;
+      font-family: "Segoe UI", Arial, sans-serif;
+      line-height: 1.6;
+    }
+    .container {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 76px 0 40px;
+    }
+    header {
+      margin-bottom: 28px;
+      padding: 28px;
+      border: 1px solid rgba(255,255,255,.18);
+      border-radius: 8px;
+      background: rgba(15,23,42,.74);
+      box-shadow: 0 12px 36px rgba(0,0,0,.2);
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 5vw, 4rem);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+    h2, h3 { margin-top: 0; letter-spacing: 0; }
+    p { margin: 0 0 14px; }
+    a { color: #93c5fd; }
+    .subtitle { max-width: 760px; color: #dbeafe; font-size: 1.08rem; }
+    .eyebrow, .module-kicker, .module-number {
+      display: inline-block;
+      margin-bottom: 10px;
+      color: #bfdbfe;
+      font-size: .78rem;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .hero-panel, .note-box, .lesson-card, .quiz-box, .module-nav, .module-card {
+      border: 1px solid rgba(255,255,255,.16);
+      border-radius: 8px;
+      background: rgba(15,23,42,.72);
+      box-shadow: 0 10px 28px rgba(0,0,0,.18);
+    }
+    .hero-panel, .note-box, .quiz-box { padding: 24px; margin-bottom: 22px; }
+    .module-grid, .lesson-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+      margin-bottom: 22px;
+    }
+    .module-card, .lesson-card {
+      display: block;
+      padding: 22px;
+      color: inherit;
+      text-decoration: none;
+    }
+    .module-card:hover, .module-card:focus-visible {
+      transform: translateY(-2px);
+      outline: 2px solid #93c5fd;
+      outline-offset: 2px;
+    }
+    .quiz-item {
+      margin: 0 0 16px;
+      padding: 16px;
+      border: 1px solid rgba(255,255,255,.14);
+      border-radius: 8px;
+    }
+    .quiz-item legend { padding: 0 8px; font-weight: 800; }
+    .quiz-item label { display: block; margin-top: 8px; cursor: pointer; }
+    .primary-button {
+      border: 0;
+      border-radius: 8px;
+      background: #2563eb;
+      color: #fff;
+      cursor: pointer;
+      font-weight: 800;
+      padding: 12px 16px;
+    }
+    .quiz-result { margin-top: 12px; font-weight: 800; }
+    .module-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: space-between;
+      padding: 18px;
+    }
+    .module-nav a {
+      color: #bfdbfe;
+      font-weight: 800;
+      text-decoration: none;
+    }
+    @media (max-width: 640px) {
+      .container { width: min(100% - 20px, 1120px); padding-top: 68px; }
+      header, .hero-panel, .note-box, .lesson-card, .quiz-box { padding: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Prompting Claude</h1>
+      <p class="subtitle">Tulis arahan yang jelas supaya Claude atau model lain faham matlamat kerja.</p>
+    </header>
+
+      <p class="module-kicker">Modul 07</p>
+      <section class="lesson-grid">
+
+        <article class="lesson-card">
+          <h2>Struktur asas</h2>
+          <p>Prompt yang baik biasanya ada peranan, objektif, konteks, kekangan, format output, dan kriteria kejayaan. Jangan berharap model meneka semua perkara yang penting.</p>
+        </article>
+
+        <article class="lesson-card">
+          <h2>Beri bahan rujukan</h2>
+          <p>Jika jawapan perlu berdasarkan dokumen, tampal atau muat naik bahan relevan dan nyatakan bahawa model harus menggunakan bahan itu dahulu sebelum pengetahuan umum.</p>
+        </article>
+
+        <article class="lesson-card">
+          <h2>Minta proses yang boleh disemak</h2>
+          <p>Untuk tugasan kompleks, minta model senaraikan andaian, risiko, sumber yang digunakan, dan cadangan semakan. Elakkan meminta chain-of-thought penuh; minta ringkasan alasan yang boleh diaudit.</p>
+        </article>
+
+        <article class="lesson-card">
+          <h2>Iterasi</h2>
+          <p>Prompt pertama jarang sempurna. Bandingkan output dengan kriteria anda, kemudian baiki arahan dengan contoh, batasan, atau format yang lebih spesifik.</p>
+        </article>
+      </section>
+
+      <section class="quiz-box">
+        <h2>Kuiz ringkas</h2>
+
+        <fieldset class="quiz-item" data-answer="0">
+          <legend>Prompt baik patut ada...</legend>
+
+          <label><input type="radio" name="q0" value="0"> Objektif dan format output</label>
+          <label><input type="radio" name="q0" value="1"> Satu perkataan sahaja</label>
+          <label><input type="radio" name="q0" value="2"> Rahsia yang tidak perlu</label>
+        </fieldset>
+
+        <fieldset class="quiz-item" data-answer="0">
+          <legend>Untuk dokumen tertentu, model patut...</legend>
+
+          <label><input type="radio" name="q1" value="0"> Diberi bahan rujukan yang relevan</label>
+          <label><input type="radio" name="q1" value="1"> Meneka tanpa bahan</label>
+          <label><input type="radio" name="q1" value="2"> Mengabaikan semua sumber</label>
+        </fieldset>
+
+        <fieldset class="quiz-item" data-answer="0">
+          <legend>Untuk alasan, lebih baik minta...</legend>
+
+          <label><input type="radio" name="q2" value="0"> Ringkasan alasan dan andaian</label>
+          <label><input type="radio" name="q2" value="1"> Chain-of-thought penuh wajib</label>
+          <label><input type="radio" name="q2" value="2"> Jawapan tanpa semakan</label>
+        </fieldset>
+        <button class="primary-button" type="button" onclick="checkQuiz()">Semak jawapan</button>
+        <p id="quiz-result" class="quiz-result" aria-live="polite"></p>
+      </section>
+
+      <nav class="module-nav" aria-label="Navigasi modul">
+        <a href="module_06_who_is_claude.html">← Modul sebelumnya</a>
+        <a href="index.html">Semua modul</a>
+        <a href="module_08_projects_memory.html">Modul seterusnya →</a>
+      </nav>
+
+  </main>
+  <script src="../assets/language-switcher.js" data-locale="ms-MY"></script>
+  <script>
+      function checkQuiz() {
+        const items = document.querySelectorAll('.quiz-item');
+        let score = 0;
+        items.forEach(item => {
+          const checked = item.querySelector('input:checked');
+          if (checked && checked.value === item.dataset.answer) score += 1;
+        });
+        const result = document.getElementById('quiz-result');
+        result.textContent = 'Skor anda: ' + score + '/' + items.length + '. ' + (score === items.length ? 'Bagus, teruskan ke modul seterusnya.' : 'Semak semula nota di atas dan cuba lagi.');
+      }
+    </script>
+</body>
+</html>

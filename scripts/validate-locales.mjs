@@ -22,7 +22,17 @@ const lessonFiles = [
   ][i]}.html`),
 ];
 
+const locales = [
+  { code: 'en', dir: '', lang: 'en', scriptPath: 'assets/language-switcher.js' },
+  { code: 'zh-CN', dir: 'zh-CN', lang: 'zh-CN', scriptPath: '../assets/language-switcher.js' },
+  { code: 'ms-MY', dir: 'ms-MY', lang: 'ms-MY', scriptPath: '../assets/language-switcher.js' },
+];
+
 const failures = [];
+
+function relFor(locale, file) {
+  return locale.dir ? `${locale.dir}/${file}` : file;
+}
 
 function read(relPath) {
   return fs.readFileSync(path.join(root, relPath), 'utf8');
@@ -104,33 +114,33 @@ function checkScriptSyntax(relPath, html) {
   }
 }
 
-for (const file of lessonFiles) {
-  const zhFile = `zh-CN/${file}`;
-  if (!exists(file)) fail(file, 'missing English lesson file');
-  if (!exists(zhFile)) fail(zhFile, 'missing Chinese lesson file');
-  if (!exists(file) || !exists(zhFile)) continue;
-
-  const en = read(file);
-  const zh = read(zhFile);
-
-  if (!/<html\s+lang=["']en["']/.test(en)) fail(file, 'expected html lang="en"');
-  if (!/<html\s+lang=["']zh-CN["']/.test(zh)) fail(zhFile, 'expected html lang="zh-CN"');
-
-  if (!/assets\/language-switcher\.js["'][^>]*data-locale=["']en["']/.test(en)) {
-    fail(file, 'missing English language switcher script');
-  }
-  if (!/\.\.\/assets\/language-switcher\.js["'][^>]*data-locale=["']zh-CN["']/.test(zh)) {
-    fail(zhFile, 'missing Chinese language switcher script');
-  }
-
-  checkLocalRefs(file, en);
-  checkLocalRefs(zhFile, zh);
-  checkScriptSyntax(file, en);
-  checkScriptSyntax(zhFile, zh);
+function hasScript(html, src, localeCode) {
+  const escaped = src.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return new RegExp(`${escaped}["'][^>]*data-locale=["']${localeCode}["']`).test(html);
 }
 
-if (!exists('assets/language-switcher.js')) {
-  fail('assets/language-switcher.js', 'missing shared language switcher');
+for (const file of lessonFiles) {
+  for (const locale of locales) {
+    const relPath = relFor(locale, file);
+    if (!exists(relPath)) {
+      fail(relPath, `missing ${locale.code} lesson file`);
+      continue;
+    }
+
+    const html = read(relPath);
+    if (!new RegExp(`<html\\s+lang=["']${locale.lang}["']`).test(html)) {
+      fail(relPath, `expected html lang="${locale.lang}"`);
+    }
+    if (!hasScript(html, locale.scriptPath, locale.code)) {
+      fail(relPath, `missing ${locale.code} language switcher script`);
+    }
+    checkLocalRefs(relPath, html);
+    checkScriptSyntax(relPath, html);
+  }
+}
+
+for (const asset of ['assets/language-switcher.js']) {
+  if (!exists(asset)) fail(asset, 'missing shared asset');
 }
 
 if (failures.length) {
@@ -139,4 +149,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log(`Locale validation passed for ${lessonFiles.length} English pages and ${lessonFiles.length} Chinese pages.`);
+console.log(`Locale validation passed for ${lessonFiles.length} pages across ${locales.length} locales.`);

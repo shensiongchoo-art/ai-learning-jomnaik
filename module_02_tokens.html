@@ -320,7 +320,7 @@ function tokenize() {
 
   display.innerHTML = tokens.map((t, i) => {
     const c = COLORS[t.color];
-    return `<span class="token-chip" 
+    return `<span class="token-chip"
       style="background:${c.bg};border-color:${c.border};color:${c.text};"
       onclick="showTooltip(${i}, ${JSON.stringify(t.text).replace(/"/g, '&quot;')}, ${tokens.length})"
       >${t.text}</span>`;

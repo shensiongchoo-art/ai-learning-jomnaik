@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ms-MY">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Context Window - AI Learning JomNaik</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #111827 0%, #172554 48%, #312e81 100%);
+      color: #f8fafc;
+      font-family: "Segoe UI", Arial, sans-serif;
+      line-height: 1.6;
+    }
+    .container {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 76px 0 40px;
+    }
+    header {
+      margin-bottom: 28px;
+      padding: 28px;
+      border: 1px solid rgba(255,255,255,.18);
+      border-radius: 8px;
+      background: rgba(15,23,42,.74);
+      box-shadow: 0 12px 36px rgba(0,0,0,.2);
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 5vw, 4rem);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+    h2, h3 { margin-top: 0; letter-spacing: 0; }
+    p { margin: 0 0 14px; }
+    a { color: #93c5fd; }
+    .subtitle { max-width: 760px; color: #dbeafe; font-size: 1.08rem; }
+    .eyebrow, .module-kicker, .module-number {
+      display: inline-block;
+      margin-bottom: 10px;
+      color: #bfdbfe;
+      font-size: .78rem;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .hero-panel, .note-box, .lesson-card, .quiz-box, .module-nav, .module-card {
+      border: 1px solid rgba(255,255,255,.16);
+      border-radius: 8px;
+      background: rgba(15,23,42,.72);
+      box-shadow: 0 10px 28px rgba(0,0,0,.18);
+    }
+    .hero-panel, .note-box, .quiz-box { padding: 24px; margin-bottom: 22px; }
+    .module-grid, .lesson-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+      margin-bottom: 22px;
+    }
+    .module-card, .lesson-card {
+      display: block;
+      padding: 22px;
+      color: inherit;
+      text-decoration: none;
+    }
+    .module-card:hover, .module-card:focus-visible {
+      transform: translateY(-2px);
+      outline: 2px solid #93c5fd;
+      outline-offset: 2px;
+    }
+    .quiz-item {
+      margin: 0 0 16px;
+      padding: 16px;
+      border: 1px solid rgba(255,255,255,.14);
+      border-radius: 8px;
+    }
+    .quiz-item legend { padding: 0 8px; font-weight: 800; }
+    .quiz-item label { display: block; margin-top: 8px; cursor: pointer; }
+    .primary-button {
+      border: 0;
+      border-radius: 8px;
+      background: #2563eb;
+      color: #fff;
+      cursor: pointer;
+      font-weight: 800;
+      padding: 12px 16px;
+    }
+    .quiz-result { margin-top: 12px; font-weight: 800; }
+    .module-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: space-between;
+      padding: 18px;
+    }
+    .module-nav a {
+      color: #bfdbfe;
+      font-weight: 800;
+      text-decoration: none;
+    }
+    @media (max-width: 640px) {
+      .container { width: min(100% - 20px, 1120px); padding-top: 68px; }
+      header, .hero-panel, .note-box, .lesson-card, .quiz-box { padding: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Context Window</h1>
+      <p class="subtitle">Ruang ingatan sementara yang model baca semasa satu perbualan atau tugasan.</p>
+    </header>
+
+      <p class="module-kicker">Modul 03</p>
+      <section class="lesson-grid">
+
+        <article class="lesson-card">
+          <h2>Definisi</h2>
+          <p>Context window ialah jumlah token yang boleh dibaca model pada satu masa. Ia termasuk arahan sistem, mesej pengguna, fail yang dimasukkan, sejarah perbualan, dan jawapan model.</p>
+        </article>
+
+        <article class="lesson-card">
+          <h2>Bukan memori kekal</h2>
+          <p>Konteks bukan sama dengan memory. Konteks ialah bahan dalam sesi semasa. Memory, jika tersedia dan dihidupkan, ialah ciri produk yang boleh menyimpan maklumat merentas sesi.</p>
+        </article>
+
+        <article class="lesson-card">
+          <h2>Apabila terlalu panjang</h2>
+          <p>Jika terlalu banyak bahan dimasukkan, maklumat penting boleh tertolak keluar, diringkaskan, atau kurang diberi perhatian. Ini boleh menyebabkan jawapan hilang fokus.</p>
+        </article>
+
+        <article class="lesson-card">
+          <h2>Amalan baik</h2>
+          <p>Letak objektif di awal, susun bahan dengan tajuk, nyatakan bahagian mana paling penting, dan minta model menyebut andaian sebelum menjawab.</p>
+        </article>
+      </section>
+
+      <section class="quiz-box">
+        <h2>Kuiz ringkas</h2>
+
+        <fieldset class="quiz-item" data-answer="0">
+          <legend>Context window ialah...</legend>
+
+          <label><input type="radio" name="q0" value="0"> Ruang token yang model boleh baca sekarang</label>
+          <label><input type="radio" name="q0" value="1"> Semua ilmu kekal model</label>
+          <label><input type="radio" name="q0" value="2"> Kelajuan internet</label>
+        </fieldset>
+
+        <fieldset class="quiz-item" data-answer="0">
+          <legend>Apa risiko konteks terlalu panjang?</legend>
+
+          <label><input type="radio" name="q1" value="0"> Maklumat penting boleh tenggelam</label>
+          <label><input type="radio" name="q1" value="1"> Model menjadi kalkulator sahaja</label>
+          <label><input type="radio" name="q1" value="2"> Semua jawapan jadi kosong</label>
+        </fieldset>
+
+        <fieldset class="quiz-item" data-answer="0">
+          <legend>Amalan baik ialah...</legend>
+
+          <label><input type="radio" name="q2" value="0"> Susun konteks dengan tajuk dan keutamaan</label>
+          <label><input type="radio" name="q2" value="1"> Campur semua topik tanpa struktur</label>
+          <label><input type="radio" name="q2" value="2"> Sembunyikan objektif</label>
+        </fieldset>
+        <button class="primary-button" type="button" onclick="checkQuiz()">Semak jawapan</button>
+        <p id="quiz-result" class="quiz-result" aria-live="polite"></p>
+      </section>
+
+      <nav class="module-nav" aria-label="Navigasi modul">
+        <a href="module_02_tokens.html">← Modul sebelumnya</a>
+        <a href="index.html">Semua modul</a>
+        <a href="module_04_temperature.html">Modul seterusnya →</a>
+      </nav>
+
+  </main>
+  <script src="../assets/language-switcher.js" data-locale="ms-MY"></script>
+  <script>
+      function checkQuiz() {
+        const items = document.querySelectorAll('.quiz-item');
+        let score = 0;
+        items.forEach(item => {
+          const checked = item.querySelector('input:checked');
+          if (checked && checked.value === item.dataset.answer) score += 1;
+        });
+        const result = document.getElementById('quiz-result');
+        result.textContent = 'Skor anda: ' + score + '/' + items.length + '. ' + (score === items.length ? 'Bagus, teruskan ke modul seterusnya.' : 'Semak semula nota di atas dan cuba lagi.');
+      }
+    </script>
+</body>
+</html>
