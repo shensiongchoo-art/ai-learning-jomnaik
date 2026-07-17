@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Module 3 — Context Window</title>
+<title>单元 3 — 上下文窗口</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: 'Segoe UI', sans-serif; background: #f0f4ff; color: #1a1a2e; }
+  body { font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; background: #f0f4ff; color: #1a1a2e; }
 
   .nav-bar {
     background: #16213e; padding: 10px 24px; display: flex;
@@ -159,7 +159,7 @@
 <body>
 
 <div class="nav-bar">
-  <a href="index.html">← Back to Home</a>
+  <a href="index.html">← 返回首页</a>
   <div class="progress-dots">
     <div class="dot done"></div>
     <div class="dot done"></div>
@@ -171,193 +171,193 @@
 </div>
 
 <div class="hero">
-  <div class="badge">Module 3</div>
-  <h1>The Context Window</h1>
-  <p>Why does the LLM sometimes forget what you said earlier? Meet the memory tank.</p>
+  <div class="badge">单元 3</div>
+  <h1>上下文窗口（context window）</h1>
+  <p>为什么 LLM 有时会忘记你之前说过的话？来认识它的“记忆鱼缸”。</p>
 </div>
 
 <div class="container">
 
-  <p class="section-title">The Story</p>
+  <p class="section-title">故事开始</p>
 
   <!-- Panel 1 -->
   <div class="panel">
-    <div class="panel-header">Panel 1 — The Goldfish Problem</div>
+    <div class="panel-header">第 1 幕 — 金鱼记忆问题</div>
     <div class="panel-body">
       <div class="scene">
         <div class="char">🐟</div>
-        <div class="char-label">The LLM's Memory</div>
+        <div class="char-label">LLM 的记忆</div>
       </div>
       <div class="speech-area">
         <div class="bubble narrator">
-          You might have heard the myth that goldfish have a 3-second memory. That's not quite true for fish — but it's a great way to think about LLMs.
+          你可能听过“金鱼只有三秒记忆”的说法。对真正的金鱼而言并不准确，但用来理解 LLM 却很形象。
         </div>
         <div class="bubble narrator">
-          An LLM doesn't have a permanent memory. Every conversation lives inside a <strong>tank</strong>. When the tank is full, old messages fall out — the LLM simply can't see them anymore.
+          LLM 的当前对话并没有无限记忆。每段对话都装在一个<strong>鱼缸</strong>里；鱼缸满了，旧消息就会被挤出去，LLM 也就看不见它们了。
         </div>
-        <span class="tag blue">Key concept: the tank = context window</span>
+        <span class="tag blue">核心概念：鱼缸 = 上下文窗口</span>
       </div>
     </div>
   </div>
 
   <!-- Panel 2 -->
   <div class="panel">
-    <div class="panel-header">Panel 2 — What's In the Tank?</div>
+    <div class="panel-header">第 2 幕 — 鱼缸里有什么？</div>
     <div class="panel-body">
       <div class="scene">
         <div class="char">💬</div>
-        <div class="char-label">Your Conversation</div>
+        <div class="char-label">你的对话</div>
       </div>
       <div class="speech-area">
         <div class="bubble narrator">
-          Every message in your conversation takes up space in the tank — your messages AND the LLM's replies. Even the instructions you give at the start live in the tank.
+          对话中的每条消息都会占用鱼缸空间，包括你的消息和 LLM 的回答。就连一开始给出的指令也在其中。
         </div>
         <div class="bubble user">
-          <div class="speaker">You said (message 1)</div>
-          "My name is Sarah. I'm a teacher."
+          <div class="speaker">你说（第 1 条消息）</div>
+          “我叫 Sarah，是一名老师。”
         </div>
         <div class="bubble llm">
-          <div class="speaker">LLM replied</div>
-          "Hi Sarah! Great to meet a teacher. How can I help?"
+          <div class="speaker">LLM 回答</div>
+          “你好，Sarah！很高兴认识一位老师。有什么可以帮你？”
         </div>
-        <span class="tag green">Both messages now occupy tank space</span>
+        <span class="tag green">两条消息都会占用鱼缸空间</span>
       </div>
     </div>
   </div>
 
   <!-- Panel 3 -->
   <div class="panel">
-    <div class="panel-header">Panel 3 — The Tank Gets Full</div>
+    <div class="panel-header">第 3 幕 — 鱼缸满了</div>
     <div class="panel-body">
       <div class="scene">
         <div class="char">🌊</div>
-        <div class="char-label">Tank Overflow!</div>
+        <div class="char-label">鱼缸溢出了！</div>
       </div>
       <div class="speech-area">
         <div class="bubble narrator">
-          After many messages, the tank is full. The oldest messages — including "My name is Sarah" — fall out.
+          经过许多轮对话，鱼缸装满了。最旧的消息，包括“我叫 Sarah”，被挤了出去。
         </div>
         <div class="bubble user">
-          <div class="speaker">You ask (message 47)</div>
-          "Can you use my name in your reply?"
+          <div class="speaker">你问（第 47 条消息）</div>
+          “回答时可以称呼我的名字吗？”
         </div>
         <div class="bubble warning">
-          <div class="speaker">LLM replies (confused)</div>
-          "I don't see your name in our conversation. Could you remind me?"
+          <div class="speaker">LLM 困惑地回答</div>
+          “我在目前看到的对话中找不到你的名字，可以再告诉我一次吗？”
         </div>
-        <span class="tag orange">It's not being rude — it genuinely can't see that far back!</span>
+        <span class="tag orange">它不是故意无礼，而是真的看不到那么久以前的内容！</span>
       </div>
     </div>
   </div>
 
   <!-- Panel 4 -->
   <div class="panel">
-    <div class="panel-header">Panel 4 — Different Tanks for Different Models</div>
+    <div class="panel-header">第 4 幕 — 不同模型有不同大小的鱼缸</div>
     <div class="panel-body">
       <div class="scene">
         <div class="char">🪣</div>
-        <div class="char-label">Tank Sizes Vary</div>
+        <div class="char-label">容量各不相同</div>
       </div>
       <div class="speech-area">
         <div class="bubble narrator">
-          Different LLMs have different tank sizes. Some models can hold the equivalent of a short email. Others can hold an entire novel.
+          不同 LLM 的上下文容量不同。有些只能容纳较短内容，有些则能处理整本书甚至更多资料。
         </div>
         <div class="bubble narrator">
-          The size is measured in tokens (remember those Lego bricks from Module 2!). A common size is 128,000 tokens — roughly a full novel.
+          容量以词元计量，还记得单元 2 的乐高积木吗？模型版本不断更新，因此使用前应查看该模型最新的官方限制。
         </div>
-        <span class="tag green">Bigger tank = longer conversations without forgetting</span>
+        <span class="tag green">鱼缸越大，能保留的对话内容越多</span>
       </div>
     </div>
   </div>
 
   <!-- INTERACTIVE DEMO -->
-  <p class="section-title">Watch the Tank Fill Up</p>
+  <p class="section-title">观察鱼缸逐渐装满</p>
   <div class="tank-demo">
-    <h3>🐟 Memory Tank Simulator</h3>
-    <p>Add messages to the conversation and watch what happens when the tank gets full.</p>
+    <h3>🐟 记忆鱼缸模拟器</h3>
+    <p>不断加入消息，看看鱼缸装满后会发生什么。</p>
 
     <div class="tank-labels">
-      <span>Empty</span>
-      <span id="fillLabel">0 / 10 slots used</span>
-      <span>Full</span>
+      <span>空</span>
+      <span id="fillLabel">已使用 0／8 格</span>
+      <span>满</span>
     </div>
     <div class="tank-bar-bg">
       <div class="tank-bar-fill" id="tankFill" style="width:0%;background:#48bb78;">0%</div>
     </div>
     <div class="tank-legend">
-      <div class="legend-item"><div class="legend-dot" style="background:#48bb78;"></div> In memory</div>
-      <div class="legend-item"><div class="legend-dot" style="background:#fc8181;"></div> Forgotten</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#48bb78;"></div> 仍在上下文中</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#fc8181;"></div> 已被挤出</div>
     </div>
 
     <div class="messages-list" id="messageList"></div>
 
     <div>
-      <button class="add-btn" onclick="addMessage()">+ Add a message</button>
-      <button class="reset-btn" onclick="resetTank()">↺ Reset</button>
+      <button class="add-btn" onclick="addMessage()">+ 加入一条消息</button>
+      <button class="reset-btn" onclick="resetTank()">↺ 重置</button>
     </div>
   </div>
 
   <!-- COMPARISON TABLE -->
-  <p class="section-title">Context Windows in the Wild</p>
+  <p class="section-title">理解不同容量</p>
   <div class="compare-box">
-    <h3 style="font-size:1rem;margin-bottom:4px;">Rough guide to context window sizes</h3>
-    <p style="font-size:0.85rem;color:#666;margin-bottom:8px;">As of 2024 — models are growing their tanks all the time</p>
+    <h3 style="font-size:1rem;margin-bottom:4px;">上下文窗口容量的概念示意</h3>
+    <p style="font-size:0.85rem;color:#666;margin-bottom:8px;">产品限制变化很快；实际使用时请以对应模型的最新官方文档为准</p>
     <table>
-      <tr><th>Model</th><th>Context Window</th><th>Roughly equivalent to</th></tr>
-      <tr><td>GPT-3.5 (early)</td><td>4,096 tokens</td><td>~3 pages of text</td></tr>
-      <tr><td>GPT-4</td><td>128,000 tokens</td><td>~300 pages / a short novel</td></tr>
-      <tr><td>Claude (recent)</td><td>200,000 tokens</td><td>~500 pages / a long novel</td></tr>
-      <tr><td>Gemini 1.5 Pro</td><td>1,000,000 tokens</td><td>~2,500 pages / several books</td></tr>
+      <tr><th>容量层级</th><th>适合处理</th><th>需要注意</th></tr>
+      <tr><td>较小</td><td>短对话、电子邮件、短文</td><td>旧消息较快被挤出</td></tr>
+      <tr><td>中等</td><td>报告、长对话、多篇文章</td><td>仍需控制输入长度</td></tr>
+      <tr><td>较大</td><td>书籍、大型代码库、资料包</td><td>容量大不代表每个细节都同样受关注</td></tr>
+      <tr><td>超大</td><td>多本书或大规模资料集合</td><td>成本、延迟与检索策略依然重要</td></tr>
     </table>
   </div>
 
   <!-- KEY FACTS -->
-  <p class="section-title">Key Facts</p>
+  <p class="section-title">重点知识</p>
   <div class="key-facts">
-    <h3>What to remember about the Context Window</h3>
+    <h3>关于上下文窗口要记住什么</h3>
     <ul class="fact-list">
-      <li>The context window is the LLM's short-term memory — everything it can "see" in a conversation</li>
-      <li>It includes your messages AND the LLM's replies — both eat up tank space</li>
-      <li>When it's full, the oldest messages are dropped silently — the LLM won't warn you</li>
-      <li>Starting a new chat = emptying the tank. All memory is gone</li>
-      <li>Some tools (like Claude Projects) save context across sessions — but that's an add-on, not the default</li>
+      <li>上下文窗口就是 LLM 的短期工作记忆，也就是它当前能够“看见”的全部内容</li>
+      <li>你的消息和 LLM 的回答都会占用容量</li>
+      <li>容量不足时，应用可能截断、摘要或舍弃较旧内容；具体行为取决于产品</li>
+      <li>开始新对话通常意味着新的上下文，但某些产品会另行加入记忆功能</li>
+      <li>Claude Projects 等工具可以在对话之外保存说明或资料，但这和当前对话的上下文窗口并不是同一回事</li>
     </ul>
   </div>
 
   <!-- QUIZ -->
-  <p class="section-title">Quick Check</p>
+  <p class="section-title">快速测验</p>
   <div class="quiz-box">
-    <h3>🧠 You're in a long conversation and the LLM seems to have forgotten your name. Why?</h3>
+    <h3>🧠 长时间对话后，LLM 好像忘了你的名字。最可能是什么原因？</h3>
     <div class="quiz-options">
-      <button class="quiz-btn" onclick="answer3(this, false)">A) The LLM is being lazy and not paying attention</button>
-      <button class="quiz-btn" onclick="answer3(this, false)">B) There's a bug in the software</button>
-      <button class="quiz-btn" onclick="answer3(this, true)">C) Your earlier message fell outside the context window and the LLM can no longer see it</button>
-      <button class="quiz-btn" onclick="answer3(this, false)">D) The LLM deleted your message for privacy reasons</button>
+      <button class="quiz-btn" onclick="answer3(this, false)">A）LLM 变懒了，没有认真听</button>
+      <button class="quiz-btn" onclick="answer3(this, false)">B）软件一定出现了故障</button>
+      <button class="quiz-btn" onclick="answer3(this, true)">C）较早的消息已不在当前上下文窗口内，LLM 看不到了</button>
+      <button class="quiz-btn" onclick="answer3(this, false)">D）LLM 为保护隐私而主动删除了消息</button>
     </div>
     <div class="quiz-feedback" id="quiz-feedback3"></div>
   </div>
 
   <div class="next-bar">
-    <a href="module_02_tokens.html" class="btn secondary">← Module 2</a>
-    <a href="module_04_temperature.html" class="btn">Next: Temperature →</a>
+    <a href="module_02_tokens.html" class="btn secondary">← 单元 2</a>
+    <a href="module_04_temperature.html" class="btn">下一课：温度 →</a>
   </div>
 
 </div>
 
 <script>
 const MESSAGES = [
-  {who:"👤 You", text:"Hi! My name is Sarah and I'm a teacher."},
-  {who:"🤖 LLM", text:"Nice to meet you, Sarah! How can I help today?"},
-  {who:"👤 You", text:"I need help creating a lesson plan about volcanoes."},
-  {who:"🤖 LLM", text:"Great topic! Here are some ideas for a volcano lesson..."},
-  {who:"👤 You", text:"Can you make it suitable for 10 year olds?"},
-  {who:"🤖 LLM", text:"Absolutely! At age 10, hands-on experiments work well..."},
-  {who:"👤 You", text:"What about a quiz for the end of the lesson?"},
-  {who:"🤖 LLM", text:"Sure! Here are 5 quiz questions about volcanoes..."},
-  {who:"👤 You", text:"Can you write a summary email to send to parents?"},
-  {who:"🤖 LLM", text:"Of course! Here is a draft parent email..."},
-  {who:"👤 You", text:"Now use my name in your sign-off."},
-  {who:"🤖 LLM", text:"I'm sorry, I don't see your name in our conversation — could you remind me? (Sarah's message has fallen out of the tank!)"},
+  {who:"👤 你", text:"你好！我叫 Sarah，是一名老师。"},
+  {who:"🤖 LLM", text:"很高兴认识你，Sarah！今天有什么可以帮你？"},
+  {who:"👤 你", text:"我需要设计一堂关于火山的课。"},
+  {who:"🤖 LLM", text:"很棒的主题！这里有一些火山课程构思……"},
+  {who:"👤 你", text:"可以调整成适合十岁孩子的内容吗？"},
+  {who:"🤖 LLM", text:"当然！十岁学生通常很适合动手实验……"},
+  {who:"👤 你", text:"课程结尾可以加一个小测验吗？"},
+  {who:"🤖 LLM", text:"可以！这里有五道关于火山的测验题……"},
+  {who:"👤 你", text:"可以写一封发给家长的课程摘要邮件吗？"},
+  {who:"🤖 LLM", text:"没问题！这是家长邮件的初稿……"},
+  {who:"👤 你", text:"现在请在落款中使用我的名字。"},
+  {who:"🤖 LLM", text:"抱歉，我在目前看到的对话中找不到你的名字，可以再告诉我吗？（Sarah 的消息已经被挤出鱼缸了！）"},
 ];
 
 let currentIdx = 0;
@@ -397,7 +397,7 @@ function addMessage() {
   else fill.style.background = '#e94560';
 
   const inMemory = Math.min(currentIdx, MAX_VISIBLE);
-  document.getElementById('fillLabel').textContent = inMemory + ' / ' + MAX_VISIBLE + ' slots used';
+  document.getElementById('fillLabel').textContent = '已使用 ' + inMemory + '／' + MAX_VISIBLE + ' 格';
 }
 
 function resetTank() {
@@ -406,7 +406,7 @@ function resetTank() {
   document.getElementById('tankFill').style.width = '0%';
   document.getElementById('tankFill').style.background = '#48bb78';
   document.getElementById('tankFill').textContent = '0%';
-  document.getElementById('fillLabel').textContent = '0 / ' + MAX_VISIBLE + ' slots used';
+  document.getElementById('fillLabel').textContent = '已使用 0／' + MAX_VISIBLE + ' 格';
 }
 
 function answer3(btn, isCorrect) {
@@ -416,14 +416,14 @@ function answer3(btn, isCorrect) {
   if (isCorrect) {
     btn.classList.add('correct');
     feedback.className = 'quiz-feedback show correct';
-    feedback.innerHTML = '✅ Exactly! The context window is finite. Once it fills up, older messages get dropped. The LLM isn\'t forgetting — it simply can\'t see those messages anymore. Try the tank simulator above to watch it happen!';
+    feedback.innerHTML = '✅ 完全正确！上下文窗口容量有限。装满之后，较旧消息可能被移出当前上下文。LLM 不是故意忘记，而是已经看不到那些内容。可以用上面的鱼缸模拟器观察这个过程。';
   } else {
     btn.classList.add('wrong');
     feedback.className = 'quiz-feedback show wrong';
-    feedback.innerHTML = '💡 The answer is C. There\'s no bug and no privacy deletion — it\'s just that the context window has a size limit. When it fills up, the oldest messages fall off the bottom. The LLM only "sees" what\'s currently in the tank.';
+    feedback.innerHTML = '💡 正确答案是 C。不一定是故障，也不是为了隐私而删除；关键在于上下文窗口有容量限制。较早内容可能被截断、摘要或舍弃，LLM 只能根据当前收到的上下文回答。';
   }
 }
 </script>
-<script src="assets/language-switcher.js" data-locale="en"></script>
+<script src="../assets/language-switcher.js" data-locale="zh-CN"></script>
 </body>
 </html>

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Module 4 — Temperature</title>
+<title>单元 4 — 温度（temperature）</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: 'Segoe UI', sans-serif; background: #f0f4ff; color: #1a1a2e; }
+  body { font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; background: #f0f4ff; color: #1a1a2e; }
 
   .nav-bar { background: #16213e; padding: 10px 24px; display: flex; justify-content: space-between; align-items: center; }
   .nav-bar a { color: #a0aec0; text-decoration: none; font-size: 0.9rem; }
@@ -141,7 +141,7 @@
 <body>
 
 <div class="nav-bar">
-  <a href="index.html">← Back to Home</a>
+  <a href="index.html">← 返回首页</a>
   <div class="progress-dots">
     <div class="dot done"></div>
     <div class="dot done"></div>
@@ -153,145 +153,145 @@
 </div>
 
 <div class="hero">
-  <div class="badge">Module 4</div>
-  <h1>Temperature — Dial Up the Creativity</h1>
-  <p>Why does the same question sometimes get a boring answer and sometimes a brilliant one? Meet Temperature.</p>
+  <div class="badge">单元 4</div>
+  <h1>温度（temperature）— 调整创造力</h1>
+  <p>为什么同一个问题有时得到平淡答案，有时又充满创意？来认识模型设置中的“温度”。</p>
 </div>
 
 <div class="container">
 
-  <p class="section-title">The Analogy</p>
+  <p class="section-title">核心类比</p>
 
   <div class="panel">
-    <div class="panel-header">Panel 1 — The Two Chefs</div>
+    <div class="panel-header">第 1 幕 — 两位厨师</div>
     <div class="panel-body">
       <div class="scene">
         <div class="char">👨‍🍳</div>
-        <div class="char-label">Two Chefs, Same Kitchen</div>
+        <div class="char-label">同一个厨房，两位厨师</div>
       </div>
       <div class="speech-area">
         <div class="bubble narrator">
-          Imagine two chefs given the same task: "Make me something with chicken."
+          想象两位厨师接到同一个任务：“请用鸡肉做一道菜。”
         </div>
         <div class="bubble" style="background:#ebf8ff;border-color:#63b3ed;">
-          <strong>Chef Predictable (Low Temperature):</strong><br>
-          "Certainly. I'll make roast chicken with potatoes and gravy. Classic, reliable, exactly what you'd expect."
+          <strong>稳妥厨师（低温度）：</strong><br>
+          “好的，我来做马铃薯配烤鸡和肉汁。经典、可靠，正是你预期的味道。”
         </div>
         <div class="bubble" style="background:#fff5f5;border-color:#fc8181;">
-          <strong>Chef Creative (High Temperature):</strong><br>
-          "Ooh! Spicy mango chicken tacos with a lime-coconut drizzle and candied chilli flakes on top — trust me!"
+          <strong>创意厨师（高温度）：</strong><br>
+          “来试试香辣芒果鸡肉塔可，淋上青柠椰香酱，再撒焦糖辣椒碎——相信我！”
         </div>
-        <span class="tag cool">Low temp = safe & predictable</span>
-        <span class="tag hot" style="margin-left:6px;">High temp = creative & surprising</span>
+        <span class="tag cool">低温度 = 稳妥且较可预测</span>
+        <span class="tag hot" style="margin-left:6px;">高温度 = 更有创意与意外</span>
       </div>
     </div>
   </div>
 
   <div class="panel">
-    <div class="panel-header">Panel 2 — The Dial</div>
+    <div class="panel-header">第 2 幕 — 调节旋钮</div>
     <div class="panel-body">
       <div class="scene">
         <div class="char">🎛️</div>
-        <div class="char-label">The Temperature Setting</div>
+        <div class="char-label">温度设置</div>
       </div>
       <div class="speech-area">
         <div class="bubble narrator">
-          Temperature is a number, usually between 0 and 1 (sometimes up to 2).
+          温度是生成时使用的一个数值；不同模型与 API 允许的范围可能不同。
         </div>
         <div class="bubble narrator">
-          At <strong>temperature = 0</strong>, the LLM always picks the most likely next word. Completely predictable.
+          在<strong>较低温度</strong>下，模型更偏向选择概率较高的下一个词，因此输出通常更稳定。即使设为 0，也不应把所有系统都视为绝对可重复。
         </div>
         <div class="bubble narrator">
-          At <strong>temperature = 1+</strong>, the LLM picks more randomly — it rolls the dice and chooses less expected words. More surprising, more creative, but also more likely to go off-track.
+          在<strong>较高温度</strong>下，模型会给较少见的候选词更多机会，像增加掷骰子的变化；结果可能更惊喜、更有创意，也更容易偏离主题。
         </div>
-        <span class="tag warm">Neither is better — it depends what you need</span>
+        <span class="tag warm">没有绝对好坏，关键是任务需要什么</span>
       </div>
     </div>
   </div>
 
   <!-- INTERACTIVE SLIDER -->
-  <p class="section-title">Try the Dial</p>
+  <p class="section-title">试试调节旋钮</p>
   <div class="slider-demo">
-    <h3>🎛️ Temperature Explorer</h3>
-    <p>Drag the slider and see how the same prompt gets different responses at different temperature settings.</p>
+    <h3>🎛️ 温度探索器</h3>
+    <p>拖动滑杆，看看同一个提示词在不同温度下可能得到怎样的回答。</p>
 
     <div class="temp-display">
       <div class="temp-emoji" id="tempEmoji">🌡️</div>
       <div class="temp-value" id="tempValue">0.5</div>
-      <div class="temp-label" id="tempLabel">Balanced</div>
+      <div class="temp-label" id="tempLabel">平衡</div>
     </div>
 
     <div class="slider-row">
-      <span class="slider-label-left">❄️ 0.0<br>Predictable</span>
+      <span class="slider-label-left">❄️ 0.0<br>较可预测</span>
       <input type="range" id="tempSlider" min="0" max="20" value="10" oninput="updateTemp(this.value)">
-      <span class="slider-label-right">🔥 2.0<br>Wild</span>
+      <span class="slider-label-right">🔥 2.0<br>变化大胆</span>
     </div>
 
     <div class="prompt-display">
-      <strong>Prompt:</strong> "Write one sentence describing a sunset."
+      <strong>提示词：</strong>“用一句话描写日落。”
     </div>
 
-    <div class="response-label">LLM's response at this temperature:</div>
+    <div class="response-label">LLM 在这个温度下可能给出的回答：</div>
     <div class="response-box" id="responseBox"></div>
   </div>
 
   <!-- SCALE -->
-  <p class="section-title">When to Use What</p>
+  <p class="section-title">什么时候用什么温度</p>
   <div class="scale-box">
-    <h3 style="font-size:1rem;margin-bottom:4px;">Choosing the right temperature</h3>
-    <p style="font-size:0.85rem;color:#666;">Click each card to learn more</p>
+    <h3 style="font-size:1rem;margin-bottom:4px;">选择合适的温度</h3>
+    <p style="font-size:0.85rem;color:#666;">点击卡片查看更多说明</p>
     <div class="scale-grid">
       <div class="scale-item cool-item" onclick="showDetail('cold')">
         <div class="s-icon">❄️</div>
         <div class="s-temp" style="color:#2c5282;">0.0 – 0.3</div>
-        <div class="s-label"><strong>Precise & Safe</strong></div>
-        <div class="s-uses">Maths, code, facts, legal docs</div>
+        <div class="s-label"><strong>稳定、较保守</strong></div>
+        <div class="s-uses">数学、代码、事实整理、法律文件初审</div>
       </div>
       <div class="scale-item mid-item" onclick="showDetail('mid')">
         <div class="s-icon">🌤️</div>
         <div class="s-temp" style="color:#7b4f00;">0.4 – 0.7</div>
-        <div class="s-label"><strong>Balanced</strong></div>
-        <div class="s-uses">Emails, summaries, explanations</div>
+        <div class="s-label"><strong>平衡</strong></div>
+        <div class="s-uses">邮件、摘要、一般说明</div>
       </div>
       <div class="scale-item hot-item" onclick="showDetail('hot')">
         <div class="s-icon">🔥</div>
         <div class="s-temp" style="color:#822727;">0.8 – 2.0</div>
-        <div class="s-label"><strong>Creative & Wild</strong></div>
-        <div class="s-uses">Stories, poems, brainstorming</div>
+        <div class="s-label"><strong>创意、变化大</strong></div>
+        <div class="s-uses">故事、诗歌、头脑风暴</div>
       </div>
     </div>
     <div id="scaleDetail" style="margin-top:16px;padding:14px;background:#f7f9ff;border-radius:8px;font-size:0.88rem;display:none;"></div>
   </div>
 
   <!-- KEY FACTS -->
-  <p class="section-title">Key Facts</p>
+  <p class="section-title">重点知识</p>
   <div class="key-facts">
-    <h3>What to remember about Temperature</h3>
+    <h3>关于温度要记住什么</h3>
     <ul class="fact-list">
-      <li>Temperature controls how <strong>predictable vs. creative</strong> the LLM's output is</li>
-      <li>Low temperature = picks the safest, most expected word every time</li>
-      <li>High temperature = takes more risks, picks surprising words — great for creativity, risky for facts</li>
-      <li>Most LLM apps set a default temperature automatically — you often don't need to touch it</li>
-      <li>If the LLM gives boring, repetitive answers → try higher temperature. If it goes off-topic → lower it</li>
+      <li>温度会影响 LLM 输出偏向<strong>稳定还是多样</strong></li>
+      <li>较低温度让高概率词更占优势，输出通常较一致</li>
+      <li>较高温度让更多候选词有机会被选中，适合创意任务，但不适合借此提高事实准确性</li>
+      <li>多数聊天产品会自动设置采样参数，用户不一定能直接调节；API 开发者通常拥有更多控制</li>
+      <li>温度不是事实核查工具。无论设为多少，高风险内容都要验证</li>
     </ul>
   </div>
 
   <!-- QUIZ -->
-  <p class="section-title">Quick Check</p>
+  <p class="section-title">快速测验</p>
   <div class="quiz-box">
-    <h3>🧠 You're using an LLM to double-check a legal contract. What temperature setting is best?</h3>
+    <h3>🧠 你用 LLM 辅助检查法律合同，哪种温度设置更合适？</h3>
     <div class="quiz-options">
-      <button class="quiz-btn" onclick="answer4(this, true)">A) Low temperature — you want precise, consistent, predictable output</button>
-      <button class="quiz-btn" onclick="answer4(this, false)">B) High temperature — more creative answers might spot problems</button>
-      <button class="quiz-btn" onclick="answer4(this, false)">C) It doesn't matter — temperature only affects length of response</button>
-      <button class="quiz-btn" onclick="answer4(this, false)">D) Maximum temperature — legal language needs maximum variation</button>
+      <button class="quiz-btn" onclick="answer4(this, true)">A）较低温度，让输出更稳定一致；同时仍由专业人士核验</button>
+      <button class="quiz-btn" onclick="answer4(this, false)">B）较高温度，越有创意越容易发现问题</button>
+      <button class="quiz-btn" onclick="answer4(this, false)">C）无所谓，温度只影响回答长度</button>
+      <button class="quiz-btn" onclick="answer4(this, false)">D）最高温度，法律语言需要最大变化</button>
     </div>
     <div class="quiz-feedback" id="quiz-feedback4"></div>
   </div>
 
   <div class="next-bar">
-    <a href="module_03_context_window.html" class="btn secondary">← Module 3</a>
-    <a href="module_05_hallucination.html" class="btn">Next: Hallucination →</a>
+    <a href="module_03_context_window.html" class="btn secondary">← 单元 3</a>
+    <a href="module_05_hallucination.html" class="btn">下一课：幻觉 →</a>
   </div>
 
 </div>
@@ -299,19 +299,19 @@
 <script>
 const RESPONSES = {
   cold: [
-    "The sun set slowly below the horizon, casting long orange light across the sky.",
-    "The sky turned orange and red as the sun disappeared below the horizon.",
-    "The sunset painted the sky in shades of orange and pink.",
+    "太阳缓缓落到地平线下，橙色余晖铺满天空。",
+    "太阳消失在地平线后，天空染成橙红色。",
+    "日落把天空涂成橙色与粉红色。",
   ],
   mild: [
-    "As the sun dipped below the hills, the whole sky blushed from gold to deep violet.",
-    "The horizon burned with amber and rose as the last light of day melted away.",
-    "Golden light stretched across the clouds as evening swallowed the afternoon.",
+    "太阳沉入山后，整片天空从金色渐渐羞红成深紫。",
+    "白昼最后的光融化时，地平线燃起琥珀与玫瑰色。",
+    "金色光芒沿云层延伸，夜晚慢慢接过午后的天空。",
   ],
   hot: [
-    "The sky split open like a ripe mango—screaming tangerine, bruised plum, and one ridiculous streak of neon pink no painter would dare invent.",
-    "Twilight arrived uninvited, smearing its garish watercolours across the clouds like a child who just discovered the orange crayon.",
-    "The sun, finally fed up with the whole day, collapsed into the sea in a blaze of furious crimson and left the clouds to clean up the mess.",
+    "天空像熟透的芒果突然裂开，橘黄在呐喊、紫红在发亮，还有一道画家都不敢想象的霓虹粉。",
+    "黄昏不请自来，像刚发现橙色蜡笔的孩子，把夸张的水彩涂满云层。",
+    "太阳终于受够了漫长的一天，带着愤怒的绯红坠入海里，只留下云朵收拾残局。",
   ]
 };
 
@@ -322,13 +322,13 @@ function updateTemp(val) {
 
   let category, label, emoji, color;
   if (val <= 5) {
-    category = 'cold'; label = 'Precise & predictable'; emoji = '❄️';
+    category = 'cold'; label = '稳定、较可预测'; emoji = '❄️';
     color = 'linear-gradient(90deg, #bee3f8, #90cdf4)';
   } else if (val <= 13) {
-    category = 'mild'; label = 'Balanced'; emoji = '🌤️';
+    category = 'mild'; label = '平衡'; emoji = '🌤️';
     color = 'linear-gradient(90deg, #fef3c7, #fbd38d)';
   } else {
-    category = 'hot'; label = 'Creative & wild'; emoji = '🔥';
+    category = 'hot'; label = '创意、变化大'; emoji = '🔥';
     color = 'linear-gradient(90deg, #fed7d7, #fc8181)';
   }
 
@@ -346,9 +346,9 @@ function updateTemp(val) {
 }
 
 const DETAILS = {
-  cold: '❄️ <strong>Low Temperature (0.0–0.3)</strong>: Perfect for tasks where accuracy matters more than creativity. Code, maths, medical info, legal checks — anywhere a wrong word is a real problem.',
-  mid:  '🌤️ <strong>Balanced (0.4–0.7)</strong>: The sweet spot for most everyday tasks. Emails, summaries, Q&A, explanations — reliable but not robotic.',
-  hot:  '🔥 <strong>High Temperature (0.8–2.0)</strong>: Unleash the creative chef. Brainstorming, poetry, storytelling, naming things — great for when you want surprises. Watch out: it may stray from facts.',
+  cold: '❄️ <strong>较低温度（0.0～0.3）</strong>：适合强调稳定性的任务，例如代码、数学或结构化资料整理。医疗与法律等高风险内容仍须由专业人士验证。',
+  mid:  '🌤️ <strong>平衡温度（0.4～0.7）</strong>：适合多数日常任务，例如邮件、摘要、问答与说明，兼顾稳定和自然表达。',
+  hot:  '🔥 <strong>较高温度（0.8～2.0）</strong>：让创意厨师尽情发挥，适合头脑风暴、诗歌、故事与命名；但更可能偏离事实。',
 };
 
 function showDetail(type) {
@@ -363,17 +363,17 @@ function answer4(btn, isCorrect) {
   if (isCorrect) {
     btn.classList.add('correct');
     feedback.className = 'quiz-feedback show correct';
-    feedback.innerHTML = '✅ Correct! For precise, high-stakes tasks like legal contracts, you want the LLM to be predictable and consistent — not improvising. Low temperature = follow the recipe exactly.';
+    feedback.innerHTML = '✅ 正确！法律合同等高风险任务更需要稳定一致，而不是随意发挥，因此较低温度更合适。不过，LLM 只能辅助检查，最终仍应由合格专业人士审阅。';
   } else {
     btn.classList.add('wrong');
     feedback.className = 'quiz-feedback show wrong';
-    feedback.innerHTML = '💡 The answer is A. Legal work needs precision, not creativity. High temperature would make the LLM take unpredictable word choices — risky when exact meaning matters. Low temperature = stick to the recipe.';
+    feedback.innerHTML = '💡 正确答案是 A。法律工作重视精确而不是创意；较高温度会增加措辞变化，在准确含义非常重要时并不理想。低温度更像严格照着食谱做菜。';
   }
 }
 
 // Initialize
 updateTemp(10);
 </script>
-<script src="assets/language-switcher.js" data-locale="en"></script>
+<script src="../assets/language-switcher.js" data-locale="zh-CN"></script>
 </body>
 </html>

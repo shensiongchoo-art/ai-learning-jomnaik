@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Module 2 — Tokens</title>
+<title>单元 2 — 词元（token）</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: 'Segoe UI', sans-serif; background: #f0f4ff; color: #1a1a2e; }
+  body { font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; background: #f0f4ff; color: #1a1a2e; }
 
   .nav-bar {
     background: #16213e; padding: 10px 24px; display: flex;
@@ -171,7 +171,7 @@
 <body>
 
 <div class="nav-bar">
-  <a href="index.html">← Back to Home</a>
+  <a href="index.html">← 返回首页</a>
   <div class="progress-dots">
     <div class="dot done"></div>
     <div class="dot active"></div>
@@ -183,17 +183,17 @@
 </div>
 
 <div class="hero">
-  <div class="badge">Module 2</div>
-  <h1>Tokens — The Lego Bricks of Language</h1>
-  <p>LLMs don't read words. They read tiny pieces called tokens. Let's see them in action.</p>
+  <div class="badge">单元 2</div>
+  <h1>词元（token）— 语言的乐高积木</h1>
+  <p>LLM 不是按完整单词阅读，而是读取称为“词元”的小块。让我们看看它如何运作。</p>
 </div>
 
 <div class="container">
 
-  <p class="section-title">The Analogy</p>
+  <p class="section-title">核心类比</p>
   <div class="analogy-box">
     <p style="font-size:0.95rem;line-height:1.6;">
-      Think of a sentence like a Lego structure. You don't build with whole words — you build with <strong>bricks</strong>. An LLM breaks every sentence into small pieces (tokens) before it can read it. Some tokens are whole words. Some are just parts of words. Some are punctuation.
+      把句子想象成乐高模型。搭建时使用的不是完整单词，而是一块块<strong>积木</strong>。LLM 会先把句子拆成小块，也就是词元（token），然后才能处理。有些词元是完整单词，有些只是单词的一部分，还有些是标点符号。中文也可能按单字或常见词组拆分，具体方式取决于模型。
     </p>
     <div class="lego-grid">
       <div class="lego-brick">Chat</div>
@@ -207,69 +207,69 @@
       <div class="lego-brick blue">!</div>
     </div>
     <p style="font-size:0.82rem;color:#888;margin-top:12px;">
-      ↑ Each brick above is roughly one token. "unbelievable" splits into 3 bricks: "un" + "believ" + "able"
+      ↑ 上面的每块积木大致代表一个词元。“unbelievable”可能拆成 3 块：“un” + “believ” + “able”
     </p>
   </div>
 
   <!-- INTERACTIVE DEMO -->
-  <p class="section-title">Try It Yourself</p>
+  <p class="section-title">亲自试试看</p>
   <div class="demo-box">
-    <h3>🧱 Token Explorer</h3>
-    <p>Type any sentence and click "Break into tokens" to see how an LLM would read it.</p>
+    <h3>🧱 词元探索器</h3>
+    <p>输入中文或英文句子，再点击“拆成词元”，观察近似的拆分效果。真实结果会因模型而异。</p>
     <input class="sentence-input" type="text" id="inputText"
-      value="The quick brown fox jumps over the lazy dog."
-      placeholder="Type a sentence here...">
+      value="人工智能正在改变我们的学习方式。"
+      placeholder="在这里输入一句话……">
     <br>
-    <button class="tokenize-btn" onclick="tokenize()">Break into tokens →</button>
+    <button class="tokenize-btn" onclick="tokenize()">拆成词元 →</button>
     <div class="token-display" id="tokenDisplay"></div>
     <div class="stats-row" id="statsRow"></div>
     <div class="token-tooltip" id="tooltip"></div>
   </div>
 
   <!-- EXAMPLES TABLE -->
-  <p class="section-title">Real Examples</p>
+  <p class="section-title">实际示例</p>
   <div class="examples-box">
-    <h3 style="font-size:1rem;margin-bottom:4px;">How words split into tokens</h3>
-    <p style="font-size:0.85rem;color:#666;margin-bottom:8px;">Roughly speaking — actual splits vary by model</p>
+    <h3 style="font-size:1rem;margin-bottom:4px;">文字可能如何拆成词元</h3>
+    <p style="font-size:0.85rem;color:#666;margin-bottom:8px;">以下只是近似示意，实际拆分方式因模型而异</p>
     <table>
-      <tr><th>Word / Phrase</th><th>Approx. Tokens</th><th>Why?</th></tr>
-      <tr><td>cat</td><td>1 token</td><td>Short, common word — one brick</td></tr>
-      <tr><td>unbelievable</td><td>3 tokens</td><td>Long word — split: "un" + "believ" + "able"</td></tr>
-      <tr><td>ChatGPT</td><td>2 tokens</td><td>"Chat" + "GPT"</td></tr>
-      <tr><td>Hello, world!</td><td>4 tokens</td><td>"Hello" + "," + " world" + "!"</td></tr>
-      <tr><td>I love pizza</td><td>4 tokens</td><td>"I" + " love" + " pizza" — spaces count!</td></tr>
-      <tr><td>1000 words of text ≈</td><td>~750 tokens</td><td>A useful rule of thumb</td></tr>
+      <tr><th>文字／短语</th><th>近似词元数</th><th>原因</th></tr>
+      <tr><td>cat</td><td>1 个词元</td><td>简短常见的单词，可能是一块积木</td></tr>
+      <tr><td>unbelievable</td><td>3 个词元</td><td>较长单词可能拆为“un” + “believ” + “able”</td></tr>
+      <tr><td>ChatGPT</td><td>2 个词元</td><td>可能拆为“Chat” + “GPT”</td></tr>
+      <tr><td>Hello, world!</td><td>约 4 个词元</td><td>单词、逗号与感叹号都可能单独计数</td></tr>
+      <tr><td>人工智能</td><td>因模型而异</td><td>可能按单字拆，也可能把常见词组合在一起</td></tr>
+      <tr><td>1,000 个英文单词 ≈</td><td>约 750 个词元</td><td>仅适用于英文的粗略经验值；中文比例不同</td></tr>
     </table>
   </div>
 
   <!-- WHY IT MATTERS -->
-  <p class="section-title">Why Does This Matter?</p>
+  <p class="section-title">为什么这很重要？</p>
   <div class="why-box">
-    <h3>🧱 Why tokens matter to you</h3>
+    <h3>🧱 词元与你有什么关系</h3>
     <ul class="why-list">
-      <li>LLMs have a limit on how many tokens they can process at once — called the <strong>context window</strong> (we'll learn this in Module 3)</li>
-      <li>When you pay to use an LLM API, you pay per token — so longer messages cost more</li>
-      <li>Unusual words (like technical jargon or names) often split into more tokens, which can affect quality</li>
-      <li>Understanding tokens helps you write better prompts — shorter, clearer prompts use fewer tokens and often get better results</li>
+      <li>LLM 一次能处理的词元数量有限，这个容量称为<strong>上下文窗口（context window）</strong>，单元 3 会继续讲解</li>
+      <li>使用按量收费的 LLM API 时，费用通常与输入及输出的词元数有关，所以较长内容可能花费更多</li>
+      <li>少见词、专业术语和人名往往会被拆成更多词元，可能影响成本与处理效果</li>
+      <li>理解词元有助于写出更好的提示词：简洁清楚的指令通常更省词元，也更容易得到理想结果</li>
     </ul>
   </div>
 
   <!-- QUIZ -->
-  <p class="section-title">Quick Check</p>
+  <p class="section-title">快速测验</p>
   <div class="quiz-box">
-    <h3>🧠 The word "unbelievable" would most likely be split into how many tokens?</h3>
+    <h3>🧠 “unbelievable”最可能被拆成多少个词元？</h3>
     <div class="quiz-options">
-      <button class="quiz-btn" onclick="answer2(this, false)">A) 1 token — it's just one word</button>
-      <button class="quiz-btn" onclick="answer2(this, true)">B) 2-3 tokens — long words get split into parts</button>
-      <button class="quiz-btn" onclick="answer2(this, false)">C) 12 tokens — one per letter</button>
-      <button class="quiz-btn" onclick="answer2(this, false)">D) 0 tokens — LLMs skip uncommon words</button>
+      <button class="quiz-btn" onclick="answer2(this, false)">A）1 个，因为它只是一个单词</button>
+      <button class="quiz-btn" onclick="answer2(this, true)">B）2～3 个，长单词可能被拆成几个部分</button>
+      <button class="quiz-btn" onclick="answer2(this, false)">C）12 个，每个字母一个</button>
+      <button class="quiz-btn" onclick="answer2(this, false)">D）0 个，LLM 会跳过少见词</button>
     </div>
     <div class="quiz-feedback" id="quiz-feedback2"></div>
   </div>
 
   <div class="next-bar">
-    <a href="module_01_what_is_llm.html" class="btn secondary">← Module 1</a>
-    <a href="module_03_context_window.html" class="btn">Next: Context Window →</a>
+    <a href="module_01_what_is_llm.html" class="btn secondary">← 单元 1</a>
+    <a href="module_03_context_window.html" class="btn">下一课：上下文窗口 →</a>
   </div>
 
 </div>
@@ -285,16 +285,13 @@ const COLORS = [
 ];
 
 function simpleTokenize(text) {
-  // Simplified tokenizer: split on common patterns
+  // Teaching approximation only: real tokenisation varies by model.
   const tokens = [];
-  // Split by spaces, keeping punctuation separate
-  const words = text.split(//);
+  const words = text.match(/[\u3400-\u9fff]|[a-zA-Z]+|\d+|[^\s]/gu) || [];
   let colorIdx = 0;
   for (let w of words) {
     if (!w) continue;
-    // Split long words into sub-tokens (rough approximation)
     if (w.length > 8 && /^[a-zA-Z]+$/.test(w)) {
-      // Break into ~4-char chunks
       let i = 0;
       while (i < w.length) {
         const chunk = w.slice(i, i+4);
@@ -329,10 +326,10 @@ function tokenize() {
   const charCount = text.length;
   const wordCount = text.trim().split(/\s+/).length;
   stats.innerHTML = `
-    <div class="stat-chip">Tokens: <strong>${tokens.length}</strong></div>
-    <div class="stat-chip">Words: <strong>${wordCount}</strong></div>
-    <div class="stat-chip">Characters: <strong>${charCount}</strong></div>
-    <div class="stat-chip">Ratio: <strong>~${(charCount/tokens.length).toFixed(1)}</strong> chars/token</div>
+    <div class="stat-chip">近似词元：<strong>${tokens.length}</strong></div>
+    <div class="stat-chip">空格分段：<strong>${wordCount}</strong></div>
+    <div class="stat-chip">字符：<strong>${charCount}</strong></div>
+    <div class="stat-chip">比例：<strong>约 ${(charCount/tokens.length).toFixed(1)}</strong> 字符／词元</div>
   `;
   tooltip.classList.remove('show');
 }
@@ -340,7 +337,7 @@ function tokenize() {
 function showTooltip(idx, text, total) {
   const tooltip = document.getElementById('tooltip');
   tooltip.className = 'token-tooltip show';
-  tooltip.innerHTML = `Token #${idx+1} of ${total}: "<strong>${text}</strong>" — Each coloured brick is one token the LLM reads separately.`;
+  tooltip.innerHTML = `第 ${idx+1}／${total} 个近似词元：“<strong>${text}</strong>”。每块彩色积木代表 LLM 单独处理的一个文本片段。`;
 }
 
 function answer2(btn, isCorrect) {
@@ -350,17 +347,17 @@ function answer2(btn, isCorrect) {
   if (isCorrect) {
     btn.classList.add('correct');
     feedback.className = 'quiz-feedback show correct';
-    feedback.innerHTML = '✅ Right! Long words typically split into 2-4 tokens. "unbelievable" → "un" + "believ" + "able". Tokens are more like syllable clusters than whole words.';
+    feedback.innerHTML = '✅ 正确！较长的英文单词通常会拆成 2～4 个词元。“unbelievable”可能变成“un” + “believ” + “able”。词元更像常见字符组合，不一定等于完整单词。';
   } else {
     btn.classList.add('wrong');
     feedback.className = 'quiz-feedback show wrong';
-    feedback.innerHTML = '💡 The answer is B. Tokens aren\'t letters and aren\'t always whole words — they\'re chunks of roughly 3-5 characters. "unbelievable" splits into parts like "un" + "believ" + "able".';
+    feedback.innerHTML = '💡 正确答案是 B。词元不等于单个字母，也不一定是完整单词；它们是模型词表中的常见文本片段。“unbelievable”可能拆成“un” + “believ” + “able”。';
   }
 }
 
 // Run tokenizer on load
 window.onload = tokenize;
 </script>
-<script src="assets/language-switcher.js" data-locale="en"></script>
+<script src="../assets/language-switcher.js" data-locale="zh-CN"></script>
 </body>
 </html>

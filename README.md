@@ -2,6 +2,21 @@
 
 Static AI literacy learning hub with an AI News Hub.
 
+## Mandarin translation
+
+The English lessons remain the source pages at the repository root. Simplified Chinese versions live under `zh-CN/` with matching filenames, for example:
+
+- `index.html` ↔ `zh-CN/index.html`
+- `module_10_claude_code.html` ↔ `zh-CN/module_10_claude_code.html`
+
+Each lesson loads `assets/language-switcher.js`, which adds a fixed English/简体中文 switcher pointing to the matching page. Translation style guidance lives in `docs/TRANSLATION_GUIDE.md`.
+
+Run the locale check before publishing translation changes:
+
+```bash
+node scripts/validate-locales.mjs
+```
+
 ## AI News Hub scheduled feed
 
 The news page now reads from `data/news-feed.json` instead of relying on browser-side CORS proxies for the main feed.

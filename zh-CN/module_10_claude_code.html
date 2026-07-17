@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>模块 10 — Claude Code</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Noto Sans SC', 'Microsoft YaHei', 'Segoe UI', sans-serif; background: #f0f4ff; color: #1a1a2e; }
+  .nav-bar { background: #16213e; padding: 10px 24px; display: flex; justify-content: space-between; align-items: center; }
+  .nav-bar a { color: #a0aec0; text-decoration: none; font-size: 0.9rem; }
+  .nav-bar a:hover { color: white; }
+  .progress-dots { display: flex; gap: 6px; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; background: #2d3a5e; }
+  .dot.done { background: #48bb78; } .dot.active { background: #e94560; }
+  .hero { background: linear-gradient(135deg, #0a1628 0%, #1a3a5c 100%); color: white; text-align: center; padding: 48px 24px 32px; }
+  .badge { display: inline-block; background: #63b3ed; color: #0a1628; font-size: 12px; font-weight: 700; padding: 4px 12px; border-radius: 20px; letter-spacing: 1px; margin-bottom: 16px; text-transform: uppercase; }
+  .hero h1 { font-size: 2rem; margin-bottom: 10px; }
+  .hero p { font-size: 1.05rem; opacity: 0.85; max-width: 540px; margin: 0 auto; }
+  .container { max-width: 760px; margin: 0 auto; padding: 32px 20px 60px; }
+  .section-title { font-size: 0.75rem; font-weight: 700; color: #e94560; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 12px; margin-top: 36px; }
+
+  .panel { background: white; border: 3px solid #1a1a2e; border-radius: 12px; overflow: hidden; box-shadow: 6px 6px 0 #1a1a2e; margin-bottom: 24px; }
+  .panel-header { background: #1a1a2e; color: white; font-size: 11px; font-weight: 700; padding: 5px 12px; text-transform: uppercase; letter-spacing: 1px; }
+  .panel-body { display: flex; min-height: 150px; }
+  .scene { width: 170px; min-width: 170px; background: #ebf8ff; border-right: 3px solid #1a1a2e; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 16px 12px; gap: 8px; }
+  .char { font-size: 3rem; line-height: 1; }
+  .char-label { font-size: 11px; font-weight: 700; color: #666; text-transform: uppercase; text-align: center; }
+  .speech-area { flex: 1; padding: 20px; display: flex; flex-direction: column; gap: 10px; }
+  .bubble { border-radius: 12px; padding: 12px 16px; font-size: 0.9rem; line-height: 1.6; border: 2px solid; }
+  .narrator { background: #fff8e1; border-color: #ffe082; font-style: italic; font-size: 0.86rem; color: #555; }
+  .claude-b { background: #ebf8ff; border-color: #90cdf4; }
+  .human-b  { background: #e8f5e9; border-color: #a5d6a7; }
+  .code-b   { background: #1a1a2e; color: #68d391; border-color: #2d6a4f; font-family: 'Courier New', monospace; font-size: 0.82rem; }
+  .speaker  { font-size: 10px; font-weight: 700; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+  .tag { display: inline-block; color: white; font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 4px; margin-top: 6px; background: #3182ce; }
+  .tag.green { background: #38a169; } .tag.purple { background: #805ad5; } .tag.orange { background: #dd6b20; }
+
+  /* CONCEPT CARDS */
+  .concept-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  .concept-card { background: white; border: 3px solid #1a1a2e; border-radius: 12px; overflow: hidden; box-shadow: 4px 4px 0 #1a1a2e; }
+  .cc-header { display: flex; align-items: center; gap: 14px; padding: 16px 20px; cursor: pointer; }
+  .cc-icon { font-size: 2rem; flex-shrink: 0; }
+  .cc-title-area { flex: 1; }
+  .cc-title { font-weight: 700; font-size: 1rem; margin-bottom: 3px; }
+  .cc-subtitle { font-size: 0.82rem; color: #666; }
+  .cc-badge { font-size: 10px; font-weight: 700; padding: 3px 8px; border-radius: 4px; flex-shrink: 0; }
+  .cc-body { padding: 0 20px; max-height: 0; overflow: hidden; transition: max-height 0.3s, padding 0.3s; }
+  .cc-body.open { max-height: 600px; padding: 0 20px 20px; }
+  .cc-analogy { background: #f0f4ff; border: 1.5px solid #c3cef6; border-radius: 8px; padding: 12px 14px; font-size: 0.85rem; line-height: 1.5; margin-bottom: 12px; }
+  .cc-detail { font-size: 0.85rem; line-height: 1.6; color: #444; }
+  .cc-detail ul { margin-left: 16px; margin-top: 8px; display: flex; flex-direction: column; gap: 5px; }
+  .cc-detail li { font-size: 0.83rem; }
+  .cc-example { background: #f0fff4; border: 1.5px solid #9ae6b4; border-radius: 8px; padding: 10px 14px; font-size: 0.82rem; line-height: 1.5; margin-top: 10px; color: #276749; }
+  .cc-example strong { color: #1a4a2e; }
+
+  /* WORKFLOW */
+  .workflow-box { background: white; border: 3px solid #1a1a2e; border-radius: 12px; padding: 24px; box-shadow: 6px 6px 0 #1a1a2e; }
+  .workflow-steps { display: flex; flex-direction: column; gap: 0; margin-top: 16px; }
+  .wf-step { display: flex; gap: 16px; align-items: flex-start; }
+  .wf-line { display: flex; flex-direction: column; align-items: center; gap: 0; }
+  .wf-dot  { width: 32px; height: 32px; border-radius: 50%; background: #1a1a2e; color: white; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: 700; flex-shrink: 0; }
+  .wf-connector { width: 2px; background: #c3cef6; flex: 1; min-height: 24px; }
+  .wf-content { flex: 1; padding-bottom: 20px; }
+  .wf-title { font-weight: 700; font-size: 0.9rem; margin-bottom: 4px; }
+  .wf-desc  { font-size: 0.82rem; color: #666; line-height: 1.4; }
+  .wf-step:last-child .wf-connector { display: none; }
+
+  /* INSTRUCTIONS GUIDE */
+  .guide-box { background: #0a1628; color: white; border-radius: 12px; padding: 24px; }
+  .guide-box h3 { color: #63b3ed; margin-bottom: 16px; font-size: 1rem; }
+  .guide-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 500px) { .guide-grid { grid-template-columns: 1fr; } }
+  .guide-item { background: rgba(255,255,255,0.05); border-radius: 8px; padding: 14px; border: 1px solid rgba(255,255,255,0.1); }
+  .guide-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+  .guide-do   .guide-label { color: #68d391; }
+  .guide-dont .guide-label { color: #fc8181; }
+  .guide-item ul { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+  .guide-item li { font-size: 0.82rem; line-height: 1.4; display: flex; gap: 6px; }
+  .guide-do   li::before { content: "✓"; color: #68d391; flex-shrink: 0; font-weight: 700; }
+  .guide-dont li::before { content: "✗"; color: #fc8181; flex-shrink: 0; font-weight: 700; }
+
+  .key-facts { background: #0a1628; color: white; border-radius: 12px; padding: 24px; }
+  .key-facts h3 { color: #63b3ed; margin-bottom: 16px; font-size: 1rem; }
+  .fact-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  .fact-list li { display: flex; align-items: flex-start; gap: 10px; font-size: 0.9rem; line-height: 1.5; }
+  .fact-list li::before { content: "💻"; flex-shrink: 0; }
+
+  .quiz-box { background: white; border: 3px solid #1a1a2e; border-radius: 12px; padding: 24px; box-shadow: 6px 6px 0 #1a1a2e; }
+  .quiz-options { display: flex; flex-direction: column; gap: 10px; margin-top: 14px; }
+  .quiz-btn { background: #f0f4ff; border: 2px solid #c3cef6; border-radius: 8px; padding: 12px 16px; text-align: left; font-size: 0.9rem; cursor: pointer; transition: all 0.2s; font-family: inherit; }
+  .quiz-btn:hover { background: #e3f2fd; border-color: #90caf9; }
+  .quiz-btn.correct { background: #e8f5e9; border-color: #48bb78; color: #2d6a4f; }
+  .quiz-btn.wrong   { background: #ffebee; border-color: #ef9a9a; color: #b71c1c; }
+  .quiz-feedback { margin-top: 14px; padding: 12px; border-radius: 8px; font-size: 0.88rem; display: none; }
+  .quiz-feedback.show { display: block; }
+  .quiz-feedback.correct { background: #e8f5e9; color: #2d6a4f; border: 1px solid #a5d6a7; }
+  .quiz-feedback.wrong   { background: #fff8e1; color: #7b5e00; border: 1px solid #ffe082; }
+
+  .complete-banner { background: linear-gradient(135deg, #0a1628, #1a3a2e); color: white; border-radius: 12px; padding: 28px; text-align: center; margin-top: 36px; }
+  .complete-banner h2 { font-size: 1.4rem; margin-bottom: 10px; }
+  .complete-banner p  { font-size: 0.9rem; opacity: 0.85; margin-bottom: 20px; }
+  .next-bar { display: flex; justify-content: space-between; align-items: center; margin-top: 24px; padding-top: 24px; border-top: 2px solid rgba(255,255,255,0.15); }
+  .btn { background: #48bb78; color: white; border: none; border-radius: 8px; padding: 12px 24px; font-size: 0.95rem; font-weight: 700; cursor: pointer; text-decoration: none; display: inline-block; }
+  .btn:hover { background: #38a169; }
+  .btn.secondary { background: rgba(255,255,255,0.1); color: white; border: 2px solid rgba(255,255,255,0.3); }
+  .btn.secondary:hover { background: rgba(255,255,255,0.2); }
+</style>
+</head>
+<body>
+
+<div class="nav-bar">
+  <a href="index.html">← 返回主页</a>
+  <div class="progress-dots">
+    <div class="dot done"></div><div class="dot done"></div><div class="dot done"></div>
+    <div class="dot done"></div><div class="dot done"></div>
+    <div class="dot done"></div><div class="dot done"></div><div class="dot done"></div>
+    <div class="dot done"></div><div class="dot active"></div>
+  </div>
+  <span style="color:#a0aec0;font-size:0.85rem;">10 / 10</span>
+</div>
+
+<div class="hero">
+  <div class="badge">模块 10 · 第二阶段总结</div>
+  <h1>Claude Code — AI 编程智能体</h1>
+  <p>Claude Code 不只回答问题；在你授予的工具和权限范围内，它能检查项目、编辑代码、运行命令并验证结果。</p>
+</div>
+
+<div class="container">
+
+  <p class="section-title">情境故事</p>
+
+  <div class="panel">
+    <div class="panel-header">场景 1 — Claude 与 Claude Code</div>
+    <div class="panel-body">
+      <div class="scene"><div class="char">🤖</div><div class="char-label">两种使用方式</div></div>
+      <div class="speech-area">
+        <div class="bubble narrator">Claude 聊天助手擅长写作、分析、解释与讨论；Claude Code 则面向软件开发工作。</div>
+        <div class="bubble narrator">可以把前者想成顾问，把 <strong>Claude Code</strong> 想成会使用终端和项目工具的协作开发者。它能执行多步任务，但实际能力取决于当前环境、可用工具和你批准的权限。</div>
+        <span class="tag">聊天助手偏讨论；Claude Code 偏执行。</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-header">场景 2 — 由你设定目标与边界</div>
+    <div class="panel-body">
+      <div class="scene"><div class="char">👨‍💻</div><div class="char-label">Claude Code 工作中</div></div>
+      <div class="speech-area">
+        <div class="bubble narrator">你可以用自然语言说明<strong>目标、背景、限制与完成标准</strong>。Claude Code 会拟定步骤、修改文件、运行检查，并把结果交给你审阅。</div>
+        <div class="bubble human-b"><div class="speaker">你提出</div>“在这个示例项目中加入吉隆坡天气页面。先说明方案，只使用免费 API；不要读取密钥。完成后运行测试并给我看差异。”</div>
+        <div class="bubble claude-b"><div class="speaker">Claude Code 可以</div>检查项目 → 提议方案 → 在授权后编辑 HTML 与 JavaScript → 运行测试 → 展示差异 → 根据反馈调整。</div>
+        <span class="tag green">你定义结果与边界，并负责最终判断。</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONCEPTS -->
+  <p class="section-title">关键概念 — 点击展开</p>
+  <div class="concept-grid">
+
+    <div class="concept-card">
+      <div class="cc-header" onclick="toggleConcept(this)">
+        <div class="cc-icon">🧰</div>
+        <div class="cc-title-area">
+          <div class="cc-title">技能（Skills）— 可复用工作手册</div>
+          <div class="cc-subtitle">把专门说明、参考资料和脚本打包复用</div>
+        </div>
+        <div class="cc-badge" style="background:#fef3c7;color:#92400e;">点击展开</div>
+      </div>
+      <div class="cc-body">
+        <div class="cc-analogy">🔧 <strong>类比：</strong>技能像一本放在工具箱里的专业工作手册：需要做某类任务时，智能体读取相应说明，并使用随附的参考资料或脚本。</div>
+        <div class="cc-detail">
+          技能不是“训练进模型里的魔法能力”，而是可复用的任务资源。一个技能可以包含：
+          <ul>
+            <li>完成任务的步骤与质量标准</li>
+            <li>术语、模板或参考文件</li>
+            <li>需要时才运行的辅助脚本</li>
+            <li>关于允许使用哪些工具的说明</li>
+          </ul>
+        </div>
+        <div class="cc-example"><strong>实际例子：</strong>团队建立“报告审阅”技能，规定先确认来源、抽取表格、标注不确定信息，再输出指定格式。以后执行同类任务时就能沿用这套流程。</div>
+      </div>
+    </div>
+
+    <div class="concept-card">
+      <div class="cc-header" onclick="toggleConcept(this)">
+        <div class="cc-icon">🔌</div>
+        <div class="cc-title-area">
+          <div class="cc-title">MCP — 工具连接标准</div>
+          <div class="cc-subtitle">让 AI 应用以统一方式连接外部工具与数据</div>
+        </div>
+        <div class="cc-badge" style="background:#e0f2fe;color:#0c4a6e;">点击展开</div>
+      </div>
+      <div class="cc-body">
+        <div class="cc-analogy">🔌 <strong>类比：</strong>MCP（Model Context Protocol，模型上下文协议）常被比作 USB-C：它定义一种共同的连接方式，但接上设备不等于自动获得所有权限。</div>
+        <div class="cc-detail">
+          MCP 服务器可以向 AI 应用公开经授权的资源或操作，例如：
+          <ul>
+            <li>搜索内部文档或知识库</li>
+            <li>查询项目管理系统</li>
+            <li>在许可范围内读取文件或数据库</li>
+            <li>调用经过批准的业务操作</li>
+          </ul>
+          实际可做什么由连接器、账户权限、工作区政策和用户批准共同决定。只连接可信服务器，并采用最小权限原则；外部工具返回的内容也可能包含误导性指令。
+        </div>
+        <div class="cc-example"><strong>实际例子：</strong>团队把 CRM 的只读搜索工具通过 MCP 提供给智能体。智能体可以查询获准字段，但不能更新记录或发送邮件，除非管理员另外开放这些操作。</div>
+      </div>
+    </div>
+
+    <div class="concept-card">
+      <div class="cc-header" onclick="toggleConcept(this)">
+        <div class="cc-icon">🤖</div>
+        <div class="cc-title-area">
+          <div class="cc-title">智能体工作流（Agentic workflows）</div>
+          <div class="cc-subtitle">围绕目标规划、执行、检查并汇报多步任务</div>
+        </div>
+        <div class="cc-badge" style="background:#f0fdf4;color:#166534;">点击展开</div>
+      </div>
+      <div class="cc-body">
+        <div class="cc-analogy">🏗️ <strong>类比：</strong>你向装修承包商说明目标、预算和不能碰的部分；对方拟定工序，并在关键节点请你确认。多步智能体任务也需要清楚边界和检查点。</div>
+        <div class="cc-detail">
+          在智能体工作流中，Claude Code 可以：
+          <ul>
+            <li>接收目标与完成标准</li>
+            <li>把任务拆成可执行步骤</li>
+            <li>使用获准工具执行步骤</li>
+            <li>运行测试或其他验证，并根据结果调整</li>
+            <li>汇报改动、证据与尚存风险</li>
+          </ul>
+          “智能体式”不代表绝对自主或保证正确。高风险操作应保留人工批准；最终输出仍需审阅。
+        </div>
+        <div class="cc-example"><strong>实际例子：</strong>“分析第一季销售数据，生成图表和摘要；不要上传原始客户资料；先给我看分析方法，完成后列出验证步骤。”</div>
+      </div>
+    </div>
+
+    <div class="concept-card">
+      <div class="cc-header" onclick="toggleConcept(this)">
+        <div class="cc-icon">💬</div>
+        <div class="cc-title-area">
+          <div class="cc-title">清楚指令的组成</div>
+          <div class="cc-subtitle">不需要特殊语法，但重要任务值得写得具体</div>
+        </div>
+        <div class="cc-badge" style="background:#faf5ff;color:#44337a;">点击展开</div>
+      </div>
+      <div class="cc-body">
+        <div class="cc-analogy">📋 <strong>类比：</strong>“弄漂亮一点”很难验收；“保留现有布局，采用高对比配色，手机屏幕可用，并通过无障碍检查”就清楚得多。</div>
+        <div class="cc-detail">
+          一份实用指令通常说明：
+          <ul>
+            <li><strong>目标：</strong>要解决什么问题</li>
+            <li><strong>背景与输入：</strong>相关文件、资料或错误信息</li>
+            <li><strong>限制：</strong>不能改变什么，以及安全或技术要求</li>
+            <li><strong>完成标准：</strong>输出形式、测试和可观察结果</li>
+            <li><strong>检查点：</strong>哪些决定必须先获批准</li>
+          </ul>
+        </div>
+        <div class="cc-example"><strong>实际例子：</strong>“目标：按地区汇总 sales.csv 并生成条形图。限制：不修改原文件，不调用外部服务。完成标准：保存 chart.png，列出计算方法，并检查总数是否与原数据一致。写最终报告前暂停让我审图。”</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- HOW IT FLOWS -->
+  <p class="section-title">Claude Code 任务流程</p>
+  <div class="workflow-box">
+    <h3 style="font-size:1rem;margin-bottom:4px;">从指令到可审阅结果</h3>
+    <div class="workflow-steps">
+      <div class="wf-step">
+        <div class="wf-line"><div class="wf-dot">1</div><div class="wf-connector"></div></div>
+        <div class="wf-content"><div class="wf-title">你说明目标、背景与边界</div><div class="wf-desc">“分析客户问卷并找出三项主要投诉；移除个人资料，不要上传数据。”</div></div>
+      </div>
+      <div class="wf-step">
+        <div class="wf-line"><div class="wf-dot">2</div><div class="wf-connector"></div></div>
+        <div class="wf-content"><div class="wf-title">Claude Code 检查环境并拟定计划</div><div class="wf-desc">确认文件与权限，再拆分为：读取 → 清理 → 归类 → 计数 → 汇总</div></div>
+      </div>
+      <div class="wf-step">
+        <div class="wf-line"><div class="wf-dot">3</div><div class="wf-connector"></div></div>
+        <div class="wf-content"><div class="wf-title">它使用获准工具执行</div><div class="wf-desc">读取指定文件、编写分析代码，并仅在授权时连接外部服务</div></div>
+      </div>
+      <div class="wf-step">
+        <div class="wf-line"><div class="wf-dot">4</div><div class="wf-connector"></div></div>
+        <div class="wf-content"><div class="wf-title">它运行检查并修正明显问题</div><div class="wf-desc">核对总数、运行测试并说明验证结果；自检能降低风险，但不能取代人工复核</div></div>
+      </div>
+      <div class="wf-step">
+        <div class="wf-line"><div class="wf-dot">5</div><div class="wf-connector"></div></div>
+        <div class="wf-content"><div class="wf-title">你审阅差异、结果与风险</div><div class="wf-desc">检查报告、图表或代码变更，再决定是否接受、修改或发布</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- INSTRUCTIONS GUIDE -->
+  <p class="section-title">如何给出有效指令</p>
+  <div class="guide-box">
+    <h3>非程序员也能使用的协作清单</h3>
+    <div class="guide-grid">
+      <div class="guide-item guide-do">
+        <div class="guide-label">✓ 建议这样做</div>
+        <ul>
+          <li>说明目标、相关文件、限制与完成标准</li>
+          <li>先让它检查现况并解释计划</li>
+          <li>使用版本控制或备份，并审阅差异</li>
+          <li>要求运行合适的测试与验证</li>
+          <li>为敏感或不可逆操作设置批准点</li>
+        </ul>
+      </div>
+      <div class="guide-item guide-dont">
+        <div class="guide-label">✗ 避免这样做</div>
+        <ul>
+          <li>使用“改好一点”等无法验收的模糊要求</li>
+          <li>在提示词、文件或日志中贴入密码和 API 密钥</li>
+          <li>给不受信任工具不必要的写入权限</li>
+          <li>未审阅便运行或发布生成的代码</li>
+          <li>把智能体自检当成正确性保证</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- KEY FACTS -->
+  <p class="section-title">重点整理</p>
+  <div class="key-facts">
+    <h3>关于 Claude Code，请记住</h3>
+    <ul class="fact-list">
+      <li>Claude Code 是面向软件开发的<strong>编程智能体</strong>，能在工具与权限范围内执行多步任务</li>
+      <li><strong>技能（Skills）</strong>把可复用说明、参考资料和脚本组织起来</li>
+      <li><strong>MCP</strong> 是连接工具与数据的开放标准；连接能力不等于无限权限</li>
+      <li>清楚说明<strong>目标、背景、限制与完成标准</strong>，通常比规定每个技术步骤更实用</li>
+      <li>采用最小权限、版本控制、检查点、测试与人工审阅</li>
+      <li>产品功能会更新；请同时查阅 <a href="https://docs.anthropic.com/en/docs/claude-code/overview" target="_blank" rel="noopener" style="color:#90cdf4;">Claude Code 官方文档</a></li>
+    </ul>
+  </div>
+
+  <!-- QUIZ -->
+  <p class="section-title">知识小测</p>
+  <div class="quiz-box">
+    <h3>🧠 团队加入一个连接内部数据库的 MCP 服务器。这代表什么？</h3>
+    <div class="quiz-options">
+      <button class="quiz-btn" onclick="answer10(this,false)">A) 数据库内容已经被训练进模型</button>
+      <button class="quiz-btn" onclick="answer10(this,true)">B) 智能体可调用连接器公开且其账户获准使用的数据库工具</button>
+      <button class="quiz-btn" onclick="answer10(this,false)">C) 智能体自动获得数据库所有读写权限</button>
+      <button class="quiz-btn" onclick="answer10(this,false)">D) 任何 MCP 服务器都可安全信任</button>
+    </div>
+    <div class="quiz-feedback" id="qf10"></div>
+  </div>
+
+  <div class="complete-banner">
+    <h2>🎉 第二阶段完成！</h2>
+    <p>你已认识 Claude、提示词、Projects 与记忆、系统提示词，以及 Claude Code 的核心概念。下一步是用低风险小任务练习，并养成授权、验证与审阅习惯。</p>
+    <div class="next-bar">
+      <a href="module_09_system_prompts.html" class="btn secondary">← 模块 9</a>
+      <a href="index.html" class="btn">返回主页 🏠</a>
+    </div>
+  </div>
+
+</div>
+
+<script>
+function toggleConcept(header) {
+  const body = header.nextElementSibling;
+  const badge = header.querySelector('.cc-badge');
+  body.classList.toggle('open');
+  badge.textContent = body.classList.contains('open') ? '点击收起' : '点击展开';
+}
+function answer10(btn, correct) {
+  document.querySelectorAll('.quiz-btn').forEach(b => b.disabled = true);
+  const fb = document.getElementById('qf10');
+  if (correct) {
+    btn.classList.add('correct');
+    fb.className = 'quiz-feedback show correct';
+    fb.innerHTML = '✅ 正确。MCP 提供连接方式，但实际可用工具与数据仍受连接器设计、身份权限和批准政策限制。数据库内容并没有因此被训练进模型。';
+  } else {
+    btn.classList.add('wrong');
+    fb.className = 'quiz-feedback show wrong';
+    fb.innerHTML = '💡 答案是 B。连接 MCP 服务器不等于无限权限，也不代表其内容被训练进模型；仍应验证服务器来源并采用最小权限。';
+  }
+}
+</script>
+<script src="../assets/language-switcher.js" data-locale="zh-CN"></script>
+</body>
+</html>

@@ -370,13 +370,14 @@ function answer10(btn, correct) {
   if (correct) {
     btn.classList.add('correct');
     fb.className = 'quiz-feedback show correct';
-    fb.innerHTML = '✅ Exactly! MCP is the "USB standard" — a developer plugs in a connector and Claude Code can now access that service. The database isn't trained into the model; it's connected via a live channel that Claude Code can query in real time.';
+    fb.innerHTML = '✅ Exactly! MCP is the "USB standard" — a developer plugs in a connector and Claude Code can now access that service. The database isn\'t trained into the model; it\'s connected via a live channel that Claude Code can query in real time.';
   } else {
     btn.classList.add('wrong');
     fb.className = 'quiz-feedback show wrong';
-    fb.innerHTML = '💡 The answer is C. MCP connects Claude Code to external tools at runtime — like a USB port. The database isn't trained into Claude Code (B), and Claude Code is still directed by your instructions (D). It just now has a new "port" to query your data.';
+    fb.innerHTML = '💡 The answer is C. MCP connects Claude Code to external tools at runtime — like a USB port. The database isn\'t trained into Claude Code (B), and Claude Code is still directed by your instructions (D). It just now has a new "port" to query your data.';
   }
 }
 </script>
+<script src="assets/language-switcher.js" data-locale="en"></script>
 </body>
 </html>

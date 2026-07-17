@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Module 13 — What is Codex and the API?</title>
+<title>模块 13 — Codex 与 OpenAI API</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: 'Segoe UI', sans-serif; background: #0d1117; color: #e2e8f0; min-height: 100vh; }
+  body { font-family: 'Noto Sans SC', 'Microsoft YaHei', 'Segoe UI', sans-serif; background: #0d1117; color: #e2e8f0; min-height: 100vh; }
 
   .hero {
     background: linear-gradient(135deg, #1a1a2e 0%, #0f3460 60%, #533483 100%);
@@ -112,249 +112,202 @@
 </style>
 </head>
 <body>
+<body>
 
 <nav class="nav-breadcrumb">
-  <a href="index.html">← Hub</a> · Phase 3 · <strong>Module 13 — What is Codex and the API?</strong>
+  <a href="index.html">← Hub</a> · 第 3 阶段 · <strong>模块 13 — Codex 与 API</strong>
 </nav>
 
 <div class="hero">
-  <div class="module-badge">Module 13 · Phase 3 · ~5 min</div>
-  <h1>What is <span>Codex</span> and the API?</h1>
-  <div class="hero-meta">🌐 ~5 min · Comic + Concept Map · Quiz included</div>
-  <p>Think of the API as a <strong>Translator Booth</strong> — it lets any app whisper to an AI and get a smart answer back. No coding experience needed to understand it.</p>
+  <div class="module-badge">模块 13 · 第 3 阶段 · 约 5 分钟</div>
+  <h1><span>Codex</span> 与 OpenAI API</h1>
+  <div class="hero-meta">🌐 约 5 分钟 · 概念图 · 小测验</div>
+  <p>把 Codex 和 API 分清楚：一个像会改代码的工程同事，一个像让应用程序调用 AI 的标准服务窗口。</p>
 </div>
 
 <div class="container">
 
-  <p class="section-label">🎭 The Story — The Translator Booth</p>
+  <p class="section-label">🎭 故事 — 服务窗口与工程同事</p>
   <div class="comic-strip">
-
     <div class="comic-panel" style="background:#12182b;">
       <div class="panel-scene" style="background:rgba(147,112,219,0.08);">
         <div class="panel-num">PANEL 1</div>
         🏢
       </div>
       <div class="panel-dialogue">
-        <div class="speech-bubble">Imagine a huge office building. Inside is a genius translator who can read and write in every language — English, code, JSON, Python, anything.</div>
-        <div class="caption">This translator is the AI model. But most apps can't walk inside and talk to her directly.</div>
+        <div class="speech-bubble">想像一栋大楼，里面有很多 AI 能力：写作、分析、图像、语音、代码、工具调用。</div>
+        <div class="caption">模型和工具在里面工作；应用程序需要一个标准方式把请求送进去。</div>
       </div>
     </div>
 
     <div class="comic-panel" style="background:#0f1520;">
       <div class="panel-scene" style="background:rgba(99,179,237,0.07);">
         <div class="panel-num">PANEL 2</div>
-        📞
+        🔌
       </div>
       <div class="panel-dialogue">
-        <div class="speech-bubble">So the building has a <strong>Translator Booth</strong> at the front desk — a standardised window where anyone can pass a note in, and get a reply back out.</div>
-        <div class="caption">That booth is the <strong>API</strong> (Application Programming Interface). A formal way for apps to send requests and receive responses.</div>
+        <div class="speech-bubble">API（Application Programming Interface）就是服务窗口。你的程序把输入、模型、工具参数和认证资料送进去，再收到结构化回应。</div>
+        <div class="caption">API 不是某一个模型，而是应用程序跟 AI 服务沟通的接口。</div>
       </div>
     </div>
 
     <div class="comic-panel" style="background:#12182b;">
       <div class="panel-scene" style="background:rgba(72,187,120,0.07);">
         <div class="panel-num">PANEL 3</div>
-        🧩
+        🧑‍💻
       </div>
       <div class="panel-dialogue">
-        <div class="speech-bubble">OpenAI built special translators trained specifically on <em>code</em>. They called this family of code-specialist models <strong>Codex</strong>.</div>
-        <div class="caption">Codex is an AI model series optimised for code. It powers things like GitHub Copilot.</div>
+        <div class="speech-bubble">Codex 则更像一位会读代码库、修改文件、跑命令、看测试结果的工程同事。</div>
+        <div class="caption">它的重点不是“返回一句答案”，而是协助完成软件开发任务。</div>
       </div>
     </div>
 
     <div class="comic-panel" style="background:#0f1520;">
       <div class="panel-scene" style="background:rgba(246,173,85,0.07);">
         <div class="panel-num">PANEL 4</div>
-        🔌
+        ✅
       </div>
       <div class="panel-dialogue">
-        <div class="speech-bubble">Any app — a website, a phone app, a VS Code plugin — can call the Translator Booth (API), say "I need code help," and the Codex model replies with real, working code.</div>
-        <div class="caption">The app doesn't need to know how the AI works inside. It just uses the window.</div>
+        <div class="speech-bubble thought">所以：API 是给开发者的接口；Codex 是面向写代码工作的 AI 工程助手。它们相关，但不是同一个东西。</div>
+        <div class="caption">学习 AI 工具时，先分清“产品/助手”“模型”“API”“工具权限”。</div>
       </div>
     </div>
-
-    <div class="comic-panel" style="background:#12182b;">
-      <div class="panel-scene" style="background:rgba(183,148,244,0.08);">
-        <div class="panel-num">PANEL 5</div>
-        🎯
-      </div>
-      <div class="panel-dialogue">
-        <div class="speech-bubble thought">So when I use GitHub Copilot to autocomplete my code… it's secretly passing my code through the Translator Booth to Codex, getting a suggestion back, and showing it to me?</div>
-        <div class="caption">Exactly. The API is invisible to you — but it's the pipe making everything smart.</div>
-      </div>
-    </div>
-
   </div>
 
-  <p class="section-label">🔁 The Analogy Map</p>
+  <p class="section-label">🔁 类比地图</p>
   <div class="analogy-card">
-    <h3>Translator Booth = API &nbsp;·&nbsp; Code Specialist = Codex</h3>
+    <h3>API = 标准服务窗口 · Codex = 编程工程同事</h3>
     <div class="analogy-grid">
       <div class="analogy-item">
-        <div class="a-label">Real World</div>
-        <div class="a-real">API</div>
-        <div class="a-analogy">The Translator Booth — the standardised window any app uses to talk to an AI model.</div>
+        <div class="a-label">真实概念</div>
+        <div class="a-real">OpenAI API</div>
+        <div class="a-analogy">你的应用程序用来发送请求、选择模型、传入工具参数并接收回应的接口。</div>
       </div>
       <div class="analogy-item">
-        <div class="a-label">Real World</div>
+        <div class="a-label">真实概念</div>
         <div class="a-real">Codex</div>
-        <div class="a-analogy">The code-specialist translator inside the booth — trained on billions of lines of code.</div>
+        <div class="a-analogy">面向软件开发的 AI coding agent，可在授权环境里读项目、改文件、运行检查。</div>
       </div>
       <div class="analogy-item">
-        <div class="a-label">Real World</div>
+        <div class="a-label">真实概念</div>
         <div class="a-real">API request</div>
-        <div class="a-analogy">Sliding your note through the window — your app's question or code snippet.</div>
+        <div class="a-analogy">程序送出的工作单：模型、输入、格式、工具、权限和上下文。</div>
       </div>
       <div class="analogy-item">
-        <div class="a-label">Real World</div>
+        <div class="a-label">真实概念</div>
         <div class="a-real">API response</div>
-        <div class="a-analogy">The reply that comes back — code, explanation, or a completed function.</div>
+        <div class="a-analogy">服务返回的结果：文字、结构化 JSON、工具调用结果或流式输出。</div>
       </div>
       <div class="analogy-item">
-        <div class="a-label">Real World</div>
-        <div class="a-real">GitHub Copilot</div>
-        <div class="a-analogy">An app that uses the Translator Booth 100+ times per hour, invisibly, as you type.</div>
-      </div>
-      <div class="analogy-item">
-        <div class="a-label">Real World</div>
+        <div class="a-label">真实概念</div>
         <div class="a-real">API key</div>
-        <div class="a-analogy">Your membership card — proves you're allowed to use the booth and tracks your usage.</div>
+        <div class="a-analogy">开发者的秘密凭证。它要放在服务器或安全密钥管理中，不该出现在网页前端或公开仓库。</div>
+      </div>
+      <div class="analogy-item">
+        <div class="a-label">真实概念</div>
+        <div class="a-real">版本控制</div>
+        <div class="a-analogy">Codex 改代码前后的安全网：看 diff、跑测试、再决定是否提交。</div>
       </div>
     </div>
   </div>
 
-  <p class="section-label">🗺 Concept Map — How It All Connects</p>
+  <p class="section-label">🗺 概念图 — 它们怎样连接</p>
   <div class="concept-map">
-    <h3>The Codex + API Ecosystem</h3>
+    <h3>开发者使用 OpenAI 能力的两条常见路线</h3>
     <div class="map-center">
-      <div class="map-node">OpenAI API</div>
+      <div class="map-node">OpenAI 能力</div>
     </div>
     <div class="map-spokes">
       <div class="spoke">
-        <div class="spoke-icon">🧠</div>
-        <div class="spoke-title">Models inside</div>
-        <div class="spoke-desc">GPT-4 (text), Codex (code), DALL·E (images). You pick which model to call through the same API booth.</div>
+        <div class="spoke-icon">🧑‍💻</div>
+        <div class="spoke-title">Codex 路线</div>
+        <div class="spoke-desc">你给开发任务；Codex 在本地、IDE、应用或云端环境里协助读代码、编辑、测试和解释。</div>
+      </div>
+      <div class="spoke">
+        <div class="spoke-icon">🔌</div>
+        <div class="spoke-title">API 路线</div>
+        <div class="spoke-desc">你的产品或脚本调用 API，把 AI 能力嵌入自己的应用流程。</div>
       </div>
       <div class="spoke">
         <div class="spoke-icon">🔑</div>
-        <div class="spoke-title">API Key</div>
-        <div class="spoke-desc">A secret password developers use. Identifies who's asking and tracks billing. Never share it publicly.</div>
+        <div class="spoke-title">认证与成本</div>
+        <div class="spoke-desc">API key、权限、速率限制、计费与组织设置都要按当前官方文档确认。</div>
       </div>
       <div class="spoke">
-        <div class="spoke-icon">📦</div>
-        <div class="spoke-title">Request & Response</div>
-        <div class="spoke-desc">You send: model name + your message. You receive: the AI's text or code reply, structured as JSON.</div>
-      </div>
-      <div class="spoke">
-        <div class="spoke-icon">💳</div>
-        <div class="spoke-title">Pay-per-use</div>
-        <div class="spoke-desc">You pay per token (word-chunk) sent and received. No big subscription needed — pay as you go.</div>
+        <div class="spoke-icon">🛡️</div>
+        <div class="spoke-title">安全边界</div>
+        <div class="spoke-desc">最小权限、密钥保护、代码复核、测试和日志审计，是把 AI 放进开发流程的基本功。</div>
       </div>
     </div>
   </div>
 
-  <p class="section-label">⚡ How an API Call Works — Step by Step</p>
+  <p class="section-label">⚡ 一个 API 请求怎样流动</p>
   <div class="api-flow">
-    <h3>The Journey of One Request (e.g. GitHub Copilot)</h3>
+    <h3>典型流程：你的应用调用 AI</h3>
     <div class="flow-steps">
-      <div class="flow-box">
-        <div class="f-icon">✍️</div>
-        <div class="f-label">You type code</div>
-        <div class="f-desc">In VS Code or any editor</div>
-      </div>
+      <div class="flow-box"><div class="f-icon">🧾</div><div class="f-label">准备输入</div><div class="f-desc">用户问题、系统说明、文件或数据</div></div>
       <div class="flow-arrow">→</div>
-      <div class="flow-box">
-        <div class="f-icon">📤</div>
-        <div class="f-label">App sends request</div>
-        <div class="f-desc">Code + API key → OpenAI</div>
-      </div>
+      <div class="flow-box"><div class="f-icon">🔐</div><div class="f-label">安全认证</div><div class="f-desc">服务器端带上 API key</div></div>
       <div class="flow-arrow">→</div>
-      <div class="flow-box">
-        <div class="f-icon">🧠</div>
-        <div class="f-label">Model processes</div>
-        <div class="f-desc">Codex predicts next tokens</div>
-      </div>
+      <div class="flow-box"><div class="f-icon">🧠</div><div class="f-label">选择模型</div><div class="f-desc">按任务选择合适模型和工具</div></div>
       <div class="flow-arrow">→</div>
-      <div class="flow-box">
-        <div class="f-icon">📥</div>
-        <div class="f-label">Response arrives</div>
-        <div class="f-desc">JSON with completion text</div>
-      </div>
+      <div class="flow-box"><div class="f-icon">📥</div><div class="f-label">接收回应</div><div class="f-desc">文字、JSON、工具结果或 stream</div></div>
       <div class="flow-arrow">→</div>
-      <div class="flow-box">
-        <div class="f-icon">💡</div>
-        <div class="f-label">Suggestion shown</div>
-        <div class="f-desc">Copilot shows code in grey</div>
-      </div>
+      <div class="flow-box"><div class="f-icon">✅</div><div class="f-label">验证输出</div><div class="f-desc">检查格式、事实、权限和错误</div></div>
     </div>
-    <p style="margin-top:14px;font-size:0.76rem;color:#718096;text-align:center;">This round trip takes &lt;1 second. Happens every time you pause typing for ~500ms.</p>
+    <p style="margin-top:14px;font-size:0.76rem;color:#718096;text-align:center;">生产系统还要处理重试、超时、日志、成本控制、速率限制和用户隐私。</p>
   </div>
 
-  <p class="section-label">📊 Codex vs GPT vs Claude — Quick Comparison</p>
+  <p class="section-label">📊 Codex 与 API 快速比较</p>
   <div class="compare-table">
     <table>
-      <tr>
-        <th>Aspect</th><th>Codex</th><th>GPT-4 / ChatGPT</th><th>Claude</th>
-      </tr>
-      <tr>
-        <td>Primary strength</td><td>Code generation &amp; completion</td><td>General text + reasoning</td><td>Long docs + safe reasoning</td>
-      </tr>
-      <tr>
-        <td>Who built it</td><td>OpenAI</td><td>OpenAI</td><td>Anthropic</td>
-      </tr>
-      <tr>
-        <td>How you use it</td><td>Via API (devs only)</td><td>ChatGPT.com or API</td><td>Claude.ai or API</td>
-      </tr>
-      <tr>
-        <td>Trained on</td><td>Code + text (heavy code bias)</td><td>Text + code + web</td><td>Text + documents + code</td>
-      </tr>
-      <tr>
-        <td>Known for powering</td><td>GitHub Copilot, Cursor IDE</td><td>ChatGPT, Bing Chat</td><td>Claude.ai, MorphMind, many apps</td>
-      </tr>
-      <tr>
-        <td>Non-coder access</td><td>Indirect (via tools like Copilot)</td><td>Direct (just chat)</td><td>Direct (just chat)</td>
-      </tr>
+      <tr><th>维度</th><th>Codex</th><th>OpenAI API</th></tr>
+      <tr><td>主要用途</td><td>帮助开发者理解、修改、测试和审查代码。</td><td>让应用程序把 OpenAI 模型和工具嵌入自己的产品。</td></tr>
+      <tr><td>使用者</td><td>开发者、团队、代码审查或自动化工作流。</td><td>开发者、后端服务、数据管道、产品功能。</td></tr>
+      <tr><td>输入</td><td>任务说明、代码库、终端输出、测试结果、项目规则。</td><td>HTTP/API 请求里的模型、消息、工具、文件或结构化参数。</td></tr>
+      <tr><td>权限</td><td>取决于本地/云端环境、沙箱、工具许可和仓库权限。</td><td>取决于 API key、项目、组织、权限、速率限制和配置。</td></tr>
+      <tr><td>安全重点</td><td>看 diff、跑测试、保护密钥、避免过度授权。</td><td>密钥不要进前端或公开仓库；验证输出；记录失败；控制成本。</td></tr>
+      <tr><td>常见误解</td><td>Codex 不等于“所有第三方编程工具背后的固定模型”。供应商和模型会变化。</td><td>API 不等于 ChatGPT 页面，也不等于某一个模型。</td></tr>
     </table>
   </div>
 
-  <p class="section-label">🧠 Quick Quiz</p>
+  <p class="section-label">🧠 快速测验</p>
   <div class="quiz-section">
-    <h3>Check your understanding</h3>
-
+    <h3>检查你的理解</h3>
     <div class="quiz-q" id="q1">
-      <p>1. What does the "Translator Booth" represent in our analogy?</p>
+      <p>1. API 在这个课程里最接近什么？</p>
       <div class="quiz-opts">
-        <button class="quiz-opt" onclick="answer('q1',this,false,'The AI model is inside the building — the booth is the access window, not the AI itself.')">The AI model doing the thinking</button>
-        <button class="quiz-opt" onclick="answer('q1',this,true,'Correct! The API is the standardised interface — the window apps use to send requests and get responses without knowing what\'s inside.')">The API — the standardised interface apps use to communicate with AI</button>
-        <button class="quiz-opt" onclick="answer('q1',this,false,'The API key is your membership card — it proves identity and tracks usage, but isn\'t the booth itself.')">The API key that identifies the developer</button>
+        <button class="quiz-opt" onclick="answer('q1',this,false,'模型是在里面工作的能力；API 是应用程序访问这些能力的接口。')">AI 模型本身</button>
+        <button class="quiz-opt" onclick="answer('q1',this,true,'正确。API 是标准接口，应用程序通过它发送请求并接收回应。')">应用程序调用 AI 服务的标准接口</button>
+        <button class="quiz-opt" onclick="answer('q1',this,false,'API key 是认证凭证，不是接口本身。')">开发者的密码</button>
       </div>
       <div class="quiz-feedback" id="q1-fb"></div>
     </div>
 
     <div class="quiz-q" id="q2">
-      <p>2. What makes Codex different from GPT-4?</p>
+      <p>2. Codex 的核心定位是什么？</p>
       <div class="quiz-opts">
-        <button class="quiz-opt" onclick="answer('q2',this,false,'Both are made by OpenAI — that\'s not the distinction.')">Codex is made by Anthropic; GPT-4 by OpenAI</button>
-        <button class="quiz-opt" onclick="answer('q2',this,false,'Both use the same API. The difference is the specialist inside, not the booth.')">Codex uses a different API booth</button>
-        <button class="quiz-opt" onclick="answer('q2',this,true,'Exactly! Codex is specifically trained and optimised for code — it\'s the code-specialist translator, while GPT-4 is a general-purpose text and reasoning model.')">Codex is specifically trained for code; GPT-4 is general text + reasoning</button>
+        <button class="quiz-opt" onclick="answer('q2',this,true,'正确。Codex 是面向软件开发任务的 AI coding agent。')">协助读代码、改代码、跑检查的 AI coding agent</button>
+        <button class="quiz-opt" onclick="answer('q2',this,false,'这更像通用聊天助手，不是 Codex 的核心定位。')">只能回答百科问题的聊天机器人</button>
+        <button class="quiz-opt" onclick="answer('q2',this,false,'API 是接口，Codex 不是接口本身。')">OpenAI API 的另一个名字</button>
       </div>
       <div class="quiz-feedback" id="q2-fb"></div>
     </div>
 
     <div class="quiz-q" id="q3">
-      <p>3. When you use GitHub Copilot, what is happening behind the scenes?</p>
+      <p>3. API key 最安全的做法是什么？</p>
       <div class="quiz-opts">
-        <button class="quiz-opt" onclick="answer('q3',this,false,'Copilot runs on remote OpenAI servers — there\'s no local model on your machine.')">A local model on your computer generates suggestions</button>
-        <button class="quiz-opt" onclick="answer('q3',this,true,'Spot on! Every suggestion Copilot shows you came from an API call to a Codex model — your code went out, a completion came back, all in under a second.')">Copilot sends your code via API to Codex, which returns a completion</button>
-        <button class="quiz-opt" onclick="answer('q3',this,false,'Copilot uses the OpenAI API — GitHub provides the IDE plugin, not the AI model.')">GitHub\'s own AI runs the code completion without any external API</button>
+        <button class="quiz-opt" onclick="answer('q3',this,false,'公开仓库会泄露密钥，可能造成费用和数据风险。')">放进前端 JavaScript，方便浏览器直接调用</button>
+        <button class="quiz-opt" onclick="answer('q3',this,true,'正确。密钥应放在服务器端、环境变量或密钥管理系统中。')">放在服务器端或密钥管理系统，不提交到公开仓库</button>
+        <button class="quiz-opt" onclick="answer('q3',this,false,'聊天窗口也不是保存生产密钥的地方。')">贴到聊天窗口里，让 AI 帮你保管</button>
       </div>
       <div class="quiz-feedback" id="q3-fb"></div>
     </div>
   </div>
 
   <div class="module-nav">
-    <a href="module_12_chatgpt_features.html" class="nav-btn nav-prev">← Module 12: ChatGPT Features</a>
-    <a href="module_14_chatgpt_vs_claude.html" class="nav-btn nav-next">Module 14: ChatGPT vs Claude →</a>
+    <a href="module_12_chatgpt_features.html" class="nav-btn nav-prev">← 模块 12：ChatGPT 功能</a>
+    <a href="module_14_chatgpt_vs_claude.html" class="nav-btn nav-next">模块 14：ChatGPT vs Claude →</a>
   </div>
 
 </div>
@@ -371,11 +324,12 @@ function answer(qid, btn, correct, feedback) {
   fb.className = 'quiz-feedback show ' + (correct ? 'good' : 'bad');
   if (!correct) {
     q.querySelectorAll('.quiz-opt').forEach(b => {
-      if (b.onclick && b.onclick.toString().includes(',true,')) b.classList.add('correct');
+      if (b.getAttribute('onclick') && b.getAttribute('onclick').includes(',true,')) b.classList.add('correct');
     });
   }
 }
 </script>
-<script src="assets/language-switcher.js" data-locale="en"></script>
+<script src="../assets/language-switcher.js" data-locale="zh-CN"></script>
+</body>
 </body>
 </html>

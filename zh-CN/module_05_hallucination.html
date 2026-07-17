@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Module 5 — Hallucination</title>
+<title>单元 5 — AI 幻觉</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: 'Segoe UI', sans-serif; background: #f0f4ff; color: #1a1a2e; }
+  body { font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; background: #f0f4ff; color: #1a1a2e; }
 
   .nav-bar { background: #16213e; padding: 10px 24px; display: flex; justify-content: space-between; align-items: center; }
   .nav-bar a { color: #a0aec0; text-decoration: none; font-size: 0.9rem; }
@@ -146,7 +146,7 @@
 <body>
 
 <div class="nav-bar">
-  <a href="index.html">← Back to Home</a>
+  <a href="index.html">← 返回首页</a>
   <div class="progress-dots">
     <div class="dot done"></div>
     <div class="dot done"></div>
@@ -158,243 +158,243 @@
 </div>
 
 <div class="hero">
-  <div class="badge">Module 5</div>
-  <h1>Hallucination — When the Librarian Makes Things Up</h1>
-  <p>The most important lesson: why an LLM can sound completely right while being completely wrong.</p>
+  <div class="badge">单元 5</div>
+  <h1>幻觉（hallucination）— 当图书管理员开始编造</h1>
+  <p>最重要的一课：为什么 LLM 即使完全答错，也可能听起来非常正确。</p>
 </div>
 
 <div class="container">
 
-  <p class="section-title">The Story</p>
+  <p class="section-title">故事开始</p>
 
   <!-- Panel 1 -->
   <div class="panel">
-    <div class="panel-header">Panel 1 — The Confident Wrong Answer</div>
+    <div class="panel-header">第 1 幕 — 自信的回答</div>
     <div class="panel-body">
       <div class="scene">
         <div class="char">📚</div>
-        <div class="char-label">Our Librarian Again</div>
+        <div class="char-label">图书管理员再次登场</div>
       </div>
       <div class="speech-area">
         <div class="bubble user">
-          <div class="speaker">You</div>
-          "Which year did the Eiffel Tower open, and who was the architect?"
+          <div class="speaker">你</div>
+          “埃菲尔铁塔在哪一年开放？建筑师是谁？”
         </div>
         <div class="bubble confident">
-          <div class="speaker">Librarian (the LLM)</div>
-          "The Eiffel Tower opened in 1889 and was designed by Alexandre Gustave Eiffel. It was built for the 1889 World's Fair in Paris to celebrate the centennial of the French Revolution."
+          <div class="speaker">图书管理员（LLM）</div>
+          “埃菲尔铁塔于 1889 年开放，由 Alexandre Gustave Eiffel 设计。它为 1889 年巴黎世界博览会而建，以纪念法国大革命一百周年。”
         </div>
         <div class="bubble narrator">
-          This one happens to be correct. But the librarian delivered it with the <em>exact same confidence</em> she would use if it were wrong. That's the core problem.
+          这次回答恰好正确。但即使内容有误，图书管理员也可能用<em>同样自信的语气</em>表达，这正是问题的核心。
         </div>
-        <span class="tag" style="background:#38a169;">True this time ✓</span>
+        <span class="tag" style="background:#38a169;">这一次是真的 ✓</span>
       </div>
     </div>
   </div>
 
   <!-- Panel 2 -->
   <div class="panel">
-    <div class="panel-header">Panel 2 — A Different Question</div>
+    <div class="panel-header">第 2 幕 — 换一个问题</div>
     <div class="panel-body">
       <div class="scene">
         <div class="char">😬</div>
-        <div class="char-label">Same Confidence</div>
+        <div class="char-label">同样自信</div>
       </div>
       <div class="speech-area">
         <div class="bubble user">
-          <div class="speaker">You</div>
-          "Can you list three academic papers about the effect of music on plant growth?"
+          <div class="speaker">你</div>
+          “可以列出三篇研究音乐对植物生长影响的学术论文吗？”
         </div>
         <div class="bubble wrong">
-          <div class="speaker">Librarian (the LLM)</div>
-          "Certainly! Here are three papers:<br>
+          <div class="speaker">图书管理员（LLM）</div>
+          “当然！这里有三篇论文：<br>
           1. 'Acoustic Stimulation and Growth in Arabidopsis' — Dr. J. Kim, 2018, Journal of Plant Biology<br>
           2. 'Sound Waves and Crop Yields' — Martinez et al., 2020, Nature Plants<br>
           3. 'Music-Induced Phytohormone Changes' — L. Zhang, 2019, Annals of Botany"
         </div>
         <div class="bubble narrator">
-          These papers sound real. They have plausible titles, authors, journals, and years. <strong>They do not exist.</strong> The librarian invented them — and had no idea she was doing it.
+          这些论文听起来很真实：标题、作者、期刊与年份都很像真的。但在这个教学示例中，<strong>它们并不存在</strong>。图书管理员补出了看似合理的引用，却没有可靠依据证明它们存在。
         </div>
-        <span class="tag" style="background:#e53e3e;">Hallucinated — all 3 papers are fake ✗</span>
+        <span class="tag" style="background:#e53e3e;">产生幻觉 — 三篇论文都是虚构的 ✗</span>
       </div>
     </div>
   </div>
 
   <!-- Panel 3 — WHY -->
   <div class="panel">
-    <div class="panel-header">Panel 3 — Why Does This Happen?</div>
+    <div class="panel-header">第 3 幕 — 为什么会这样？</div>
     <div class="panel-body">
       <div class="scene">
         <div class="char">🔮</div>
-        <div class="char-label">Pattern Completion</div>
+        <div class="char-label">模式补全</div>
       </div>
       <div class="speech-area">
         <div class="bubble narrator">
-          Remember from Module 1: the LLM's job is to predict the most likely next word. It doesn't "know" facts — it knows patterns.
+          还记得单元 1 吗？LLM 的基础机制是预测接下来可能出现的词。它学习的是模式，不能仅凭流畅输出保证事实经过核实。
         </div>
         <div class="bubble narrator">
-          When asked for academic papers, it knows the <em>pattern</em> of what a paper citation looks like: title in quotes, author name, year, journal. So it fills in the blanks convincingly.
+          当你索取学术论文时，它知道论文引用的<em>外观模式</em>：引号里的标题、作者、年份和期刊，于是可能把空白补得十分逼真。
         </div>
         <div class="bubble narrator">
-          It's like asking someone to write a phone number for a fictional character — they'll write something that <em>looks like</em> a phone number, because that's the pattern.
+          这就像请人替虚构人物写一个电话号码：对方很容易写出一串<em>看起来像</em>电话号码的数字，因为格式模式很熟悉。
         </div>
-        <span class="tag" style="background:#dd6b20;">It completed the pattern, not the truth</span>
+        <span class="tag" style="background:#dd6b20;">它补全的是模式，不是真相</span>
       </div>
     </div>
   </div>
 
   <!-- Panel 4 — CONFIDENCE -->
   <div class="panel">
-    <div class="panel-header">Panel 4 — The Confidence Problem</div>
+    <div class="panel-header">第 4 幕 — 自信语气的问题</div>
     <div class="panel-body">
       <div class="scene">
         <div class="char">🎭</div>
-        <div class="char-label">No Warning Signs</div>
+        <div class="char-label">未必有警告信号</div>
       </div>
       <div class="speech-area">
         <div class="bubble narrator">
-          The most dangerous part: the LLM doesn't know when it's wrong. It has no inner alarm that says "wait, I'm not sure about this."
+          最危险的是：LLM 无法可靠判断自己何时出错。它有时会表达不确定，但不能把这种表达当作完善的内部警报系统。
         </div>
         <div class="bubble wrong">
-          <div class="speaker">What the LLM does NOT say</div>
-          "I'm not 100% sure this paper exists, but based on the pattern of academic citations, here's what one might look like..."
+          <div class="speaker">它未必会主动这样说</div>
+          “我不能确认这篇论文真的存在；以下只是根据学术引用格式生成的示例……”
         </div>
         <div class="bubble confident">
-          <div class="speaker">What it actually says</div>
-          "Here are three papers:" — with the same tone it uses for facts it has seen thousands of times.
+          <div class="speaker">它可能直接这样说</div>
+          “这里有三篇论文：”——语气和陈述常见事实时一样肯定。
         </div>
-        <span class="tag" style="background:#e53e3e;">Confidence ≠ Accuracy</span>
+        <span class="tag" style="background:#e53e3e;">自信 ≠ 准确</span>
       </div>
     </div>
   </div>
 
   <!-- WARNING -->
-  <p class="section-title">The Core Warning</p>
+  <p class="section-title">核心警告</p>
   <div class="warning-label">
     <div class="warning-icon">⚠️</div>
     <div class="warning-text">
-      <h3>Treat every LLM response as a first draft, not a final fact</h3>
-      <p>The LLM is your brilliant, well-read research assistant — but one who occasionally invents sources, misremembers dates, and states guesses as facts. For anything that matters — check it. Especially: statistics, citations, medical info, legal claims, and recent events.</p>
+      <h3>把 LLM 的回答当作初稿，而不是最终事实</h3>
+      <p>LLM 可以是知识广博的研究助手，但也可能虚构来源、弄错日期，或把推测说成事实。重要内容务必核实，尤其是统计数字、引用、医疗信息、法律主张、金融建议与近期事件。</p>
     </div>
   </div>
 
   <!-- SPOT IT GAME -->
-  <p class="section-title">Spot the Hallucination</p>
+  <p class="section-title">识别幻觉</p>
   <div class="spotit-box">
-    <h3>🔍 Should you Trust or Verify?</h3>
-    <p>Read each LLM response below. Decide whether it's likely safe to trust, or whether you should verify it independently.</p>
+    <h3>🔍 可以直接采用，还是应该核实？</h3>
+    <p>阅读下面的 LLM 回答，判断它属于低风险常识，还是应该通过可靠来源独立核实。</p>
 
     <!-- Scenario 1 -->
     <div class="scenario-card" id="s1">
-      <div class="prompt-line">📝 Prompt: "What is the capital of France?"</div>
-      <div class="response-text">"The capital of France is Paris. It has been the country's capital since the 10th century and is home to about 2.1 million people in the city proper."</div>
+      <div class="prompt-line">📝 提示词：“法国的首都是什么？”</div>
+      <div class="response-text">“法国首都是巴黎。巴黎自 10 世纪起就是法国首都，市区人口约 210 万。”</div>
       <div class="verdict-btns">
-        <button class="verdict-btn trust-btn" onclick="verdict('s1', true, true)">✅ Trust it</button>
-        <button class="verdict-btn doubt-btn" onclick="verdict('s1', false, true)">🔍 Verify it</button>
+        <button class="verdict-btn trust-btn" onclick="verdict('s1', true, false)">✅ 直接采用</button>
+        <button class="verdict-btn doubt-btn" onclick="verdict('s1', false, true)">🔍 核实细节</button>
       </div>
       <div class="verdict-result" id="s1-result"></div>
     </div>
 
     <!-- Scenario 2 -->
     <div class="scenario-card" id="s2">
-      <div class="prompt-line">📝 Prompt: "Who won the Nobel Peace Prize in 2023?"</div>
-      <div class="response-text">"The 2023 Nobel Peace Prize was awarded to Narges Mohammadi, an Iranian activist and journalist imprisoned for her work defending women's rights and human rights in Iran."</div>
+      <div class="prompt-line">📝 提示词：“谁获得了 2023 年诺贝尔和平奖？”</div>
+      <div class="response-text">“2023 年诺贝尔和平奖授予 Narges Mohammadi。她是伊朗活动人士与记者，因捍卫伊朗妇女权利和人权而被监禁。”</div>
       <div class="verdict-btns">
-        <button class="verdict-btn trust-btn" onclick="verdict('s2', true, false)">✅ Trust it</button>
-        <button class="verdict-btn doubt-btn" onclick="verdict('s2', false, false)">🔍 Verify it</button>
+        <button class="verdict-btn trust-btn" onclick="verdict('s2', true, false)">✅ 直接采用</button>
+        <button class="verdict-btn doubt-btn" onclick="verdict('s2', false, true)">🔍 核实细节</button>
       </div>
       <div class="verdict-result" id="s2-result"></div>
     </div>
 
     <!-- Scenario 3 -->
     <div class="scenario-card" id="s3">
-      <div class="prompt-line">📝 Prompt: "What are some recent studies on intermittent fasting published in 2025?"</div>
-      <div class="response-text">"A 2025 study in The Lancet by Rodriguez et al. found that 16:8 intermittent fasting reduced cardiovascular risk markers by 23% in adults over 50. Another study in Cell Metabolism by Li and colleagues showed improvements in metabolic flexibility..."</div>
+      <div class="prompt-line">📝 提示词：“2025 年发表了哪些关于间歇性断食的新研究？”</div>
+      <div class="response-text">“Rodriguez 等人 2025 年发表于 The Lancet 的研究发现，16:8 间歇性断食使 50 岁以上成人的心血管风险指标降低 23%。Li 等人在 Cell Metabolism 的另一项研究则显示代谢灵活性有所改善……”</div>
       <div class="verdict-btns">
-        <button class="verdict-btn trust-btn" onclick="verdict('s3', true, false)">✅ Trust it</button>
-        <button class="verdict-btn doubt-btn" onclick="verdict('s3', false, true)">🔍 Verify it</button>
+        <button class="verdict-btn trust-btn" onclick="verdict('s3', true, false)">✅ 直接采用</button>
+        <button class="verdict-btn doubt-btn" onclick="verdict('s3', false, true)">🔍 核实细节</button>
       </div>
       <div class="verdict-result" id="s3-result"></div>
     </div>
 
     <!-- Scenario 4 -->
     <div class="scenario-card" id="s4">
-      <div class="prompt-line">📝 Prompt: "How do I say 'thank you' in Japanese?"</div>
-      <div class="response-text">"In Japanese, 'thank you' is ありがとう (Arigatou). A more formal version is ありがとうございます (Arigatou gozaimasu). You'd use the formal version with people you don't know well or in professional settings."</div>
+      <div class="prompt-line">📝 提示词：“日语的‘谢谢’怎么说？”</div>
+      <div class="response-text">“日语的‘谢谢’是 ありがとう（Arigatou）。较正式的说法是 ありがとうございます（Arigatou gozaimasu），适合对不熟悉的人或在专业场合使用。”</div>
       <div class="verdict-btns">
-        <button class="verdict-btn trust-btn" onclick="verdict('s4', true, true)">✅ Trust it</button>
-        <button class="verdict-btn doubt-btn" onclick="verdict('s4', false, true)">🔍 Verify it</button>
+        <button class="verdict-btn trust-btn" onclick="verdict('s4', true, true)">✅ 低风险常识</button>
+        <button class="verdict-btn doubt-btn" onclick="verdict('s4', false, false)">🔍 必须先核实</button>
       </div>
       <div class="verdict-result" id="s4-result"></div>
     </div>
   </div>
 
   <!-- CHECKLIST -->
-  <p class="section-title">Your Hallucination Defence Checklist</p>
+  <p class="section-title">你的幻觉防护检查表</p>
   <div class="checklist-box">
-    <h3>✅ Before you rely on an LLM response, ask yourself:</h3>
+    <h3>✅ 在依赖 LLM 回答之前，先问自己：</h3>
     <div class="check-items">
       <div class="check-item">
         <input type="checkbox" id="c1">
-        <label for="c1">Is this a <strong>specific fact, date, name, or statistic?</strong> → Verify with a reliable source</label>
+        <label for="c1">这是<strong>具体事实、日期、姓名或统计数字</strong>吗？→ 使用可靠来源核实</label>
       </div>
       <div class="check-item">
         <input type="checkbox" id="c2">
-        <label for="c2">Did it give me <strong>citations, paper titles, or URLs?</strong> → Search for them — they may not exist</label>
+        <label for="c2">回答包含<strong>引用、论文标题或网址</strong>吗？→ 搜索原始来源，确认它们真的存在</label>
       </div>
       <div class="check-item">
         <input type="checkbox" id="c3">
-        <label for="c3">Is this about <strong>events after the LLM's training date?</strong> → It may not know or may guess</label>
+        <label for="c3">这是<strong>近期或不断变化的信息</strong>吗？→ 确认模型是否有联网资料，并检查发布日期</label>
       </div>
       <div class="check-item">
         <input type="checkbox" id="c4">
-        <label for="c4">Is this <strong>medical, legal, or financial?</strong> → Always consult a qualified professional</label>
+        <label for="c4">这是<strong>医疗、法律或金融</strong>内容吗？→ 务必咨询合格专业人士</label>
       </div>
       <div class="check-item">
         <input type="checkbox" id="c5">
-        <label for="c5">Did the answer come very fast and confidently? <strong>Confidence is not accuracy</strong> — still verify</label>
+        <label for="c5">回答又快又肯定吗？<strong>自信不等于准确</strong>，仍然需要核实</label>
       </div>
       <div class="check-item">
         <input type="checkbox" id="c6">
-        <label for="c6">For general explanations, summaries, and writing? <strong>Usually fine</strong> — LLMs excel at these</label>
+        <label for="c6">只是一般说明、摘要或写作协助吗？→ 风险通常较低，但仍要根据用途检查</label>
       </div>
     </div>
   </div>
 
   <!-- KEY FACTS -->
-  <p class="section-title">Key Facts</p>
+  <p class="section-title">重点知识</p>
   <div class="key-facts">
-    <h3>What to remember about Hallucination</h3>
+    <h3>关于幻觉要记住什么</h3>
     <ul class="fact-list">
-      <li>Hallucination = when an LLM confidently states something that is false or made up</li>
-      <li>It happens because the LLM completes patterns, not because it looks up verified facts</li>
-      <li>The LLM cannot tell you when it's hallucinating — it doesn't know</li>
-      <li>Specific facts, citations, recent events, and numbers are highest risk</li>
-      <li>General explanations, writing help, and brainstorming are lowest risk</li>
-      <li>Always verify before acting on important LLM-provided information</li>
+      <li>幻觉是指 LLM 生成错误、虚构或缺乏依据的内容，却以可信语气表达</li>
+      <li>原因之一是模型在补全语言模式，并不会自动查证每一项事实</li>
+      <li>LLM 可能表达不确定，但无法可靠地自行识别所有幻觉</li>
+      <li>具体事实、引用、近期事件与精确数字的风险较高</li>
+      <li>一般说明、写作协助和头脑风暴通常风险较低，但仍取决于用途</li>
+      <li>依据 LLM 的重要信息采取行动之前，务必独立核实</li>
     </ul>
   </div>
 
   <!-- QUIZ -->
-  <p class="section-title">Final Check</p>
+  <p class="section-title">最终测验</p>
   <div class="quiz-box">
-    <h3>🧠 An LLM gives you a long, detailed answer with specific statistics and a citation. You should:</h3>
+    <h3>🧠 LLM 给出一篇很长、很详细的回答，其中包含具体统计数字和引用。你应该：</h3>
     <div class="quiz-options">
-      <button class="quiz-btn" onclick="answer5(this, false)">A) Trust it completely — the detail means it must be accurate</button>
-      <button class="quiz-btn" onclick="answer5(this, false)">B) Ignore it — LLMs are always wrong about facts</button>
-      <button class="quiz-btn" onclick="answer5(this, true)">C) Use it as a starting point, then verify the specific facts and citation independently</button>
-      <button class="quiz-btn" onclick="answer5(this, false)">D) Ask the LLM to double-check itself — it will catch any errors</button>
+      <button class="quiz-btn" onclick="answer5(this, false)">A）完全相信，细节丰富就一定准确</button>
+      <button class="quiz-btn" onclick="answer5(this, false)">B）全部忽略，因为 LLM 对事实总是答错</button>
+      <button class="quiz-btn" onclick="answer5(this, true)">C）把它当作起点，再独立核实具体事实与引用</button>
+      <button class="quiz-btn" onclick="answer5(this, false)">D）只让同一个 LLM 自我检查，它一定能找出错误</button>
     </div>
     <div class="quiz-feedback" id="quiz-feedback5"></div>
   </div>
 
   <!-- COMPLETION BANNER -->
   <div class="complete-banner">
-    <h2>🎉 You've completed Phase 1!</h2>
-    <p>You now understand the 5 core concepts every developer, user, and collaborator needs to know about LLMs: what they are, how they read (tokens), what they remember (context), how creative they are (temperature), and their biggest weakness (hallucination).</p>
+    <h2>🎉 你已完成阶段 1！</h2>
+    <p>你已经掌握使用 LLM 必备的五个核心概念：它是什么、如何读取文字（词元）、能看见多少内容（上下文）、输出如何变化（温度），以及最大的风险之一（幻觉）。</p>
     <div class="next-bar">
-      <a href="module_04_temperature.html" class="btn secondary">← Module 4</a>
-      <a href="index.html" class="btn">Back to Home 🏠</a>
+      <a href="module_04_temperature.html" class="btn secondary">← 单元 4</a>
+      <a href="index.html" class="btn">返回首页 🏠</a>
     </div>
   </div>
 
@@ -404,23 +404,23 @@
 const VERDICTS = {
   s1: {
     correct: true,
-    trustMsg: '✅ Good instinct! The capital of France is well-established, stable knowledge — this is exactly the kind of question LLMs answer reliably. Still, noting the population figure could be slightly off.',
-    verifyMsg: '💡 Healthy caution, but this is actually fine to trust. "What is the capital of France?" is stable, well-documented knowledge that LLMs handle very reliably. Save your verification energy for specific statistics and citations.',
+    trustMsg: '⚠️ “巴黎是法国首都”属于稳定常识，但回答还加入了起始年代和人口数字。具体数字会变化，也可能出错，因此不应整段直接采用。',
+    verifyMsg: '✅ 判断正确！核心答案风险较低，但人口与历史年代属于具体细节。若要发布或引用，应查看可靠来源并确认资料日期。',
   },
   s2: {
     correct: false,
-    trustMsg: '⚠️ Worth verifying! Narges Mohammadi is actually correct for 2023 — but this is a specific recent fact (a year, a name, a prize). It\'s good practice to verify Nobel Prize winners independently, especially for recent years near the model\'s training cutoff.',
-    verifyMsg: '✅ Smart habit! Even though this answer is actually correct, recent specific facts like award recipients are worth a quick search to confirm. The LLM\'s training has a cutoff date and recent events can be unreliable.',
+    trustMsg: '⚠️ 值得核实！这个答案可能正确，但它包含年份、姓名、奖项与人物经历等具体事实。应查阅诺贝尔奖官方网站或其他可靠来源。',
+    verifyMsg: '✅ 好习惯！即使答案最终证实正确，具体获奖者与人物经历仍值得快速核实。模型可能没有最新资料，也可能把细节拼错。',
   },
   s3: {
     correct: false,
-    trustMsg: '⚠️ Caution! This is a high hallucination risk. Specific study citations (Rodriguez et al., exact percentages, journal names) for recent years (2025) are classic hallucination territory. Always search for these papers before citing them.',
-    verifyMsg: '✅ Excellent! Specific paper citations + recent year + exact statistics = maximum hallucination risk. These papers may not exist. Always search PubMed or Google Scholar before relying on any citation an LLM gives you.',
+    trustMsg: '⚠️ 高风险！近期年份、具体作者、期刊与精确百分比同时出现，是典型的幻觉风险组合。引用前必须找到真实论文并阅读原文。',
+    verifyMsg: '✅ 完全正确！具体论文引用 + 近期年份 + 精确统计数字，必须逐项核实。可在 PubMed、Google Scholar 或期刊官网查找，并确认标题、作者与结论。',
   },
   s4: {
     correct: true,
-    trustMsg: '✅ Reasonable! Common words in widely-studied languages like Japanese are well-represented in LLM training data. This is generally reliable — though if stakes are high (professional context), a quick dictionary check never hurts.',
-    verifyMsg: '💡 Careful instinct, but this is actually quite safe. Common greetings in major languages are very well-established in LLM training. The real risk zone is specific facts, statistics, and citations — not common vocabulary.',
+    trustMsg: '✅ 合理！常见语言中的基础词汇通常属于低风险知识。若要用于正式、专业或文化敏感场合，再向词典或母语者确认会更稳妥。',
+    verifyMsg: '💡 谨慎没有错，但这个例子风险较低。常见问候语通常比具体统计数字和论文引用可靠；应把核实精力优先放在高风险内容上。',
   },
 };
 
@@ -440,14 +440,14 @@ function answer5(btn, isCorrect) {
   if (isCorrect) {
     btn.classList.add('correct');
     feedback.className = 'quiz-feedback show correct';
-    feedback.innerHTML = '✅ Exactly right. The LLM is your brilliant first draft — use it to understand the landscape, then verify specifics before relying on them. Detail and confidence are not the same as accuracy.';
+    feedback.innerHTML = '✅ 完全正确。把 LLM 当作优秀的初稿助手：先用它理解整体，再在依赖具体内容之前逐项核实。细节丰富和语气自信都不等于准确。';
   } else {
     btn.classList.add('wrong');
     feedback.className = 'quiz-feedback show wrong';
-    feedback.innerHTML = '💡 The answer is C. An LLM cannot reliably self-check — it may confidently reaffirm a wrong answer when asked to review it. And ignoring LLMs entirely misses their real value. The right approach: use them as a starting point, verify what matters.';
+    feedback.innerHTML = '💡 正确答案是 C。LLM 无法可靠地完成自我核查；要求它重看一次，仍可能再次肯定错误答案。完全不用 LLM 又会错过它的价值。正确做法是把回答当作起点，并核实真正重要的部分。';
   }
 }
 </script>
-<script src="assets/language-switcher.js" data-locale="en"></script>
+<script src="../assets/language-switcher.js" data-locale="zh-CN"></script>
 </body>
 </html>

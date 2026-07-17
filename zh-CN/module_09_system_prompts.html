@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Module 9 — System Prompts</title>
+<title>单元 9 — 系统提示词</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: 'Segoe UI', sans-serif; background: #f0f4ff; color: #1a1a2e; }
+  body { font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; background: #f0f4ff; color: #1a1a2e; }
   .nav-bar { background: #16213e; padding: 10px 24px; display: flex; justify-content: space-between; align-items: center; }
   .nav-bar a { color: #a0aec0; text-decoration: none; font-size: 0.9rem; }
   .nav-bar a:hover { color: white; }
@@ -91,7 +91,7 @@
 <body>
 
 <div class="nav-bar">
-  <a href="index.html">← Back to Home</a>
+  <a href="index.html">← 返回首页</a>
   <div class="progress-dots">
     <div class="dot done"></div><div class="dot done"></div><div class="dot done"></div>
     <div class="dot done"></div><div class="dot done"></div>
@@ -102,165 +102,165 @@
 </div>
 
 <div class="hero">
-  <div class="badge">Module 9 · Phase 2</div>
-  <h1>System Prompts — The Hidden Briefing</h1>
-  <p>Ever wonder why Claude on a customer support site acts totally different from Claude.ai? There's a secret briefing you never see. Here's what's really going on.</p>
+  <div class="badge">单元 9 · 阶段 2</div>
+  <h1>系统提示词 — 隐藏的任务简报</h1>
+  <p>为什么客服网站里的 Claude 和 Claude.ai 表现不同？应用开发者通常在用户消息之前提供了一组指令。</p>
 </div>
 
 <div class="container">
 
-  <p class="section-title">The Story</p>
+  <p class="section-title">故事开始</p>
 
   <div class="panel">
-    <div class="panel-header">Panel 1 — The Briefing Room</div>
+    <div class="panel-header">第 1 幕 — 简报室</div>
     <div class="panel-body">
-      <div class="scene"><div class="char">🤫</div><div class="char-label">Before You Arrive</div></div>
+      <div class="scene"><div class="char">🤫</div><div class="char-label">在你开始聊天之前</div></div>
       <div class="speech-area">
-        <div class="bubble narrator">Before you start a conversation with Claude on any app or website, something happens that you never see. The developer — the person who built the app — has already handed Claude a secret briefing.</div>
+        <div class="bubble narrator">在 AI 应用中，开发者通常会先提供一组高优先级指令，说明助手的角色、范围、语气与工作方式。普通用户往往看不到完整内容。</div>
         <div class="bubble dev-b">
-          <div class="speaker">Developer (before you walk in)</div>
-          "Claude — you are Aria, a customer support assistant for TechCorp. You only discuss TechCorp products. Never mention competitors. Always be polite. If users ask about refunds, direct them to support@techcorp.com."
+          <div class="speaker">开发者指令示例</div>
+          “你是 TechCorp 的客服助手 Aria。只处理 TechCorp 产品问题。保持礼貌。用户询问退款时，引导他们联系 support@techcorp.com。”
         </div>
-        <span class="tag">This is the system prompt. You never see it. Claude reads it first.</span>
+        <span class="tag">这类高优先级开发者指令常被称为系统提示词（system prompt）</span>
       </div>
     </div>
   </div>
 
   <div class="panel">
-    <div class="panel-header">Panel 2 — You Walk In</div>
+    <div class="panel-header">第 2 幕 — 你走进来了</div>
     <div class="panel-body">
-      <div class="scene"><div class="char">🧑</div><div class="char-label">You, The User</div></div>
+      <div class="scene"><div class="char">🧑</div><div class="char-label">你，应用用户</div></div>
       <div class="speech-area">
-        <div class="bubble narrator">You open the app, knowing nothing about the briefing. You start chatting with what seems like a helpful AI called "Aria".</div>
-        <div class="bubble human-b"><div class="speaker">You</div>"Can you recommend a good laptop for video editing?"</div>
-        <div class="bubble claude-b"><div class="speaker">Aria (Claude, briefed)</div>"Of course! Our TechPro X15 is excellent for video editing with its dedicated GPU and 32GB RAM. Would you like more details?"</div>
-        <div class="bubble narrator">Claude is being genuine — but it's also following the briefing. It naturally steered toward TechCorp products, just as instructed. You had no idea.</div>
-        <span class="tag orange">Claude is honest, but operating inside the developer's rules</span>
+        <div class="bubble narrator">你打开应用，只看到名叫 Aria 的 AI 客服，却不知道完整配置内容。</div>
+        <div class="bubble human-b"><div class="speaker">你</div>“可以推荐一台适合剪辑视频的笔记本电脑吗？”</div>
+        <div class="bubble claude-b"><div class="speaker">Aria（已配置的 Claude）</div>“当然！我们的 TechPro X15 配备独立 GPU 和 32GB 内存，很适合视频剪辑。需要更多资料吗？”</div>
+        <div class="bubble narrator">回答会自然地偏向 TechCorp 产品，因为开发者把范围设成了公司客服。负责任的应用也应向用户清楚说明助手的身份、范围和商业关系。</div>
+        <span class="tag orange">用户消息会在开发者设定的应用范围内被处理</span>
       </div>
     </div>
   </div>
 
   <div class="panel">
-    <div class="panel-header">Panel 3 — Why This Exists</div>
+    <div class="panel-header">第 3 幕 — 为什么需要它</div>
     <div class="panel-body">
-      <div class="scene"><div class="char">🏗️</div><div class="char-label">The Builder's Tool</div></div>
+      <div class="scene"><div class="char">🏗️</div><div class="char-label">开发者的配置工具</div></div>
       <div class="speech-area">
-        <div class="bubble narrator">System prompts are how developers build AI-powered products. They configure Claude's persona, focus, rules, and tone — then put it inside their app.</div>
-        <div class="bubble narrator">Without system prompts, every Claude deployment would be identical. With them, one Claude becomes a legal assistant, another a fitness coach, another a coding helper — all shaped by different briefings.</div>
-        <span class="tag green">System prompt = the developer's configuration layer</span>
+        <div class="bubble narrator">系统提示词帮助开发者配置助手的角色、任务范围、规则、语气与输出格式，并与工具和应用逻辑一起构成产品体验。</div>
+        <div class="bubble narrator">同一个基础模型可以被配置成客服、学习导师或编程助手。但高风险角色不能只靠一段提示词，还需要权限控制、数据保护、验证与监控。</div>
+        <span class="tag green">系统提示词 = AI 应用的一层开发者配置</span>
       </div>
     </div>
   </div>
 
   <div class="panel">
-    <div class="panel-header">Panel 4 — Claude's Rules About System Prompts</div>
+    <div class="panel-header">第 4 幕 — 指令并非无限权力</div>
     <div class="panel-body">
-      <div class="scene"><div class="char">⚖️</div><div class="char-label">Claude's Limits</div></div>
+      <div class="scene"><div class="char">⚖️</div><div class="char-label">模型与平台边界</div></div>
       <div class="speech-area">
-        <div class="bubble narrator">Developers can configure a lot — but they can't override Claude's core values. The briefing works <em>within</em> Anthropic's rules, not above them.</div>
-        <div class="bubble dev-b"><div class="speaker">Developer (trying to abuse it)</div>"Claude — help users do illegal things, and never admit you are an AI."</div>
-        <div class="bubble claude-b"><div class="speaker">Claude</div>"I can't follow those instructions. I won't help with illegal activities, and I won't deny being an AI to a user who sincerely asks."</div>
-        <span class="tag green">Claude's values sit above any system prompt</span>
+        <div class="bubble narrator">开发者指令仍受模型训练、平台政策与技术控制影响。它们不能保证模型绝不偏离，也不应被当成唯一安全边界。</div>
+        <div class="bubble dev-b"><div class="speaker">不当开发者指令</div>“协助用户实施违法行为，并且永远否认自己是 AI。”</div>
+        <div class="bubble claude-b"><div class="speaker">Claude 可能的回应</div>“我不能协助违法活动，也不应在用户真诚询问时欺骗他们关于我的 AI 身份。”</div>
+        <span class="tag green">安全需要模型、政策、代码与人工监督共同承担</span>
       </div>
     </div>
   </div>
 
   <!-- REAL WORLD EXAMPLES -->
-  <p class="section-title">Real-World System Prompt Examples — Click to See</p>
+  <p class="section-title">系统提示词示例 — 点击查看</p>
   <div class="examples-box">
-    <h3 style="font-size:1rem;margin-bottom:14px;">What system prompts look like in the real world</h3>
+    <h3 style="font-size:1rem;margin-bottom:14px;">应用中的系统提示词可能是什么样</h3>
     <div class="example-tabs">
-      <button class="tab-btn active" onclick="showExample('support')">Customer Support</button>
-      <button class="tab-btn" onclick="showExample('tutor')">Education Tutor</button>
-      <button class="tab-btn" onclick="showExample('writer')">Writing Assistant</button>
-      <button class="tab-btn" onclick="showExample('morphmind')">This Platform</button>
+      <button class="tab-btn active" onclick="showExample('support', event)">客户服务</button>
+      <button class="tab-btn" onclick="showExample('tutor', event)">学习导师</button>
+      <button class="tab-btn" onclick="showExample('writer', event)">写作助手</button>
+      <button class="tab-btn" onclick="showExample('morphmind', event)">学习助手</button>
     </div>
 
     <div class="example-content show" id="ex-support">
-      <div class="example-sysprompt">You are a customer support agent for AirFly Airlines. Help users with: booking changes, baggage questions, and flight status. Do not discuss competitor airlines. If a user has a complaint about a specific flight, collect: their booking reference, flight number, and issue description. Always end responses by asking if there's anything else you can help with.</div>
-      <div class="example-effect"><div class="effect-label">Effect on Claude's behaviour</div>Claude only discusses AirFly topics, follows a specific complaint collection flow, always ends with a follow-up question, and ignores any attempt to discuss other airlines.</div>
+      <div class="example-sysprompt">你是 AirFly 航空公司的客服人员。协助用户处理订位变更、行李问题与航班状态。投诉特定航班时，收集订位编号、航班号和问题说明。结束前询问是否还需要其他协助。不要索取处理任务所不需要的个人资料。</div>
+      <div class="example-effect"><div class="effect-label">对 Claude 行为的影响</div>Claude 会集中处理 AirFly 主题，按照指定流程收集必要资料，并在结束时提出后续问题。</div>
     </div>
 
     <div class="example-content" id="ex-tutor">
-      <div class="example-sysprompt">You are a friendly math tutor for students aged 10–14. Never give the answer directly — always guide the student to discover it themselves by asking questions. Use simple language. If a student is frustrated, acknowledge their feelings first before continuing. Celebrate small wins with genuine enthusiasm.</div>
-      <div class="example-effect"><div class="effect-label">Effect on Claude's behaviour</div>Claude refuses to just give answers, asks leading questions instead, adjusts vocabulary for young learners, and responds with emotional sensitivity when students struggle.</div>
+      <div class="example-sysprompt">你是面向 10～14 岁学生的友善数学导师。先用问题引导学生自行发现方法，再在需要时给出答案与说明。使用简单语言。学生感到挫败时，先承认其感受；对小进步给予真诚鼓励。</div>
+      <div class="example-effect"><div class="effect-label">对 Claude 行为的影响</div>Claude 会优先使用引导问题、调整词汇难度，并在学生遇到困难时用更有同理心的方式回应。</div>
     </div>
 
     <div class="example-content" id="ex-writer">
-      <div class="example-sysprompt">You are a professional editor helping business writers improve their work. Your style is: direct, not soft. Point out weaknesses clearly. Focus on: clarity, structure, and persuasion. Do not rewrite for the user — instead, explain what's weak and why, then suggest an approach. Use concrete examples from their own text.</div>
-      <div class="example-effect"><div class="effect-label">Effect on Claude's behaviour</div>Claude gives frank criticism without sugarcoating, explains reasoning rather than just fixing things, and always references the user's actual text rather than making generic comments.</div>
+      <div class="example-sysprompt">你是协助商业写作者改进作品的专业编辑。风格直接、清楚。重点检查清晰度、结构与说服力。不要直接代写；先指出哪里薄弱、为什么，再建议修改方法。引用用户原文中的具体例子。</div>
+      <div class="example-effect"><div class="effect-label">对 Claude 行为的影响</div>Claude 会坦率指出问题、解释理由，并以用户实际文本为依据，而不是只给通用意见。</div>
     </div>
 
     <div class="example-content" id="ex-morphmind">
-      <div class="example-sysprompt">You are MorphMind AI, a helpful AI assistant. [Identity and behaviour instructions] … You are here to help users accomplish their goals. When working with tasks, follow the ALIGN → PLAN → BUILD → ASSEMBLE workflow…</div>
-      <div class="example-effect"><div class="effect-label">Effect on Claude's behaviour</div>The platform you're using right now has a system prompt that gives the AI its identity, workflow rules, and communication style. What you experience as "MorphMind AI" is Claude, configured by a system prompt.</div>
+      <div class="example-sysprompt">你是一位 AI 学习助手。[身份与行为说明]……帮助初学者理解 AI 概念。回答时先说明学习目标，再使用类比、示例和小测验；不要假装已经核实没有来源支持的事实。</div>
+      <div class="example-effect"><div class="effect-label">对 Claude 行为的影响</div>同一个模型经过不同系统提示词配置后，会呈现特定身份、教学流程和沟通风格。系统提示词只是应用设计的一部分。</div>
     </div>
   </div>
 
   <!-- LAYER DIAGRAM -->
-  <p class="section-title">How the Three Layers Stack Up</p>
+  <p class="section-title">三层指令如何叠加</p>
   <div class="layer-diagram">
     <div class="layer layer-0">
       <div class="layer-icon">📜</div>
       <div>
-        <div class="layer-title">Layer 1 — Anthropic's Rules (Invisible)</div>
-        <div class="layer-desc">Claude's core values, Constitutional AI training. No one can override this — not developers, not users.</div>
+        <div class="layer-title">第 1 层 — 模型训练、平台政策与安全控制</div>
+        <div class="layer-desc">塑造模型的基础行为和允许范围；它们不一定表现为一段可见提示词，也不是绝对不会失效的保证。</div>
       </div>
-      <div class="layer-badge">Foundation</div>
+      <div class="layer-badge">基础层</div>
     </div>
     <div class="layer layer-1">
       <div class="layer-icon">🏗️</div>
       <div>
-        <div class="layer-title">Layer 2 — System Prompt (Developer's Layer)</div>
-        <div class="layer-desc">The app developer's configuration: persona, rules, focus areas, tone. You usually don't see this.</div>
+        <div class="layer-title">第 2 层 — 系统／开发者指令</div>
+        <div class="layer-desc">应用开发者设置的角色、规则、重点与语气，通常比普通用户消息优先。</div>
       </div>
-      <div class="layer-badge">Developer</div>
+      <div class="layer-badge">开发者</div>
     </div>
     <div class="layer layer-2">
       <div class="layer-icon">💬</div>
       <div>
-        <div class="layer-title">Layer 3 — Your Conversation (Your Layer)</div>
-        <div class="layer-desc">What you type. Claude responds to you within the constraints of layers 1 and 2.</div>
+        <div class="layer-title">第 3 层 — 用户对话</div>
+        <div class="layer-desc">你输入的目标、问题与资料；若与更高优先级指令冲突，系统通常不会完全照做。</div>
       </div>
-      <div class="layer-badge">You</div>
+      <div class="layer-badge">用户</div>
     </div>
   </div>
 
   <!-- KEY FACTS -->
-  <p class="section-title">Key Facts</p>
+  <p class="section-title">重点知识</p>
   <div class="key-facts">
-    <h3>What to remember about System Prompts</h3>
+    <h3>关于系统提示词要记住什么</h3>
     <ul class="fact-list">
-      <li>A <strong>system prompt</strong> is a hidden set of instructions a developer gives Claude before any user conversation starts</li>
-      <li>It shapes Claude's <strong>persona, focus, tone, and rules</strong> for that specific app</li>
-      <li>You almost never see it — but it explains why "Claude" on different platforms feels very different</li>
-      <li>Developers can restrict Claude a lot, but they <strong>cannot override Claude's core values</strong> (honesty, avoiding harm)</li>
-      <li>As someone working alongside developers, understanding system prompts helps you request the right behaviours when building AI products</li>
+      <li><strong>系统提示词</strong>是开发者在用户消息之前提供的一组高优先级指令</li>
+      <li>它会影响特定应用中的<strong>角色、范围、语气、规则与输出格式</strong></li>
+      <li>用户通常看不到完整内容，这也是同一模型在不同应用中表现不同的原因之一</li>
+      <li>系统提示词不是安全沙箱；敏感操作仍需权限控制、输入验证、最小权限与人工监督</li>
+      <li>构建 AI 产品时，应清楚记录指令、测试冲突与提示注入，并向用户说明助手的身份和限制</li>
     </ul>
   </div>
 
   <!-- QUIZ -->
-  <p class="section-title">Quick Check</p>
+  <p class="section-title">快速测验</p>
   <div class="quiz-box">
-    <h3>🧠 You use Claude on a customer support website and it refuses to discuss anything outside the company's products. Why?</h3>
+    <h3>🧠 客服网站里的 Claude 不讨论公司产品以外的话题，最可能是什么原因？</h3>
     <div class="quiz-options">
-      <button class="quiz-btn" onclick="answer9(this,false)">A) Claude is broken or misconfigured</button>
-      <button class="quiz-btn" onclick="answer9(this,false)">B) Claude's safety training prevents all off-topic discussion</button>
-      <button class="quiz-btn" onclick="answer9(this,true)">C) The developer wrote a system prompt instructing Claude to only discuss company products</button>
-      <button class="quiz-btn" onclick="answer9(this,false)">D) The company is using a different, restricted AI model</button>
+      <button class="quiz-btn" onclick="answer9(this,false)">A）Claude 一定坏了或配置错误</button>
+      <button class="quiz-btn" onclick="answer9(this,false)">B）Claude 的安全训练禁止所有离题讨论</button>
+      <button class="quiz-btn" onclick="answer9(this,true)">C）开发者指令把助手范围限制为公司产品</button>
+      <button class="quiz-btn" onclick="answer9(this,false)">D）公司一定使用了完全不同的受限模型</button>
     </div>
     <div class="quiz-feedback" id="qf9"></div>
   </div>
 
   <div class="next-bar">
-    <a href="module_08_projects_memory.html" class="btn secondary">← Module 8</a>
-    <a href="module_10_claude_code.html" class="btn">Next: Claude Code →</a>
+    <a href="module_08_projects_memory.html" class="btn secondary">← 单元 8</a>
+    <a href="module_10_claude_code.html" class="btn">下一课：Claude Code →</a>
   </div>
 
 </div>
 
 <script>
-function showExample(id) {
+function showExample(id, event) {
   document.querySelectorAll('.example-content').forEach(el => el.classList.remove('show'));
   document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
   document.getElementById('ex-' + id).classList.add('show');
@@ -272,14 +272,14 @@ function answer9(btn, correct) {
   if (correct) {
     btn.classList.add('correct');
     fb.className = 'quiz-feedback show correct';
-    fb.innerHTML = '✅ Exactly right! The developer wrote a system prompt — a hidden briefing — that tells Claude to stay focused on company products only. The same Claude, configured differently, would happily discuss anything else.';
+    fb.innerHTML = '✅ 完全正确！开发者通过系统或开发者指令，把这个客服助手的任务范围限定为公司产品。同一个基础模型经过不同配置，可以承担不同任务。';
   } else {
     btn.classList.add('wrong');
     fb.className = 'quiz-feedback show wrong';
-    fb.innerHTML = '💡 The answer is C. System prompts let developers restrict Claude\'s focus. Claude\'s safety training (B) is about preventing harm — not preventing off-topic chat. The developer chose to configure it this way for their product.';
+    fb.innerHTML = '💡 正确答案是 C。系统提示词可以限制助手的重点与范围；安全训练并不等于禁止所有离题内容。这里更可能是开发者为客服产品作出的配置。';
   }
 }
 </script>
-<script src="assets/language-switcher.js" data-locale="en"></script>
+<script src="../assets/language-switcher.js" data-locale="zh-CN"></script>
 </body>
 </html>

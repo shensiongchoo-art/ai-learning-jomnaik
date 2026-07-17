@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Module 1 — What is an LLM?</title>
+<title>单元 1 — 什么是大语言模型（LLM）？</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: 'Segoe UI', sans-serif; background: #f0f4ff; color: #1a1a2e; }
+  body { font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; background: #f0f4ff; color: #1a1a2e; }
 
   .hero {
     background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
@@ -169,7 +169,7 @@
 <body>
 
 <div class="nav-bar">
-  <a href="index.html">← Back to Home</a>
+  <a href="index.html">← 返回首页</a>
   <div class="progress-dots">
     <div class="dot active"></div>
     <div class="dot"></div>
@@ -181,136 +181,136 @@
 </div>
 
 <div class="hero">
-  <div class="badge">Module 1</div>
-  <h1>What is an LLM?</h1>
-  <p>Meet the world's most well-read librarian — and discover how she thinks.</p>
+  <div class="badge">单元 1</div>
+  <h1>什么是大语言模型（LLM）？</h1>
+  <p>认识全世界阅读量最大的图书管理员，看看她如何“思考”。</p>
 </div>
 
 <div class="container">
 
-  <p class="section-title">The Story</p>
+  <p class="section-title">故事开始</p>
   <div class="comic-strip">
 
     <!-- Panel 1 -->
     <div class="panel">
-      <div class="panel-header">Panel 1 — The Library</div>
+      <div class="panel-header">第 1 幕 — 图书馆</div>
       <div class="panel-body">
         <div class="scene">
           <div class="char">🏛️</div>
-          <div class="char-label">A Grand Library</div>
+          <div class="char-label">一座宏伟的图书馆</div>
         </div>
         <div class="speech-area">
           <div class="bubble narrator">
-            Imagine a library so enormous it contains almost every book, article, website, and conversation ever written. Billions of pages. Every language. Every topic.
+            想象一座大到不可思议的图书馆，里面几乎收藏了人类写过的每一本书、每篇文章、每个网站和每段对话。数十亿页，涵盖各种语言与主题。
           </div>
           <div class="bubble narrator">
-            Now imagine a librarian who has <strong>read every single one</strong> of them.
+            再想象一位把这些内容<strong>全部读过</strong>的图书管理员。
           </div>
-          <span class="tag blue">Setting the scene</span>
+          <span class="tag blue">故事背景</span>
         </div>
       </div>
     </div>
 
     <!-- Panel 2 -->
     <div class="panel">
-      <div class="panel-header">Panel 2 — The Librarian Learns</div>
+      <div class="panel-header">第 2 幕 — 图书管理员学习</div>
       <div class="panel-body">
         <div class="scene">
           <div class="char">📚</div>
-          <div class="char-label">Training Time</div>
+          <div class="char-label">训练时间</div>
         </div>
         <div class="speech-area">
           <div class="bubble narrator">
-            But she didn't memorise facts. She learned <strong>patterns</strong>.
+            但她并不是逐条背下事实，而是在学习语言的<strong>规律</strong>。
           </div>
           <div class="bubble llm-bubble">
-            <div class="speaker">Librarian's inner thought</div>
-            "When people say 'The sky is…', they almost always follow with 'blue'. When they say 'I'm hungry, let's…', they usually say 'eat'."
+            <div class="speaker">图书管理员的内心想法</div>
+            “人们说‘天空是……’之后，通常会接‘蓝色的’；说‘我饿了，我们去……’之后，通常会接‘吃饭’。”
           </div>
           <div class="bubble narrator">
-            She became an expert at predicting: <em>given what came before, what word comes next?</em>
+            她逐渐成为预测专家：<em>根据前面的内容，下一个最可能出现的词是什么？</em>
           </div>
-          <span class="tag">Key idea: pattern matching</span>
+          <span class="tag">核心概念：模式匹配</span>
         </div>
       </div>
     </div>
 
     <!-- Panel 3 -->
     <div class="panel">
-      <div class="panel-header">Panel 3 — You Walk In</div>
+      <div class="panel-header">第 3 幕 — 你走进来了</div>
       <div class="panel-body">
         <div class="scene">
           <div class="char">🧑</div>
-          <div class="char-label">You (The User)</div>
+          <div class="char-label">你（用户）</div>
         </div>
         <div class="speech-area">
           <div class="bubble user-bubble">
-            <div class="speaker">You</div>
-            "Hello! Can you explain what a black hole is, like I'm ten years old?"
+            <div class="speaker">你</div>
+            “你好！可以把我当作十岁小孩，解释一下什么是黑洞吗？”
           </div>
           <div class="bubble narrator">
-            You've handed the librarian a note. She reads it carefully. Then she reaches into everything she's ever learned and starts crafting a reply — one word at a time.
+            你递给图书管理员一张纸条。她仔细读完，再从学过的海量规律中组织回答，一次生成一个词。
           </div>
-          <span class="tag green">Your message = a "prompt"</span>
+          <span class="tag green">你的消息 = 提示词（prompt）</span>
         </div>
       </div>
     </div>
 
     <!-- Panel 4 -->
     <div class="panel">
-      <div class="panel-header">Panel 4 — She Answers</div>
+      <div class="panel-header">第 4 幕 — 她开始回答</div>
       <div class="panel-body">
         <div class="scene">
           <div class="char">🤓</div>
-          <div class="char-label">The LLM Replies</div>
+          <div class="char-label">LLM 的回答</div>
         </div>
         <div class="speech-area">
           <div class="bubble llm-bubble">
-            <div class="speaker">Librarian (the LLM)</div>
-            "Imagine space is like a giant trampoline. A really heavy ball in the middle sinks it down. Anything that rolls nearby falls toward the dip. A black hole is like the heaviest possible ball — it dips so deep that even light can't roll back out!"
+            <div class="speaker">图书管理员（LLM）</div>
+            “把太空想象成一张巨大的蹦床。中间放一个很重的球，床面就会凹下去，附近滚动的东西都会落向凹陷处。黑洞就像重到极点的球，压出的坑深得连光也逃不出来！”
           </div>
-          <span class="tag green">Clear, friendly, in your style</span>
+          <span class="tag green">清楚、亲切，并配合你的理解方式</span>
         </div>
       </div>
     </div>
 
     <!-- Panel 5 -->
     <div class="panel">
-      <div class="panel-header">Panel 5 — The Secret</div>
+      <div class="panel-header">第 5 幕 — 背后的秘密</div>
       <div class="panel-body">
         <div class="scene">
           <div class="char">🔍</div>
-          <div class="char-label">Under the Hood</div>
+          <div class="char-label">内部原理</div>
         </div>
         <div class="speech-area">
           <div class="bubble narrator">
-            She didn't <em>look up</em> the answer. She <em>generated</em> it — word by word — based on patterns from everything she'd learned.
+            她并没有<em>查找</em>现成答案，而是根据学到的规律，逐词<em>生成</em>答案。
           </div>
           <div class="bubble narrator">
-            She's not a search engine. She's not a database. She's a <strong>pattern-completion machine</strong> trained to sound like a thoughtful human.
+            她不是搜索引擎，也不是数据库；她是一台<strong>模式补全机器</strong>，经过训练后能像认真思考的人一样表达。
           </div>
-          <span class="tag">LLM = Large Language Model</span>
+          <span class="tag">LLM = Large Language Model（大语言模型）</span>
         </div>
       </div>
     </div>
 
     <!-- Panel 6 -->
     <div class="panel">
-      <div class="panel-header">Panel 6 — The Catch</div>
+      <div class="panel-header">第 6 幕 — 必须注意的地方</div>
       <div class="panel-body">
         <div class="scene">
           <div class="char">⚠️</div>
-          <div class="char-label">Important!</div>
+          <div class="char-label">重要提醒！</div>
         </div>
         <div class="speech-area">
           <div class="bubble narrator">
-            She is <em>incredibly</em> good at sounding right. But she can be wrong — confidently wrong — because she's predicting patterns, not checking facts.
+            她<em>非常</em>擅长把话说得像真的，但也可能出错，甚至错得很有信心，因为她是在预测模式，而不是核查事实。
           </div>
           <div class="bubble user-bubble">
-            <div class="speaker">Remember</div>
-            Always verify important information. She's your brilliant first draft, not your final authority.
+            <div class="speaker">请记住</div>
+            重要信息一定要核实。她可以帮你写出优秀初稿，却不是最终权威。
           </div>
-          <span class="tag">We'll learn more in Module 5 (Hallucination)</span>
+          <span class="tag">单元 5 将深入讲解“幻觉”</span>
         </div>
       </div>
     </div>
@@ -318,68 +318,68 @@
   </div><!-- end comic-strip -->
 
   <!-- ANALOGY BOX -->
-  <p class="section-title">The Core Analogy</p>
+  <p class="section-title">核心类比</p>
   <div class="analogy-box">
-    <h3>🎯 How to Remember This</h3>
+    <h3>🎯 这样记最容易</h3>
     <div class="analogy-grid">
       <div class="analogy-item">
         <div class="icon">🤖</div>
         <div class="label">LLM</div>
-        <div class="desc">A model trained on billions of texts</div>
+        <div class="desc">以海量文本训练而成的模型</div>
       </div>
       <div class="equals">=</div>
       <div class="analogy-item">
         <div class="icon">📖</div>
-        <div class="label">World's Best-Read Librarian</div>
-        <div class="desc">Learned patterns from everything ever written</div>
+        <div class="label">全世界阅读量最大的图书管理员</div>
+        <div class="desc">从人类写过的内容中学习语言规律</div>
       </div>
     </div>
     <hr style="margin:20px 0;border:1px solid #f0d0d5;">
     <div class="analogy-grid">
       <div class="analogy-item">
         <div class="icon">💬</div>
-        <div class="label">Your Message</div>
-        <div class="desc">"Explain X like I'm five"</div>
+        <div class="label">你的消息</div>
+        <div class="desc">“把我当作五岁小孩，解释一下 X”</div>
       </div>
       <div class="equals">=</div>
       <div class="analogy-item">
         <div class="icon">📝</div>
-        <div class="label">A Note to the Librarian</div>
-        <div class="desc">She reads it, predicts what a good reply looks like</div>
+        <div class="label">给图书管理员的纸条</div>
+        <div class="desc">她读完后，预测怎样的回答最合适</div>
       </div>
     </div>
   </div>
 
   <!-- KEY FACTS -->
-  <p class="section-title">Key Facts</p>
+  <p class="section-title">重点知识</p>
   <div class="key-facts">
-    <h3>What to remember from Module 1</h3>
+    <h3>单元 1 要记住什么</h3>
     <ul class="fact-list">
-      <li>LLM stands for <strong>Large Language Model</strong> — "large" because it's trained on enormous amounts of text</li>
-      <li>It doesn't search the internet for answers — it <strong>generates</strong> them from learned patterns</li>
-      <li>It predicts the most likely next word, then the next, then the next — that's how your reply is built</li>
-      <li>It's brilliant at language and reasoning, but it can <strong>confidently make things up</strong></li>
-      <li>You talk to it by writing a message called a <strong>"prompt"</strong></li>
+      <li>LLM 是 <strong>Large Language Model（大语言模型）</strong>的缩写；之所以“大”，是因为它用海量文本训练</li>
+      <li>它不会自动上网搜索答案，而是根据学到的规律<strong>生成</strong>答案</li>
+      <li>它先预测最可能的下一个词，再预测下一个，如此一步步构成完整回答</li>
+      <li>它很擅长语言和推理，但也可能<strong>很有信心地编造内容</strong></li>
+      <li>你通过一段称为<strong>提示词（prompt）</strong>的消息与它交流</li>
     </ul>
   </div>
 
   <!-- QUIZ -->
-  <p class="section-title">Quick Check</p>
+  <p class="section-title">快速测验</p>
   <div class="quiz-box">
-    <h3>🧠 Test yourself: What does an LLM actually do when it replies to you?</h3>
+    <h3>🧠 测测自己：LLM 回答你时，实际上在做什么？</h3>
     <div class="quiz-options">
-      <button class="quiz-btn" onclick="answer(this, false)">A) It searches the internet for the best answer</button>
-      <button class="quiz-btn" onclick="answer(this, false)">B) It looks up facts in a database it memorised</button>
-      <button class="quiz-btn" onclick="answer(this, true)">C) It predicts the most likely next words based on patterns it learned</button>
-      <button class="quiz-btn" onclick="answer(this, false)">D) It calls a human expert who types a reply</button>
+      <button class="quiz-btn" onclick="answer(this, false)">A）上网搜索最佳答案</button>
+      <button class="quiz-btn" onclick="answer(this, false)">B）在它背下来的数据库里查找事实</button>
+      <button class="quiz-btn" onclick="answer(this, true)">C）根据学到的规律，预测接下来最可能出现的词</button>
+      <button class="quiz-btn" onclick="answer(this, false)">D）联系一位人类专家，请对方输入答案</button>
     </div>
     <div class="quiz-feedback" id="quiz-feedback"></div>
   </div>
 
   <!-- NAVIGATION -->
   <div class="next-bar">
-    <a href="index.html" class="btn secondary">← Home</a>
-    <a href="module_02_tokens.html" class="btn">Next: Tokens →</a>
+    <a href="index.html" class="btn secondary">← 首页</a>
+    <a href="module_02_tokens.html" class="btn">下一课：词元 →</a>
   </div>
 
 </div><!-- end container -->
@@ -392,14 +392,14 @@ function answer(btn, isCorrect) {
   if (isCorrect) {
     btn.classList.add('correct');
     feedback.className = 'quiz-feedback show correct';
-    feedback.innerHTML = '✅ Exactly right! The LLM generates replies word by word, predicting what sounds most fitting based on patterns — not searching, not remembering, just completing the pattern. Just like finishing a sentence: "The sky is ___".';
+    feedback.innerHTML = '✅ 完全正确！LLM 根据学到的规律逐词生成回答。它不是在搜索或回忆，而是在补全最合适的模式，就像完成一句话：“天空是 ___ 的”。';
   } else {
     btn.classList.add('wrong');
     feedback.className = 'quiz-feedback show wrong';
-    feedback.innerHTML = '💡 Not quite — the correct answer is C. An LLM doesn\'t search or look things up. It generates replies by predicting patterns from its training. Think of the librarian completing a sentence she\'s seen a million times before.';
+    feedback.innerHTML = '💡 还差一点，正确答案是 C。LLM 不会自动搜索或查表，而是根据训练中学到的模式生成回答。想象那位图书管理员正在补全一句她见过无数次的话。';
   }
 }
 </script>
-<script src="assets/language-switcher.js" data-locale="en"></script>
+<script src="../assets/language-switcher.js" data-locale="zh-CN"></script>
 </body>
 </html>

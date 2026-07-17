@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>模块 12 — ChatGPT 的工具与记忆</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Noto Sans SC', 'Microsoft YaHei', 'Segoe UI', sans-serif; background: #f0f4ff; color: #1a1a2e; }
+
+  .hero {
+    background: linear-gradient(135deg, #1a1a2e 0%, #0d2b1a 100%);
+    color: white; text-align: center; padding: 48px 24px 32px;
+  }
+  .hero .badge {
+    background: #10b981; color: white; font-size: 12px; font-weight: 700;
+    padding: 4px 14px; border-radius: 20px; letter-spacing: 1px;
+    display: inline-block; margin-bottom: 16px; text-transform: uppercase;
+  }
+  .hero h1 { font-size: 2.1rem; margin-bottom: 10px; }
+  .hero p { font-size: 1.05rem; opacity: 0.8; max-width: 540px; margin: 0 auto; }
+
+  .nav-bar {
+    background: #0d2b1a; padding: 10px 24px; display: flex;
+    justify-content: space-between; align-items: center;
+  }
+  .nav-bar a { color: #6ee7b7; text-decoration: none; font-size: 0.9rem; }
+  .nav-bar a:hover { color: white; }
+
+  .main { max-width: 820px; margin: 0 auto; padding: 40px 20px 80px; }
+
+  /* Section titles */
+  .section-title {
+    font-size: 1.4rem; font-weight: 800; color: #1a1a2e; margin-bottom: 20px;
+    display: flex; align-items: center; gap: 10px;
+  }
+  .section-title span { font-size: 1.6rem; }
+
+  /* Comic panels */
+  .comic-strip { display: grid; gap: 20px; margin-bottom: 40px; }
+  .panel {
+    background: white; border-radius: 16px; border: 3px solid #1a1a2e;
+    box-shadow: 5px 5px 0 #1a1a2e; overflow: hidden;
+    display: grid; grid-template-columns: 1fr 1fr; min-height: 200px;
+  }
+  .panel.full { grid-template-columns: 1fr; }
+  .panel.reverse { direction: rtl; }
+  .panel.reverse > * { direction: ltr; }
+  .panel-art {
+    background: #ecfdf5; display: flex; align-items: center; justify-content: center;
+    padding: 24px; font-size: 5rem; position: relative; flex-direction: column; gap: 8px;
+  }
+  .panel-art.green  { background: #ecfdf5; }
+  .panel-art.teal   { background: #f0fdfa; }
+  .panel-art.yellow { background: #fefce8; }
+  .panel-art.blue   { background: #eff6ff; }
+  .panel-art.purple { background: #f5f3ff; }
+  .panel-art.pink   { background: #fff1f2; }
+  .panel-text {
+    padding: 28px 24px; display: flex; flex-direction: column; justify-content: center; gap: 10px;
+  }
+  .panel-num {
+    font-size: 10px; font-weight: 800; color: #10b981; text-transform: uppercase;
+    letter-spacing: 2px; margin-bottom: 4px;
+  }
+  .panel-text h3 { font-size: 1.2rem; font-weight: 800; color: #1a1a2e; line-height: 1.3; }
+  .panel-text p  { font-size: 0.92rem; color: #374151; line-height: 1.65; }
+  .speech {
+    background: #f0fdf4; border: 2px solid #10b981; border-radius: 12px;
+    padding: 10px 14px; font-size: 0.88rem; font-style: italic; color: #065f46;
+    margin-top: 6px; position: relative;
+  }
+  .char-label {
+    font-size: 0.72rem; font-weight: 700; color: #374151; text-align: center;
+    background: rgba(0,0,0,0.07); border-radius: 8px; padding: 3px 10px;
+  }
+
+  /* Feature cards */
+  .feature-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-bottom: 40px; }
+  @media (max-width: 600px) { .feature-grid { grid-template-columns: 1fr; } .panel { grid-template-columns: 1fr; } }
+  .feature-card {
+    background: white; border-radius: 14px; border: 3px solid #1a1a2e;
+    box-shadow: 4px 4px 0 #1a1a2e; padding: 22px 20px;
+  }
+  .feature-icon { font-size: 2.4rem; margin-bottom: 10px; }
+  .feature-card h3 { font-size: 1.05rem; font-weight: 800; margin-bottom: 8px; color: #1a1a2e; }
+  .feature-card p  { font-size: 0.88rem; color: #374151; line-height: 1.6; }
+  .feature-card .tag {
+    display: inline-block; margin-top: 10px; font-size: 0.75rem; font-weight: 700;
+    padding: 3px 10px; border-radius: 20px;
+  }
+  .tag.green  { background: #d1fae5; color: #065f46; }
+  .tag.blue   { background: #dbeafe; color: #1e40af; }
+  .tag.purple { background: #ede9fe; color: #5b21b6; }
+  .tag.yellow { background: #fef9c3; color: #92400e; }
+
+  /* Memory demo */
+  .memory-demo {
+    background: white; border-radius: 16px; border: 3px solid #1a1a2e;
+    box-shadow: 5px 5px 0 #1a1a2e; padding: 28px; margin-bottom: 40px;
+  }
+  .memory-demo h2 { font-size: 1.2rem; font-weight: 800; margin-bottom: 6px; }
+  .memory-demo .sub { font-size: 0.9rem; color: #6b7280; margin-bottom: 20px; }
+  .convo-box { background: #f8fafc; border-radius: 12px; padding: 18px; margin-bottom: 14px; }
+  .convo-label { font-size: 0.75rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 1px; margin-bottom: 10px; }
+  .convo-label.session1 { color: #6366f1; }
+  .convo-label.session2 { color: #10b981; }
+  .msg { display: flex; gap: 10px; margin-bottom: 10px; align-items: flex-start; }
+  .msg .bubble {
+    border-radius: 14px; padding: 10px 14px; font-size: 0.88rem; line-height: 1.5; max-width: 80%;
+  }
+  .msg.user .bubble { background: #dbeafe; color: #1e3a8a; margin-left: auto; }
+  .msg.ai   .bubble { background: #d1fae5; color: #065f46; }
+  .msg .avatar { font-size: 1.4rem; flex-shrink: 0; margin-top: 2px; }
+  .memory-chip {
+    display: flex; align-items: center; gap: 8px; background: #fef9c3;
+    border: 2px solid #f59e0b; border-radius: 10px; padding: 8px 14px;
+    font-size: 0.85rem; font-weight: 600; color: #92400e; margin-bottom: 8px;
+  }
+  .memory-chip span { font-size: 1.1rem; }
+  .arrow-connector {
+    text-align: center; font-size: 1.8rem; color: #9ca3af; margin: 8px 0;
+  }
+
+  /* Plugin/Tools visual */
+  .plugin-board {
+    background: white; border-radius: 16px; border: 3px solid #1a1a2e;
+    box-shadow: 5px 5px 0 #1a1a2e; padding: 28px; margin-bottom: 40px;
+  }
+  .plugin-board h2 { font-size: 1.2rem; font-weight: 800; margin-bottom: 6px; }
+  .plugin-board .sub { font-size: 0.9rem; color: #6b7280; margin-bottom: 20px; }
+  .tools-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  @media (max-width: 600px) { .tools-grid { grid-template-columns: 1fr 1fr; } }
+  .tool-chip {
+    background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px;
+    padding: 14px 12px; text-align: center; transition: transform 0.15s, box-shadow 0.15s;
+    cursor: pointer;
+  }
+  .tool-chip:hover { transform: translateY(-3px); box-shadow: 0 6px 16px rgba(0,0,0,0.1); }
+  .tool-chip .ti { font-size: 2rem; margin-bottom: 6px; }
+  .tool-chip .tn { font-size: 0.8rem; font-weight: 700; color: #374151; }
+  .tool-chip .td { font-size: 0.72rem; color: #6b7280; margin-top: 3px; }
+  .tool-chip.active { border-color: #10b981; background: #ecfdf5; }
+
+  /* Multimodal highlight */
+  .highlight-box {
+    background: linear-gradient(135deg, #f0fdf4, #ecfdf5);
+    border: 3px solid #10b981; border-radius: 16px;
+    box-shadow: 5px 5px 0 #10b981; padding: 28px; margin-bottom: 40px;
+  }
+  .highlight-box h2 { font-size: 1.3rem; font-weight: 800; margin-bottom: 16px; color: #065f46; }
+  .multimodal-row { display: flex; gap: 12px; flex-wrap: wrap; }
+  .modal-pill {
+    display: flex; align-items: center; gap: 8px; background: white;
+    border: 2px solid #10b981; border-radius: 30px; padding: 10px 16px;
+    font-size: 0.88rem; font-weight: 600; color: #065f46;
+  }
+  .modal-pill span { font-size: 1.3rem; }
+
+  /* Key takeaway */
+  .takeaway {
+    background: #1a1a2e; color: white; border-radius: 16px;
+    padding: 30px 28px; margin-bottom: 40px;
+  }
+  .takeaway h2 { font-size: 1.2rem; font-weight: 800; margin-bottom: 14px; }
+  .kv-row { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px; }
+  .kv-icon { font-size: 1.4rem; flex-shrink: 0; margin-top: 2px; }
+  .kv-text { font-size: 0.92rem; line-height: 1.6; color: #e2e8f0; }
+  .kv-text strong { color: #6ee7b7; }
+
+  /* Nav */
+  .bottom-nav {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 20px 0 0; border-top: 2px solid #e5e7eb;
+  }
+  .btn {
+    background: #1a1a2e; color: white; border: none; border-radius: 10px;
+    padding: 12px 22px; font-size: 0.9rem; font-weight: 700; cursor: pointer;
+    text-decoration: none; display: inline-flex; align-items: center; gap: 6px;
+    transition: transform 0.1s;
+  }
+  .btn:hover { transform: translateY(-2px); }
+  .btn.secondary { background: white; color: #1a1a2e; border: 2px solid #1a1a2e; }
+  .progress-label { font-size: 0.85rem; color: #6b7280; font-weight: 600; }
+</style>
+</head>
+<body>
+<body>
+
+<div class="nav-bar">
+  <a href="index.html">← 主页</a>
+  <span style="color:#6ee7b7;font-size:0.85rem;font-weight:700;">第 3 阶段 · 模块 12</span>
+  <a href="module_13_codex_api.html">下一课：Codex 与 API →</a>
+</div>
+
+<div class="hero">
+  <div class="badge">模块 12</div>
+  <h1>ChatGPT 的工具与记忆</h1>
+  <p>从聊天窗口到工作台：记忆、搜索、数据分析、文件、语音、图像与自定义 GPT</p>
+</div>
+
+<div class="main">
+
+  <div class="section-title"><span>📖</span> 先抓住一个原则</div>
+  <div class="comic-strip">
+    <div class="panel">
+      <div class="panel-art yellow">
+        <div>💬</div>
+        <div>🧠</div>
+        <div class="char-label">ChatGPT</div>
+      </div>
+      <div class="panel-text">
+        <div class="panel-num">Panel 1</div>
+        <h3>ChatGPT 不是只有一个“脑”</h3>
+        <p>ChatGPT 是一个产品界面，背后会接入不同模型与功能。你能用到什么，取决于模型、订阅方案、公司工作区设置和当时是否开启相关工具。</p>
+        <div class="speech">同一句“帮我分析这个表格”，有工具时和没工具时，结果会很不一样。</div>
+      </div>
+    </div>
+
+    <div class="panel reverse">
+      <div class="panel-art blue">
+        <div>🧰</div>
+        <div>🔍</div>
+        <div class="char-label">工具箱</div>
+      </div>
+      <div class="panel-text">
+        <div class="panel-num">Panel 2</div>
+        <h3>工具让它能“做事”</h3>
+        <p>普通 LLM 主要是生成文字。ChatGPT 的工具可以帮它搜索网页、读取文件、做数据分析、理解图片、生成图片，或连接你授权的数据来源。</p>
+        <div class="speech">判断能力时，不只问“模型聪不聪明”，也要问“它现在能用哪些工具”。</div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-art green">
+        <div>🔐</div>
+        <div>⚙️</div>
+        <div class="char-label">控制权</div>
+      </div>
+      <div class="panel-text">
+        <div class="panel-num">Panel 3</div>
+        <h3>权限和隐私要分清</h3>
+        <p>记忆、文件、联网搜索、连接器都可能涉及个人或公司资料。真正专业的用法，是先确认数据能不能上传、工具有没有开启、输出是否需要人工复核。</p>
+        <div class="speech">敏感资料不要随手丢进去；公司资料尤其要看内部政策。</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-title"><span>🧠</span> 记忆怎么理解</div>
+  <div class="memory-demo">
+    <h2>上下文 vs 记忆</h2>
+    <div class="sub">这两个概念经常被混在一起，但它们不是同一回事。</div>
+
+    <div class="convo-box">
+      <div class="convo-label session1">当前对话上下文（conversation context）</div>
+      <div class="msg user"><div class="bubble">我正在做一个 AI 学习网站，目标读者是中文学习者。</div><div class="avatar">🙋</div></div>
+      <div class="msg ai"><div class="avatar">🤖</div><div class="bubble">在这个对话里，我可以利用你刚给的背景来写内容、改标题、调整难度。</div></div>
+    </div>
+
+    <div style="text-align:center; margin: 8px 0;">
+      <div class="memory-chip"><span>💾</span> 可能保存的记忆：你偏好中英双语解释技术词</div>
+    </div>
+
+    <div class="arrow-connector">↓ 另一个新对话</div>
+
+    <div class="convo-box">
+      <div class="convo-label session2">跨对话记忆（Memory）</div>
+      <div class="msg user"><div class="bubble">帮我写一个 token 的解释。</div><div class="avatar">🙋</div></div>
+      <div class="msg ai"><div class="avatar">🤖</div><div class="bubble">如果记忆功能开启，而且它保存过你的偏好，它可能会主动用中文解释并保留英文术语 token。</div></div>
+    </div>
+
+    <p style="font-size:0.85rem;color:#6b7280;margin-top:12px;">🔒 记忆可以在设置中查看、管理或关闭。Temporary Chat 通常用于不想让当前对话影响记忆的场景。</p>
+  </div>
+
+  <div class="section-title"><span>🛠️</span> 常见工具</div>
+  <div class="plugin-board">
+    <h2>ChatGPT 能力清单</h2>
+    <div class="sub">实际可用项会随模型、方案、地区、工作区政策变化。</div>
+    <div class="tools-grid">
+      <div class="tool-chip active"><div class="ti">🔍</div><div class="tn">搜索</div><div class="td">查找近期资讯并给出来源</div></div>
+      <div class="tool-chip active"><div class="ti">📊</div><div class="tn">数据分析</div><div class="td">处理 CSV、表格、图表和计算</div></div>
+      <div class="tool-chip active"><div class="ti">📄</div><div class="tn">文件读取</div><div class="td">总结、抽取、比较文档内容</div></div>
+      <div class="tool-chip active"><div class="ti">🖼️</div><div class="tn">图片理解</div><div class="td">解释截图、照片、图表</div></div>
+      <div class="tool-chip active"><div class="ti">🎨</div><div class="tn">图像生成</div><div class="td">按提示词生成或修改图片</div></div>
+      <div class="tool-chip active"><div class="ti">🔗</div><div class="tn">连接来源</div><div class="td">在授权范围内读取外部资料</div></div>
+    </div>
+    <p style="font-size:0.82rem;color:#6b7280;margin-top:16px;">💡 好习惯：让 ChatGPT 说明它用了哪些来源、做了哪些假设，以及哪里需要你复核。</p>
+  </div>
+
+  <div class="section-title"><span>✨</span> 多模态体验</div>
+  <div class="highlight-box">
+    <h2>文字、图片、语音、文件和代码可以放在同一个工作流里</h2>
+    <div class="multimodal-row">
+      <div class="modal-pill"><span>💬</span> 文字</div>
+      <div class="modal-pill"><span>🖼️</span> 图片</div>
+      <div class="modal-pill"><span>🎙️</span> 语音</div>
+      <div class="modal-pill"><span>📊</span> 文件</div>
+      <div class="modal-pill"><span>🐍</span> 代码/计算</div>
+      <div class="modal-pill"><span>🔍</span> 搜索</div>
+    </div>
+    <p style="margin-top:18px;font-size:0.9rem;color:#065f46;line-height:1.6;">
+      <strong>例子：</strong>上传销售表格，请它生成图表；再让它解释异常月份；最后让它草拟给团队的中文总结。这里的关键不是“会聊天”，而是把多个工具串成一个任务流程。
+    </p>
+  </div>
+
+  <div class="section-title"><span>🎯</span> 四个关键能力</div>
+  <div class="feature-grid">
+    <div class="feature-card">
+      <div class="feature-icon">🧠</div>
+      <h3>Memory（记忆）</h3>
+      <p>用于跨对话保留偏好或长期背景。它不是当前聊天记录本身，也不代表所有信息都会被永久保存。</p>
+      <div class="tag green">可管理</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🌐</div>
+      <h3>Search（搜索）</h3>
+      <p>当问题涉及新闻、价格、版本、法规、行程等会变化的信息时，搜索比单靠模型记忆更可靠。</p>
+      <div class="tag blue">看来源</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">📊</div>
+      <h3>Data Analysis（数据分析）</h3>
+      <p>可以帮助运行计算、生成图表、检查数据。但你仍要看公式、样本范围、异常值处理和结论是否合理。</p>
+      <div class="tag yellow">要复核</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🤖</div>
+      <h3>Custom GPTs（自定义 GPT）</h3>
+      <p>用说明、知识文件和工具配置出特定用途的助手。它通常不是重新训练一个模型，而是给 ChatGPT 一个专门工作方式。</p>
+      <div class="tag purple">按需配置</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    <h2>🔑 本课重点</h2>
+    <div class="kv-row"><div class="kv-icon">📌</div><div class="kv-text"><strong>先确认能力边界：</strong>不同账号、模型、工作区和地区会影响你看到的功能。</div></div>
+    <div class="kv-row"><div class="kv-icon">🔍</div><div class="kv-text"><strong>涉及近期事实就要求来源：</strong>让它引用搜索结果，并检查来源是否权威。</div></div>
+    <div class="kv-row"><div class="kv-icon">🔐</div><div class="kv-text"><strong>敏感资料先问政策：</strong>客户资料、公司文件、个人身份信息不要默认上传。</div></div>
+    <div class="kv-row"><div class="kv-icon">🧪</div><div class="kv-text"><strong>工具输出仍需验证：</strong>图表、计算、代码和总结都可能因为假设错误而出错。</div></div>
+  </div>
+
+  <div style="background:white;border-radius:16px;border:3px solid #1a1a2e;box-shadow:5px 5px 0 #1a1a2e;padding:28px;margin-bottom:40px;">
+    <div style="font-size:1.2rem;font-weight:800;margin-bottom:16px;">🧠 快速检查</div>
+    <div id="quiz" style="display:flex;flex-direction:column;gap:14px;">
+      <div class="q-item">
+        <p style="font-size:0.95rem;font-weight:700;margin-bottom:8px;">1. ChatGPT 的 Memory 主要解决什么问题？</p>
+        <div style="display:flex;flex-direction:column;gap:6px;">
+          <label style="display:flex;align-items:center;gap:8px;cursor:pointer;font-size:0.9rem;"><input type="radio" name="q1" value="a"> 让所有回答都自动正确</label>
+          <label style="display:flex;align-items:center;gap:8px;cursor:pointer;font-size:0.9rem;"><input type="radio" name="q1" value="b"> 在不同对话之间保留偏好或长期背景</label>
+          <label style="display:flex;align-items:center;gap:8px;cursor:pointer;font-size:0.9rem;"><input type="radio" name="q1" value="c"> 自动删除旧聊天</label>
+        </div>
+        <div id="fb1" style="display:none;margin-top:8px;font-size:0.85rem;border-radius:8px;padding:8px 12px;"></div>
+      </div>
+      <div class="q-item">
+        <p style="font-size:0.95rem;font-weight:700;margin-bottom:8px;">2. 哪种问题最应该要求 ChatGPT 使用搜索并给来源？</p>
+        <div style="display:flex;flex-direction:column;gap:6px;">
+          <label style="display:flex;align-items:center;gap:8px;cursor:pointer;font-size:0.9rem;"><input type="radio" name="q2" value="a"> “什么是 token？”</label>
+          <label style="display:flex;align-items:center;gap:8px;cursor:pointer;font-size:0.9rem;"><input type="radio" name="q2" value="b"> “今天某产品的价格和最新政策是什么？”</label>
+          <label style="display:flex;align-items:center;gap:8px;cursor:pointer;font-size:0.9rem;"><input type="radio" name="q2" value="c"> “帮我把这段话改得更礼貌。”</label>
+        </div>
+        <div id="fb2" style="display:none;margin-top:8px;font-size:0.85rem;border-radius:8px;padding:8px 12px;"></div>
+      </div>
+      <div class="q-item">
+        <p style="font-size:0.95rem;font-weight:700;margin-bottom:8px;">3. 自定义 GPT 通常是什么？</p>
+        <div style="display:flex;flex-direction:column;gap:6px;">
+          <label style="display:flex;align-items:center;gap:8px;cursor:pointer;font-size:0.9rem;"><input type="radio" name="q3" value="a"> 重新训练出来的新基础模型</label>
+          <label style="display:flex;align-items:center;gap:8px;cursor:pointer;font-size:0.9rem;"><input type="radio" name="q3" value="b"> 用说明、知识和工具配置出来的专门助手</label>
+          <label style="display:flex;align-items:center;gap:8px;cursor:pointer;font-size:0.9rem;"><input type="radio" name="q3" value="c"> 一个只能写代码的工具</label>
+        </div>
+        <div id="fb3" style="display:none;margin-top:8px;font-size:0.85rem;border-radius:8px;padding:8px 12px;"></div>
+      </div>
+      <button onclick="checkQuiz()" style="background:#1a1a2e;color:white;border:none;border-radius:10px;padding:12px 24px;font-size:0.9rem;font-weight:700;cursor:pointer;width:fit-content;margin-top:4px;">检查答案</button>
+    </div>
+  </div>
+
+  <div class="bottom-nav">
+    <a href="module_11_what_is_chatgpt.html" class="btn secondary">← 模块 11</a>
+    <span class="progress-label">第 12 / 14 课</span>
+    <a href="module_13_codex_api.html" class="btn">模块 13 →</a>
+  </div>
+
+</div>
+
+<script>
+function checkQuiz() {
+  const answers = { q1: 'b', q2: 'b', q3: 'b' };
+  const feedback = {
+    q1: { ok: '✅ 正确。Memory 是跨对话保存偏好或长期背景的功能。', wrong: '❌ 再想想。Memory 不是保证正确，也不是自动删除聊天。' },
+    q2: { ok: '✅ 正确。会随时间变化的信息，需要搜索和来源。', wrong: '❌ 不太对。近期价格、政策、新闻这类动态信息最需要搜索。' },
+    q3: { ok: '✅ 正确。自定义 GPT 通常是配置出来的专门助手，不等于重新训练基础模型。', wrong: '❌ 不太对。重点是说明、知识和工具配置。' }
+  };
+  for (const [q, correct] of Object.entries(answers)) {
+    const selected = document.querySelector(`input[name="${q}"]:checked`);
+    const fb = document.getElementById(`fb${q.slice(1)}`);
+    if (!selected) {
+      fb.style.display = 'block';
+      fb.style.background = '#fef9c3';
+      fb.style.color = '#92400e';
+      fb.textContent = '⚠️ 请选择一个答案。';
+      continue;
+    }
+    const isCorrect = selected.value === correct;
+    fb.style.display = 'block';
+    fb.style.background = isCorrect ? '#d1fae5' : '#fee2e2';
+    fb.style.color = isCorrect ? '#065f46' : '#991b1b';
+    fb.textContent = isCorrect ? feedback[q].ok : feedback[q].wrong;
+  }
+}
+</script>
+
+<script src="../assets/language-switcher.js" data-locale="zh-CN"></script>
+</body>
+</body>
+</html>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>模块 11 — 什么是 ChatGPT？</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Noto Sans SC', 'Microsoft YaHei', 'Segoe UI', sans-serif; background: #f0f4ff; color: #1a1a2e; }
+
+  .hero {
+    background: linear-gradient(135deg, #1a1a2e 0%, #0d2b1a 100%);
+    color: white; text-align: center; padding: 48px 24px 32px;
+  }
+  .hero .badge {
+    background: #10b981; color: white; font-size: 12px; font-weight: 700;
+    padding: 4px 14px; border-radius: 20px; letter-spacing: 1px;
+    display: inline-block; margin-bottom: 16px; text-transform: uppercase;
+  }
+  .hero h1 { font-size: 2.1rem; margin-bottom: 10px; }
+  .hero p { font-size: 1.05rem; opacity: 0.8; max-width: 540px; margin: 0 auto; }
+
+  .nav-bar {
+    background: #0d2b1a; padding: 10px 24px; display: flex;
+    justify-content: space-between; align-items: center;
+  }
+  .nav-bar a { color: #6ee7b7; text-decoration: none; font-size: 0.9rem; }
+  .nav-bar a:hover { color: white; }
+
+  .main { max-width: 820px; margin: 0 auto; padding: 40px 20px 80px; }
+
+  /* Comic panels */
+  .comic-strip { display: grid; gap: 20px; margin-bottom: 40px; }
+  .panel {
+    background: white; border-radius: 16px; border: 3px solid #1a1a2e;
+    box-shadow: 5px 5px 0 #1a1a2e; overflow: hidden;
+    display: grid; grid-template-columns: 1fr 1fr; min-height: 200px;
+  }
+  .panel.full { grid-template-columns: 1fr; }
+  .panel.reverse { grid-template-columns: 1fr 1fr; }
+  .panel-art {
+    background: #ecfdf5; display: flex; align-items: center; justify-content: center;
+    padding: 24px; font-size: 5rem; position: relative; flex-direction: column; gap: 8px;
+  }
+  .panel-art.green { background: #ecfdf5; }
+  .panel-art.teal  { background: #f0fdfa; }
+  .panel-art.yellow{ background: #fefce8; }
+  .panel-art.blue  { background: #eff6ff; }
+  .panel-art.red   { background: #fff1f2; }
+  .panel-text {
+    padding: 28px 24px; display: flex; flex-direction: column; justify-content: center; gap: 10px;
+  }
+  .panel-num {
+    font-size: 10px; font-weight: 800; color: #10b981; text-transform: uppercase;
+    letter-spacing: 2px; margin-bottom: 4px;
+  }
+  .panel-text h3 { font-size: 1.2rem; font-weight: 800; color: #1a1a2e; line-height: 1.3; }
+  .panel-text p  { font-size: 0.92rem; color: #374151; line-height: 1.65; }
+  .speech {
+    background: #f0fdf4; border: 2px solid #10b981; border-radius: 12px;
+    padding: 10px 14px; font-size: 0.88rem; font-style: italic; color: #065f46;
+    margin-top: 6px; position: relative;
+  }
+  .speech::before { content: '"'; font-size: 1.5rem; color: #10b981; line-height: 0; vertical-align: -0.4em; margin-right: 2px; }
+
+  /* Character */
+  .char-label {
+    font-size: 0.72rem; font-weight: 700; color: #374151; text-align: center;
+    background: rgba(0,0,0,0.07); border-radius: 8px; padding: 3px 10px;
+  }
+
+  /* Version timeline */
+  .timeline { background: white; border-radius: 16px; border: 3px solid #1a1a2e; box-shadow: 5px 5px 0 #1a1a2e; padding: 30px 28px; margin-bottom: 32px; }
+  .timeline h2 { font-size: 1.3rem; font-weight: 800; margin-bottom: 20px; color: #1a1a2e; }
+  .tl-items { display: flex; flex-direction: column; gap: 0; }
+  .tl-item { display: flex; gap: 16px; padding: 16px 0; border-bottom: 1px solid #f1f5f9; }
+  .tl-item:last-child { border-bottom: none; }
+  .tl-dot { width: 44px; height: 44px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; flex-shrink: 0; margin-top: 2px; }
+  .tl-dot.g1 { background: #d1fae5; }
+  .tl-dot.g2 { background: #a7f3d0; }
+  .tl-dot.g3 { background: #6ee7b7; }
+  .tl-dot.g4 { background: #34d399; }
+  .tl-body h4 { font-size: 0.95rem; font-weight: 700; color: #1a1a2e; margin-bottom: 3px; }
+  .tl-body p  { font-size: 0.85rem; color: #6b7280; line-height: 1.5; }
+  .tl-tag { display: inline-block; background: #ecfdf5; color: #059669; border: 1px solid #a7f3d0; font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 10px; margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
+
+  /* Vs search engine */
+  .compare-box { background: white; border-radius: 16px; border: 3px solid #1a1a2e; box-shadow: 5px 5px 0 #1a1a2e; padding: 30px 28px; margin-bottom: 32px; }
+  .compare-box h2 { font-size: 1.3rem; font-weight: 800; margin-bottom: 22px; }
+  .compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .compare-col { border-radius: 12px; padding: 20px; }
+  .compare-col.left  { background: #fff7ed; border: 2px solid #fed7aa; }
+  .compare-col.right { background: #ecfdf5; border: 2px solid #a7f3d0; }
+  .compare-col h3 { font-size: 1rem; font-weight: 800; margin-bottom: 14px; }
+  .compare-col.left h3  { color: #c2410c; }
+  .compare-col.right h3 { color: #059669; }
+  .compare-row { display: flex; gap: 10px; margin-bottom: 10px; align-items: flex-start; }
+  .compare-row .icon { font-size: 1.1rem; flex-shrink: 0; margin-top: 1px; }
+  .compare-row p { font-size: 0.88rem; color: #374151; line-height: 1.5; }
+
+  /* Key idea box */
+  .key-idea {
+    background: linear-gradient(135deg, #065f46, #047857);
+    color: white; border-radius: 16px; padding: 28px 28px;
+    margin-bottom: 32px; border: 3px solid #1a1a2e; box-shadow: 5px 5px 0 #1a1a2e;
+  }
+  .key-idea .ki-label { font-size: 11px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; opacity: 0.7; margin-bottom: 8px; }
+  .key-idea p { font-size: 1.05rem; line-height: 1.7; opacity: 0.95; }
+  .key-idea strong { color: #6ee7b7; }
+
+  /* Quiz */
+  .quiz-box { background: white; border-radius: 16px; border: 3px solid #1a1a2e; box-shadow: 5px 5px 0 #1a1a2e; padding: 30px 28px; margin-bottom: 32px; }
+  .quiz-box h2 { font-size: 1.3rem; font-weight: 800; margin-bottom: 20px; }
+  .q-item { margin-bottom: 22px; }
+  .q-item p { font-size: 0.95rem; font-weight: 600; color: #1a1a2e; margin-bottom: 10px; }
+  .q-opts { display: flex; flex-direction: column; gap: 8px; }
+  .q-opt {
+    background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 10px;
+    padding: 10px 16px; cursor: pointer; font-size: 0.9rem; color: #374151;
+    transition: all 0.2s; text-align: left; width: 100%;
+  }
+  .q-opt:hover { border-color: #10b981; background: #ecfdf5; }
+  .q-opt.correct { background: #dcfce7; border-color: #16a34a; color: #166534; }
+  .q-opt.wrong   { background: #fee2e2; border-color: #dc2626; color: #991b1b; }
+  .q-feedback { margin-top: 10px; font-size: 0.88rem; border-radius: 8px; padding: 10px 14px; display: none; }
+  .q-feedback.show { display: block; }
+  .q-feedback.ok   { background: #dcfce7; color: #166534; }
+  .q-feedback.bad  { background: #fee2e2; color: #991b1b; }
+
+  /* Nav footer */
+  .mod-nav { display: flex; justify-content: space-between; align-items: center; padding: 20px 0; border-top: 2px solid #e2e8f0; margin-top: 20px; }
+  .nav-btn { background: #10b981; color: white; text-decoration: none; padding: 12px 24px; border-radius: 10px; font-weight: 700; font-size: 0.9rem; transition: background 0.2s; }
+  .nav-btn:hover { background: #059669; }
+  .nav-btn.sec { background: #374151; }
+  .nav-btn.sec:hover { background: #1a1a2e; }
+
+  @media(max-width:600px){
+    .panel { grid-template-columns: 1fr; }
+    .panel.reverse { grid-template-columns: 1fr; }
+    .compare-grid { grid-template-columns: 1fr; }
+    .hero h1 { font-size: 1.5rem; }
+  }
+</style>
+</head>
+<body>
+<div class="nav-bar">
+  <a href="index.html">← 主页</a>
+  <span style="font-size:0.82rem;color:#6ee7b7;font-weight:600;">第三阶段 · 14 个模块中的第 11 个</span>
+  <a href="module_12_chatgpt_features.html">下一课 →</a>
+</div>
+
+<div class="hero">
+  <div class="badge">第三阶段 · ChatGPT 与 Codex</div>
+  <h1>什么是 ChatGPT？ 💬</h1>
+  <p>分清产品、模型与工具，并了解它为什么能流畅回答，却仍可能出错。</p>
+</div>
+
+<div class="main">
+  <div class="key-idea">
+    <div class="ki-label">🎯 核心类比</div>
+    <p>把 ChatGPT 想成一位<strong>会使用数字工具的专栏作者</strong>。训练让它学到语言、图像和代码中的统计模式；你给出提示词后，它生成回应。若当前体验提供搜索、文件分析等工具，它还可以在回答前调用这些工具。<br><br>类比有边界：它没有人类经历，也不保证理解或事实正确。</p>
+  </div>
+
+  <div class="comic-strip">
+    <div class="panel">
+      <div class="panel-art green"><div style="font-size:4.5rem;">📚</div><div class="char-label">训练</div></div>
+      <div class="panel-text">
+        <div class="panel-num">场景 1 — 学习模式</div>
+        <h3>从大量资料学习统计规律</h3>
+        <p>模型在训练过程中接触大量数据，调整内部参数，以学习词元、概念和结构之间的关系。这不等于储存一套可逐条查询的答案数据库。</p>
+        <div class="speech">我学习的是模式，不是一张“所有答案”表。</div>
+      </div>
+    </div>
+
+    <div class="panel reverse" style="grid-template-columns:1fr 1fr;">
+      <div class="panel-text">
+        <div class="panel-num">场景 2 — 你的请求</div>
+        <h3>提示词提供当前任务背景</h3>
+        <p>你的消息、对话历史、系统或开发者指令，以及获准工具返回的资料，共同形成当前上下文。清楚说明目标与限制会更可靠。</p>
+        <div class="speech">告诉我目标、背景、输出形式和不能做什么。</div>
+      </div>
+      <div class="panel-art teal"><div style="font-size:4.5rem;">✍️</div><div class="char-label">提示词</div></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-art yellow"><div style="font-size:4.5rem;">🧩</div><div class="char-label">生成</div></div>
+      <div class="panel-text">
+        <div class="panel-num">场景 3 — 输出</div>
+        <h3>逐步生成词元（tokens）</h3>
+        <p>模型根据当前上下文预测并生成后续词元。输出通常是新组合，但可能不准确、遗漏资料，或在没有来源时编造看似合理的细节。</p>
+        <div class="speech">流畅不等于真实；重要事实要验证。</div>
+      </div>
+    </div>
+
+    <div class="panel reverse" style="grid-template-columns:1fr 1fr;">
+      <div class="panel-text">
+        <div class="panel-num">场景 4 — 产品与模型</div>
+        <h3>ChatGPT 是产品，不是单一模型</h3>
+        <p>ChatGPT 是你使用的 AI 助手产品。底层可以使用不同模型和工具；可用功能会随方案、地区、工作区设置和产品更新而变化。</p>
+        <div class="speech">产品负责体验；模型负责生成；工具负责外部操作。</div>
+      </div>
+      <div class="panel-art blue"><div style="font-size:3rem;">📱</div><div style="font-size:1.8rem;margin-top:-6px;">🧠 🛠️</div><div class="char-label">产品 → 模型与工具</div></div>
+    </div>
+  </div>
+
+  <div class="timeline">
+    <h2>📅 一条不易过时的时间线</h2>
+    <div class="tl-items">
+      <div class="tl-item"><div class="tl-dot g1">🚀</div><div class="tl-body"><div class="tl-tag">2022 · 推出</div><h4>ChatGPT 面向公众开放</h4><p>对话式界面让大众能用自然语言体验生成式 AI。</p></div></div>
+      <div class="tl-item"><div class="tl-dot g2">🖼️</div><div class="tl-body"><div class="tl-tag">随后</div><h4>从纯文字走向多模态</h4><p>不同版本逐步加入图像、语音、文件、数据分析与网页搜索等体验。</p></div></div>
+      <div class="tl-item"><div class="tl-dot g3">🛠️</div><div class="tl-body"><div class="tl-tag">持续演进</div><h4>模型与工具会更新</h4><p>不要把课程里的型号或方案当永久清单；使用前查看产品内说明和官方文档。</p></div></div>
+    </div>
+  </div>
+
+  <div class="compare-box">
+    <h2>🔍 ChatGPT 与传统搜索有什么不同？</h2>
+    <div class="compare-grid">
+      <div class="compare-col left">
+        <h3>🔎 传统搜索</h3>
+        <div class="compare-row"><span class="icon">📋</span><p><strong>找出网页</strong>，让你比较多个来源</p></div>
+        <div class="compare-row"><span class="icon">🔗</span><p><strong>来源较直接</strong>，但仍需评估可信度与日期</p></div>
+        <div class="compare-row"><span class="icon">🧭</span><p><strong>适合探索</strong>当前资讯和原始资料</p></div>
+      </div>
+      <div class="compare-col right">
+        <h3>💬 ChatGPT</h3>
+        <div class="compare-row"><span class="icon">✍️</span><p><strong>综合生成回应</strong>，并能持续对话与改写</p></div>
+        <div class="compare-row"><span class="icon">🌐</span><p><strong>搜索开启时</strong>可查网页并提供链接；没有搜索时不要假设资料最新</p></div>
+        <div class="compare-row"><span class="icon">⚠️</span><p><strong>仍会出错</strong>；点击来源并核对关键说法</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="key-idea">
+    <div class="ki-label">📎 官方资料</div>
+    <p>功能随时间变化。查看 <a href="https://help.openai.com/en/articles/12677804-what-is-chatgpt-faq.pdf" target="_blank" rel="noopener">ChatGPT 官方入门说明</a> 与 <a href="https://help.openai.com/en/articles/9237897-chatgpt-search" target="_blank" rel="noopener">ChatGPT Search 说明</a>。</p>
+  </div>
+
+  <div class="quiz-box">
+    <h2>🧠 快速检查 — 模块 11</h2>
+    <div class="q-item">
+      <p>1. 下列哪项最准确？</p>
+      <div class="q-opts">
+        <button class="q-opt" onclick="answer(this,'wrong')">A. ChatGPT 就是一个固定型号的模型</button>
+        <button class="q-opt" onclick="answer(this,'correct')">B. ChatGPT 是产品，可组合模型、界面与工具</button>
+        <button class="q-opt" onclick="answer(this,'wrong')">C. ChatGPT 是搜索引擎的数据库</button>
+      </div><div class="q-feedback" id="fb0"></div>
+    </div>
+    <div class="q-item">
+      <p>2. 模型通常如何产生文字回应？</p>
+      <div class="q-opts">
+        <button class="q-opt" onclick="answer(this,'wrong')">A. 从预写答案表复制整段文字</button>
+        <button class="q-opt" onclick="answer(this,'correct')">B. 根据上下文逐步生成后续词元</button>
+        <button class="q-opt" onclick="answer(this,'wrong')">C. 每次都必须先搜索网页</button>
+      </div><div class="q-feedback" id="fb1"></div>
+    </div>
+    <div class="q-item">
+      <p>3. ChatGPT 给出流畅且具体的事实时，最佳做法是什么？</p>
+      <div class="q-opts">
+        <button class="q-opt" onclick="answer(this,'correct')">A. 对重要说法查阅可靠来源</button>
+        <button class="q-opt" onclick="answer(this,'wrong')">B. 语气有把握就直接相信</button>
+        <button class="q-opt" onclick="answer(this,'wrong')">C. 只检查拼写</button>
+      </div><div class="q-feedback" id="fb2"></div>
+    </div>
+  </div>
+
+  <div class="mod-nav">
+    <a href="module_10_claude_code.html" class="nav-btn sec">← 模块 10</a>
+    <a href="module_12_chatgpt_features.html" class="nav-btn">模块 12 →</a>
+  </div>
+</div>
+
+<script>
+const feedbacks = [
+  { correct: '✅ 正确。ChatGPT 是产品体验，底层模型和可用工具可以变化。', wrong: '❌ ChatGPT 是产品；模型与工具是其中不同层次。' },
+  { correct: '✅ 正确。语言模型根据上下文逐步生成词元。', wrong: '❌ 它通常不是从答案表复制，也不保证每次搜索网页。' },
+  { correct: '✅ 正确。流畅度不能证明事实正确；重要内容要核实。', wrong: '❌ 有把握的语气也可能伴随幻觉，请核对可靠来源。' }
+];
+const answered = [false, false, false];
+function answer(btn, result) {
+  const item = btn.closest('.q-item');
+  const idx = Array.from(item.parentElement.querySelectorAll('.q-item')).indexOf(item);
+  if (answered[idx]) return;
+  answered[idx] = true;
+  item.querySelectorAll('.q-opt').forEach(option => { option.disabled = true; });
+  btn.classList.add(result);
+  const feedback = document.getElementById('fb' + idx);
+  feedback.textContent = result === 'correct' ? feedbacks[idx].correct : feedbacks[idx].wrong;
+  feedback.className = 'q-feedback show ' + (result === 'correct' ? 'ok' : 'bad');
+}
+</script>
+<script src="../assets/language-switcher.js" data-locale="zh-CN"></script>
+</body>
+</html>
