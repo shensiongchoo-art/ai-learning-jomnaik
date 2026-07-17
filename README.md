@@ -15,6 +15,8 @@ Each lesson loads `assets/language-switcher.js`, which adds an English / 简体�
 
 The shared switcher also includes a light color mode toggle while preserving the original page styling as the default.
 
+The Malaysian Malay pages are currently marked as AI-assisted draft translations pending local language review. The review workflow is documented in `docs/MALAY_TRANSLATION_REVIEW.md`.
+
 Run the locale check before publishing translation changes:
 
 ```bash

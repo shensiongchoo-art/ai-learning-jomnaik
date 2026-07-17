@@ -169,6 +169,31 @@
         padding: 7px 8px;
       }
     }
+
+    .translation-review-banner {
+      position: fixed;
+      left: 12px;
+      right: 12px;
+      bottom: 12px;
+      z-index: 999;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 10px 14px;
+      border: 1px solid rgba(245,158,11,.42);
+      border-radius: 8px;
+      background: rgba(120,53,15,.94);
+      color: #fff7ed;
+      box-shadow: 0 8px 24px rgba(15,23,42,.24);
+      font: 700 12px/1.45 "Segoe UI", Arial, sans-serif;
+      text-align: center;
+      backdrop-filter: blur(10px);
+    }
+
+    body.light-mode .translation-review-banner {
+      background: #fff7ed;
+      border-color: #fdba74;
+      color: #7c2d12;
+    }
   `;
   document.head.appendChild(style);
 
@@ -217,4 +242,11 @@
   controls.appendChild(themeToggle);
 
   document.body.appendChild(controls);
+
+  if (locale === 'ms-MY') {
+    const reviewBanner = document.createElement('div');
+    reviewBanner.className = 'translation-review-banner';
+    reviewBanner.textContent = 'Nota: Versi Bahasa Melayu ini ialah draf bantuan AI dan sedang menunggu semakan Bahasa Melayu Malaysia / DBP-style terminology review.';
+    document.body.appendChild(reviewBanner);
+  }
 })();
