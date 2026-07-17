@@ -1,191 +1,255 @@
 <!DOCTYPE html>
 <html lang="ms-MY">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Token: Unit Kecil Bahasa AI - AI Learning JomNaik</title>
-  <style>
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      min-height: 100vh;
-      background: linear-gradient(135deg, #111827 0%, #172554 48%, #312e81 100%);
-      color: #f8fafc;
-      font-family: "Segoe UI", Arial, sans-serif;
-      line-height: 1.6;
-    }
-    .container {
-      width: min(1120px, calc(100% - 32px));
-      margin: 0 auto;
-      padding: 76px 0 40px;
-    }
-    header {
-      margin-bottom: 28px;
-      padding: 28px;
-      border: 1px solid rgba(255,255,255,.18);
-      border-radius: 8px;
-      background: rgba(15,23,42,.74);
-      box-shadow: 0 12px 36px rgba(0,0,0,.2);
-    }
-    h1 {
-      margin: 0 0 10px;
-      font-size: clamp(2rem, 5vw, 4rem);
-      line-height: 1.05;
-      letter-spacing: 0;
-    }
-    h2, h3 { margin-top: 0; letter-spacing: 0; }
-    p { margin: 0 0 14px; }
-    a { color: #93c5fd; }
-    .subtitle { max-width: 760px; color: #dbeafe; font-size: 1.08rem; }
-    .eyebrow, .module-kicker, .module-number {
-      display: inline-block;
-      margin-bottom: 10px;
-      color: #bfdbfe;
-      font-size: .78rem;
-      font-weight: 800;
-      letter-spacing: .08em;
-      text-transform: uppercase;
-    }
-    .hero-panel, .note-box, .lesson-card, .quiz-box, .module-nav, .module-card {
-      border: 1px solid rgba(255,255,255,.16);
-      border-radius: 8px;
-      background: rgba(15,23,42,.72);
-      box-shadow: 0 10px 28px rgba(0,0,0,.18);
-    }
-    .hero-panel, .note-box, .quiz-box { padding: 24px; margin-bottom: 22px; }
-    .module-grid, .lesson-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 16px;
-      margin-bottom: 22px;
-    }
-    .module-card, .lesson-card {
-      display: block;
-      padding: 22px;
-      color: inherit;
-      text-decoration: none;
-    }
-    .module-card:hover, .module-card:focus-visible {
-      transform: translateY(-2px);
-      outline: 2px solid #93c5fd;
-      outline-offset: 2px;
-    }
-    .quiz-item {
-      margin: 0 0 16px;
-      padding: 16px;
-      border: 1px solid rgba(255,255,255,.14);
-      border-radius: 8px;
-    }
-    .quiz-item legend { padding: 0 8px; font-weight: 800; }
-    .quiz-item label { display: block; margin-top: 8px; cursor: pointer; }
-    .primary-button {
-      border: 0;
-      border-radius: 8px;
-      background: #2563eb;
-      color: #fff;
-      cursor: pointer;
-      font-weight: 800;
-      padding: 12px 16px;
-    }
-    .quiz-result { margin-top: 12px; font-weight: 800; }
-    .module-nav {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      justify-content: space-between;
-      padding: 18px;
-    }
-    .module-nav a {
-      color: #bfdbfe;
-      font-weight: 800;
-      text-decoration: none;
-    }
-    @media (max-width: 640px) {
-      .container { width: min(100% - 20px, 1120px); padding-top: 68px; }
-      header, .hero-panel, .note-box, .lesson-card, .quiz-box { padding: 18px; }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Token: Unit Kecil Bahasa AI - AI Learning JomNaik</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', sans-serif; background: #f0f4ff; color: #1a1a2e; }
+
+  .nav-bar {
+    background: #16213e; padding: 10px 24px; display: flex;
+    justify-content: space-between; align-items: center;
+  }
+  .nav-bar a { color: #a0aec0; text-decoration: none; font-size: 0.9rem; }
+  .nav-bar a:hover { color: white; }
+  .progress-dots { display: flex; gap: 8px; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; background: #2d3a5e; }
+  .dot.active { background: #e94560; }
+  .dot.done   { background: #48bb78; }
+
+  .hero {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: white; text-align: center; padding: 48px 24px 32px;
+  }
+  .hero .badge {
+    background: #f6ad55; color: #1a1a2e; font-size: 12px; font-weight: 700;
+    padding: 4px 12px; border-radius: 20px; letter-spacing: 1px;
+    display: inline-block; margin-bottom: 16px; text-transform: uppercase;
+  }
+  .hero h1 { font-size: 2rem; margin-bottom: 10px; }
+  .hero p { font-size: 1.05rem; opacity: 0.8; max-width: 520px; margin: 0 auto; }
+
+  .container { max-width: 760px; margin: 0 auto; padding: 32px 20px 60px; }
+
+  .section-title {
+    font-size: 0.75rem; font-weight: 700; color: #e94560;
+    text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 12px;
+    margin-top: 36px;
+  }
+
+  /* ANALOGY INTRO */
+  .analogy-box {
+    background: white; border: 3px solid #f6ad55; border-radius: 12px;
+    padding: 24px; box-shadow: 6px 6px 0 #f6ad55;
+  }
+  .lego-grid {
+    display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px;
+  }
+  .lego-brick {
+    background: #f6ad55; color: #1a1a2e; font-weight: 700; font-size: 0.9rem;
+    padding: 8px 14px; border-radius: 6px; border: 2px solid #d69e2e;
+    box-shadow: 0 4px 0 #b7791f;
+  }
+  .lego-brick.purple { background: #9f7aea; border-color: #6b46c1; box-shadow: 0 4px 0 #553c9a; color: white; }
+  .lego-brick.green  { background: #68d391; border-color: #38a169; box-shadow: 0 4px 0 #276749; color: #1a1a2e; }
+  .lego-brick.blue   { background: #63b3ed; border-color: #3182ce; box-shadow: 0 4px 0 #2c5282; color: white; }
+  .lego-brick.pink   { background: #fc8181; border-color: #e53e3e; box-shadow: 0 4px 0 #c53030; color: white; }
+
+  /* INTERACTIVE DEMO */
+  .demo-box {
+    background: white; border: 3px solid #1a1a2e; border-radius: 12px;
+    padding: 28px; box-shadow: 6px 6px 0 #1a1a2e;
+  }
+  .demo-box h3 { font-size: 1rem; margin-bottom: 8px; }
+  .demo-box p  { font-size: 0.88rem; color: #555; margin-bottom: 20px; }
+
+  .sentence-input {
+    width: 100%; padding: 12px 16px; font-size: 1rem;
+    border: 2px solid #c3cef6; border-radius: 8px;
+    font-family: inherit; outline: none; margin-bottom: 12px;
+  }
+  .sentence-input:focus { border-color: #667eea; }
+
+  .tokenize-btn {
+    background: #1a1a2e; color: white; border: none; border-radius: 8px;
+    padding: 10px 24px; font-size: 0.9rem; font-weight: 700;
+    cursor: pointer; font-family: inherit; margin-bottom: 20px;
+  }
+  .tokenize-btn:hover { background: #2d3a5e; }
+
+  .token-display {
+    min-height: 60px; display: flex; flex-wrap: wrap; gap: 6px;
+    align-items: center;
+  }
+
+  .token-chip {
+    padding: 6px 12px; border-radius: 6px; font-size: 0.9rem; font-weight: 600;
+    cursor: pointer; border: 2px solid transparent;
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .token-chip:hover { transform: translateY(-3px); box-shadow: 0 4px 8px rgba(0,0,0,0.15); }
+
+  .token-colors {
+    --c0: #fef3c7; --b0: #f59e0b;
+    --c1: #dbeafe; --b1: #3b82f6;
+    --c2: #d1fae5; --b2: #10b981;
+    --c3: #ede9fe; --b3: #8b5cf6;
+    --c4: #fee2e2; --b4: #ef4444;
+    --c5: #fce7f3; --b5: #ec4899;
+  }
+
+  .stats-row {
+    display: flex; gap: 16px; margin-top: 16px; flex-wrap: wrap;
+  }
+  .stat-chip {
+    background: #f0f4ff; border: 1px solid #c3cef6;
+    padding: 8px 14px; border-radius: 8px; font-size: 0.85rem;
+  }
+  .stat-chip strong { color: #e94560; }
+
+  .token-tooltip {
+    background: #1a1a2e; color: white; padding: 8px 12px; border-radius: 6px;
+    font-size: 0.8rem; margin-top: 12px; display: none;
+  }
+  .token-tooltip.show { display: block; }
+
+  /* EXAMPLES TABLE */
+  .examples-box {
+    background: white; border: 3px solid #1a1a2e; border-radius: 12px;
+    padding: 24px; box-shadow: 6px 6px 0 #1a1a2e;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.88rem; margin-top: 12px; }
+  th { background: #1a1a2e; color: white; padding: 10px 14px; text-align: left; }
+  td { padding: 10px 14px; border-bottom: 1px solid #e2e8f0; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f7f9ff; }
+
+  /* WHY IT MATTERS */
+  .why-box {
+    background: #1a1a2e; color: white; border-radius: 12px; padding: 24px;
+  }
+  .why-box h3 { color: #f6ad55; margin-bottom: 16px; }
+  .why-list { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+  .why-list li { display: flex; gap: 10px; font-size: 0.9rem; line-height: 1.5; align-items: flex-start; }
+  .why-list li::before { content: "🧱"; flex-shrink: 0; }
+
+  /* QUIZ */
+  .quiz-box {
+    background: white; border: 3px solid #1a1a2e; border-radius: 12px;
+    padding: 24px; box-shadow: 6px 6px 0 #1a1a2e;
+  }
+  .quiz-options { display: flex; flex-direction: column; gap: 10px; margin-top: 14px; }
+  .quiz-btn {
+    background: #f0f4ff; border: 2px solid #c3cef6; border-radius: 8px;
+    padding: 12px 16px; text-align: left; font-size: 0.9rem; cursor: pointer;
+    transition: all 0.2s; font-family: inherit;
+  }
+  .quiz-btn:hover { background: #e3f2fd; border-color: #90caf9; }
+  .quiz-btn.correct { background: #e8f5e9; border-color: #48bb78; color: #2d6a4f; }
+  .quiz-btn.wrong   { background: #ffebee; border-color: #ef9a9a; color: #b71c1c; }
+  .quiz-feedback { margin-top: 14px; padding: 12px; border-radius: 8px; font-size: 0.88rem; display: none; }
+  .quiz-feedback.show { display: block; }
+  .quiz-feedback.correct { background: #e8f5e9; color: #2d6a4f; border: 1px solid #a5d6a7; }
+  .quiz-feedback.wrong   { background: #fff8e1; color: #7b5e00; border: 1px solid #ffe082; }
+
+  .next-bar {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-top: 36px; padding-top: 24px; border-top: 2px solid #e2e8f0;
+  }
+  .btn {
+    background: #e94560; color: white; border: none; border-radius: 8px;
+    padding: 12px 24px; font-size: 0.95rem; font-weight: 700;
+    cursor: pointer; text-decoration: none; display: inline-block;
+  }
+  .btn:hover { background: #c73652; }
+  .btn.secondary { background: white; color: #1a1a2e; border: 2px solid #1a1a2e; }
+  .btn.secondary:hover { background: #f0f4ff; }
+</style>
 </head>
 <body>
-  <main class="container">
-    <header>
-      <h1>Token: Unit Kecil Bahasa AI</h1>
-      <p class="subtitle">Fahami mengapa AI membaca teks sebagai token, bukan hanya perkataan biasa.</p>
-    </header>
-
-      <p class="module-kicker">Modul 02</p>
-      <section class="lesson-grid">
-
-        <article class="lesson-card">
-          <h2>Apa itu token</h2>
-          <p>Token ialah cebisan teks yang digunakan oleh model. Satu token boleh menjadi satu perkataan pendek, sebahagian perkataan, tanda baca, nombor, atau ruang tertentu. Bahasa berbeza boleh menghasilkan bilangan token yang berbeza.</p>
-        </article>
-
-        <article class="lesson-card">
-          <h2>Mengapa token penting</h2>
-          <p>Harga, had input, panjang jawapan, dan kelajuan biasanya berkait dengan token. Prompt yang panjang menggunakan lebih banyak ruang konteks dan boleh membuat model kurang fokus jika tidak disusun.</p>
-        </article>
-
-        <article class="lesson-card">
-          <h2>Anggaran praktikal</h2>
-          <p>Untuk Bahasa Melayu dan Inggeris, anggap satu token lebih kurang beberapa aksara atau sebahagian perkataan. Untuk kerja sebenar, guna tokenizer rasmi atau meter dalam produk kerana anggaran manual tidak tepat.</p>
-        </article>
-
-        <article class="lesson-card">
-          <h2>Cara berjimat</h2>
-          <p>Buang ulangan, letak dokumen rujukan yang relevan sahaja, guna tajuk yang jelas, dan minta output ringkas dahulu sebelum memperincikan.</p>
-        </article>
-      </section>
-
-      <section class="quiz-box">
-        <h2>Kuiz ringkas</h2>
-
-        <fieldset class="quiz-item" data-answer="0">
-          <legend>Token boleh menjadi apa?</legend>
-
-          <label><input type="radio" name="q0" value="0"> Sebahagian perkataan atau tanda baca</label>
-          <label><input type="radio" name="q0" value="1"> Hanya satu ayat penuh</label>
-          <label><input type="radio" name="q0" value="2"> Hanya gambar</label>
-        </fieldset>
-
-        <fieldset class="quiz-item" data-answer="0">
-          <legend>Kenapa token perlu dijaga?</legend>
-
-          <label><input type="radio" name="q1" value="0"> Ia mempengaruhi kos dan ruang konteks</label>
-          <label><input type="radio" name="q1" value="1"> Ia menentukan warna tema</label>
-          <label><input type="radio" name="q1" value="2"> Ia menggantikan semua fakta</label>
-        </fieldset>
-
-        <fieldset class="quiz-item" data-answer="0">
-          <legend>Cara mengurangkan token ialah...</legend>
-
-          <label><input type="radio" name="q2" value="0"> Ringkaskan konteks yang tidak perlu</label>
-          <label><input type="radio" name="q2" value="1"> Salin semua dokumen tanpa tujuan</label>
-          <label><input type="radio" name="q2" value="2"> Ulang arahan berkali-kali</label>
-        </fieldset>
-        <button class="primary-button" type="button" onclick="checkQuiz()">Semak jawapan</button>
-        <p id="quiz-result" class="quiz-result" aria-live="polite"></p>
-      </section>
-
-      <nav class="module-nav" aria-label="Navigasi modul">
-        <a href="module_01_what_is_llm.html">← Modul sebelumnya</a>
-        <a href="index.html">Semua modul</a>
-        <a href="module_03_context_window.html">Modul seterusnya →</a>
-      </nav>
-
-  </main>
-  <script src="../assets/language-switcher.js" data-locale="ms-MY"></script>
-  <script>
-      function checkQuiz() {
-        const items = document.querySelectorAll('.quiz-item');
-        let score = 0;
-        items.forEach(item => {
-          const checked = item.querySelector('input:checked');
-          if (checked && checked.value === item.dataset.answer) score += 1;
-        });
-        const result = document.getElementById('quiz-result');
-        result.textContent = 'Skor anda: ' + score + '/' + items.length + '. ' + (score === items.length ? 'Bagus, teruskan ke modul seterusnya.' : 'Semak semula nota di atas dan cuba lagi.');
-      }
-    </script>
+<div class="nav-bar">
+  <a href="index.html">← Kembali ke Laman Utama</a>
+  <div class="progress-dots"><div class="dot done"></div><div class="dot active"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+  <span style="color:#a0aec0;font-size:0.85rem;">2 / 5</span>
+</div>
+<div class="hero">
+  <div class="badge">Modul 2</div>
+  <h1>Token: Unit Kecil Bahasa AI</h1>
+  <p>LLM membaca teks sebagai token, bukan semata-mata perkataan penuh.</p>
+</div>
+<div class="container">
+  <p class="section-title">Cerita</p>
+  <div class="comic-strip">
+    <div class="panel">
+  <div class="panel-header">Panel 1 — Blok Kecil Teks</div>
+  <div class="panel-body">
+    <div class="scene"><div class="char">🧩</div><div class="char-label">Blok Kecil Teks</div></div>
+    <div class="speech-area">
+      <div class="bubble narrator">Token ialah cebisan teks: kadang-kadang satu perkataan, kadang-kadang sebahagian perkataan, tanda baca, atau ruang.</div>
+      <span class="tag ">Konsep</span>
+    </div>
+  </div>
+</div>
+<div class="panel">
+  <div class="panel-header">Panel 2 — Kenapa Penting</div>
+  <div class="panel-body">
+    <div class="scene"><div class="char">🧩</div><div class="char-label">Kenapa Penting</div></div>
+    <div class="speech-area">
+      <div class="bubble narrator">Had konteks, kos, dan panjang jawapan biasanya dikira dengan token. Prompt yang panjang menggunakan lebih banyak ruang kerja.</div>
+      <span class="tag green">Cara fikir</span>
+    </div>
+  </div>
+</div>
+<div class="panel">
+  <div class="panel-header">Panel 3 — Bahasa dan Kod</div>
+  <div class="panel-body">
+    <div class="scene"><div class="char">🧩</div><div class="char-label">Bahasa dan Kod</div></div>
+    <div class="speech-area">
+      <div class="bubble narrator">Bahasa Melayu, Mandarin, emoji, nama produk, dan kod boleh dipecahkan menjadi token dengan cara berbeza.</div>
+      <span class="tag blue">Amalan</span>
+    </div>
+  </div>
+</div>
+  </div>
+  <p class="section-title">Ringkasan</p>
+  <div class="key-facts">
+  <h3>Perkara penting</h3>
+  <ul class="fact-list">
+    <li>Token mempengaruhi kos dan had konteks.</li>
+    <li>Satu perkataan tidak semestinya satu token.</li>
+    <li>Prompt yang jelas dan padat lebih mudah diproses.</li>
+  </ul>
+</div>
+  <p class="section-title">Kuiz</p>
+  <div class="quiz-box">
+  <h3>Semakan Pantas</h3>
+  <div class="quiz-options">
+    <button class="quiz-btn" onclick="answerMs(this, true)">A) Cebisan teks yang diproses model</button>
+    <button class="quiz-btn" onclick="answerMs(this, false)">B) Fail gambar</button>
+    <button class="quiz-btn" onclick="answerMs(this, false)">C) Kata laluan akaun</button>
+  </div>
+  <div class="quiz-feedback" id="quiz-feedback"></div>
+</div>
+  <div class="next-bar">
+  <a href="module_01_what_is_llm.html" class="btn secondary">← Modul Sebelumnya</a>
+  <a href="module_03_context_window.html" class="btn">Modul Seterusnya →</a>
+</div>
+</div>
+<script>
+function answerMs(btn, isCorrect) {
+  const box = btn.closest('.quiz-box, .quiz-section');
+  const buttons = box.querySelectorAll('.quiz-btn, .quiz-opt');
+  const feedback = box.querySelector('.quiz-feedback');
+  buttons.forEach(b => { b.disabled = true; });
+  btn.classList.add(isCorrect ? 'correct' : 'wrong');
+  feedback.className = 'quiz-feedback show ' + (isCorrect ? 'correct good' : 'wrong bad');
+  feedback.textContent = isCorrect
+    ? 'Betul. Teruskan ke modul seterusnya.'
+    : 'Hampir. Semak semula konsep utama di atas.';
+}
+</script>
+<script src="../assets/language-switcher.js" data-locale="ms-MY"></script>
 </body>
 </html>

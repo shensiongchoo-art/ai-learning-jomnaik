@@ -1,191 +1,243 @@
 <!DOCTYPE html>
 <html lang="ms-MY">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Context Window - AI Learning JomNaik</title>
-  <style>
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      min-height: 100vh;
-      background: linear-gradient(135deg, #111827 0%, #172554 48%, #312e81 100%);
-      color: #f8fafc;
-      font-family: "Segoe UI", Arial, sans-serif;
-      line-height: 1.6;
-    }
-    .container {
-      width: min(1120px, calc(100% - 32px));
-      margin: 0 auto;
-      padding: 76px 0 40px;
-    }
-    header {
-      margin-bottom: 28px;
-      padding: 28px;
-      border: 1px solid rgba(255,255,255,.18);
-      border-radius: 8px;
-      background: rgba(15,23,42,.74);
-      box-shadow: 0 12px 36px rgba(0,0,0,.2);
-    }
-    h1 {
-      margin: 0 0 10px;
-      font-size: clamp(2rem, 5vw, 4rem);
-      line-height: 1.05;
-      letter-spacing: 0;
-    }
-    h2, h3 { margin-top: 0; letter-spacing: 0; }
-    p { margin: 0 0 14px; }
-    a { color: #93c5fd; }
-    .subtitle { max-width: 760px; color: #dbeafe; font-size: 1.08rem; }
-    .eyebrow, .module-kicker, .module-number {
-      display: inline-block;
-      margin-bottom: 10px;
-      color: #bfdbfe;
-      font-size: .78rem;
-      font-weight: 800;
-      letter-spacing: .08em;
-      text-transform: uppercase;
-    }
-    .hero-panel, .note-box, .lesson-card, .quiz-box, .module-nav, .module-card {
-      border: 1px solid rgba(255,255,255,.16);
-      border-radius: 8px;
-      background: rgba(15,23,42,.72);
-      box-shadow: 0 10px 28px rgba(0,0,0,.18);
-    }
-    .hero-panel, .note-box, .quiz-box { padding: 24px; margin-bottom: 22px; }
-    .module-grid, .lesson-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 16px;
-      margin-bottom: 22px;
-    }
-    .module-card, .lesson-card {
-      display: block;
-      padding: 22px;
-      color: inherit;
-      text-decoration: none;
-    }
-    .module-card:hover, .module-card:focus-visible {
-      transform: translateY(-2px);
-      outline: 2px solid #93c5fd;
-      outline-offset: 2px;
-    }
-    .quiz-item {
-      margin: 0 0 16px;
-      padding: 16px;
-      border: 1px solid rgba(255,255,255,.14);
-      border-radius: 8px;
-    }
-    .quiz-item legend { padding: 0 8px; font-weight: 800; }
-    .quiz-item label { display: block; margin-top: 8px; cursor: pointer; }
-    .primary-button {
-      border: 0;
-      border-radius: 8px;
-      background: #2563eb;
-      color: #fff;
-      cursor: pointer;
-      font-weight: 800;
-      padding: 12px 16px;
-    }
-    .quiz-result { margin-top: 12px; font-weight: 800; }
-    .module-nav {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      justify-content: space-between;
-      padding: 18px;
-    }
-    .module-nav a {
-      color: #bfdbfe;
-      font-weight: 800;
-      text-decoration: none;
-    }
-    @media (max-width: 640px) {
-      .container { width: min(100% - 20px, 1120px); padding-top: 68px; }
-      header, .hero-panel, .note-box, .lesson-card, .quiz-box { padding: 18px; }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Context Window - AI Learning JomNaik</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', sans-serif; background: #f0f4ff; color: #1a1a2e; }
+
+  .nav-bar {
+    background: #16213e; padding: 10px 24px; display: flex;
+    justify-content: space-between; align-items: center;
+  }
+  .nav-bar a { color: #a0aec0; text-decoration: none; font-size: 0.9rem; }
+  .nav-bar a:hover { color: white; }
+  .progress-dots { display: flex; gap: 8px; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; background: #2d3a5e; }
+  .dot.active { background: #e94560; }
+  .dot.done   { background: #48bb78; }
+
+  .hero {
+    background: linear-gradient(135deg, #1a1a2e 0%, #0f3460 100%);
+    color: white; text-align: center; padding: 48px 24px 32px;
+  }
+  .hero .badge {
+    background: #63b3ed; color: #1a1a2e; font-size: 12px; font-weight: 700;
+    padding: 4px 12px; border-radius: 20px; letter-spacing: 1px;
+    display: inline-block; margin-bottom: 16px; text-transform: uppercase;
+  }
+  .hero h1 { font-size: 2rem; margin-bottom: 10px; }
+  .hero p { font-size: 1.05rem; opacity: 0.8; max-width: 520px; margin: 0 auto; }
+
+  .container { max-width: 760px; margin: 0 auto; padding: 32px 20px 60px; }
+
+  .section-title {
+    font-size: 0.75rem; font-weight: 700; color: #e94560;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    margin-bottom: 12px; margin-top: 36px;
+  }
+
+  /* COMIC PANELS */
+  .panel {
+    background: white; border: 3px solid #1a1a2e; border-radius: 12px;
+    overflow: hidden; box-shadow: 6px 6px 0 #1a1a2e; margin-bottom: 24px;
+  }
+  .panel-header {
+    background: #1a1a2e; color: white; font-size: 11px; font-weight: 700;
+    padding: 5px 12px; text-transform: uppercase; letter-spacing: 1px;
+  }
+  .panel-body { display: flex; min-height: 160px; }
+  .scene {
+    width: 180px; min-width: 180px; background: #f7f9ff;
+    border-right: 3px solid #1a1a2e;
+    display: flex; flex-direction: column; align-items: center;
+    justify-content: center; padding: 20px 12px; gap: 8px;
+  }
+  .char { font-size: 3rem; line-height: 1; }
+  .char-label { font-size: 11px; font-weight: 700; color: #666; text-transform: uppercase; text-align: center; }
+  .speech-area { flex: 1; padding: 20px; display: flex; flex-direction: column; gap: 12px; }
+  .bubble {
+    background: #f0f4ff; border: 2px solid #c3cef6; border-radius: 12px;
+    padding: 12px 16px; font-size: 0.92rem; line-height: 1.5;
+  }
+  .bubble.narrator { background: #fff8e1; border-color: #ffe082; font-style: italic; font-size: 0.88rem; color: #555; }
+  .bubble.user     { background: #e8f5e9; border-color: #a5d6a7; }
+  .bubble.llm      { background: #e3f2fd; border-color: #90caf9; }
+  .bubble.warning  { background: #fff5f5; border-color: #fc8181; }
+  .speaker { font-size: 10px; font-weight: 700; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+  .tag { display: inline-block; background: #e94560; color: white; font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 4px; margin-top: 6px; }
+  .tag.blue { background: #3182ce; }
+  .tag.green { background: #38a169; }
+  .tag.orange { background: #dd6b20; }
+
+  /* TANK VISUALIZER */
+  .tank-demo {
+    background: white; border: 3px solid #1a1a2e; border-radius: 12px;
+    padding: 28px; box-shadow: 6px 6px 0 #1a1a2e;
+  }
+  .tank-demo h3 { font-size: 1rem; margin-bottom: 6px; }
+  .tank-demo p  { font-size: 0.85rem; color: #555; margin-bottom: 20px; }
+
+  .tank-wrap { position: relative; }
+  .tank-labels { display: flex; justify-content: space-between; font-size: 0.8rem; color: #666; margin-bottom: 6px; }
+  .tank-bar-bg {
+    height: 40px; background: #e2e8f0; border-radius: 8px;
+    overflow: hidden; border: 2px solid #a0aec0;
+  }
+  .tank-bar-fill {
+    height: 100%; border-radius: 6px; transition: width 0.5s;
+    display: flex; align-items: center; padding-left: 12px;
+    font-size: 0.8rem; font-weight: 700; color: white;
+  }
+  .tank-legend {
+    display: flex; gap: 16px; margin-top: 12px; flex-wrap: wrap;
+    font-size: 0.82rem;
+  }
+  .legend-item { display: flex; align-items: center; gap: 6px; }
+  .legend-dot { width: 12px; height: 12px; border-radius: 3px; }
+
+  .messages-list { margin-top: 20px; display: flex; flex-direction: column; gap: 8px; }
+  .msg-row {
+    display: flex; align-items: center; gap: 10px; padding: 8px 12px;
+    border-radius: 8px; font-size: 0.85rem; border: 1px solid;
+  }
+  .msg-row.in-window { background: #e8f5e9; border-color: #a5d6a7; }
+  .msg-row.forgotten { background: #f5f5f5; border-color: #e0e0e0; opacity: 0.5; text-decoration: line-through; }
+  .msg-icon { font-size: 1.2rem; }
+
+  .add-btn {
+    background: #1a1a2e; color: white; border: none; border-radius: 8px;
+    padding: 10px 20px; font-size: 0.9rem; font-weight: 700; cursor: pointer;
+    font-family: inherit; margin-top: 14px;
+  }
+  .add-btn:hover { background: #2d3a5e; }
+  .reset-btn {
+    background: white; color: #1a1a2e; border: 2px solid #1a1a2e; border-radius: 8px;
+    padding: 10px 20px; font-size: 0.9rem; font-weight: 700; cursor: pointer;
+    font-family: inherit; margin-top: 14px; margin-left: 10px;
+  }
+
+  /* KEY FACTS */
+  .key-facts { background: #1a1a2e; color: white; border-radius: 12px; padding: 24px; }
+  .key-facts h3 { color: #63b3ed; margin-bottom: 16px; font-size: 1rem; }
+  .fact-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  .fact-list li { display: flex; align-items: flex-start; gap: 10px; font-size: 0.9rem; line-height: 1.5; }
+  .fact-list li::before { content: "🐟"; flex-shrink: 0; }
+
+  /* COMPARISON TABLE */
+  .compare-box {
+    background: white; border: 3px solid #1a1a2e; border-radius: 12px;
+    padding: 24px; box-shadow: 6px 6px 0 #1a1a2e;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.88rem; margin-top: 12px; }
+  th { background: #1a1a2e; color: white; padding: 10px 14px; text-align: left; }
+  td { padding: 10px 14px; border-bottom: 1px solid #e2e8f0; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f7f9ff; }
+
+  /* QUIZ */
+  .quiz-box { background: white; border: 3px solid #1a1a2e; border-radius: 12px; padding: 24px; box-shadow: 6px 6px 0 #1a1a2e; }
+  .quiz-options { display: flex; flex-direction: column; gap: 10px; margin-top: 14px; }
+  .quiz-btn { background: #f0f4ff; border: 2px solid #c3cef6; border-radius: 8px; padding: 12px 16px; text-align: left; font-size: 0.9rem; cursor: pointer; transition: all 0.2s; font-family: inherit; }
+  .quiz-btn:hover { background: #e3f2fd; border-color: #90caf9; }
+  .quiz-btn.correct { background: #e8f5e9; border-color: #48bb78; color: #2d6a4f; }
+  .quiz-btn.wrong   { background: #ffebee; border-color: #ef9a9a; color: #b71c1c; }
+  .quiz-feedback { margin-top: 14px; padding: 12px; border-radius: 8px; font-size: 0.88rem; display: none; }
+  .quiz-feedback.show { display: block; }
+  .quiz-feedback.correct { background: #e8f5e9; color: #2d6a4f; border: 1px solid #a5d6a7; }
+  .quiz-feedback.wrong   { background: #fff8e1; color: #7b5e00; border: 1px solid #ffe082; }
+
+  .next-bar { display: flex; justify-content: space-between; align-items: center; margin-top: 36px; padding-top: 24px; border-top: 2px solid #e2e8f0; }
+  .btn { background: #e94560; color: white; border: none; border-radius: 8px; padding: 12px 24px; font-size: 0.95rem; font-weight: 700; cursor: pointer; text-decoration: none; display: inline-block; }
+  .btn:hover { background: #c73652; }
+  .btn.secondary { background: white; color: #1a1a2e; border: 2px solid #1a1a2e; }
+  .btn.secondary:hover { background: #f0f4ff; }
+</style>
 </head>
 <body>
-  <main class="container">
-    <header>
-      <h1>Context Window</h1>
-      <p class="subtitle">Ruang ingatan sementara yang model baca semasa satu perbualan atau tugasan.</p>
-    </header>
-
-      <p class="module-kicker">Modul 03</p>
-      <section class="lesson-grid">
-
-        <article class="lesson-card">
-          <h2>Definisi</h2>
-          <p>Context window ialah jumlah token yang boleh dibaca model pada satu masa. Ia termasuk arahan sistem, mesej pengguna, fail yang dimasukkan, sejarah perbualan, dan jawapan model.</p>
-        </article>
-
-        <article class="lesson-card">
-          <h2>Bukan memori kekal</h2>
-          <p>Konteks bukan sama dengan memory. Konteks ialah bahan dalam sesi semasa. Memory, jika tersedia dan dihidupkan, ialah ciri produk yang boleh menyimpan maklumat merentas sesi.</p>
-        </article>
-
-        <article class="lesson-card">
-          <h2>Apabila terlalu panjang</h2>
-          <p>Jika terlalu banyak bahan dimasukkan, maklumat penting boleh tertolak keluar, diringkaskan, atau kurang diberi perhatian. Ini boleh menyebabkan jawapan hilang fokus.</p>
-        </article>
-
-        <article class="lesson-card">
-          <h2>Amalan baik</h2>
-          <p>Letak objektif di awal, susun bahan dengan tajuk, nyatakan bahagian mana paling penting, dan minta model menyebut andaian sebelum menjawab.</p>
-        </article>
-      </section>
-
-      <section class="quiz-box">
-        <h2>Kuiz ringkas</h2>
-
-        <fieldset class="quiz-item" data-answer="0">
-          <legend>Context window ialah...</legend>
-
-          <label><input type="radio" name="q0" value="0"> Ruang token yang model boleh baca sekarang</label>
-          <label><input type="radio" name="q0" value="1"> Semua ilmu kekal model</label>
-          <label><input type="radio" name="q0" value="2"> Kelajuan internet</label>
-        </fieldset>
-
-        <fieldset class="quiz-item" data-answer="0">
-          <legend>Apa risiko konteks terlalu panjang?</legend>
-
-          <label><input type="radio" name="q1" value="0"> Maklumat penting boleh tenggelam</label>
-          <label><input type="radio" name="q1" value="1"> Model menjadi kalkulator sahaja</label>
-          <label><input type="radio" name="q1" value="2"> Semua jawapan jadi kosong</label>
-        </fieldset>
-
-        <fieldset class="quiz-item" data-answer="0">
-          <legend>Amalan baik ialah...</legend>
-
-          <label><input type="radio" name="q2" value="0"> Susun konteks dengan tajuk dan keutamaan</label>
-          <label><input type="radio" name="q2" value="1"> Campur semua topik tanpa struktur</label>
-          <label><input type="radio" name="q2" value="2"> Sembunyikan objektif</label>
-        </fieldset>
-        <button class="primary-button" type="button" onclick="checkQuiz()">Semak jawapan</button>
-        <p id="quiz-result" class="quiz-result" aria-live="polite"></p>
-      </section>
-
-      <nav class="module-nav" aria-label="Navigasi modul">
-        <a href="module_02_tokens.html">← Modul sebelumnya</a>
-        <a href="index.html">Semua modul</a>
-        <a href="module_04_temperature.html">Modul seterusnya →</a>
-      </nav>
-
-  </main>
-  <script src="../assets/language-switcher.js" data-locale="ms-MY"></script>
-  <script>
-      function checkQuiz() {
-        const items = document.querySelectorAll('.quiz-item');
-        let score = 0;
-        items.forEach(item => {
-          const checked = item.querySelector('input:checked');
-          if (checked && checked.value === item.dataset.answer) score += 1;
-        });
-        const result = document.getElementById('quiz-result');
-        result.textContent = 'Skor anda: ' + score + '/' + items.length + '. ' + (score === items.length ? 'Bagus, teruskan ke modul seterusnya.' : 'Semak semula nota di atas dan cuba lagi.');
-      }
-    </script>
+<div class="nav-bar">
+  <a href="index.html">← Kembali ke Laman Utama</a>
+  <div class="progress-dots"><div class="dot done"></div><div class="dot done"></div><div class="dot active"></div><div class="dot"></div><div class="dot"></div></div>
+  <span style="color:#a0aec0;font-size:0.85rem;">3 / 5</span>
+</div>
+<div class="hero">
+  <div class="badge">Modul 3</div>
+  <h1>Context Window</h1>
+  <p>Ruang kerja sementara yang boleh dilihat model semasa menjawab.</p>
+</div>
+<div class="container">
+  <p class="section-title">Cerita</p>
+  <div class="comic-strip">
+    <div class="panel">
+  <div class="panel-header">Panel 1 — Meja Kerja Sementara</div>
+  <div class="panel-body">
+    <div class="scene"><div class="char">🪟</div><div class="char-label">Meja Kerja Sementara</div></div>
+    <div class="speech-area">
+      <div class="bubble narrator">Konteks ialah mesej, fail, arahan, dan hasil alat yang tersedia kepada model pada saat ia menjawab.</div>
+      <span class="tag ">Konsep</span>
+    </div>
+  </div>
+</div>
+<div class="panel">
+  <div class="panel-header">Panel 2 — Tetingkap Ada Had</div>
+  <div class="panel-body">
+    <div class="scene"><div class="char">🪟</div><div class="char-label">Tetingkap Ada Had</div></div>
+    <div class="speech-area">
+      <div class="bubble narrator">Tetingkap konteks (context window) ialah had jumlah token yang boleh dimuatkan sekali gus. Apabila penuh, bahan lama mungkin tercicir.</div>
+      <span class="tag green">Cara fikir</span>
+    </div>
+  </div>
+</div>
+<div class="panel">
+  <div class="panel-header">Panel 3 — Urus Tugasan Panjang</div>
+  <div class="panel-body">
+    <div class="scene"><div class="char">🪟</div><div class="char-label">Urus Tugasan Panjang</div></div>
+    <div class="speech-area">
+      <div class="bubble narrator">Ringkaskan keputusan penting, ulang syarat utama, dan pecahkan kerja besar supaya model tidak kehilangan konteks.</div>
+      <span class="tag blue">Amalan</span>
+    </div>
+  </div>
+</div>
+  </div>
+  <p class="section-title">Ringkasan</p>
+  <div class="key-facts">
+  <h3>Perkara penting</h3>
+  <ul class="fact-list">
+    <li>Konteks bukan memori kekal.</li>
+    <li>Had konteks berbeza mengikut model dan produk.</li>
+    <li>Ringkasan berkala membantu tugasan panjang.</li>
+  </ul>
+</div>
+  <p class="section-title">Kuiz</p>
+  <div class="quiz-box">
+  <h3>Semakan Pantas</h3>
+  <div class="quiz-options">
+    <button class="quiz-btn" onclick="answerMs(this, true)">A) Arahan itu keluar daripada tetingkap konteks</button>
+    <button class="quiz-btn" onclick="answerMs(this, false)">B) AI marah</button>
+    <button class="quiz-btn" onclick="answerMs(this, false)">C) Internet hilang</button>
+  </div>
+  <div class="quiz-feedback" id="quiz-feedback"></div>
+</div>
+  <div class="next-bar">
+  <a href="module_02_tokens.html" class="btn secondary">← Modul Sebelumnya</a>
+  <a href="module_04_temperature.html" class="btn">Modul Seterusnya →</a>
+</div>
+</div>
+<script>
+function answerMs(btn, isCorrect) {
+  const box = btn.closest('.quiz-box, .quiz-section');
+  const buttons = box.querySelectorAll('.quiz-btn, .quiz-opt');
+  const feedback = box.querySelector('.quiz-feedback');
+  buttons.forEach(b => { b.disabled = true; });
+  btn.classList.add(isCorrect ? 'correct' : 'wrong');
+  feedback.className = 'quiz-feedback show ' + (isCorrect ? 'correct good' : 'wrong bad');
+  feedback.textContent = isCorrect
+    ? 'Betul. Teruskan ke modul seterusnya.'
+    : 'Hampir. Semak semula konsep utama di atas.';
+}
+</script>
+<script src="../assets/language-switcher.js" data-locale="ms-MY"></script>
 </body>
 </html>

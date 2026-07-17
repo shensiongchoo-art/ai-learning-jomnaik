@@ -1,191 +1,194 @@
 <!DOCTYPE html>
 <html lang="ms-MY">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Claude Code dan MCP - AI Learning JomNaik</title>
-  <style>
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      min-height: 100vh;
-      background: linear-gradient(135deg, #111827 0%, #172554 48%, #312e81 100%);
-      color: #f8fafc;
-      font-family: "Segoe UI", Arial, sans-serif;
-      line-height: 1.6;
-    }
-    .container {
-      width: min(1120px, calc(100% - 32px));
-      margin: 0 auto;
-      padding: 76px 0 40px;
-    }
-    header {
-      margin-bottom: 28px;
-      padding: 28px;
-      border: 1px solid rgba(255,255,255,.18);
-      border-radius: 8px;
-      background: rgba(15,23,42,.74);
-      box-shadow: 0 12px 36px rgba(0,0,0,.2);
-    }
-    h1 {
-      margin: 0 0 10px;
-      font-size: clamp(2rem, 5vw, 4rem);
-      line-height: 1.05;
-      letter-spacing: 0;
-    }
-    h2, h3 { margin-top: 0; letter-spacing: 0; }
-    p { margin: 0 0 14px; }
-    a { color: #93c5fd; }
-    .subtitle { max-width: 760px; color: #dbeafe; font-size: 1.08rem; }
-    .eyebrow, .module-kicker, .module-number {
-      display: inline-block;
-      margin-bottom: 10px;
-      color: #bfdbfe;
-      font-size: .78rem;
-      font-weight: 800;
-      letter-spacing: .08em;
-      text-transform: uppercase;
-    }
-    .hero-panel, .note-box, .lesson-card, .quiz-box, .module-nav, .module-card {
-      border: 1px solid rgba(255,255,255,.16);
-      border-radius: 8px;
-      background: rgba(15,23,42,.72);
-      box-shadow: 0 10px 28px rgba(0,0,0,.18);
-    }
-    .hero-panel, .note-box, .quiz-box { padding: 24px; margin-bottom: 22px; }
-    .module-grid, .lesson-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 16px;
-      margin-bottom: 22px;
-    }
-    .module-card, .lesson-card {
-      display: block;
-      padding: 22px;
-      color: inherit;
-      text-decoration: none;
-    }
-    .module-card:hover, .module-card:focus-visible {
-      transform: translateY(-2px);
-      outline: 2px solid #93c5fd;
-      outline-offset: 2px;
-    }
-    .quiz-item {
-      margin: 0 0 16px;
-      padding: 16px;
-      border: 1px solid rgba(255,255,255,.14);
-      border-radius: 8px;
-    }
-    .quiz-item legend { padding: 0 8px; font-weight: 800; }
-    .quiz-item label { display: block; margin-top: 8px; cursor: pointer; }
-    .primary-button {
-      border: 0;
-      border-radius: 8px;
-      background: #2563eb;
-      color: #fff;
-      cursor: pointer;
-      font-weight: 800;
-      padding: 12px 16px;
-    }
-    .quiz-result { margin-top: 12px; font-weight: 800; }
-    .module-nav {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      justify-content: space-between;
-      padding: 18px;
-    }
-    .module-nav a {
-      color: #bfdbfe;
-      font-weight: 800;
-      text-decoration: none;
-    }
-    @media (max-width: 640px) {
-      .container { width: min(100% - 20px, 1120px); padding-top: 68px; }
-      header, .hero-panel, .note-box, .lesson-card, .quiz-box { padding: 18px; }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Claude Code dan MCP - AI Learning JomNaik</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', sans-serif; background: #f0f4ff; color: #1a1a2e; }
+  .nav-bar { background: #16213e; padding: 10px 24px; display: flex; justify-content: space-between; align-items: center; }
+  .nav-bar a { color: #a0aec0; text-decoration: none; font-size: 0.9rem; }
+  .nav-bar a:hover { color: white; }
+  .progress-dots { display: flex; gap: 6px; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; background: #2d3a5e; }
+  .dot.done { background: #48bb78; } .dot.active { background: #e94560; }
+  .hero { background: linear-gradient(135deg, #0a1628 0%, #1a3a5c 100%); color: white; text-align: center; padding: 48px 24px 32px; }
+  .badge { display: inline-block; background: #63b3ed; color: #0a1628; font-size: 12px; font-weight: 700; padding: 4px 12px; border-radius: 20px; letter-spacing: 1px; margin-bottom: 16px; text-transform: uppercase; }
+  .hero h1 { font-size: 2rem; margin-bottom: 10px; }
+  .hero p { font-size: 1.05rem; opacity: 0.85; max-width: 540px; margin: 0 auto; }
+  .container { max-width: 760px; margin: 0 auto; padding: 32px 20px 60px; }
+  .section-title { font-size: 0.75rem; font-weight: 700; color: #e94560; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 12px; margin-top: 36px; }
+
+  .panel { background: white; border: 3px solid #1a1a2e; border-radius: 12px; overflow: hidden; box-shadow: 6px 6px 0 #1a1a2e; margin-bottom: 24px; }
+  .panel-header { background: #1a1a2e; color: white; font-size: 11px; font-weight: 700; padding: 5px 12px; text-transform: uppercase; letter-spacing: 1px; }
+  .panel-body { display: flex; min-height: 150px; }
+  .scene { width: 170px; min-width: 170px; background: #ebf8ff; border-right: 3px solid #1a1a2e; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 16px 12px; gap: 8px; }
+  .char { font-size: 3rem; line-height: 1; }
+  .char-label { font-size: 11px; font-weight: 700; color: #666; text-transform: uppercase; text-align: center; }
+  .speech-area { flex: 1; padding: 20px; display: flex; flex-direction: column; gap: 10px; }
+  .bubble { border-radius: 12px; padding: 12px 16px; font-size: 0.9rem; line-height: 1.6; border: 2px solid; }
+  .narrator { background: #fff8e1; border-color: #ffe082; font-style: italic; font-size: 0.86rem; color: #555; }
+  .claude-b { background: #ebf8ff; border-color: #90cdf4; }
+  .human-b  { background: #e8f5e9; border-color: #a5d6a7; }
+  .code-b   { background: #1a1a2e; color: #68d391; border-color: #2d6a4f; font-family: 'Courier New', monospace; font-size: 0.82rem; }
+  .speaker  { font-size: 10px; font-weight: 700; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+  .tag { display: inline-block; color: white; font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 4px; margin-top: 6px; background: #3182ce; }
+  .tag.green { background: #38a169; } .tag.purple { background: #805ad5; } .tag.orange { background: #dd6b20; }
+
+  /* CONCEPT CARDS */
+  .concept-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  .concept-card { background: white; border: 3px solid #1a1a2e; border-radius: 12px; overflow: hidden; box-shadow: 4px 4px 0 #1a1a2e; }
+  .cc-header { display: flex; align-items: center; gap: 14px; padding: 16px 20px; cursor: pointer; }
+  .cc-icon { font-size: 2rem; flex-shrink: 0; }
+  .cc-title-area { flex: 1; }
+  .cc-title { font-weight: 700; font-size: 1rem; margin-bottom: 3px; }
+  .cc-subtitle { font-size: 0.82rem; color: #666; }
+  .cc-badge { font-size: 10px; font-weight: 700; padding: 3px 8px; border-radius: 4px; flex-shrink: 0; }
+  .cc-body { padding: 0 20px; max-height: 0; overflow: hidden; transition: max-height 0.3s, padding 0.3s; }
+  .cc-body.open { max-height: 600px; padding: 0 20px 20px; }
+  .cc-analogy { background: #f0f4ff; border: 1.5px solid #c3cef6; border-radius: 8px; padding: 12px 14px; font-size: 0.85rem; line-height: 1.5; margin-bottom: 12px; }
+  .cc-detail { font-size: 0.85rem; line-height: 1.6; color: #444; }
+  .cc-detail ul { margin-left: 16px; margin-top: 8px; display: flex; flex-direction: column; gap: 5px; }
+  .cc-detail li { font-size: 0.83rem; }
+  .cc-example { background: #f0fff4; border: 1.5px solid #9ae6b4; border-radius: 8px; padding: 10px 14px; font-size: 0.82rem; line-height: 1.5; margin-top: 10px; color: #276749; }
+  .cc-example strong { color: #1a4a2e; }
+
+  /* WORKFLOW */
+  .workflow-box { background: white; border: 3px solid #1a1a2e; border-radius: 12px; padding: 24px; box-shadow: 6px 6px 0 #1a1a2e; }
+  .workflow-steps { display: flex; flex-direction: column; gap: 0; margin-top: 16px; }
+  .wf-step { display: flex; gap: 16px; align-items: flex-start; }
+  .wf-line { display: flex; flex-direction: column; align-items: center; gap: 0; }
+  .wf-dot  { width: 32px; height: 32px; border-radius: 50%; background: #1a1a2e; color: white; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: 700; flex-shrink: 0; }
+  .wf-connector { width: 2px; background: #c3cef6; flex: 1; min-height: 24px; }
+  .wf-content { flex: 1; padding-bottom: 20px; }
+  .wf-title { font-weight: 700; font-size: 0.9rem; margin-bottom: 4px; }
+  .wf-desc  { font-size: 0.82rem; color: #666; line-height: 1.4; }
+  .wf-step:last-child .wf-connector { display: none; }
+
+  /* INSTRUCTIONS GUIDE */
+  .guide-box { background: #0a1628; color: white; border-radius: 12px; padding: 24px; }
+  .guide-box h3 { color: #63b3ed; margin-bottom: 16px; font-size: 1rem; }
+  .guide-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 500px) { .guide-grid { grid-template-columns: 1fr; } }
+  .guide-item { background: rgba(255,255,255,0.05); border-radius: 8px; padding: 14px; border: 1px solid rgba(255,255,255,0.1); }
+  .guide-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+  .guide-do   .guide-label { color: #68d391; }
+  .guide-dont .guide-label { color: #fc8181; }
+  .guide-item ul { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+  .guide-item li { font-size: 0.82rem; line-height: 1.4; display: flex; gap: 6px; }
+  .guide-do   li::before { content: "✓"; color: #68d391; flex-shrink: 0; font-weight: 700; }
+  .guide-dont li::before { content: "✗"; color: #fc8181; flex-shrink: 0; font-weight: 700; }
+
+  .key-facts { background: #0a1628; color: white; border-radius: 12px; padding: 24px; }
+  .key-facts h3 { color: #63b3ed; margin-bottom: 16px; font-size: 1rem; }
+  .fact-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  .fact-list li { display: flex; align-items: flex-start; gap: 10px; font-size: 0.9rem; line-height: 1.5; }
+  .fact-list li::before { content: "💻"; flex-shrink: 0; }
+
+  .quiz-box { background: white; border: 3px solid #1a1a2e; border-radius: 12px; padding: 24px; box-shadow: 6px 6px 0 #1a1a2e; }
+  .quiz-options { display: flex; flex-direction: column; gap: 10px; margin-top: 14px; }
+  .quiz-btn { background: #f0f4ff; border: 2px solid #c3cef6; border-radius: 8px; padding: 12px 16px; text-align: left; font-size: 0.9rem; cursor: pointer; transition: all 0.2s; font-family: inherit; }
+  .quiz-btn:hover { background: #e3f2fd; border-color: #90caf9; }
+  .quiz-btn.correct { background: #e8f5e9; border-color: #48bb78; color: #2d6a4f; }
+  .quiz-btn.wrong   { background: #ffebee; border-color: #ef9a9a; color: #b71c1c; }
+  .quiz-feedback { margin-top: 14px; padding: 12px; border-radius: 8px; font-size: 0.88rem; display: none; }
+  .quiz-feedback.show { display: block; }
+  .quiz-feedback.correct { background: #e8f5e9; color: #2d6a4f; border: 1px solid #a5d6a7; }
+  .quiz-feedback.wrong   { background: #fff8e1; color: #7b5e00; border: 1px solid #ffe082; }
+
+  .complete-banner { background: linear-gradient(135deg, #0a1628, #1a3a2e); color: white; border-radius: 12px; padding: 28px; text-align: center; margin-top: 36px; }
+  .complete-banner h2 { font-size: 1.4rem; margin-bottom: 10px; }
+  .complete-banner p  { font-size: 0.9rem; opacity: 0.85; margin-bottom: 20px; }
+  .next-bar { display: flex; justify-content: space-between; align-items: center; margin-top: 24px; padding-top: 24px; border-top: 2px solid rgba(255,255,255,0.15); }
+  .btn { background: #48bb78; color: white; border: none; border-radius: 8px; padding: 12px 24px; font-size: 0.95rem; font-weight: 700; cursor: pointer; text-decoration: none; display: inline-block; }
+  .btn:hover { background: #38a169; }
+  .btn.secondary { background: rgba(255,255,255,0.1); color: white; border: 2px solid rgba(255,255,255,0.3); }
+  .btn.secondary:hover { background: rgba(255,255,255,0.2); }
+</style>
 </head>
 <body>
-  <main class="container">
-    <header>
-      <h1>Claude Code dan MCP</h1>
-      <p class="subtitle">Bagaimana pembantu kod boleh membaca repo, mencadang perubahan, dan bekerja dengan alat.</p>
-    </header>
-
-      <p class="module-kicker">Modul 10</p>
-      <section class="lesson-grid">
-
-        <article class="lesson-card">
-          <h2>Claude Code</h2>
-          <p>Claude Code ialah pengalaman pembantu kod daripada Anthropic. Bergantung pada konfigurasi, ia boleh membaca fail, mencadangkan edit, menjalankan arahan, dan membantu memahami repositori.</p>
-        </article>
-
-        <article class="lesson-card">
-          <h2>Skills</h2>
-          <p>Skill ialah pakej arahan, rujukan, atau skrip yang memberi pembantu cara kerja khusus. Ia membantu konsistensi, tetapi tetap perlu disemak seperti kod lain.</p>
-        </article>
-
-        <article class="lesson-card">
-          <h2>MCP</h2>
-          <p>Model Context Protocol (MCP) ialah standard untuk menyambungkan model kepada alat dan sumber luaran. MCP boleh berguna, tetapi perlu kawalan izin yang jelas kerana ia membuka akses kepada sistem lain.</p>
-        </article>
-
-        <article class="lesson-card">
-          <h2>Cara selamat</h2>
-          <p>Guna version control, semak diff, jalankan ujian, hadkan izin alat, elakkan rahsia dalam repo, dan jangan benarkan automasi membuat perubahan berisiko tanpa semakan.</p>
-        </article>
-      </section>
-
-      <section class="quiz-box">
-        <h2>Kuiz ringkas</h2>
-
-        <fieldset class="quiz-item" data-answer="0">
-          <legend>Claude Code membantu dalam...</legend>
-
-          <label><input type="radio" name="q0" value="0"> Kerja kod dan repo</label>
-          <label><input type="radio" name="q0" value="1"> Memasak makanan</label>
-          <label><input type="radio" name="q0" value="2"> Menukar perkakasan GPU</label>
-        </fieldset>
-
-        <fieldset class="quiz-item" data-answer="0">
-          <legend>MCP ialah...</legend>
-
-          <label><input type="radio" name="q1" value="0"> Standard sambungan model kepada alat</label>
-          <label><input type="radio" name="q1" value="1"> Satu bahasa manusia</label>
-          <label><input type="radio" name="q1" value="2"> Nama tema laman</label>
-        </fieldset>
-
-        <fieldset class="quiz-item" data-answer="0">
-          <legend>Amalan selamat untuk coding agent ialah...</legend>
-
-          <label><input type="radio" name="q2" value="0"> Semak diff dan hadkan izin</label>
-          <label><input type="radio" name="q2" value="1"> Beri semua kata laluan</label>
-          <label><input type="radio" name="q2" value="2"> Commit tanpa baca</label>
-        </fieldset>
-        <button class="primary-button" type="button" onclick="checkQuiz()">Semak jawapan</button>
-        <p id="quiz-result" class="quiz-result" aria-live="polite"></p>
-      </section>
-
-      <nav class="module-nav" aria-label="Navigasi modul">
-        <a href="module_09_system_prompts.html">← Modul sebelumnya</a>
-        <a href="index.html">Semua modul</a>
-        <a href="module_11_what_is_chatgpt.html">Modul seterusnya →</a>
-      </nav>
-
-  </main>
-  <script src="../assets/language-switcher.js" data-locale="ms-MY"></script>
-  <script>
-      function checkQuiz() {
-        const items = document.querySelectorAll('.quiz-item');
-        let score = 0;
-        items.forEach(item => {
-          const checked = item.querySelector('input:checked');
-          if (checked && checked.value === item.dataset.answer) score += 1;
-        });
-        const result = document.getElementById('quiz-result');
-        result.textContent = 'Skor anda: ' + score + '/' + items.length + '. ' + (score === items.length ? 'Bagus, teruskan ke modul seterusnya.' : 'Semak semula nota di atas dan cuba lagi.');
-      }
-    </script>
+<div class="nav-bar">
+  <a href="index.html">← Kembali ke Laman Utama</a>
+  <div class="progress-dots"><div class="dot done"></div><div class="dot done"></div><div class="dot done"></div><div class="dot done"></div><div class="dot done"></div><div class="dot done"></div><div class="dot done"></div><div class="dot done"></div><div class="dot done"></div><div class="dot active"></div></div>
+  <span style="color:#a0aec0;font-size:0.85rem;">10 / 10</span>
+</div>
+<div class="hero">
+  <div class="badge">Modul 10 · Fasa 2</div>
+  <h1>Claude Code dan MCP</h1>
+  <p>Coding agent yang boleh membantu kerja repo apabila diberi alat dan izin sesuai.</p>
+</div>
+<div class="container">
+  <p class="section-title">Cerita</p>
+  <div class="comic-strip">
+    <div class="panel">
+  <div class="panel-header">Panel 1 — Coding Agent</div>
+  <div class="panel-body">
+    <div class="scene"><div class="char">💻</div><div class="char-label">Coding Agent</div></div>
+    <div class="speech-area">
+      <div class="bubble narrator">Coding agent boleh membaca fail, mencadangkan perubahan, menjalankan arahan, dan memeriksa hasil dalam persekitaran yang dibenarkan.</div>
+      <span class="tag ">Konsep</span>
+    </div>
+  </div>
+</div>
+<div class="panel">
+  <div class="panel-header">Panel 2 — Claude Code</div>
+  <div class="panel-body">
+    <div class="scene"><div class="char">💻</div><div class="char-label">Claude Code</div></div>
+    <div class="speech-area">
+      <div class="bubble narrator">Claude Code ialah pengalaman pembantu coding. Keupayaan sebenar bergantung pada alat, sandbox, polisi, dan izin yang diberi.</div>
+      <span class="tag green">Cara fikir</span>
+    </div>
+  </div>
+</div>
+<div class="panel">
+  <div class="panel-header">Panel 3 — MCP dan Skills</div>
+  <div class="panel-body">
+    <div class="scene"><div class="char">💻</div><div class="char-label">MCP dan Skills</div></div>
+    <div class="speech-area">
+      <div class="bubble narrator">Model Context Protocol (MCP) menghubungkan AI kepada alat atau sumber data. Skills pula boleh menyimpan arahan, sumber, atau skrip boleh guna semula.</div>
+      <span class="tag blue">Amalan</span>
+    </div>
+  </div>
+</div>
+  </div>
+  <p class="section-title">Ringkasan</p>
+  <div class="key-facts">
+  <h3>Perkara penting</h3>
+  <ul class="fact-list">
+    <li>Semak diff sebelum terima perubahan.</li>
+    <li>Jalankan ujian yang relevan.</li>
+    <li>Jangan dedahkan rahsia atau API key.</li>
+  </ul>
+</div>
+  <p class="section-title">Kuiz</p>
+  <div class="quiz-box">
+  <h3>Semakan Pantas</h3>
+  <div class="quiz-options">
+    <button class="quiz-btn" onclick="answerMs(this, true)">A) Semak diff dan ujian</button>
+    <button class="quiz-btn" onclick="answerMs(this, false)">B) Terus push ke production</button>
+    <button class="quiz-btn" onclick="answerMs(this, false)">C) Padam repo</button>
+  </div>
+  <div class="quiz-feedback" id="quiz-feedback"></div>
+</div>
+  <div class="next-bar">
+  <a href="module_09_system_prompts.html" class="btn secondary">← Modul Sebelumnya</a>
+  <a href="module_11_what_is_chatgpt.html" class="btn">Modul Seterusnya →</a>
+</div>
+</div>
+<script>
+function answerMs(btn, isCorrect) {
+  const box = btn.closest('.quiz-box, .quiz-section');
+  const buttons = box.querySelectorAll('.quiz-btn, .quiz-opt');
+  const feedback = box.querySelector('.quiz-feedback');
+  buttons.forEach(b => { b.disabled = true; });
+  btn.classList.add(isCorrect ? 'correct' : 'wrong');
+  feedback.className = 'quiz-feedback show ' + (isCorrect ? 'correct good' : 'wrong bad');
+  feedback.textContent = isCorrect
+    ? 'Betul. Teruskan ke modul seterusnya.'
+    : 'Hampir. Semak semula konsep utama di atas.';
+}
+</script>
+<script src="../assets/language-switcher.js" data-locale="ms-MY"></script>
 </body>
 </html>

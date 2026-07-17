@@ -246,7 +246,7 @@
   if (locale === 'ms-MY') {
     const reviewBanner = document.createElement('div');
     reviewBanner.className = 'translation-review-banner';
-    reviewBanner.textContent = 'Nota: Versi Bahasa Melayu ini ialah draf bantuan AI dan sedang menunggu semakan Bahasa Melayu Malaysia / DBP-style terminology review.';
+    reviewBanner.textContent = 'Nota: Versi Bahasa Melayu ini ialah draf bantuan AI berpandukan glosari DBP/PRPM dan masih menunggu semakan penutur/penterjemah Bahasa Melayu Malaysia.';
     document.body.appendChild(reviewBanner);
   }
 })();

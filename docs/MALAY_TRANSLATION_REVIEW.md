@@ -18,6 +18,7 @@ Useful references:
 - Kamus Dewan Perdana / Kamus DBP: https://kamus.dbp.gov.my/
 - PRPM DBP search: https://prpm.dbp.gov.my/
 - DBP Sistem Bahasa Melayu Bersepadu: https://sbmb.dbp.gov.my/
+- Project glossary: `docs/MALAY_AI_GLOSSARY.md`
 
 ## Glossary policy
 
@@ -28,11 +29,11 @@ Use Malay plus the English term on first mention:
 | English | Draft Malay | Review note |
 | --- | --- | --- |
 | artificial intelligence | kecerdasan buatan | DBP-recognised term. |
-| Large Language Model (LLM) | model bahasa besar（Large Language Model，LLM） | Needs reviewer confirmation for beginner material. |
+| Large Language Model (LLM) | model bahasa besar (large language model, LLM) | Needs reviewer confirmation for beginner material. |
 | token | token / cebisan teks | Keep `token`; explain as text chunk. |
-| context window | tetingkap konteks（context window） | Needs consistency check. |
-| prompt | gesaan（prompt） | Confirm whether `prompt` should remain primary for learners. |
-| hallucination | halusinasi（hallucination） | Explain as unsupported but plausible AI output. |
+| context window | tetingkap konteks (context window) | Needs consistency check. |
+| prompt | gesaan (prompt) | Confirm whether `prompt` should remain primary for learners. |
+| hallucination | halusinasi (hallucination) | Explain as unsupported but plausible AI output. |
 | reasoning | penaakulan / analisis berstruktur | Prefer the phrase that sounds natural in context. |
 | agent | ejen AI / agent | Use product-category wording carefully. |
 

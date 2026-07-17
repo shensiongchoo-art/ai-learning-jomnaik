@@ -1,191 +1,182 @@
 <!DOCTYPE html>
 <html lang="ms-MY">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Codex dan OpenAI API - AI Learning JomNaik</title>
-  <style>
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      min-height: 100vh;
-      background: linear-gradient(135deg, #111827 0%, #172554 48%, #312e81 100%);
-      color: #f8fafc;
-      font-family: "Segoe UI", Arial, sans-serif;
-      line-height: 1.6;
-    }
-    .container {
-      width: min(1120px, calc(100% - 32px));
-      margin: 0 auto;
-      padding: 76px 0 40px;
-    }
-    header {
-      margin-bottom: 28px;
-      padding: 28px;
-      border: 1px solid rgba(255,255,255,.18);
-      border-radius: 8px;
-      background: rgba(15,23,42,.74);
-      box-shadow: 0 12px 36px rgba(0,0,0,.2);
-    }
-    h1 {
-      margin: 0 0 10px;
-      font-size: clamp(2rem, 5vw, 4rem);
-      line-height: 1.05;
-      letter-spacing: 0;
-    }
-    h2, h3 { margin-top: 0; letter-spacing: 0; }
-    p { margin: 0 0 14px; }
-    a { color: #93c5fd; }
-    .subtitle { max-width: 760px; color: #dbeafe; font-size: 1.08rem; }
-    .eyebrow, .module-kicker, .module-number {
-      display: inline-block;
-      margin-bottom: 10px;
-      color: #bfdbfe;
-      font-size: .78rem;
-      font-weight: 800;
-      letter-spacing: .08em;
-      text-transform: uppercase;
-    }
-    .hero-panel, .note-box, .lesson-card, .quiz-box, .module-nav, .module-card {
-      border: 1px solid rgba(255,255,255,.16);
-      border-radius: 8px;
-      background: rgba(15,23,42,.72);
-      box-shadow: 0 10px 28px rgba(0,0,0,.18);
-    }
-    .hero-panel, .note-box, .quiz-box { padding: 24px; margin-bottom: 22px; }
-    .module-grid, .lesson-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 16px;
-      margin-bottom: 22px;
-    }
-    .module-card, .lesson-card {
-      display: block;
-      padding: 22px;
-      color: inherit;
-      text-decoration: none;
-    }
-    .module-card:hover, .module-card:focus-visible {
-      transform: translateY(-2px);
-      outline: 2px solid #93c5fd;
-      outline-offset: 2px;
-    }
-    .quiz-item {
-      margin: 0 0 16px;
-      padding: 16px;
-      border: 1px solid rgba(255,255,255,.14);
-      border-radius: 8px;
-    }
-    .quiz-item legend { padding: 0 8px; font-weight: 800; }
-    .quiz-item label { display: block; margin-top: 8px; cursor: pointer; }
-    .primary-button {
-      border: 0;
-      border-radius: 8px;
-      background: #2563eb;
-      color: #fff;
-      cursor: pointer;
-      font-weight: 800;
-      padding: 12px 16px;
-    }
-    .quiz-result { margin-top: 12px; font-weight: 800; }
-    .module-nav {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      justify-content: space-between;
-      padding: 18px;
-    }
-    .module-nav a {
-      color: #bfdbfe;
-      font-weight: 800;
-      text-decoration: none;
-    }
-    @media (max-width: 640px) {
-      .container { width: min(100% - 20px, 1120px); padding-top: 68px; }
-      header, .hero-panel, .note-box, .lesson-card, .quiz-box { padding: 18px; }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Codex dan OpenAI API - AI Learning JomNaik</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', sans-serif; background: #0d1117; color: #e2e8f0; min-height: 100vh; }
+
+  .hero {
+    background: linear-gradient(135deg, #1a1a2e 0%, #0f3460 60%, #533483 100%);
+    padding: 52px 24px 40px; text-align: center; position: relative; overflow: hidden;
+  }
+  .hero::before {
+    content: ''; position: absolute; top: -40%; left: -40%; width: 180%; height: 180%;
+    background: radial-gradient(ellipse, rgba(147,112,219,0.1) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .module-badge { display: inline-block; background: rgba(147,112,219,0.2); color: #b794f4; border: 1px solid rgba(147,112,219,0.4); padding: 5px 16px; border-radius: 20px; font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 18px; }
+  .hero h1 { font-size: 2.2rem; font-weight: 800; line-height: 1.2; margin-bottom: 10px; }
+  .hero h1 span { color: #b794f4; }
+  .hero-meta { font-size: 0.82rem; opacity: 0.6; margin-bottom: 16px; }
+  .hero p { font-size: 1rem; opacity: 0.8; max-width: 560px; margin: 0 auto; line-height: 1.6; }
+
+  .nav-breadcrumb { text-align: center; padding: 14px 20px; font-size: 0.78rem; color: #4a5568; border-bottom: 1px solid #1e2736; }
+  .nav-breadcrumb a { color: #63b3ed; text-decoration: none; }
+  .nav-breadcrumb a:hover { text-decoration: underline; }
+
+  .container { max-width: 800px; margin: 0 auto; padding: 40px 20px 80px; }
+  .section-label { font-size: 0.7rem; font-weight: 700; color: #b794f4; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 16px; margin-top: 36px; }
+
+  /* COMIC */
+  .comic-strip { display: flex; flex-direction: column; gap: 0; border-radius: 16px; overflow: hidden; border: 2px solid #2d3748; margin-bottom: 8px; }
+  .comic-panel { display: flex; min-height: 155px; border-bottom: 2px solid #2d3748; }
+  .comic-panel:last-child { border-bottom: none; }
+  .panel-scene { flex: 0 0 200px; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px 12px; font-size: 3.4rem; position: relative; }
+  .panel-dialogue { flex: 1; padding: 22px 26px; display: flex; flex-direction: column; justify-content: center; }
+  .panel-num { position: absolute; top: 9px; left: 11px; font-size: 0.62rem; font-weight: 700; color: rgba(255,255,255,0.28); letter-spacing: 1px; }
+  .speech-bubble { background: white; color: #1a1a2e; border-radius: 12px; padding: 10px 14px; font-size: 0.84rem; line-height: 1.5; margin-bottom: 10px; font-weight: 500; }
+  .speech-bubble.thought { background: #ede8ff; font-style: italic; }
+  .caption { font-size: 0.77rem; color: #a0aec0; line-height: 1.5; font-style: italic; }
+
+  /* ANALOGY */
+  .analogy-card { background: #161b27; border: 1px solid #2d3748; border-radius: 14px; padding: 26px; margin-bottom: 8px; border-left: 4px solid #b794f4; }
+  .analogy-card h3 { font-size: 0.95rem; color: #b794f4; margin-bottom: 14px; }
+  .analogy-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .analogy-item { background: rgba(255,255,255,0.04); border-radius: 10px; padding: 13px; }
+  .a-label { font-size: 0.68rem; font-weight: 700; color: #718096; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 5px; }
+  .a-real { font-size: 0.87rem; font-weight: 700; color: #d6bcfa; margin-bottom: 4px; }
+  .a-analogy { font-size: 0.79rem; color: #a0aec0; line-height: 1.4; }
+
+  /* CONCEPT MAP */
+  .concept-map { background: #161b27; border: 1px solid #2d3748; border-radius: 14px; padding: 26px; margin-bottom: 8px; }
+  .concept-map h3 { font-size: 0.95rem; margin-bottom: 18px; text-align: center; }
+  .map-center { text-align: center; margin-bottom: 18px; }
+  .map-node { display: inline-block; background: linear-gradient(135deg, #553c9a, #b794f4); color: white; padding: 13px 26px; border-radius: 30px; font-weight: 800; font-size: 1.05rem; box-shadow: 0 4px 20px rgba(183,148,244,0.35); }
+  .map-spokes { display: grid; grid-template-columns: 1fr 1fr; gap: 11px; }
+  .spoke { background: rgba(255,255,255,0.04); border: 1px solid #2d3748; border-radius: 10px; padding: 13px; }
+  .spoke-icon { font-size: 1.5rem; margin-bottom: 5px; }
+  .spoke-title { font-size: 0.83rem; font-weight: 700; margin-bottom: 4px; color: #d6bcfa; }
+  .spoke-desc { font-size: 0.77rem; color: #a0aec0; line-height: 1.4; }
+
+  /* FLOW */
+  .api-flow { background: #161b27; border: 1px solid #2d3748; border-radius: 14px; padding: 26px; margin-bottom: 8px; }
+  .api-flow h3 { font-size: 0.95rem; margin-bottom: 18px; }
+  .flow-steps { display: flex; align-items: stretch; gap: 5px; flex-wrap: nowrap; }
+  .flow-box { background: rgba(255,255,255,0.05); border: 1px solid #2d3748; border-radius: 9px; padding: 11px 10px; text-align: center; flex: 1; min-width: 0; }
+  .f-icon { font-size: 1.5rem; margin-bottom: 5px; }
+  .f-label { font-size: 0.68rem; font-weight: 700; color: #b794f4; margin-bottom: 2px; }
+  .f-desc { font-size: 0.65rem; color: #718096; line-height: 1.3; }
+  .flow-arrow { font-size: 1.2rem; color: #4a5568; flex-shrink: 0; display: flex; align-items: center; }
+
+  /* TABLE */
+  .compare-table { background: #161b27; border: 1px solid #2d3748; border-radius: 14px; overflow: hidden; margin-bottom: 8px; }
+  .compare-table table { width: 100%; border-collapse: collapse; }
+  .compare-table th { background: rgba(183,148,244,0.12); padding: 11px 14px; text-align: left; font-size: 0.76rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #b794f4; border-bottom: 1px solid #2d3748; }
+  .compare-table td { padding: 11px 14px; font-size: 0.82rem; border-bottom: 1px solid #1e2736; color: #a0aec0; vertical-align: top; line-height: 1.5; }
+  .compare-table tr:last-child td { border-bottom: none; }
+  .compare-table td:first-child { font-weight: 600; color: #e2e8f0; }
+
+  /* QUIZ */
+  .quiz-section { background: #161b27; border: 1px solid #2d3748; border-radius: 14px; padding: 26px; margin-bottom: 8px; }
+  .quiz-section h3 { font-size: 0.95rem; margin-bottom: 18px; }
+  .quiz-q { margin-bottom: 20px; }
+  .quiz-q p { font-size: 0.88rem; font-weight: 600; margin-bottom: 10px; line-height: 1.4; }
+  .quiz-opts { display: flex; flex-direction: column; gap: 7px; }
+  .quiz-opt { background: rgba(255,255,255,0.05); border: 1px solid #2d3748; border-radius: 8px; padding: 10px 14px; font-size: 0.82rem; cursor: pointer; transition: all 0.2s; text-align: left; color: #e2e8f0; }
+  .quiz-opt:hover:not(:disabled) { border-color: #b794f4; background: rgba(183,148,244,0.08); }
+  .quiz-opt.correct { background: rgba(72,187,120,0.15); border-color: #48bb78; color: #68d391; }
+  .quiz-opt.wrong   { background: rgba(252,129,129,0.1); border-color: #fc8181; color: #fc8181; }
+  .quiz-feedback { font-size: 0.77rem; margin-top: 8px; line-height: 1.4; padding: 8px 12px; border-radius: 6px; display: none; }
+  .quiz-feedback.show { display: block; }
+  .quiz-feedback.good { background: rgba(72,187,120,0.1); color: #68d391; }
+  .quiz-feedback.bad  { background: rgba(252,129,129,0.1); color: #fc8181; }
+
+  /* NAV */
+  .module-nav { display: flex; gap: 12px; margin-top: 40px; }
+  .nav-btn { flex: 1; padding: 13px 18px; border-radius: 10px; text-align: center; text-decoration: none; font-weight: 700; font-size: 0.87rem; transition: all 0.2s; }
+  .nav-prev { background: rgba(255,255,255,0.06); color: #a0aec0; border: 1px solid #2d3748; }
+  .nav-prev:hover { background: rgba(255,255,255,0.1); color: #e2e8f0; }
+  .nav-next { background: #b794f4; color: #1a1a2e; }
+  .nav-next:hover { background: #d6bcfa; transform: translateY(-1px); }
+
+  @media (max-width: 600px) {
+    .hero h1 { font-size: 1.7rem; }
+    .analogy-grid, .map-spokes { grid-template-columns: 1fr; }
+    .flow-steps { flex-direction: column; }
+    .flow-arrow { transform: rotate(90deg); align-self: center; }
+    .panel-scene { flex: 0 0 80px; font-size: 2.2rem; }
+  }
+</style>
 </head>
 <body>
-  <main class="container">
-    <header>
-      <h1>Codex dan OpenAI API</h1>
-      <p class="subtitle">Bezakan coding agent untuk repo dengan API untuk membina aplikasi sendiri.</p>
-    </header>
-
-      <p class="module-kicker">Modul 13</p>
-      <section class="lesson-grid">
-
-        <article class="lesson-card">
-          <h2>Codex</h2>
-          <p>Codex ialah pengalaman coding agent yang boleh membantu memahami repo, mencadang perubahan, menjalankan arahan, dan menyediakan patch bergantung pada izin serta persekitaran.</p>
-        </article>
-
-        <article class="lesson-card">
-          <h2>OpenAI API</h2>
-          <p>API ialah cara pembangun menghantar permintaan kepada model dari aplikasi sendiri. Aplikasi menghantar input, pilihan model, dan tools yang dibenarkan, kemudian menerima respons.</p>
-        </article>
-
-        <article class="lesson-card">
-          <h2>Keselamatan API key</h2>
-          <p>API key ialah rahsia. Simpan di server, environment variable, atau secret manager. Jangan letak dalam HTML awam, aplikasi frontend, atau GitHub repository.</p>
-        </article>
-
-        <article class="lesson-card">
-          <h2>Aliran kerja baik</h2>
-          <p>Untuk Codex, semak diff dan jalankan ujian. Untuk API, log ralat, kawal kos, hadkan akses, dan reka fallback. Kedua-duanya perlu pemantauan.</p>
-        </article>
-      </section>
-
-      <section class="quiz-box">
-        <h2>Kuiz ringkas</h2>
-
-        <fieldset class="quiz-item" data-answer="0">
-          <legend>API ialah...</legend>
-
-          <label><input type="radio" name="q0" value="0"> Antara muka untuk aplikasi memanggil model</label>
-          <label><input type="radio" name="q0" value="1"> Butang tema laman</label>
-          <label><input type="radio" name="q0" value="2"> Terjemahan automatik sahaja</label>
-        </fieldset>
-
-        <fieldset class="quiz-item" data-answer="0">
-          <legend>Codex paling sesuai untuk...</legend>
-
-          <label><input type="radio" name="q1" value="0"> Membantu kerja kod dalam repo</label>
-          <label><input type="radio" name="q1" value="1"> Menyimpan API key awam</label>
-          <label><input type="radio" name="q1" value="2"> Mengganti semua review</label>
-        </fieldset>
-
-        <fieldset class="quiz-item" data-answer="0">
-          <legend>API key patut...</legend>
-
-          <label><input type="radio" name="q2" value="0"> Disimpan sebagai rahsia</label>
-          <label><input type="radio" name="q2" value="1"> Diletak dalam HTML</label>
-          <label><input type="radio" name="q2" value="2"> Dikongsi dalam screenshot</label>
-        </fieldset>
-        <button class="primary-button" type="button" onclick="checkQuiz()">Semak jawapan</button>
-        <p id="quiz-result" class="quiz-result" aria-live="polite"></p>
-      </section>
-
-      <nav class="module-nav" aria-label="Navigasi modul">
-        <a href="module_12_chatgpt_features.html">← Modul sebelumnya</a>
-        <a href="index.html">Semua modul</a>
-        <a href="module_14_chatgpt_vs_claude.html">Modul seterusnya →</a>
-      </nav>
-
-  </main>
-  <script src="../assets/language-switcher.js" data-locale="ms-MY"></script>
-  <script>
-      function checkQuiz() {
-        const items = document.querySelectorAll('.quiz-item');
-        let score = 0;
-        items.forEach(item => {
-          const checked = item.querySelector('input:checked');
-          if (checked && checked.value === item.dataset.answer) score += 1;
-        });
-        const result = document.getElementById('quiz-result');
-        result.textContent = 'Skor anda: ' + score + '/' + items.length + '. ' + (score === items.length ? 'Bagus, teruskan ke modul seterusnya.' : 'Semak semula nota di atas dan cuba lagi.');
-      }
-    </script>
+<nav class="nav-breadcrumb">
+  <a href="index.html">← Hub</a> · Fasa 3 · <strong>Codex dan OpenAI API</strong>
+</nav>
+<div class="hero">
+  <div class="module-badge">Modul 13 · Fasa 3</div>
+  <h1><span>Codex</span> dan OpenAI API</h1>
+  <div class="hero-meta">🌐 5 min · Peta Konsep · Kuiz</div>
+  <p>Bezakan coding agent daripada API untuk membina aplikasi AI.</p>
+</div>
+<div class="container">
+  <p class="section-label">🎭 Cerita</p>
+  <div class="comic-strip">
+    <div class="comic-panel" style="background:#12182b;">
+      <div class="panel-scene" style="background:rgba(99,179,237,0.07);"><div class="panel-num">PANEL 1</div>🔌</div>
+      <div class="panel-dialogue"><div class="speech-bubble ">Codex ialah pembantu coding yang boleh memahami repo, mencadangkan perubahan, menjalankan arahan, dan membantu semakan kod.</div><div class="caption">Codex</div></div>
+    </div>
+<div class="comic-panel" style="background:#0f1520;">
+      <div class="panel-scene" style="background:rgba(99,179,237,0.07);"><div class="panel-num">PANEL 2</div>🔌</div>
+      <div class="panel-dialogue"><div class="speech-bubble ">Application Programming Interface (API) ialah cara aplikasi menghantar input kepada perkhidmatan AI dan menerima output berstruktur.</div><div class="caption">API</div></div>
+    </div>
+<div class="comic-panel" style="background:#12182b;">
+      <div class="panel-scene" style="background:rgba(99,179,237,0.07);"><div class="panel-num">PANEL 3</div>🔌</div>
+      <div class="panel-dialogue"><div class="speech-bubble ">API key ialah rahsia. Simpan di server, environment variable, atau secret manager — bukan dalam HTML awam atau repo terbuka.</div><div class="caption">API Key</div></div>
+    </div>
+  </div>
+  <p class="section-label">📊 Ringkasan</p>
+  <div class="compare-table">
+    <table>
+      <tr><th>Topik</th><th>Panduan</th></tr>
+      <tr><td>Perkara penting</td><td>Codex membantu kerja pembangunan kod.</td></tr>
+<tr><td>Perkara penting</td><td>API digunakan untuk membina aplikasi sendiri.</td></tr>
+<tr><td>Perkara penting</td><td>Kos, rate limit, dan model perlu disemak dalam dokumentasi semasa.</td></tr>
+    </table>
+  </div>
+  <p class="section-label">🧠 Kuiz</p>
+  <div class="quiz-section">
+    <h3>Semak kefahaman</h3>
+    <div class="quiz-q" id="q-ms">
+      <p>API ialah...</p>
+      <div class="quiz-opts">
+        <button class="quiz-opt" onclick="answerMs(this, true)">Antara muka aplikasi memanggil AI</button>
+<button class="quiz-opt" onclick="answerMs(this, false)">Nama lain untuk semua model</button>
+<button class="quiz-opt" onclick="answerMs(this, false)">Fail gambar</button>
+      </div>
+      <div class="quiz-feedback"></div>
+    </div>
+  </div>
+  <div class="module-nav">
+    <a href="module_12_chatgpt_features.html" class="nav-btn nav-prev">← Modul Sebelumnya</a>
+    <a href="module_14_chatgpt_vs_claude.html" class="nav-btn nav-next">Modul Seterusnya →</a>
+  </div>
+</div>
+<script>
+function answerMs(btn, isCorrect) {
+  const box = btn.closest('.quiz-box, .quiz-section');
+  const buttons = box.querySelectorAll('.quiz-btn, .quiz-opt');
+  const feedback = box.querySelector('.quiz-feedback');
+  buttons.forEach(b => { b.disabled = true; });
+  btn.classList.add(isCorrect ? 'correct' : 'wrong');
+  feedback.className = 'quiz-feedback show ' + (isCorrect ? 'correct good' : 'wrong bad');
+  feedback.textContent = isCorrect
+    ? 'Betul. Teruskan ke modul seterusnya.'
+    : 'Hampir. Semak semula konsep utama di atas.';
+}
+</script>
+<script src="../assets/language-switcher.js" data-locale="ms-MY"></script>
 </body>
 </html>

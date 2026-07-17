@@ -1,191 +1,179 @@
 <!DOCTYPE html>
 <html lang="ms-MY">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Siapa Claude? - AI Learning JomNaik</title>
-  <style>
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      min-height: 100vh;
-      background: linear-gradient(135deg, #111827 0%, #172554 48%, #312e81 100%);
-      color: #f8fafc;
-      font-family: "Segoe UI", Arial, sans-serif;
-      line-height: 1.6;
-    }
-    .container {
-      width: min(1120px, calc(100% - 32px));
-      margin: 0 auto;
-      padding: 76px 0 40px;
-    }
-    header {
-      margin-bottom: 28px;
-      padding: 28px;
-      border: 1px solid rgba(255,255,255,.18);
-      border-radius: 8px;
-      background: rgba(15,23,42,.74);
-      box-shadow: 0 12px 36px rgba(0,0,0,.2);
-    }
-    h1 {
-      margin: 0 0 10px;
-      font-size: clamp(2rem, 5vw, 4rem);
-      line-height: 1.05;
-      letter-spacing: 0;
-    }
-    h2, h3 { margin-top: 0; letter-spacing: 0; }
-    p { margin: 0 0 14px; }
-    a { color: #93c5fd; }
-    .subtitle { max-width: 760px; color: #dbeafe; font-size: 1.08rem; }
-    .eyebrow, .module-kicker, .module-number {
-      display: inline-block;
-      margin-bottom: 10px;
-      color: #bfdbfe;
-      font-size: .78rem;
-      font-weight: 800;
-      letter-spacing: .08em;
-      text-transform: uppercase;
-    }
-    .hero-panel, .note-box, .lesson-card, .quiz-box, .module-nav, .module-card {
-      border: 1px solid rgba(255,255,255,.16);
-      border-radius: 8px;
-      background: rgba(15,23,42,.72);
-      box-shadow: 0 10px 28px rgba(0,0,0,.18);
-    }
-    .hero-panel, .note-box, .quiz-box { padding: 24px; margin-bottom: 22px; }
-    .module-grid, .lesson-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 16px;
-      margin-bottom: 22px;
-    }
-    .module-card, .lesson-card {
-      display: block;
-      padding: 22px;
-      color: inherit;
-      text-decoration: none;
-    }
-    .module-card:hover, .module-card:focus-visible {
-      transform: translateY(-2px);
-      outline: 2px solid #93c5fd;
-      outline-offset: 2px;
-    }
-    .quiz-item {
-      margin: 0 0 16px;
-      padding: 16px;
-      border: 1px solid rgba(255,255,255,.14);
-      border-radius: 8px;
-    }
-    .quiz-item legend { padding: 0 8px; font-weight: 800; }
-    .quiz-item label { display: block; margin-top: 8px; cursor: pointer; }
-    .primary-button {
-      border: 0;
-      border-radius: 8px;
-      background: #2563eb;
-      color: #fff;
-      cursor: pointer;
-      font-weight: 800;
-      padding: 12px 16px;
-    }
-    .quiz-result { margin-top: 12px; font-weight: 800; }
-    .module-nav {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      justify-content: space-between;
-      padding: 18px;
-    }
-    .module-nav a {
-      color: #bfdbfe;
-      font-weight: 800;
-      text-decoration: none;
-    }
-    @media (max-width: 640px) {
-      .container { width: min(100% - 20px, 1120px); padding-top: 68px; }
-      header, .hero-panel, .note-box, .lesson-card, .quiz-box { padding: 18px; }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Siapa Claude? - AI Learning JomNaik</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', sans-serif; background: #f0f4ff; color: #1a1a2e; }
+
+  .nav-bar { background: #16213e; padding: 10px 24px; display: flex; justify-content: space-between; align-items: center; }
+  .nav-bar a { color: #a0aec0; text-decoration: none; font-size: 0.9rem; }
+  .nav-bar a:hover { color: white; }
+  .progress-dots { display: flex; gap: 6px; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; background: #2d3a5e; }
+  .dot.done   { background: #48bb78; }
+  .dot.active { background: #e94560; }
+
+  .hero {
+    background: linear-gradient(135deg, #1a1a2e 0%, #2d3748 100%);
+    color: white; text-align: center; padding: 48px 24px 32px;
+  }
+  .badge { display: inline-block; background: #9f7aea; color: white; font-size: 12px; font-weight: 700; padding: 4px 12px; border-radius: 20px; letter-spacing: 1px; margin-bottom: 16px; text-transform: uppercase; }
+  .hero h1 { font-size: 2rem; margin-bottom: 10px; }
+  .hero p { font-size: 1.05rem; opacity: 0.8; max-width: 520px; margin: 0 auto; }
+
+  .container { max-width: 760px; margin: 0 auto; padding: 32px 20px 60px; }
+  .section-title { font-size: 0.75rem; font-weight: 700; color: #e94560; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 12px; margin-top: 36px; }
+
+  /* PANELS */
+  .panel { background: white; border: 3px solid #1a1a2e; border-radius: 12px; overflow: hidden; box-shadow: 6px 6px 0 #1a1a2e; margin-bottom: 24px; }
+  .panel-header { background: #1a1a2e; color: white; font-size: 11px; font-weight: 700; padding: 5px 12px; text-transform: uppercase; letter-spacing: 1px; }
+  .panel-body { display: flex; min-height: 150px; }
+  .scene { width: 170px; min-width: 170px; background: #f5f0ff; border-right: 3px solid #1a1a2e; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 16px 12px; gap: 8px; }
+  .char { font-size: 3rem; line-height: 1; }
+  .char-label { font-size: 11px; font-weight: 700; color: #666; text-transform: uppercase; text-align: center; }
+  .speech-area { flex: 1; padding: 20px; display: flex; flex-direction: column; gap: 10px; }
+  .bubble { border-radius: 12px; padding: 12px 16px; font-size: 0.9rem; line-height: 1.6; border: 2px solid; }
+  .narrator  { background: #fff8e1; border-color: #ffe082; font-style: italic; font-size: 0.86rem; color: #555; }
+  .claude-b  { background: #f5f0ff; border-color: #c4b5fd; }
+  .human-b   { background: #e8f5e9; border-color: #a5d6a7; }
+  .speaker   { font-size: 10px; font-weight: 700; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+  .tag { display: inline-block; color: white; font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 4px; margin-top: 6px; background: #9f7aea; }
+  .tag.green { background: #38a169; }
+  .tag.red   { background: #e53e3e; }
+  .tag.blue  { background: #3182ce; }
+
+  /* VALUES GRID */
+  .values-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  @media (max-width: 500px) { .values-grid { grid-template-columns: 1fr 1fr; } }
+  .value-card { background: white; border: 2px solid #e2e8f0; border-radius: 10px; padding: 16px 12px; text-align: center; transition: border-color 0.2s, transform 0.15s; cursor: pointer; }
+  .value-card:hover { border-color: #9f7aea; transform: translateY(-2px); }
+  .value-card .v-icon { font-size: 2rem; margin-bottom: 8px; }
+  .value-card .v-title { font-size: 0.85rem; font-weight: 700; margin-bottom: 6px; color: #1a1a2e; }
+  .value-card .v-desc  { font-size: 0.78rem; color: #666; line-height: 1.4; }
+  .value-detail { background: #f5f0ff; border: 2px solid #c4b5fd; border-radius: 10px; padding: 14px 16px; font-size: 0.87rem; line-height: 1.5; margin-top: 12px; display: none; }
+  .value-detail.show { display: block; }
+
+  /* COMPARE TABLE */
+  .compare-box { background: white; border: 3px solid #1a1a2e; border-radius: 12px; padding: 24px; box-shadow: 6px 6px 0 #1a1a2e; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin-top: 12px; }
+  th { background: #1a1a2e; color: white; padding: 10px 14px; text-align: left; }
+  td { padding: 10px 14px; border-bottom: 1px solid #e2e8f0; vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f7f9ff; }
+  .check { color: #38a169; font-weight: 700; }
+  .cross { color: #e53e3e; font-weight: 700; }
+
+  /* KEY FACTS */
+  .key-facts { background: #1a1a2e; color: white; border-radius: 12px; padding: 24px; }
+  .key-facts h3 { color: #c4b5fd; margin-bottom: 16px; font-size: 1rem; }
+  .fact-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  .fact-list li { display: flex; align-items: flex-start; gap: 10px; font-size: 0.9rem; line-height: 1.5; }
+  .fact-list li::before { content: "🤖"; flex-shrink: 0; }
+
+  /* QUIZ */
+  .quiz-box { background: white; border: 3px solid #1a1a2e; border-radius: 12px; padding: 24px; box-shadow: 6px 6px 0 #1a1a2e; }
+  .quiz-options { display: flex; flex-direction: column; gap: 10px; margin-top: 14px; }
+  .quiz-btn { background: #f0f4ff; border: 2px solid #c3cef6; border-radius: 8px; padding: 12px 16px; text-align: left; font-size: 0.9rem; cursor: pointer; transition: all 0.2s; font-family: inherit; }
+  .quiz-btn:hover { background: #e3f2fd; border-color: #90caf9; }
+  .quiz-btn.correct { background: #e8f5e9; border-color: #48bb78; color: #2d6a4f; }
+  .quiz-btn.wrong   { background: #ffebee; border-color: #ef9a9a; color: #b71c1c; }
+  .quiz-feedback { margin-top: 14px; padding: 12px; border-radius: 8px; font-size: 0.88rem; display: none; }
+  .quiz-feedback.show { display: block; }
+  .quiz-feedback.correct { background: #e8f5e9; color: #2d6a4f; border: 1px solid #a5d6a7; }
+  .quiz-feedback.wrong   { background: #fff8e1; color: #7b5e00; border: 1px solid #ffe082; }
+
+  .next-bar { display: flex; justify-content: space-between; align-items: center; margin-top: 36px; padding-top: 24px; border-top: 2px solid #e2e8f0; }
+  .btn { background: #e94560; color: white; border: none; border-radius: 8px; padding: 12px 24px; font-size: 0.95rem; font-weight: 700; cursor: pointer; text-decoration: none; display: inline-block; }
+  .btn:hover { background: #c73652; }
+  .btn.secondary { background: white; color: #1a1a2e; border: 2px solid #1a1a2e; }
+  .btn.secondary:hover { background: #f0f4ff; }
+</style>
 </head>
 <body>
-  <main class="container">
-    <header>
-      <h1>Siapa Claude?</h1>
-      <p class="subtitle">Claude ialah pembantu AI daripada Anthropic, dengan fokus pada kerja bahasa, analisis, dan bantuan produktiviti.</p>
-    </header>
-
-      <p class="module-kicker">Modul 06</p>
-      <section class="lesson-grid">
-
-        <article class="lesson-card">
-          <h2>Claude sebagai produk</h2>
-          <p>Claude ialah aplikasi dan keluarga model AI daripada Anthropic. Ia digunakan untuk menulis, merumus, membaca dokumen, menganalisis, dan membantu aliran kerja kreatif atau teknikal.</p>
-        </article>
-
-        <article class="lesson-card">
-          <h2>Pendekatan keselamatan</h2>
-          <p>Anthropic terkenal dengan pendekatan Constitutional AI, iaitu latihan yang menggunakan prinsip bertulis untuk membantu model memilih jawapan yang lebih membantu dan kurang berbahaya. Ini bukan jaminan sempurna.</p>
-        </article>
-
-        <article class="lesson-card">
-          <h2>Kekuatan praktikal</h2>
-          <p>Claude sering digunakan untuk kerja dokumen panjang, penulisan yang bernada semula jadi, perancangan, analisis, dan bantuan kod bergantung pada model serta alat yang tersedia.</p>
-        </article>
-
-        <article class="lesson-card">
-          <h2>Cara menilai</h2>
-          <p>Jangan pilih alat berdasarkan reputasi sahaja. Uji dengan tugasan sebenar, data sebenar yang selamat digunakan, kriteria kualiti, kos, polisi privasi, dan integrasi kerja anda.</p>
-        </article>
-      </section>
-
-      <section class="quiz-box">
-        <h2>Kuiz ringkas</h2>
-
-        <fieldset class="quiz-item" data-answer="0">
-          <legend>Claude dibuat oleh...</legend>
-
-          <label><input type="radio" name="q0" value="0"> Anthropic</label>
-          <label><input type="radio" name="q0" value="1"> OpenAI</label>
-          <label><input type="radio" name="q0" value="2"> Meta sahaja</label>
-        </fieldset>
-
-        <fieldset class="quiz-item" data-answer="0">
-          <legend>Constitutional AI bermaksud...</legend>
-
-          <label><input type="radio" name="q1" value="0"> Latihan berpandukan prinsip bertulis</label>
-          <label><input type="radio" name="q1" value="1"> Undang-undang kerajaan sahaja</label>
-          <label><input type="radio" name="q1" value="2"> Satu jenis komputer</label>
-        </fieldset>
-
-        <fieldset class="quiz-item" data-answer="0">
-          <legend>Cara memilih alat AI yang baik ialah...</legend>
-
-          <label><input type="radio" name="q2" value="0"> Uji pada tugasan sebenar</label>
-          <label><input type="radio" name="q2" value="1"> Ikut logo paling menarik</label>
-          <label><input type="radio" name="q2" value="2"> Pilih yang paling panjang jawapannya</label>
-        </fieldset>
-        <button class="primary-button" type="button" onclick="checkQuiz()">Semak jawapan</button>
-        <p id="quiz-result" class="quiz-result" aria-live="polite"></p>
-      </section>
-
-      <nav class="module-nav" aria-label="Navigasi modul">
-        <a href="module_05_hallucination.html">← Modul sebelumnya</a>
-        <a href="index.html">Semua modul</a>
-        <a href="module_07_prompting_claude.html">Modul seterusnya →</a>
-      </nav>
-
-  </main>
-  <script src="../assets/language-switcher.js" data-locale="ms-MY"></script>
-  <script>
-      function checkQuiz() {
-        const items = document.querySelectorAll('.quiz-item');
-        let score = 0;
-        items.forEach(item => {
-          const checked = item.querySelector('input:checked');
-          if (checked && checked.value === item.dataset.answer) score += 1;
-        });
-        const result = document.getElementById('quiz-result');
-        result.textContent = 'Skor anda: ' + score + '/' + items.length + '. ' + (score === items.length ? 'Bagus, teruskan ke modul seterusnya.' : 'Semak semula nota di atas dan cuba lagi.');
-      }
-    </script>
+<div class="nav-bar">
+  <a href="index.html">← Kembali ke Laman Utama</a>
+  <div class="progress-dots"><div class="dot done"></div><div class="dot done"></div><div class="dot done"></div><div class="dot done"></div><div class="dot done"></div><div class="dot active"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+  <span style="color:#a0aec0;font-size:0.85rem;">6 / 10</span>
+</div>
+<div class="hero">
+  <div class="badge">Modul 6 · Fasa 2</div>
+  <h1>Siapa Claude?</h1>
+  <p>Claude ialah pembantu AI daripada Anthropic dengan fokus pada bantuan bahasa, dokumen, analisis, dan kod.</p>
+</div>
+<div class="container">
+  <p class="section-title">Cerita</p>
+  <div class="comic-strip">
+    <div class="panel">
+  <div class="panel-header">Panel 1 — Produk Anthropic</div>
+  <div class="panel-body">
+    <div class="scene"><div class="char">🤖</div><div class="char-label">Produk Anthropic</div></div>
+    <div class="speech-area">
+      <div class="bubble narrator">Claude ialah pembantu AI daripada Anthropic. Ia digunakan untuk menulis, menganalisis dokumen, menjelaskan idea, dan membantu kerja teknikal.</div>
+      <span class="tag ">Konsep</span>
+    </div>
+  </div>
+</div>
+<div class="panel">
+  <div class="panel-header">Panel 2 — Constitutional AI</div>
+  <div class="panel-body">
+    <div class="scene"><div class="char">🤖</div><div class="char-label">Constitutional AI</div></div>
+    <div class="speech-area">
+      <div class="bubble narrator">Anthropic menerangkan Constitutional AI sebagai pendekatan melatih AI menggunakan satu set prinsip, supaya respons lebih membantu dan kurang berbahaya.</div>
+      <span class="tag green">Cara fikir</span>
+    </div>
+  </div>
+</div>
+<div class="panel">
+  <div class="panel-header">Panel 3 — Tetap Perlu Semak</div>
+  <div class="panel-body">
+    <div class="scene"><div class="char">🤖</div><div class="char-label">Tetap Perlu Semak</div></div>
+    <div class="speech-area">
+      <div class="bubble narrator">Walaupun Claude direka dengan nilai keselamatan, ia masih boleh silap. Ciri produk dan had model juga berubah dari masa ke masa.</div>
+      <span class="tag blue">Amalan</span>
+    </div>
+  </div>
+</div>
+  </div>
+  <p class="section-title">Ringkasan</p>
+  <div class="key-facts">
+  <h3>Perkara penting</h3>
+  <ul class="fact-list">
+    <li>Claude bukan sekadar konsep umum; ia produk Anthropic.</li>
+    <li>Constitutional AI ialah pendekatan latihan, bukan jaminan sempurna.</li>
+    <li>Semak dokumentasi rasmi untuk ciri semasa.</li>
+  </ul>
+</div>
+  <p class="section-title">Kuiz</p>
+  <div class="quiz-box">
+  <h3>Semakan Pantas</h3>
+  <div class="quiz-options">
+    <button class="quiz-btn" onclick="answerMs(this, true)">A) Anthropic</button>
+    <button class="quiz-btn" onclick="answerMs(this, false)">B) OpenAI</button>
+    <button class="quiz-btn" onclick="answerMs(this, false)">C) NVIDIA</button>
+  </div>
+  <div class="quiz-feedback" id="quiz-feedback"></div>
+</div>
+  <div class="next-bar">
+  <a href="module_05_hallucination.html" class="btn secondary">← Modul Sebelumnya</a>
+  <a href="module_07_prompting_claude.html" class="btn">Modul Seterusnya →</a>
+</div>
+</div>
+<script>
+function answerMs(btn, isCorrect) {
+  const box = btn.closest('.quiz-box, .quiz-section');
+  const buttons = box.querySelectorAll('.quiz-btn, .quiz-opt');
+  const feedback = box.querySelector('.quiz-feedback');
+  buttons.forEach(b => { b.disabled = true; });
+  btn.classList.add(isCorrect ? 'correct' : 'wrong');
+  feedback.className = 'quiz-feedback show ' + (isCorrect ? 'correct good' : 'wrong bad');
+  feedback.textContent = isCorrect
+    ? 'Betul. Teruskan ke modul seterusnya.'
+    : 'Hampir. Semak semula konsep utama di atas.';
+}
+</script>
+<script src="../assets/language-switcher.js" data-locale="ms-MY"></script>
 </body>
 </html>
