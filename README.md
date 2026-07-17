@@ -13,6 +13,8 @@ The English lessons remain the source pages at the repository root. Translated v
 
 Each lesson loads `assets/language-switcher.js`, which adds an English / 简体中文 / Bahasa Melayu selector pointing to the matching page. Translation style guidance lives in `docs/TRANSLATION_GUIDE.md`.
 
+The Simplified Chinese pages follow a China/Simplified Chinese terminology policy documented in `docs/CHINESE_AI_GLOSSARY.md` and `docs/CHINESE_TRANSLATION_REVIEW.md`. Core terms have been cross-checked against China national AI terminology references where available, plus official Simplified Chinese vendor documentation for fast-moving GenAI/product terms.
+
 The shared switcher also includes a light color mode toggle while preserving the original page styling as the default.
 
 The Malaysian Malay pages are currently marked as DBP-referenced AI-assisted draft translations pending local language review. The review workflow is documented in `docs/MALAY_TRANSLATION_REVIEW.md`; the working glossary is in `docs/MALAY_AI_GLOSSARY.md`.

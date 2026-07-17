@@ -82,6 +82,34 @@ For OpenAI, Anthropic, Google, Meta, Microsoft, and similar product claims, use 
 
 The feed should help decide what to review. It should not automatically rewrite the curriculum.
 
+## Cross-check and update workflow
+
+Use this workflow whenever a new AI topic might be added to the learning material:
+
+1. Classify the topic:
+   - `fundamental`: belongs in core lessons even if no longer in the news.
+   - `product-specific`: belongs only if a major tool’s current capability changes learner guidance.
+   - `news/example`: useful as a current example, but not required curriculum.
+2. Check sources in order:
+   - Official product docs for product features, pricing-sensitive claims, APIs, model availability, and safety controls.
+   - Primary standards, research papers, or official terminology bodies for technical concepts.
+   - Reputable educational explainers for beginner-friendly wording.
+   - News only for trend detection, examples, or launch awareness.
+3. Decide the update type:
+   - `no-change`: keep watching.
+   - `example-refresh`: replace or add an example without changing the lesson objective.
+   - `module-review`: revise a section because beginner guidance may be stale.
+   - `new-topic`: add a new section/module only if the concept is durable enough for fundamentals.
+4. Update all affected locales:
+   - English source page first.
+   - Simplified Chinese using `docs/CHINESE_AI_GLOSSARY.md`.
+   - Malaysian Malay using `docs/MALAY_AI_GLOSSARY.md`.
+5. Validate before publishing:
+   - Run `node scripts/validate-locales.mjs`.
+   - Run `node --check assets/language-switcher.js` if the switcher changed.
+   - Run `git diff --check`.
+   - Manually spot-check the affected pages in desktop and mobile widths.
+
 ## Future automation
 
 Useful future additions:

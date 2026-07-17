@@ -12,14 +12,22 @@
 
 Keep product names and widely recognised abbreviations in English. On first mention, introduce the Chinese term together with its English term or abbreviation. Use the shorter Chinese term or abbreviation afterwards.
 
+For Simplified Chinese terminology, use this authority order:
+
+1. China national standards and official terminology bodies, including GB/T 41867-2022 and 全国科学技术名词审定委员会 / 术语在线.
+2. Official Simplified Chinese product documentation for current vendor-specific terms.
+3. Reputable technical glossaries for fast-moving GenAI terms that are not yet settled in official terminology.
+
+The detailed Chinese glossary is maintained in `docs/CHINESE_AI_GLOSSARY.md`.
+
 | English source | Preferred Simplified Chinese | Usage note |
 | --- | --- | --- |
 | Large Language Model (LLM) | 大语言模型（Large Language Model，LLM） | Use `LLM` after the first mention. |
-| token (language unit) | 词元（token） | Do not use `令牌`, which is reserved for authentication tokens. |
+| token (language unit) | 词元（token） | Use `词元` for model units; keep `token` on first mention because product/API docs still use it. Do not use `令牌` except for security credentials. |
 | access token | 访问令牌（access token） | Security credential, distinct from a language-model token. |
 | context | 上下文 | Use consistently for model input and conversation context. |
 | context window | 上下文窗口（context window） | Keep the English term on first mention. |
-| prompt | 提示词（prompt） | Use `提示词` afterwards. |
+| prompt | 提示词（prompt） / 提示 | Use `提示词` for beginner lessons; use `提示` when referring to a formal docs/API object. |
 | system prompt | 系统提示词（system prompt） | Do not translate as a generic system notice. |
 | temperature | 温度（temperature） | Explain that this is a model setting, not physical heat. |
 | hallucination | 幻觉（hallucination） | Explain as plausible but unsupported output. |
@@ -39,27 +47,29 @@ Keep product names and widely recognised abbreviations in English. On first ment
 
 Product and company names stay unchanged: ChatGPT, Claude, Claude Code, Codex, OpenAI, Anthropic, GitHub Copilot, Cursor, DALL·E, and MorphMind.
 
+Chinese translation review workflow lives in `docs/CHINESE_TRANSLATION_REVIEW.md`.
+
 ## Malaysian Malay terminology
 
 Keep product names and common abbreviations in English. On first mention, introduce Malay wording together with the English term. After that, use the Malay term or the abbreviation naturally.
 
 | English source | Preferred Malaysian Malay | Usage note |
 | --- | --- | --- |
-| Large Language Model (LLM) | model bahasa besar（Large Language Model，LLM） | Use `LLM` after first mention. |
+| Large Language Model (LLM) | model bahasa besar (large language model, LLM) | Use `LLM` after first mention. |
 | token (language unit) | token | Keep `token`; explain as `cebisan teks` for beginners. |
 | context | konteks | Use consistently for model input and conversation state. |
-| context window | tetingkap konteks（context window） | Avoid exact size claims unless reviewed. |
-| prompt | gesaan（prompt） | `Prompt` is acceptable in UI examples. |
-| system prompt | gesaan sistem（system prompt） | Explain as high-priority instruction. |
+| context window | tetingkap konteks (context window) | Avoid exact size claims unless reviewed. |
+| prompt | gesaan (prompt) | `Prompt` is acceptable in UI examples. |
+| system prompt | gesaan sistem (system prompt) | Explain as high-priority instruction. |
 | temperature | temperature | Explain as model setting, not physical heat. |
-| hallucination | halusinasi（hallucination） | Explain as unsupported but plausible output. |
-| reasoning | penaakulan（reasoning） | Use `analisis berstruktur` where simpler. |
-| alignment | penjajaran（alignment） | AI-safety context. |
-| agent | ejen AI（agent） | Use `coding agent` unchanged when referring to product category. |
-| tool calling | panggilan alat（tool calling） | Keep exact API labels unchanged. |
-| Model Context Protocol (MCP) | Model Context Protocol（MCP） | Keep English name; explain as standard connector protocol. |
-| Application Programming Interface (API) | Application Programming Interface（API） | Use `API` afterwards. |
-| retrieval-augmented generation (RAG) | retrieval-augmented generation（RAG） | Explain as retrieving relevant sources while answering. |
+| hallucination | halusinasi (hallucination) | Explain as unsupported but plausible output. |
+| reasoning | penaakulan (reasoning) | Use `analisis berstruktur` where simpler. |
+| alignment | penjajaran (alignment) | AI-safety context. |
+| agent | ejen AI (agent) | Use `coding agent` unchanged when referring to product category. |
+| tool calling | panggilan alat (tool calling) | Keep exact API labels unchanged. |
+| Model Context Protocol (MCP) | Model Context Protocol (MCP) | Keep English name; explain as standard connector protocol. |
+| Application Programming Interface (API) | Application Programming Interface (API) | Use `API` afterwards. |
+| retrieval-augmented generation (RAG) | retrieval-augmented generation (RAG) | Explain as retrieving relevant sources while answering. |
 
 ## Translation rules
 
