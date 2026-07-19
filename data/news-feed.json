@@ -1,5 +1,113 @@
 [
   {
+    "id": "b5036447f906cfdc",
+    "title": "Kyiv pounded in Russian missile barrage as air defences run low",
+    "link": "https://www.scmp.com/news/world/europe/article/3361115/kyiv-pounded-russian-missile-barrage-air-defences-run-low?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-07-19T12:49:36.000Z",
+    "fetchedAt": "2026-07-19T13:22:25.258Z",
+    "snippet": "Russia battered Ukraine’s capital Kyiv overnight with one of its biggest ballistic missile barrages of the war, killing at least one person and wounding 16 others, President Volodymyr Zelensky said on Sunday. A series ‌of powerful explosions thundered across t",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/19/8d2199ca-6cdd-40da-ae5a-3cbbc5c9d2c3_770d643c.jpg?itok=XvA444Yg&v=1784465368"
+    ]
+  },
+  {
+    "id": "b3a5d3e14a2b985f",
+    "title": "Samsung cuts hundreds of US consumer electronics jobs ahead of Texas HQ move — 739 roles affected in New Jersey as chip division posts record profit",
+    "link": "https://www.tomshardware.com/tech-industry/samsung-cuts-hundreds-of-us-consumer-electronics-jobs-ahead-of-texas-hq-move",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-07-19T12:48:01.000Z",
+    "fetchedAt": "2026-07-19T13:22:24.974Z",
+    "snippet": "Samsung told Reuters that a majority of the affected New Jersey employees received relocation offers, while others were let go.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/4AwuaQsSRccnfs9YmA2RVT-1280-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/xi79WuWDZXzix4Fc7sXNMn.png"
+    ]
+  },
+  {
+    "id": "f040000915df0bb4",
+    "title": "Russian drones spotted using screwed-on magnetic compasses as navigation aids — the on-board camera can occasionally tilt down to check bearings if satellite comms are lost",
+    "link": "https://www.tomshardware.com/tech-industry/drones/russian-drones-spotted-using-screwed-on-magnetic-compasses-as-navigation-aids-the-on-board-camera-can-occasionally-tilt-down-to-check-bearings-if-satellite-comms-are-lost",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-07-19T12:05:34.000Z",
+    "fetchedAt": "2026-07-19T13:22:24.974Z",
+    "snippet": "Russian drone troops are adding cheap magnetic compasses to help find their bearings. Crude add-on helps them find their bearings and locate their targets even without GPS.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/TR86hwy4zXvRzB4KUKJgKc-1280-80.png"
+    ]
+  },
+  {
+    "id": "a791101b5005e7f2",
+    "title": "Clever hacker fits 537,000 domains in a tiny $5 ESP32 ad-blocking dongle — firmware uses only around 50KB of RAM and can answer blocked lookups in 10 milliseconds",
+    "link": "https://www.tomshardware.com/networking/clever-hacker-fits-537-000-domains-in-a-tiny-usd5-esp32-ad-blocking-dongle-firmware-uses-only-around-50kb-of-ram-and-can-answer-blocked-lookups-in-10-milliseconds",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-07-19T10:00:00.000Z",
+    "fetchedAt": "2026-07-19T13:22:24.974Z",
+    "snippet": "This project uses a clever hashing trick to fit over half a million blocked domains into just 4MB of flash memory.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/gGjEqwLsURFSUzVANwnYQZ-1280-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/wZBPyRvxidw3AakhCcUWMQ.jpg",
+      "https://cdn.mos.cms.futurecdn.net/9oneQ7XT6SK5W2NNZgaYxH.jpg",
+      "https://cdn.mos.cms.futurecdn.net/pvJ6dFN3Ut8fY9yLJVJdQ8.jpg"
+    ]
+  },
+  {
+    "id": "6893990c91b8b574",
+    "title": "AI Phones Are Not Competing on Models: The Real Battle Is Over the User Entry Point, and Super Apps Hold the Key",
+    "link": "https://pandaily.com/ai-phones-fighting-for-entry-points-not-models-jul2026",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-07-19T07:51:36.000Z",
+    "fetchedAt": "2026-07-19T13:22:24.586Z",
+    "snippet": "WAIC 2026 reveals AI phone industry consensus: the real competition is not model capability but agentic OS entry points, system-level permissions, and who controls service distribution away from super apps.",
+    "images": [
+      "https://cms-image.pandaily.com/1/article1_57696b0f7f.png"
+    ]
+  },
+  {
+    "id": "ec7ed8c2266839dc",
+    "title": "China MAZU AI Weather System to Reach 30 Countries: Fengyun Satellites, AI Models, and Radar Unite as Meteorological Infrastructure Goes Global",
+    "link": "https://pandaily.com/mazu-ai-weather-system-global-expansion-jul2026",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-07-19T07:51:09.000Z",
+    "fetchedAt": "2026-07-19T13:22:24.586Z",
+    "snippet": "President Xi announces MAZU intelligent early warning system deployment to 30 countries at WAIC 2026 as China exports integrated meteorological infrastructure combining Fengyun satellites, AI, and radar.",
+    "images": [
+      "https://cms-image.pandaily.com/1/article4_4596257226.png"
+    ]
+  },
+  {
+    "id": "3ec7ec3ba5942b9a",
+    "title": "To Make Chips, First Build a Vacuum World: How Extreme Vacuum Technology Enables Modern Semiconductor Manufacturing",
+    "link": "https://pandaily.com/vacuum-world-necessary-for-chip-manufacturing-jul2026",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-07-19T07:50:53.000Z",
+    "fetchedAt": "2026-07-19T13:22:24.586Z",
+    "snippet": "From Magdeburg hemispheres to EUV lithography, semiconductor manufacturing requires extreme vacuum environments to prevent contamination, enable precision etching, and stabilize plasma for sub-nanometer chip production.",
+    "images": [
+      "https://cms-image.pandaily.com/1/article3_91530bff3a.png"
+    ]
+  },
+  {
+    "id": "7b9131b0d6d84425",
+    "title": "Huawei Cloud Unveils Enterprise AI at WAIC: Zhou Yuefeng Breaks Down the Steps for Scaling AI Agents Into Production Systems",
+    "link": "https://pandaily.com/huawei-cloud-enterprise-ai-waic-2026-jul2026",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-07-19T07:50:39.000Z",
+    "fetchedAt": "2026-07-19T13:22:24.587Z",
+    "snippet": "Huawei Cloud CEO Zhou Yuefeng unveils AgentArts platform and openJiuwen framework at WAIC 2026, targeting enterprise-grade agent deployment with stability, security, and multi-agent coordination.",
+    "images": [
+      "https://cms-image.pandaily.com/1/article2_b08190438c.png"
+    ]
+  },
+  {
     "id": "6f036ba0adfc14c5",
     "title": "Hong Kong Cyberport Is Becoming the Springboard for Chinese AI Going Global: From Computing Power to Standards to Markets",
     "link": "https://pandaily.com/hong-kong-cyberport-ai-springboard-jul2026",
@@ -10,7 +118,12 @@
     "snippet": "Hong Kong Cyberport emerges as China AI globalization hub: 3000 PFLOPS AI supercomputing center, 30B HKD funding program, and three-board strategy connecting mainland AI to Southeast Asia and Middle East.",
     "images": [
       "https://cms-image.pandaily.com/1/article4_fd24a6ea84.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "709706d1bacfa3be",
@@ -23,7 +136,12 @@
     "snippet": "WAIC 2026 breaks all records with 1,100 enterprises, 3,000 exhibits, 300+ global premieres, and sold-out tickets scalped at 10x face value as China embraces AI revolution.",
     "images": [
       "https://cms-image.pandaily.com/1/article3_83dda022c7.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "2505ae03b2c3f154",
@@ -36,7 +154,12 @@
     "snippet": "Nubia NaviX Ultra second-gen ByteDance Doubao phone debuts at WAIC with multi-app task queuing, proactive memory system, and cross-app autonomous operation across 10+ platforms.",
     "images": [
       "https://cms-image.pandaily.com/1/article2_10266bd4ae.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "03beb396a8a9743a",
@@ -49,7 +172,12 @@
     "snippet": "Honor Robot Phone with 4DoF titanium mechanical gimbal system makes global debut, featuring YOYO proactive AI, 200MP camera, World Cup prediction capability, and CIPA 5.5 stabilization.",
     "images": [
       "https://cms-image.pandaily.com/1/article1_734354f860.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a7bd8d50f43e03b5",
@@ -59,10 +187,15 @@
     "category": "China AI",
     "publishedAt": "2026-07-18T21:30:06.000Z",
     "fetchedAt": "2026-07-19T02:56:37.596Z",
-    "snippet": "The recent resignation of Keir Starmer as Britain’s prime minister has reignited a debate over the United Kingdom’s post-Brexit identity – and talk of rejoining the European Union. Over the past decade, has Britain’s decision to exit the EU returned the UK to ",
+    "snippet": "The recent resignation of Keir Starmer as Britain’s prime minister has reignited a debate over the United Kingdom’s post-Brexit identity – and talk of rejoining the European Union. Over the past decade, has Britain’s decision to exit the EU returned the UK to",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/16/f5ec032d-53e2-47b8-916f-7ded68ffd1c0_e24633a0.jpg?itok=-lrkraFK&v=1784190941"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "2d1857c4cd999be6",
@@ -72,10 +205,15 @@
     "category": "China AI",
     "publishedAt": "2026-07-18T19:32:47.000Z",
     "fetchedAt": "2026-07-19T02:56:37.596Z",
-    "snippet": "Former Apollo Global Management Chief Executive Officer Leon Black told Congress he paid US$21 million to a woman he accused of blackmailing and extorting him. The billionaire investor said during a June 26 interview with the US House Oversight Committee that ",
+    "snippet": "Former Apollo Global Management Chief Executive Officer Leon Black told Congress he paid US$21 million to a woman he accused of blackmailing and extorting him. The billionaire investor said during a June 26 interview with the US House Oversight Committee that",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/19/50102786-7644-4aa3-ad75-5a598a6869b1_6e7b3e81.jpg?itok=2_vDUkep&v=1784403158"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "ae646a91c3085f03",
@@ -86,7 +224,12 @@
     "publishedAt": "2026-07-18T18:51:07.000Z",
     "fetchedAt": "2026-07-19T02:56:36.784Z",
     "snippet": "Chinese company Moonshot AI released a new version of its Kimi model this week, prompting concern about \"full AI communism.\"",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "7cd1f22b8738b7d2",
@@ -99,7 +242,12 @@
     "snippet": "The Ryzen 7 7700X3D has suddenly become a solid value thanks to a $50 promo code, knocking its price down from $329 to just $279 on Newegg.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/Xd378i3ZkEmbM7A7Tzt59S-1280-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "77ff165ca8d416d6",
@@ -112,7 +260,12 @@
     "snippet": "TrashBench recently decided to test whether adding more and more fans to a powerful GPU would improve its performance.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/DynHcZZfQG3XYCoT35qQ6-1280-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "3b15f50950a4a406",
@@ -125,7 +278,12 @@
     "snippet": "Google software engineer Fabien Sanglard meticulously listed the computer hardware and software used in the first Jurassic Park film. He even added details for each device, turning the film into something of a computer museum.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/4nnN9JAxYocoRVKJPPVJ6E-1280-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "6320410ddcf93224",
@@ -139,7 +297,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/oKunzKLo3D6PPpT5Jt8ajj-1280-80.png",
       "https://cdn.mos.cms.futurecdn.net/BGDBHLYYfeoboq29Li4kQE.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "fa0dc35804b9bee7",
@@ -152,7 +315,12 @@
     "snippet": "The 3GB GDDR7 chips that the RTX 50 Super GPUs will use reportedly cost twice to thrice as much as the 2GB chips found on vanilla RTX 50-series graphics cards. This would likely push the retail price of these GPUs way beyond Nvidia's target MSRP.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/CBBS7c4u3Y3LJcY55ryv2W-1280-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "f51835e9ca9bb62c",
@@ -166,7 +334,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/uHBK4wNbkvpe2jTzJgKw7-1280-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/3UGCMsh4CxepaZUFNSZt5.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c806a0249b66edb3",
@@ -5988,158 +6161,6 @@
     "snippet": "US Democratic lawmaker Ro Khanna said ⁠he was detained by Israeli settlers armed with US-made rifles during a West Bank visit this week that he cast as an unfiltered look at the human toll of Israeli occupation as he weighs a 2028 presidential run. Speaking wi",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/11/a72998f2-d9d4-4bcd-97a1-3cb96346f7c9_a2026576.jpg?itok=5BNrxupd&v=1783782723"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "01d954f966a17baf",
-    "title": "AMD RX 9070 GRE collapses to $499 to save 1440p gaming — RDNA 4 price slips 9% to steal a piece of Nvidia's mid-range pie",
-    "link": "https://www.tomshardware.com/pc-components/gpus/amd-rx-9070-gre-collapses-to-usd499-to-save-1440p-gaming-rdna-4-price-slips-9-percent-to-steal-a-piece-of-nvidias-mid-range-pie",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-07-11T14:23:57.000Z",
-    "fetchedAt": "2026-07-12T03:15:08.590Z",
-    "snippet": "AMD's Radeon RX 9070 GRE has received its first price cut since launching outside China, making the 1440p-focused RDNA 4 graphics card a more compelling alternative to Nvidia's RTX 5060 Ti 16GB.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/6aXWYx8YGabuFitU43htYS-1280-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/mwBZTcMoBANBQhJmHH872R.png",
-      "https://cdn.mos.cms.futurecdn.net/rxVTatwRdG57hgz8ZSY62R.png",
-      "https://cdn.mos.cms.futurecdn.net/xy5REbBNuRcY4JkMReypzQ.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "33d2d5926d38ed16",
-    "title": "OpenAI bets on families as ChatGPT goes deeper into households",
-    "link": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-07-11T14:13:00.000Z",
-    "fetchedAt": "2026-07-12T03:15:08.377Z",
-    "snippet": "ChatGPT is hiring a dedicated product manager to build experiences for families, caregivers, and older adults, according to a job posting.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "35e956d9b4aa420a",
-    "title": "Trump subpoenas journalists over Qatari Air Force One reporting",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3360237/trump-subpoenas-journalists-over-qatari-air-force-one-reporting?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-07-11T13:20:02.000Z",
-    "fetchedAt": "2026-07-11T13:25:15.183Z",
-    "snippet": "The Trump administration has subpoenaed several New York Times journalists after their report on security concerns involving the new Air Force One, according to the paper. The new jet, which President Donald Trump received as a gift from Qatar, entered service",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/11/8e96f321-1eef-434c-8c98-8791fc724442_314c338a.jpg?itok=cqDD1bkw&v=1783775997"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "09615298a89b82a8",
-    "title": "SK Hynix says 2027 will be the 'worst year' for memory shortage, forecasts crunch to last until 2030 — CEO shares grim outlook on the day SK Hynix gets listed on Nasdaq",
-    "link": "https://www.tomshardware.com/pc-components/dram/sk-hynix-says-2027-will-be-the-worst-year-for-memory-shortage-forecasts-crunch-to-last-until-2030-ceo-shares-grim-outlook-on-the-day-sk-hynix-gets-listed-on-nasdaq",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-07-11T13:00:00.000Z",
-    "fetchedAt": "2026-07-11T13:25:14.991Z",
-    "snippet": "SK Hynix CEO Kwak Noh-jung says the memory shortage will get even worse in 2027, and claiming the RAM crunch will last at least until the turn of the decade.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/fqTti4KdcXiuxcu6QwyyKe-1280-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/xi79WuWDZXzix4Fc7sXNMn.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "598659367168023b",
-    "title": "Microsoft struggles to fulfill its 2030 sustainability promise amid carbon-heavy AI expansions — the company's chief sustainability officer claims the target is still feasible",
-    "link": "https://www.tomshardware.com/tech-industry/big-tech/microsoft-struggles-to-fulfill-its-2030-sustainability-promise-amid-carbon-heavy-ai-expansions-the-companys-chief-sustainability-officer-claims-the-target-is-still-feasible",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-07-11T12:45:00.000Z",
-    "fetchedAt": "2026-07-11T13:25:14.991Z",
-    "snippet": "Microsoft's carbon emissions jumped 25% in FY2025 as AI data center expansion outpaced sustainability gains, despite progress in water conservation and waste reduction.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/C5HrhXNKz3T23KjkZ9PUra-1280-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c69a40e60cbf5d89",
-    "title": "Razer Soma Chroma Gaming Chair Review: Light on adjustability, but heavy on RGBs",
-    "link": "https://www.tomshardware.com/peripherals/gaming-chairs/razer-soma-chroma-gaming-chair-review",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-07-11T12:05:00.000Z",
-    "fetchedAt": "2026-07-11T13:25:14.991Z",
-    "snippet": "If you’d like a dose of RGBs to go with your gaming chair, the Soma Chroma delivers for $499.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/7e8jw5hCNX5WsYWq8iRcUT-1280-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/FnnAd54YjxWfYxM4vy9gJU.jpg",
-      "https://cdn.mos.cms.futurecdn.net/KD7dU5uepcGLydGhJoBEGU.jpg",
-      "https://cdn.mos.cms.futurecdn.net/bgLH58v4QNoqFFJoPPd2yT.jpg",
-      "https://cdn.mos.cms.futurecdn.net/2CTecfEdydddHEqUdVNvzS.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e4a9cf69ec082fa4",
-    "title": "Ukraine presses allies for resupply as Russia launches ballistic missiles",
-    "link": "https://www.scmp.com/news/world/europe/article/3360232/ukraine-presses-allies-resupply-russia-launches-ballistic-missiles?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-07-11T11:48:18.000Z",
-    "fetchedAt": "2026-07-11T13:25:15.183Z",
-    "snippet": "Russia attacked Ukraine with missiles and drones on Saturday, killing two and wounding 19 others, officials said, as Kyiv awaits supplies of air defence munitions after a shortage has ‌left it exposed to Russian attacks. Eleven people were wounded in the capit",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/11/ef8523ab-d6ed-4bf4-b6cc-f49d1b4d8d31_ea350b8c.jpg?itok=T_-EPsHE&v=1783770491"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "2b9d72d05715418c",
-    "title": "Colibrì proof-of-concept gains frontier-level 1.5-TB AI model — novel approach runs on only 25GB of RAM and shows promise for local AI setups",
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/colibri-proof-of-concept-gains-frontier-level-1-5-tb-ai-model-novel-approach-runs-on-only-25gb-of-ram-and-shows-promise-for-local-ai-setups",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-07-11T11:30:00.000Z",
-    "fetchedAt": "2026-07-11T13:25:14.991Z",
-    "snippet": "Colibrì proof-of-concept gets a frontier-level AI model running on only 25 GB of RAM and a modest CPU",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/D2ddTrisPHZsxxEUuFfLgM-1280-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/z53fPgXjpKHTpeGv3RHpqj.png"
     ],
     "titleZh": "",
     "snippetZh": "",
