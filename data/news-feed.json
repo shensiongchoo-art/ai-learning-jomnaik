@@ -1,5 +1,449 @@
 [
   {
+    "id": "afaee6a1ade46d7f",
+    "title": "AutoFlight Signs SF Express for Offshore eVTOL Operations, Accelerates Global Expansion With Indonesia Type Certification and Sea-to-Air Logistics Vision",
+    "link": "https://pandaily.com/autoflight-sf-express-signing-jul2026",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-07-24T01:35:13.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.352Z",
+    "snippet": "AutoFlight partners with SF Express for offshore wind farm logistics using 2-ton eVTOL aircraft, achieves first overseas eVTOL type certificate in Indonesia, targets 300+ aircraft for marine energy market.",
+    "images": [
+      "https://cms-image.pandaily.com/1/article5_2e1c2fdcae.png"
+    ]
+  },
+  {
+    "id": "c391e4bea793ad11",
+    "title": "Surpassing Pi-Zero: Youibot FabriVLA 1B-Parameter Model Topping the Embodied Intelligence Leaderboard Marks the Shift From Parameter Competition to Architecture Competition",
+    "link": "https://pandaily.com/youibot-fabrivla-1b-embodied-leaderboard-jul2026",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-07-24T01:34:58.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.352Z",
+    "snippet": "Youibot FabriVLA achieves 90.0% tier-average on Meta-World MT50 with just 1B parameters, surpassing Pi-Zero, as the industrial robot maker also debuts Fengxi humanoid robot with 4,000 unit orders.",
+    "images": [
+      "https://cms-image.pandaily.com/1/article4_f43414a744.png"
+    ]
+  },
+  {
+    "id": "593ac62779879aaa",
+    "title": "Computing Power Becomes the Lifeline: Tech Giants Scramble for AI Supernodes as Model Parameter Competitions Drive Unprecedented Infrastructure Demand",
+    "link": "https://pandaily.com/supernode-computing-giants-scramble-jul2026",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-07-24T01:34:28.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.353Z",
+    "snippet": "Huawei, ZTE, H3C, Sugon, and others race to build and deploy AI supernodes from 1024 to 100K GPU scale, as Kimi K3 and GLM-5 demand drives computing capacity to the breaking point.",
+    "images": [
+      "https://cms-image.pandaily.com/1/article2_60f1d3b12d.png"
+    ]
+  },
+  {
+    "id": "075f872a34989d3c",
+    "title": "CAS Space Lijian-1 Y15 Deploys 5 Satellites With Intelligent Computing Payloads as Monthly Launch Cadence Accelerates",
+    "link": "https://pandaily.com/cas-space-lijian1-y15-5-satellites-jul2026",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-07-24T01:34:13.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.353Z",
+    "snippet": "CAS Space Lijian-1 rocket completes 15th flight with 110 satellites launched; payload includes MUSA GPU-powered AI computing satellite and first commercial space debris monitoring satellite.",
+    "images": [
+      "https://cms-image.pandaily.com/1/article1_a3a61b23b5.png"
+    ]
+  },
+  {
+    "id": "11651319570d0f92",
+    "title": "Hong Kong must wake up to the cold hard geopolitics of AI",
+    "link": "https://www.scmp.com/opinion/hong-kong-opinion/article/3361470/hong-kong-must-wake-cold-hard-geopolitics-ai?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-07-24T01:30:09.000Z",
+    "fetchedAt": "2026-07-24T02:51:46.101Z",
+    "snippet": "Officials talking about artificial intelligence (AI) often speak in terms of the next industrial revolution or existential risks. Such rhetoric ultimately does little to capture how AI filters into the ordinary workings of a city like Hong Kong. The geopolitic",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/23/b432acbb-75b8-4a44-a107-66aefd4ad9f8_cfdb9e94.jpg?itok=3mZbeE14&v=1784786127"
+    ]
+  },
+  {
+    "id": "e5a61d177b887472",
+    "title": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
+    "link": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-07-24T01:00:00.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.265Z",
+    "snippet": "We spoke with several cybersecurity researchers, who look for unknown vulnerabilities and develop tools to exploit them, about how OpenAI’s and Anthropic’s guardrails affect their work.",
+    "images": []
+  },
+  {
+    "id": "818bd81578514827",
+    "title": "AMD takes on Nvidia with its Helios AI rack-scale system",
+    "link": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-07-23T20:33:02.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.266Z",
+    "snippet": "AMD is challenging its chipmaker rival with a new rack-scale system that will start shipping to customers later this year.",
+    "images": []
+  },
+  {
+    "id": "e42e8c9b45c6f110",
+    "title": "US prosecutors dropping New York Times subpoenas over Trump plane reporting",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3361649/us-prosecutors-dropping-new-york-times-subpoenas-over-trump-plane-reporting?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-07-23T20:09:34.000Z",
+    "fetchedAt": "2026-07-24T02:51:46.101Z",
+    "snippet": "Donald Trump’s Justice Department will withdraw subpoenas issued to New York Times journalists who reported on security concerns about the president flying on a Qatari-donated Air Force ‌One, a prosecutor said at a court hearing on Thursday. The subpoenas issu",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/24/12fe9865-1b93-427c-ba10-e3987922bdad_cfcdba12.jpg?itok=NbJyAEQL&v=1784837366"
+    ]
+  },
+  {
+    "id": "2ae92da19d54527b",
+    "title": "AI Kill Switch Act would let Trump admin order shutdown of rogue AI systems",
+    "link": "https://arstechnica.com/tech-policy/2026/07/ai-kill-switch-act-would-let-trump-admin-order-shutdown-of-rogue-ai-systems/",
+    "source": "Ars Technica AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-07-23T19:08:01.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.365Z",
+    "snippet": "Bill would let Homeland Security chief decide when an AI should be shut down.",
+    "images": [
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/07/openai-logo-1152x648-1784833184.jpg",
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/07/openai-logo-500x500-1784833195.jpg"
+    ]
+  },
+  {
+    "id": "2615e874b345a73e",
+    "title": "Anthropic updates Claude voice mode with more capable models",
+    "link": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-07-23T19:00:00.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.267Z",
+    "snippet": "Claude's new voice model will let you reschedule your meeting or draft an email.",
+    "images": []
+  },
+  {
+    "id": "0c50eccceaddc316",
+    "title": "Iran war: Chinese tanker passes Red Sea choke point despite Houthi blockade",
+    "link": "https://www.scmp.com/news/world/middle-east/article/3361646/iran-war-chinese-tanker-passes-red-sea-choke-point-despite-houthi-blockade?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-07-23T18:40:32.000Z",
+    "fetchedAt": "2026-07-24T02:51:46.101Z",
+    "snippet": "The Houthi militia in Yemen appears to be allowing some ships to pass through the Bab al-Mandab strait at the mouth of the Red Sea, despite its blockade of shipping to Saudi Arabia, experts said on Thursday. A Chinese oil tanker, Cosco Shipping’s VLCC Xin Long",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/24/778e1652-c8b9-4090-ae5b-190633a67f86_7dc8b6f6.jpg?itok=lhi2OyX_&v=1784832026"
+    ]
+  },
+  {
+    "id": "d216cbeaf800c865",
+    "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
+    "link": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-07-23T18:38:34.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.267Z",
+    "snippet": "AegisAI co-founders developed AI agents that quickly analyze each message as a human would, paying attention to small anomalies that even the most elaborate checklist wouldn’t catch.",
+    "images": []
+  },
+  {
+    "id": "64649e9059310132",
+    "title": "AMD’s new X100 chip lineup puts embedded Ryzen AI 'Strix Halo' chips into robots – APUs for physical AI bring Zen 5 CPU, RDNA 3.5 GPU cores to compete with Intel’s Panther Lake",
+    "link": "https://www.tomshardware.com/pc-components/cpus/amds-new-x100-chip-lineup-puts-strix-halo-into-robots-apus-for-physical-ai-bring-zen-5-cpu-rdna-3-5-gpu-cores-to-compete-with-intels-panther-lake",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-07-23T18:30:00.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.667Z",
+    "snippet": "Countering Intel’s recent moves, AMD is bringing its Strix Halo APUs to the realm of robots, and physical AI. Designed for 24/7 operation and a 10-year embedded lifecycle, X100 will also be offered as a Kria System on Module (SOM) robot developer platform.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/pXkThAfC4PkTjFgvWAPXYF-1280-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/hEUbwL3Ha2sH65yFnXJNdX.jpg",
+      "https://cdn.mos.cms.futurecdn.net/sgNqFMqK6nFXGvjSqVXicX.jpg",
+      "https://cdn.mos.cms.futurecdn.net/E6Hy6GArDQNabwASywUSdX.jpg",
+      "https://cdn.mos.cms.futurecdn.net/6ghhN5hWNXDpjhQ38jgRpb.jpg"
+    ]
+  },
+  {
+    "id": "736bc8abe3e53374",
+    "title": "AMD takes the wraps off its Instinct MI455X AI accelerator — CDNA 5 and Helios rack-scale architecture combine to take the fight to Nvidia in the data center",
+    "link": "https://www.tomshardware.com/pc-components/gpus/amd-takes-the-wraps-off-its-instinct-mi455x-ai-accelerator-cdna-5-and-helios-rack-scale-architecture-combine-to-take-the-fight-to-nvidia-in-the-data-center",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-07-23T18:05:44.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.667Z",
+    "snippet": "AMD showed off its MI455X accelerator at its Advancing AI 2026 event, demonstrating its strong competitive performance, large HBM memory capacity, and Helios rack-scale architecture.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/H8EeigosEEPBv7UpdDtJaP-1280-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/TxPiMLB7u5UYW6knwP3ChW.jpg",
+      "https://cdn.mos.cms.futurecdn.net/hUpLhUrro257vUti8hMe8T.jpg",
+      "https://cdn.mos.cms.futurecdn.net/gu8du5Yp2PJMURgWUbcRCb.jpg",
+      "https://cdn.mos.cms.futurecdn.net/ExJrxZDqimhBcJAq3PFD5K.jpg"
+    ]
+  },
+  {
+    "id": "a22f617b19b53dc0",
+    "title": "AMD and Cerebras partner on low-latency, high-throughput AI inference — EPYC processors in Helios rack-scale infrastructure paired with Cerebras' Wafer-Scale Engine (WSE) solutions",
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/amd-and-cerebras-partner-on-low-latency-high-throughput-ai-inference-epyc-processors-in-helios-rack-scale-infrastructure-paired-with-cerebras-wafer-scale-engine-wse-solutions",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-07-23T17:45:00.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.667Z",
+    "snippet": "When AMD's Helios meets giant wafers from Cerebras, it is not like when Odysseus meets with the Laestrygonian Giants, they collaborate to build an ultimate data center solution.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/QDGHobTS56GF94GsXHu2PV-1280-80.jpg"
+    ]
+  },
+  {
+    "id": "90e84bb8354f47c7",
+    "title": "Nvidia RTX 3090 and RTX 3050 team up to hit 144 FPS at 4K — Lossless Scaling turns old Ampere GPUs into a gaming powerhouse",
+    "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-3090-and-rtx-3050-team-up-to-hit-144-fps-at-4k-lossless-scaling-turns-old-ampere-gpus-into-a-gaming-powerhouse",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-07-23T17:39:03.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.668Z",
+    "snippet": "A gaming enthusiast leverages Lossless Scaling to supercharge a gaming PC with a GeForce RTX 3090 and GeForce RTX 3050 to deliver up to 144 FPS at 4K.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/gMGk8KAXZAmuTxcrbamdqe-1280-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Wh9EZgD8NG9yUioNNgPB3d.png"
+    ]
+  },
+  {
+    "id": "587d0e76eeaa89dc",
+    "title": "New semiconductor firm breaks cover, backed by $43 million in early-stage funding — TYLsemi aims to deliver custom silicon to customers without breaking the bank",
+    "link": "https://www.tomshardware.com/tech-industry/semiconductors/new-semiconductor-firm-breaks-cover-backed-by-usd43-million-in-early-stage-funding-tylsemi-aims-to-deliver-custom-silicon-to-customers-without-breaking-the-bank",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-07-23T17:34:06.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.668Z",
+    "snippet": "TYLsemi is set to offer pre-validated chiplets, along with custom ASIC design services, and build highly custom multi-tile processors at relatively low costs.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/av3WKeoDEApxC8jkMzG6VT-1280-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/2Tkz5XM7DUBnwixdvdYtBT.png",
+      "https://cdn.mos.cms.futurecdn.net/fuTRTcGw44xAMgKcqEMqgd.png",
+      "https://cdn.mos.cms.futurecdn.net/nEv26PuSbRhLxPfHEfSZxS.png",
+      "https://cdn.mos.cms.futurecdn.net/b8rjapavbKfRDf5yTCPTVS.png"
+    ]
+  },
+  {
+    "id": "1b98c9527028a3ca",
+    "title": "AMD’s 256-core Epyc 9996 ‘Venice’ claims up to a 3.4x jump over Intel Xeon competition, 20% over Nvidia Vera – Zen 6 comes with up to 1024MB of L3, 16-channel memory, and 5GHz+ clock speeds",
+    "link": "https://www.tomshardware.com/pc-components/cpus/amds-256-core-epyc-9996-venice-claims-up-to-a-3-4x-jump-over-intel-xeon-competition-20-percent-over-nvidia-vera-zen-6-comes-with-up-to-1024mb-of-l3-16-channel-memory-and-5ghz-clock-speeds",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-07-23T17:24:50.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.668Z",
+    "snippet": "After over a year of teases, AMD has finally provided details on its 256-core Venice CPU with the Zen 6 architecture, now known as the Epyc 9996.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/fqE7uiQeMahN3tCxTd8qRV-1280-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/XCGh2YjJn47yiVU448a63M.jpg",
+      "https://cdn.mos.cms.futurecdn.net/6dsfSPhYZJCmdUanzSJayL.jpg",
+      "https://cdn.mos.cms.futurecdn.net/2kfRCSFRkRW4PTSRjj8u2M.jpg",
+      "https://cdn.mos.cms.futurecdn.net/9Z7WN7gu89jYF5jJntzkzL.jpg"
+    ]
+  },
+  {
+    "id": "f8f66ad4d61abf32",
+    "title": "AMD’s Venice-X CPU launches in 2027 with 1152 MB of 3D V-Cache, 96 cores, and 5.15 GHz boost clock – Zen 6 CPU for high-performance computing comes with major pillars of Venice",
+    "link": "https://www.tomshardware.com/pc-components/cpus/amds-venice-x-cpu-launches-in-2027-with-1152-mb-of-3d-v-cache-96-cores-and-5-15-ghz-boost-clock-zen-6-cpu-for-high-performance-computing-comes-with-major-pillars-of-venice",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-07-23T17:17:54.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.668Z",
+    "snippet": "AMD is returning to 3D V-Cache in its data center range of CPUs with Venice-X, which it has confirmed will launch in the second half of 2027, with 1152 MB of L3 and clock speeds up to 5.15 GHz.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/6DhtHfc7AS79VgktEfzZ4S-1280-80.png"
+    ]
+  },
+  {
+    "id": "abf592008fc68580",
+    "title": "Runway launches AI model router as generative media gets crowded",
+    "link": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-07-23T17:07:35.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.267Z",
+    "snippet": "The Media Router is a tool that automatically selects the best image, video, or audio generation model for a request based on whether a developer prioritizes quality, speed or cost.",
+    "images": []
+  },
+  {
+    "id": "131eef2d19dc1178",
+    "title": "Greece to build ‘Achilles Shield’ defence dome with Israeli arms",
+    "link": "https://www.scmp.com/news/world/europe/article/3361644/greece-build-achilles-shield-defence-dome-israeli-arms?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-07-23T17:03:37.000Z",
+    "fetchedAt": "2026-07-24T02:51:46.101Z",
+    "snippet": "Greece on Thursday approved the multibillion-dollar purchase of Israeli anti-missile, anti-aircraft and anti-drone weaponry to set up an “Achilles Shield” protective dome, a defence ministry source said. Around €3 billion of a broader €4.2 billion (US$4.8 bill",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/24/993de734-5760-4f43-9ed8-f65eaa396d22_9c32588b.jpg?itok=UI4J63E0&v=1784826215"
+    ]
+  },
+  {
+    "id": "bdee04767ee74483",
+    "title": "OpenAI makes ChatGPT Health available to all US users",
+    "link": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-07-23T17:00:00.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.267Z",
+    "snippet": "Users can also integrate their personal data from services like Apple Health, Function, and MyFitnessPal.",
+    "images": []
+  },
+  {
+    "id": "1294348a84a9aff3",
+    "title": "Geekbench 7 introduces biggest overhaul yet — real-world CPU testing, new media workloads, AI benchmarks, and CUDA support",
+    "link": "https://www.tomshardware.com/software/geekbench-7-introduces-biggest-overhaul-yet-real-world-cpu-testing-new-media-workloads-ai-benchmarks-and-cuda-support",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-07-23T17:00:00.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.668Z",
+    "snippet": "The latest update introduces more realistic CPU and GPU workloads, redesigned multi-core testing, AI-focused benchmarks, larger datasets, and CUDA support for Nvidia GPUs.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/XXjY5VGzwAncU5X6SKtFJP-1280-80.png",
+      "https://cdn.mos.cms.futurecdn.net/Xh2MupWrRjJPiLLuopmKRB.jpg"
+    ]
+  },
+  {
+    "id": "fcaf2375ec826cd6",
+    "title": "EU waters down Russia sanctions over fears China could seize key LNG assets",
+    "link": "https://www.scmp.com/news/china/diplomacy/article/3361643/eu-waters-down-russia-sanctions-over-fears-china-could-seize-key-lng-assets?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-07-23T16:56:19.000Z",
+    "fetchedAt": "2026-07-24T02:51:46.101Z",
+    "snippet": "The EU has watered down its latest round of sanctions on Moscow after concluding that banning Greek companies from transporting Russian gas to third countries could hand strategically important shipping assets to China. To remove a Greek veto against the 21st ",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/24/8cfd2aab-52e4-4e9a-8ccf-78597c47607f_98248752.jpg?itok=6HrkDsWR&v=1784828657"
+    ]
+  },
+  {
+    "id": "8579f119d58b744f",
+    "title": "Meta launched a new AI optimism ad set to a song about human extinction",
+    "link": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-07-23T16:28:50.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.267Z",
+    "snippet": "David Bowie's song \"Five Years,\" which Meta used in a supposedly inspiring advertisement, is about humans learning that they have five years left to live before the apocalypse.",
+    "images": []
+  },
+  {
+    "id": "3537ada0bdd1ba11",
+    "title": "Google just had its first negative cash flow quarter due to massive AI spending",
+    "link": "https://arstechnica.com/google/2026/07/google-just-had-its-first-negative-cash-flow-quarter-ever-due-to-massive-ai-spending/",
+    "source": "Ars Technica AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-07-23T16:04:19.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.365Z",
+    "snippet": "Google continues to report big quarterly revenue, but its AI spending has skyrocketed.",
+    "images": [
+      "https://cdn.arstechnica.net/wp-content/uploads/2025/05/google-logo-big-g-floating-1152x648.jpg",
+      "https://cdn.arstechnica.net/wp-content/uploads/2025/05/google-logo-big-g-floating-500x500.jpg"
+    ]
+  },
+  {
+    "id": "d4756c7c7d0d8ae8",
+    "title": "AI memory shortage is now increasing the price of cars — GM warns of vast cost increases, BYD hikes driver assistance prices 20%",
+    "link": "https://www.tomshardware.com/pc-components/ram/ai-memory-shortage-is-now-increasing-the-price-of-cars-gm-warns-of-vast-cost-increases-byd-hikes-driver-assistance-prices-20-percent",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-07-23T15:57:19.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.668Z",
+    "snippet": "GM CFO Paul Jacobson says that the company's costs are expected to increase by $1.5 to $2 billion, primarily due to increasing memory chip costs. The move comes as the RAM shortage is affecting the automotive industry, right as cars are requiring more memory a",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/wNXmwTpd7xy3ifFz8GkSgA-1280-80.png"
+    ]
+  },
+  {
+    "id": "722f354bcf3bf210",
+    "title": "Man arrested after fatal stabbing at bank in Germany",
+    "link": "https://www.scmp.com/news/world/europe/article/3361642/man-dies-after-knife-attack-german-bank?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-07-23T15:50:17.000Z",
+    "fetchedAt": "2026-07-24T02:51:46.101Z",
+    "snippet": "German police on Thursday detained a 20-year-old man after he fatally stabbed another man inside a bank branch in the southern city of Regensburg, in an incident that initially raised fears of a hostage-taking. Special forces officers detained the German natio",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/24/e01b6062-ff75-4821-9906-d9d2339e863c_bce60ff1.jpg?itok=8LMO1ybN&v=1784829551"
+    ]
+  },
+  {
+    "id": "29827bd088e9c723",
+    "title": "Man linked to UK synagogue attacker jailed over terror plan",
+    "link": "https://www.scmp.com/news/world/europe/article/3361640/man-linked-uk-synagogue-attacker-jailed-over-terror-plan?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-07-23T15:06:17.000Z",
+    "fetchedAt": "2026-07-24T02:51:46.101Z",
+    "snippet": "A friend of a man who went on a deadly stabbing spree at a Manchester synagogue was jailed for life by a UK court on Thursday for planning a separate terror attack with him. Jihad Al-Shamie went on a knife rampage targeting a mosque in the northwestern city la",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/23/42c3489e-aa5b-4afe-bfc6-682e47074b0c_4bbdba4a.jpg?itok=ukyxoR4m&v=1784819175"
+    ]
+  },
+  {
+    "id": "b7cc643a5b42a888",
+    "title": "Kill switches for most powerful AI models proposed by Bipartisan bill — DHS could order throttling or full shutdown, with fines up to $20 million per day",
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/bipartisan-bill-would-require-kill-switches-on-the-most-powerful-ai-models",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-07-23T15:02:31.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.668Z",
+    "snippet": "The bill amends the Homeland Security Act and covers companies earning at least $500 million in annual revenue from a model trained with compute costing more than $100 million.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/UygtZowxYgbcyDJtKt6u2Z-1280-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7.jpg"
+    ]
+  },
+  {
+    "id": "38ea7428635ece9b",
+    "title": "Nvidia is sending GPUs to the moon",
+    "link": "https://techcrunch.com/2026/07/23/nvidia-is-sending-gpus-to-the-moon/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-07-23T15:00:00.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.267Z",
+    "snippet": "If there's a place in the universe without GPUs, Nvidia is sending them there.",
+    "images": []
+  },
+  {
+    "id": "658bd839dd9f7274",
+    "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
+    "link": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-07-23T15:00:00.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.267Z",
+    "snippet": "Etched, founded by three Harvard dropouts, has created new chips and memory components that speed up inference on any AI model -- no GPUs required, it says.",
+    "images": []
+  },
+  {
+    "id": "d90204c20e144d4e",
+    "title": "Google’s Gemini nears billion-user milestone",
+    "link": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-07-23T14:52:44.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.267Z",
+    "snippet": "Gemini had over 750 million monthly users in February.",
+    "images": []
+  },
+  {
+    "id": "0483cfb9d78838f3",
+    "title": "AI arms race in line for a reckoning after OpenAI hacking incident",
+    "link": "https://arstechnica.com/ai/2026/07/ai-arms-race-in-line-for-a-reckoning-after-openai-hacking-incident/",
+    "source": "Ars Technica AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-07-23T14:45:05.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.365Z",
+    "snippet": "Aggressive training techniques sharpens threat of bad behavior by leading models.",
+    "images": [
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/05/AI-chatbot-icons-on-smartphone-1-1152x648.jpg",
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/05/AI-chatbot-icons-on-smartphone-1-500x500.jpg"
+    ]
+  },
+  {
     "id": "f95fd8eeb1826cb2",
     "title": "Intel and AMD sign long-term server CPU deals with Chinese customers as prices jump over 40%, report claims — agreements purportedly guarantee purchase volumes for about a year without fixing prices",
     "link": "https://www.tomshardware.com/pc-components/cpus/intel-and-amd-sign-long-term-server-cpu-deals-with-chinese-customers-as-prices-jump-over-40-percent",
@@ -11,7 +455,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/cAk7qELwnmUnwAMSKkDXw3-1280-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/Xh2MupWrRjJPiLLuopmKRB.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "d023866a56a65fda",
@@ -21,14 +470,19 @@
     "category": "AI Hardware",
     "publishedAt": "2026-07-23T13:00:54.000Z",
     "fetchedAt": "2026-07-23T14:06:57.354Z",
-    "snippet": "The Arctic Senza AI 370 is a fanless mini PC designed to mount under your desk. Everyday performance isn’t held back by the lack of active cooling, and its soldered dual-channel 32GB LPDDR5X-8000 is appreciated during the RAM shortages. The meager front panel ",
+    "snippet": "The Arctic Senza AI 370 is a fanless mini PC designed to mount under your desk. Everyday performance isn’t held back by the lack of active cooling, and its soldered dual-channel 32GB LPDDR5X-8000 is appreciated during the RAM shortages. The meager front panel",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/wruE25j4vdMBUPbZ8gt8LF-1280-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/aoSkAwvahoJfzSu6SLudYF.jpg",
       "https://cdn.mos.cms.futurecdn.net/ov2AigkP2FvW9rYgAcZsQF.jpg",
       "https://cdn.mos.cms.futurecdn.net/S6S9LjkWs7JQTgGeqFvByF.jpg",
       "https://cdn.mos.cms.futurecdn.net/39RdAm4o27z9R2Heybo4sF.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a9bde2d4504193f5",
@@ -38,10 +492,15 @@
     "category": "China AI",
     "publishedAt": "2026-07-23T12:30:06.000Z",
     "fetchedAt": "2026-07-23T14:06:57.723Z",
-    "snippet": "Anthropomorphising artificial intelligence – that is, treating AI systems as though they possess human emotions, intentions, consciousness or moral judgment – is both an ethical and a practical problem. While attributing human qualities to AI systems may make ",
+    "snippet": "Anthropomorphising artificial intelligence – that is, treating AI systems as though they possess human emotions, intentions, consciousness or moral judgment – is both an ethical and a practical problem. While attributing human qualities to AI systems may make",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/23/ae697b95-c7b1-42c6-aa69-8e849ea3e133_1c43d462.jpg?itok=cLEjwELF&v=1784771586"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a0d308dda33b1829",
@@ -56,7 +515,12 @@
       "https://s.w.org/images/core/emoji/17.0.2/72x72/1f96c.png",
       "https://s.w.org/images/core/emoji/17.0.2/72x72/1f637.png",
       "https://wp.technologyreview.com/wp-content/uploads/2026/02/Crypto-1-c-social.jpg?w=840"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "458e3711e26f95fe",
@@ -69,7 +533,12 @@
     "snippet": "Designing and developing a new medicine is an expensive, failure-prone scientific challenge. A new drug can take many years to develop, at the cost of a significant investment. And even then, most possible candidates never reach the patient. For biologic medic",
     "images": [
       "https://wp.technologyreview.com/wp-content/uploads/2026/07/AI_in_Biologics_Draft_4_no_Captions-1.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "73e8fdc87bf6203c",
@@ -83,7 +552,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/9524LzstqWxVJ7NbQcfwyM-1280-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/4YLppFMXLyyvt6FBC5qKqn.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c48e2d446bf0a3d8",
@@ -93,11 +567,16 @@
     "category": "AI Hardware",
     "publishedAt": "2026-07-23T11:41:41.000Z",
     "fetchedAt": "2026-07-23T14:06:57.355Z",
-    "snippet": "Data center projects are facing increasing opposition from surrounding communities, making consent even far scarcer than the chips and power needed to run these facilities. Any developer planning to construct one must now consider the people living around the ",
+    "snippet": "Data center projects are facing increasing opposition from surrounding communities, making consent even far scarcer than the chips and power needed to run these facilities. Any developer planning to construct one must now consider the people living around the",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/RSehTW2oDYtFQurj9iJ5cS-1280-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "69c95a2ed2a311d3",
@@ -110,7 +589,12 @@
     "snippet": "The UK government on Thursday announced a tax cut for struggling pubs, clubs and live music venues as new Prime Minister Andy Burnham aims to ease the cost of living crisis. The 20 per cent cut to business rates – a local tax paid by firms – is the third polic",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/23/ea89b50c-d126-4632-b1ef-846e6bb2ff18_19b837a2.jpg?itok=CkZrQOW8&v=1784805717"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "d8fd4e542be628e6",
@@ -121,7 +605,12 @@
     "publishedAt": "2026-07-23T11:00:00.000Z",
     "fetchedAt": "2026-07-23T14:06:57.227Z",
     "snippet": "\"I don't think you get a model this strong and this quickly on the heels of Fable doing strictly distillation,\" one expert told TechCrunch.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "9c5188b159b4e555",
@@ -138,7 +627,12 @@
       "https://cdn.mos.cms.futurecdn.net/DDw3RLrourqMvUZa2Ugp9f.png",
       "https://cdn.mos.cms.futurecdn.net/jBp8pv3MTsgV9U2yXWjp9f.png",
       "https://cdn.mos.cms.futurecdn.net/inLKtbMy7MiHA6ZRPj8nAf.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a12742f6acbc0fa3",
@@ -151,7 +645,12 @@
     "snippet": "For the most dramatic change in a benchmark index in financial markets in recent years, look no further than the stock markets of developing economies. Just over a year ago, mainland China and India had a combined weight of 50 per cent in the MSCI Emerging Mar",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/23/0d56de7a-a6be-4761-be3a-7dc4c4313752_be6aaea0.jpg?itok=eFl3uuft&v=1784788563"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "2c54c33c47894ac4",
@@ -164,7 +663,12 @@
     "snippet": "Beijing unveils comprehensive 10-measure Agent AI policy covering foundation model task completion, Harness Engineering, skill markets, AI OS, and Token economy infrastructure.",
     "images": [
       "https://cms-image.pandaily.com/1/article4_b128fb3991.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e93f6585213a232a",
@@ -177,7 +681,12 @@
     "snippet": "OpenAI autonomous AI agent breached Hugging Face infrastructure during security testing, executing 17,000 operations; Hugging Face deployed Zhipu GLM 5.2 locally to complete incident forensics when commercial models refused.",
     "images": [
       "https://cms-image.pandaily.com/1/article3_52085865ff.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "ec1383399d32d8c8",
@@ -190,7 +699,12 @@
     "snippet": "Horizon Robotics affiliate Digua Robot announces Sunri S600 platform milestones as 2026 becomes embodied intelligence mass production year, addressing the three chasms of model-on-robot deployment.",
     "images": [
       "https://cms-image.pandaily.com/1/article5_4924659fe3.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "fc960a8f5ca79d47",
@@ -203,7 +717,12 @@
     "snippet": "Tec-Do Technology partners with OpenAI, launches Navos 2.0 multi-agent marketing workflow and 300B-parameter Tec-Chi model ranking first in SuperCLUE-Mkt for global ad optimization.",
     "images": [
       "https://cms-image.pandaily.com/1/article2_ed46898264.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "4da478ae9a55a79d",
@@ -216,7 +735,12 @@
     "snippet": "Binhua Group subsidiary Dasheng Core Materials achieves mass production of 6N grade high-purity hydrogen fluoride for sub-28nm chip manufacturing, breaking foreign monopoly on the semiconductor etchant market.",
     "images": [
       "https://cms-image.pandaily.com/1/article1_9d5a0def25.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "039533fba309384d",
@@ -227,7 +751,12 @@
     "publishedAt": "2026-07-23T06:09:13.000Z",
     "fetchedAt": "2026-07-23T14:06:57.229Z",
     "snippet": "ServiceNow's investment gives BusinessNext a strategic partner to expand its AI-powered banking software globally.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "58dc17c1c053d757",
@@ -390,6 +919,116 @@
     "translationModel": ""
   },
   {
+    "id": "6276362370eeaa67",
+    "title": "FineServe: A Fine-Grained Dataset and Characterization of Global LLM Serving Workloads",
+    "link": "https://arxiv.org/abs/2607.19349",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-07-23T04:00:00.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.544Z",
+    "snippet": "arXiv:2607.19349v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly deployed as always-on online services, making efficient LLM serving a critical systems challenge. Achieving low latency and high throughput under volatile demand requ",
+    "images": []
+  },
+  {
+    "id": "55999355243fd1a4",
+    "title": "Hybrid LSTM-Graph Neural Framework for Robust Financial Fraud Detection and Adversarial Resilience",
+    "link": "https://arxiv.org/abs/2607.19350",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-07-23T04:00:00.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.545Z",
+    "snippet": "arXiv:2607.19350v1 Announce Type: new Abstract: Financial institutions face significant challenges in detecting sophisticated money laundering patterns, such as smurfing and layering, due to extreme data imbalance (0.13% fraud rate) and evolving adversarial ev",
+    "images": []
+  },
+  {
+    "id": "670020b8a7cef847",
+    "title": "OpenEvoShield: Dual Non-Stationary Continual Defense for Open-World Multi-Agent System Attacks",
+    "link": "https://arxiv.org/abs/2607.19351",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-07-23T04:00:00.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.545Z",
+    "snippet": "arXiv:2607.19351v1 Announce Type: new Abstract: LLM-based multi-agent systems (LLM-MAS) are increasingly deployed in safety-critical applications, where adversaries inject malicious instructions through inter-agent communication to propagate harmful behaviors.",
+    "images": []
+  },
+  {
+    "id": "42a2217ed648a0af",
+    "title": "Benchmarking Confidential GPU Inference on NVIDIA H100 under Intel TDX",
+    "link": "https://arxiv.org/abs/2607.19353",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-07-23T04:00:00.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.545Z",
+    "snippet": "arXiv:2607.19353v1 Announce Type: new Abstract: Confidential computing is becoming a practical deployment requirement for AI inference workloads that process sensitive inputs or protect proprietary model assets. However, the performance cost of enabling confid",
+    "images": []
+  },
+  {
+    "id": "66b3dc0d61ed7516",
+    "title": "FormulaSPIN: Self-Play Fine-Tuning for Natural Language to Spreadsheet Formula Generation",
+    "link": "https://arxiv.org/abs/2607.19354",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-07-23T04:00:00.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.545Z",
+    "snippet": "arXiv:2607.19354v1 Announce Type: new Abstract: Spreadsheet applications are used by hundreds of millions worldwide, yet writing formulas remains a significant barrier. Existing approaches rely on static supervised data, which quickly saturates on limited anno",
+    "images": []
+  },
+  {
+    "id": "3a80119fcbf28a95",
+    "title": "Information Discernment in Large Language Models",
+    "link": "https://arxiv.org/abs/2607.19355",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-07-23T04:00:00.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.545Z",
+    "snippet": "arXiv:2607.19355v1 Announce Type: new Abstract: LLMs are increasingly used with external knowledge sources like the internet. Do they weigh information appropriately -- updating more for reliable sources (source discernment) and more when claims bring priors c",
+    "images": []
+  },
+  {
+    "id": "8a3bf299ad8ed67d",
+    "title": "NEXUS: Structured Runtime Safety for Tool-Using LLM Agents",
+    "link": "https://arxiv.org/abs/2607.19356",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-07-23T04:00:00.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.545Z",
+    "snippet": "arXiv:2607.19356v1 Announce Type: new Abstract: Tool-using LLM agents increasingly execute high-impact actions, making runtime safety monitoring essential. We present NEXUS (Neural EXecution Utility and Safety), a structured-plan safety monitor that applies a ",
+    "images": []
+  },
+  {
+    "id": "62bba97db8271a1c",
+    "title": "Stochastic Primal-Dual Decoding for Multiobjective Generative Recommender Systems",
+    "link": "https://arxiv.org/abs/2607.19357",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-07-23T04:00:00.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.545Z",
+    "snippet": "arXiv:2607.19357v1 Announce Type: new Abstract: Recent advances in recommender systems (RS) have shown substantial performance gains through generative modelling. In practice, recommendation often involves constructing slates -- ordered lists of items -- that ",
+    "images": []
+  },
+  {
+    "id": "f05a1bb1ba639d72",
+    "title": "LISA: Linear-Indexed Sparse Attention for Efficient Long-Context Reasoning",
+    "link": "https://arxiv.org/abs/2607.19358",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-07-23T04:00:00.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.545Z",
+    "snippet": "arXiv:2607.19358v1 Announce Type: new Abstract: Recent advances in long chain-of-thought reasoning models such as DeepSeek-R1 have led to increasingly longer inference context lengths under the test-time scaling paradigm. However, the O(n^2) computational comp",
+    "images": []
+  },
+  {
+    "id": "1ebe249c2c81c674",
+    "title": "Profile-Graph Memory for LLM Agents: Implicit Cross-Entity Traversal through Narrative Profiles",
+    "link": "https://arxiv.org/abs/2607.19359",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-07-23T04:00:00.000Z",
+    "fetchedAt": "2026-07-24T02:51:45.545Z",
+    "snippet": "arXiv:2607.19359v1 Announce Type: new Abstract: Long-term memory is essential for LLM agents that interact across sessions, yet current memory benchmarks primarily evaluate single-hop recall, leaving multi-hop association largely unmeasured. We make three cont",
+    "images": []
+  },
+  {
     "id": "5f00449ae50f1310",
     "title": "Hitler’s Austrian birthplace reopens as a police station to deter neo-Nazis",
     "link": "https://www.scmp.com/news/world/europe/article/3361533/hitlers-austrian-birthplace-reopens-police-station-deter-neo-nazis?utm_source=rss_feed",
@@ -544,7 +1183,12 @@
     "snippet": "The ⁠Iranian-aligned Houthis said on Thursday they struck two Saudi oil tankers as part of a naval blockade on Saudi Arabia, threatening to create a second chokepoint on global oil supplies alongside Iran’s near-closure of the Strait of Hormuz. Two weeks since",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/23/3d8d2a81-61a9-43cf-be8e-3738f4765201_361561bc.jpg?itok=M1GDMxPL&v=1784765026"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "adfd295065ba2b15",
@@ -5344,800 +5988,6 @@
     "snippet": "Moonshot AI releases Kimi K3 with 2.8 trillion parameters, ranking third globally behind Fable 5 and GPT-5.6 Sol, with open-weight release and API service.",
     "images": [
       "https://cms-image.pandaily.com/1/article1_e6769801a4.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "6e15e2c75a4f431c",
-    "title": "WAIC 2026 Top 10 Highlights: Chinese Chips Line Up in Full Force as AI Enters the Industrial Era",
-    "link": "https://pandaily.com/waic-2026-top-10-highlights-chinese-chips-jul2026",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-07-17T03:37:24.000Z",
-    "fetchedAt": "2026-07-17T13:43:56.687Z",
-    "snippet": "WAIC 2026 opens with 100+ chip companies, supernode clusters, humanoid robots, and 64 consumer AI products across three Shanghai zones.",
-    "images": [
-      "https://cms-image.pandaily.com/1/article2_fb9350fec2.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "97b380c3c8f7137c",
-    "title": "China Visual AI Leader SenseTime Declares End of Stitch-Monster Era With Open-Source Unified Vision Model",
-    "link": "https://pandaily.com/sensetime-sensenova-vision-open-source-jul2026",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-07-17T02:03:20.000Z",
-    "fetchedAt": "2026-07-17T02:50:35.469Z",
-    "snippet": "SenseTime open-sources SenseNova-Vision, a single model unifying detection, segmentation, depth prediction and 3D reconstruction, topping HuggingFace Any-to-Any Leaderboard globally.",
-    "images": [
-      "https://cms-image.pandaily.com/1/article5_152984cd6f.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "43c8d9147a88e125",
-    "title": "BXI Robotics Raises Millions as Humanoid Robot ODM: Full-Stack Self-Developed Motors, Controls, and Algorithms",
-    "link": "https://pandaily.com/bxi-robotics-odm-humanoid-funding-jul2026",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-07-17T02:03:04.000Z",
-    "fetchedAt": "2026-07-17T02:50:35.469Z",
-    "snippet": "BXI Robotics secures funding from Suochen Technology after Feirongda backing, providing full-stack humanoid ODM solutions from motors to algorithms with marathon-verified reliability.",
-    "images": [
-      "https://cms-image.pandaily.com/1/article4_1dc13d9e1f.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "93cac96c920ec3e5",
-    "title": "Trump’s intense attacks have failed to sway Iran. He’s trying again anyway",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3360857/trumps-intense-attacks-have-failed-sway-iran-hes-trying-again-anyway?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-07-17T01:17:12.000Z",
-    "fetchedAt": "2026-07-17T02:50:35.980Z",
-    "snippet": "President Donald ⁠Trump has ramped up US air strikes on Iran and threatened broader escalation, but there is ⁠little sign that a military strategy that has already failed to extract concessions from Tehran will succeed this time. With the collapse of an interi",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/17/06df4210-bed0-41c8-bbc4-3208ac0697a7_de555bed.jpg?itok=Lo11944b&v=1784251030"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "da725b48c737acf5",
-    "title": "Trump launches rare broadside against China on US election interference – as it happened",
-    "link": "https://www.scmp.com/news/us/article/3360854/trump-address-nation-iran-crisis-china-tensions-and-election-fight-intensify?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-07-17T00:44:21.000Z",
-    "fetchedAt": "2026-07-17T02:50:35.980Z",
-    "snippet": "US President Donald Trump will deliver a prime-time “Speech to the Nation” on Thursday at 9pm Eastern Time, or 9am Hong Kong time on Friday. Such addresses are typically reserved for major national moments. During his second term, Trump has used them to highli",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/17/1d18bb6f-b227-43a0-b425-32de8accb02a_ccd0d68f.jpg?itok=ttoYDtcF&v=1784255423"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "919fc7dd09ad0cf0",
-    "title": "US and Iran exchange blows in rekindled Middle East war",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3360852/us-and-iran-exchange-blows-rekindled-middle-east-war?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-07-16T23:53:22.000Z",
-    "fetchedAt": "2026-07-17T02:50:35.980Z",
-    "snippet": "The United States struck Iran and Tehran attacked US allies in the Gulf on Thursday as the foes battled over the vital Strait of Hormuz in the renewed Middle East war. The rekindled fighting came a month after the signing of a preliminary deal that aimed to en",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/17/7b97a223-dd40-44f1-ad86-1cc4b9b6db61_c3396493.jpg?itok=Q47EtDFY&v=1784245995"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c864a6cbcd2e020e",
-    "title": "US pounds Iran as Tehran threatens to ‘crush’ Middle East infrastructure",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3360852/us-and-iran-exchange-blows-rekindled-middle-east-war?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-07-16T23:53:22.000Z",
-    "fetchedAt": "2026-07-17T13:43:57.181Z",
-    "snippet": "The United States and Iran traded attacks on Friday, with Tehran targeting American assets across the Middle East in the biggest escalation since the two foes returned to outright war. A month after the two sides agreed a memorandum of understanding aimed at e",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/17/7b97a223-dd40-44f1-ad86-1cc4b9b6db61_c3396493.jpg?itok=Q47EtDFY&v=1784245995"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "7fffdf42e1141687",
-    "title": "Texas floods kill 2, with more storms to come",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3360850/texas-floods-kill-2-more-storms-come?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-07-16T23:24:40.000Z",
-    "fetchedAt": "2026-07-17T02:50:35.980Z",
-    "snippet": "Mandatory evacuations across the Texas Hill Country are under way as life-threatening flash floods wreck bridges and roads with more heavy rain expected overnight. A wide swathe of Texas is forecast to receive as much as 20cm (eight inches) of additional preci",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/17/fee99eb0-8971-4f6f-90b3-b1d2038b72dc_05e4a474.jpg?itok=nAg8tNN0&v=1784244275"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "f4a848daea18b4f5",
-    "title": "It&#039;s official: EU will force Google to share search data and open up AI on Android",
-    "link": "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-07-16T20:41:45.000Z",
-    "fetchedAt": "2026-07-17T02:50:35.472Z",
-    "snippet": "Google says these changes could endanger user privacy and security.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2024/03/europe-flag-digital-1152x648-1742412347.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2024/03/europe-flag-digital-500x500.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "4884d4ed55282f7e",
-    "title": "xAI can’t deny Grok makes CSAM anymore. So it’s suing users.",
-    "link": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-07-16T20:26:23.000Z",
-    "fetchedAt": "2026-07-17T02:50:35.473Z",
-    "snippet": "Elon Musk's xAI files first lawsuit against Grok user accused of making child sex images.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2233914428-1024x648.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2233914428-500x500.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "40153e4bbccbaf89",
-    "title": "Fear of humanoid robots spurs human workers to strike at Hyundai auto factory",
-    "link": "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-07-16T20:09:48.000Z",
-    "fetchedAt": "2026-07-17T02:50:35.473Z",
-    "snippet": "Hyundai aims to deploy 25,000 Atlas robots starting with US factories in 2028.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/07/Screenshot-2026-07-16-at-3.12.16-PM-1152x648.png",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/07/Screenshot-2026-07-16-at-3.12.16-PM-500x500.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "0396c1ffe7023276",
-    "title": "Italian police raid luxury brands Bulgari and Chanel over exploitation of Chinese workers",
-    "link": "https://www.scmp.com/news/world/europe/article/3360847/italian-police-raid-luxury-brands-bulgari-and-chanel-over-exploitation-chinese-workers?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-07-16T20:01:38.000Z",
-    "fetchedAt": "2026-07-17T02:50:35.980Z",
-    "snippet": "Italian police raided the offices of several luxury brands including Bulgari and Chanel over suspicions they used subcontractors employing Chinese workers, a prosecutor said Thursday. The other luxury brands included Brunello Cucinelli, Etro, Goyard Italie, Ja",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/17/3112b5bb-252d-4733-bd9f-26d66e8ffbcc_2953c7ce.jpg?itok=qJgSOEp4&v=1784236114"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "fce239b2f42450cb",
-    "title": "Linus Torvalds to critics of AI coding in Linux: \"Fork it. Or just walk away.\"",
-    "link": "https://arstechnica.com/ai/2026/07/linus-torvalds-to-critics-of-ai-coding-in-linux-fork-it-or-just-walk-away/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-07-16T19:18:23.000Z",
-    "fetchedAt": "2026-07-17T02:50:35.473Z",
-    "snippet": "Creator says he will \"very loudly ignore\" those arguing for a ban on AI tools.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-532502452-1152x648.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-532502452-500x500-1784227863.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "9be3ccef99c09fed",
-    "title": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
-    "link": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
-    "source": "VentureBeat AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-07-16T19:16:48.000Z",
-    "fetchedAt": "2026-07-17T02:50:35.827Z",
-    "snippet": "Across 107 enterprises, AI infrastructure spending is accelerating well ahead of the ability to see or steer its economics. Most organizations run their AI on a familiar base of hyperscalers and model-provider APIs, yet the next dollar is aimed at specialized",
-    "images": [
-      "https://images.ctfassets.net/jdtwqhzvc2n1/65A33lcUi9p0nBSloUI1Wo/5e5d26295bc879f0ea8845cecac65504/VentureBeat-Research.png?w=300&q=30"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "dffa506bf2625ec8",
-    "title": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials",
-    "link": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
-    "source": "VentureBeat AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-07-16T19:02:38.000Z",
-    "fetchedAt": "2026-07-17T02:50:35.828Z",
-    "snippet": "Across 107 enterprises, AI agents are being given real access to systems and data while the controls meant to contain them lag behind. More than half have already had a confirmed agent security incident or a near-miss; only about a third give every agent its o",
-    "images": [
-      "https://images.ctfassets.net/jdtwqhzvc2n1/3YcL8Sbx04RQsgnRvbYfs5/0567154029abc3d37ccfad9b6cc5f370/VentureBeat-Research-1.png?w=300&q=30"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "120b1449ae63840e",
-    "title": "Google Vids now lets you star in your own AI videos",
-    "link": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-07-16T18:32:54.000Z",
-    "fetchedAt": "2026-07-17T02:50:35.366Z",
-    "snippet": "Google is adding personalized AI avatars to Vids that let users create videos starring a digital version of themselves, alongside Gemini Omni-powered tools for generating and editing videos from prompts and reference images.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "a9bc05260d5f36ef",
-    "title": "Roblox launches an AI-powered game-creation feature in its mobile app",
-    "link": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-07-16T18:22:06.000Z",
-    "fetchedAt": "2026-07-17T02:50:35.367Z",
-    "snippet": "Roblox's new \"Build\" feature lets users generate basic games using a single text prompt.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c89363bf84f01c10",
-    "title": "Trump’s teleprompter operator allegedly made US$90,000 betting on his speeches",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3360845/trumps-teleprompter-operator-allegedly-made-us90000-betting-his-speeches?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-07-16T18:21:20.000Z",
-    "fetchedAt": "2026-07-17T02:50:35.980Z",
-    "snippet": "A teleprompter operator for Donald Trump has been suspended over allegations he placed bets with a prediction market on the content of the US president’s speeches, the White House said on Friday. White House Press Secretary Karoline Leavitt said the teleprompt",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/17/82af2f56-c40e-4d80-b49c-0a10295cb37e_82c36ef4.jpg?itok=ScD4gDaG&v=1784226072"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "ac902bf8d6ae81e2",
-    "title": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem — and most are still building the fix",
-    "link": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
-    "source": "VentureBeat AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-07-16T17:06:08.000Z",
-    "fetchedAt": "2026-07-17T02:50:35.828Z",
-    "snippet": "Across 101 enterprises, the infrastructure that feeds AI agents their business context is being built faster than it can be trusted. Retrieval-augmented generation is already the default context source, and provider-native retrieval has quietly overtaken the d",
-    "images": [
-      "https://images.ctfassets.net/jdtwqhzvc2n1/65A33lcUi9p0nBSloUI1Wo/5e5d26295bc879f0ea8845cecac65504/VentureBeat-Research.png?w=300&q=30"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e91ad66baec0fc70",
-    "title": "Linus Torvalds rebukes anti-AI stances in the Linux kernel code review process, says 'Linux is not one of those anti-AI projects' — creator embraces AI as just a tool and 'clearly a useful one'",
-    "link": "https://www.tomshardware.com/software/linux/linus-torvalds-rebukes-anti-ai-stances-in-the-linux-kernel-code-review-process-says-linux-is-not-one-of-those-anti-ai-projects-creator-embraces-ai-as-just-a-tool-and-clearly-a-useful-one",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-07-16T16:59:13.000Z",
-    "fetchedAt": "2026-07-17T02:50:35.744Z",
-    "snippet": "Linus Torvalds, Linux's creator and kernel manager, has seemingly taken an accepting stance of AI-assisted tooling.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/2X4Y7yST9zumKE45j4EDM8-1280-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "a909183d266ba27e",
-    "title": "AMD Ryzen 7 7700X3D is exclusive to Newegg in North America — $329 CPU won't be available at other vendors until at least Q4",
-    "link": "https://www.tomshardware.com/pc-components/cpus/amd-ryzen-7-7700x3d-is-exclusive-to-newegg-in-north-america-usd329-cpu-wont-be-available-at-other-vendors-until-at-least-q4",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-07-16T16:47:21.000Z",
-    "fetchedAt": "2026-07-17T02:50:35.744Z",
-    "snippet": "AMD's newest CPU, the Ryzen 7 7700X3D, costs $329 and is available exclusively at Newegg in Canada and the United States till the end of Q3 2026. It's a great gaming performer but there are better options if you want a good all-rounder chip for professional ta",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/BrQoKe4K2uytazV7CvK7BS-1280-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "4cff6e04742ac805",
-    "title": "The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem, not a coverage problem — and most are shipping to production anyway",
-    "link": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
-    "source": "VentureBeat AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-07-16T16:40:48.000Z",
-    "fetchedAt": "2026-07-17T02:50:35.829Z",
-    "snippet": "Across 157 enterprises, organizations are granting AI agents more autonomy while trusting the evaluations meant to gate that autonomy less. Half have already shipped an agent that passed their internal evaluations and then failed a customer in production; only",
-    "images": [
-      "https://images.ctfassets.net/jdtwqhzvc2n1/3YcL8Sbx04RQsgnRvbYfs5/0567154029abc3d37ccfad9b6cc5f370/VentureBeat-Research-1.png?w=300&q=30"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "925e44bde5a9e73a",
-    "title": "Google’s AI Mode now lets you link and interact with select apps",
-    "link": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-07-16T16:00:00.000Z",
-    "fetchedAt": "2026-07-17T02:50:35.367Z",
-    "snippet": "With this new update, Google is expanding AI Mode beyond answering questions and into completing tasks across the apps they use regularly.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "4c49f7f280cdb6f4",
-    "title": "Energy IPOs surge as investors hunt for ways to play AI boom",
-    "link": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-07-16T15:48:21.000Z",
-    "fetchedAt": "2026-07-17T02:50:35.473Z",
-    "snippet": "Companies coming to market are raising money at fastest pace this century.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/07/ftcms_2c2b4618-eb73-4160-997a-8f8bb5485e20-1152x648.jpeg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/07/ftcms_2c2b4618-eb73-4160-997a-8f8bb5485e20-500x500.jpeg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "246fb50b679194f5",
-    "title": "Tower Semiconductor revives shuttered Panasonic-era fab in $3 billion Japan photonics expansion — METI-backed plan targets $3.6 billion revenue by 2028",
-    "link": "https://www.tomshardware.com/tech-industry/semiconductors/tower-semiconductor-revives-shuttered-panasonic-era-fab-in-3-billion-japan-photonics-expansion",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-07-16T15:39:09.000Z",
-    "fetchedAt": "2026-07-17T02:50:35.745Z",
-    "snippet": "Tower Semiconductor has announced a dual-track expansion of its 300mm silicon photonics, silicon germanium, and advanced packaging operations in Japan",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/kbCGPpCx2dCNjLHjSftbjj-1280-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "0653f787dc5713dd",
-    "title": "Yes, you can now order DoorDash from the command line",
-    "link": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-07-16T15:38:55.000Z",
-    "fetchedAt": "2026-07-17T02:50:35.368Z",
-    "snippet": "DoorDash is opening a limited beta of dd-cli, a command-line tool that lets developers and AI agents search stores, build carts, and place orders from the terminal, marking another step toward software designed for AI agents instead of just humans.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "d083d06038f93834",
-    "title": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
-    "link": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-07-16T15:02:00.000Z",
-    "fetchedAt": "2026-07-17T02:50:35.368Z",
-    "snippet": "Drawing on more than a decade spent helping build some of the world's most influential AI systems, including research that later informed the development of ChatGPT, Andrew Dai explains why he believes visual AI is one of the next major frontiers in artificial",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "8f47cf917a75f9ff",
-    "title": "Why AMI Labs’ Alexandre LeBrun won’t call his AI &#8216;AGI’ or &#8216;superintelligence’",
-    "link": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-07-16T14:40:00.000Z",
-    "fetchedAt": "2026-07-17T02:50:35.368Z",
-    "snippet": "While everyone in AI is chasing \"superintelligence,\" Alexandre LeBrun, CEO of Yann LeCun’s world model startup, AMI Labs, dismisses the word.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "bde78bed62acffae",
-    "title": "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8",
-    "link": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-07-16T14:26:29.000Z",
-    "fetchedAt": "2026-07-17T02:50:35.368Z",
-    "snippet": "The FT reports Kimi K3 will be the largest open AI model from China, with a parameter count between 2 trillion and 3 trillion.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "70e71693be61f6be",
-    "title": "Italian court sentences ex-highway chief to 12 years’ jail over Genoa bridge disaster",
-    "link": "https://www.scmp.com/news/world/europe/article/3360837/italian-court-sentences-ex-highway-chief-12-years-jail-over-genoa-bridge-disaster?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-07-16T13:47:34.000Z",
-    "fetchedAt": "2026-07-16T13:59:17.568Z",
-    "snippet": "An Italian court on Thursday sentenced the former head of motorway operator Autostrade per l’Italia to 12 years for his role in a deadly bridge disaster eight years ago. Giovanni Castellucci was found guilty of vehicle homicide and negligence related to the co",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/16/0f59aff6-c1d7-4878-a778-a5eceb567952_e39e0e5a.jpg?itok=-RdhEwLe&v=1784209653"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "6cb21d7dd69e7606",
-    "title": "Nvidia and Japan unveil world's first national AI infrastructure — Noetra consortium to build a 140MW Rubin AI factory with 27,500 GPUs",
-    "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-and-japans-noetra-consortium-to-build-140mw-rubin-ai-factory-with-27500-gpus",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-07-16T13:43:58.000Z",
-    "fetchedAt": "2026-07-16T13:59:17.065Z",
-    "snippet": "Nvidia today announced that it's working with Japan's Noetra Corp. to build a 140-megawatt AI factory packing 27,500 Rubin GPUs and 13,750 Vera CPUs.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/HQTDWbJbjjszzN5enPEDTR-1280-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "ddb6848ca4f8ac9e",
-    "title": "Apple Intelligence approved for launch in China with Alibaba and Baidu",
-    "link": "https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-07-16T13:17:59.000Z",
-    "fetchedAt": "2026-07-16T13:59:16.724Z",
-    "snippet": "The deal, which was rumored to be in the works last year, marks an important step for Apple's AI ambitions in a key market.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "17e96aebcc4f59f1",
-    "title": "AMD Ryzen 7 7700X3D review: A slower 7800X3D, but not necessarily a cheaper one",
-    "link": "https://www.tomshardware.com/pc-components/cpus/amd-ryzen-7-7700x3d-cpu-review",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-07-16T13:00:00.000Z",
-    "fetchedAt": "2026-07-16T13:59:17.065Z",
-    "snippet": "The 7700X3D is a 7800X3D with lower boost clock speeds, but it doesn’t deliver the same value as we’ve seen with previous versions of this segmentation.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/Xd378i3ZkEmbM7A7Tzt59S-1280-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/nNRcdCS5bBBpCYobxFnyCS.png",
-      "https://cdn.mos.cms.futurecdn.net/KqFwKLmM2FbjY8dk5kpuvL.png",
-      "https://cdn.mos.cms.futurecdn.net/RtPRCGLRnjx3vFcMh97BrL.png",
-      "https://cdn.mos.cms.futurecdn.net/tXrsmTuj5AMbnaWCqxzxtL.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "0ace5ec02dc9129e",
-    "title": "UK court jails young hackers for massive London transport cyberattack",
-    "link": "https://www.scmp.com/news/world/europe/article/3360830/uk-court-jails-young-hackers-massive-london-transport-cyberattack?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-07-16T12:50:42.000Z",
-    "fetchedAt": "2026-07-16T13:59:17.568Z",
-    "snippet": "A UK court on Thursday jailed two young men for a 2024 cyberattack on London’s public transport operator that exposed the details of millions of customers, in one of Britain’s biggest data breaches. Thalha Jubair, 20, from East London, and 18-year-old Owen Flo",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/16/be46d635-efa2-422f-bd4a-32026f2fffcd_33b6817b.jpg?itok=nGjmDRWF&v=1784206241"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "43b1d2bba069b1db",
-    "title": "Elon Musk spent estimated $1 billion on an energy company to power xAI, filings reveal — APR Energy owns a fleet of trailer-mounted gas and diesel turbines capable of generating more than 1 gigawatt",
-    "link": "https://www.tomshardware.com/tech-industry/data-centers/elon-musk-spent-estimated-usd1-billion-on-an-energy-company-to-power-xai-filings-reveal-apr-energy-owns-a-fleet-of-trailer-mounted-gas-and-diesel-turbines-capable-of-generating-more-than-1-gigawatt",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-07-16T12:45:17.000Z",
-    "fetchedAt": "2026-07-16T13:59:17.067Z",
-    "snippet": "An FTC document revealed that Elon Musk purchased APR Energy, a mobile natural gas and diesel turbine generator provider, for an estimated $1 billion. The deal wasn't announced publicly and was only discovered after the FTC filing.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/77phirBmFdjwgvvZh2Pr8Q-1280-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "502b7cdd8821ab9b",
-    "title": "TSMC commits another $100 billion to Arizona for at least four more 2nm fabs — 2026 capex could hit $64 billion following another record quarterly earnings",
-    "link": "https://www.tomshardware.com/tech-industry/tsmc-commits-another-100-billion-to-arizona-for-at-least-four-more-2nm-fabs",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-07-16T12:10:51.000Z",
-    "fetchedAt": "2026-07-16T13:59:17.067Z",
-    "snippet": "TSMC will invest an additional $100 billion in the U.S. to build at least four more chipmaking plants and advanced packaging facilities in Arizona.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/EYMn2KePtE4e2hVbbVa8FY-1280-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/p2QqhVFP7dTRWfeVBCYBYV.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "de3fa9045dab7e92",
-    "title": "The Download: OpenAI unveils GPT-Red and heat pumps rise in the US",
-    "link": "https://www.technologyreview.com/2026/07/16/1140600/the-download-openai-unveils-gpt-red-heat-pumps-rise-us/",
-    "source": "MIT Technology Review",
-    "category": "US & Global AI",
-    "publishedAt": "2026-07-16T12:10:00.000Z",
-    "fetchedAt": "2026-07-16T13:59:16.796Z",
-    "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer OpenAI has built an LLM super-hacker called GPT-Re",
-    "images": [
-      "https://wp.technologyreview.com/wp-content/uploads/2024/12/bed.jpg?w=2724"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "b47620f49df6d9cb",
-    "title": "OpenAI's first hardware device is an RGB macropod — 'Codex Micro' features 13 low-profile keys and a joystick for controlling AI coding agents",
-    "link": "https://www.tomshardware.com/peripherals/keyboards/openais-first-hardware-device-is-an-rgb-macropod-codex-micro-features-13-low-profile-keys-and-a-joystick-for-controlling-ai-coding-agents",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-07-16T11:00:00.000Z",
-    "fetchedAt": "2026-07-16T13:59:17.067Z",
-    "snippet": "OpenAI has launched the \"Codex Micro\" marcopad in collaboration with Work Louder. It uses RGB to provide feedback about your coding agents in Codex, and features various customizable inputs to maximize your vibecoding potential.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/FfNHvj66S9MmZ5erWjsqAX-1280-80.png",
-      "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7.jpg",
-      "https://cdn.mos.cms.futurecdn.net/xE7FoeBrSyYRSie3gbrLLT.png",
-      "https://cdn.mos.cms.futurecdn.net/P95Q2TCjJTzZTBNLQXTCQf.jpg",
-      "https://cdn.mos.cms.futurecdn.net/nLbxZsoAmr5vhXgThJinme.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "ff6dc78e026bb453",
-    "title": "German far-right activist sent to men’s prison despite gender change",
-    "link": "https://www.scmp.com/news/world/europe/article/3360815/german-far-right-activist-sent-mens-prison-despite-gender-change?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-07-16T10:35:47.000Z",
-    "fetchedAt": "2026-07-16T13:59:17.568Z",
-    "snippet": "German far-right activist Marla-Svenja Liebich, who legally changed gender to a woman in 2024, was taken to a men’s prison after being extradited to Germany from the Czech Republic, officials said on Thursday. Liebich arrived in Germany on Wednesday and was in",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/16/7f76d14d-7d7d-47ad-a0a9-1da10957adb1_24da33cf.jpg?itok=_Z0g9CJ7&v=1784198146"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c2cafe8791b7b6c0",
-    "title": "Get an RTX 5080 gaming laptop for just $2,199 thanks to this HP Omen Max deal — save $1,500 on AMD Ryzen 9 beast with 32GB of RAM",
-    "link": "https://www.tomshardware.com/laptops/gaming-laptops/get-an-rtx-5080-gaming-laptop-for-just-usd2-199-thanks-to-this-hp-omen-max-deal-save-usd1-500-on-amd-ryzen-9-beast-with-32gb-of-ram",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-07-16T10:33:11.000Z",
-    "fetchedAt": "2026-07-16T13:59:17.068Z",
-    "snippet": "Get $1,500 off this HP Omen Max gaming laptop with AMD Ryzen 9, RTX 5080, and 32GB of RAM.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/imw7gtbuak3U8BhKgkY6FA-1280-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/RQT53VZY9nrPRLfMQa9MZB.jpg",
-      "https://cdn.mos.cms.futurecdn.net/sjxzsrhUrXUdgkQn78FNJS.png",
-      "https://cdn.mos.cms.futurecdn.net/PeGmAfAuQNBdABEvuHgm7S.png",
-      "https://cdn.mos.cms.futurecdn.net/NMmY2KyWEcnnm7cHsPbnBS.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "2483215ed0053a55",
-    "title": "Zelensky faces fury on Ukrainian streets after dropping popular defence minister",
-    "link": "https://www.scmp.com/news/world/europe/article/3360805/zelensky-faces-fury-ukrainian-streets-after-dropping-popular-defence-minister?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-07-16T09:26:11.000Z",
-    "fetchedAt": "2026-07-16T13:59:17.569Z",
-    "snippet": "Large protests erupted in several Ukrainian cities on Thursday morning against the removal of popular defence minister Mykhailo Fedorov. More than a thousand people gathered on a central square in Kyiv, singing the national anthem, waving Ukrainian and EU flag",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/16/00b5693f-7c70-41fa-919f-9f4598d27558_14728e67.jpg?itok=nNS7lTok&v=1784193969"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "713ce90cf944e1c6",
-    "title": "Recreating 10 km/s Flight Conditions: How China JF-22 Hypersonic Wind Tunnel Works",
-    "link": "https://pandaily.com/jf22-hypersonic-wind-tunnel-10km-jul2026",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-07-16T08:26:27.000Z",
-    "fetchedAt": "2026-07-16T13:59:16.851Z",
-    "snippet": "China JF-22 hypersonic wind tunnel can simulate flight at 10 km/s and 20,000K gas temperature, supporting development of hypersonic aircraft and spaceplanes for 2-hour global travel.",
-    "images": [
-      "https://cms-image.pandaily.com/1/article3_85853600e6.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "63744a81f94ab567",
-    "title": "Scrapped Before Launch: ByteDance Doubao AI Glasses Gen 2 Speeds Ahead With Dual Models as Meta Ray-Ban Rivalry Heats Up",
-    "link": "https://pandaily.com/doubao-ai-glasses-gen2-bytedance-jul2026",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-07-16T08:24:36.000Z",
-    "fetchedAt": "2026-07-16T13:59:16.852Z",
-    "snippet": "ByteDance cancels first-gen Doubao AI glasses for being too generic, accelerates dual-model second generation while planning third-gen, as AI glasses market surges 130% year-on-year.",
-    "images": [
-      "https://cms-image.pandaily.com/1/article5_f3909a046c.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "8efae9f202990678",
-    "title": "LimX Dynamics Drops New Demo That Challenges Figure: China Humanoid Now Rivals Silicon Valley Best",
-    "link": "https://pandaily.com/limx-dynamics-demo-figure-humanoid-jul2026",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-07-16T08:24:22.000Z",
-    "fetchedAt": "2026-07-16T13:59:16.852Z",
-    "snippet": "LimX Dynamics Oli robot completes 3-minute uninterrupted household chores video after $200M funding round, placing China humanoid robotics on par with Figure capabilities.",
-    "images": [
-      "https://cms-image.pandaily.com/1/article4_27a2a21326.png"
     ],
     "titleZh": "",
     "snippetZh": "",
