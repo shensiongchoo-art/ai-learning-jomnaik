@@ -1,5 +1,59 @@
 [
   {
+    "id": "2f5fc9103efefb3f",
+    "title": "As Reddit stock falls, CEO questions value of Google&#039;s AI Overviews",
+    "link": "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/",
+    "source": "Ars Technica AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-08-01T12:30:36.000Z",
+    "fetchedAt": "2026-08-01T13:26:26.069Z",
+    "snippet": "Reddit may still be considering ending its licensing deal with Google.",
+    "images": [
+      "https://cdn.arstechnica.net/wp-content/uploads/2018/04/GettyImages-893877316-1152x648.jpg",
+      "https://cdn.arstechnica.net/wp-content/uploads/2018/04/GettyImages-893877316-500x500.jpg"
+    ]
+  },
+  {
+    "id": "c6ffae1e11056bf1",
+    "title": "Anthropic's Claude hacked three real-life companies during security capabilities test — test environment with internet access and unwitting targets' lax cybersecurity practices led to bots running rampant",
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-claude-hacked-three-real-life-companies-during-security-capabilities-test-test-environment-with-internet-access-and-unwitting-targets-lax-cybersecurity-practices-led-to-bots-running-rampant",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-08-01T12:30:00.000Z",
+    "fetchedAt": "2026-08-01T13:26:26.159Z",
+    "snippet": "Anthropic's Claude hacked three real-life companies during security capabilities test — open test environment and unwitting targets' lax cybersecurity practices led bots run rampant",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/XuGPNAabZgP3ChkaveBMUn-1280-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7.jpg"
+    ]
+  },
+  {
+    "id": "1be3981762356501",
+    "title": "Tankers targeted in twin incidents near Strait of Hormuz off Oman",
+    "link": "https://www.scmp.com/news/world/middle-east/article/3362633/tankers-targeted-twin-incidents-near-strait-hormuz-oman?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-01T07:21:46.000Z",
+    "fetchedAt": "2026-08-01T13:26:26.782Z",
+    "snippet": "The United ⁠Kingdom Maritime Trade Operations (UKMTO) ⁠said on Saturday it had received reports of two maritime incidents off Oman, including one in which a tanker was struck by ‌an unknown projectile. In the first incident, a tanker was hit about 11 nautical ",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/01/a9a922f4-130c-4706-ae43-76666ff19462_6caae8e5.jpg?itok=13Z-NRfQ&v=1785568900"
+    ]
+  },
+  {
+    "id": "5e975ad8842bd38a",
+    "title": "France, Italy tighten borders after 60,000 migrants enter Spain’s Ceuta",
+    "link": "https://www.scmp.com/news/world/europe/article/3362625/france-italy-tighten-borders-after-60000-migrants-enter-spains-ceuta?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-01T03:54:50.000Z",
+    "fetchedAt": "2026-08-01T13:26:26.782Z",
+    "snippet": "France and Italy bolstered border controls on Saturday after about 60,000 people crossed into Spain’s enclave in North Africa, sparking one of the largest migrant crises for the European Union in recent years. The migrants entered Ceuta from Morocco, the encla",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/01/bf77a984-6bbe-496f-b6bc-b613dee0cf01_91314f7d.jpg?itok=czP_Dvvc&v=1785556483"
+    ]
+  },
+  {
     "id": "df40489733a016e3",
     "title": "4 killed in Russian strikes on Ukraine as Zelensky pushes Trump for Patriot missiles",
     "link": "https://www.scmp.com/news/world/europe/article/3362622/4-killed-russian-strikes-ukraine-zelensky-pushes-trump-patriot-missiles?utm_source=rss_feed",
@@ -8,6 +62,24 @@
     "publishedAt": "2026-08-01T02:29:42.000Z",
     "fetchedAt": "2026-08-01T03:14:25.801Z",
     "snippet": "Russian strikes on Ukraine’s capital killed at least four people and wounded more than a dozen others, local officials said on Saturday, after Kyiv’s mayor warned of a ballistic missile attack. It comes after the United Nations found June was the deadliest mon",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/01/0f1d0ef9-b022-4e61-a98d-70a1041076c1_aa8fe846.jpg?itok=oKQmZmDH&v=1785551374"
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "70cc8ddf92ba8eb3",
+    "title": "9 killed in Russian strikes on Ukraine as Zelensky pushes Trump for Patriot missiles",
+    "link": "https://www.scmp.com/news/world/europe/article/3362622/4-killed-russian-strikes-ukraine-zelensky-pushes-trump-patriot-missiles?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-01T02:29:42.000Z",
+    "fetchedAt": "2026-08-01T13:26:26.782Z",
+    "snippet": "Russian strikes on Ukraine’s capital killed at least nine people and wounded more than a dozen others, local officials said on Saturday, after Kyiv’s mayor warned of a ballistic missile attack. It comes after the United Nations found June was the deadliest mon",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/01/0f1d0ef9-b022-4e61-a98d-70a1041076c1_aa8fe846.jpg?itok=oKQmZmDH&v=1785551374"
     ]
@@ -23,7 +95,12 @@
     "snippet": "ByteDance restructures its B-end AI business: Feishu product and Doubao teams merge under Zhao Qi, GTM consolidates into Volcano Engine, ending Feishu independent BU status.",
     "images": [
       "https://cms-image.pandaily.com/1/article3_8672b33237.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "2fd2567bbff4cd4d",
@@ -36,7 +113,12 @@
     "snippet": "OPPO A7 Pro Max joins the 10,000mAh club with spherically structured silicon-carbon, as mainstream Chinese brands race into the 10K era driven by AI inference power and 35% share for 6000mAh-plus phones.",
     "images": [
       "https://cms-image.pandaily.com/1/article2_11f0947390.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "3279e8a078c5c2d9",
@@ -49,7 +131,12 @@
     "snippet": "CXMT LPDDR6 development validation nearing completion, 12,800 Mbps design rate, 16Gb density, positioning for H2 2026 mass production against SK Hynix as Apple evaluates CXMT DRAM.",
     "images": [
       "https://cms-image.pandaily.com/1/article1_b660d287c5.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e79727c03477ed7a",
@@ -62,7 +149,12 @@
     "snippet": "The US Justice Department moved Friday to dismiss a criminal case charging a former Olympian with deliberately damaging the Lincoln Memorial Reflecting Pool. Government lawyers said in a 20-page court filing that information provided since the indictment of Da",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/01/e877f6c0-a819-403b-94d2-500b59bac0b7_e33022ab.jpg?itok=fn_8aDua&v=1785539458"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "3d8a7c4f5d785c6f",
@@ -73,7 +165,12 @@
     "publishedAt": "2026-07-31T22:47:26.000Z",
     "fetchedAt": "2026-08-01T03:14:24.982Z",
     "snippet": "OpenAI has reportedly found evidence of additional agent misbehavior as it looks into the incident that occurred with Hugging Face.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "feb6e915793c56bc",
@@ -86,7 +183,12 @@
     "snippet": "Chinese ⁠government buyers bought at least eight ⁠cargoes of US soybeans on Friday for shipment from US Gulf Coast terminals and six cargoes for shipment from Pacific Northwest ports in October and November, two US traders with knowledge of the deals said. The",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/01/9e26d3e1-bedf-4b0d-961a-1e87270d4c97_b3cc7136.jpg?itok=w8s_fiex&v=1785535112"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "013431cbe6fec7cc",
@@ -100,7 +202,12 @@
     "images": [
       "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2218358312-1024x648.jpg",
       "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2218358312-500x500.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "ca013a5e277bf3a5",
@@ -113,7 +220,12 @@
     "snippet": "Google rolled back a new feature on Friday that allowed Google Earth users to generate AI visualisations on top of the service’s satellite imagery, following a furious backlash from researchers and open-source intelligence experts about the potential for disin",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/01/c203494f-35cd-4de3-a2f6-0f8b681e56c6_7a734b6e.jpg?itok=k971tGsl&v=1785534558"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "820596056fd4c572",
@@ -124,7 +236,12 @@
     "publishedAt": "2026-07-31T21:07:45.000Z",
     "fetchedAt": "2026-08-01T03:14:24.983Z",
     "snippet": "India's app market generated a record $345 million in Q2.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "0a90b055323b93c9",
@@ -138,7 +255,12 @@
     "images": [
       "https://cdn.arstechnica.net/wp-content/uploads/2026/07/robot-in-handcuffs-1152x648.jpg",
       "https://cdn.arstechnica.net/wp-content/uploads/2026/07/robot-in-handcuffs-500x500.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e3bfdb6519c4b523",
@@ -152,7 +274,12 @@
     "images": [
       "https://cdn.arstechnica.net/wp-content/uploads/2026/07/Google-Earth-AI-generated-image-of-Googleplex-on-fire-1152x648.png",
       "https://cdn.arstechnica.net/wp-content/uploads/2026/07/Google-Earth-AI-generated-image-of-Googleplex-on-fire-500x500.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "ecb93455ba90a6f9",
@@ -163,7 +290,12 @@
     "publishedAt": "2026-07-31T19:47:28.000Z",
     "fetchedAt": "2026-08-01T03:14:24.983Z",
     "snippet": "A tool that allowed anyone to generate fake AI-generated imagery and superimpose it over real Google Earth maps quickly spurred backlash.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "5e345bae2081ce09",
@@ -176,7 +308,12 @@
     "snippet": "The US Marine Corps says the pilot of an F-35B stealth fighter is expected to live after ejecting from the jet before it crashed in California. The jet went down on Friday near the Miramar airbase in San Diego. “The pilot ejected, was transported to a local me",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/01/dffa13c2-e62e-4313-9ec6-dd810c352d29_2296921a.jpg?itok=9Bn7APb7&v=1785526165"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "9abc9092cd2de075",
@@ -190,7 +327,12 @@
     "images": [
       "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2277100086-1152x648.jpg",
       "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2277100086-500x500.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "d22209d977eee3c1",
@@ -203,7 +345,12 @@
     "snippet": "US President Donald Trump said on ⁠Friday that America has not agreed to Ukraine building Patriot missiles, but that talks are ongoing, adding that the US must be “very careful about letting somebody build them”. Trump said during a meeting with Ukrainian Pres",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/01/a446b2de-b299-4ffe-bc6d-3625b35d8c12_45b832cd.jpg?itok=ngmeAvPg&v=1785522927"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "7fd6dab641ca4209",
@@ -217,7 +364,12 @@
     "images": [
       "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2150797132-1152x648.jpg",
       "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2150797132-500x500.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a3d517d517c189ac",
@@ -230,7 +382,12 @@
     "snippet": "Italy said on Friday it ⁠was suspending the EU’s ⁠border-free Schengen arrangements with Spain for one month in ⁠response to a mass influx of migrants into the Spanish enclave of Ceuta from neighbouring Morocco. Italy does not share a land border with Spain bu",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/01/6216cd62-9460-43d9-b1e7-147f9ad670f1_de15da4d.jpg?itok=arwKmBZY&v=1785519550"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "922b3e200b045a66",
@@ -241,7 +398,12 @@
     "publishedAt": "2026-07-31T17:26:32.000Z",
     "fetchedAt": "2026-08-01T03:14:24.984Z",
     "snippet": "After years of pushing full speed ahead on AI,&#160;OpenAI CEO&#160;Sam Altman says&#160;maybe it’s&#160;time for the AI industry to “pace” itself. The comments came&#160;just days after one of OpenAI’s own models broke out of its test environment and got tang",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "91f11a3282ee5284",
@@ -252,7 +414,12 @@
     "publishedAt": "2026-07-31T16:49:08.000Z",
     "fetchedAt": "2026-08-01T03:14:24.984Z",
     "snippet": "Snapchat has adjusted its recommendation systems to ensure that only videos created by real people are eligible for Spotlight recommendations, taking a stance against AI slop.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "7efb6671b59ba1b2",
@@ -266,7 +433,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/8q7pqQ9jbcKJsrQtT9jUBT-1280-80.png",
       "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "43e621a65a403226",
@@ -277,7 +449,12 @@
     "publishedAt": "2026-07-31T16:08:18.000Z",
     "fetchedAt": "2026-08-01T03:14:24.984Z",
     "snippet": "Apple CEO Tim Cook envisions users being able to buy more compute for Siri AI via Apple's existing iCloud+ subscriptions.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "3ec288cb40aff035",
@@ -288,7 +465,12 @@
     "publishedAt": "2026-07-31T15:16:17.000Z",
     "fetchedAt": "2026-08-01T03:14:24.984Z",
     "snippet": "SpaceX is building a new power plant for xAI's Colossus data centers, but it won't remove existing, unpermitted turbines for many more months.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "38b029c4a7928227",
@@ -305,7 +487,12 @@
       "https://cdn.mos.cms.futurecdn.net/PFdiiToD8pdapEHfXiooeA.jpg",
       "https://cdn.mos.cms.futurecdn.net/ZM7LBTVrKUNF6gdWYiGgYA.jpg",
       "https://cdn.mos.cms.futurecdn.net/Navqvwq5sngJc3pWrQVgpA.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "766bc90486d2d309",
@@ -319,7 +506,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/SgXaUdd7c7vtWjuQSLNQjh-1280-80.png",
       "https://cdn.mos.cms.futurecdn.net/VPyeSff6cTX75g5wRsHqRc.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "f2a964513b361c6c",
@@ -330,7 +522,12 @@
     "publishedAt": "2026-07-31T14:47:11.000Z",
     "fetchedAt": "2026-08-01T03:14:24.984Z",
     "snippet": "The startup is building voice models designed to make AI phone calls pass the Turing test.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "3d4746bb62ef5cfe",
@@ -343,7 +540,12 @@
     "snippet": "Hungary’s only nuclear power plant will shut down for the first time in its history due to record-low water levels on the Danube River, Prime Minister Péter Magyar said on Friday, adding that the plant may not come back online for several weeks as the river is",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/31/0054238b-1db5-4b34-b2ac-916267f67466_d9fdd538.jpg?itok=-osokLF_&v=1785508672"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "501d8ae1247b5c9b",
@@ -393,7 +595,12 @@
     "snippet": "US President Donald Trump on Friday hailed a “great breakthrough” in the Middle East, saying that the Board of Peace – the body he created to oversee Gaza’s governance, security and reconstruction – will lead the process of disarming Hamas. Speaking at an open",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/01/de1fea52-4b50-4335-afbb-68786ebbb81e_55419f55.jpg?itok=sXY8BOKe&v=1785532099"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "146aa49d3a9f1d0d",
@@ -404,7 +611,12 @@
     "publishedAt": "2026-07-31T14:00:00.000Z",
     "fetchedAt": "2026-08-01T03:14:24.984Z",
     "snippet": "After years of pushing full speed ahead on AI,&#160;OpenAI CEO&#160;Sam Altman says&#160;maybe it’s&#160;time for the AI industry to “pace” itself. The comments came&#160;just days after one of OpenAI’s own models broke out of its test environment and got tang",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e1eba8091ee10ff7",
@@ -5983,94 +6195,6 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/YCD6vXEaxZmUtf4U2bhHSY-1280-80.png",
       "https://cdn.mos.cms.futurecdn.net/F3cnj5Py376f2gEk83WU3i.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "cbd1b004634b9be3",
-    "title": "Nvidia and SK Group enter $500 billion AI partnership — plan to supercharge AI infrastructure with next-gen memory and massive AI factories",
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-and-sk-group-enter-usd500-billion-ai-partnership-plan-to-supercharge-ai-infrastructure-with-next-gen-memory-and-massive-ai-factories",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-07-25T13:55:35.000Z",
-    "fetchedAt": "2026-07-26T03:15:44.081Z",
-    "snippet": "Nvidia and SK Group enter $500 billion strategic partnership focused on long-term memory supply, 2 GW AI data center, and future AI infrastructure",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/ibEpXbFzhNegj42rkqPzgZ-1280-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "bdbd962d953cd459",
-    "title": "One fallen power line exposed a growing AI data center problem. Here’s how to fix it.",
-    "link": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-07-25T13:05:00.000Z",
-    "fetchedAt": "2026-07-25T13:39:43.714Z",
-    "snippet": "A close call in Northern Virginia revealed just how poorly data centers respond to grid disruptions. Here's how to fix the problem.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "1423fd3d4d5e894e",
-    "title": "1 dead after small plane crashes into house in Germany",
-    "link": "https://www.scmp.com/news/world/europe/article/3361848/1-dead-after-small-plane-crashes-house-germany?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-07-25T12:46:10.000Z",
-    "fetchedAt": "2026-07-25T13:39:44.272Z",
-    "snippet": "At least one person died when a light aircraft crashed into a single-family home in the northern German state of Lower Saxony on Saturday. A police spokesman reported that one body was recovered from inside the aircraft in Ganderkesee, near Bremen. It was init",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/25/d77db96b-6f2e-49f3-84a4-5557724d2653_5aa680a2.jpg?itok=bpDsbgQB&v=1784983569"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e2f657a3864dc1d5",
-    "title": "2 dead after small plane crashes into house in Germany",
-    "link": "https://www.scmp.com/news/world/europe/article/3361848/1-dead-after-small-plane-crashes-house-germany?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-07-25T12:46:10.000Z",
-    "fetchedAt": "2026-07-26T03:15:44.505Z",
-    "snippet": "Two men died when a light aircraft crashed into a single-family home in the northern German state of Lower Saxony on Saturday. A police spokesman reported that initially one body was recovered from inside the aircraft in Ganderkesee, near Bremen. The second bo",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/25/d77db96b-6f2e-49f3-84a4-5557724d2653_5aa680a2.jpg?itok=bpDsbgQB&v=1784983569"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "eb2f04855a51fae6",
-    "title": "Game Compressor can save you hundreds of GB across your game library — as storage prices remain high, utility leverages Windows' built-in LZX compression for substantial space savings",
-    "link": "https://www.tomshardware.com/pc-components/storage/game-compressor-can-save-you-hundreds-of-gigs-across-your-game-library-usd6-utility-leverages-windows-built-in-lzx-compression-for-substantial-space-savings",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-07-25T11:00:00.000Z",
-    "fetchedAt": "2026-07-25T13:39:44.088Z",
-    "snippet": "Game Compressor leverages Windows' built-in LZX compression for substantial space savings and can save you hundreds of gigs across your game library.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/Sa3JjkGH2ibKFh5khdocHo-1280-80.png"
     ],
     "titleZh": "",
     "snippetZh": "",
