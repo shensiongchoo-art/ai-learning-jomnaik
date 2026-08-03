@@ -1,5 +1,159 @@
 [
   {
+    "id": "291548b701293324",
+    "title": "Tsinghua Team Open-Sources VeriLoop Coder-E1: Evidence-Governed Spiral Drives Verifiable Recursive Self-Improvement for Repository-Level Code Repair",
+    "link": "https://pandaily.com/tsinghua-veriloop-coder-e1-open-source-jul2026",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-08-03T01:39:28.000Z",
+    "fetchedAt": "2026-08-03T03:16:27.474Z",
+    "snippet": "VeriLoop Coder-E1 based on Qwen3.6-27B achieves SWE-bench Verified 85.20, SWE-bench Pro 62.38, Terminal-Bench 2.0 76.40, and DeepSWE 33.63 with narrow-domain PEFT and Self-Harness.",
+    "images": [
+      "https://cms-image.pandaily.com/1/article4_f5d196f41d.png"
+    ]
+  },
+  {
+    "id": "73ec04e003046437",
+    "title": "Qingyang Gansu Grows Digital Wheat Fields on the Loess Plateau: Computing Power Gravity Field Reaches 185,000P Carrying 25% of National Independent Model AI Token Demand",
+    "link": "https://pandaily.com/qingyang-gansu-digital-wheat-fields-computing-jul2026",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-08-03T01:39:16.000Z",
+    "fetchedAt": "2026-08-03T03:16:27.475Z",
+    "snippet": "Qingyang national data center cluster reaches 185,000P computing power with 99% intelligent computing share, 0.398 yuan/kWh green power, and 700+ enterprises across chip-compute-model-application chain.",
+    "images": [
+      "https://cms-image.pandaily.com/1/article3_d9182aa5b1.png"
+    ]
+  },
+  {
+    "id": "c3fbe608c934792b",
+    "title": "DeepSeek-V4-Flash Official Version Released and Open-Sourced: 304B Lightweight Model Surpasses V4-Pro Preview and Matches Claude Opus-4.8, Hailed as Third DeepSeek Moment",
+    "link": "https://pandaily.com/deepseek-v4-flash-official-open-source-jul2026",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-08-03T01:38:50.000Z",
+    "fetchedAt": "2026-08-03T03:16:27.476Z",
+    "snippet": "DeepSeek-V4-Flash-0731 official release outperforms V4-Pro preview with 82.7 performance score at 0.14/0.28 USD pricing, tops VulcanBench, and reaches HuggingFace trending second.",
+    "images": [
+      "https://cms-image.pandaily.com/1/article1_d0a7d4af07.png"
+    ]
+  },
+  {
+    "id": "f2c53b2f641b885c",
+    "title": "Trump says new talks with Iran set to begin after calling off strikes",
+    "link": "https://www.scmp.com/news/world/middle-east/article/3362732/trump-says-new-talks-iran-begin-monday-after-calling-strikes?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-02T23:16:06.000Z",
+    "fetchedAt": "2026-08-03T03:16:28.260Z",
+    "snippet": "US President Donald Trump said that new negotiations with Iran will begin Monday after he decided to hold off on striking the Islamic republic to pursue a deal to end the war entering its sixth month. Trump told reporters on Sunday that the talks would cover t",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/03/63d4f134-65cb-490a-9305-4bdfead22ba9_7cb81021.jpg?itok=WDfUbLRm&v=1785717885"
+    ]
+  },
+  {
+    "id": "82dc2f5952e0d995",
+    "title": "Sam Altman and AI’s decel debate",
+    "link": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-08-02T20:54:22.000Z",
+    "fetchedAt": "2026-08-03T03:16:27.436Z",
+    "snippet": "On the latest episode of Equity, we discuss why Sam Altman has calling on the industry to \"pace the rate of AI development.\"",
+    "images": []
+  },
+  {
+    "id": "25e10b96a42ef5f4",
+    "title": "In message from US jail, Maduro weighs in on Venezuela transition talks",
+    "link": "https://www.scmp.com/news/world/americas/article/3362731/jailed-ex-leader-maduro-welcomes-any-path-dialogue-venezuela-ahead-us-talks?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-02T20:40:52.000Z",
+    "fetchedAt": "2026-08-03T03:16:28.260Z",
+    "snippet": "Venezuela’s imprisoned former leader Nicolas Maduro on Sunday welcomed “any path to dialogue”, ahead of a US-backed meeting in the coming week between representatives of the Latin American country’s interim government and opposition leaders. The leftist Maduro",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/03/7527f8ac-fe38-427f-b8b6-9b24b1e65954_02507d18.jpg?itok=0aH2-nli&v=1785723276"
+    ]
+  },
+  {
+    "id": "02f536ba709b7946",
+    "title": "UK’s Burnham signals support for written constitution",
+    "link": "https://www.scmp.com/news/world/europe/article/3362730/uk-pm-burnham-signals-support-written-constitution?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-02T19:51:36.000Z",
+    "fetchedAt": "2026-08-03T03:16:28.260Z",
+    "snippet": "Britain’s new Prime Minister Andy Burnham has signalled his support for a written constitution for the UK, which unlike most countries, does not have one authoritative document. Since entering office just two weeks ago, the former mayor of Greater Manchester h",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/03/95c9fccb-8772-4b5a-a27f-0a2d33521491_f4f6e448.jpg?itok=7kWqyWhF&v=1785724157"
+    ]
+  },
+  {
+    "id": "d67f005499ebb2c2",
+    "title": "Brazil’s President Lula, 80, says ‘in great shape’ as he launches bid for a fourth term",
+    "link": "https://www.scmp.com/news/world/americas/article/3362729/brazils-president-lula-80-says-great-shape-he-launches-bid-fourth-term?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-02T18:27:23.000Z",
+    "fetchedAt": "2026-08-03T03:16:28.260Z",
+    "snippet": "Brazilian President Luiz Inacio Lula da Silva, 80, said on Sunday he was “in great shape” as he launched his candidacy for October elections, with pressure from US President Donald Trump’s administration looming over the campaign. Lula, a leftist titan of Lati",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/03/ebf1002f-002b-409c-afb4-a11571618f87_995f9af7.jpg?itok=qdgXDlLK&v=1785694946"
+    ]
+  },
+  {
+    "id": "c2b48842b530171e",
+    "title": "Greek police arrest suspect after body of British woman found in suitcase",
+    "link": "https://www.scmp.com/news/world/europe/article/3362728/greek-police-arrest-suspect-over-british-womans-body-found-suitcase?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-02T18:00:47.000Z",
+    "fetchedAt": "2026-08-03T03:16:28.261Z",
+    "snippet": "Greek police on Sunday said they had arrested a suspect in their investigation into the death of a British woman whose body was found in a suitcase in Athens last month. The police in a statement said they had arrested a 26-year-old man, identified in media re",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/03/e0563cac-ea07-4cd6-93e8-0b213f3d7447_638b4e68.jpg?itok=pspAcOv_&v=1785724947"
+    ]
+  },
+  {
+    "id": "02cf4568e8fcec65",
+    "title": "Death toll from migrant rush into Spain’s Ceuta rises to 72",
+    "link": "https://www.scmp.com/news/world/africa/article/3362727/death-toll-migrant-rush-spains-ceuta-rises-72?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-02T17:44:55.000Z",
+    "fetchedAt": "2026-08-03T03:16:28.261Z",
+    "snippet": "The death toll from Thursday’s mass rush into Spain’s North African enclave of Ceuta from Morocco reached at least 72 on Sunday as five more bodies were found along Ceuta’s coast, officials said. More than 50,000 people crossed ‌into Ceuta by land and sea in a",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/03/3128ca4e-a781-47dd-8189-1a0e4c8a56a5_a8add082.jpg?itok=hoIUFha4&v=1785692620"
+    ]
+  },
+  {
+    "id": "1f4f30b5220bb0fc",
+    "title": "Microsoft Paint used as a 'monitor' to run Doom at up to 35 fps, project released by firm's Azure CTO — runs actual Doom engine and loads real shareware DOOM1.WAD",
+    "link": "https://www.tomshardware.com/video-games/retro-gaming/microsoft-paint-used-as-a-monitor-to-run-doom-at-up-to-35-fps-project-released-by-firms-azure-cto-runs-actual-doom-engine-and-loads-real-shareware-doom1-wad",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-08-02T14:14:24.000Z",
+    "fetchedAt": "2026-08-03T03:16:27.800Z",
+    "snippet": "DoomPaint stands out from the Doom crowd as it has been developed by Microsoft's Azure CTO and because it runs using MS Paint as the viewport for in-game action.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/8iZYVmY9NBo7ChYrrxAysN-1280-80.jpg"
+    ]
+  },
+  {
+    "id": "02d0724021931aea",
+    "title": "Strikes kill 18 in Gaza as Israeli minister says no deal to halt attacks",
+    "link": "https://www.scmp.com/news/world/middle-east/article/3362722/israeli-strikes-kill-9-gaza-cabinet-minister-says-no-deal-stop?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-02T14:04:37.000Z",
+    "fetchedAt": "2026-08-03T03:16:28.261Z",
+    "snippet": "Israeli air strikes hit Gaza for a second straight day on Sunday, killing at least 18 Palestinians, medics said, despite US President Donald Trump’s announcement of a breakthrough in efforts to implement last year’s ceasefire agreement. From dawn, Israeli warp",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/02/2b0414a4-0e7a-4dc5-91e5-124a13071298_e8d0c3a4.jpg?itok=5a-bhwXy&v=1785679471"
+    ]
+  },
+  {
     "id": "cba7cc699968c2a2",
     "title": "Iran suspected of conducting cyberattacks on US water suppliers in 45 municipalities — small towns mostly targeted, with utilities switching to manual control",
     "link": "https://www.tomshardware.com/tech-industry/cyber-security/iran-suspected-of-conducting-cyberattacks-on-us-water-suppliers-in-45-municipalities-small-towns-mostly-targeted-with-utilities-switching-to-manual-control",
@@ -10,7 +164,12 @@
     "snippet": "Several US towns said that their water utilities have suffered from cyberattacks, which are suspected to have originated from Iran. While systems remain running, several have resorted to manual control to protect the water supply.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/rbK9YQhrQ9NiToCZHNfkNi-1280-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "6537e5590a5fddf0",
@@ -26,7 +185,12 @@
       "https://cdn.mos.cms.futurecdn.net/KJt67mmbodaQeW64oNiFcN.jpg",
       "https://cdn.mos.cms.futurecdn.net/6FfzxGYkF72YHkgREdZ3cN.jpg",
       "https://cdn.mos.cms.futurecdn.net/hidQhbcSJZUAXNea6n8SUN.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "46f7fa64f04da681",
@@ -39,7 +203,12 @@
     "snippet": "A new report suggests AMD is cooking up a range of per-core optimizations for Zen 6 that might not seem huge on their own, but they could add up to make a world of difference in gaming performance.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/8HRHpufeQP8XBVXitxXV9H-1280-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "5f4315758e35efbc",
@@ -52,7 +221,12 @@
     "snippet": "These turbines have been the center of a lawsuit involving permits and pollution. While this is good news for the community, it will still take quite some time before they're fully removed from the premises.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/4CtjSuuMbaKcsW7yobLLzQ-1280-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e02c49a91f338040",
@@ -68,7 +242,12 @@
       "https://cdn.mos.cms.futurecdn.net/4B2cgM9Md6WxqU6bcH8BSK.png",
       "https://cdn.mos.cms.futurecdn.net/ouu4wpqqGFwHak72SF9wVK.png",
       "https://cdn.mos.cms.futurecdn.net/NB7dd9smitFGpbLo7SER9L.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "757dd764b90daa31",
@@ -81,7 +260,12 @@
     "snippet": "Ukraine attacked multiple regions of Russia on Sunday, killing at least eight people, Russian officials said. Some of the strikes hit hundreds of kilometres from the front line, according to authorities. Both Moscow and Kyiv have upped attacks on each other in",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/02/fefeff88-3c17-442f-826b-086e99266311_a4041c6e.jpg?itok=5xTmI3kq&v=1785673450"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "15fceac83bd4b73c",
@@ -91,10 +275,15 @@
     "category": "China AI",
     "publishedAt": "2026-08-02T03:54:42.000Z",
     "fetchedAt": "2026-08-02T13:26:41.978Z",
-    "snippet": "US President Donald Trump in a Saturday evening social media post claimed that Middle Eastern allies had reached the parameters of a deal to end the Iran war and said that he would hold off on ordering new strikes in the five-month-old conflict for now. Trump ",
+    "snippet": "US President Donald Trump in a Saturday evening social media post claimed that Middle Eastern allies had reached the parameters of a deal to end the Iran war and said that he would hold off on ordering new strikes in the five-month-old conflict for now. Trump",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/02/645e571a-4ce5-41bb-b78e-a0899b422570_89fed3ca.jpg?itok=Iy_5Aczu&v=1785642872"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a257072cb1144644",
@@ -211,7 +400,12 @@
     "snippet": "A home-made bomb carried by a woman killed at least three people and injured 21 ‌near an upscale restaurant in central Moscow on Saturday evening, authorities said, amid unconfirmed speculation on social media that the attack may have been linked to the war in",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/02/4f129be8-680e-475d-aec0-2eea4e6c8346_5eccccbf.jpg?itok=I54UUy-1&v=1785677126"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "294f9ca38e669a0a",
@@ -5965,227 +6159,6 @@
     "snippet": "This open-source project uses 3D printing to build the core of a portable MRI machine, although it still has a lower resolution compared to multi-million-dollar full-sized machines. One tech expert suggested that an AI model be trained on high-field MRI data o",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/De5aWoD9d2nV5fNd5FkrsW-1280-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "f18832da04732e4b",
-    "title": "Israeli settlers set fire to West Bank mosques after deadly clash",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3361911/israeli-settlers-set-fire-west-bank-mosques-graffiti-and-arson-reported?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-07-26T13:53:06.000Z",
-    "fetchedAt": "2026-07-27T03:25:35.349Z",
-    "snippet": "Israeli settlers attacked ⁠Palestinian villages in the occupied West Bank early on Sunday, setting fire to two mosques and scrawling graffiti on buildings, Palestinian officials said. The attacks followed an incident on Friday when four Palestinians and two Is",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/26/8b457be6-aaae-4854-a516-61931d3bf247_bf7b49be.jpg?itok=PzQNrE3X&v=1785073977"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "290c38e4987a7d71",
-    "title": "Chinese CXMT DRAM doesn't look like the budget savior many were expecting — new modules enter the market, but prices still track the big three",
-    "link": "https://www.tomshardware.com/pc-components/dram/chinese-cxmt-dram-doesnt-look-like-the-budget-savior-many-were-expecting-new-modules-enter-the-market-but-prices-still-track-the-big-three",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-07-26T13:25:30.000Z",
-    "fetchedAt": "2026-07-26T13:28:18.804Z",
-    "snippet": "Chinese retail listings indicate that CXMT-based memory modules are priced similarly to those featuring chips from the big three, despite expectations that they must be cheaper.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/Y6RXNGdt5atPtqKHjD7EUW-1280-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "835d92c344c33a34",
-    "title": "XFX Radeon RX 9070 XT drops to its lowest price of the summer — save $90 on AMD's flagship RDNA 4 graphics card",
-    "link": "https://www.tomshardware.com/pc-components/xfx-radeon-rx-9070-xt-drops-to-its-lowest-price-of-the-summer-save-usd90-on-amds-flagship-rdna-4-graphics-card",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-07-26T12:31:14.000Z",
-    "fetchedAt": "2026-07-26T13:28:18.804Z",
-    "snippet": "If you've been waiting for RX 9070 XT prices to fall, this $90 discount on XFX's triple-fan Quicksilver model is one of the best deals currently available.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/T3hZEr8Lck9NLHroGWyYTZ-1280-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/mpfGCGSM2zVYH9v6kf6TS7.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Huc985Ry4n2nCoMjcj5tvW.png",
-      "https://cdn.mos.cms.futurecdn.net/jXJvkFKNAMrFvkvZwGqCpW.png",
-      "https://cdn.mos.cms.futurecdn.net/jaqarvKwqg6rcJwNW9YBiW.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "6892addf1d708d8f",
-    "title": "Minecraft system requirements raised for the first time in 17 years — Microsoft now recommends 16GB of RAM and a 2020s or newer CPU to run the Java Edition",
-    "link": "https://www.tomshardware.com/video-games/pc-gaming/minecraft-system-requirements-raised-for-the-first-time-in-17-years-microsoft-now-recommends-16gb-of-ram-and-a-2020s-or-newer-cpu-to-run-the-java-edition",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-07-26T12:30:00.000Z",
-    "fetchedAt": "2026-07-26T13:28:18.804Z",
-    "snippet": "Microsoft is increasing the minimum and recommended system requirements for Minecraft for the first time, 17 years after it launched. Although the system upgrade is quite reasonable and the hardware falls squarely within the most popular components in the most",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/XYHm7U5bXvPvzNzHYVvuxY-1280-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "0d7916169353a2c2",
-    "title": "3D-printed F-14 Tomcat uses an FPGA recreation of the ‘world’s first microprocessor' — CADC’s MP944 chip controls the fighter’s swing-wing system, among other things",
-    "link": "https://www.tomshardware.com/pc-components/cpus/3d-printed-f-14-tomcat-uses-an-fpga-recreation-of-the-worlds-first-microprocessor-cadcs-mp944-chip-controls-the-fighters-swing-wing-system-among-other-things",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-07-26T12:05:00.000Z",
-    "fetchedAt": "2026-07-26T13:28:18.805Z",
-    "snippet": "An FPGA and embedded systems expert has recreated the US Navy’s F-14 Tomcat’s Central Air Data Computer (CADC) in an FPGA. It is demonstrated in a scale 3D printed model aircraft",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/QUbvFrNvCfj7j5zK8joBGS-1280-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e31840152cb6433a",
-    "title": "Zeiss expands German site that caps ASML's EUV scanner output — first new building opens four years after Oberkochen site groundbreaking",
-    "link": "https://www.tomshardware.com/tech-industry/zeiss-expands-german-site-that-caps-asmls-euv-scanner-output",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-07-26T11:46:59.000Z",
-    "fetchedAt": "2026-07-26T13:28:18.805Z",
-    "snippet": "Zeiss Semiconductor Manufacturing Technology has confirmed that it's adding around 25,000 square meters of production and production-adjacent space at Oberkochen in southern Germany.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/XVwQGuRMm2gVLvNC4rHrW8-1280-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "766c22aad2ccf45b",
-    "title": "UK’s Burnham ‘putting Britain first’ as he rules out 2029 election",
-    "link": "https://www.scmp.com/news/world/europe/article/3361902/uks-burnham-putting-britain-first-he-rules-out-2029-election?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-07-26T11:36:50.000Z",
-    "fetchedAt": "2026-07-26T13:28:19.137Z",
-    "snippet": "Britain’s new Prime Minister Andy Burnham “will always put Britain’s interests first”, he said in an interview when asked whether he was willing to call out US President Donald Trump. Burnham’s predecessor Keir Starmer, who announced ‌he was stepping down last",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/26/0396fcc1-76b7-4ec6-92bd-610a91b64a45_e4a7f92c.jpg?itok=7n5hESlS&v=1785065800"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "eab527501623465f",
-    "title": "AI enthusiast adds Nvidia Tesla V100 as loud as a lawnmower to gaming PC for $266 — 32GB of VRAM rig can run 27 billion parameter model at 32 tokens per second",
-    "link": "https://www.tomshardware.com/pc-components/gpus/ai-enthusiast-adds-nvidia-tesla-v100-as-loud-as-a-lawnmower-to-gaming-pc-for-usd266-32gb-of-vram-rig-can-run-27-billion-parameter-model-at-32-tokens-per-second",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-07-26T10:00:00.000Z",
-    "fetchedAt": "2026-07-26T13:28:18.805Z",
-    "snippet": "A computing enthusiast has repurposed a very noisy and largely obsolete enterprise GPU (with lots of VRAM) for local LLM inference purposes.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/E3s43avFuEmiCykzqRLmGM-1280-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/5UhZUv7mNhAoDYNYbE8BJf.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "1090569205357f53",
-    "title": "‘Super’ El Nino: Africa facing mass migration, US$20 billion in damages",
-    "link": "https://www.scmp.com/news/world/africa/article/3361891/super-el-nino-africa-facing-mass-migration-us20-billion-damages?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-07-26T09:02:39.000Z",
-    "fetchedAt": "2026-07-26T13:28:19.137Z",
-    "snippet": "An ⁠impending ‘super’ El Nino is likely to inflict a combined US$10 billion to US$20 billion of damage ⁠in affected African countries and trigger mass migration from hard-hit areas, the African Development Bank’s (AfDB) top climate expert said. Forecasters are",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/26/467a4de7-bdb8-498d-979c-13f2e166ef62_fdedac64.jpg?itok=5zVBuGbZ&v=1785056547"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "65a3d658df5e8730",
-    "title": "Tencent Robotics X Open-Sources Three Embodied Foundation Models: Chief Scientist Zhang Zhengyou Explains the 3-Layer Brain Architecture Solving Robot Reaction Speed",
-    "link": "https://pandaily.com/tencent-robotics-x-three-embodied-models-jul2026",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-07-26T08:03:33.000Z",
-    "fetchedAt": "2026-07-26T13:28:18.558Z",
-    "snippet": "Tencent open-sources three embodied models at WAIC 2026: VLM for scene understanding, RxBrain cognitive model for planning with visual states, and VLA for continuous action at 500-1000Hz.",
-    "images": [
-      "https://cms-image.pandaily.com/1/article3_efcf96ed1c.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c06c16e66b00ea8f",
-    "title": "30,000 Hours of Tactile Data Fills Embodied Intelligence Gap: XinZhi Embodied and Fudan University Release Three Technical Reports on Haptic Sensing",
-    "link": "https://pandaily.com/xinzhi-embodied-fudan-university-tactile-data-jul2026",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-07-26T08:03:19.000Z",
-    "fetchedAt": "2026-07-26T13:28:18.558Z",
-    "snippet": "XinZhi Embodied and Fudan University publish three technical reports covering 30,000 hours of tactile data for embodied intelligence, addressing the missing touch sensing capability in robot manipulation.",
-    "images": [
-      "https://cms-image.pandaily.com/1/article2_81c727689c.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "81877160d258adcc",
-    "title": "Tencent Miora Design Agent Hands-On: One Brief Generates Full Brand Visual Assets Through Multi-Agent Collaboration, Though Integration Still Has Limits",
-    "link": "https://pandaily.com/tencent-miora-design-agent-hands-on-jul2026",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-07-26T08:03:04.000Z",
-    "fetchedAt": "2026-07-26T13:28:18.558Z",
-    "snippet": "Hands-on test of Tencent Miora creative agent: input a brand brief for Puff AI companion robot, received logo, brand guidelines, VI assets, app UI, poster, video, and sticker pack from single 1000-integral run.",
-    "images": [
-      "https://cms-image.pandaily.com/1/article1_7ba043ab8c.png"
     ],
     "titleZh": "",
     "snippetZh": "",
