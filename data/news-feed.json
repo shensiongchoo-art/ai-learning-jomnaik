@@ -1,5 +1,274 @@
 [
   {
+    "id": "c6d4229151880fc2",
+    "title": "US-China AI rivalry needn’t preclude cooperation",
+    "link": "https://www.scmp.com/opinion/china-opinion/article/3365101/us-china-ai-rivalry-neednt-preclude-cooperation?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-28T21:30:07.000Z",
+    "fetchedAt": "2026-08-28T21:51:47.042Z",
+    "snippet": "Artificial intelligence (AI) poses risks that do not respect national borders, from cyberattacks and misinformation to system malfunction and potentially dangerous misuse. In a geopolitically charged world, does greater incompatibility between countries make A",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/24/31d25478-3032-4259-9150-56dd63fdf1e4_8cfc77a0.jpg?itok=1EYIMQKF&v=1787582404"
+    ]
+  },
+  {
+    "id": "399e29552303e85b",
+    "title": "Neocloud Lambda secures $1B in debt to buy more chips",
+    "link": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-08-28T20:24:11.000Z",
+    "fetchedAt": "2026-08-28T21:51:46.243Z",
+    "snippet": "Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft. It's the latest in a string of loans, underscoring the high cost of the AI boom.",
+    "images": []
+  },
+  {
+    "id": "b02c1a3b5f99d9b6",
+    "title": "An Anthropic researcher just gave us a peek at self-improving AI",
+    "link": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-08-28T19:30:38.000Z",
+    "fetchedAt": "2026-08-28T21:51:46.244Z",
+    "snippet": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
+    "images": []
+  },
+  {
+    "id": "d5affec383d42bbb",
+    "title": "Trump orders creation of US ‘Space Academy’, amid rivalry with China",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3365667/trump-orders-creation-us-space-academy-amid-rivalry-china?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-28T19:07:43.000Z",
+    "fetchedAt": "2026-08-28T21:51:47.042Z",
+    "snippet": "US President Donald Trump on Friday announced the creation of a “Space Academy” to train future civilian and military recruits for an arena where the United States faces rivalry with China. Speaking at Nasa’s Johnson Space Centre in Houston, Trump said the ins",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/29/39c846aa-8e6e-42e6-94ed-618d1bb3680e_24639799.jpg?itok=ED6qbJSw&v=1787944061"
+    ]
+  },
+  {
+    "id": "17e2d813f8f15170",
+    "title": "Open-weight AI companies are the Valley’s hottest acquisition targets",
+    "link": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-08-28T18:19:40.000Z",
+    "fetchedAt": "2026-08-28T21:51:46.244Z",
+    "snippet": "There's a lot of capital pouring into the business of giving models away.",
+    "images": []
+  },
+  {
+    "id": "5c1c7afcdcf92a32",
+    "title": "Trump blacklisting of \"woke\" Anthropic deemed illegal by federal judge",
+    "link": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/",
+    "source": "Ars Technica AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-08-28T18:07:55.000Z",
+    "fetchedAt": "2026-08-28T21:51:46.457Z",
+    "snippet": "Anthropic refused to support lethal autonomous warfare and mass surveillance.",
+    "images": [
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-1152x648.jpg",
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-500x500-1773164045.jpg"
+    ]
+  },
+  {
+    "id": "1fdfc28fa84401d6",
+    "title": "As Iran war hits six-month mark, Trump says he’s ‘not in a hurry’",
+    "link": "https://www.scmp.com/news/world/middle-east/article/3365663/iran-war-hits-six-month-mark-trump-says-hes-not-hurry?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-28T17:26:37.000Z",
+    "fetchedAt": "2026-08-28T21:51:47.043Z",
+    "snippet": "President Donald Trump arrives at an awkward moment for his presidency on Friday as the US-Israel war against Iran reaches the six-month mark, a notable milestone for a conflict that the Republican leader repeatedly assured Americans would be a “little excursi",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/29/bd721142-e066-4cd9-8314-1e76e411822e_5eb690be.jpg?itok=Zdr77vUi&v=1787937987"
+    ]
+  },
+  {
+    "id": "0800f355617f53f2",
+    "title": "MSI brings DDR4 back to gaming laptops amidst DRAM crisis — Katana 15 HX C14 available with up to Core i9-14900HX and RTX 5070",
+    "link": "https://www.tomshardware.com/pc-components/ddr4/msi-brings-ddr4-back-to-gaming-laptops-amidst-dram-crisis-katana-15-hx-c14-available-with-up-to-core-i9-14900hx-and-rtx-5070",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-08-28T15:55:43.000Z",
+    "fetchedAt": "2026-08-28T21:51:46.626Z",
+    "snippet": "With 32GB DDR4 SO-DIMM memory kits costing roughly half as much as comparable DDR5 kits, MSI’s new Katana 15 HX C14 could help reduce the impact of soaring memory prices.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/Jt7jW2WcxpSnLJxJ7g7va3-1280-80.jpg"
+    ]
+  },
+  {
+    "id": "52851f5f1e6548a6",
+    "title": "New US export controls reportedly target Chinese access to remote AI servers — Trump admin's cut-down AI diffusion rule could be shared with industry as soon as September",
+    "link": "https://www.tomshardware.com/tech-industry/policy/new-us-export-controls-reportedly-target-chinese-access-to-remote-ai-servers-trump-admins-cut-down-ai-diffusion-rule-could-be-shared-with-industry-as-soon-as-september",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-08-28T15:47:46.000Z",
+    "fetchedAt": "2026-08-28T21:51:46.626Z",
+    "snippet": "The Trump administration is reportedly drafting a rule to close a loophole around remote access to advanced AI compute, and it could be shared with trade groups as early as September.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/Bvn9bjjn7RjjnHHyEAHmAP-1280-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7.jpg"
+    ]
+  },
+  {
+    "id": "952bb340402053c9",
+    "title": "Meta makes AI glasses slightly less creepy with limit on nonconsensual recording",
+    "link": "https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain/",
+    "source": "Ars Technica AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-08-28T15:42:24.000Z",
+    "fetchedAt": "2026-08-28T21:51:46.457Z",
+    "snippet": "Meta fixes AI glasses to stop recording any time users cover up the safety light.",
+    "images": [
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2235448062-1024x648.jpg",
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2235448062-500x500-1787929400.jpg"
+    ]
+  },
+  {
+    "id": "fdc7e95a235c722e",
+    "title": "Nvidia gears up its influence in Washington, forming PAC — tells employees that decisions Congress makes over the coming years could have substantial consequences for the AI industry, according to report",
+    "link": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-gears-up-its-influence-in-washington-forming-pac-tells-employees-that-decisions-congress-makes-over-the-coming-years-could-have-substantial-consequences-for-the-ai-industry-according-to-report",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-08-28T15:19:27.000Z",
+    "fetchedAt": "2026-08-28T21:51:46.626Z",
+    "snippet": "Nvidia establishes its employees federal political action committee (PAC) to fund politicians whose positions are favorable to Nvidia's interests.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/mSegjyKT4pHoDKsKQkQa9j-1280-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/p2QqhVFP7dTRWfeVBCYBYV.jpg"
+    ]
+  },
+  {
+    "id": "ff04878ebe491072",
+    "title": "Warsh signals US Fed may need to raise rates if above-target inflation lingers",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3365658/warsh-says-us-fed-has-work-do-if-above-target-inflation-lingers?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-28T15:13:26.000Z",
+    "fetchedAt": "2026-08-28T21:51:47.043Z",
+    "snippet": "The US central bank will “have work to do” if policymakers are not confident that underlying inflation is returning to its 2 per cent target, Federal Reserve Chairman Kevin Warsh said on Friday in remarks that acknowledged financial conditions do not appear re",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/28/9f5a818e-052d-45df-8552-846f6481eee4_69a66665.jpg?itok=opFwdnr-&v=1787930004"
+    ]
+  },
+  {
+    "id": "8a1ca778a5fb316e",
+    "title": "DLSS 5 has already been ported to work on RTX 4000 Series graphics cards — incompatible CUDA instructions get patched to work on previous-gen hardware",
+    "link": "https://www.tomshardware.com/pc-components/gpus/exclusive-dlss-5-has-already-been-ported-to-work-on-rtx-4000-series-graphics-cards-incompatible-cuda-instructions-get-patched-to-work-on-previous-gen-hardware",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-08-28T13:57:35.000Z",
+    "fetchedAt": "2026-08-28T21:51:46.627Z",
+    "snippet": "One modder has reverse-engineered DLSS 5 to function on RTX 4000 series Ada Lovelace-based GPUs, porting incompatible CUDA instructions within the Neural Rendering DLL, enabling them to be read on previous-gen hardware.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/XWFApR3UjpmFwiQ2t7DdNV-1280-80.png"
+    ]
+  },
+  {
+    "id": "722b0a877a09a33e",
+    "title": "Nvidia denies pausing AI cloud commitments initiative after reported partner backlash — report claims company told cloud providers it could only lease its GPUs to Nvidia-approved customers",
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-denies-pausing-ai-cloud-commitments-initiative-after-reported-partner-backlash-report-claims-company-told-cloud-providers-it-could-only-lease-its-gpus-to-nvidia-approved-customers",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-08-28T13:13:58.000Z",
+    "fetchedAt": "2026-08-28T21:51:46.627Z",
+    "snippet": "Nvidia denies putting AI cloud commitments initiative on hold despite reports that some deals were paused amid partner pushback over customer controls and concerns about potential antitrust scrutiny.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/dRrumQbyPzGfGLECutnkSU-1280-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7.jpg"
+    ]
+  },
+  {
+    "id": "69d57bed8883fcae",
+    "title": "Micron workers increasingly support strike over bonus pay — labor union wants profit-sharing scheme, as employees at Samsung, SK hynix enjoy bonuses worth hundreds of thousands of dollars",
+    "link": "https://www.tomshardware.com/tech-industry/micron-workers-increasingly-support-strike-over-bonus-pay-labor-union-wants-profit-sharing-scheme-as-employees-at-samsung-sk-hynix-enjoy-bonuses-worth-hundreds-of-thousands-of-dollars",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-08-28T13:07:55.000Z",
+    "fetchedAt": "2026-08-28T21:51:46.627Z",
+    "snippet": "80% of Micron workers in Taiwan have signaled that they're willing to go on strike if the company does not strike a deal over bonuses. The employees want to replace the current bonus system with a profit-sharing scheme, allowing them to take advantage of the A",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/r4EqVPQPb5RUnrXurEfjbM-1280-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/xi79WuWDZXzix4Fc7sXNMn.png"
+    ]
+  },
+  {
+    "id": "f92ff42ed3274198",
+    "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+    "link": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-08-28T12:46:12.000Z",
+    "fetchedAt": "2026-08-28T21:51:46.244Z",
+    "snippet": "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.",
+    "images": []
+  },
+  {
+    "id": "5d9fe852116d1761",
+    "title": "The Download: a secretive antiaging drug and joining virtual power plants",
+    "link": "https://www.technologyreview.com/2026/08/28/1143113/the-download-antiaging-drug-joining-virtual-power-plants/",
+    "source": "MIT Technology Review",
+    "category": "US & Global AI",
+    "publishedAt": "2026-08-28T12:35:27.000Z",
+    "fetchedAt": "2026-08-28T21:51:46.313Z",
+    "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A startup claims it’s found a drug to make your blood young —Antonio Regalado I knew I’d officially become a “longevity in",
+    "images": [
+      "https://wp.technologyreview.com/wp-content/uploads/2026/04/Neanderthals_finals-top.jpg?fit=2128,1196"
+    ]
+  },
+  {
+    "id": "a7e026b3a0ea244c",
+    "title": "2 dead in school attack near Berlin",
+    "link": "https://www.scmp.com/news/world/europe/article/3365642/2-dead-school-attack-near-berlin?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-28T12:31:35.000Z",
+    "fetchedAt": "2026-08-28T21:51:47.043Z",
+    "snippet": "One of the two people killed in an attack at a school near Berlin was a 30-year-old nursery worker, police said on Friday. It had previously been reported that the man who was killed in Thursday’s attack was the caretaker. A woman and a man were killed in the ",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/28/264ab264-3136-4e7e-83d0-8127549431de_3b5da1ff.jpg?itok=NFw-nAo7&v=1787920294"
+    ]
+  },
+  {
+    "id": "12afa07188605bd8",
+    "title": "US and China must team up to keep maritime trade routes free and safe",
+    "link": "https://www.scmp.com/opinion/world-opinion/article/3365191/us-and-china-must-team-keep-maritime-trade-routes-free-and-safe?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-28T12:30:15.000Z",
+    "fetchedAt": "2026-08-28T21:51:47.043Z",
+    "snippet": "With the end of the 60-day US-Iran memorandum of understanding, tensions in the Strait of Hormuz have flared again. The crisis in the strait highlights how the security and stability of key international waterways are becoming an increasingly urgent global con",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/28/e46be348-5964-460d-98a3-ec150ea79a2a_09129d4f.jpg?itok=OH4DEd9S&v=1787899174"
+    ]
+  },
+  {
+    "id": "e28f233e029341cb",
+    "title": "Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India",
+    "link": "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-08-28T12:21:06.000Z",
+    "fetchedAt": "2026-08-28T21:51:46.244Z",
+    "snippet": "Sandhya Devanathan will oversee some OpenAI operations across Southeast Asia and Australia in her new role.",
+    "images": []
+  },
+  {
+    "id": "1a3984ab26699cf8",
+    "title": "Germany jails man, 81, for life over murder of tourist 30 years ago",
+    "link": "https://www.scmp.com/news/world/europe/article/3365634/germany-jails-man-81-life-over-murder-tourist-30-years-ago?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-28T12:13:46.000Z",
+    "fetchedAt": "2026-08-28T21:51:47.043Z",
+    "snippet": "An 81-year-old man has been sentenced to life imprisonment in Germany for the murder of an American tourist more than 30 years ago, the presiding judge at Koblenz Regional Court, Rupert Stehlin, announced on Friday. The court also found that the offence was of",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/28/8930be6b-17b7-445f-be0b-0a116782bf23_31b124b4.jpg?itok=9lOzB_9M&v=1787919222"
+    ]
+  },
+  {
     "id": "456dff5bd07047ab",
     "title": "SK hynix breaks ground on the first HBM plant in the US, bringing key AI component production to the States — says production starts in 2029",
     "link": "https://www.tomshardware.com/pc-components/dram/sk-hynix-breaks-ground-on-the-first-hbm-plant-in-the-us-bringing-key-ai-component-production-to-the-states-says-production-starts-in-2029",
@@ -11,7 +280,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/vdguSryvDxvr9spm9qGncn-1280-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/JY32VXJVXoHUR8NRV2Kveb.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "b2fefda24996d5e8",
@@ -25,7 +299,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/nMpGxyNRpeTtdVGXCfFq7g-1280-80.png",
       "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "9a9c2dddaab1b632",
@@ -39,7 +318,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/rooXvESoBpBpBGCkrJPnwC-1280-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/Aq2KPbGLAEoiXoEGXZ8ntP.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "7f27d46524426bfa",
@@ -52,7 +336,12 @@
     "snippet": "On August 28, Tencent Hunyuan released and open-sourced Hy4 preview, its next-generation large language model with 770 billion total parameters and a context window exceeding 1 million tokens.",
     "images": [
       "https://cms-image.pandaily.com/1/hy4_preview_f6d614fd20.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c45940ad53a9c98d",
@@ -65,7 +354,12 @@
     "snippet": "Zhipu AI's GLM-5.3-Flash runs entirely on domestic AI chips and is gaining traction across benchmark and usage rankings.",
     "images": [
       "https://cms-image.pandaily.com/1/a4_be6f2b6cb7.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "2a05744dbe460a59",
@@ -78,7 +372,12 @@
     "snippet": "Alibaba's refreshed Qoder turns coding into a conversational workbench for everyone, not just professional developers.",
     "images": [
       "https://cms-image.pandaily.com/1/a3_a12e119c63.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "ce7e41fcd6caa349",
@@ -91,7 +390,12 @@
     "snippet": "Huawei's HarmonyOS tops 100,000 native apps and 80 million devices as it closes in on 100 million users.",
     "images": [
       "https://cms-image.pandaily.com/1/a2_67587300f8.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "6a7013855ee4d65b",
@@ -104,7 +408,12 @@
     "snippet": "Norway’s King Harald has died aged 89, the palace said on Friday, his 53-year-old son Crown Prince Haakon automatically succeeding him on the throne. “It is with deep sadness that we announce that His Majesty King Harald passed away today. King Harald passed a",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/28/8d70c1da-06ec-4cb5-80a4-fb49610ff054_ec819f76.jpg?itok=AqyA3RBL&v=1787902845"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "1856361e2867fa64",
@@ -117,7 +426,12 @@
     "snippet": "Six months after the air strikes that began the war and propelled ⁠a badly wounded Mojtaba Khamenei into the role of Iran’s supreme leader, he remains entirely unseen and unheard by Iranians – a vacuum at the heart of his country’s leadership. Questions over h",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/28/ca702792-c674-4772-858d-e522281cc25c_19d4d57c.jpg?itok=zsvu0wI3&v=1787895815"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a215f3e625c87eac",
@@ -127,10 +441,15 @@
     "category": "China AI",
     "publishedAt": "2026-08-28T05:00:07.000Z",
     "fetchedAt": "2026-08-28T10:15:22.092Z",
-    "snippet": "A diplomatic push by Oman, Pakistan and Qatar is widely expected to yield another pause in the Iran conflict, but there remains little prospect of a stop to what analysts fear has already become a “forever war”. On Monday, Iran and Oman agreed in principle to ",
+    "snippet": "A diplomatic push by Oman, Pakistan and Qatar is widely expected to yield another pause in the Iran conflict, but there remains little prospect of a stop to what analysts fear has already become a “forever war”. On Monday, Iran and Oman agreed in principle to",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/28/56db6e5c-cb90-4a24-a089-2ce9f2b3dc0a_1d422ea5.jpg?itok=OV7y1MXR&v=1787890348"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "d0f21389d54e1a07",
@@ -143,7 +462,12 @@
     "snippet": "South Korea supports US President Donald Trump’s efforts to resume dialogue with North Korea, ‌but aims to ensure its security posture is not weakened and that Seoul is not sidelined, according to South Korea’s national security adviser. Seoul believed the res",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/28/687035a4-cedf-4112-9db8-0e438fd8a77f_0c295674.jpg?itok=4gLvxqqi&v=1787892993"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "6091de0581998d4c",
@@ -156,7 +480,12 @@
     "snippet": "We have selected seven stories from this week’s news across Hong Kong, mainland China, the wider Asia region and beyond that resonated with our readers and shed light on topical issues. If you would like to see more of our reporting, please consider subscribin",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/28/58568d57-34f8-4329-8833-c782180419c2_a5e8d3d5.jpg?itok=w6Xm5te9&v=1787884969"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "7f8f8cd32a331055",
@@ -167,7 +496,12 @@
     "publishedAt": "2026-08-28T04:00:00.000Z",
     "fetchedAt": "2026-08-28T10:15:21.754Z",
     "snippet": "arXiv:2608.26107v1 Announce Type: new Abstract: Predicting students' academic risk in online education is crucial for enabling timely interventions that can improve retention and learning outcomes. However, existing models often suffer from limited early detec",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "15e1a91a1826291b",
@@ -177,8 +511,13 @@
     "category": "Other AI Tech",
     "publishedAt": "2026-08-28T04:00:00.000Z",
     "fetchedAt": "2026-08-28T10:15:21.754Z",
-    "snippet": "arXiv:2608.26109v1 Announce Type: new Abstract: Machine-learning models can predict ICU mortality accurately, but feature-attribution methods alone rarely provide the clinical narrative needed for bedside use. Large language models (LLMs) may bridge this gap, ",
-    "images": []
+    "snippet": "arXiv:2608.26109v1 Announce Type: new Abstract: Machine-learning models can predict ICU mortality accurately, but feature-attribution methods alone rarely provide the clinical narrative needed for bedside use. Large language models (LLMs) may bridge this gap,",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "5f458213e10b02bf",
@@ -189,7 +528,12 @@
     "publishedAt": "2026-08-28T04:00:00.000Z",
     "fetchedAt": "2026-08-28T10:15:21.754Z",
     "snippet": "arXiv:2608.26111v1 Announce Type: new Abstract: Battery Prognostics and Health Management (BPHM) is critical for ensuring the safe, reliable, and cost-effective operation of batteries across electric vehicles, grid storage, and consumer electronics. Convention",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a6b9dca3dc1c001e",
@@ -200,7 +544,12 @@
     "publishedAt": "2026-08-28T04:00:00.000Z",
     "fetchedAt": "2026-08-28T10:15:21.754Z",
     "snippet": "arXiv:2608.26113v1 Announce Type: new Abstract: We present PICasso, an AI-assisted framework for automated synthesis, verification, and optimization of photonic integrated circuits (PICs) from natural-language specifications. PICasso couples a structured NL ->",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "d00e91bd16ddbe85",
@@ -211,7 +560,12 @@
     "publishedAt": "2026-08-28T04:00:00.000Z",
     "fetchedAt": "2026-08-28T10:15:21.755Z",
     "snippet": "arXiv:2608.26114v1 Announce Type: new Abstract: Calculation-intensive financial question answering requires exact reasoning over structured rates, temporal conditions, numerical formulas, and rule-based constraints. Although Large Language Models (LLMs) perfor",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e6c110c98cccaf99",
@@ -221,8 +575,13 @@
     "category": "Other AI Tech",
     "publishedAt": "2026-08-28T04:00:00.000Z",
     "fetchedAt": "2026-08-28T10:15:21.755Z",
-    "snippet": "arXiv:2608.26116v1 Announce Type: new Abstract: Existing methods for exploring cellular automata and other complex systems mostly operate in open loop: they set initial conditions, execute a full simulation, and observe the outcome, without intervening during ",
-    "images": []
+    "snippet": "arXiv:2608.26116v1 Announce Type: new Abstract: Existing methods for exploring cellular automata and other complex systems mostly operate in open loop: they set initial conditions, execute a full simulation, and observe the outcome, without intervening during",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "739b4cbb4dabbc52",
@@ -233,7 +592,12 @@
     "publishedAt": "2026-08-28T04:00:00.000Z",
     "fetchedAt": "2026-08-28T10:15:21.755Z",
     "snippet": "arXiv:2608.26134v1 Announce Type: new Abstract: Energy forecasting aims to maximize accuracy to ensure energy efficiency by reducing energy waste, an objective that applies equally to on-device forecasting for mission-critical edge environments, including mili",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "872e1356502cf7f4",
@@ -244,7 +608,12 @@
     "publishedAt": "2026-08-28T04:00:00.000Z",
     "fetchedAt": "2026-08-28T10:15:21.755Z",
     "snippet": "arXiv:2608.26145v1 Announce Type: new Abstract: Our research focuses on evaluating literature reviews generated in short and long context settings of large language models (LLMs) to investigate the impact of context window on the quality of AI-generated litera",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "145a7ca5748542f9",
@@ -255,7 +624,12 @@
     "publishedAt": "2026-08-28T04:00:00.000Z",
     "fetchedAt": "2026-08-28T10:15:21.755Z",
     "snippet": "arXiv:2608.26149v1 Announce Type: new Abstract: Multi-table learning remains a major challenge in machine learning for healthcare and other complex information systems. Relational data combine several sources of complexity, including large data volume, high-di",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "677fca21616d9c7d",
@@ -266,7 +640,12 @@
     "publishedAt": "2026-08-28T04:00:00.000Z",
     "fetchedAt": "2026-08-28T10:15:21.755Z",
     "snippet": "arXiv:2608.26150v1 Announce Type: new Abstract: Recent advancements in Large Language Models (LLMs) have created new opportunities to streamline and potentially automate many research processes, including systematic literature reviews (SLRs). This study report",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "2aa8df0a8d8940b7",
@@ -276,10 +655,15 @@
     "category": "China AI",
     "publishedAt": "2026-08-28T03:38:43.000Z",
     "fetchedAt": "2026-08-28T10:15:22.092Z",
-    "snippet": "US Immigration and Customs Enforcement has awarded a US$16.7 million contract to purchase 6,000 pairs of gloves that can deliver painful electric shocks, saying officers would use them to control detainees and protesters who resist. ICE moved forward with the ",
+    "snippet": "US Immigration and Customs Enforcement has awarded a US$16.7 million contract to purchase 6,000 pairs of gloves that can deliver painful electric shocks, saying officers would use them to control detainees and protesters who resist. ICE moved forward with the",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/28/c6619755-d40f-49c1-a721-f1b76e1d4fab_b0c33763.jpg?itok=qPDeToUZ&v=1787902892"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "fcb6c8168aa0f01c",
@@ -289,10 +673,15 @@
     "category": "China AI",
     "publishedAt": "2026-08-28T03:35:37.000Z",
     "fetchedAt": "2026-08-28T10:15:22.093Z",
-    "snippet": "South Korea said on Friday it would hold joint military exercises with the United States and Japan in September, after Washington scaled back annual drills with Seoul in an apparent bid to encourage dialogue with North Korea. The three countries would conduct ",
+    "snippet": "South Korea said on Friday it would hold joint military exercises with the United States and Japan in September, after Washington scaled back annual drills with Seoul in an apparent bid to encourage dialogue with North Korea. The three countries would conduct",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/28/b80c14e0-6305-4155-9a95-33f21f19ed28_a7877ca5.jpg?itok=uvp6yHVi&v=1787888135"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "57171fcdf41bd45f",
@@ -305,7 +694,12 @@
     "snippet": "Trita Parsi is co-founder and executive vice-president of the Quincy Institute, a Washington-based think tank. He is an expert on US-Iranian relations, Iranian foreign policy and the geopolitics of the Middle East. He has written four books on US foreign polic",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/28/b08db62e-5765-40ed-9cea-6d7ee951ba97_9a7d4f3e.jpg?itok=TqdCAF0K&v=1787884542"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "d5768792d8781107",
@@ -318,7 +712,12 @@
     "snippet": "A US federal judge on Thursday blocked the US Postal Service from implementing core parts of a new rule it adopted at President Donald Trump’s direction that would tighten mail-in voting requirements ahead of the November congressional elections. US District J",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/28/09884bea-dd8b-47d7-9283-7326190bb11d_7b938654.jpg?itok=9vJRAMw-&v=1787885489"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "be349e6a92c665d4",
@@ -331,7 +730,12 @@
     "snippet": "Tencent's office agent WorkBuddy has scaled from pilot to production inside century-old cosmetics maker Shanghai Jahwa, lifting efficiency more than fourfold across nine departments.",
     "images": [
       "https://cms-image.pandaily.com/1/A5_c6062cab44.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "9e7ff59e32afeeb0",
@@ -344,7 +748,12 @@
     "snippet": "Baidu's office agent Dazi posted the fastest desktop growth among AI work assistants in July as the company doubles down on an application-driven ERNIE strategy.",
     "images": [
       "https://cms-image.pandaily.com/1/A3_6c5d54b3a8.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "818f01084ed62679",
@@ -357,7 +766,12 @@
     "snippet": "XPeng debuts the first major upgrade to its second-generation VLA, adding dynamic 4D spacetime understanding and bringing Robotaxi-grade L4 behavior to production cars.",
     "images": [
       "https://cms-image.pandaily.com/1/A2_bcdb7bfbc3.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "9231a53cbefd7063",
@@ -370,7 +784,12 @@
     "snippet": "Overnight undercutting by Zhipu's GLM-5.3-Flash and Alibaba's Qwen3.8-Flash is resetting what it means to be a flagship LLM in China's pricing war.",
     "images": [
       "https://cms-image.pandaily.com/1/A1_b0d47a034a.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "fac8a527344178cc",
@@ -381,7 +800,12 @@
     "publishedAt": "2026-08-27T23:16:45.000Z",
     "fetchedAt": "2026-08-28T10:15:21.469Z",
     "snippet": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "f574ccfb8103ec18",
@@ -396,7 +820,12 @@
       "https://cdn.arstechnica.net/wp-content/uploads/2026/08/mhsdemo-1152x648.png",
       "https://cdn.arstechnica.net/wp-content/uploads/2026/08/mhsdemo-500x500.png",
       "https://cdn.arstechnica.net/wp-content/uploads/2026/08/mhsgraph.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a9c54469e992e420",
@@ -5718,364 +6147,6 @@
       "https://cdn.mos.cms.futurecdn.net/49QX9DhQjJDwWiR2NPT9tD-1280-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/JY32VXJVXoHUR8NRV2Kveb.png"
     ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "741f486a825059d4",
-    "title": "Australia charges dual citizen accused of spying for Russia in Ukraine",
-    "link": "https://www.scmp.com/news/asia/australasia/article/3364856/australia-charges-dual-citizen-accused-spying-russia-ukraine?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-08-21T11:23:46.000Z",
-    "fetchedAt": "2026-08-21T12:52:24.541Z",
-    "snippet": "Australian police charged a man with foreign interference on Friday for allegedly seeking to pass intelligence about Ukrainian military activities to Russia. The 27-year-old Russian-Australian citizen underwent “military-style” training in Russia and later joi",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/21/c16831b7-c5b1-4243-8d93-308fc5a57285_02dfa927.jpg?itok=IINSwcxB&v=1787311422"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "d2979b73e6a9bcc9",
-    "title": "As demand for Meta AI glasses explodes, it’s harder to avoid creepy recordings",
-    "link": "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-08-21T11:00:53.000Z",
-    "fetchedAt": "2026-08-21T12:52:24.323Z",
-    "snippet": "Ars looks at Zuckoff, the latest free app detecting Meta AI glasses amid privacy backlash.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/08/zuckoff-glasshole-1152x648.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/08/zuckoff-glasshole-500x500.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "b0e6600fd24c6f7c",
-    "title": "Save $900 on this 2-in-1 Asus ROG touchscreen gaming laptop with 64GB RAM — the 14-inch Flow Z13 machine ships with a 16-core AMD Strix Halo CPU and a 1TB SSD, perfect for games and AI",
-    "link": "https://www.tomshardware.com/laptops/gaming-laptops/save-usd900-on-this-2-in-1-asus-rog-touchscreen-gaming-laptop-with-64gb-ram-the-14-inch-flow-z13-machine-ships-with-a-16-core-amd-strix-halo-cpu-and-a-1tb-ssd-perfect-for-games-and-ai",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-08-21T10:23:49.000Z",
-    "fetchedAt": "2026-08-21T12:52:24.141Z",
-    "snippet": "Save a huge $900 on this touch screen gaming laptop combo, the Asus ROG Flow Z13, now just $2,099.99.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/cC79NqVh3ZF45VKPFYh2YC-1280-80.png",
-      "https://cdn.mos.cms.futurecdn.net/WuansrqekLxh8RsxVTQXzn.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "1d55714c5a7ef487",
-    "title": "Mother tongue",
-    "link": "https://www.technologyreview.com/2026/08/21/1141726/mother-tongue-fiction/",
-    "source": "MIT Technology Review",
-    "category": "US & Global AI",
-    "publishedAt": "2026-08-21T09:00:00.000Z",
-    "fetchedAt": "2026-08-21T12:52:23.971Z",
-    "snippet": "“Daddy?” Theo curled against my side in bed. “Where do words go when they die?” I’d orchestrated the bedtime routine flawlessly: bath (taken), teeth (brushed), potty (tinkled), books (two), song (one, poorly sung), and snuggle (his chin on my second rib). Now",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "5eb27acf1948fbab",
-    "title": "When AI designs a drug, who gets the credit?",
-    "link": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/",
-    "source": "MIT Technology Review",
-    "category": "US & Global AI",
-    "publishedAt": "2026-08-21T09:00:00.000Z",
-    "fetchedAt": "2026-08-21T12:52:23.971Z",
-    "snippet": "When the biotech company Insilico Medicine used its computer models to propose a promising drug for pulmonary fibrosis, it enthusiastically claimed in a press release that the molecule had been “discovered by” its generative AI platform. Insilico leads a pack",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "3e2e28b5152d4405",
-    "title": "Alibaba Releases Qwen-UI-Agent: Making Models Truly Use Every Screen",
-    "link": "https://pandaily.com/alibaba-qwen-ui-agent-gui-agent-foundation-model-screen-control-aug2026",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-08-21T08:17:45.000Z",
-    "fetchedAt": "2026-08-21T12:52:24.026Z",
-    "snippet": "On August 20, Alibaba Qwen released Qwen-UI-Agent, a GUI agent foundation model for real devices covering phones, desktops, web, and deep search. Trained and evaluated on real hardware, it reads screens and mimics clicks, input, and swipes, scoring 82.1% on Mo",
-    "images": [
-      "https://cms-image.pandaily.com/1/img_4_1a12a90e1c.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "7df99e489efdd628",
-    "title": "Qwen3.8-27B Is the New Model Kill Line: Local 'Opus 4.6' on Consumer Hardware",
-    "link": "https://pandaily.com/qwen3-8-27b-new-model-kill-line-local-opus-consumer-hardware-aug2026",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-08-21T08:17:44.000Z",
-    "fetchedAt": "2026-08-21T12:52:24.027Z",
-    "snippet": "Open-source developers have a new benchmark of their own: Qwen3.8-27B. Released August 14, it passed a million downloads in two days, hit Hugging Face's global trend list, and earned 52 on Artificial Analysis' Intelligence Index, an interval shared with GPT-5.",
-    "images": [
-      "https://cms-image.pandaily.com/1/img_1_ba8604b24a.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "808089883843c1b7",
-    "title": "Xiaohongshu Quietly Open-Sources Its Own Large Model: Content Platforms Build Their Own Base",
-    "link": "https://pandaily.com/xiaohongshu-red-dots3-note-open-source-content-platform-base-model-aug2026",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-08-21T08:17:43.000Z",
-    "fetchedAt": "2026-08-21T12:52:24.027Z",
-    "snippet": "Xiaohongshu released a large model overseas, the dots3-note preview, a MoE model with 280B total and 16B activated parameters, 512K context, and text, vision, and voice understanding. Released under Apache 2.0 on Hugging Face and GitHub with Huawei Ascend adap",
-    "images": [
-      "https://cms-image.pandaily.com/1/img_3_10faa74830.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "acbf22ad0598fe1d",
-    "title": "Huatian Technology's Fan-Out Packaging Tackles the Chip Thermal-Failure Challenge",
-    "link": "https://pandaily.com/huatian-technology-fan-out-foplp-thermal-design-chip-heat-aug2026",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-08-21T08:17:43.000Z",
-    "fetchedAt": "2026-08-21T12:52:24.027Z",
-    "snippet": "Research suggests more than half of electronic product failures stem from thermal failures caused by rising chip junction temperature. As transistor density climbs, power density and heat grow, making package thermal design a key bottleneck. Huatian Technology",
-    "images": [
-      "https://cms-image.pandaily.com/1/img_2_14a0c98780.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "16334deeaacfd50f",
-    "title": "The Tiangong Robot Family Grows: 1.35-Meter Tiangong Omni Scores Full Marks on Work",
-    "link": "https://pandaily.com/tiangong-omni-beijing-humanoid-robot-innovation-center-135m-lightweight-family-aug2026",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-08-21T08:17:42.000Z",
-    "fetchedAt": "2026-08-21T12:52:24.027Z",
-    "snippet": "During the World Robot Conference, a new member of the Tiangong robot family made its debut: Tiangong Omni, a lightweight humanoid just 1.35 meters tall and weighing 39 kilograms. Its slim body suits narrow-space operations, emergency rescue, and home service,",
-    "images": [
-      "https://cms-image.pandaily.com/1/img_5_3e04aa36c9.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "6cb0fcd17fdccf1b",
-    "title": "As Harry plans UK return, can he patch up royal rift with Prince William?",
-    "link": "https://www.scmp.com/news/world/europe/article/3364794/harry-plans-uk-return-can-he-patch-royal-rift-prince-william?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-08-21T06:53:49.000Z",
-    "fetchedAt": "2026-08-21T12:52:24.541Z",
-    "snippet": "William and Harry were united in grief as children by the tragic death of their mother, Princess Diana, but their relationship as adults has been ripped apart by anger and hurt. The pair – dubbed “the heir and the spare” from an early age – have failed to put",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/21/be6fe2cf-8451-49e4-98ec-a1cc45f74df6_d0f17be5.jpg?itok=p7n8wBk1&v=1787295227"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "eff146c1c48fb98c",
-    "title": "China’s ‘smart’ diabetes probiotics; life sentence for Hui Ka-yan: SCMP’s 7 highlights",
-    "link": "https://www.scmp.com/news/world/article/3364744/chinas-smart-diabetes-probiotics-life-sentence-hui-ka-yan-scmps-7-highlights?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-08-21T04:15:08.000Z",
-    "fetchedAt": "2026-08-21T12:52:24.541Z",
-    "snippet": "We have selected seven stories from this week’s news across Hong Kong, mainland China, the wider Asia region and beyond that resonated with our readers and shed light on topical issues. If you would like to see more of our reporting, please consider subscribin",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/21/21f271a6-18af-4959-99e6-9bfd6d21dbb3_38f0acfa.jpg?itok=po9VqOa3&v=1787273618"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "b22152ca224c568b",
-    "title": "Position: Collusion Risks Among AI Reasoning Agents Justify Certification Requirements for Making Market Decisions",
-    "link": "https://arxiv.org/abs/2608.18078",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-08-21T04:00:00.000Z",
-    "fetchedAt": "2026-08-21T12:52:24.154Z",
-    "snippet": "arXiv:2608.18078v1 Announce Type: new Abstract: This position paper argues that AI agents with chain-of-thought reasoning capabilities are predisposed to exhibit collusive behavior and should be required to obtain behavioral certification before making decisio",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "4f19439fb41e065e",
-    "title": "Position: Profiling Game Worlds by Transition Complexity",
-    "link": "https://arxiv.org/abs/2608.18079",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-08-21T04:00:00.000Z",
-    "fetchedAt": "2026-08-21T12:52:24.154Z",
-    "snippet": "arXiv:2608.18079v1 Announce Type: new Abstract: Game world modeling (GWM) and reinforcement learning (RL) are often confounded because research papers rarely quantify how difficult the underlying transition prediction problem is at the declared interface (pixe",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "cefd41faec852235",
-    "title": "Large Language Models in Mental Health: A Systematic Review of Applications, Innovations, and Ethical Challenges",
-    "link": "https://arxiv.org/abs/2608.18080",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-08-21T04:00:00.000Z",
-    "fetchedAt": "2026-08-21T12:52:24.154Z",
-    "snippet": "arXiv:2608.18080v1 Announce Type: new Abstract: We present a review on the applications of large language models (LLMs) in health, e.g., social media analysis, clinical conversational agents, therapy support tools, prompt engineering, multimodal learning, and",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "f186115b85c57cb1",
-    "title": "Position: Behavioral Systems Require Behavioral Tests",
-    "link": "https://arxiv.org/abs/2608.18081",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-08-21T04:00:00.000Z",
-    "fetchedAt": "2026-08-21T12:52:24.154Z",
-    "snippet": "arXiv:2608.18081v1 Announce Type: new Abstract: Artificial agentic systems increasingly operate as behavioral systems by interacting with dynamic environments, pursuing goals, and adapting over time. Yet, current evaluation methods largely focus on performance",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "41bd55f348be8f93",
-    "title": "Position: Current Model Cards Are Insufficient for Downstream Governance of Open-Weight Foundation Models",
-    "link": "https://arxiv.org/abs/2608.18086",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-08-21T04:00:00.000Z",
-    "fetchedAt": "2026-08-21T12:52:24.154Z",
-    "snippet": "arXiv:2608.18086v1 Announce Type: new Abstract: The growth of open-weight foundation models (OWFMs) has prompted the AI community to re-evaluate strategies for effective downstream governance. Although model cards have been widely adopted as transparency artif",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "96df8683dbf4d0d7",
-    "title": "A Metamorphic Artificial Age Score Decision-Support Prototype for Flight-Log-Based Drone Propeller Health Monitoring",
-    "link": "https://arxiv.org/abs/2608.18088",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-08-21T04:00:00.000Z",
-    "fetchedAt": "2026-08-21T12:52:24.154Z",
-    "snippet": "arXiv:2608.18088v1 Announce Type: new Abstract: Drone propeller faults can create safety and reliability risks when their effects are distributed across multiple flight-log channels rather than appearing as a single diagnostic signal. This paper proposes a Met",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "dc14d48a0159d3d6",
-    "title": "Position: Multi-Agent Systems Should Prioritize Concurrency Control",
-    "link": "https://arxiv.org/abs/2608.18092",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-08-21T04:00:00.000Z",
-    "fetchedAt": "2026-08-21T12:52:24.154Z",
-    "snippet": "arXiv:2608.18092v1 Announce Type: new Abstract: LLM-based multi-agent systems (MAS) promise scalable collaboration, yet adding agents often reduces reliability. This position paper argues that many MAS failures are fundamentally concurrency control problems: a",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "70f923251dfb7b37",
-    "title": "FinSkillBench: Evaluating AI Agents and Domain Skills for Investment Management",
-    "link": "https://arxiv.org/abs/2608.18099",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-08-21T04:00:00.000Z",
-    "fetchedAt": "2026-08-21T12:52:24.154Z",
-    "snippet": "arXiv:2608.18099v1 Announce Type: new Abstract: Investment management is a high-stakes domain in which agentic AI systems must do more than generate plausible text. They must retrieve point-in-time data, assemble correct computational inputs, invoke specialize",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "cce22dead5f31691",
-    "title": "Self-Evolving Agents as Dynamic Graph Transformation: A Survey and New Perspective",
-    "link": "https://arxiv.org/abs/2608.18104",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-08-21T04:00:00.000Z",
-    "fetchedAt": "2026-08-21T12:52:24.154Z",
-    "snippet": "arXiv:2608.18104v1 Announce Type: new Abstract: Large language model (LLM)-based agents are increasingly becoming self-evolving systems that persist across interactions, maintain memories, use tools, acquire skills, refine workflows, and coordinate with other",
-    "images": [],
     "titleZh": "",
     "snippetZh": "",
     "translatedAt": "",
