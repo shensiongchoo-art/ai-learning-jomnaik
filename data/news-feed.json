@@ -1,5 +1,40 @@
 [
   {
+    "id": "327ac79114046e18",
+    "title": "Sony Music, Warner sue Anthropic, alleging a &#8220;brazen campaign&#8221; of intellectual property theft",
+    "link": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-08-29T18:41:59.000Z",
+    "fetchedAt": "2026-08-30T04:23:25.204Z",
+    "snippet": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
+    "images": []
+  },
+  {
+    "id": "78046eb16f89a015",
+    "title": "Far-right activist Milo Yiannopoulos deported after immigration arrest in US",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3365722/far-right-activist-milo-yiannopoulos-deported-after-immigration-arrest-us?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-29T18:08:03.000Z",
+    "fetchedAt": "2026-08-30T04:23:25.778Z",
+    "snippet": "British far-right commentator Milo Yiannopoulos has been deported back to the UK after his arrest by American immigration authorities, US officials said on Saturday. The US Department of Homeland Security said Yiannopoulos was returned to his home country on F",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/30/cc4fb62d-c206-4903-8a29-c958b7f4a3d9_9467b4a3.jpg?itok=beGUPx2x&v=1788026881"
+    ]
+  },
+  {
+    "id": "9cab84d8c04fb7f5",
+    "title": "&#8220;We’re not doing 30 bets a year&#8221;: Vijay Pande on betting small after running $4 billion at a16z",
+    "link": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-08-29T17:36:47.000Z",
+    "fetchedAt": "2026-08-30T04:23:25.206Z",
+    "snippet": "Vijay Pande — who left a16z's roughly $4 billion biotech practice last year to start the much smaller, AI-native VZVC — talks about why biology is finally shifting from a \"discovery\" science to an \"engineering\" one, why clinical trials are still brutally expen",
+    "images": []
+  },
+  {
     "id": "56e204e1e44da879",
     "title": "Magnetic core memory USB drive transfers files in sneakernet first — text and image files get moved between PCs via hugely constrained archaic memory tech",
     "link": "https://www.tomshardware.com/pc-components/usb-flash-drives/magnetic-core-memory-usb-drive-transfers-files-in-sneakernet-first-text-and-image-files-get-moved-between-pcs-via-hugely-constrained-archaic-memory-tech",
@@ -13,7 +48,12 @@
       "https://cdn.mos.cms.futurecdn.net/YLDYLAKEw8G2Fft8ZbHCVn.jpg",
       "https://cdn.mos.cms.futurecdn.net/tAL8KCvNwD7goFEvAC6kNn.jpg",
       "https://cdn.mos.cms.futurecdn.net/HNpDmLCjrkFoXeseCfpDVn.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "3cb02a8e906c5669",
@@ -26,7 +66,12 @@
     "snippet": "San Francisco defense startup Mara has secured $7 million in a pre-seed round to produce what it calls Spike, a portable counter-drone system housed inside a backpack.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/qCygnCDbjNo5J7MF6E4UdU-1280-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "28ef1aca25c62ff2",
@@ -37,7 +82,12 @@
     "publishedAt": "2026-08-29T13:00:00.000Z",
     "fetchedAt": "2026-08-29T16:24:23.203Z",
     "snippet": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "7b327e5dc6309520",
@@ -50,7 +100,12 @@
     "snippet": "Mutinying soldiers led armed clashes in Niger’s capital on Saturday, alarming residents, but the ruling junta said it had largely wrested back control after hours of heavy exchanges around some of its most sensitive sites. While the fighting had subsided later",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/29/f4ecb151-3e51-40e0-a373-87a49dd64bee_3e86aafa.jpg?itok=vcH_28w4&v=1788003851"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c02e768a7a536c65",
@@ -64,7 +119,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/DpJikreqsPzfAA3BiWX2Hb-1280-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/opvDHJa8FTDcZtnizew4Mb.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "4695a484549c1da8",
@@ -78,7 +138,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/JBoMqFsHXVdepshijzND6G-1280-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/Naa9i5RiWd85B2GTsqkKzK.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "1893e406805571ce",
@@ -94,7 +159,12 @@
       "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7.jpg",
       "https://cdn.mos.cms.futurecdn.net/RSwF35PSPnghnN38mBNUWo.png",
       "https://cdn.mos.cms.futurecdn.net/2SzPoQYJ7M4vVuZGTrN5u.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "2f0833e66388d512",
@@ -107,7 +177,12 @@
     "snippet": "The person or group behind nine days of Grand Theft Auto VI gameplay leaks cashed out of the $CYBERLEEK memecoin on Thursday, hours before Rockstar's Extended Look premiered on Netflix.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/Naa9i5RiWd85B2GTsqkKzK-1280-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "fc40b2c477606de3",
@@ -120,7 +195,12 @@
     "snippet": "The U.S. Navy successfully tested a sail-powered autonomous drone in live-fire exercises in the Pacific.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/uFUvCuBYpLznCPB9MPruAm-1280-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "9e25c690b47c4988",
@@ -130,10 +210,15 @@
     "category": "China AI",
     "publishedAt": "2026-08-29T09:55:07.000Z",
     "fetchedAt": "2026-08-29T16:24:23.710Z",
-    "snippet": "At least 37 people have died after a Russian drone struck a depot near Kyiv’s western suburbs overnight, sparking a huge fire and explosions, authorities said on Saturday. The depot, near the capital’s western suburbs, appeared to have been storing “explosive ",
+    "snippet": "At least 37 people have died after a Russian drone struck a depot near Kyiv’s western suburbs overnight, sparking a huge fire and explosions, authorities said on Saturday. The depot, near the capital’s western suburbs, appeared to have been storing “explosive",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/29/f218fd2a-c9ed-471c-a8f3-3870395048ec_02a252be.jpg?itok=hEQ_c3yC&v=1787997303"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "0346bb7315d7fc85",
@@ -6148,64 +6233,6 @@
     "snippet": "Iranian President Masoud Pezeshkian said on Friday it was time to end the months-long Middle East war with the US because Tehran appeared to be in a stronger position than Washington. Talks between the long-time foes remain on hold, and the war started by the",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/22/d19b2a0d-25e6-4bf0-bcbb-400dacdd9f78_9a397b8c.jpg?itok=-5t25w2R&v=1787345261"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "b41de02098c3ad0c",
-    "title": "Turkey issues ‘genocide’ warrant for Israel’s Netanyahu over Gaza flotilla",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3364892/turkey-issues-genocide-warrant-israels-netanyahu-over-gaza-flotilla?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-08-21T17:58:27.000Z",
-    "fetchedAt": "2026-08-22T01:20:44.252Z",
-    "snippet": "Turkey has sought an international arrest warrant for Israel’s Prime Minister Benjamin Netanyahu, accusing him of “genocide” linked to Israel’s interception of a Gaza-bound aid flotilla, the justice minister announced Friday. Turkey has become a virulent criti",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/22/7848a984-147c-4add-8ef3-1b110a2ac34a_7a8bf711.jpg?itok=27TX1e3W&v=1787335092"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "6ed6fc17b9ac9cad",
-    "title": "Get a $75 discount on your next Corsair upgrade — stack your cart up to $350 to enjoy big savings",
-    "link": "https://www.tomshardware.com/pc-components/get-a-usd75-discount-on-your-next-corsair-upgrade-stack-your-cart-up-to-usd350-to-enjoy-big-savings",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-08-21T15:27:27.000Z",
-    "fetchedAt": "2026-08-22T01:20:44.030Z",
-    "snippet": "Corsair launches a back-to-school promotion offering $75 off qualifying purchases of $350 or more in the U.S.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/Q5tZVznXpvcKLTcSBR6Kak-1280-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/5BAMRpQVesHyMu7FCbp8N4.jpg",
-      "https://cdn.mos.cms.futurecdn.net/pmLX846kDLkUkFRdSBQTLT.jpg",
-      "https://cdn.mos.cms.futurecdn.net/gAnvWHUfHv9VwW7rBYZmx.jpg",
-      "https://cdn.mos.cms.futurecdn.net/qgmdfqcPMfJuiSPZiwddZK.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "78a59698a423b385",
-    "title": "SanDisk expansion cards for Xbox Series X|S now available on Amazon — alternative storage solution to Seagate, WD arrives on the market five years after the launch of the consoles",
-    "link": "https://www.tomshardware.com/pc-components/external-ssds/sandisk-expansion-cards-for-xbox-series-x-s-now-available-on-amazon-alternative-storage-solution-to-seagate-wd-arrives-on-the-market-five-years-after-the-launch-of-the-consoles",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-08-21T15:25:29.000Z",
-    "fetchedAt": "2026-08-22T01:20:44.030Z",
-    "snippet": "The SanDisk Optimus GX C50 expansion cards for the Xbox Series X|S are now available on Amazon starting at $249.99 for the 1TB variant. While gamers can use external drives to copy and backup games from the Xbox consoles, they need expansion cards like these f",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/uyc6JpWNuYp8MdBAXQBRWc-1280-80.png"
     ],
     "titleZh": "",
     "snippetZh": "",
