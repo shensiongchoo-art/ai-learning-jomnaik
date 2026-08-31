@@ -1,5 +1,303 @@
 [
   {
+    "id": "b19964eed3dee47c",
+    "title": "Time Capsule of Testable Human Knowledge: 41 Years of Jeopardy! in a Single Free Local Model",
+    "link": "https://arxiv.org/abs/2608.27459",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "fetchedAt": "2026-08-31T04:28:24.690Z",
+    "snippet": "arXiv:2608.27459v1 Announce Type: new Abstract: In 2011, IBM's Watson was something like a sealed capsule of its era's queryable knowledge. Its DeepQA system defeated the strongest human Jeopardy! champions, but the knowledge that let it do so lived in a curat",
+    "images": []
+  },
+  {
+    "id": "5f253c8e6375be53",
+    "title": "Rating the Raters: Rasch Measurement Theory for LLM Evaluation",
+    "link": "https://arxiv.org/abs/2608.27463",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "fetchedAt": "2026-08-31T04:28:24.690Z",
+    "snippet": "arXiv:2608.27463v1 Announce Type: new Abstract: LLMs now sit on every side of evaluation: as examinees scored on benchmarks, judges of other models' outputs, and raters of human-generated content. Each paradigm can be viewed as a measurement problem, where a l",
+    "images": []
+  },
+  {
+    "id": "4a72bc1b0eab991c",
+    "title": "Not All Explanations Are Sought: Information-Seeking Psychology for Human-Centered XAI",
+    "link": "https://arxiv.org/abs/2608.27464",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "fetchedAt": "2026-08-31T04:28:24.690Z",
+    "snippet": "arXiv:2608.27464v1 Announce Type: new Abstract: This position paper argues that human-centered explainable AI (HCXAI) should incorporate insights from the psychology of information seeking. Drawing on Sharot and Sunstein's framework of information-seeking moti",
+    "images": []
+  },
+  {
+    "id": "d76fb648151fcc1e",
+    "title": "Retrieving Relations, Detecting Fallacies: A RAG Approach to Political Debate Analysis",
+    "link": "https://arxiv.org/abs/2608.27471",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "fetchedAt": "2026-08-31T04:28:24.690Z",
+    "snippet": "arXiv:2608.27471v1 Announce Type: new Abstract: Fallacies are arguments that employ invalid reasoning, making their automatic detection critical in sensitive contexts such as high-stakes political debates, where public opinion is shaped. Spotting a fallacious ",
+    "images": []
+  },
+  {
+    "id": "ba2de12445a88b23",
+    "title": "LLM-Augmented Causal Discovery: Probabilistic Fusion of Edge Existence and Orientation",
+    "link": "https://arxiv.org/abs/2608.27472",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "fetchedAt": "2026-08-31T04:28:24.690Z",
+    "snippet": "arXiv:2608.27472v1 Announce Type: new Abstract: Bayesian network structure learning (BNSL) from observational data struggles with orientation identifiability, while large language models (LLMs) offer broad but often unreliable causal knowledge. We propose comb",
+    "images": []
+  },
+  {
+    "id": "1fa6009ab7f879e1",
+    "title": "Hypothesize, Evaluate, Refine: A Scientific Agent for PDE Discovery with Unknown Spatial Coefficient Fields",
+    "link": "https://arxiv.org/abs/2608.27475",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "fetchedAt": "2026-08-31T04:28:24.690Z",
+    "snippet": "arXiv:2608.27475v1 Announce Type: new Abstract: Discovering PDEs in heterogeneous media requires jointly identifying the governing operator and the unknown spatial fields that parameterize it. These tasks are coupled: changing field placement changes the diffe",
+    "images": []
+  },
+  {
+    "id": "9ebe5dde571bf48c",
+    "title": "Class-Based Heuristic Selection for Solving the Flying Block Puzzle",
+    "link": "https://arxiv.org/abs/2608.27476",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "fetchedAt": "2026-08-31T04:28:24.690Z",
+    "snippet": "arXiv:2608.27476v1 Announce Type: new Abstract: Heuristic search underlies planning in autonomous systems ranging from warehouse logistics to robotic navigation, yet generic heuristics fail to exploit the structural constraints that govern constrained spatial ",
+    "images": []
+  },
+  {
+    "id": "693dcf0986b28feb",
+    "title": "Benchmarking General Mobile Assistants in Challenging Real-World Scenarios",
+    "link": "https://arxiv.org/abs/2608.27477",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "fetchedAt": "2026-08-31T04:28:24.690Z",
+    "snippet": "arXiv:2608.27477v1 Announce Type: new Abstract: Graphical user interfaces have emerged as an important environment for evaluating autonomous AI agents on multimodal interactive tasks. Existing benchmarks such as AndroidWorld and MobileWorld provide strong foun",
+    "images": []
+  },
+  {
+    "id": "8e2f0ef9d601d618",
+    "title": "Effectiveness of IoT and Deep Learning for Detection and Severity Assessment of Postelectrotermes militaris in Tea Plantations",
+    "link": "https://arxiv.org/abs/2608.27480",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "fetchedAt": "2026-08-31T04:28:24.691Z",
+    "snippet": "arXiv:2608.27480v1 Announce Type: new Abstract: Tea plantations are vulnerable to Postelectrotermes militaris, commonly known as the Upcountry Live Wood Termite (ULWT), which can cause substantial damage when infestations remain undetected. This study proposes",
+    "images": []
+  },
+  {
+    "id": "3c31a9b505389bc2",
+    "title": "Context Localization for Generalized Level-Based Evaluation in Knowledge-Based Systems",
+    "link": "https://arxiv.org/abs/2608.27482",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "fetchedAt": "2026-08-31T04:28:24.691Z",
+    "snippet": "arXiv:2608.27482v1 Announce Type: new Abstract: We study context localization for generalized level-based evaluation in knowledge-based systems. The framework models situations where a structured nonnegative score, defined on facts, rules, cases, criteria or e",
+    "images": []
+  },
+  {
+    "id": "feb3dbb645c9780a",
+    "title": "Suzhou Chipsens Launches a MEMS Micromirror Array Chip for Optical Circuit Switching",
+    "link": "https://pandaily.com/suzhou-chipsens-mems-micromirror-array-ocs-aug2026",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-08-31T03:41:04.000Z",
+    "fetchedAt": "2026-08-31T04:28:24.626Z",
+    "snippet": "Suzhou Chipsens has launched a standard MEMS micromirror large-array chip, advancing China's push to localize optical circuit switching.",
+    "images": [
+      "https://cms-image.pandaily.com/1/img_aug31_5_a42264d21d.png"
+    ]
+  },
+  {
+    "id": "a7a26d8277ced13c",
+    "title": "China's Four Domestic GPU Makers Enter a Differentiation Phase",
+    "link": "https://pandaily.com/china-four-domestic-gpu-makers-differentiation-aug2026",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-08-31T03:41:00.000Z",
+    "fetchedAt": "2026-08-31T04:28:24.626Z",
+    "snippet": "After listing, China's four domestic GPU makers are shifting the race from having a chip to closing a commercial loop.",
+    "images": [
+      "https://cms-image.pandaily.com/1/img_aug31_3_180e96216a.png"
+    ]
+  },
+  {
+    "id": "deffd29d2c1728d4",
+    "title": "Chinese Robot Makers Step Into Japan's Labor Shortage",
+    "link": "https://pandaily.com/chinese-robot-makers-japan-labor-shortage-2026",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-08-31T03:40:57.000Z",
+    "fetchedAt": "2026-08-31T04:28:24.627Z",
+    "snippet": "China's robot makers are filling gaps in a Japan strained by labor shortages, moving from humanoids to warehouses and restaurants.",
+    "images": [
+      "https://cms-image.pandaily.com/1/img_aug31_1_5aa434035d.png"
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "2da09141deca56d9",
+    "title": "The U.S. is building barriers around drones and robots, but China has scale to get around them",
+    "link": "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-08-31T02:34:00.000Z",
+    "fetchedAt": "2026-08-31T04:28:24.510Z",
+    "snippet": "The U.S. is shutting out more foreign-made drones and robots. China’s scale means the global competition may simply move elsewhere.",
+    "images": []
+  },
+  {
+    "id": "517e84c572bfde01",
+    "title": "Google Maps changes Lake Ontario to ‘Lake America’ for US users after Trump order",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3365784/lake-ontario-now-called-lake-america-google-maps-us-users-after-trump-order?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-30T22:34:36.000Z",
+    "fetchedAt": "2026-08-31T04:28:25.005Z",
+    "snippet": "Google has updated its maps application to rename Lake Ontario as “Lake America” for users in the United States, reflecting a recent order by US President Donald Trump that changed the name of the lake, the global technology giant said. The Google Maps update ",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/31/21d1cf7f-314b-46a0-be39-30d13d5975f8_1cb330b1.jpg?itok=xekQEkBO&v=1788143831"
+    ]
+  },
+  {
+    "id": "bf8334bb60f0839d",
+    "title": "About 15 people unaccounted for after Grand Canyon flash flooding",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3365783/least-20-missing-dozens-evacuated-grand-canyon-after-flash-flood-hits-creek?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-30T21:54:48.000Z",
+    "fetchedAt": "2026-08-31T04:28:25.005Z",
+    "snippet": "About 15 people may be missing after a flash flood in Grand Canyon National Park, the National Park Service said in a statement Sunday. The floods hit the Bright Angel Canyon and Phantom Ranch area on Saturday, the service said, adding that it was working with",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/31/156ec0ef-6fa8-49bb-8700-077e32d11471_fd94a8c4.jpg?itok=S5X7UqAu&v=1788126699"
+    ]
+  },
+  {
+    "id": "4192b22257ed5037",
+    "title": "US strikes Iranian launchers in first action in weeks, triggering retaliation",
+    "link": "https://www.scmp.com/news/world/middle-east/article/3365782/us-forces-strike-two-iranian-launchers-irans-larak-island-us-official-says?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-30T21:04:04.000Z",
+    "fetchedAt": "2026-08-31T04:28:25.006Z",
+    "snippet": "US forces struck Iranian rocket launchers on the Strait of Hormuz in their first military action in a month on Sunday, breaking a lull in fighting during an intermittent war that has lasted more than six months. Iran swiftly vowed to retaliate for what it call",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/31/559e1677-1550-45e0-a8f2-7c6a014dfb04_3f4a2974.jpg?itok=I1tBcH1d&v=1788141180"
+    ]
+  },
+  {
+    "id": "34917ae51e25c1c8",
+    "title": "Colombia’s president warns armed groups after military kills key dissident leader",
+    "link": "https://www.scmp.com/news/world/americas/article/3365781/colombias-abelardo-de-la-espriella-says-soldiers-killed-key-dissident-leader?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-30T20:41:22.000Z",
+    "fetchedAt": "2026-08-31T04:28:25.006Z",
+    "snippet": "A prominent leader of the dissident factions of the defunct Revolutionary Armed Forces of Colombia who operated in a volatile area in the country’s southwest region was killed on Sunday during a military operation, said President Abelardo de la Espriella. The ",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/31/89d9b7f9-1925-4afd-95d8-15c8a4c53fa6_76446222.jpg?itok=gTHLfGkS&v=1788142291"
+    ]
+  },
+  {
+    "id": "229a6eb06e7c1776",
+    "title": "Ukraine prepares for new talks with Trump envoys as Kyiv reels from deadly strikes",
+    "link": "https://www.scmp.com/news/world/russia-central-asia/article/3365779/ukraine-preparing-further-talks-trump-envoys-zelensky-says?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-30T18:19:13.000Z",
+    "fetchedAt": "2026-08-31T04:28:25.006Z",
+    "snippet": "Ukraine is preparing for a new round of talks with representatives of US President Donald Trump, President Volodymyr Zelensky announced Sunday, expressing hope that diplomacy can prevent open conflict from remaining the only path forward. “There will be more d",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/31/e818b5a8-7160-4ccc-865d-f02c746f0a61_158fe01b.jpg?itok=_ZlcRp3k&v=1788150129"
+    ]
+  },
+  {
+    "id": "defd286250f6a0fe",
+    "title": "Speedy 34-inch 240 Hz ultrawide OLED monitor now $600 off — LG UltraGear 34GX900A-B only $599.99",
+    "link": "https://www.tomshardware.com/monitors/gaming-monitors/speedy-34-inch-240-hz-ultrawide-oled-monitor-now-usd600-off-lg-ultragear-34gx900a-b-only-usd599-99",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-08-30T18:08:43.000Z",
+    "fetchedAt": "2026-08-31T04:28:24.715Z",
+    "snippet": "The LG UltraGear 34GX900A-B packs a fast 240 Hz OLED panel and 3440 x 1440 resolution into an immersive 800R curved display, now available for 50% off.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/AXCqmvWBsGy73QGAsR8GH3-1280-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/X5eWsBjkhbCVLFNVzDEAjP.jpg"
+    ]
+  },
+  {
+    "id": "494cb41d0c9f4b12",
+    "title": "Iceland votes to reject proposal to restart EU accession talks",
+    "link": "https://www.scmp.com/news/world/europe/article/3365778/icelandic-voters-reject-proposal-restart-negotiations-join-european-union?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-30T17:44:06.000Z",
+    "fetchedAt": "2026-08-31T04:28:25.006Z",
+    "snippet": "Iceland’s voters rejected restarting negotiations to join the European Union in a referendum that pitted concerns about geopolitical stability against keeping national control of Iceland’s prized fisheries, officials said on Sunday. Opponents defeated the meas",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/31/1d9bd131-4685-48ce-8e55-3f2da383d8df_7c0aa190.jpg?itok=ROdZnZK3&v=1788147187"
+    ]
+  },
+  {
+    "id": "75e2bac96f9ec313",
+    "title": "Musk’s faster path to more gas turbines comes with pollution problem",
+    "link": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-08-30T16:54:25.000Z",
+    "fetchedAt": "2026-08-31T04:28:24.512Z",
+    "snippet": "Elon Musk says a secretive new SpaceX foundry will let him cast his own turbine blades and get gas power online 18 months faster than anyone else — but it's a bet on a fuel source that's already triggering lawsuits and health studies everywhere his (and others",
+    "images": []
+  },
+  {
+    "id": "271fe914042904e1",
+    "title": "At least 8 dead, 17 missing after ferry capsizes off Northern Cyprus",
+    "link": "https://www.scmp.com/news/world/europe/article/3365774/least-8-dead-22-missing-ferry-capsizes-northern-cyprus?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-30T16:43:28.000Z",
+    "fetchedAt": "2026-08-31T04:28:25.006Z",
+    "snippet": "A passenger ferry capsized and sank off Northern Cyprus Sunday, killing at least eight people and leaving more than a dozen missing, officials and media reports said, as police took the captain and seven crew members into custody. Several rescued passengers to",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/31/06bc8a73-518b-4b11-a025-100fcb2905f8_d978218e.jpg?itok=yh0D8DXd&v=1788139204"
+    ]
+  },
+  {
+    "id": "f6a3725e47176865",
+    "title": "DLSS 5 mod brings next-gen tech to old Ampere GPUs, but frame rates are horrible — most games tank to single digits, high-end GPUs can hit up to 40 FPS in some cases",
+    "link": "https://www.tomshardware.com/pc-components/gpus/dlss-5-mod-brings-next-gen-tech-to-old-ampere-gpus-but-frame-rates-are-horrible-most-games-tank-to-single-digits-high-end-gpus-can-hit-up-to-40-fps-in-some-cases",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-08-30T16:30:30.000Z",
+    "fetchedAt": "2026-08-31T04:28:24.715Z",
+    "snippet": "DLSS 5 now runs on Ampere GPUs thanks to a patched DLL, but performance is expectedly poor for the most part. You can get up to 30-40 FPS in edge cases with minimum in-game settings, but newer titles can tank FPS to single digits.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/A5B8BfAZTyVWEpy5TRr3UY-1280-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Wh9EZgD8NG9yUioNNgPB3d.png",
+      "https://cdn.mos.cms.futurecdn.net/y3R9s4GJTRbwNYD45YqUDc.png",
+      "https://cdn.mos.cms.futurecdn.net/ZM2BwJmvUKhkdUVLXLMUDc.png",
+      "https://cdn.mos.cms.futurecdn.net/iphTVbtKorjS2gauRYfe4c.png"
+    ]
+  },
+  {
     "id": "f2f1b3627a768cbd",
     "title": "Caterpillar is bringing to AI deployment what it learned from automating mining",
     "link": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
@@ -8,7 +306,12 @@
     "publishedAt": "2026-08-30T15:00:00.000Z",
     "fetchedAt": "2026-08-30T16:17:37.042Z",
     "snippet": "Caterpillar has spent decades putting autonomous machines to work at remote mining sites. It's now bringing that experience to AI deployment.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a5549d090a6d37cd",
@@ -22,7 +325,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/uvS8pvPPERWH4avEKBf4DG-1280-80.png",
       "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "735d80ebc780a92f",
@@ -32,14 +340,19 @@
     "category": "AI Hardware",
     "publishedAt": "2026-08-30T14:26:14.000Z",
     "fetchedAt": "2026-08-30T16:17:37.379Z",
-    "snippet": "A team of veteran developers has recompiled Donkey Kong 64 in C, so it runs natively on Windows, Linux, and Mac. The entire project is free, uses no generative AI, but still includes more features than any vibecoded retro revival slop you can find online. You ",
+    "snippet": "A team of veteran developers has recompiled Donkey Kong 64 in C, so it runs natively on Windows, Linux, and Mac. The entire project is free, uses no generative AI, but still includes more features than any vibecoded retro revival slop you can find online. You",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/g9mwqfQ48c4bbCPufZvAWh-1280-80.png",
       "https://cdn.mos.cms.futurecdn.net/Xh2MupWrRjJPiLLuopmKRB.jpg",
       "https://cdn.mos.cms.futurecdn.net/SRAky3Rvy3FWvKVx4FQZ6h.png",
       "https://cdn.mos.cms.futurecdn.net/MNsbv62SCVMutVeH52ZTjg.png",
       "https://cdn.mos.cms.futurecdn.net/Ui43aGcZkVvaompVHNKKpg.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "aa1d6e85599a07e4",
@@ -53,7 +366,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/bBBmMspvuGawDbvGBpFnAi-1280-80.png",
       "https://cdn.mos.cms.futurecdn.net/xi79WuWDZXzix4Fc7sXNMn.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c3161a2b0f819169",
@@ -66,7 +384,12 @@
     "snippet": "Earlier this month, when US Treasury Secretary Scott Bessent threatened sanctions against any nation continuing to purchase Iranian crude oil, he did not name China. He did not need to. China, the Islamic Republic’s largest oil customer, is squarely in Washing",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/30/0b855d93-3ae5-49a0-ad7c-145e1749183d_4751de76.jpg?itok=yxppffb8&v=1788055666"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "d1b0898a3a370946",
@@ -79,7 +402,12 @@
     "snippet": "An epic book preservation effort.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/VPbW5b8NY95wsWtsy8qjbH-1280-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "5fe82e0a1f817652",
@@ -92,7 +420,12 @@
     "snippet": "Chinese DRAM maker CXMT wants the US Department of Defense to remove it from the list of companies linked to the Chinese military.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/3nVy6PgRqeCbLk2BiLxR5W-1280-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "dcd86b7894474897",
@@ -109,7 +442,12 @@
       "https://cdn.mos.cms.futurecdn.net/DFwbGLeRjB5kjWxkEGVFQe.jpg",
       "https://cdn.mos.cms.futurecdn.net/df5XfbtYo6YTcJv9CExSTe.jpg",
       "https://cdn.mos.cms.futurecdn.net/6pHVkMNgnUdaBrPYYQx9Ae.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "94db42d5ccc83d63",
@@ -123,7 +461,12 @@
     "images": [
       "https://cdn.arstechnica.net/wp-content/uploads/2026/08/data-center-server-room-1152x648.jpg",
       "https://cdn.arstechnica.net/wp-content/uploads/2026/08/data-center-server-room-500x500.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "643593208126648d",
@@ -138,7 +481,12 @@
       "https://cdn.mos.cms.futurecdn.net/35BFzKzoKEL3DVg4G2hTNX-1280-80.png",
       "https://cdn.mos.cms.futurecdn.net/Qqji7GJkLVnUJiotFkGWLX.png",
       "https://cdn.mos.cms.futurecdn.net/2HiY7MbVhqT2j3QNw2PkMX.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "4883928d20981510",
@@ -151,7 +499,12 @@
     "snippet": "A shooting at a rave in the northern Swiss canton of Aargau left one person dead and five wounded early on Sunday, local police and media reported. Police said they are still looking for a suspect. “The search for the unknown perpetrator is ongoing,” police wr",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/30/05dbd4fd-ca29-4349-a997-1a7d419f3be0_35680f42.jpg?itok=Ni_Nnuzf&v=1788071003"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "6e21b29d32defd1b",
@@ -164,7 +517,12 @@
     "snippet": "Finland’s President Alexander Stubb said he did not believe ⁠Russia would risk ⁠an attack against a Nato country, ⁠telling Germany’s Bild newspaper it would “make no sense” to test the resolve of the alliance. Western officials have warned of a growing risk of",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/30/37e4e42e-7654-4cba-aeb7-2a8df7b503df_f6da652d.jpg?itok=meDd44s8&v=1788064688"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "327ac79114046e18",
@@ -5769,441 +6127,6 @@
     "snippet": "Recent data published in the Soufan Center's July IntelBrief found hundreds of posts with threat language between July 2025 and July 2026, and a volume surge beginning in April.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/cAkbprtpxDB6ChwJfP7Thg-1280-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "a0ea073bd865abcc",
-    "title": "Asia is reaching for the open road that Chinese AI offers",
-    "link": "https://www.scmp.com/opinion/asia-opinion/article/3364157/asia-reaching-open-road-chinese-ai-offers?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-08-23T08:30:06.000Z",
-    "fetchedAt": "2026-08-23T12:44:08.375Z",
-    "snippet": "At a recent Apec digital technology and AI forum in Chengdu, ministers across the Asia-Pacific Economic Cooperation forum issued a statement in support of open-source artificial intelligence models – a rare point of agreement in a debate often framed as a zero",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/15/0dc2d963-9b8c-46ff-88c7-2a8674b52e44_25f5b9c0.jpg?itok=qYvR6KBz&v=1786803133"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "4608f18e00cb0652",
-    "title": "Why Trump’s economic pain could spark more Iranian attacks on Gulf nations",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3364963/why-trumps-economic-pain-could-spark-more-iranian-attacks-gulf-nations?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-08-23T07:04:02.000Z",
-    "fetchedAt": "2026-08-23T12:44:08.375Z",
-    "snippet": "President Donald Trump is betting new sanctions, a naval blockade and ramped-up economic pressure against Iran’s trading partners can accomplish what thousands of bombs and missiles could not: force Tehran to accept a deal to end the war on US terms. But like",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/23/d1deeb7b-18fe-4604-9e12-d254f5eaa8ed_64cfb2a4.jpg?itok=SJxgC9iE&v=1787468637"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c6d1d53fdd069b2f",
-    "title": "Canada’s Carney refuses to take Trump’s ‘bait’, confronting US in trade war",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3364948/canadas-carney-refuses-take-trumps-bait-confronting-us-trade-war?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-08-23T01:46:24.000Z",
-    "fetchedAt": "2026-08-23T12:44:08.376Z",
-    "snippet": "Siding with Canadians weary of provocations from Washington, Prime Minister Mark Carney stood up to US President Donald Trump, rejecting what he called an “unfair” trade deal – a gamble that could prove economically risky. “We will not allow any nation to dete",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/23/4603f6b7-c5d5-4829-9a82-718080e47408_7aadf0c0.jpg?itok=NWpehCQZ&v=1787449580"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "62fb22e2b9d91f9b",
-    "title": "Panama Canal to reduce shipping over El Nino-fuelled drought",
-    "link": "https://www.scmp.com/news/world/americas/article/3364947/panama-canal-reduce-shipping-over-el-nino-fuelled-drought?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-08-22T23:11:08.000Z",
-    "fetchedAt": "2026-08-23T01:29:34.730Z",
-    "snippet": "The Panama Canal will cut the number of ships passing through it starting next month because of drought caused by the El Nino phenomenon, the operator of the strategic waterway linking the Atlantic and Pacific said on Thursday. From September 3, the number of",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/23/b34e3418-78ff-4b41-b5fd-4a6954e4ffb4_1b31c7cd.jpg?itok=T0_jNADe&v=1787439875"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "675dcf5caca56ca2",
-    "title": "Nvidia customers notified of AI-related price rises above 15%",
-    "link": "https://www.scmp.com/tech/big-tech/article/3364945/nvidia-customers-notified-ai-related-price-rises-above-15?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-08-22T21:54:25.000Z",
-    "fetchedAt": "2026-08-23T01:29:34.730Z",
-    "snippet": "Some of Nvidia’s biggest customers have been told that the prices of servers containing its artificial intelligence chips are going up more than 15 per cent in many cases with memory chip costs soaring. The price rises will go into effect on systems shipped ea",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/23/b01dcac2-ac93-4aef-b20e-c17be462fda3_6d700e87.jpg?itok=cADhwDD-&v=1787435620"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "f31359458963ae0d",
-    "title": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
-    "link": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-08-22T21:46:56.000Z",
-    "fetchedAt": "2026-08-23T01:29:34.209Z",
-    "snippet": "In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "7057a7a17b919e12",
-    "title": "Iran condemns US plans to announce new sanctions",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3364944/iran-condemns-us-plans-announce-new-sanctions?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-08-22T21:21:14.000Z",
-    "fetchedAt": "2026-08-23T01:29:34.730Z",
-    "snippet": "Iran on Saturday denounced US plans to announce ⁠new sanctions that could put further strain on the Islamic Republic’s economy and have an impact on its most important trading partners including China. Iran on Saturday warned countries against taking part in t",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/23/b202a25f-9571-46dc-8ec1-fe9d6c73c1d9_f19e57f1.jpg?itok=-8e1rffH&v=1787433573"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "0a61d8b61c1bb591",
-    "title": "Israel targets ‘terrorist’ in southern Syria; Damascus condemns attack",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3364943/israel-targets-terrorist-southern-syria-damascus-condemns-attack?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-08-22T19:31:47.000Z",
-    "fetchedAt": "2026-08-23T01:29:34.730Z",
-    "snippet": "Israel said it targeted a “terrorist” ⁠in southern Syria ⁠on Saturday in ⁠what Syria’s foreign ministry said was a drone strike on a civilian vehicle on the outskirts of Damascus in a “blatant” violation of its ‌territory. The Syrian foreign ministry said the",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/23/e23e45ef-0d5d-4579-bdb2-4481b8cd7cfb_892755b2.jpg?itok=kynDzgTA&v=1787426092"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "efa447d305a32c9c",
-    "title": "Inherent, founded by DeepMind alumni, says its AI &#8216;teammate’ just outperformed Anthropic and OpenAI at replicating research",
-    "link": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-08-22T19:00:00.000Z",
-    "fetchedAt": "2026-08-23T01:29:34.209Z",
-    "snippet": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e5ff6e07d27d4ed2",
-    "title": "7 dead in UK after vehicle travelling in wrong direction hits police car",
-    "link": "https://www.scmp.com/news/world/europe/article/3364942/7-dead-uk-after-vehicle-travelling-wrong-direction-hits-police-car?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-08-22T18:39:59.000Z",
-    "fetchedAt": "2026-08-23T01:29:34.730Z",
-    "snippet": "Seven people, including two police officers, died in a car crash in northeast England on Saturday after a car heading the wrong ‌way down a major road hit a marked police armed response car, the local police force said. Cleveland Police said the incident took",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/23/ab138fa9-e8af-4408-8291-e4a33fad6cc9_cdd9b8fe.jpg?itok=DkWjPb2o&v=1787423772"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "b52b85794863639c",
-    "title": "Ukrainian drones kill at least 10, hit warehouse of Russian online retailer Ozon",
-    "link": "https://www.scmp.com/news/world/russia-central-asia/article/3364941/ukrainian-drones-kill-least-10-hit-warehouse-russian-online-retailer-ozon?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-08-22T17:40:19.000Z",
-    "fetchedAt": "2026-08-23T01:29:34.730Z",
-    "snippet": "Ukrainian drones killed at least 10 people in attacks against targets across Russia and Russian-occupied areas of Ukraine, including a warehouse owned by online retailer Ozon and an industrial facility, Russian officials said on Saturday. Russia and Ukraine ar",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/23/fd7c222d-8d72-4ed9-b898-349bb7e0b962_634a81ce.jpg?itok=0tqNJvsp&v=1787420227"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "22b2fd6495b0fece",
-    "title": "Canada’s PM hits back with new US tariffs after trade talks fail",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3364940/canadas-pm-hits-back-new-us-tariffs-after-trade-talks-fail?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-08-22T17:02:25.000Z",
-    "fetchedAt": "2026-08-23T01:29:34.730Z",
-    "snippet": "Canadian Prime Minister Mark Carney said on Saturday he would slap retaliatory tariffs on the United States after walking away from a “bad deal” on trade, deepening the rift between the long-time allies. Negotiations between the neighbouring countries broke do",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/23/8f3f2844-435c-4c48-9000-646652c9378d_b561d66b.jpg?itok=eVb8IaIr&v=1787417993"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "04afb2c42713d15a",
-    "title": "OpenAI says California should strengthen its AI safety bill",
-    "link": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-08-22T16:30:34.000Z",
-    "fetchedAt": "2026-08-23T01:29:34.210Z",
-    "snippet": "OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e06369ca8f3351d5",
-    "title": "Frontier AI labs still won’t say how they’d contain a rogue model",
-    "link": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-08-22T16:00:00.000Z",
-    "fetchedAt": "2026-08-23T01:29:34.210Z",
-    "snippet": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpected and potentially dangerous behavior.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "bfc5b7740d15082b",
-    "title": "25 years after the death of 3dfx, the Voodoo 3 gets a Linux driver update — classic Voodoo GPUs can now boot without a PC BIOS",
-    "link": "https://www.tomshardware.com/software/linux/25-years-after-the-death-of-3dfx-the-voodoo-3-gets-a-linux-driver-update-classic-voodoo-gpus-can-now-boot-without-a-pc-bios",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-08-22T15:48:10.000Z",
-    "fetchedAt": "2026-08-23T01:29:34.388Z",
-    "snippet": "It's been a quarter-century since the firm folded, but the graphics chips still have utility in esoteric use cases.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/X6iB5cWC9stabSJtgczKnd-1280-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Wh9EZgD8NG9yUioNNgPB3d.png",
-      "https://cdn.mos.cms.futurecdn.net/BReyoJk8JpNoSXNNKqJAfF.jpg",
-      "https://cdn.mos.cms.futurecdn.net/G6CagAwqoTv5sFQuP9NXWR.jpg",
-      "https://cdn.mos.cms.futurecdn.net/RY4rUDcGeTqzY96ZNe9EKk.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "56b602406ebeda67",
-    "title": "Sword attack that killed 1 at Sweden high school prompts social media probe",
-    "link": "https://www.scmp.com/news/world/europe/article/3364939/sword-attack-sweden-killed-one-prompts-probe-social-media?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-08-22T14:41:45.000Z",
-    "fetchedAt": "2026-08-23T01:29:34.730Z",
-    "snippet": "Swedish police are investigating whether an 18-year-old man who attacked students at a high school with a sword on Friday, killing one, was involved in online communities promoting school violence, a police source said. The attacker struck at a school in the c",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/22/62c6c812-e073-4065-922c-8b4939458bd3_0510800e.jpg?itok=vHRdRuD8&v=1787409690"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e31afc1b57ec3db4",
-    "title": "Logitech faces lawsuit for withholding $61M in tariff refunds from customers — lawsuit claims company extracted up to $97M from consumers in 2026 through tariff-justified price increases",
-    "link": "https://www.tomshardware.com/peripherals/logitech-faces-lawsuit-for-withholding-usd61m-in-tariff-refunds-from-customers-lawsuit-claims-company-extracted-up-to-usd97m-from-consumers-in-2026-through-tariff-justified-price-increases",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-08-22T14:13:50.000Z",
-    "fetchedAt": "2026-08-23T01:29:34.389Z",
-    "snippet": "Consumers who bought products from Logitech after it increased its prices due to tariffs still haven't received their refunds, even after the U.S. government returned $61 million to the company. Now they're suing for their refunds, saying that 'Company extract",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/a7jbVgATx7AS9Xg69P4zi6-1280-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Wh9EZgD8NG9yUioNNgPB3d.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "abcf0e796286c93f",
-    "title": "US authorities say Siemens controllers used for water and other infrastructure are being targeted by hackers — agencies claim threat actors use AI tools to generate exploitation scripts",
-    "link": "https://www.tomshardware.com/tech-industry/cyber-security/us-authorities-say-siemens-controllers-used-for-water-and-other-infrastructure-are-being-targeted-by-hackers-agencies-claim-threat-actors-use-ai-tools-to-generate-exploitation-scripts",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-08-22T13:57:17.000Z",
-    "fetchedAt": "2026-08-23T01:29:34.389Z",
-    "snippet": "Siemens S7 PLCs, commonly used in critical infrastructure, are reportedly being targeted by hackers and could potentially lead to disruption of industrial processes, safety incidents, downtime or equipment damage, and more. U.S. agencies are telling operators",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/hHLVFntj9uCp5jj2dwekLW-1280-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "67a9d7a07ce5b227",
-    "title": "Desktop CPU shipments crater 20% amid high component costs, but AMD gains record share despite 'ugly' desktop processor market — Intel floods laptop market with millions of CPUs, but AMD still sets all-time share records",
-    "link": "https://www.tomshardware.com/pc-components/cpus/desktop-cpu-shipments-crater-20-percent-amid-high-component-costs-but-amd-gains-record-share-despite-ugly-desktop-processor-market-intel-floods-laptop-market-with-millions-of-cpus-but-amd-still-sets-all-time-share-records",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-08-22T12:30:00.000Z",
-    "fetchedAt": "2026-08-22T12:42:47.806Z",
-    "snippet": "As Intel boosts output of data center and notebook CPUs, AMD manages to outgrow it and keep capturing market share from its arch-rival.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/87ArGeWHVuydiywKW9Njah-1280-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/bYqBzKZLP67hRnkheuRQd7.png",
-      "https://cdn.mos.cms.futurecdn.net/CL6t7wmQH2mzdG94gFnnd7.png",
-      "https://cdn.mos.cms.futurecdn.net/H7vbKrDSWw2PgE54CFCke7.png",
-      "https://cdn.mos.cms.futurecdn.net/sGQ2s6QbsLQ9fticMmFrg7.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "5bc06126e56e7d93",
-    "title": "20 sailors kidnapped by Somali pirates near Yemen on US-sanctioned ship",
-    "link": "https://www.scmp.com/news/world/africa/article/3364934/20-sailors-kidnapped-somali-pirates-near-yemen-us-sanctioned-ship?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-08-22T12:17:08.000Z",
-    "fetchedAt": "2026-08-22T12:42:48.242Z",
-    "snippet": "Somali pirates hijacked an oil products tanker off Yemen, a Somali maritime security official said, the latest in a resurgence of piracy that has seen six commercial vessels seized since April across the Gulf of Aden and western Indian Ocean. Six armed pirates",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/22/f8ff46cb-93e9-4465-a8c7-0423e69f340b_2ed77019.jpg?itok=I8zk6NeD&v=1787401027"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "83e452b30b3d378c",
-    "title": "Storage unit auction winner finds retro Pentium 4 PC with a see-through, UV-reactive PSU — Y2K time capsule discovered among 100 laptops and hundreds of RAM sticks",
-    "link": "https://www.tomshardware.com/pc-components/storage-unit-auction-winner-finds-retro-pentium-4-pc-with-a-see-through-uv-reactive-psu-y2k-time-capsule-discovered-among-100-laptops-and-hundreds-of-ram-sticks",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-08-22T12:00:00.000Z",
-    "fetchedAt": "2026-08-22T12:42:47.807Z",
-    "snippet": "This vintage PC build looks like it came straight out of the 90s with a bold, in-your-face look that make sure you can't mistake it for anything but a gamer's lifeline. What you're looking at is an Apevia X-SuperAlien case with a 500W Apevia PSU.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/LXiPbqriXRdftK4QiZv3Hg-1280-80.png",
-      "https://cdn.mos.cms.futurecdn.net/htBHZ8R4Vj9sjGmkXq4Cce.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "066951fe2b4e41fe",
-    "title": "Gamer uncovers factory plastic left on RTX 3070 VRM pads after five years, causing overheating — claims removal and repasting dropped GPU hotspot temperatures by 30°C",
-    "link": "https://www.tomshardware.com/pc-components/gpus/gigabyte-rtx-3070-owner-discovers-protective-film-on-vrm-thermal-pads-after-nearly-five-years-claims-removal-and-repasting-dropped-gpu-hotspot-temperatures-by-30-c",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-08-22T11:30:00.000Z",
-    "fetchedAt": "2026-08-22T12:42:47.807Z",
-    "snippet": "A Gigabyte RTX 3070 owner discovered protective films covering its VRM thermal pads, after nearly five years of use potentially causing excessive temperatures and frequent black screens.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/MiHtw2ttm6WuGbJUdv8KXD-1280-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "67ef011f29cb777a",
-    "title": "GTA 6 leaks prompt Take-Two to subpoena Microsoft for Windows device IDs of everyone in three Discord servers — daily gameplay leaks shatter cloud of secrecy around the much-hyped game",
-    "link": "https://www.tomshardware.com/video-games/console-gaming/take-two-subpoenas-microsoft-for-windows-device-ids-of-everyone-in-three-discord-servers-in-gta-6-leak-hunt",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-08-22T11:00:00.000Z",
-    "fetchedAt": "2026-08-22T12:42:47.808Z",
-    "snippet": "Take-Two Interactive filed two DMCA subpoenas demanding that Microsoft and Discord identify the person or people behind the \"CyberLeek\" persona.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/UZtFBUeKKRZ43cjULRJMNU-1280-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "76886a554dff2124",
-    "title": "Spending on physical games falls to lowest on record since 1995 — US console sales plunge 39% in July as memory costs push average price to $542",
-    "link": "https://www.tomshardware.com/video-games/console-gaming/us-console-sales-fall-39-percent-in-july-as-memory-costs-push-average-price-to-542",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-08-22T10:30:00.000Z",
-    "fetchedAt": "2026-08-22T12:42:47.809Z",
-    "snippet": "U.S. console hardware sales fell 39% by unit volume in July against a year earlier, while the average price paid for a new system rose 16% to $542.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/PUdkNw8i8RjCbA88jkWoFC-1280-80.jpg"
     ],
     "titleZh": "",
     "snippetZh": "",
