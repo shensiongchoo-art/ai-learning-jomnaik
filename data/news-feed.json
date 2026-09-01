@@ -1,5 +1,329 @@
 [
   {
+    "id": "b19964eed3dee47c",
+    "title": "Time Capsule of Testable Human Knowledge: 41 Years of Jeopardy! in a Single Free Local Model",
+    "link": "https://arxiv.org/abs/2608.27459",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "fetchedAt": "2026-09-01T04:11:16.188Z",
+    "snippet": "arXiv:2608.27459v1 Announce Type: new Abstract: In 2011, IBM's Watson was something like a sealed capsule of its era's queryable knowledge. Its DeepQA system defeated the strongest human Jeopardy! champions, but the knowledge that let it do so lived in a curat",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "5f253c8e6375be53",
+    "title": "Rating the Raters: Rasch Measurement Theory for LLM Evaluation",
+    "link": "https://arxiv.org/abs/2608.27463",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "fetchedAt": "2026-09-01T04:11:16.189Z",
+    "snippet": "arXiv:2608.27463v1 Announce Type: new Abstract: LLMs now sit on every side of evaluation: as examinees scored on benchmarks, judges of other models' outputs, and raters of human-generated content. Each paradigm can be viewed as a measurement problem, where a l",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "4a72bc1b0eab991c",
+    "title": "Not All Explanations Are Sought: Information-Seeking Psychology for Human-Centered XAI",
+    "link": "https://arxiv.org/abs/2608.27464",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "fetchedAt": "2026-09-01T04:11:16.189Z",
+    "snippet": "arXiv:2608.27464v1 Announce Type: new Abstract: This position paper argues that human-centered explainable AI (HCXAI) should incorporate insights from the psychology of information seeking. Drawing on Sharot and Sunstein's framework of information-seeking moti",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "d76fb648151fcc1e",
+    "title": "Retrieving Relations, Detecting Fallacies: A RAG Approach to Political Debate Analysis",
+    "link": "https://arxiv.org/abs/2608.27471",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "fetchedAt": "2026-09-01T04:11:16.189Z",
+    "snippet": "arXiv:2608.27471v1 Announce Type: new Abstract: Fallacies are arguments that employ invalid reasoning, making their automatic detection critical in sensitive contexts such as high-stakes political debates, where public opinion is shaped. Spotting a fallacious ",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "ba2de12445a88b23",
+    "title": "LLM-Augmented Causal Discovery: Probabilistic Fusion of Edge Existence and Orientation",
+    "link": "https://arxiv.org/abs/2608.27472",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "fetchedAt": "2026-09-01T04:11:16.189Z",
+    "snippet": "arXiv:2608.27472v1 Announce Type: new Abstract: Bayesian network structure learning (BNSL) from observational data struggles with orientation identifiability, while large language models (LLMs) offer broad but often unreliable causal knowledge. We propose comb",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "1fa6009ab7f879e1",
+    "title": "Hypothesize, Evaluate, Refine: A Scientific Agent for PDE Discovery with Unknown Spatial Coefficient Fields",
+    "link": "https://arxiv.org/abs/2608.27475",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "fetchedAt": "2026-09-01T04:11:16.189Z",
+    "snippet": "arXiv:2608.27475v1 Announce Type: new Abstract: Discovering PDEs in heterogeneous media requires jointly identifying the governing operator and the unknown spatial fields that parameterize it. These tasks are coupled: changing field placement changes the diffe",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "9ebe5dde571bf48c",
+    "title": "Class-Based Heuristic Selection for Solving the Flying Block Puzzle",
+    "link": "https://arxiv.org/abs/2608.27476",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "fetchedAt": "2026-09-01T04:11:16.190Z",
+    "snippet": "arXiv:2608.27476v1 Announce Type: new Abstract: Heuristic search underlies planning in autonomous systems ranging from warehouse logistics to robotic navigation, yet generic heuristics fail to exploit the structural constraints that govern constrained spatial ",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "693dcf0986b28feb",
+    "title": "Benchmarking General Mobile Assistants in Challenging Real-World Scenarios",
+    "link": "https://arxiv.org/abs/2608.27477",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "fetchedAt": "2026-09-01T04:11:16.190Z",
+    "snippet": "arXiv:2608.27477v1 Announce Type: new Abstract: Graphical user interfaces have emerged as an important environment for evaluating autonomous AI agents on multimodal interactive tasks. Existing benchmarks such as AndroidWorld and MobileWorld provide strong foun",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "8e2f0ef9d601d618",
+    "title": "Effectiveness of IoT and Deep Learning for Detection and Severity Assessment of Postelectrotermes militaris in Tea Plantations",
+    "link": "https://arxiv.org/abs/2608.27480",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "fetchedAt": "2026-09-01T04:11:16.190Z",
+    "snippet": "arXiv:2608.27480v1 Announce Type: new Abstract: Tea plantations are vulnerable to Postelectrotermes militaris, commonly known as the Upcountry Live Wood Termite (ULWT), which can cause substantial damage when infestations remain undetected. This study proposes",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "3c31a9b505389bc2",
+    "title": "Context Localization for Generalized Level-Based Evaluation in Knowledge-Based Systems",
+    "link": "https://arxiv.org/abs/2608.27482",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "fetchedAt": "2026-09-01T04:11:16.190Z",
+    "snippet": "arXiv:2608.27482v1 Announce Type: new Abstract: We study context localization for generalized level-based evaluation in knowledge-based systems. The framework models situations where a structured nonnegative score, defined on facts, rules, cases, criteria or e",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "7cd8b850bf4cb9ff",
+    "title": "TP-Link announces its first consumer Wi-Fi 8 routers — Archer 8 Ultra preorder commences September 30, in select regions",
+    "link": "https://www.tomshardware.com/networking/routers/tp-link-announces-its-first-consumer-wi-fi-8-routers-archer-8-ultra-preorder-commences-september-30-in-select-regions",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "fetchedAt": "2026-09-01T04:11:16.165Z",
+    "snippet": "TP-Link’s Wi-Fi 8 launch remains complicated in the US due to ongoing FCC restrictions",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/tt9dMS98e3rXjUgvKeKwTH-1280-80.png",
+      "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7.jpg"
+    ]
+  },
+  {
+    "id": "d42f17ae6aa569c1",
+    "title": "Non-Invasive Brain-Computer Interfaces Chart a Road to Commercialization",
+    "link": "https://pandaily.com/non-invasive-bci-commercialization-neuracle-aug2026",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-09-01T02:24:29.000Z",
+    "fetchedAt": "2026-09-01T04:11:15.747Z",
+    "snippet": "Non-invasive BCI is expanding beyond EEG, with Neuracle leading medical rehab and sleep and human-computer interaction paths still maturing on the way to scale.",
+    "images": [
+      "https://cms-image.pandaily.com/1/img5_e05e264da6.png"
+    ]
+  },
+  {
+    "id": "a4282be1e311f631",
+    "title": "China's Four Domestic AI Chip Makers Near a Commercial Turning Point",
+    "link": "https://pandaily.com/china-four-domestic-ai-chip-makers-turning-point-aug2026",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-09-01T02:24:28.000Z",
+    "fetchedAt": "2026-09-01T04:11:15.747Z",
+    "snippet": "MetaX turned profitable in H1 2026 and Enflame moves to list as China's four leading domestic AI chip vendors push toward commercial maturity.",
+    "images": [
+      "https://cms-image.pandaily.com/1/img4_9d02b8f212.png"
+    ]
+  },
+  {
+    "id": "c71079221b127d51",
+    "title": "DeepSeek Open-Sources V4-Flash-Vision-Exp, Its First Native Vision Model",
+    "link": "https://pandaily.com/deepseek-v4-flash-vision-exp-open-source-aug2026",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-09-01T02:24:28.000Z",
+    "fetchedAt": "2026-09-01T04:11:15.747Z",
+    "snippet": "DeepSeek released V4-Flash-Vision-Exp on Hugging Face under an MIT license, bringing image input to its V4 series for the first time.",
+    "images": [
+      "https://cms-image.pandaily.com/1/img3_a1584bb503.png"
+    ]
+  },
+  {
+    "id": "b59c1b9ee8e0481c",
+    "title": "Moonshot AI Seeks Up to 30% Revenue Share as Kimi K3 Eyes US Clouds",
+    "link": "https://pandaily.com/moonshot-ai-kimi-k3-us-cloud-revenue-share-aug2026",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-09-01T02:24:27.000Z",
+    "fetchedAt": "2026-09-01T04:11:15.747Z",
+    "snippet": "Moonshot AI is negotiating with Microsoft, Amazon, and Google to split up to 30% of revenue from cloud deployments of Kimi K3, a first for a Chinese model on US hyperscalers.",
+    "images": [
+      "https://cms-image.pandaily.com/1/img2_927a73504f.png"
+    ]
+  },
+  {
+    "id": "b76cb51e424ba354",
+    "title": "SynapX Bets on 'Brain and Hand' for the Dawn of Silicon Labor",
+    "link": "https://pandaily.com/synapx-brain-hand-silicon-labor-aug2026",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-09-01T02:24:27.000Z",
+    "fetchedAt": "2026-09-01T04:11:15.747Z",
+    "snippet": "At the World Robot Conference, SynapX unveiled brain, hand, and data product lines instead of a humanoid, betting that general intelligence plus a dexterous hand defines embodied labor.",
+    "images": [
+      "https://cms-image.pandaily.com/1/img1_78d512e04f.png"
+    ]
+  },
+  {
+    "id": "dd1fcfb1a3e4baa0",
+    "title": "Apple shares &#8216;shocking evidence’ against former employee accused of stealing company data for OpenAI",
+    "link": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-09-01T00:13:00.000Z",
+    "fetchedAt": "2026-09-01T04:11:15.655Z",
+    "snippet": "Apple says it has evidence that a former employee destroyed evidence of data theft after learning he was under investigation.",
+    "images": []
+  },
+  {
+    "id": "0b8b219efad8beb8",
+    "title": "US Army Secretary Dan Driscoll resigns after 18 months on the job, White House says",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3365905/us-army-secretary-dan-driscoll-resigns-after-18-months-job-white-house-says?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-31T22:54:27.000Z",
+    "fetchedAt": "2026-09-01T04:11:16.508Z",
+    "snippet": "US Army Secretary Dan Driscoll is stepping down after 18 months on the job, the White House said Monday, in the latest departure of a top military leader during the Trump administration. No reason was given for the departure of Driscoll, who is a friend of Vic",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/01/42c9d167-e385-486e-a6ef-77a42e85de60_51272169.jpg?itok=bKSSUvwK&v=1788216793"
+    ]
+  },
+  {
+    "id": "f39001829ee10bd8",
+    "title": "Chile fines Chinese mafia inmate after cocaine found at maximum-security prison",
+    "link": "https://www.scmp.com/news/china/diplomacy/article/3365899/chile-fines-chinese-mafia-inmate-after-cocaine-found-maximum-security-prison?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-31T20:41:04.000Z",
+    "fetchedAt": "2026-09-01T04:11:16.508Z",
+    "snippet": "A Chilean court on Monday fined a Chinese man caught with cocaine inside a Santiago prison, where he is being held on charges of homicide, kidnapping and drug trafficking. It was the second such ruling in five involving a Chinese inmate in five months, with pr",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/01/a192f86d-fc16-4b9b-80b8-3a80956a8d62_901485f3.jpg?itok=4j2njibM&v=1788208856"
+    ]
+  },
+  {
+    "id": "f59876270d14048b",
+    "title": "US judge approves order to force-feed suspect who attacked National Guard troops",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3365898/judge-authorises-involuntary-feeding-jailed-suspect-deadly-national-guard-shooting?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-31T20:38:01.000Z",
+    "fetchedAt": "2026-09-01T04:11:16.508Z",
+    "snippet": "A man refusing to eat food while jailed on charges he shot two National Guard troops near the White House, killing one of them, can be fed against his will under a judge’s emergency order. US District Judge Amit Mehta agreed on Saturday to order “non-consensua",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/01/44720aaf-6de7-4515-9a62-c055e55e3710_ee219bea.jpg?itok=M_-781t9&v=1788233474"
+    ]
+  },
+  {
+    "id": "c5a0fb3125cc82b3",
+    "title": "The Pentagon now has its own version of ChatGPT and Grok",
+    "link": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-08-31T20:13:45.000Z",
+    "fetchedAt": "2026-09-01T04:11:15.657Z",
+    "snippet": "Versions of OpenAI's ChatGPT and SpaceXAI's Grok will join Google's Gemini on the Pentagon's central portal for AI tools.",
+    "images": []
+  },
+  {
+    "id": "7217fa7101b7f586",
+    "title": "Lithuania’s president says CIA chief’s Moscow trip ‘achieved its goals’",
+    "link": "https://www.scmp.com/news/world/russia-central-asia/article/3365896/cia-chiefs-moscow-meeting-achieved-its-goals-says-lithuanias-president?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-08-31T19:25:29.000Z",
+    "fetchedAt": "2026-09-01T04:11:16.508Z",
+    "snippet": "Lithuania’s President Gitanas Nauseda said he has been briefed by the US on the content of CIA Director John Ratcliffe’s talks in Moscow, describing the visit as aimed at reducing regional tensions. “I can say at this stage that the meeting achieved its stated",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/01/c9315dcd-eb01-4a2a-b4bb-b19b825287e9_5ad18084.jpg?itok=3TJDltDY&v=1788230786"
+    ]
+  },
+  {
+    "id": "2ac49724a33add1a",
+    "title": "Instagram puts new limits on undisclosed AI profiles",
+    "link": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-08-31T19:16:59.000Z",
+    "fetchedAt": "2026-09-01T04:11:15.657Z",
+    "snippet": "As frustration over AI influencers has been growing, Instagram is limiting the reach of undisclosed AI profiles.",
+    "images": []
+  },
+  {
     "id": "e16e4661d284175a",
     "title": "Harvard Law dropout raises $6M for Blue Voice to build a &#8220;Harvey for police officers&#8221;",
     "link": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
@@ -8,7 +332,37 @@
     "publishedAt": "2026-08-31T18:35:11.000Z",
     "fetchedAt": "2026-08-31T18:56:15.620Z",
     "snippet": "The seed round for the app that provides real-time legal and policy guidance to officers was led by SignalFire and Las Olas VC.",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "4acf96fb3ab6997e",
+    "title": "Harvard Law dropout raises $6M for Blue Voice to build a &#8216;Harvey for police officers’",
+    "link": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-08-31T18:35:11.000Z",
+    "fetchedAt": "2026-09-01T04:11:15.657Z",
+    "snippet": "Blue Voice is trained on department-specific laws, local ordinances, protocols, and guidelines that general-purpose AI tools can't access on the public internet.",
     "images": []
+  },
+  {
+    "id": "e53b294bb13d7fa0",
+    "title": "“Zlibrary my beloved”: Anthropic staff chats extolling piracy cited in Sony suit",
+    "link": "https://arstechnica.com/tech-policy/2026/08/zlibrary-my-beloved-anthropic-staff-chats-extolling-piracy-cited-in-sony-suit/",
+    "source": "Ars Technica AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-08-31T18:10:45.000Z",
+    "fetchedAt": "2026-09-01T04:11:15.957Z",
+    "snippet": "Lawsuit: Anthropic’s torrenting totally screwed songwriters as AI songs top charts.",
+    "images": [
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-172575622-1152x648.jpg",
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-172575622-500x500.jpg"
+    ]
   },
   {
     "id": "865cb7b288d79038",
@@ -19,7 +373,12 @@
     "publishedAt": "2026-08-31T18:00:00.000Z",
     "fetchedAt": "2026-08-31T18:56:15.629Z",
     "snippet": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. By now you’ve probably heard about last month’s major AI security incident, in which OpenAI agents escaped their sandbox a",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a4790bd2740ba7dd",
@@ -32,7 +391,12 @@
     "snippet": "US President Donald Trump will meet oil refining executives on Tuesday as he tries to tame fuel prices sent spiralling by the Iran war ahead of midterm elections in November, the White House said. The talks at the White House also come days after Trump announc",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/01/c3556d93-1d57-4531-bab5-cd4245957e57_ac8d0c51.jpg?itok=bZnI4a1v&v=1788198333"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c231b555c71895ab",
@@ -46,7 +410,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/4V8U4jbuXfo7BUf6UMYq9M-1280-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/xi79WuWDZXzix4Fc7sXNMn.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "4673032086e8ce1f",
@@ -61,7 +430,12 @@
       "https://cdn.mos.cms.futurecdn.net/iTfiVsnBuTP5SGz8ZVHzfP-1280-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7.jpg",
       "https://cdn.mos.cms.futurecdn.net/q3b2vQ4xhrhmpxUeP2QuyC.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "42e15a923799b839",
@@ -74,7 +448,12 @@
     "snippet": "France will from Tuesday impose a fee on ultra-fast fashion items that will eventually reach almost €20 (US$2.32) per garment, as the government targets major Asian e-commerce platforms including Shein. The levy follows legislation passed by the French parliam",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/01/12d44bc2-d313-4068-83bc-9e0aec03e5e0_5c470c84.jpg?itok=wJUk7pTx&v=1788194985"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "69d661e5f8f6edf8",
@@ -85,7 +464,12 @@
     "publishedAt": "2026-08-31T16:00:00.000Z",
     "fetchedAt": "2026-08-31T18:56:15.621Z",
     "snippet": "The three-year-old startup says it reached $15 million in ARR and profitability before raising its latest $15 million round.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "bf376a387a0c1014",
@@ -98,7 +482,12 @@
     "snippet": "German and Japanese researchers demonstrate a heat-driven elastocaloric cooler that uses shape-memory alloys to turn waste heat into cooling.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/KqBokvkVTxM9Mkyjj2L4t-1280-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "3ab98be02dae8619",
@@ -115,7 +504,12 @@
       "https://cdn.mos.cms.futurecdn.net/ck86DgAJZmSd2VC8TuvXJJ.png",
       "https://cdn.mos.cms.futurecdn.net/buLzVUJhvMUqjHoPkDFWCJ.png",
       "https://cdn.mos.cms.futurecdn.net/VuBvEjzMNKLtxMNcgFhiKD.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "57b29059b5ec2aca",
@@ -126,7 +520,12 @@
     "publishedAt": "2026-08-31T15:15:25.000Z",
     "fetchedAt": "2026-08-31T18:56:15.622Z",
     "snippet": "Nvidia invests $3.5 billion into Taiwanese chipmaker MediaTek. The deal shows how Nvidia plans to stay essential to AI infrastructure as Big Tech begins to build its own AI chips.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "05f1d50ad0966e15",
@@ -139,7 +538,12 @@
     "snippet": "Nvidia’s sole representative on the fourth annual TIME100 AI is its head of sustainability, who sits alongside Paris Hilton and Ben Affleck.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/VZnyT3m65yLr2GJztppGwU-1280-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "6cb033245d07b9e1",
@@ -149,10 +553,15 @@
     "category": "AI Hardware",
     "publishedAt": "2026-08-31T14:35:14.000Z",
     "fetchedAt": "2026-08-31T18:56:15.977Z",
-    "snippet": "Overclocking utility mVolt+ seems to have been blocked by the latest Nvidia driver update, hard crashing the moment you try to adjust the core power limit. However, it seems like a driver conflict more than a deliberate blacklist since another app, Hydra 2.3B ",
+    "snippet": "Overclocking utility mVolt+ seems to have been blocked by the latest Nvidia driver update, hard crashing the moment you try to adjust the core power limit. However, it seems like a driver conflict more than a deliberate blacklist since another app, Hydra 2.3B",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/Axh3XNQ6DqK4KMfxtoMRBU-1280-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "855c1b461b3c56f0",
@@ -165,6 +574,25 @@
     "snippet": "We have selected seven of the most interesting and important news stories covering US-China relations from the past few weeks. If you would like to see more of our reporting, please consider subscribing. 1. Harvard, MIT among 30 US universities ordered to audi",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/29/a32334cf-dd06-45ea-a694-038f9ae4a9f1_9ed71f83.jpg?itok=xDPLinwh&v=1787942229"
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "031f26d1343eaed6",
+    "title": "ChatGPT and Reddit now face EU&#039;s toughest online safety rules",
+    "link": "https://arstechnica.com/tech-policy/2026/08/chatgtp-and-reddit-now-face-eus-toughest-online-safety-rules/",
+    "source": "Ars Technica AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-08-31T13:41:40.000Z",
+    "fetchedAt": "2026-09-01T04:11:15.957Z",
+    "snippet": "Explosive growth comes with a new regulatory burden in the European Union.",
+    "images": [
+      "https://cdn.arstechnica.net/wp-content/uploads/2022/03/getty-eu-flag-1152x648.jpg",
+      "https://cdn.arstechnica.net/wp-content/uploads/2022/03/getty-eu-flag-500x500.jpg"
     ]
   },
   {
@@ -178,7 +606,12 @@
     "snippet": "Spanish Prime Minister Pedro Sanchez said on Monday there were signs Russia and Israel had spread the disinformation over Spain’s migration policy that triggered last month’s rush of migrants into Ceuta, but no evidence of Moroccan involvement. Over 72,000 mig",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/31/962fe6b9-d8da-4262-aabf-0e4fad10366f_cbedbb92.jpg?itok=X6Yu45ms&v=1788183540"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "ada50466534568bd",
@@ -189,7 +622,12 @@
     "publishedAt": "2026-08-31T12:56:46.000Z",
     "fetchedAt": "2026-08-31T18:56:15.622Z",
     "snippet": "Circleback is also introducing new pricing plans starting from $14 per month.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "b30dbcdcc539b02d",
@@ -202,7 +640,12 @@
     "snippet": "Israel signed a multibillion-dollar weapons deal with Greece, the largest between the two Mediterranean countries, as Israeli defence exports soar. Israel’s Defence Ministry said on Monday the nearly €3 billion (US$3.5 billion) defence export deal, coined Achi",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/31/1df73150-8ec5-4614-aa6d-2e2e53d73a0a_7084bfab.jpg?itok=R48iVzFG&v=1788179175"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "3444ee0e09e0cda8",
@@ -215,7 +658,12 @@
     "snippet": "Taiwanese prosecutors are investigating Unimicron, one of the world’s largest PCB and chip substrate makers and a key supplier to Nvidia, Intel, Google, and Amazon, over allegations that it shipped China-made PCBs back to Taiwan and relabeled them as Taiwanese",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/Uw8GSJb5Eg3NjgZZ3HEjd7-1280-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "140365bc94f4300a",
@@ -229,7 +677,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/vnqdtRupVqWHAik43ZWctH-1280-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/xi79WuWDZXzix4Fc7sXNMn.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "803026656eee4138",
@@ -242,6 +695,25 @@
     "snippet": "A UN committee has said countries are legally obliged to consider reparations for the transatlantic slave trade and take other measures to address the enduring legacy of racial discrimination it says persists today. Guidance published on Monday by the Committe",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/31/fd88ee54-5a93-48ed-a37c-bfd940c2f0de_db9882b8.jpg?itok=LWi0JLHA&v=1788170854"
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "e29dfc1a24cd3e57",
+    "title": "Pocket&#039;s AI made my game ideas real. Now Meta controls the results.",
+    "link": "https://arstechnica.com/gaming/2026/08/pockets-ai-made-my-game-ideas-real-now-meta-controls-the-results/",
+    "source": "Ars Technica AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-08-31T10:00:34.000Z",
+    "fetchedAt": "2026-09-01T04:11:15.957Z",
+    "snippet": "Interactive mobile \"gizmos\" are easy to make, hard to share outside Meta's platform.",
+    "images": [
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/08/pocketsling-1152x648-1787932298.png",
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/08/pocketsling-500x500-1787932285.png"
     ]
   },
   {
@@ -255,7 +727,12 @@
     "snippet": "Spin-out from SenseTime, Imvision Innovation is entering top camera supply chains as an AI imaging co-processor, testing whether it can grow from a second chip into a full SoC.",
     "images": [
       "https://cms-image.pandaily.com/1/img4_6c260e9fdc.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "1bafb4cadb7028f4",
@@ -268,7 +745,12 @@
     "snippet": "Huawei and GIIC launched the Hongtu Plan at the HarmonyOS Ecosystem Conference 2026, adding development, certification, and shipping incentives to the OpenHarmony chain.",
     "images": [
       "https://cms-image.pandaily.com/1/img3_284eb12489.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "54c5d373dddef75c",
@@ -281,7 +763,12 @@
     "snippet": "StartLux's 27-billion-parameter local model took second in the CAICT MCP test, outpacing DeepSeek-V4-Flash and reaching trillion-parameter capability territory.",
     "images": [
       "https://cms-image.pandaily.com/1/img2_df4a717a3f.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "d9fa6d69c7496559",
@@ -294,162 +781,7 @@
     "snippet": "Zhipu AI confirms anonymous flagship GLM-5.3-Flash (Ox Alpha) jumped to No. 1 on weekly global AI model call volume, as Chinese models led the world for 18 straight weeks.",
     "images": [
       "https://cms-image.pandaily.com/1/img1_f97a94e269.png"
-    ]
-  },
-  {
-    "id": "b19964eed3dee47c",
-    "title": "Time Capsule of Testable Human Knowledge: 41 Years of Jeopardy! in a Single Free Local Model",
-    "link": "https://arxiv.org/abs/2608.27459",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "fetchedAt": "2026-08-31T04:28:24.690Z",
-    "snippet": "arXiv:2608.27459v1 Announce Type: new Abstract: In 2011, IBM's Watson was something like a sealed capsule of its era's queryable knowledge. Its DeepQA system defeated the strongest human Jeopardy! champions, but the knowledge that let it do so lived in a curat",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "5f253c8e6375be53",
-    "title": "Rating the Raters: Rasch Measurement Theory for LLM Evaluation",
-    "link": "https://arxiv.org/abs/2608.27463",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "fetchedAt": "2026-08-31T04:28:24.690Z",
-    "snippet": "arXiv:2608.27463v1 Announce Type: new Abstract: LLMs now sit on every side of evaluation: as examinees scored on benchmarks, judges of other models' outputs, and raters of human-generated content. Each paradigm can be viewed as a measurement problem, where a l",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "4a72bc1b0eab991c",
-    "title": "Not All Explanations Are Sought: Information-Seeking Psychology for Human-Centered XAI",
-    "link": "https://arxiv.org/abs/2608.27464",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "fetchedAt": "2026-08-31T04:28:24.690Z",
-    "snippet": "arXiv:2608.27464v1 Announce Type: new Abstract: This position paper argues that human-centered explainable AI (HCXAI) should incorporate insights from the psychology of information seeking. Drawing on Sharot and Sunstein's framework of information-seeking moti",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "d76fb648151fcc1e",
-    "title": "Retrieving Relations, Detecting Fallacies: A RAG Approach to Political Debate Analysis",
-    "link": "https://arxiv.org/abs/2608.27471",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "fetchedAt": "2026-08-31T04:28:24.690Z",
-    "snippet": "arXiv:2608.27471v1 Announce Type: new Abstract: Fallacies are arguments that employ invalid reasoning, making their automatic detection critical in sensitive contexts such as high-stakes political debates, where public opinion is shaped. Spotting a fallacious",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "ba2de12445a88b23",
-    "title": "LLM-Augmented Causal Discovery: Probabilistic Fusion of Edge Existence and Orientation",
-    "link": "https://arxiv.org/abs/2608.27472",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "fetchedAt": "2026-08-31T04:28:24.690Z",
-    "snippet": "arXiv:2608.27472v1 Announce Type: new Abstract: Bayesian network structure learning (BNSL) from observational data struggles with orientation identifiability, while large language models (LLMs) offer broad but often unreliable causal knowledge. We propose comb",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "1fa6009ab7f879e1",
-    "title": "Hypothesize, Evaluate, Refine: A Scientific Agent for PDE Discovery with Unknown Spatial Coefficient Fields",
-    "link": "https://arxiv.org/abs/2608.27475",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "fetchedAt": "2026-08-31T04:28:24.690Z",
-    "snippet": "arXiv:2608.27475v1 Announce Type: new Abstract: Discovering PDEs in heterogeneous media requires jointly identifying the governing operator and the unknown spatial fields that parameterize it. These tasks are coupled: changing field placement changes the diffe",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "9ebe5dde571bf48c",
-    "title": "Class-Based Heuristic Selection for Solving the Flying Block Puzzle",
-    "link": "https://arxiv.org/abs/2608.27476",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "fetchedAt": "2026-08-31T04:28:24.690Z",
-    "snippet": "arXiv:2608.27476v1 Announce Type: new Abstract: Heuristic search underlies planning in autonomous systems ranging from warehouse logistics to robotic navigation, yet generic heuristics fail to exploit the structural constraints that govern constrained spatial",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "693dcf0986b28feb",
-    "title": "Benchmarking General Mobile Assistants in Challenging Real-World Scenarios",
-    "link": "https://arxiv.org/abs/2608.27477",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "fetchedAt": "2026-08-31T04:28:24.690Z",
-    "snippet": "arXiv:2608.27477v1 Announce Type: new Abstract: Graphical user interfaces have emerged as an important environment for evaluating autonomous AI agents on multimodal interactive tasks. Existing benchmarks such as AndroidWorld and MobileWorld provide strong foun",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "8e2f0ef9d601d618",
-    "title": "Effectiveness of IoT and Deep Learning for Detection and Severity Assessment of Postelectrotermes militaris in Tea Plantations",
-    "link": "https://arxiv.org/abs/2608.27480",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "fetchedAt": "2026-08-31T04:28:24.691Z",
-    "snippet": "arXiv:2608.27480v1 Announce Type: new Abstract: Tea plantations are vulnerable to Postelectrotermes militaris, commonly known as the Upcountry Live Wood Termite (ULWT), which can cause substantial damage when infestations remain undetected. This study proposes",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "3c31a9b505389bc2",
-    "title": "Context Localization for Generalized Level-Based Evaluation in Knowledge-Based Systems",
-    "link": "https://arxiv.org/abs/2608.27482",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "fetchedAt": "2026-08-31T04:28:24.691Z",
-    "snippet": "arXiv:2608.27482v1 Announce Type: new Abstract: We study context localization for generalized level-based evaluation in knowledge-based systems. The framework models situations where a structured nonnegative score, defined on facts, rules, cases, criteria or e",
-    "images": [],
+    ],
     "titleZh": "",
     "snippetZh": "",
     "translatedAt": "",
@@ -535,7 +867,12 @@
     "publishedAt": "2026-08-31T02:34:00.000Z",
     "fetchedAt": "2026-08-31T18:56:15.622Z",
     "snippet": "The U.S. is shutting out more foreign-made drones and robots. China’s scale means the global competition may simply move elsewhere.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "517e84c572bfde01",
@@ -972,7 +1309,12 @@
     "publishedAt": "2026-08-29T18:41:59.000Z",
     "fetchedAt": "2026-08-31T18:56:15.622Z",
     "snippet": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "78046eb16f89a015",
@@ -1001,7 +1343,12 @@
     "publishedAt": "2026-08-29T17:51:10.000Z",
     "fetchedAt": "2026-08-31T18:56:15.622Z",
     "snippet": "Investors, founders, and operators from across Europe arrived for the annual Nordic TechBBQ conference to talk about how humans can have agency over AI.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "9cab84d8c04fb7f5",
@@ -1028,7 +1375,12 @@
     "publishedAt": "2026-08-29T17:36:47.000Z",
     "fetchedAt": "2026-08-31T18:56:15.622Z",
     "snippet": "Vijay Pande — who left a16z's roughly $4 billion biotech practice last year to start the much smaller, AI-native VZVC — talks about why biology is finally shifting from a \"discovery\" science to an \"engineering\" one, why clinical trials are still brutally expen",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "56e204e1e44da879",
@@ -5803,309 +6155,6 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/udFp2ca8Nu9dvCJweZPZEL-1280-80.jpg"
     ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e6ab5ccd20da7d99",
-    "title": "The Download: kids outlearning AI, and space travel agents",
-    "link": "https://www.technologyreview.com/2026/08/24/1142863/the-download-kids-outlearning-ai-space-travel-agents/",
-    "source": "MIT Technology Review",
-    "category": "US & Global AI",
-    "publishedAt": "2026-08-24T12:10:00.000Z",
-    "fetchedAt": "2026-08-24T12:54:13.048Z",
-    "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Kids outlearn AI—and we still don’t know why Teaching a computer to use human language requires an inhuman amount of data.",
-    "images": [
-      "https://wp.technologyreview.com/wp-content/uploads/2026/01/Small-Reactor-Tablet-top.jpg?fit=2880,1920"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "d85f658576b44ddd",
-    "title": "Ukraine wants peace but won’t ‘simply surrender’, Zelensky says on Independence Day",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3365085/ukraine-wants-peace-wont-simply-surrender-zelensky-says-independence-day?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-08-24T11:50:32.000Z",
-    "fetchedAt": "2026-08-24T12:54:13.876Z",
-    "snippet": "⁠Ukraine wants peace but will not just give in to Russia at any price, President Volodymyr Zelensky has said in a defiant speech as foreign leaders gather in Kyiv to mark its Independence Day celebrations. British Prime Minister Andy Burnham and European Counc",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/24/f75cb609-16d1-4752-bb70-7c2e907d7a0f_26343f02.jpg?itok=1R2cRBvS&v=1787572228"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "dbe2a2cfebb00740",
-    "title": "Huge $2,200 discount makes this RTX 5090 gaming PC cheaper than the GPU's standalone price — epic HP Omen Max 45L rig ships with 64GB DDR5 and a 2TB SSD for just $4,799",
-    "link": "https://www.tomshardware.com/desktops/gaming-pcs/huge-usd2-200-discount-makes-this-rtx-5090-gaming-pc-cheaper-than-the-gpus-standalone-price-epic-hp-omen-max-45l-rig-ships-with-64gb-ddr5-and-a-2tb-ssd-for-just-usd4-799",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-08-24T10:11:23.000Z",
-    "fetchedAt": "2026-08-24T12:54:13.294Z",
-    "snippet": "A massive discount means this $4,799 HP Omen Max 45L gaming PC is now cheaper than individually buying the RTX 5090 it uses, thanks to a $2,200 discount.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/fcyZkPccMDprTkpiSbxwo8-1280-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/SiNDGG5cSxQbJ2noi5Mrx8.webp",
-      "https://cdn.mos.cms.futurecdn.net/65RrwJCESLNiM87Kdc4xxX.png",
-      "https://cdn.mos.cms.futurecdn.net/QJMZU5D9vRbN6gjujtGtPY.png",
-      "https://cdn.mos.cms.futurecdn.net/TBvskNGZjS99sqmNo8HQoY.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "50e63727543ed0b1",
-    "title": "Nintendo takes down over 400 GitHub repositories for Switch emulators in one go — Relentless DMCA strikes tied to piracy concerns over illegal cryptographic keys",
-    "link": "https://www.tomshardware.com/video-games/nintendo/nintendo-takes-down-over-400-github-repositories-for-switch-emulators-in-one-go-relentless-dmca-strikes-tied-to-piracy-concerns-over-illegal-cryptographic-keys",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-08-24T10:00:00.000Z",
-    "fetchedAt": "2026-08-24T12:54:13.294Z",
-    "snippet": "Nintendo is doing Nintendo things again as it goes after 7 different master repos containing Switch emulators, which total out to 401 repos wiped in a single day. Most of these belonged to Yuzu forks, such as Suyu, but there was one exception.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/kW5bsKx4FR5T3m3PeYqGDL-1280-80.png",
-      "https://cdn.mos.cms.futurecdn.net/ze6xGNWYsF96zXxdbj8mTS.png",
-      "https://cdn.mos.cms.futurecdn.net/mUHMcUCR3UWpVMFu8cXAH6.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "4ec0cd6ec829d779",
-    "title": "Netherlands withdraws from ‘no longer’ neutral Eurovision",
-    "link": "https://www.scmp.com/news/world/europe/article/3365062/netherlands-withdraws-no-longer-neutral-eurovision?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-08-24T09:30:06.000Z",
-    "fetchedAt": "2026-08-24T12:54:13.876Z",
-    "snippet": "The Netherlands will not take part in next year’s Eurovision Song Contest, its broadcaster has said, adding that the event can “no longer be considered neutral” given divisions over the Gaza war. “It is undeniable that international conflicts are increasingly",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/24/a21f5da8-223b-4c3c-b4a9-43095c16eb4c_6fd114b8.jpg?itok=ZIgrdk60&v=1787562905"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "b61fba569e1f2ca8",
-    "title": "Kids outlearn AI—and we still don’t know why",
-    "link": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
-    "source": "MIT Technology Review",
-    "category": "US & Global AI",
-    "publishedAt": "2026-08-24T09:00:00.000Z",
-    "fetchedAt": "2026-08-24T12:54:13.048Z",
-    "snippet": "People have been talking to each other for at least 100,000 years, as best we can tell. And in all that time, there has been only one thing in the world that could learn a human language to perfect fluency: a human child.&#160; Now there are two.&#160; Four sh",
-    "images": [
-      "https://wp.technologyreview.com/wp-content/uploads/2026/08/2_Mobile.jpg?w=840",
-      "https://wp.technologyreview.com/wp-content/uploads/2026/08/3_HighChair.jpg?w=840"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "55df6001547d5434",
-    "title": "At WRC 2026, UBTECH Pivots From Shipment Counts to Repeat Orders",
-    "link": "https://pandaily.com/ubtech-wrc-2026-pivots-shipment-counts-repeat-orders-aug2026",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-08-24T08:09:24.000Z",
-    "fetchedAt": "2026-08-24T12:54:13.057Z",
-    "snippet": "At the World Robot Conference in Beijing, UBTECH is reframing its story around revenue and repeat purchases rather than shipment numbers, as China's first humanoid-robot stock pushes across industrial, commercial and consumer scenes.",
-    "images": [
-      "https://cms-image.pandaily.com/1/img_5_151ae46cc5.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "0ab837d26898ef66",
-    "title": "Anonymous AI Model 'Ox Alpha' Crushes Coding Benchmarks, Sparking a Cross-Country Guessing Game",
-    "link": "https://pandaily.com/anonymous-ai-model-ox-alpha-crushes-coding-benchmarks-aug2026",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-08-24T08:09:22.000Z",
-    "fetchedAt": "2026-08-24T12:54:13.058Z",
-    "snippet": "On August 20, OpenRouter quietly listed stealth/ox-alpha, an anonymous, free model whose real-world coding results beat several closed frontier models, triggering an industry guessing game and spotlighting China's stealth-model strategy.",
-    "images": [
-      "https://cms-image.pandaily.com/1/img_4_3d4af0702f.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c821446e5b997692",
-    "title": "iKang and Huawei Cloud Launch AI Agent for Enterprise Health Management",
-    "link": "https://pandaily.com/ikang-huawei-cloud-launch-ai-agent-enterprise-health-management-aug2026",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-08-24T08:09:21.000Z",
-    "fetchedAt": "2026-08-24T12:54:13.058Z",
-    "snippet": "On August 21, iKang Group and Huawei Cloud jointly launched an AI health management agent that extends AI to corporate employee health, covering data, personalized plans, ongoing intervention, monitoring and risk alerts.",
-    "images": [
-      "https://cms-image.pandaily.com/1/img_3_48cebcbf9b.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "48f9d6679e6b29ba",
-    "title": "Honor's Humanoid Robot 'Lightning' Runs 400m in 40.6 Seconds, Beating the Human World Record",
-    "link": "https://pandaily.com/honor-robot-lightning-beats-human-400m-world-record-aug2026",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-08-24T08:09:19.000Z",
-    "fetchedAt": "2026-08-24T12:54:13.059Z",
-    "snippet": "At the World Humanoid Robot Games in Beijing, Honor's self-developed robot Lightning ran 400m in 40.6 seconds, beating the 43.03s human men's world record set by Wayde van Niekerk at the 2016 Rio Olympics.",
-    "images": [
-      "https://cms-image.pandaily.com/1/img_2_520c1bc509.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e4c56e07b23cd553",
-    "title": "Xiaomi Unveils Xuanjie O3, First Flagship SoC to Break 5 Million Points",
-    "link": "https://pandaily.com/xiaomi-unveils-xuanjie-o3-first-flagship-soc-break-5-million-aug2026",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-08-24T08:09:18.000Z",
-    "fetchedAt": "2026-08-24T12:54:13.059Z",
-    "snippet": "Xiaomi's new Xuanjie O3 AI flagship SoC scores 5.22 million on AnTuTu, the first flagship chip to pass 5 million, with a ten-core CPU, 16-core GPU and a rebuilt NPU built for on-device MiMo models.",
-    "images": [
-      "https://cms-image.pandaily.com/1/img_1_8f4700ef9d.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "32beb3a09cee153a",
-    "title": "Philippines stakes claim as Latin America’s Asean gateway",
-    "link": "https://www.scmp.com/week-asia/economics/article/3365014/philippines-stakes-claim-latin-americas-asean-gateway?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-08-24T04:00:11.000Z",
-    "fetchedAt": "2026-08-24T12:54:13.877Z",
-    "snippet": "The Philippines is positioning itself as Latin America’s bridge to Southeast Asia, testing whether shared history and culture can translate into hard trade figures as Asean and the Mercosur bloc look beyond their traditional partners. Manila’s Foreign Secretar",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/24/4eeaa097-c8f3-4342-bb04-5db90eaaf88a_f182668d.jpg?itok=porN4gP4&v=1787542627"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "fb83d96ae961ba66",
-    "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
-    "link": "https://arxiv.org/abs/2608.20341",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-08-24T04:00:00.000Z",
-    "fetchedAt": "2026-08-24T12:54:13.280Z",
-    "snippet": "arXiv:2608.20341v1 Announce Type: new Abstract: Frontier coding agents backed by large language models with context windows from hundreds of thousands to millions of tokens are restructuring the Software Development Life Cycle (SDLC). Rich context handling and",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c980d88ce279dfa0",
-    "title": "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
-    "link": "https://arxiv.org/abs/2608.20342",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-08-24T04:00:00.000Z",
-    "fetchedAt": "2026-08-24T12:54:13.280Z",
-    "snippet": "arXiv:2608.20342v1 Announce Type: new Abstract: Large language model (LLM) coding agents start each session with an empty context window, discarding accumulated knowledge from prior work. We present PrimeAgentOrchestrator (PAO), a system that spawns new instan",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "60b1b048f362d766",
-    "title": "Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification",
-    "link": "https://arxiv.org/abs/2608.20378",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-08-24T04:00:00.000Z",
-    "fetchedAt": "2026-08-24T12:54:13.281Z",
-    "snippet": "arXiv:2608.20378v1 Announce Type: new Abstract: Safety alignment in Large Language Models (LLMs) is often superficial, relying on refusal mechanisms that trigger only at the final stages of generation without erasing the foundational knowledge of harmful conce",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "67dc9f96363aaf6a",
-    "title": "A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications",
-    "link": "https://arxiv.org/abs/2608.20379",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-08-24T04:00:00.000Z",
-    "fetchedAt": "2026-08-24T12:54:13.281Z",
-    "snippet": "arXiv:2608.20379v1 Announce Type: new Abstract: Advances in large language models (LLMs) have fueled a wave of research into agency: the ability to reason, plan, and act. This effort has produced agentic frameworks that orchestrate perception, memory, and deci",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "17bbc6da91bc7f15",
-    "title": "Interpretable Multimodal Classification with Linear Discriminant Tree Ensembles",
-    "link": "https://arxiv.org/abs/2608.20384",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-08-24T04:00:00.000Z",
-    "fetchedAt": "2026-08-24T12:54:13.281Z",
-    "snippet": "arXiv:2608.20384v1 Announce Type: new Abstract: Multimodal affect and behaviour classifiers that fuse heterogeneous text, audio, and visual streams must simultaneously achieve competitive accuracy and produce human-understandable explanations of the cues drivi",
-    "images": [],
     "titleZh": "",
     "snippetZh": "",
     "translatedAt": "",
