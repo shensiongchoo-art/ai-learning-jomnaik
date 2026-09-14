@@ -1,5 +1,157 @@
 [
   {
+    "id": "1ff7e2c5f601f79f",
+    "title": "ZTE OEX and Matrix Supernode Named Among China Computing Power Conference Breakthroughs",
+    "link": "https://pandaily.com/zte-oex-matrix-supernode-china-computing-power-conference",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-09-14T01:51:47.000Z",
+    "fetchedAt": "2026-09-14T03:59:41.064Z",
+    "snippet": "ZTE's OEX-based Matrix cluster supernode was listed among 2026 China Computing Power Conference major breakthroughs, citing 3–6 month chip-adapt cycles, 100-nanosecond-class latency and multi-vendor GPU trays with Biren, MetaX and peers.",
+    "images": [
+      "https://cms-image.pandaily.com/1/zte_oex_matrix_c63e13f56a.png"
+    ]
+  },
+  {
+    "id": "2f4e648e5684f870",
+    "title": "Shanghai AI Lab and SJTU Open-Source NCP-ArchPreview Latent-Space Model",
+    "link": "https://pandaily.com/shanghai-ai-lab-sjtu-ncp-archpreview-open-source",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-09-14T01:50:35.000Z",
+    "fetchedAt": "2026-09-14T03:59:41.064Z",
+    "snippet": "Shanghai Artificial Intelligence Laboratory and Shanghai Jiao Tong University's LUMIA Lab open-sourced NCP-ArchPreview, an 8.9B latent-space model that jointly trains next-concept and next-token prediction, matching a 7B baseline loss on ~51.3% of tokens.",
+    "images": [
+      "https://cms-image.pandaily.com/1/ncp_archpreview_3c7fa9d94d.png"
+    ]
+  },
+  {
+    "id": "b3b47818a924bb2d",
+    "title": "UBTECH Commissions Liuzhou Industrial Humanoid Robot Super Smart Factory",
+    "link": "https://pandaily.com/ubtech-liuzhou-industrial-humanoid-super-smart-factory",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-09-14T01:50:05.000Z",
+    "fetchedAt": "2026-09-14T03:59:41.064Z",
+    "snippet": "UBTECH commissioned its roughly 14,000-square-meter Liuzhou plant with a ~10-minute takt, Walker S and Cruzr lines, robots-building-robots logistics and a Siemens digital-twin stack aimed at 10,000-plus units a year.",
+    "images": [
+      "https://cms-image.pandaily.com/1/ubtech_liuzhou_factory_c7f7d94ba2.png"
+    ]
+  },
+  {
+    "id": "bc14a674edb83ffa",
+    "title": "National Data Administration to Promote Embodied-Intelligence Data Standards in Due Course",
+    "link": "https://pandaily.com/national-data-administration-embodied-ai-data-standards",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-09-14T01:49:34.000Z",
+    "fetchedAt": "2026-09-14T03:59:41.064Z",
+    "snippet": "After a Sept. 10 symposium, the National Data Administration said it will promote embodied-intelligence data standards in due course, guide local data bureaus and support corporate data investment alongside MIIT and national guidance already in force.",
+    "images": [
+      "https://cms-image.pandaily.com/1/embodied_ai_data_standards_578dfa53d5.png"
+    ]
+  },
+  {
+    "id": "03ac3ecc36940e00",
+    "title": "DeepSeek Routes All V4-Pro API Traffic to V4.1-Flash at Flash Rates",
+    "link": "https://pandaily.com/deepseek-v4-pro-api-routes-to-v41-flash-sept-14",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-09-14T01:48:17.000Z",
+    "fetchedAt": "2026-09-14T03:59:41.064Z",
+    "snippet": "From 04:00 UTC on Sept. 14, DeepSeek serves every deepseek-v4-pro request with V4.1-Flash at Flash pricing until V4.1-Pro ships — an operational cutover for pinned Pro model IDs.",
+    "images": [
+      "https://cms-image.pandaily.com/1/deepseek_pro_to_flash_cutover_f5fc067ca3.png"
+    ]
+  },
+  {
+    "id": "91df6fc20eaa6ddc",
+    "title": "Trump to consider releasing 9/11 records after families’ request",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3367375/trump-consider-releasing-9/11-records-after-families-request?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-09-13T21:01:21.000Z",
+    "fetchedAt": "2026-09-14T03:59:40.574Z",
+    "snippet": "US President Donald Trump on Sunday said he will look into requests from families of September 11 victims to release records that could shed light on Saudi Arabia’s alleged role in the attacks 25 years ago. Several families have long alleged that a group of ex",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/14/9fe1cbb6-4bfe-47c5-95e7-738304246b30_1f52d8c7.jpg?itok=sY_369BZ&v=1789357918"
+    ]
+  },
+  {
+    "id": "012499ad3f4c1bd4",
+    "title": "What’s behind the AI industry’s latest warnings of doom?",
+    "link": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-09-13T19:40:15.000Z",
+    "fetchedAt": "2026-09-14T03:59:39.962Z",
+    "snippet": "On Equity, we discussed the AI industry's latest debate about whether it poses an existential threat to humanity.",
+    "images": []
+  },
+  {
+    "id": "f4e8d102d797fda1",
+    "title": "Trump downplays need to check AI development, says he is unwilling to cede edge to China",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3367374/trump-downplays-need-check-ai-development-says-he-unwilling-cede-edge-china?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-09-13T19:27:47.000Z",
+    "fetchedAt": "2026-09-14T03:59:40.574Z",
+    "snippet": "US President Donald Trump on Sunday played down the need for his administration to check the development of artificial intelligence, saying he worried about ceding America’s edge over China in a global competition and that winning would help address the risks ",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/14/2d3e0351-51b7-42d6-a6f6-9258fae94092_adea9303.jpg?itok=dpuaeFOI&v=1789333618"
+    ]
+  },
+  {
+    "id": "3350bad9df77949d",
+    "title": "Ahead of US Fed meeting, Trump says America should have world’s lowest interest rate",
+    "link": "https://www.scmp.com/news/world/africa/article/3367371/ahead-us-fed-meeting-trump-says-america-should-have-worlds-lowest-interest-rate?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-09-13T17:55:51.000Z",
+    "fetchedAt": "2026-09-14T03:59:40.574Z",
+    "snippet": "No country should have lower interest ⁠rates than the United States, President Donald Trump said on Sunday, days before the Federal Reserve’s next policy meeting. Speaking to reporters at the Irish Open golf tournament at the Trump International Golf Links & H",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/14/9663b5c1-1a34-44b1-8c44-00b92e8ee83d_3703168a.jpg?itok=2jciZsTZ&v=1789333679"
+    ]
+  },
+  {
+    "id": "150e22e210d5f477",
+    "title": "Poland and Ukraine denounce train strike on route used by Western dignitaries",
+    "link": "https://www.scmp.com/news/world/russia-central-asia/article/3367370/senior-western-figures-ukraine-station-russia-train-strike-rail-operator-says?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-09-13T17:35:57.000Z",
+    "fetchedAt": "2026-09-14T03:59:40.574Z",
+    "snippet": "Poland and Ukraine on Sunday denounced Russian strikes close to the Polish border, including on a Warsaw-bound train and near a frontier checkpoint – as an “escalation” in the war. Ukraine’s rail operator said former British prime minister Boris Johnson and ex",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/14/c45e56fc-3600-4fb2-a1bc-675cdeb56c79_21529dbe.jpg?itok=kg3HWkIw&v=1789355750"
+    ]
+  },
+  {
+    "id": "3d1cd9dabcc7bbb8",
+    "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
+    "link": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-09-13T16:30:00.000Z",
+    "fetchedAt": "2026-09-14T03:59:39.963Z",
+    "snippet": "Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safety.",
+    "images": []
+  },
+  {
+    "id": "744f967a016d7079",
+    "title": "French must come first, Le Pen declares at 2027 campaign launch",
+    "link": "https://www.scmp.com/news/world/europe/article/3367368/french-must-come-first-far-right-leader-le-pen-says-election-campaign-launch?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-09-13T16:29:13.000Z",
+    "fetchedAt": "2026-09-14T03:59:40.574Z",
+    "snippet": "Far-right leader Marine Le Pen, a front runner in the French presidency race, signalled on Sunday that she would favour French citizens over foreigners, defending her long-held principle of “national priority”. Speaking seven months before France’s presidentia",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/14/3dbcd3f4-6f94-45c0-adc9-6a13ec8f1c16_cf91bec4.jpg?itok=G_sIHFx2&v=1789317081"
+    ]
+  },
+  {
     "id": "32c1ab26e0b0d2c1",
     "title": "AMD’s best gaming CPU drops below launch price and includes free 240mm AIO cooler and Onimusha: Way of the Sword — grab the Ryzen 7 9850X3D for $484",
     "link": "https://www.tomshardware.com/pc-components/cpus/amds-best-gaming-cpu-drops-below-launch-price-and-includes-free-240mm-aio-cooler-and-onimusha-way-of-the-sword-grab-the-ryzen-7-9850x3d-for-usd484",
@@ -14,7 +166,12 @@
       "https://cdn.mos.cms.futurecdn.net/NNLFm2ouAXVQB4gYXW9c5Q.png",
       "https://cdn.mos.cms.futurecdn.net/WWZTkcFw6c5VGVC8rDst3Q.png",
       "https://cdn.mos.cms.futurecdn.net/73LwdwULz4j9vqHCuTHc5Q.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "64be5bcfda76083a",
@@ -28,7 +185,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/oAKof7fdsFDAFkCAKvWZud-1280-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/tAXcG6gcsh2msMLWNe39rd.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "97b676067e904346",
@@ -41,7 +203,12 @@
     "snippet": "As an Ex-Anthropic warns AI will get self-sufficient and kill our posterity.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/SvLU6cxYvNBbAzAkMrzDeL-1280-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "912fe4b1b884eeb9",
@@ -54,7 +221,12 @@
     "snippet": "Intel’s decision to archive its developer-focused One Mono font lasted only two days, with the company now restoring the open-source project despite its relatively limited development activity.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/vQD4izcoidZSwM4iDnNEHR-1280-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "8fa17e37dad66abf",
@@ -71,7 +243,12 @@
       "https://cdn.mos.cms.futurecdn.net/TNvD7VPwUTpZhxxeUatJhU.jpg",
       "https://cdn.mos.cms.futurecdn.net/PxwYVEDiQUygCpjPtV7NrU.jpg",
       "https://cdn.mos.cms.futurecdn.net/zfKwdCfrYdaSytgonPLWeU.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c17e619bbcfda532",
@@ -84,7 +261,12 @@
     "snippet": "Winston Churchill famously praised the resilience of the British people during the Blitz, describing the nightly bombings of London as a “cruel, wanton, indiscriminate” attempt by Adolf Hitler to break the spirit of a tough “island race”. He was not wrong abou",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/12/21bd784d-7885-4b97-b0c4-0da926842d46_ee29f8bd.jpg?itok=5gseEd9z&v=1789205972"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c2ad4acfa5163a40",
@@ -97,7 +279,12 @@
     "snippet": "Anthropic accuses China-linked actors of using its Claude models of weapon development, intelligence activities, distilling AI models.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/vnqdtRupVqWHAik43ZWctH-1280-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "dcec13ecd8c256f3",
@@ -111,7 +298,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/vZTixu9pzvdLkseqLS3M4b-1280-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/z53fPgXjpKHTpeGv3RHpqj.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "9bae6644f0c24249",
@@ -124,7 +316,12 @@
     "snippet": "Following a tip-off from robotaxi firm Waymo, San Francisco police conducted a 'high-risk vehicle stop' and arrested two juveniles for illegal possession of a firearm.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/rHMgu2S3YA5XhAf4QbtgoQ-1280-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "5bc8ec30efa77342",
@@ -137,7 +334,12 @@
     "snippet": "Swedes were voting in a closely fought election on Sunday that will either bring a far-right party into government for the first time or shift the country back towards the liberalism that has long defined the northern European kingdom. Sweden’s centre-left opp",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/13/a55e7364-d37e-4e2a-b2f5-ad8d9e900e7a_70f6229e.jpg?itok=tKAgVBTB&v=1789297144"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "5d589611c45ad51f",
@@ -150,7 +352,12 @@
     "snippet": "The head of Russia’s state nuclear energy corporation ⁠accused Ukraine on ⁠Sunday of attacking diesel fuel trucks, ⁠killing two Russian servicemen and deliberately jeopardising safety at the Russian-held Zaporizhzhia nuclear power plant in Ukraine. Alexei Likh",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/13/eaef52f2-6f94-4f46-b632-833d8da906ae_e84396d7.jpg?itok=odE2qv9z&v=1789285770"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "9f517b3763ea5509",
@@ -160,10 +367,15 @@
     "category": "China AI",
     "publishedAt": "2026-09-13T05:03:29.000Z",
     "fetchedAt": "2026-09-13T15:49:04.026Z",
-    "snippet": "The French UN mission said it regretted an online post criticising how the United States voted during a UN General Assembly meeting, with US officials saying on Saturday that Washington appreciated the statement. France’s permanent mission to the UN published ",
+    "snippet": "The French UN mission said it regretted an online post criticising how the United States voted during a UN General Assembly meeting, with US officials saying on Saturday that Washington appreciated the statement. France’s permanent mission to the UN published",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/13/a318825c-f100-4362-baab-2a12a5a07658_5d498bfd.jpg?itok=QPs52cge&v=1789275803"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "3bcc92f99b2345be",
@@ -5924,212 +6136,6 @@
     "fetchedAt": "2026-09-05T14:48:54.773Z",
     "snippet": "arXiv:2609.03416v1 Announce Type: new Abstract: LLM-empowered paper-code discrepancy detection has received growing concern since the scaling of research submissions exceeds the manual review capability. However, the limited context capacity and one-sided disc",
     "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "89bdde76cb0132b0",
-    "title": "DuplexSpeechBench-IFEval: Evaluating Implicit Instruction Following in Full-Duplex Voice Agents",
-    "link": "https://arxiv.org/abs/2609.03423",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-09-05T04:00:00.000Z",
-    "fetchedAt": "2026-09-05T14:48:54.773Z",
-    "snippet": "arXiv:2609.03423v1 Announce Type: new Abstract: Full-duplex voice agents must continuously decide when to listen, backchannel, interrupt, handle speech overlaps, take the floor, and yield. Existing benchmarks largely test these behaviors through explicit turn-",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "3c4754d3fc12efe6",
-    "title": "Do GUI Agents Know When Not to Act? Enabling Conflict-Aware Termination for Multimodal GUI Agents",
-    "link": "https://arxiv.org/abs/2609.03438",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-09-05T04:00:00.000Z",
-    "fetchedAt": "2026-09-05T14:48:54.773Z",
-    "snippet": "arXiv:2609.03438v1 Announce Type: new Abstract: Graphical user interface (GUI) agents are increasingly used to execute natural-language instructions on user interfaces, yet real users may issue infeasible instructions due to benign mistakes. A reliable agent s",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "d7ed2a967c02f16c",
-    "title": "Beyond \"Made with AI\": Visualizing Provenance Density to Mitigate the Transparency Penalty",
-    "link": "https://arxiv.org/abs/2609.03460",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-09-05T04:00:00.000Z",
-    "fetchedAt": "2026-09-05T14:48:54.773Z",
-    "snippet": "arXiv:2609.03460v1 Announce Type: new Abstract: As generative AI makes polished prose cheap to produce, users can no longer rely on fluency as a proxy for truth. We call this failure mode the Fluency Trap: users trust fluent hallucinations while also discounti",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "222d8dff1393fdbe",
-    "title": "At least 10 dead, 62 injured after explosion at Bolivian army base",
-    "link": "https://www.scmp.com/news/world/americas/article/3366452/least-10-dead-62-injured-after-explosion-bolivian-army-base?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-05T02:29:13.000Z",
-    "fetchedAt": "2026-09-05T03:34:12.416Z",
-    "snippet": "At least 10 people were killed and 62 injured on Friday after an explosion at a military barracks in the western Bolivian city of Viacha, local authorities said. The blast took place at around 2.30pm at a military facility used to store pyrotechnic material. W",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/05/8e1a1feb-7968-4b09-867d-498e1cc6514a_27197fb9.jpg?itok=Bxyhiz-h&v=1788575339"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "4ac2e842112a5445",
-    "title": "Bolivian military barracks explosion leaves 2 dead, 14 missing and dozens injured",
-    "link": "https://www.scmp.com/news/world/americas/article/3366452/least-10-dead-62-injured-after-explosion-bolivian-army-base?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-05T02:29:13.000Z",
-    "fetchedAt": "2026-09-05T14:48:55.120Z",
-    "snippet": "At least two people were killed and dozens injured on Friday after an explosion at a military barracks in the ‌Bolivian municipality of Viacha, about 30km (20 miles) from La Paz, Defence Minister Ernesto Justiniano said. His ministry said in a statement that 1",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/05/8e1a1feb-7968-4b09-867d-498e1cc6514a_27197fb9.jpg?itok=Bxyhiz-h&v=1788575339"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "d91de2471a409e8c",
-    "title": "Tetris says it didn’t give White House permission for ‘Build the Wall’ game",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3366448/tetris-says-it-didnt-give-white-house-permission-build-wall-game?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-04T23:57:46.000Z",
-    "fetchedAt": "2026-09-05T03:34:12.416Z",
-    "snippet": "Tetris said on Friday that it did not give permission for the White House to use the game’s iconic imagery for a controversial online arcade that the Trump administration released on Thursday. “The Tetris Company was not involved in the creation of Build the W",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/05/750eda71-e000-4111-9bff-6c5e339f7ce6_eb7c2acd.jpg?itok=khBdmkmS&v=1788566252"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "81d2c7f17c794369",
-    "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
-    "link": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-04T23:36:14.000Z",
-    "fetchedAt": "2026-09-05T03:34:11.842Z",
-    "snippet": "The round is being raised just months after the robot data startup exited from stealth.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c1897b6e5c070f90",
-    "title": "XDOF, just 3 months out of stealth, is in talks for a Series B at a $1.2B valuation",
-    "link": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-04T23:36:14.000Z",
-    "fetchedAt": "2026-09-08T03:40:09.045Z",
-    "snippet": "The round is being raised just months after the robot data startup exited from stealth.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "618e6550d872e24c",
-    "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
-    "link": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-04T23:15:11.000Z",
-    "fetchedAt": "2026-09-05T03:34:11.843Z",
-    "snippet": "OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "0edbf3f47bdeeb0f",
-    "title": "DLSS 5 officially launches inside NBA 2K27, limited to RTX 50-series GPUs for now — Nvidia promises to bring neutral rendering tech to RTX 40-series soon",
-    "link": "https://www.tomshardware.com/pc-components/gpus/dlss-5-officially-launches-inside-nba-2k27-limited-to-rtx-50-series-gpus-for-now-nvidia-promises-to-bring-neutral-rendering-tech-to-rtx-40-series-soon",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-09-04T23:09:31.000Z",
-    "fetchedAt": "2026-09-05T03:34:12.117Z",
-    "snippet": "Nvidia's controversial neural-rendering tech, DLSS 5, is now officially available in NBA 2K27, marking the start of a new era for the company. DLSS 5 will also come to RTX 40-series soon after current work on optimizing it for the RTX 50-series has reached a s",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/HwAcYRj7Jwy8EMgAW5JouH-1280-80.gif",
-      "https://cdn.mos.cms.futurecdn.net/2aUD8zC7hVYFmFtgy3BNiH.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "a5e6756a03185f26",
-    "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
-    "link": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-04T22:17:36.000Z",
-    "fetchedAt": "2026-09-05T03:34:11.852Z",
-    "snippet": "In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/09/ai-agent-hacking-1152x648.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/09/ai-agent-hacking-500x500.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "677a4874d23d1e09",
-    "title": "Talk is growing of a Tesla-SpaceX merger. Will geopolitics throw a spanner in the works?",
-    "link": "https://www.scmp.com/tech/tech-war/article/3366387/talk-growing-tesla-spacex-merger-will-geopolitics-throw-spanner-works?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-04T22:00:07.000Z",
-    "fetchedAt": "2026-09-05T03:34:12.416Z",
-    "snippet": "One by one, Tesla Model Y Ls roll out of the company’s end-of-line inspection bays, gleaming in black, white and gold. They are a mix of left-hand and right-hand drive – one of many signs the electric vehicles (EVs) produced here are destined for ports around",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/04/4bdb30dc-63e5-41a8-8645-29a6a0a8258b_2d074271.jpg?itok=FB4jgLDi&v=1788514518"
-    ],
     "titleZh": "",
     "snippetZh": "",
     "translatedAt": "",
