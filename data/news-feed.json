@@ -1,5 +1,155 @@
 [
   {
+    "id": "64f3cd9066bb6f93",
+    "title": "Some Western politicians stoking Nato-Russia clash as Ukraine war strategy falters: Fico",
+    "link": "https://www.scmp.com/news/world/europe/article/3368137/some-western-politicians-stoking-nato-russia-clash-ukraine-war-strategy-falters-fico?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-09-20T03:04:57.000Z",
+    "fetchedAt": "2026-09-20T04:01:52.954Z",
+    "snippet": "Some Western politicians are seeking conflict between Nato and Russia after ⁠a “failed” strategy to defeat ⁠Moscow in its war with Ukraine, ⁠Slovak Prime Minister Robert Fico said on Saturday. Long-time Slovak leader Fico, who has kept up warm relations with R",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/20/6b53dd65-418e-4319-889e-8cb99362f46a_f516c6e8.jpg?itok=eCElOXoq&v=1789873484"
+    ]
+  },
+  {
+    "id": "ba4278b1967366f9",
+    "title": "HarmonyOS 7 Casts Xiaoyi as System Agent With 2,100+ Capabilities and Partner Skills",
+    "link": "https://pandaily.com/harmonyos-7-xiaoyi-system-agent-skills",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-09-20T02:55:48.000Z",
+    "fetchedAt": "2026-09-20T04:01:53.720Z",
+    "snippet": "Post-launch HarmonyOS 7 coverage frames Xiaoyi as an OS-level agent with 2,100+ system capabilities, 2,000+ agents, and 500+ partner Skills for multi-app task chains.",
+    "images": [
+      "https://cms-image.pandaily.com/1/harmonyos_7_xiaoyi_7c3bc06766.png"
+    ]
+  },
+  {
+    "id": "df4196e91af8b078",
+    "title": "ZGCM-1-7B Opens Full Weights, Data, and Code for Math and Agentic Search",
+    "link": "https://pandaily.com/zgcm-1-7b-open-math-agentic-search",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-09-20T02:55:18.000Z",
+    "fetchedAt": "2026-09-20T04:01:53.720Z",
+    "snippet": "Zhongguancun Academy’s ZGCM-1-7B posts ~97% on MATH-500, ~75% on AIME 2026, and ~63% on WebWalkerQA while releasing weights, data, and training code.",
+    "images": [
+      "https://cms-image.pandaily.com/1/zgcm_1_7b_3225f64933.png"
+    ]
+  },
+  {
+    "id": "447438aeeed7b8a0",
+    "title": "Huawei Cloud Rolls Out AgentArts and Agentic Cloud Stack for Enterprise AI at Connect 2026",
+    "link": "https://pandaily.com/huawei-cloud-agentarts-agentic-cloud-connect-2026",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-09-20T02:54:44.000Z",
+    "fetchedAt": "2026-09-20T04:01:53.720Z",
+    "snippet": "At Connect 2026, Huawei Cloud said AgentArts already serves 100+ enterprises alongside openJiuwen, Agentic MaaS, and Industry AI Foundry assets for production agents.",
+    "images": [
+      "https://cms-image.pandaily.com/1/huawei_cloud_agentarts_4b1f8fec03.png"
+    ]
+  },
+  {
+    "id": "ad7f10e678953a10",
+    "title": "China Mobile Open-Sources Open-RAIL Middleware to Link VLA/WAM Models With Robot Hardware",
+    "link": "https://pandaily.com/china-mobile-open-rail-vla-wam-middleware",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-09-20T02:54:07.000Z",
+    "fetchedAt": "2026-09-20T04:01:53.721Z",
+    "snippet": "China Mobile’s Open-RAIL middleware adds async inference, hardware abstraction, and ~50–100 LOC model hooks so VLA/WAM stacks can drive heterogeneous robots end to end.",
+    "images": [
+      "https://cms-image.pandaily.com/1/china_mobile_open_rail_5ef9693072.png"
+    ]
+  },
+  {
+    "id": "b0ea180b2ff31d37",
+    "title": "DeepSeek-V4.1-Flash Ships Causal Encoder–Decoder MoE With 1M Context and Extreme KV Compression",
+    "link": "https://pandaily.com/deepseek-v4-1-flash-causal-encoder-decoder-1m-kv",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-09-20T02:53:32.000Z",
+    "fetchedAt": "2026-09-20T04:01:53.721Z",
+    "snippet": "DeepSeek’s V4.1-Flash pairs a 552B Causal Encoder–Decoder MoE with 1M context, CSA2+FP4 KV at ~890 bytes/token, and API access as deepseek-flash.",
+    "images": [
+      "https://cms-image.pandaily.com/1/deepseek_v4_1_flash_ca0ab76419.png"
+    ]
+  },
+  {
+    "id": "9ab720888a61d21d",
+    "title": "Flock reportedly tries to shrink workforce with employee buyouts",
+    "link": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-09-19T20:39:13.000Z",
+    "fetchedAt": "2026-09-20T04:01:52.358Z",
+    "snippet": "Without buyouts, Flock would \"almost certainly\" need to lay off staff.",
+    "images": []
+  },
+  {
+    "id": "49ff2d3f9f97abdb",
+    "title": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
+    "link": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-09-19T19:57:47.000Z",
+    "fetchedAt": "2026-09-20T04:01:52.359Z",
+    "snippet": "Trump claimed, without evidence, that the AI backlash is a Democratic hoax.",
+    "images": []
+  },
+  {
+    "id": "6784b3ad6b9c358b",
+    "title": "Houthis claim attacks on Saudi capital, after flames seen near Riyadh airport",
+    "link": "https://www.scmp.com/news/world/middle-east/article/3368131/houthis-claim-attacks-saudi-capital-after-flames-seen-near-riyadh-airport?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-09-19T19:25:25.000Z",
+    "fetchedAt": "2026-09-20T04:01:52.954Z",
+    "snippet": "Yemen’s Houthis said they attacked “sensitive” sites in the Saudi capital Riyadh on Saturday with missiles and drones, hours after flames and a large plume of smoke were seen near the city’s main airport. Saudi Arabia had sent alerts overnight warning of poten",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/20/e4143dd5-070d-4bfb-8c87-0036905f5e4c_d323ae54.jpg?itok=CbadCyEI&v=1789865297"
+    ]
+  },
+  {
+    "id": "7228fe28b3ecdf4c",
+    "title": "Trump says he will create ‘AI Force’, name AI tsar",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3368130/trump-says-he-will-create-ai-force-name-ai-tsar?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-09-19T18:19:19.000Z",
+    "fetchedAt": "2026-09-20T04:01:52.955Z",
+    "snippet": "US President Donald Trump ⁠said in a social media post ⁠on Saturday that he plans to appoint a new artificial intelligence adviser, known as an “AI tsar”, and create an “AI force”, though he did not provide details about either initiative or how they would be ",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/20/4d536184-18e1-41aa-9233-6607381870fb_9dd8ac07.jpg?itok=bY-eMDPH&v=1789841958"
+    ]
+  },
+  {
+    "id": "66a2f39f011bc5e7",
+    "title": "Google’s Gemini is the latest AI model to hack other companies",
+    "link": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-09-19T17:30:00.000Z",
+    "fetchedAt": "2026-09-20T04:01:52.359Z",
+    "snippet": "Google said Gemini had \"acted appropriately\" by ending each hack immediately.",
+    "images": []
+  },
+  {
+    "id": "708a703bae629a9a",
+    "title": "White House bars CNN, MS Now and Politico reporters after Trump ban",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3368128/white-house-bars-cnn-ms-now-and-politico-reporters-after-trump-ban?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-09-19T17:17:45.000Z",
+    "fetchedAt": "2026-09-20T04:01:52.955Z",
+    "snippet": "The White House on Saturday denied access to journalists from CNN, MS Now and Politico, following through with US President Donald Trump’s announcement that he would ban them from the building’s grounds. All three news outlets separately said their teams’ pres",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/20/532b1423-1c83-472f-882d-7c30b56327c8_48b3792f.jpg?itok=y3X6WRKV&v=1789838250"
+    ]
+  },
+  {
     "id": "f927ec9e34ad9234",
     "title": "ChatGPT-6 Astra cracks 108-year-old unsolved WWI German code for the first time — radio message sharing enemy movement intelligence had evaded decoding, 1918 Crimean fleet warning verified against HMS Canterbury logs",
     "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chatgpt-6-astra-cracks-108-year-old-unsolved-wwi-german-code-for-the-first-time-radio-message-sharing-enemy-movement-intelligence-had-evaded-decoding-1918-crimean-fleet-warning-verified-against-hms-canterbury-logs",
@@ -11,7 +161,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/G8KRG6QGgSMerE4dScxCJ9-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/z53fPgXjpKHTpeGv3RHpqj-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "cd9aca920c8db005",
@@ -22,7 +177,12 @@
     "publishedAt": "2026-09-19T15:00:00.000Z",
     "fetchedAt": "2026-09-19T15:35:23.137Z",
     "snippet": "This week two conversations about AI safety went viral that demonstrate just how hard it is to discern AI fact from fiction.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "61043fe18bccd8bf",
@@ -33,7 +193,12 @@
     "publishedAt": "2026-09-19T15:00:00.000Z",
     "fetchedAt": "2026-09-19T15:35:23.138Z",
     "snippet": "Petlibro's new Granary 2 smart feeders use a built-in scale and (on pricier models) an AI camera to track exactly how much your cat is eating and when — though the fanciest health-monitoring features will cost you an extra subscription.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "9614c143d06854e7",
@@ -46,7 +211,12 @@
     "snippet": "Nigeria’s food and drug regulator on Saturday said alcoholic concoctions tainted with methanol killed 48 people and sickened 182 in recent weeks. The deaths occurred in three districts of Nigeria’s southwestern Ondo state after victims consumed the locally bre",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/19/7faab4ca-f496-4e68-9abd-4fce05df44c9_f2cee751.jpg?itok=W804apD0&v=1789827829"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "2fd91d33722e7234",
@@ -59,7 +229,23 @@
     "snippet": "Taobao Instant Commerce, Alibaba’s on-demand delivery service that was revamped last year and is known as Taobao Shangou in Chinese, won a top French Design Award prize on Saturday for its delivery worker uniform, marking the first time the prize was awarded f",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/19/9931999f-1cf7-4b59-80fc-b0f614e31508_ca02b53d.jpg?itok=bX6ARd3c&v=1789831100"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "c28906ed3e7920b5",
+    "title": "Prices go up in 7 days. Get your Disrupt ticket now.",
+    "link": "https://techcrunch.com/2026/09/19/prices-go-up-in-7-days-get-your-disrupt-ticket-now/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-09-19T14:00:00.000Z",
+    "fetchedAt": "2026-09-20T04:01:52.359Z",
+    "snippet": "Current ticket pricing ends Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then..",
+    "images": []
   },
   {
     "id": "4d6e1d2b7f302f98",
@@ -74,7 +260,12 @@
       "https://cdn.mos.cms.futurecdn.net/xoPGXXaxwAt26Y7S88uRwY-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/Wh9EZgD8NG9yUioNNgPB3d-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/VZ8myySPaG2oEhARUtigGP-1920-80.webp"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "debd46992ec83a0a",
@@ -87,7 +278,12 @@
     "snippet": "For the Palestinian relief non-profit behind a US$1 million pledge from rapper Macklemore, the Grammy winner’s latest contributions offer more than just money. Macklemore committed to donate his net earnings from Ed Sheeran’s Loop Tour after he was dropped for",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/19/0ec58993-5646-45f3-9760-188956c5ba94_090107ea.jpg?itok=cBypLHIK&v=1789824122"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "708389bd8cabdf1b",
@@ -98,7 +294,12 @@
     "publishedAt": "2026-09-19T13:00:00.000Z",
     "fetchedAt": "2026-09-19T15:35:23.139Z",
     "snippet": "Vals AI is hoping to make AI benchmarking a more neutral and trustworthy resource in a world increasingly inundated by AI models.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "923d0d09923c5d4f",
@@ -112,7 +313,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/CGefaGP8FPR4FxcGCD3ouZ-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/RZiWuzR4HNRoJJYAbkWDRX-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "3511535b2369f34c",
@@ -125,7 +331,12 @@
     "snippet": "For years, the race to build ever more powerful artificial intelligence followed a well-worn Silicon ⁠Valley principle: move fast and break things. But in a series of cascading events over a 10-day stretch, the largest ⁠AI labs found themselves reeling as thei",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/19/f60649ca-4d9f-40f1-a3c5-27db9074fd59_3fba0182.jpg?itok=z8CFEod1&v=1789818025"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a982f83438d2edd3",
@@ -138,7 +349,12 @@
     "snippet": "If Edison and Stephenson had teamed up to build a gaming PC, it might have looked like this custom copper and wood all-AMD design.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/R3HYp5NQj4sN6PaqkzisVH-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "f817707950318221",
@@ -151,7 +367,12 @@
     "snippet": "Elon Musk's Terafab semiconductor project has run into an unexpected trademark dispute with Tera-print, a small U.S. company that has used the Tera-Fab name for its tabletop lithography equipment for about a decade.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/PoCxHQ8gKEscb2NWQov7wZ-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "8270a2ee759ad7e4",
@@ -165,7 +386,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/CkDCueH65AEMZMenj8tnEF-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/Xh2MupWrRjJPiLLuopmKRB-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "d0c61db7b691c7a5",
@@ -178,7 +404,12 @@
     "snippet": "The United States has approved a potential US$2.68 billion sale of air defence equipment to Ukraine, after Kyiv made repeated pleas for support to fend off Russian attacks. The State Department said in a congressional notification on Friday that it made “a det",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/19/b0af98e2-78eb-4806-8af4-d84c360f55c6_55092604.jpg?itok=3Nc-hnu0&v=1789813314"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "2f6f0c567a2873bb",
@@ -193,7 +424,12 @@
       "https://cdn.mos.cms.futurecdn.net/T9EyGiGW5rcLsnX5TrLx2d-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/BrHb4NbzCGaPa3TEvyd83d-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/GzR6bA6H6SzwbhP4tceF2d-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "0aa5e4633acb1611",
@@ -203,10 +439,15 @@
     "category": "China AI",
     "publishedAt": "2026-09-19T09:30:32.000Z",
     "fetchedAt": "2026-09-19T15:35:23.830Z",
-    "snippet": "For Ali Mohseni, the impact of the ongoing US-Israeli war against Iran is measured not in missile ranges or battlefield maps, but in the insulin pens his 74-year-old mother needs every day. Before the conflict, the Tehran resident said, a five-pack of insulin ",
+    "snippet": "For Ali Mohseni, the impact of the ongoing US-Israeli war against Iran is measured not in missile ranges or battlefield maps, but in the insulin pens his 74-year-old mother needs every day. Before the conflict, the Tehran resident said, a five-pack of insulin",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/19/ab873710-c73a-4550-b60b-7b19c6c69267_f240d755.jpg?itok=rOhLU9CW&v=1789810223"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "0936ae23a517d82b",
@@ -219,7 +460,12 @@
     "snippet": "Huaruizhipu launched Praxis One, a single-SoC physical-AI edge platform on MediaTek Genio Pro 5100 (~106 TOPS NPU) for heavy-duty robots, shown at Hangzhou's China Robot Summit week.",
     "images": [
       "https://cms-image.pandaily.com/1/praxis_one_116f420b65.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "173be7e33de013da",
@@ -232,7 +478,12 @@
     "snippet": "CAS Institute of Semiconductors reports a sliding ferroelectric tunnel junction with TER of 1.9×10^7, ns switching, fJ/bit energy, and 10^11-cycle endurance in a Science-linked study.",
     "images": [
       "https://cms-image.pandaily.com/1/cas_ferroelectric_bdd5a7751f.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "f1c5c33a9bb4d3d1",
@@ -245,7 +496,12 @@
     "snippet": "DAMO RADAR, an open-weight abdominal CT AI from Alibaba DAMO Academy published in Science, flags 146 findings across 18 organs with AUC ~0.913 and expert-level reader-study results.",
     "images": [
       "https://cms-image.pandaily.com/1/damo_radar_15be4bf848.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "ed12682eec96bc4f",
@@ -258,7 +514,12 @@
     "snippet": "SenseTime's SenseNova U1.5 is an 8B Mixture-of-Transformers native unified vision model—no external encoder/VAE—with up to 4K generation and open SFT/RL/distillation training code.",
     "images": [
       "https://cms-image.pandaily.com/1/sensenova_u15_3131e5c30b.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "f8db0ec8c811a0d1",
@@ -271,7 +532,12 @@
     "snippet": "Huawei Cloud will commercialize Ascend 950 Lingqu AI cluster service on Sept. 30 in China and Nov. 30 globally—1,024-card UnifiedBus, ~1 EFLOPS FP8, 256TB unified memory.",
     "images": [
       "https://cms-image.pandaily.com/1/huawei_ascend_950_lingqu_920a368f40.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a7690eb96871565a",
@@ -284,7 +550,12 @@
     "snippet": "The long-time chief executive of the Council of Fashion Designers of America (CFDA) announced he was stepping down, days after he was filmed physically restraining two protesters during an altercation at a New York runway show. “I am enormously proud of what w",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/19/7415a6f2-9ebb-4f02-923e-f40578d3e04e_c07fdd06.jpg?itok=GKP2bUyT&v=1789799683"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "697083c863c393b3",
@@ -297,7 +568,12 @@
     "snippet": "Google’s consumer AI model Gemini hacked multiple systems through guessing login credentials, the company said, the latest case of rogue AI cybersecurity transgressions, which have generated safety concerns. The hacks, first reported by the Wall Street Journal",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/19/4e694c15-94a5-4a2c-ae67-32aa2c5c3510_1a3c2e35.jpg?itok=ZmEYMeN5&v=1789790562"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "1a64679a276437cf",
@@ -488,7 +764,12 @@
       "https://cdn.mos.cms.futurecdn.net/dcSCvUxLUQTpW4vzdCSXUg-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/VdJLbU8WZM3wAXsocNoYzS-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/bsTpoyTM7Bksy8kqnkBzrM-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "35c222316fc9e725",
@@ -5792,245 +6073,6 @@
     "snippet": "The head of Russia’s state nuclear energy corporation ⁠accused Ukraine on ⁠Sunday of attacking diesel fuel trucks, ⁠killing two Russian servicemen and deliberately jeopardising safety at the Russian-held Zaporizhzhia nuclear power plant in Ukraine. Alexei Likh",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/13/eaef52f2-6f94-4f46-b632-833d8da906ae_e84396d7.jpg?itok=odE2qv9z&v=1789285770"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "9f517b3763ea5509",
-    "title": "France apologises for criticising US’ human rights record after backlash",
-    "link": "https://www.scmp.com/news/world/europe/article/3367336/france-apologises-criticising-us-human-rights-record-after-backlash?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-13T05:03:29.000Z",
-    "fetchedAt": "2026-09-13T15:49:04.026Z",
-    "snippet": "The French UN mission said it regretted an online post criticising how the United States voted during a UN General Assembly meeting, with US officials saying on Saturday that Washington appreciated the statement. France’s permanent mission to the UN published",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/13/a318825c-f100-4362-baab-2a12a5a07658_5d498bfd.jpg?itok=QPs52cge&v=1789275803"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "3bcc92f99b2345be",
-    "title": "Build a high-end AMD gaming PC for less — Ryzen 7 9800X3D bundle includes an X870E motherboard, 32GB DDR5, AIO cooler and a game for $1,109.99",
-    "link": "https://www.tomshardware.com/pc-components/build-a-high-end-amd-gaming-pc-for-less-ryzen-7-9800x3d-bundle-includes-an-x870e-motherboard-32gb-ddr5-aio-cooler-and-a-game-for-usd1-109-99",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-09-13T00:42:50.000Z",
-    "fetchedAt": "2026-09-13T03:52:40.737Z",
-    "snippet": "The bundle pairs one of the best gaming CPUs available with a premium X870E motherboard and 32GB of DDR5-6000 memory, while also throwing in a 240mm AIO cooler and a free copy of Onimusha: Way of the Sword.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/67tvAupy9XSB6zmD48aSsa-1280-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/qcQnypsCvnFFmTuVcjUZJ.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c883f82476f477ba",
-    "title": "Houthis hit Saudi base amid renewed fighting with Yemen government forces",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3367329/houthis-hit-saudi-base-after-renewed-fighting-yemen-government-forces?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-12T23:46:28.000Z",
-    "fetchedAt": "2026-09-13T03:52:40.902Z",
-    "snippet": "Houthi fighters on Sunday said they used drones and missiles to attack a military base in southern Saudi Arabia as renewed fighting with Yemen’s government forces forced growing numbers of civilians to flee. The attack at the southern Sharurah base targeted “w",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/13/753b21d3-b22f-47cf-aa0f-42553ba3d915_a3699787.jpg?itok=_wKf0Bkb&v=1789256780"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c2f5b2aec03c7034",
-    "title": "J.D. Vance group courted Brazil’s Flavio Bolsonaro over anti-China rare earth deal: report",
-    "link": "https://www.scmp.com/news/china/diplomacy/article/3367328/jd-vance-network-courted-brazils-flavio-bolsonaro-over-anti-china-mineral-deal-report?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-12T22:55:23.000Z",
-    "fetchedAt": "2026-09-13T03:52:40.902Z",
-    "snippet": "A campaign document belonging to Flavio Bolsonaro, the right-wing front-runner in the presidential election to be held in Brazil next month, offered Washington a rare earths supply chain designed to weaken China’s grip, local news site Amado Mundo reported on",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/13/b64fe5ac-a69b-42a5-bc12-4c3f8026f19a_2c6cdbd6.jpg?itok=w1X7v4eC&v=1789254063"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "0c08e649eb145808",
-    "title": "Celine Dion makes long-awaited return to stage in Paris",
-    "link": "https://www.scmp.com/news/world/europe/article/3367327/celine-dion-makes-long-awaited-return-stage-paris?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-12T22:05:19.000Z",
-    "fetchedAt": "2026-09-13T03:52:40.902Z",
-    "snippet": "Celine Dion wept tears of joy on Saturday as she fulfilled her dream of returning to the stage after years battling a rare neurological disorder, with a sell-out concert in Paris. The 58-year-old French-Canadian singer appeared visibly moved as she opened her",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/13/907fc4b1-67eb-4a38-9f42-dd9528d9c8f8_c042a382.jpg?itok=LENoETe2&v=1789250710"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "846c6ad0e089ad31",
-    "title": "OpenAI’s Sam Altman says it would be &#8216;ill-advised’ to go public in 2026",
-    "link": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-12T20:19:16.000Z",
-    "fetchedAt": "2026-09-13T03:52:40.460Z",
-    "snippet": "While OpenAI has filed confidentially for an IPO, the company will not be going public this year, according to CEO Sam Altman.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "800a3ec4de325b72",
-    "title": "Anthropic CEO outlines plan to slow AI development",
-    "link": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-12T19:34:44.000Z",
-    "fetchedAt": "2026-09-13T03:52:40.460Z",
-    "snippet": "Anthropic's Dario Amodei and OpenAI's Sam Altman seem to agree that it's time to \"pace the frontier.\" What would that actually look like?",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c098f22d017a0945",
-    "title": "Anthropic boss Amodei calls for AI slowdown, Altman and Musk agree",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3367325/anthropic-boss-calls-ai-slowdown-after-researchers-superintelligence-warning?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-12T16:57:09.000Z",
-    "fetchedAt": "2026-09-13T03:52:40.902Z",
-    "snippet": "Anthropic CEO Dario Amodei on Saturday called on artificial intelligence firms to slow down the development of the powerful technology, amid mounting worries over the risks of “superintelligent” computer systems. His comments came a few days after AI researche",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/13/020caac2-079a-4b73-8f29-1e4f5b6dc85d_a64f183c.jpg?itok=4GyN9BXp&v=1789232225"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c45bb3b217498d3d",
-    "title": "Bulgaria probes explosion at weapon storage site",
-    "link": "https://www.scmp.com/news/world/europe/article/3367324/bulgaria-probes-explosion-weapon-storage-site?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-12T15:23:58.000Z",
-    "fetchedAt": "2026-09-13T03:52:40.902Z",
-    "snippet": "Bulgaria is investigating the cause of a fire at a weapons storage facility operated by EMCO, including the possibility of sabotage and a link to a previous blaze at another of the company’s facilities in August, the interior minister said. No ‌injuries were r",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/13/34742f51-3731-4476-8a45-c0bd3766a677_24604397.jpg?itok=oC36BrXg&v=1789228943"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "a25d87ddc579259b",
-    "title": "Iran and Houthi rebels used Anthropic's Claude AI to target US warships and build hypersonic missiles — Houthi rebels also used the bot to code ballistic missile guidance systems",
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/iran-and-houthi-rebels-used-anthropics-claude-ai-to-target-us-warships-and-build-hypersonic-missiles-houthi-rebels-also-used-the-bot-to-code-ballistic-missile-guidance-systems",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-09-12T15:03:10.000Z",
-    "fetchedAt": "2026-09-12T15:13:16.744Z",
-    "snippet": "'Great Satan's' AI comes in handy.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/jNaH2yBJasgYEJyKmaCjMB-1280-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Wh9EZgD8NG9yUioNNgPB3d.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "de251f1396b87259",
-    "title": "Farage’s Reform UK gets second record £36 million donation in 48 hours",
-    "link": "https://www.scmp.com/news/world/europe/article/3367321/farages-reform-uk-gets-second-record-ps36-million-donation-48-hours?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-12T14:24:25.000Z",
-    "fetchedAt": "2026-09-12T15:13:17.062Z",
-    "snippet": "Cryptocurrency billionaire Christopher Harborne said on Saturday he had donated £36 million (US$49 million) to Britain’s anti-immigration Reform UK, matching an already record contribution to Nigel Farage’s party a day earlier as it prepares for the next elect",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/12/25794f00-189d-4bb1-a229-f8a2f325b574_4ff6b25c.jpg?itok=yKR9gDvt&v=1789223064"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "611d653ce2bd79c4",
-    "title": "We tested unofficial DLSS Multi Frame Generation support on RTX 40-series GPUs — new mod brings RTX 50-series exclusive feature to older cards, and it really works",
-    "link": "https://www.tomshardware.com/pc-components/gpus/we-tested-dlss-multi-frame-generation-on-rtx-40-series-gpus-new-mod-brings-rtx-50-series-exclusive-feature-to-older-cards-and-it-really-works",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-09-12T14:08:19.000Z",
-    "fetchedAt": "2026-09-12T15:13:16.744Z",
-    "snippet": "We tested DLSS Multi Frame Generation on RTX 40-series GPUs.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/Fo7xNWht4SGgq8HghfUkRB-1280-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/o9Mk5eCEAxkB2PoCziUcT9.png",
-      "https://cdn.mos.cms.futurecdn.net/HmvoG94QKyFZZN2KaXLnR9.png",
-      "https://cdn.mos.cms.futurecdn.net/kgBMsxPaUjNJyNFyRYaqT9.png",
-      "https://cdn.mos.cms.futurecdn.net/HLnHBr5iikUSgmSrFb6ES9.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "a5e4610cefa8920d",
-    "title": "This week on Tom's Hardware Premium: September 12, 2026 — Benchmarking Qwen 3.8, the splintered compute economy and AI breakthroughs",
-    "link": "https://www.tomshardware.com/tech-industry/this-week-on-toms-hardware-premium-september-12-2026-benchmarking-qwen-3-8-the-splintered-compute-economy-and-ai-breakthroughs",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-09-12T12:00:00.000Z",
-    "fetchedAt": "2026-09-12T15:13:16.745Z",
-    "snippet": "This week on Tom's Hardware Premium, we benchmarked Qwen 3.8 on a slew of different hardware, ruminated on the state of modern computing after returning from IFA 2026, and broke down everything",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/rv3TmHCRKSC88LPgX8EfMM-1280-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/FVMEqtx3iRVzeTdV4SCpYM.jpg",
-      "https://cdn.mos.cms.futurecdn.net/EShUFRYvQymkz8TpGgkXVA.jpg",
-      "https://cdn.mos.cms.futurecdn.net/RZiWuzR4HNRoJJYAbkWDRX.png"
     ],
     "titleZh": "",
     "snippetZh": "",
