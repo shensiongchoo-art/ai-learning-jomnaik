@@ -1,5 +1,142 @@
 [
   {
+    "id": "f31f65df8e0934af",
+    "title": "Pope celebrates giant Paris mass in landmark visit",
+    "link": "https://www.scmp.com/news/world/europe/article/3368916/pope-celebrates-giant-paris-mass-landmark-visit?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-09-26T15:15:59.000Z",
+    "fetchedAt": "2026-09-26T16:01:05.458Z",
+    "snippet": "Pope Leo on Saturday celebrated an open-air mass in front of hundreds of thousands of faithful in Paris after riding in the Popemobile along the iconic Champs Elysees to the cheers of huge crowds clutching French and Vatican flags. The leader of the world’s 1.",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/26/005b3972-e0c4-47b5-8249-33f3701e0262_7557c08b.jpg?itok=Lm7SDcCf&v=1790435752"
+    ]
+  },
+  {
+    "id": "7ba8d47263752b58",
+    "title": "Russia bombs Ukrainian data centers in latest escalation",
+    "link": "https://www.tomshardware.com/tech-industry/data-centers/russia-bombs-ukrainian-data-centers-in-latest-escalation-100-000-households-lose-connectivity-as-firms-migrate-data-abroad-zelensky-says-ordinary-life-is-simply-a-target",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-09-26T14:30:59.000Z",
+    "fetchedAt": "2026-09-26T16:01:05.244Z",
+    "snippet": "Russia has begun targeting data centers and internet infrastructure in its latest attacks, disrupting critical services for Ukrainian civilians. The attacks have left 100,000 households in the area without an internet connection, although a senior government o",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/jvNpySMomasxTLjHHURLRV-1920-80.png"
+    ]
+  },
+  {
+    "id": "243314157677f78f",
+    "title": "I created an interactive digital avatar of myself — and you can talk to it",
+    "link": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-09-26T14:00:00.000Z",
+    "fetchedAt": "2026-09-26T16:01:04.815Z",
+    "snippet": "After obtaining an interactive avatar and training it to discuss venture fraud, I have mixed feelings about making AI clones of ourselves.",
+    "images": []
+  },
+  {
+    "id": "0709dd27e43c11d0",
+    "title": "Microsoft quietly drops Copilot+ branding from new laptops",
+    "link": "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-quietly-drops-copilot-branding-from-its-new-laptops-surface-cvp-confirms-new-devices-meet-hardware-requirements-but-lack-controversial-branding",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-09-26T14:00:00.000Z",
+    "fetchedAt": "2026-09-26T16:01:05.244Z",
+    "snippet": "Microsoft's latest Surface laptops dropped the Copilot+ PC branding despite hitting the minimum requirements. Even high-end AI devices like the Nvidia RTX Spark and Microsoft's own Project Zenith are noticeably missing the label.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/v2uUzE5t6r2NM3ndNX2jdU-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "a52b2ed27bcc0287",
+    "title": "Nvidia patents AI chatbot to streamline PC game optimization",
+    "link": "https://www.tomshardware.com/video-games/pc-gaming/an-nvidia-chatbot-could-one-day-help-developers-better-optimize-their-games-patent-filing-show-requests-can-be-made-in-plain-english",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-09-26T13:00:00.000Z",
+    "fetchedAt": "2026-09-26T16:01:05.244Z",
+    "snippet": "An Nvidia patent suggests the company could push developers to use a new chatbot as a way to get guidance on how to optimize their new games before release.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/mSegjyKT4pHoDKsKQkQa9j-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Ff8qW7gTwUZFZmPvceeLFd-1920-80.png"
+    ]
+  },
+  {
+    "id": "e8a73d9c96ef0af7",
+    "title": "Nvidia’s RTX Mega Geometry 2.0 streams ray-tracing geometry into VRAM on demand",
+    "link": "https://www.tomshardware.com/pc-components/gpus/nvidias-rtx-mega-geometry-2-0-streams-ray-tracing-geometry-into-vram-on-demand-nanite-inspired-design-drops-detail-instead-of-dropping-out",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-09-26T12:30:00.000Z",
+    "fetchedAt": "2026-09-26T16:01:05.245Z",
+    "snippet": "Nvidia’s RTX Mega Geometry 2.0 SDK arrives alongside RTX Kit 2026.3 with on-demand ray-tracing geometry streaming.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/f5mw94jS8GbvM99nu2SUWa-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/Wh9EZgD8NG9yUioNNgPB3d-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/d5DHfWRfqvqn9dbRijNRMf-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/eUQBtktfpjC5yrUSC5gaWf-1920-80.png"
+    ]
+  },
+  {
+    "id": "2168f84b64a346e7",
+    "title": "PNY allegedly refuses to cover melted RTX 5090 powered by native power supply cable",
+    "link": "https://www.tomshardware.com/pc-components/gpus/pny-allegedly-refuses-to-cover-melted-rtx-5090-powered-by-native-power-supply-cable-company-closes-users-ticket-when-questioned-on-policy",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-09-26T11:30:00.000Z",
+    "fetchedAt": "2026-09-26T16:01:05.246Z",
+    "snippet": "A user's GeForce RTX 5090 died when his 12V-2x6 connector melted, and then PNY denied his warranty claim based on technicalities that aren't even present in the warranty policy.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/D5MzbvWLsfcMUe2FerXaWc-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/cyVJsn4dPgBeawRv5HobKN-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/USK2jt3r799ywExES84kU7-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "6a0853d7f96d7214",
+    "title": "Enthusiast cooled iPhone 18 Pro with cold can of La Croix sparkling water; benchmarks show 25% higher sustained performance",
+    "link": "https://www.tomshardware.com/pc-components/liquid-cooling/enthusiast-cooled-iphone-18-pro-with-cold-can-of-la-croix-sparkling-water-benchmarks-show-25-percent-higher-sustained-performance-liquid-cooling-surprisingly-reduced-thermal-throttling",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-09-26T11:00:00.000Z",
+    "fetchedAt": "2026-09-26T16:01:05.246Z",
+    "snippet": "Matt Birchler put a cold drink can on the back of an iPhone 18 Pro to see how much performance uplift it would get in a prolonged benchmarking session. The results showed up to 25% higher sustained performance from the cold drink, showing the effectiveness of ",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/NovMGthx7NqEKqURa29ArU-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/qNVeLxXbhUYDeUaBVDuGPf-1920-80.png"
+    ]
+  },
+  {
+    "id": "d211dd19a37c56fc",
+    "title": "6 dead after explosion destroys building in Athens",
+    "link": "https://www.scmp.com/news/world/europe/article/3368903/2-dead-4-missing-after-explosion-destroys-building-athens?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-09-26T10:15:11.000Z",
+    "fetchedAt": "2026-09-26T16:01:05.458Z",
+    "snippet": "Six people have died, the Greek fire brigade said on Saturday, after a two-storey residential building ‌in a tourist area of central Athens collapsed following an explosion which the capital’s mayor said was likely linked to gas infrastructure. Emergency crews",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/26/f267b184-f72d-4984-92f1-6bf5a92a431a_f1383424.jpg?itok=NCoMIH21&v=1790417708"
+    ]
+  },
+  {
+    "id": "6508a81bfe3ef3cc",
+    "title": "Why Pakistan’s endless war on militants fails to break the cycle",
+    "link": "https://www.scmp.com/week-asia/politics/article/3368825/why-pakistans-endless-war-militants-fails-break-cycle?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-09-26T05:00:17.000Z",
+    "fetchedAt": "2026-09-26T16:01:05.458Z",
+    "snippet": "For over two decades, Pakistan has waged countless counterterrorism campaigns against Taliban and Baloch insurgents in its western regions bordering Afghanistan and Iran, yet remains mired in a cycle of violence it cannot break. Scores of soldiers, policemen a",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/25/2768b6d9-c895-4df5-8172-e08f20b1aad4_d7950812.jpg?itok=P4lAkP2_&v=1790331431"
+    ]
+  },
+  {
     "id": "98b55f2f9f2460cd",
     "title": "‘Never too late’: Filipino domestic helpers pursue degree dreams they put on hold",
     "link": "https://www.scmp.com/news/hong-kong/education/article/3368867/never-too-late-filipino-domestic-helpers-pursue-degree-dreams-they-put-hold?utm_source=rss_feed",
@@ -10,7 +147,12 @@
     "snippet": "When Dyan Agonoy left the Philippines to work as a domestic helper in Hong Kong, she had to leave her family behind. “I’ve missed a lot of my kids’ milestones, our special occasions. I’m always the only one missing from the pictures,” she said. Agonoy left uni",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/26/ed4f041a-d246-411a-a630-871392415bd0_713e3990.jpg?itok=A9jm8nRS&v=1790355683"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "4addb668e66a4d93",
@@ -21,7 +163,12 @@
     "publishedAt": "2026-09-26T01:08:57.000Z",
     "fetchedAt": "2026-09-26T04:08:30.935Z",
     "snippet": "The company behind Facebook and Instagram wants to keep consumers connected to the digital world via its ever-growing line of smart glasses.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e6285378d566e95e",
@@ -34,7 +181,12 @@
     "snippet": "As Chinese leader Xi Jinping and US President Donald Trump wrapped up their three-day state visit on Friday, a stark contrast in the two presidential couples’ hand-holding dynamics was on display, body language experts said. The exchanges between Xi and his wi",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/26/aebf6794-e86d-49a8-b352-ac9a1182e88f_e55173be.jpg?itok=5U2vIO6i&v=1790378985"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "40b4a29deb9a8bf1",
@@ -45,7 +197,12 @@
     "publishedAt": "2026-09-25T23:11:10.000Z",
     "fetchedAt": "2026-09-26T04:08:30.936Z",
     "snippet": "Boom Supersonic CEO Blake Scholl said the company's new stationary power plants were no longer in Crusoe's near-term plans.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "7cbbcf06d358b323",
@@ -56,7 +213,12 @@
     "publishedAt": "2026-09-25T22:20:47.000Z",
     "fetchedAt": "2026-09-26T04:08:30.936Z",
     "snippet": "AI agents operating in OpenAI's research environment posted user images on public image-hosting sites without the lab's knowledge.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "45f4131fb9d3c615",
@@ -66,6 +228,25 @@
     "category": "US & Global AI",
     "publishedAt": "2026-09-25T21:36:20.000Z",
     "fetchedAt": "2026-09-26T04:08:31.240Z",
+    "snippet": "\"Overly constrained AI models\" could cause military operations to fail, judges say.",
+    "images": [
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-1152x648.jpg",
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-500x500-1773164045.jpg"
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "fd42b78192842049",
+    "title": "Court rules Pentagon can blacklist Anthropic for refusing to enable Claude features",
+    "link": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
+    "source": "Ars Technica AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-09-25T21:36:20.000Z",
+    "fetchedAt": "2026-09-26T16:01:04.805Z",
     "snippet": "\"Overly constrained AI models\" could cause military operations to fail, judges say.",
     "images": [
       "https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-1152x648.jpg",
@@ -84,7 +265,12 @@
     "images": [
       "https://cdn.arstechnica.net/wp-content/uploads/2026/09/Tesla-Optimus-V3-humanoid-robot-1152x648.jpg",
       "https://cdn.arstechnica.net/wp-content/uploads/2026/09/Tesla-Optimus-V3-humanoid-robot-500x500.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "4a3dece6001cf655",
@@ -97,7 +283,12 @@
     "snippet": "Iran’s Foreign Minister Abbas Araghchi said on Friday that Tehran had offered Washington a plan that would see the Strait of Hormuz reopened to maritime navigation within seven days once agreed. Araghchi met with US President Donald Trump’s envoy Steve Witkoff",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/26/6d44b89b-a748-482c-9bbd-4b57affe36d8_ec959add.jpg?itok=KwgBPBlF&v=1790370202"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "b9353cfd7c86cd35",
@@ -108,7 +299,12 @@
     "publishedAt": "2026-09-25T20:34:53.000Z",
     "fetchedAt": "2026-09-26T04:08:30.936Z",
     "snippet": "Anyone interested in joining has to ask Muse to put them on the list.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "d5c29174f370800d",
@@ -119,7 +315,12 @@
     "publishedAt": "2026-09-25T19:13:38.000Z",
     "fetchedAt": "2026-09-26T04:08:30.937Z",
     "snippet": "Anthropic has committed $11.6 billion over seven years to Akamai's cloud infrastructure, a bet on CPUs that could grow to about $20 billion, and in an unusual arrangement, Akamai is giving Anthropic a potential stake of up to 5% of its stock that grows as Anth",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "af773a8c08343bc1",
@@ -133,7 +334,12 @@
     "images": [
       "https://cdn.arstechnica.net/wp-content/uploads/2026/09/graduates-1152x648.jpg",
       "https://cdn.arstechnica.net/wp-content/uploads/2026/09/graduates-500x500-1790363419.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c0b4aaf529c6e574",
@@ -144,7 +350,12 @@
     "publishedAt": "2026-09-25T18:48:33.000Z",
     "fetchedAt": "2026-09-26T04:08:30.937Z",
     "snippet": "Mark Wahlberg joins Bruce K. Lee at Disrupt to discuss investing, entrepreneurship, healthcare, wellness, and building businesses.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a1eacd145361c2bc",
@@ -155,7 +366,12 @@
     "publishedAt": "2026-09-25T18:33:59.000Z",
     "fetchedAt": "2026-09-26T04:08:30.937Z",
     "snippet": "The funding, which comes from Third Point, Nvidia, and others, will fuel the company's massive AI data center buildout.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "42cc90bcd76947bd",
@@ -166,7 +382,12 @@
     "publishedAt": "2026-09-25T18:22:47.000Z",
     "fetchedAt": "2026-09-26T04:08:30.937Z",
     "snippet": "When AI leaders at OpenAI and Anthropic started talking about “pacing the frontier,”&#160;maybe someone&#160;should have asked: what pace?&#160;Now&#160;it’s&#160;turned into model drop week for both companies as&#160;Anthropic rolled out Opus 5.5, followed by",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a57bb462e35c1ef5",
@@ -180,7 +401,12 @@
     "images": [
       "https://cdn.arstechnica.net/wp-content/uploads/2025/11/microsoft-copilot-windows-1024x648.jpg",
       "https://cdn.arstechnica.net/wp-content/uploads/2025/11/microsoft-copilot-windows-500x500-1763511853.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "06285484046c79eb",
@@ -191,7 +417,12 @@
     "publishedAt": "2026-09-25T17:29:46.000Z",
     "fetchedAt": "2026-09-26T04:08:30.937Z",
     "snippet": "The findings highlight how AI-generated and vibe-coded apps can spill and expose users' data when not configured or secured properly.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "4e23a9d82cb2c95b",
@@ -202,7 +433,12 @@
     "publishedAt": "2026-09-25T17:24:36.000Z",
     "fetchedAt": "2026-09-26T04:08:30.937Z",
     "snippet": "Frontier AI models are finishing Alan Turing's World War II codebreaking work.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "ba1eca0a00292cd8",
@@ -212,10 +448,15 @@
     "category": "China AI",
     "publishedAt": "2026-09-25T17:09:32.000Z",
     "fetchedAt": "2026-09-26T04:08:31.462Z",
-    "snippet": "China is poised to decide which of two Latin American women becomes the first to lead the United Nations, after three rounds of informal voting in the Security Council failed to produce a favourite. Several UN delegations that spoke to the South China Morning ",
+    "snippet": "China is poised to decide which of two Latin American women becomes the first to lead the United Nations, after three rounds of informal voting in the Security Council failed to produce a favourite. Several UN delegations that spoke to the South China Morning",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/26/8771fc58-b0d9-4b0e-ab05-e18bdcfdccb2_67bc2662.jpg?itok=jKNzWChT&v=1790356170"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a65ba6bcdd6e3cb0",
@@ -228,7 +469,12 @@
     "snippet": "US television networks resumed coverage of President Donald Trump’s White House events on Friday, providing the first live pool access for Chinese President Xi Jinping’s visit, as a legal battle continues over restrictions on CNN, MS Now and Politico. Trump la",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/26/a67665dd-2bd9-4efa-9c43-e7cf76b2347a_3ab295c5.jpg?itok=i0kfz9f7&v=1790356059"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "1bcd46ae4ddfec4d",
@@ -428,7 +674,12 @@
     "snippet": "This live article is freely available to our registered users. Please log in or create an account. Unrivalled Xi-Trump summit analysis: get real-time updates and exclusive boots-on-the-ground reporting from our US and China bureaus all year round. Subscribe no",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/26/06f06b2b-9717-43b1-99d1-061023691a5a_c3a309c1.jpg?itok=KhxfKEwY&v=1790353795"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "322ccf3812beb223",
@@ -5819,196 +6070,6 @@
     "images": [
       "https://cms-image.pandaily.com/1/sensenova_u15_3131e5c30b.png"
     ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "f8db0ec8c811a0d1",
-    "title": "Huawei Cloud Sets Ascend 950 Lingqu Cluster Commercial Dates for China and Global Markets",
-    "link": "https://pandaily.com/huawei-cloud-ascend-950-lingqu-cluster-commercial-dates",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-09-19T08:09:16.000Z",
-    "fetchedAt": "2026-09-19T15:35:23.221Z",
-    "snippet": "Huawei Cloud will commercialize Ascend 950 Lingqu AI cluster service on Sept. 30 in China and Nov. 30 globally—1,024-card UnifiedBus, ~1 EFLOPS FP8, 256TB unified memory.",
-    "images": [
-      "https://cms-image.pandaily.com/1/huawei_ascend_950_lingqu_920a368f40.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "a7690eb96871565a",
-    "title": "New York fashion chief quits after physical clash with Peta activists goes viral",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3368095/new-york-fashion-chief-quits-after-physical-clash-peta-activists-goes-viral?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-19T06:34:56.000Z",
-    "fetchedAt": "2026-09-19T15:35:23.830Z",
-    "snippet": "The long-time chief executive of the Council of Fashion Designers of America (CFDA) announced he was stepping down, days after he was filmed physically restraining two protesters during an altercation at a New York runway show. “I am enormously proud of what w",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/19/7415a6f2-9ebb-4f02-923e-f40578d3e04e_c07fdd06.jpg?itok=GKP2bUyT&v=1789799683"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "697083c863c393b3",
-    "title": "Google says Gemini AI model breached real systems in security test",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3368090/google-says-gemini-ai-model-breached-real-systems-security-test?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-19T04:02:58.000Z",
-    "fetchedAt": "2026-09-19T15:35:23.830Z",
-    "snippet": "Google’s consumer AI model Gemini hacked multiple systems through guessing login credentials, the company said, the latest case of rogue AI cybersecurity transgressions, which have generated safety concerns. The hacks, first reported by the Wall Street Journal",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/19/4e694c15-94a5-4a2c-ae67-32aa2c5c3510_1a3c2e35.jpg?itok=ZmEYMeN5&v=1789790562"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "1a64679a276437cf",
-    "title": "CATL Targets 2027 Small-Batch All-Solid-State Battery Production",
-    "link": "https://pandaily.com/catl-2027-all-solid-state-small-batch",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-09-19T02:23:10.000Z",
-    "fetchedAt": "2026-09-19T03:45:51.844Z",
-    "snippet": "CATL aims for small-batch all-solid-state battery production in 2027 while current cells sit near TRL-4; the milestone is pilot manufacturing, not mass vehicle adoption before 2030.",
-    "images": [
-      "https://cms-image.pandaily.com/1/catl_solid_state_fe5363eef2.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "23f0534200b47041",
-    "title": "OPPO ColorOS 17 Adds On-Device Linear-Attention Model and Persona X Agents",
-    "link": "https://pandaily.com/coloros-17-on-device-linear-attention-persona-x",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-09-19T02:22:35.000Z",
-    "fetchedAt": "2026-09-19T03:45:51.844Z",
-    "snippet": "At ODC 2026, OPPO unveiled ColorOS 17 with an on-device Linear Attention model (128K context, lower memory and energy), Persona X memory engine, and Agent Matrix upgrades for Breeno.",
-    "images": [
-      "https://cms-image.pandaily.com/1/coloros_17_8521389d7c.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "40223167a631308a",
-    "title": "Alibaba Ships Qwen3.8-Omni-Flash Native Omnimodal Model With 1M Context",
-    "link": "https://pandaily.com/qwen3-8-omni-flash-native-omni-model",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-09-19T02:22:05.000Z",
-    "fetchedAt": "2026-09-19T03:45:51.844Z",
-    "snippet": "Alibaba's Qwen team launched Qwen3.8-Omni-Flash, a native text/image/audio/video model with 1M context, ~26% average gains vs Omni-Plus, open Qwen-Live Harness, and steep API audio price cuts.",
-    "images": [
-      "https://cms-image.pandaily.com/1/qwen_omni_flash_a4f33e982d.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "7c12ff3fd7cdf313",
-    "title": "India forces caller-ID apps to feed spam reports to telcos",
-    "link": "https://techcrunch.com/2026/09/18/india-forces-caller-id-apps-to-feed-spam-reports-to-telcos/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-19T01:00:00.000Z",
-    "fetchedAt": "2026-09-19T03:45:51.698Z",
-    "snippet": "Truecaller says the one-way sharing requirement would hand a commercially valuable proprietary asset to telecom operators.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "f6069ce9949b0ad4",
-    "title": "Tilly Norwood’s press tour is going about as well as you’d expect for an AI",
-    "link": "https://techcrunch.com/2026/09/18/tilly-norwoods-press-tour-is-going-about-as-well-as-youd-expect-for-an-ai/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-19T00:12:07.000Z",
-    "fetchedAt": "2026-09-19T03:45:51.699Z",
-    "snippet": "In one particularly odd interview, Norwood seems to malfunction and begin speaking Chinese.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "60fdc979616451b4",
-    "title": "Sikh trucker stabbed in Wyoming, stirring fresh fears in US community",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3368080/sikh-trucker-stabbed-wyoming-stirring-fresh-fears-community?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-18T23:47:57.000Z",
-    "fetchedAt": "2026-09-19T03:45:52.360Z",
-    "snippet": "The stabbing of a truck driver at a remote Wyoming rest stop had US Sikhs on edge on Friday amid rising anti-immigrant vitriol against the community and its truck drivers in particular. The Sikh victim was attacked from behind early Sunday while in a restroom",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/19/be49b9ee-2cd2-47c2-bbfd-844dd31cb549_5974f3c6.jpg?itok=ZqAk6oKe&v=1789775263"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "ab2374fd71918223",
-    "title": "A startup that builds other startups raised $100M and is all-in on physical AI",
-    "link": "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-18T23:25:01.000Z",
-    "fetchedAt": "2026-09-19T03:45:51.699Z",
-    "snippet": "UP.Labs, now doing business under the name Vantora, is building startups for industrial corporations.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "15f72b1d21e10f3c",
-    "title": "Anthropic is operating a lab that conducts biology experiments",
-    "link": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-18T23:13:31.000Z",
-    "fetchedAt": "2026-09-19T03:45:51.699Z",
-    "snippet": "AI leaders have been promising that AI is the key to curing human disease. Anthropic researchers have also been warning that AI might kill us all.",
-    "images": [],
     "titleZh": "",
     "snippetZh": "",
     "translatedAt": "",
