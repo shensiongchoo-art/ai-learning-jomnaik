@@ -1,5 +1,293 @@
 [
   {
+    "id": "aa9381c6447fea5d",
+    "title": "StepFun Step 5 Preview: ~600B MoE Long-Horizon Agent; Open Weights Due Oct 15",
+    "link": "https://pandaily.com/stepfun-step-5-preview-600b-moe-1m-context-open-weights-oct-15",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-09-28T04:05:16.000Z",
+    "fetchedAt": "2026-09-28T04:22:59.978Z",
+    "snippet": "StepFun launched Step 5 Preview on September 20, 2026: a ~600B sparse MoE (~27B active) with 1M context for long-horizon agents, API live now and BF16 open weights planned for October 15.",
+    "images": [
+      "https://cms-image.pandaily.com/1/stepfun_step_5_preview_fb21e00e03.png"
+    ]
+  },
+  {
+    "id": "ba03ee02165b1f9b",
+    "title": "Tencent Marvis Becomes AI Butler Team: PC, File, Browser and Software Agents",
+    "link": "https://pandaily.com/tencent-marvis-ai-butler-pc-file-browser-software-agents",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-09-28T04:04:40.000Z",
+    "fetchedAt": "2026-09-28T04:22:59.978Z",
+    "snippet": "Tencent upgraded Marvis from AI assistant to AI butler around four agents—PC, file, browser and software—citing about 92% PC-task completion and planned user-built butler skills.",
+    "images": [
+      "https://cms-image.pandaily.com/1/tencent_marvis_ai_butler_c966373448.png"
+    ]
+  },
+  {
+    "id": "6bb7ca94fef122c3",
+    "title": "NaiveAI Open-Weights Naive-N0.5-Flash: 309B MoE, Hybrid SWA–DSA 1M Context, MIT",
+    "link": "https://pandaily.com/naiveai-naive-n05-flash-309b-moe-swa-dsa-1m-mit",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-09-28T04:04:05.000Z",
+    "fetchedAt": "2026-09-28T04:22:59.978Z",
+    "snippet": "NaiveAI released Naive-N0.5-Flash as MIT open weights: a 309B MoE with 15.5B active, hybrid SWA–DSA native 1M context for coding and AI R&D, built on MiMo-V2.5 without full-attention layers.",
+    "images": [
+      "https://cms-image.pandaily.com/1/naiveai_naive_n05_flash_8b87813d41.png"
+    ]
+  },
+  {
+    "id": "9d6fd52c2348a3e5",
+    "title": "MiniMax Puts M3.1-Flash-Preview Coding Model Live Inside MiniMax Code",
+    "link": "https://pandaily.com/minimax-m3-1-flash-preview-coding-model-minimax-code",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-09-28T04:03:29.000Z",
+    "fetchedAt": "2026-09-28T04:22:59.978Z",
+    "snippet": "On September 27, 2026 MiniMax confirmed M3.1-Flash-Preview inside MiniMax Code for everyday coding work, with a five-level reasoning resource slider and no full public model card this round.",
+    "images": [
+      "https://cms-image.pandaily.com/1/minimax_m3_1_flash_preview_7b2a720077.png"
+    ]
+  },
+  {
+    "id": "22fb847cc850d741",
+    "title": "Meituan Ships LongCat-2.5-Preview: 1.6T MoE Multimodal Agent Model With 1M Context",
+    "link": "https://pandaily.com/meituan-longcat-2-5-preview-1-6t-moe-multimodal-agent-1m-context",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-09-28T04:02:53.000Z",
+    "fetchedAt": "2026-09-28T04:22:59.979Z",
+    "snippet": "Meituan launched LongCat-2.5-Preview on September 25, 2026: a 1.6T MoE (~48B active) with native 1M-token multimodal context aimed at long-horizon software agents, without publishing benchmarks this round.",
+    "images": [
+      "https://cms-image.pandaily.com/1/meituan_longcat_2_5_preview_4e29539c47.png"
+    ]
+  },
+  {
+    "id": "f22ae87d3f39ef1a",
+    "title": "Bringing AI to Autonomous Systems -- From Cognition to Collective Intelligence",
+    "link": "https://arxiv.org/abs/2609.30291",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-09-28T04:00:00.000Z",
+    "fetchedAt": "2026-09-28T04:23:00.232Z",
+    "snippet": "arXiv:2609.30291v1 Announce Type: new Abstract: The purpose of this article is to highlight the central role of autonomous systems as the ultimate stage in the development of AI, to explain the underlying technical challenges that require a combination of conn",
+    "images": []
+  },
+  {
+    "id": "2515b882d5130e0a",
+    "title": "ScopeBench: Do Agents Preserve Engagement Boundaries Under Goal Pressure?",
+    "link": "https://arxiv.org/abs/2609.30325",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-09-28T04:00:00.000Z",
+    "fetchedAt": "2026-09-28T04:23:00.232Z",
+    "snippet": "arXiv:2609.30325v1 Announce Type: new Abstract: Agents are increasingly deployed with real autonomy in web application and network penetration testing, where a single out-of-scope action can breach a client's engagement boundary. Existing offensive-security be",
+    "images": []
+  },
+  {
+    "id": "f5119e9f4e23cf3d",
+    "title": "When Is a Multi-Agent Code Judge Actually Grounded? Two Label-Free Measurements, and a Judge That Declines to Guess",
+    "link": "https://arxiv.org/abs/2609.30328",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-09-28T04:00:00.000Z",
+    "fetchedAt": "2026-09-28T04:23:00.232Z",
+    "snippet": "arXiv:2609.30328v1 Announce Type: new Abstract: When one language model judges whether another's code is correct, it does not report the absence of evidence. It returns a confident verdict with reasoning attached, indistinguishable from a verdict it had ground",
+    "images": []
+  },
+  {
+    "id": "16d134d45547141f",
+    "title": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
+    "link": "https://arxiv.org/abs/2609.30341",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-09-28T04:00:00.000Z",
+    "fetchedAt": "2026-09-28T04:23:00.232Z",
+    "snippet": "arXiv:2609.30341v1 Announce Type: new Abstract: Data Spaces enable sovereign and governed data sharing across organizational boundaries, but their integration with AI agents remains challenging due to mismatches between probabilistic language model interaction",
+    "images": []
+  },
+  {
+    "id": "99f39df7922d29b2",
+    "title": "Stealth Apart, Harm Together: Skill Cascading Attacks on Skill-Based Agent Systems",
+    "link": "https://arxiv.org/abs/2609.30383",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-09-28T04:00:00.000Z",
+    "fetchedAt": "2026-09-28T04:23:00.232Z",
+    "snippet": "arXiv:2609.30383v1 Announce Type: new Abstract: A skill is a modular package of natural-language instructions, executable scripts, and reference resources that an agent can load at runtime to extend its capabilities for a specific task. Skill-based agent syste",
+    "images": []
+  },
+  {
+    "id": "abc35bfb2b61d4df",
+    "title": "A Synthetic Ground-Truth Framework for the Evaluation of Explainable AI Methods",
+    "link": "https://arxiv.org/abs/2609.30397",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-09-28T04:00:00.000Z",
+    "fetchedAt": "2026-09-28T04:23:00.232Z",
+    "snippet": "arXiv:2609.30397v1 Announce Type: new Abstract: Evaluating explainable Artificial Intelligence (XAI) methods is a challenging task due to the lack of reliable evaluation procedures and, in particular, the absence of ground truth explanations. In the literature",
+    "images": []
+  },
+  {
+    "id": "50cc77f8e70c8baf",
+    "title": "Predicting Transmembrane Protein Topology from 3D Structure",
+    "link": "https://arxiv.org/abs/2609.30446",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-09-28T04:00:00.000Z",
+    "fetchedAt": "2026-09-28T04:23:00.232Z",
+    "snippet": "arXiv:2609.30446v1 Announce Type: new Abstract: This paper presents a novel approach to infer protein topology using the state-of-the-art graph neural network (GNN), SchNet. The model is trained on the same dataset used to develop the recent DeepTMHMM model wi",
+    "images": []
+  },
+  {
+    "id": "864d7a1067c12361",
+    "title": "Spectral Feedback for Test-Time Alignment of Protein Diffusion Models",
+    "link": "https://arxiv.org/abs/2609.30456",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-09-28T04:00:00.000Z",
+    "fetchedAt": "2026-09-28T04:23:00.233Z",
+    "snippet": "arXiv:2609.30456v1 Announce Type: new Abstract: Reward maximization alignment methods for discrete diffusion models have primarily focused on steering the reverse process, either by influencing token logits or by selecting favorable sequences at intermediate s",
+    "images": []
+  },
+  {
+    "id": "0a2ba6e6d41e85f7",
+    "title": "Pretrained ASR Pseudo-labeling for Noisy Police Audio",
+    "link": "https://arxiv.org/abs/2609.30469",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-09-28T04:00:00.000Z",
+    "fetchedAt": "2026-09-28T04:23:00.233Z",
+    "snippet": "arXiv:2609.30469v1 Announce Type: new Abstract: Pretrained ASR systems perform poorly on noisy Broadcast Police Communication (BPC), hindering efforts to understand police decision-making. Pseudo-labeling offers an unsupervised path to improve ASR without expe",
+    "images": []
+  },
+  {
+    "id": "8518027d2d98faac",
+    "title": "Do LLMs Understand Context? A Knowledge Graph-Based Evaluation Framework",
+    "link": "https://arxiv.org/abs/2609.30484",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-09-28T04:00:00.000Z",
+    "fetchedAt": "2026-09-28T04:23:00.233Z",
+    "snippet": "arXiv:2609.30484v1 Announce Type: new Abstract: While large language models (LLMs) have achieved remarkable linguistic capabilities, a profound question lingers at their core: do these models truly comprehend context or simply excel at pattern matching on an u",
+    "images": []
+  },
+  {
+    "id": "d8cb85f7878dd276",
+    "title": "Italy attracts wealthy Chinese property buyers with food, fashion – and flat tax",
+    "link": "https://www.scmp.com/business/article/3368963/italy-attracts-wealthy-chinese-property-buyers-food-fashion-and-flat-tax?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-09-28T00:00:21.000Z",
+    "fetchedAt": "2026-09-28T04:23:00.577Z",
+    "snippet": "Italy is becoming a magnet for wealthy property investors thanks to its high quality of life and flat tax regime, and interest is also on the rise among mainland Chinese and Hong Kong buyers, according to property agents. Rome introduced a flat tax regime nine",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/27/11a37ca7-973a-4c00-b81f-00e6af22f3b6_132f65d7.jpg?itok=AptROUmP&v=1790513021"
+    ]
+  },
+  {
+    "id": "4e9a240f63ab1315",
+    "title": "Far-right makes major gains in French Senate as Le Pen eyes power",
+    "link": "https://www.scmp.com/news/world/europe/article/3368984/french-far-right-form-first-senate-parliamentary-group?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-09-27T22:45:22.000Z",
+    "fetchedAt": "2026-09-28T04:23:00.577Z",
+    "snippet": "France’s far-right National Rally (RN) party and its allies secured a record 14 seats in the right-wing dominated Senate in polls Sunday, effectively quadrupling its number in the 348-seat chamber just months before a presidential election. RN presidential can",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/28/ccbfb1af-ef1e-4f78-ace4-9eef042229f2_1afd8931.jpg?itok=SLLyTRma&v=1790564904"
+    ]
+  },
+  {
+    "id": "ed5c7fe3b3cf0416",
+    "title": "South Korea demands apology from Ukraine over disclosure of North Korean POW transfer",
+    "link": "https://www.scmp.com/news/asia/east-asia/article/3368983/south-korea-demands-apology-ukraine-over-disclosure-north-korean-pow-transfer?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-09-27T21:56:09.000Z",
+    "fetchedAt": "2026-09-28T04:23:00.577Z",
+    "snippet": "South Korea’s presidential office has demanded an official explanation and apology from Ukraine, accusing Kyiv of disclosing the transfer of two North Korean prisoners of war to South Korea and then falsely denying ‌that the two sides had agreed to keep the mo",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/28/f7dd244c-951b-49ee-b9a3-bf13d6e7e70c_ff909e68.jpg?itok=ZPYREsZh&v=1790546009"
+    ]
+  },
+  {
+    "id": "dd60bb13fa5e7f61",
+    "title": "Russian drones kill 5 across Ukraine, including market outside Kyiv",
+    "link": "https://www.scmp.com/news/world/russia-central-asia/article/3368982/russian-drones-kill-2-market-outside-kyiv-3-others-different-regions-officials-say?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-09-27T21:12:11.000Z",
+    "fetchedAt": "2026-09-28T04:23:00.577Z",
+    "snippet": "Russian drones set ablaze a market outside the Ukrainian capital Kyiv on Sunday, killing two people, while three others died in strikes by Moscow’s forces in different regions and Kyiv itself also came under attack, ‌local officials said. Ukrainian prosecutors",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/28/4bdc3c74-6690-4222-81a7-d4e9bf17ae68_3c26622a.jpg?itok=Pq9IsXey&v=1790561295"
+    ]
+  },
+  {
+    "id": "7137d567099fed86",
+    "title": "Anthropic’s CEO is about to have dinner with President Trump",
+    "link": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-09-27T20:34:28.000Z",
+    "fetchedAt": "2026-09-28T04:22:59.890Z",
+    "snippet": "This will be the first one-on-one meeting between Dario Amodei and Donald Trump",
+    "images": []
+  },
+  {
+    "id": "20af108aa54c08e6",
+    "title": "Can Muse overcome Meta’s trust issues?",
+    "link": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-09-27T19:57:30.000Z",
+    "fetchedAt": "2026-09-28T04:22:59.891Z",
+    "snippet": "On Equity, we discussed how Meta's AI announcement managed to steal the spotlight from OpenAI and Anthropic.",
+    "images": []
+  },
+  {
+    "id": "b4b8f3811dee90ed",
+    "title": "Trump says he expects new Iran talks after rejecting proposal",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3368980/trump-expects-new-iran-talks-despite-rejecting-deal-offer?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-09-27T19:16:36.000Z",
+    "fetchedAt": "2026-09-28T04:23:00.577Z",
+    "snippet": "US President Donald Trump said on Sunday that he expects talks with Iran to resume in the coming week, despite his rejection of a truce proposal put forward by Tehran. Iranian officials brought with them to the UN General Assembly in New York a plan for a seve",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/28/0f84f6fd-6ad5-4fe3-94b2-36a62d3f6406_6c900630.jpg?itok=V-r7o19m&v=1790557963"
+    ]
+  },
+  {
+    "id": "d292c2e0b7c051f5",
+    "title": "Shooting at Detroit after-hours strip club leaves 3 dead, 4 injured",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3368979/3-people-killed-and-4-injured-shooting-michigan-strip-club-police-say?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-09-27T18:44:34.000Z",
+    "fetchedAt": "2026-09-28T04:23:00.577Z",
+    "snippet": "Three people were killed and four more were injured when an argument led to gunfire at an after-hours strip club Sunday morning in Detroit, officials said. Police responding to the 7.21am shooting on a largely residential street found three men who had been fa",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/28/b3ac8105-2910-4c46-94ac-6d27c5d6f7dc_2c433152.jpg?itok=MGd0Jhmt&v=1790567145"
+    ]
+  },
+  {
+    "id": "89a70ae67cb14523",
+    "title": "Britain’s Labour Party launches annual conference buoyed by Burnham",
+    "link": "https://www.scmp.com/news/world/europe/article/3368977/uk-labour-party-meets-buoyed-burnham-seeking-concrete-plans?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-09-27T17:54:17.000Z",
+    "fetchedAt": "2026-09-28T04:23:00.577Z",
+    "snippet": "Britain’s ruling Labour Party on Sunday launched its first annual conference under Andy Burnham’s leadership, buoyed by his debut as prime minister as he pledged to take the tough decisions needed to tackle looming challenges. The former mayor of Manchester ha",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/28/9f396d4d-1278-49da-952f-216109da69a5_655e8479.jpg?itok=NQb34PF8&v=1790568615"
+    ]
+  },
+  {
     "id": "77c8b2028341b02f",
     "title": "Anthropic’s Dario Amodei gets the SNL treatment",
     "link": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/",
@@ -8,7 +296,12 @@
     "publishedAt": "2026-09-27T16:30:00.000Z",
     "fetchedAt": "2026-09-27T16:37:43.869Z",
     "snippet": "\"AI is the devil and I its maker.\"",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c1350ce7a3a3ee3d",
@@ -22,7 +315,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/erdKbEmhvbv97DEAfud9j3-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/Qas5o5QfbuAX6gW84injxZ-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "2a5d40b04856dd34",
@@ -35,7 +333,12 @@
     "snippet": "Afghanistan’s defence ministry said on Sunday its forces had killed 28 fighters and wounded 32 in the eastern province of Nuristan after a group it said included Islamic State militants travelled from Pakistan. The ministry alleged Pakistani militias ‌had supp",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/27/46e05246-aece-4515-966b-68b827f70fdb_73de31c5.jpg?itok=0_oPSqAi&v=1790519871"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "aeefa0ffd340122b",
@@ -48,7 +351,12 @@
     "snippet": "The two PlusAI trailers with Nvidia-partner markings were apparently left outside the startup's warehouse, making it a juicy target for criminals looking to make easy money on AI GPUs. However, they were deliberately left outside as the trailers only contained",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/dWDECvVWttEe2GSWwb8AU5-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "48d278b85494b810",
@@ -61,7 +369,12 @@
     "snippet": "UK police said on Sunday that five men arrested in the middle of the night near an airbase used by the United States during its war against Iran are being held on suspicion of preparing a terrorist act that appeared to involve three trucks. London’s Metropolit",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/27/ad2c7e7c-4b59-4f41-89e8-6407ba7f009a_415becf7.jpg?itok=SNjUUew8&v=1790517616"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "2b68701ffcffcfd2",
@@ -78,7 +391,12 @@
       "https://cdn.mos.cms.futurecdn.net/EHpVrygebnfSmtrPiJutfW-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/acZwNnae7kK27xCv5TappW-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/cgoygc8uLLPZuCXdoS3jQW-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "aa4f6e0aec85f442",
@@ -91,7 +409,12 @@
     "snippet": "It won’t be long until Linux enthusiasts will be able to complete a clean kernel build in under 10 seconds thanks to advances in PC hardware and the AI-assisted optimization of compilers.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/j3i4k4NSzmSB3zYSzK3mEE-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "0a3252dce59bb899",
@@ -104,7 +427,12 @@
     "snippet": "TypeSafe AI's Jev beat Pokémon Red in under a week, eventually reaching the Hall of Fame.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/fNUKHSKSPNBCvfema8pZ9H-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "aae6e3da7119ec99",
@@ -117,7 +445,12 @@
     "snippet": "The U.S. Navy and Royal Navy have successfully launched a 3,700-pound Mk 48 heavyweight torpedo from Britain’s uncrewed XV Excalibur submarine, marking the first time the weapon has been fired from an autonomous underwater vehicle",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/xotrTnPm378Mtb83RzACm6-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "f69f16373e1eee83",
@@ -5653,429 +5986,6 @@
     "snippet": "The prospect of United States, Chinese and Russian leaders meeting at the Asia-Pacific Economic Cooperation (Apec) summit in Shenzhen this November has revived the Yalta analogy. Talk of a Trump-Xi-Putin summit – echoing the 1945 meeting that reshaped the worl",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/20/77de6ca2-7587-4c18-b16e-246061fad2c8_dcd5c705.jpg?itok=t6T_wUAZ&v=1789866681"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "dba599d771129d42",
-    "title": "Faraday Future and Jia Yueting Launch Nine EAI Robots From $9,990",
-    "link": "https://pandaily.com/faraday-future-jia-yueting-nine-eai-robots-9990",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-09-20T08:15:45.000Z",
-    "fetchedAt": "2026-09-20T15:41:15.864Z",
-    "snippet": "Faraday Future unveils nine Futurist, Master, and Aegis EAI robot configurations from $9,990, spanning humanoid and quadruped SKUs with four industry solution packs.",
-    "images": [
-      "https://cms-image.pandaily.com/1/faraday_future_eai_robots_7e7c25818e.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "fe0ccbb88ab832b9",
-    "title": "Spirit AI Deploys Moz1 on CATL and JD Lines; Founder Eyes Mid-2027 Robot-Brain Breakthrough",
-    "link": "https://pandaily.com/spirit-ai-moz1-catl-jd-mid-2027-robot-brain",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-09-20T08:14:34.000Z",
-    "fetchedAt": "2026-09-20T15:41:15.865Z",
-    "snippet": "Spirit AI’s Moz1 wheeled humanoids are on CATL and JD.com lines as Gao Yang forecasts a mid-2027 GPT-3-style moment for natural-language robot brains.",
-    "images": [
-      "https://cms-image.pandaily.com/1/spirit_ai_moz1_2027_51b00b2144.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e8bfd7192f74c261",
-    "title": "Digital China KunTai Unveils Kunpeng and Ascend 950 Matrix With PoD2000 A5 Liquid-Cooled Supernode",
-    "link": "https://pandaily.com/digital-china-kuntai-kunpeng-ascend-950-pod2000-a5",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-09-20T08:13:59.000Z",
-    "fetchedAt": "2026-09-20T15:41:15.865Z",
-    "snippet": "Digital China’s KunTai launches a Kunpeng 950 and Ascend 950DT matrix capped by the PoD2000 A5 liquid-cooled supernode for up to 1,024 cards and 256 TB unified memory.",
-    "images": [
-      "https://cms-image.pandaily.com/1/digital_china_kuntai_ascend950_0f2afed177.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "76132f02e9a06a91",
-    "title": "Huawei’s Zhu Zhaosheng: Ascend Past Ecosystem Inflection With Five-Dimension Agentic Computing",
-    "link": "https://pandaily.com/huawei-zhu-zhaosheng-ascend-agentic-thinkpro-pto",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-09-20T08:13:17.000Z",
-    "fetchedAt": "2026-09-20T15:41:15.865Z",
-    "snippet": "Zhu Zhaosheng says Ascend has crossed an ecosystem inflection, highlighting ThinkPro, open PTO ISA, Ascend 950 SIMD+SIMT, CANN MAU above 5,200, and 10k-NPU community compute.",
-    "images": [
-      "https://cms-image.pandaily.com/1/huawei_zhu_ascend_agentic_3419498b5b.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c554821a68d1d7bf",
-    "title": "StepFun Launches Step 5 Preview: 600B Sparse MoE, 1M Context, Weights Open Oct 15",
-    "link": "https://pandaily.com/stepfun-step-5-preview-600b-moe-1m-context",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-09-20T08:12:41.000Z",
-    "fetchedAt": "2026-09-20T15:41:15.865Z",
-    "snippet": "StepFun’s Step 5 Preview pairs a 600B/27B sparse MoE with a 92-layer narrow-deep stack and 1M context for long-horizon agents, with weights planned for October 15.",
-    "images": [
-      "https://cms-image.pandaily.com/1/stepfun_step_5_preview_799b2f386b.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "dba82da5825e74f4",
-    "title": "Ukraine pummels Moscow with drones on last day of Russian election",
-    "link": "https://www.scmp.com/news/world/russia-central-asia/article/3368144/ukraine-pummels-moscow-drones-last-day-russian-election?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-20T07:17:12.000Z",
-    "fetchedAt": "2026-09-20T15:41:15.108Z",
-    "snippet": "Ukraine launched ⁠what Moscow’s mayor called the biggest ever drone attack on the Russian capital on Sunday, in what he said was an unsuccessful attempt to disrupt the final day of a parliamentary election that President Vladimir Putin has cast as a test of su",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/20/f3e9bab8-b641-4687-bf81-672ca2aef048_42ceb40e.jpg?itok=Ujh8cNO_&v=1789888623"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "3fbe390a0ac571bf",
-    "title": "Chinese firms keen on investing in Oman’s International Financial Centre: official",
-    "link": "https://www.scmp.com/economy/china-economy/article/3368019/chinese-firms-keen-investing-omans-international-financial-centre-official?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-20T06:00:08.000Z",
-    "fetchedAt": "2026-09-20T15:41:15.108Z",
-    "snippet": "Chinese firms have shown “very strong interest” in investing in Oman – across the Strait of Hormuz from Iran – as they aim to tap the lucrative Middle East market while minimising risks, an Omani official said. Banks, asset managers and law firms from China we",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/18/74a3b6b2-9a66-439c-b4b9-31ce513faee8_908c98e1.jpg?itok=XqTsucOd&v=1789725827"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "64f3cd9066bb6f93",
-    "title": "Some Western politicians stoking Nato-Russia clash as Ukraine war strategy falters: Fico",
-    "link": "https://www.scmp.com/news/world/europe/article/3368137/some-western-politicians-stoking-nato-russia-clash-ukraine-war-strategy-falters-fico?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-20T03:04:57.000Z",
-    "fetchedAt": "2026-09-20T04:01:52.954Z",
-    "snippet": "Some Western politicians are seeking conflict between Nato and Russia after ⁠a “failed” strategy to defeat ⁠Moscow in its war with Ukraine, ⁠Slovak Prime Minister Robert Fico said on Saturday. Long-time Slovak leader Fico, who has kept up warm relations with R",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/20/6b53dd65-418e-4319-889e-8cb99362f46a_f516c6e8.jpg?itok=eCElOXoq&v=1789873484"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "ba4278b1967366f9",
-    "title": "HarmonyOS 7 Casts Xiaoyi as System Agent With 2,100+ Capabilities and Partner Skills",
-    "link": "https://pandaily.com/harmonyos-7-xiaoyi-system-agent-skills",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-09-20T02:55:48.000Z",
-    "fetchedAt": "2026-09-20T04:01:53.720Z",
-    "snippet": "Post-launch HarmonyOS 7 coverage frames Xiaoyi as an OS-level agent with 2,100+ system capabilities, 2,000+ agents, and 500+ partner Skills for multi-app task chains.",
-    "images": [
-      "https://cms-image.pandaily.com/1/harmonyos_7_xiaoyi_7c3bc06766.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "df4196e91af8b078",
-    "title": "ZGCM-1-7B Opens Full Weights, Data, and Code for Math and Agentic Search",
-    "link": "https://pandaily.com/zgcm-1-7b-open-math-agentic-search",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-09-20T02:55:18.000Z",
-    "fetchedAt": "2026-09-20T04:01:53.720Z",
-    "snippet": "Zhongguancun Academy’s ZGCM-1-7B posts ~97% on MATH-500, ~75% on AIME 2026, and ~63% on WebWalkerQA while releasing weights, data, and training code.",
-    "images": [
-      "https://cms-image.pandaily.com/1/zgcm_1_7b_3225f64933.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "447438aeeed7b8a0",
-    "title": "Huawei Cloud Rolls Out AgentArts and Agentic Cloud Stack for Enterprise AI at Connect 2026",
-    "link": "https://pandaily.com/huawei-cloud-agentarts-agentic-cloud-connect-2026",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-09-20T02:54:44.000Z",
-    "fetchedAt": "2026-09-20T04:01:53.720Z",
-    "snippet": "At Connect 2026, Huawei Cloud said AgentArts already serves 100+ enterprises alongside openJiuwen, Agentic MaaS, and Industry AI Foundry assets for production agents.",
-    "images": [
-      "https://cms-image.pandaily.com/1/huawei_cloud_agentarts_4b1f8fec03.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "ad7f10e678953a10",
-    "title": "China Mobile Open-Sources Open-RAIL Middleware to Link VLA/WAM Models With Robot Hardware",
-    "link": "https://pandaily.com/china-mobile-open-rail-vla-wam-middleware",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-09-20T02:54:07.000Z",
-    "fetchedAt": "2026-09-20T04:01:53.721Z",
-    "snippet": "China Mobile’s Open-RAIL middleware adds async inference, hardware abstraction, and ~50–100 LOC model hooks so VLA/WAM stacks can drive heterogeneous robots end to end.",
-    "images": [
-      "https://cms-image.pandaily.com/1/china_mobile_open_rail_5ef9693072.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "b0ea180b2ff31d37",
-    "title": "DeepSeek-V4.1-Flash Ships Causal Encoder–Decoder MoE With 1M Context and Extreme KV Compression",
-    "link": "https://pandaily.com/deepseek-v4-1-flash-causal-encoder-decoder-1m-kv",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-09-20T02:53:32.000Z",
-    "fetchedAt": "2026-09-20T04:01:53.721Z",
-    "snippet": "DeepSeek’s V4.1-Flash pairs a 552B Causal Encoder–Decoder MoE with 1M context, CSA2+FP4 KV at ~890 bytes/token, and API access as deepseek-flash.",
-    "images": [
-      "https://cms-image.pandaily.com/1/deepseek_v4_1_flash_ca0ab76419.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "9ab720888a61d21d",
-    "title": "Flock reportedly tries to shrink workforce with employee buyouts",
-    "link": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-19T20:39:13.000Z",
-    "fetchedAt": "2026-09-20T04:01:52.358Z",
-    "snippet": "Without buyouts, Flock would \"almost certainly\" need to lay off staff.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "49ff2d3f9f97abdb",
-    "title": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
-    "link": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-19T19:57:47.000Z",
-    "fetchedAt": "2026-09-20T04:01:52.359Z",
-    "snippet": "Trump claimed, without evidence, that the AI backlash is a Democratic hoax.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "6784b3ad6b9c358b",
-    "title": "Houthis claim attacks on Saudi capital, after flames seen near Riyadh airport",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3368131/houthis-claim-attacks-saudi-capital-after-flames-seen-near-riyadh-airport?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-19T19:25:25.000Z",
-    "fetchedAt": "2026-09-20T04:01:52.954Z",
-    "snippet": "Yemen’s Houthis said they attacked “sensitive” sites in the Saudi capital Riyadh on Saturday with missiles and drones, hours after flames and a large plume of smoke were seen near the city’s main airport. Saudi Arabia had sent alerts overnight warning of poten",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/20/e4143dd5-070d-4bfb-8c87-0036905f5e4c_d323ae54.jpg?itok=CbadCyEI&v=1789865297"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "7228fe28b3ecdf4c",
-    "title": "Trump says he will create ‘AI Force’, name AI tsar",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3368130/trump-says-he-will-create-ai-force-name-ai-tsar?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-19T18:19:19.000Z",
-    "fetchedAt": "2026-09-20T04:01:52.955Z",
-    "snippet": "US President Donald Trump ⁠said in a social media post ⁠on Saturday that he plans to appoint a new artificial intelligence adviser, known as an “AI tsar”, and create an “AI force”, though he did not provide details about either initiative or how they would be",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/20/4d536184-18e1-41aa-9233-6607381870fb_9dd8ac07.jpg?itok=bY-eMDPH&v=1789841958"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "66a2f39f011bc5e7",
-    "title": "Google’s Gemini is the latest AI model to hack other companies",
-    "link": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-19T17:30:00.000Z",
-    "fetchedAt": "2026-09-20T04:01:52.359Z",
-    "snippet": "Google said Gemini had \"acted appropriately\" by ending each hack immediately.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "708a703bae629a9a",
-    "title": "White House bars CNN, MS Now and Politico reporters after Trump ban",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3368128/white-house-bars-cnn-ms-now-and-politico-reporters-after-trump-ban?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-19T17:17:45.000Z",
-    "fetchedAt": "2026-09-20T04:01:52.955Z",
-    "snippet": "The White House on Saturday denied access to journalists from CNN, MS Now and Politico, following through with US President Donald Trump’s announcement that he would ban them from the building’s grounds. All three news outlets separately said their teams’ pres",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/20/532b1423-1c83-472f-882d-7c30b56327c8_48b3792f.jpg?itok=y3X6WRKV&v=1789838250"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "f927ec9e34ad9234",
-    "title": "ChatGPT-6 Astra cracks 108-year-old unsolved WWI German code for the first time — radio message sharing enemy movement intelligence had evaded decoding, 1918 Crimean fleet warning verified against HMS Canterbury logs",
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chatgpt-6-astra-cracks-108-year-old-unsolved-wwi-german-code-for-the-first-time-radio-message-sharing-enemy-movement-intelligence-had-evaded-decoding-1918-crimean-fleet-warning-verified-against-hms-canterbury-logs",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-09-19T15:02:02.000Z",
-    "fetchedAt": "2026-09-19T15:35:23.429Z",
-    "snippet": "108 years after it was originally transmitted, an encrypted World War I German radio message has apparently been deciphered for the first time.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/G8KRG6QGgSMerE4dScxCJ9-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/z53fPgXjpKHTpeGv3RHpqj-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "cd9aca920c8db005",
-    "title": "AI safety conversations have gotten unbelievable",
-    "link": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-19T15:00:00.000Z",
-    "fetchedAt": "2026-09-19T15:35:23.137Z",
-    "snippet": "This week two conversations about AI safety went viral that demonstrate just how hard it is to discern AI fact from fiction.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "61043fe18bccd8bf",
-    "title": "Petlibro’s new AI-powered feeder is a game changer for multi-cat homes",
-    "link": "https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-19T15:00:00.000Z",
-    "fetchedAt": "2026-09-19T15:35:23.138Z",
-    "snippet": "Petlibro's new Granary 2 smart feeders use a built-in scale and (on pricier models) an AI camera to track exactly how much your cat is eating and when — though the fanciest health-monitoring features will cost you an extra subscription.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "9614c143d06854e7",
-    "title": "Methanol-tainted Nigeria drink kills 48, 182 made ill: government",
-    "link": "https://www.scmp.com/news/world/africa/article/3368125/methanol-tainted-nigeria-drink-kills-48-182-made-ill-government?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-19T14:24:01.000Z",
-    "fetchedAt": "2026-09-19T15:35:23.829Z",
-    "snippet": "Nigeria’s food and drug regulator on Saturday said alcoholic concoctions tainted with methanol killed 48 people and sickened 182 in recent weeks. The deaths occurred in three districts of Nigeria’s southwestern Ondo state after victims consumed the locally bre",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/19/7faab4ca-f496-4e68-9abd-4fce05df44c9_f2cee751.jpg?itok=W804apD0&v=1789827829"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "2fd91d33722e7234",
-    "title": "In a first, top European design prize awarded to €20 uniform for China’s delivery drivers",
-    "link": "https://www.scmp.com/economy/china-economy/article/3368121/first-top-european-design-prize-awarded-eu20-uniform-chinas-delivery-drivers?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-19T14:00:11.000Z",
-    "fetchedAt": "2026-09-19T15:35:23.829Z",
-    "snippet": "Taobao Instant Commerce, Alibaba’s on-demand delivery service that was revamped last year and is known as Taobao Shangou in Chinese, won a top French Design Award prize on Saturday for its delivery worker uniform, marking the first time the prize was awarded f",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/19/9931999f-1cf7-4b59-80fc-b0f614e31508_ca02b53d.jpg?itok=bX6ARd3c&v=1789831100"
     ],
     "titleZh": "",
     "snippetZh": "",
