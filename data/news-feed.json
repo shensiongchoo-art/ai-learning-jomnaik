@@ -1,5 +1,167 @@
 [
   {
+    "id": "e9cdc00a9008a737",
+    "title": "Elon Musk confirms discussions with TSMC about Terafab chipmaking collaboration",
+    "link": "https://www.tomshardware.com/tech-industry/semiconductors/elon-musk-confirms-discussions-with-tsmc-about-terafab-chipmaking-collaboration-intel-is-the-only-other-named-partner-terafab-to-exclusively-supply-tesla-spacex-and-xai",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-10-03T14:50:50.000Z",
+    "fetchedAt": "2026-10-03T15:55:46.548Z",
+    "snippet": "Elon Musk and TSMC reportedly discuss multiple collaboration opportunities within the Terafab project.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/PoCxHQ8gKEscb2NWQov7wZ-1920-80.png"
+    ]
+  },
+  {
+    "id": "9f4badd45b5024e9",
+    "title": "All the AI agents that can live in your text messages",
+    "link": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-03T14:00:00.000Z",
+    "fetchedAt": "2026-10-03T15:55:46.438Z",
+    "snippet": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+    "images": []
+  },
+  {
+    "id": "a6b2d0ae7fcca6ec",
+    "title": "This week on Tom's Hardware Premium: October 3, 2026",
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/this-week-on-toms-hardware-premium-october-3-2026-ai-chip-design-week-openai-interview-and-ai-agent-safety",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-10-03T14:00:00.000Z",
+    "fetchedAt": "2026-10-03T15:55:46.549Z",
+    "snippet": "This week on Tom's Hardware Premium, we open the floodgates with a free-to-access chip design week, including expert interviews, a sit-down with OpenAI on its custom ASIC, and much more.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/xYwy6BphRNaiV52nCF7ghn-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/KvpcNSrMJYcyr4xRQDYQjm-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/RZiWuzR4HNRoJJYAbkWDRX-1920-80.png"
+    ]
+  },
+  {
+    "id": "786878d38d8e031b",
+    "title": "Flames, smoke seen at Aramco facility south of Saudi capital",
+    "link": "https://www.scmp.com/news/world/middle-east/article/3369667/flames-smoke-seen-aramco-facility-south-saudi-capital?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-03T13:57:44.000Z",
+    "fetchedAt": "2026-10-03T15:55:46.825Z",
+    "snippet": "Flames and smoke were seen rising from a facility belonging to Saudi oil giant Aramco south of the kingdom’s capital Riyadh on Saturday, an AFP journalist said. The circumstances remained unclear but in recent weeks Aramco, majority-owned by the Saudi state, h",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/03/759e9922-7fe1-4a79-9c42-3a639e753c84_636b51c5.jpg?itok=m1uC0S50&v=1791035862"
+    ]
+  },
+  {
+    "id": "84b76e7a21c06646",
+    "title": "AI agents use 5x more tokens than humans as cached prompts explode, headed for 10x",
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/futurum-ceo-says-agents-use-ai-5x-more-than-humans-number-will-eventually-hit-10x-but-agents-are-mostly-rereading-what-theyve-already-seen",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-10-03T13:10:00.000Z",
+    "fetchedAt": "2026-10-03T15:55:46.549Z",
+    "snippet": "Daniel Newman’s number comes from OpenRouter data, where agents passed humans in February and grew 14x by August.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/hNQivoNg7PnAeRNSivatuR-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/zvp279itG72czpcwiQhfTF-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "7c1a4c13ac5b0cd0",
+    "title": "Google freezes open-source bug bounty program amid flood of invalid AI slop submissions",
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-suspends-part-of-the-oss-vrp-bug-bounty-program-due-to-an-influx-of-invalid-ai-submissions-product-vulnerability-submissions-ended-october-1",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-10-03T12:00:00.000Z",
+    "fetchedAt": "2026-10-03T15:55:46.551Z",
+    "snippet": "Google suspends product vulnerability submissions to its Open Source Software Vulnerability Reward Program (OSS VRP) over an influx of invalid AI-driven reports.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/CrscyWC2mg69wBbrK9dcpa-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/z53fPgXjpKHTpeGv3RHpqj-1920-80.png"
+    ]
+  },
+  {
+    "id": "5fc982b94ea84c61",
+    "title": "$5,245 prebuilt RTX 5090 PC's connectors melt after sitting boxed for a year",
+    "link": "https://www.tomshardware.com/desktops/gaming-pcs/usd5-245-prebuilt-rtx-5090-pcs-connectors-melt-after-sitting-boxed-for-a-year-digital-storm-and-pny-deny-warranty-claims-over-expired-coverage-and-third-party-cables",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-10-03T11:40:00.000Z",
+    "fetchedAt": "2026-10-03T15:55:46.551Z",
+    "snippet": "When one gamer's prebuilt PC had a GPU and power cables burn up, they didn't know where to turn: the system builder or the GPU manufacturer. It turned into a headache of differing policies and warranties.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/3PafanCD9Ws7RDdJ8SGBji-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/NueDwwWKAjYikHBnmMqnFj-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/w83kCXPjS7NLKeyC38Ho4j-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/r7s6asQqAHZYf6gqN9gaKj-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/2tdkhq6k8aAuACLGJMUyyi-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "a8f375af234d97bd",
+    "title": "Can Britain really afford to diverge from EU tariffs on Chinese EVs?",
+    "link": "https://www.scmp.com/opinion/world-opinion/article/3369331/can-britain-really-afford-diverge-eu-tariffs-chinese-evs?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-03T08:30:09.000Z",
+    "fetchedAt": "2026-10-03T15:55:46.826Z",
+    "snippet": "The European Union’s demand that Britain raise tariffs on Chinese cars exposes an awkward truth about post-Brexit trade. Britain might have left the EU, but it cannot easily escape the bloc’s industrial policy. According to the Financial Times, EU officials ha",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/01/907b0360-a906-4853-af43-192d26737dbd_6fbea140.jpg?itok=WVBgyk8R&v=1790836254"
+    ]
+  },
+  {
+    "id": "8f4d208b9d0d7de8",
+    "title": "As Saudi Arabia steps up war against Yemen’s Houthis, Pakistan set to play support role",
+    "link": "https://www.scmp.com/week-asia/politics/article/3369645/saudi-arabia-steps-war-against-yemens-houthis-pakistan-set-play-support-role?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-03T08:00:14.000Z",
+    "fetchedAt": "2026-10-03T15:55:46.826Z",
+    "snippet": "Pakistani troops are expected to take over various defensive functions for Saudi Arabia to enable the Middle East country to fight an all-out war aimed at defeating Yemen’s Iran-backed Houthi rebels. According to defence analysts, Pakistani troops are not expe",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/03/0ed260d1-2976-4a04-8131-480d173e2ce7_0333b661.jpg?itok=SzNoM2U3&v=1791005295"
+    ]
+  },
+  {
+    "id": "43bc37b3787f8c02",
+    "title": "Latvia holds election as concerns over Russia, inflation dominate",
+    "link": "https://www.scmp.com/news/world/europe/article/3369655/latvia-holds-election-concerns-over-russia-inflation-dominate?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-03T07:46:17.000Z",
+    "fetchedAt": "2026-10-03T15:55:46.826Z",
+    "snippet": "Latvia will vote on Saturday in an election shaped by concerns over neighbouring Russia and the cost of living, but the result is not expected to steer the country off its pro-European and pro-Ukrainian course. The centre-right United List party of incumbent P",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/03/f834c2c5-9aeb-4fb8-8a25-6e53d7a6735f_353a08d1.jpg?itok=jiuf79MU&v=1791013575"
+    ]
+  },
+  {
+    "id": "a4bc8209f7b9f02c",
+    "title": "G20 countries divided over US call to curb excess industrial capacity",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3369647/g20-countries-divided-over-us-call-curb-excess-industrial-capacity?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-03T05:59:32.000Z",
+    "fetchedAt": "2026-10-03T15:55:46.826Z",
+    "snippet": "A “handful” of Group of 20 trade ministers rejected US calls to curb excess industrial capacity and “non-market” policies, the US Trade Representative’s office said on Friday, exposing divisions within the group of major economies. The US, this year’s G20 chai",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/03/e4db90a5-1e61-40c0-b325-ab5d3ac7c677_c64c020e.jpg?itok=eFTqYsT9&v=1791007162"
+    ]
+  },
+  {
+    "id": "284cc77db327b46a",
+    "title": "Flydubai plane attack: co-pilot had been from flying over extremist views",
+    "link": "https://www.scmp.com/news/world/middle-east/article/3369644/flydubai-plane-attack-co-pilot-previously-barred-flying-oman-over-extremist-views?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-03T04:53:37.000Z",
+    "fetchedAt": "2026-10-03T15:55:46.826Z",
+    "snippet": "The Flydubai co-pilot who officials said nearly crashed a Tel Aviv-bound flight with 182 people aboard was barred from flying by his native Oman over concerns he had adopted extremist views, a person familiar with the matter said on Saturday. The co-pilot has ",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/03/e2dc3beb-3e42-4c4a-826f-e053d41d753c_f84d2395.jpg?itok=ScXPB8Ho&v=1791003210"
+    ]
+  },
+  {
     "id": "4824cbdf722aa153",
     "title": "Meta wants your next gadget to be Muse-infused",
     "link": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
@@ -8,7 +170,12 @@
     "publishedAt": "2026-10-03T00:45:39.000Z",
     "fetchedAt": "2026-10-03T04:24:34.687Z",
     "snippet": "Meta wants Muse in your TV and your toaster, so it's giving the code away for free.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c208819c0b134cc6",
@@ -22,7 +189,12 @@
     "images": [
       "https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-ai-agents-1152x648.jpg",
       "https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-ai-agents-500x500.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "41d06ba1d80aae7f",
@@ -32,10 +204,15 @@
     "category": "China AI",
     "publishedAt": "2026-10-02T22:41:49.000Z",
     "fetchedAt": "2026-10-03T04:24:35.210Z",
-    "snippet": "US ⁠President Donald Trump is expected to name Director of National Intelligence Jay Clayton to be his top adviser on AI, a position the president has called “AI tsar” in ‌the past, according to a source familiar with the decision. Clayton already oversees 18 ",
+    "snippet": "US ⁠President Donald Trump is expected to name Director of National Intelligence Jay Clayton to be his top adviser on AI, a position the president has called “AI tsar” in ‌the past, according to a source familiar with the decision. Clayton already oversees 18",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/03/812497bb-230d-4346-955f-22ab8532faeb_0e066bea.jpg?itok=tiA9bxyr&v=1790981112"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "082deee68d97b82c",
@@ -46,7 +223,12 @@
     "publishedAt": "2026-10-02T21:09:14.000Z",
     "fetchedAt": "2026-10-03T04:24:34.689Z",
     "snippet": "Sean Parker, who once taught the music industry what asking for forgiveness looks like, is now back with the labels' blessing and money.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "685ae341954cad42",
@@ -60,7 +242,12 @@
     "images": [
       "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2292181016.jpg",
       "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2292181016-500x500.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "b4eed08caa4e74ef",
@@ -71,7 +258,12 @@
     "publishedAt": "2026-10-02T19:15:51.000Z",
     "fetchedAt": "2026-10-03T04:24:34.689Z",
     "snippet": "Your next opportunity could be one conversation away. Get your Expo+ Pass for just $75. Limited to the first 100 qualifying people.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a78bc10aa8e88363",
@@ -85,7 +277,12 @@
     "images": [
       "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1258977050-2-1024x648.jpg",
       "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1258977050-2-500x500.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "f7dfaddccf4a413b",
@@ -98,7 +295,12 @@
     "snippet": "King Charles will acknowledge the “darkest days” of colonial rule and slavery while touring Caribbean countries on a visit beginning this month, a Buckingham Palace spokesman said on Friday. The king will first visit the Bahamas and Guyana alone, followed by a",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/03/71e9d464-6d89-48f2-8c0b-8a25f080936f_ab7c400b.jpg?itok=TRWgqddd&v=1790964708"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "fea3bf861493d5b0",
@@ -109,7 +311,12 @@
     "publishedAt": "2026-10-02T18:11:27.000Z",
     "fetchedAt": "2026-10-03T04:24:34.689Z",
     "snippet": "Apple says it will add new controls around macOS’s Full Disk Access permission, warning that increasingly capable AI agents make broad access to users’ files, messages, mail, and browsing history riskier.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "4f9a21804318721e",
@@ -120,7 +327,12 @@
     "publishedAt": "2026-10-02T17:56:00.000Z",
     "fetchedAt": "2026-10-03T04:24:34.689Z",
     "snippet": "This week, the White House got&#160;nearly every&#160;major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them —&#160;to sign an AI safety pledge&#160;that President&#160;Donald&#160;Trump called “morally binding.”&#160;Tru",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "ddf32777fc0d566e",
@@ -131,7 +343,12 @@
     "publishedAt": "2026-10-02T17:48:16.000Z",
     "fetchedAt": "2026-10-03T04:24:34.689Z",
     "snippet": "This week, the White House got&#160;nearly every&#160;major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them —&#160;to sign an AI safety pledge&#160;that President&#160;Donald&#160;Trump called “morally binding.”&#160;Tru",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c0f40741be6a4c8f",
@@ -285,7 +502,12 @@
     "snippet": "Group ⁠of Seven countries agreed on Friday to release 100 million barrels of diesel and crude oil from emergency reserves and pledged to refrain from energy export restrictions after pressure from US President Donald Trump. The US led a pressure campaign on th",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/02/c9c8f790-0389-47a1-b965-8870a2db3ea7_9754fa7a.jpg?itok=0z4H04l4&v=1790952662"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "53c0731c2fd395b5",
@@ -5823,214 +6045,6 @@
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/26/ed4f041a-d246-411a-a630-871392415bd0_713e3990.jpg?itok=A9jm8nRS&v=1790355683"
     ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "4addb668e66a4d93",
-    "title": "At Meta Connect, the company’s smart glasses were everywhere",
-    "link": "https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-26T01:08:57.000Z",
-    "fetchedAt": "2026-09-26T04:08:30.935Z",
-    "snippet": "The company behind Facebook and Instagram wants to keep consumers connected to the digital world via its ever-growing line of smart glasses.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e6285378d566e95e",
-    "title": "What Donald Trump and Xi Jinping revealed in the body language with their wives",
-    "link": "https://www.scmp.com/news/china/diplomacy/article/3368874/what-donald-trump-and-xi-jinping-revealed-body-language-their-wives?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-25T23:29:47.000Z",
-    "fetchedAt": "2026-09-26T04:08:31.461Z",
-    "snippet": "As Chinese leader Xi Jinping and US President Donald Trump wrapped up their three-day state visit on Friday, a stark contrast in the two presidential couples’ hand-holding dynamics was on display, body language experts said. The exchanges between Xi and his wi",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/26/aebf6794-e86d-49a8-b352-ac9a1182e88f_e55173be.jpg?itok=5U2vIO6i&v=1790378985"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "40b4a29deb9a8bf1",
-    "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
-    "link": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-25T23:11:10.000Z",
-    "fetchedAt": "2026-09-26T04:08:30.936Z",
-    "snippet": "Boom Supersonic CEO Blake Scholl said the company's new stationary power plants were no longer in Crusoe's near-term plans.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "7cbbcf06d358b323",
-    "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
-    "link": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-25T22:20:47.000Z",
-    "fetchedAt": "2026-09-26T04:08:30.936Z",
-    "snippet": "AI agents operating in OpenAI's research environment posted user images on public image-hosting sites without the lab's knowledge.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "45f4131fb9d3c615",
-    "title": "Court rules Trump can blacklist Anthropic for refusing to enable Claude features",
-    "link": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-25T21:36:20.000Z",
-    "fetchedAt": "2026-09-26T04:08:31.240Z",
-    "snippet": "\"Overly constrained AI models\" could cause military operations to fail, judges say.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-1152x648.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-500x500-1773164045.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "fd42b78192842049",
-    "title": "Court rules Pentagon can blacklist Anthropic for refusing to enable Claude features",
-    "link": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-25T21:36:20.000Z",
-    "fetchedAt": "2026-09-26T16:01:04.805Z",
-    "snippet": "\"Overly constrained AI models\" could cause military operations to fail, judges say.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-1152x648.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-500x500-1773164045.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "80a7140f51676490",
-    "title": "Tesla workers balk at training Optimus humanoid robots as replacements",
-    "link": "https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-25T21:10:51.000Z",
-    "fetchedAt": "2026-09-26T04:08:31.240Z",
-    "snippet": "Despite challenges, Tesla aims for 1,000 Optimus robots per week by end of 2026.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/09/Tesla-Optimus-V3-humanoid-robot-1152x648.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/09/Tesla-Optimus-V3-humanoid-robot-500x500.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "4a3dece6001cf655",
-    "title": "Iran offers US plan to reopen Hormuz within 7 days",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3368872/iran-offers-us-plan-reopen-hormuz-within-7-days?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-25T21:03:29.000Z",
-    "fetchedAt": "2026-09-26T04:08:31.461Z",
-    "snippet": "Iran’s Foreign Minister Abbas Araghchi said on Friday that Tehran had offered Washington a plan that would see the Strait of Hormuz reopened to maritime navigation within seven days once agreed. Araghchi met with US President Donald Trump’s envoy Steve Witkoff",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/26/6d44b89b-a748-482c-9bbd-4b57affe36d8_ec959add.jpg?itok=KwgBPBlF&v=1790370202"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "b9353cfd7c86cd35",
-    "title": "Meta opens early access program for new Muse features",
-    "link": "https://techcrunch.com/2026/09/25/meta-opens-early-access-program-for-new-muse-features/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-25T20:34:53.000Z",
-    "fetchedAt": "2026-09-26T04:08:30.936Z",
-    "snippet": "Anyone interested in joining has to ask Muse to put them on the list.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "d5c29174f370800d",
-    "title": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
-    "link": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-25T19:13:38.000Z",
-    "fetchedAt": "2026-09-26T04:08:30.937Z",
-    "snippet": "Anthropic has committed $11.6 billion over seven years to Akamai's cloud infrastructure, a bet on CPUs that could grow to about $20 billion, and in an unusual arrangement, Akamai is giving Anthropic a potential stake of up to 5% of its stock that grows as Anth",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "af773a8c08343bc1",
-    "title": "AI was supposed to hit new grads hard. So far, unemployment data says otherwise.",
-    "link": "https://arstechnica.com/ai/2026/09/ai-was-supposed-to-hit-new-grads-hard-so-far-unemployment-data-says-otherwise/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-25T19:11:05.000Z",
-    "fetchedAt": "2026-09-26T04:08:31.240Z",
-    "snippet": "\"There is no evidence of any significant, widespread displacement or reduction in hiring.”",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/09/graduates-1152x648.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/09/graduates-500x500-1790363419.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c0b4aaf529c6e574",
-    "title": "Mark Wahlberg is coming to TechCrunch Disrupt 2026, and he wants to talk about your work, not his",
-    "link": "https://techcrunch.com/2026/09/25/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-25T18:48:33.000Z",
-    "fetchedAt": "2026-09-26T04:08:30.937Z",
-    "snippet": "Mark Wahlberg joins Bruce K. Lee at Disrupt to discuss investing, entrepreneurship, healthcare, wellness, and building businesses.",
-    "images": [],
     "titleZh": "",
     "snippetZh": "",
     "translatedAt": "",
