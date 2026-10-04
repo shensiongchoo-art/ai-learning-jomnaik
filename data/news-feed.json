@@ -1,5 +1,215 @@
 [
   {
+    "id": "cc80f54ba35c63d0",
+    "title": "UK Green Party adopts ‘Zionism is racism’ policy, drawing backlash from Israel",
+    "link": "https://www.scmp.com/news/world/europe/article/3369725/uk-green-party-adopts-zionism-racism-policy-drawing-backlash-israel?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-04T16:26:47.000Z",
+    "fetchedAt": "2026-10-04T16:37:16.291Z",
+    "snippet": "The UK’s left-wing Green Party on Sunday voted to define Zionism as racism at the party’s annual meeting, drawing sharp backlash from British Jewish groups and the Israeli government. Members of the Green Party, which has five MPs in Britain’s 650-seat parliam",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/05/8454280d-32ec-430a-9bf3-68e9e66beed3_d41cd638.jpg?itok=ABooLcbM&v=1791131102"
+    ]
+  },
+  {
+    "id": "b16925be909b919d",
+    "title": "Trump unveils his new Super Intelligence Force",
+    "link": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-04T15:15:10.000Z",
+    "fetchedAt": "2026-10-04T16:37:15.702Z",
+    "snippet": "This new task force is Trump's latest response to the debate over AI safety.",
+    "images": []
+  },
+  {
+    "id": "a152bf8dbbc72f13",
+    "title": "Modder 'fixes' melting RTX 5090 power connectors with custom distributor",
+    "link": "https://www.tomshardware.com/pc-components/gpus/modder-fixes-melting-rtx-5090-power-connectors-with-custom-distributor-dual-8-pin-mod-peaks-at-just-40c-during-a-48-hour-550w-stress-test",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-10-04T14:50:00.000Z",
+    "fetchedAt": "2026-10-04T16:37:15.995Z",
+    "snippet": "Reddit user u/DallasGrave shared a fix for his RTX 5090, one of the best graphics cards, whose 12VHPWR connector was overheating, along with an image of a module screwed onto the back of his GPU.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/zSDbAK6zJvGgD5vmjfWw3m-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Qqji7GJkLVnUJiotFkGWLX-1920-80.png"
+    ]
+  },
+  {
+    "id": "21ea404509e8bde4",
+    "title": "Robotics startup has real human vs. robot cage match, California responds with cease-and-desist order",
+    "link": "https://www.tomshardware.com/tech-industry/robotics/robotics-startup-has-real-human-vs-robot-cage-match-california-responds-with-cease-and-desist-order-regulator-threatens-misdemeanor-charges-after-youtuber-fights-three-robotic-humanoids",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-10-04T14:36:25.000Z",
+    "fetchedAt": "2026-10-04T16:37:15.995Z",
+    "snippet": "The California State Athletic Commission intervened when it saw a human facing off with a humanoid robot inside the fighting ring.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/NruUp5NGPxCRDCzTrVBQxN-1920-80.png"
+    ]
+  },
+  {
+    "id": "893db128a352c91c",
+    "title": "Modder brings Nvidia Pascal GPU support to Windows XP 32-bit",
+    "link": "https://www.tomshardware.com/pc-components/gpu-drivers/modder-brings-nvidia-pascal-gpu-support-to-windows-xp-32-bit-modded-drivers-unlock-better-displayport-and-hdmi-support-for-modern-monitors",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-10-04T14:25:00.000Z",
+    "fetchedAt": "2026-10-04T16:37:15.996Z",
+    "snippet": "Retro techie retrofits Nvidia Windows XP 32-bit drivers with Pascal card support and improved DisplayPort and HDMI support for contemporary displays",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/JnGyAXb2x6LNKcRbUXHM4F-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Wh9EZgD8NG9yUioNNgPB3d-1920-80.png"
+    ]
+  },
+  {
+    "id": "c50fedf7ad07dd8f",
+    "title": "Database expert runs Doom in SQL with just 5,900 lines of code",
+    "link": "https://www.tomshardware.com/video-games/pc-gaming/database-expert-runs-doom-in-sql-with-just-5-900-lines-of-code-1-300-line-graphical-renderer-spans-89-different-tables-full-featured-sqldoom-is-the-sequel-to-embryonic-doomql",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-10-04T14:00:00.000Z",
+    "fetchedAt": "2026-10-04T16:37:15.996Z",
+    "snippet": "Database expert runs Doom in SQL again — full-featured SQLDoom is the sequel to embryonic DoomQL",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/osXJbTYcHoB7PvbPGLU4ij-1920-80.png"
+    ]
+  },
+  {
+    "id": "baf8c2a5e0dbaf71",
+    "title": "US Army unit deploys drone assembled completely in-house, uses 3D-printed 'Dragoon Bombs' with ball bearing shrapnel",
+    "link": "https://www.tomshardware.com/tech-industry/drones/us-army-unit-deploys-drone-assembled-completely-in-house-uses-3d-printed-dragoon-bombs-with-ball-bearing-shrapnel-device-has-a-range-of-up-to-12-miles-and-can-be-configured-for-anti-personnel-and-anti-light-armor-missions",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-10-04T13:40:00.000Z",
+    "fetchedAt": "2026-10-04T16:37:15.996Z",
+    "snippet": "U.S. Army soldiers are training to assemble drones and 3D-print bomb casings for field use.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/PXGWUo4p5eWF4wGZ6cUDrY-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/Xh2MupWrRjJPiLLuopmKRB-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "60f07e1488f71716",
+    "title": "AI robot company decommissioned its robots ‘Terminator-style’ in a 75-ton vat of molten steel",
+    "link": "https://www.tomshardware.com/tech-industry/robotics/ai-robot-company-decommissioned-its-robots-terminator-style-in-a-75-ton-vat-of-molten-steel-arnold-schwarzenegger-suggested-melting-them-one-robot-held-up-a-thumbs-up-sign-as-it-sank-into-molten-metal",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-10-04T13:20:00.000Z",
+    "fetchedAt": "2026-10-04T16:37:15.996Z",
+    "snippet": "AI Robotics company Figure found a creative way of decommissioning its old F.02 fleet without having to allocate resources for difficult and time-consuming disassembly.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/r4bAbotgbdDA8ZZJYgUQEY-1920-80.png"
+    ]
+  },
+  {
+    "id": "6bb1da7de55d7ea2",
+    "title": "ChatGPT-6 Astra cracks 217-year-old Napoleonic code in just six hours",
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chatgpt-6-astra-cracks-217-year-old-napoleonic-code-in-just-six-hours-single-prompt-ai-run-solves-24-rows-of-custom-symbols-from-a-single-image-reveals-lost-troop-orders",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-10-04T13:08:46.000Z",
+    "fetchedAt": "2026-10-04T16:37:15.996Z",
+    "snippet": "An AI engineer used GPT-6 Astra to reveal the contents of a cipher that hadn’t been read since the Napoleonic Wars. The task was initiated with a single image and prompt, and took just six hours from start to finish.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/7NDTHseunp2EUkVBhZHe5Q-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "c06c48cd4078f082",
+    "title": "Iranian national extradited to US over alleged $3.4 billion state-backed hacking campaign in rare legal win for law enforcement",
+    "link": "https://www.tomshardware.com/tech-industry/cyber-security/iranian-national-extradited-to-us-over-alleged-usd3-4-billion-state-backed-hacking-campaign-in-rare-legal-win-for-law-enforcement-operative-helped-steal-31-terabytes-of-data-from-over-300-universities",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-10-04T12:55:00.000Z",
+    "fetchedAt": "2026-10-04T16:37:15.996Z",
+    "snippet": "An Iranian-Turkish man has been extradited from Montenegro to the U.S. over his alleged role in a hacking campaign that targeted hundreds of universities, companies, and government agencies and stole more than 31 TB of academic data.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/3JTt8RPcbk6em5GveahXac-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "e332164b43eab2ef",
+    "title": "Microsoft using wetlands and native gardens to 'camouflage' 20-plus data center sites by blending them into nature",
+    "link": "https://www.tomshardware.com/tech-industry/data-centers/microsoft-is-using-wetlands-and-native-gardens-to-camouflage-20-plus-data-center-sites-by-blending-them-into-nature-critics-blast-the-biomimicry-effort-as-lipstick-on-a-pig-amid-a-20-year-gas-power-deal",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-10-04T12:30:00.000Z",
+    "fetchedAt": "2026-10-04T16:37:15.996Z",
+    "snippet": "Microsoft is bringing nature-inspired landscaping to more than 20 data center sites as critics question its motives.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/QFQkcyyBGELQpZQnSjmAD8-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/GGtUxd7HYZDkjiMeFsSnxJ-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "18abe9ccf9ddd37c",
+    "title": "Russia strikes Kyiv bridge as Germany’s Merz visits, pledges aid",
+    "link": "https://www.scmp.com/news/world/europe/article/3369698/russia-strikes-kyiv-bridge-germanys-merz-visits-pledges-aid?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-04T09:55:12.000Z",
+    "fetchedAt": "2026-10-04T16:37:16.291Z",
+    "snippet": "Russia struck a bridge in Kyiv on Sunday soon after Germany’s chancellor arrived in Ukraine’s capital on a surprise visit to demonstrate European support in the face of an upsurge in attacks. Air raid sirens blared across Kyiv, urging residents to shelter soon",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/04/acd1bb41-d44f-4a3a-83cf-a3a3ec4129b5_6716404f.jpg?itok=zA52Vn5a&v=1791107710"
+    ]
+  },
+  {
+    "id": "c4122f6db1144bec",
+    "title": "China’s hospital ships project a different kind of naval power in Africa",
+    "link": "https://www.scmp.com/opinion/china-opinion/article/3369439/chinas-hospital-ships-project-different-kind-naval-power-africa?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-04T08:30:06.000Z",
+    "fetchedAt": "2026-10-04T16:37:16.291Z",
+    "snippet": "When the Auspicious Ark entered Dakar, Senegal, on September 25, the scene looked closer to a public health mission than a naval deployment. Senegalese people and members of the Chinese community were waiting at the port as the vessel arrived for the first vis",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/01/9369ce5d-00ef-4c3d-a3b2-8b00deb20c64_2e98335f.jpg?itok=o2Ul9R0w&v=1790848580"
+    ]
+  },
+  {
+    "id": "0ebba1a39c73aa86",
+    "title": "Manycore's Aholo Lux3D Turns Three Photos Into an Editable 3D Asset via Agent and Blender",
+    "link": "https://pandaily.com/manycore-aholo-lux3d-blender-agent-3d-ai-harness-workflow",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-04T07:06:58.000Z",
+    "fetchedAt": "2026-10-04T16:37:15.877Z",
+    "snippet": "A Leiphone test shows Manycore's Aholo Lux3D generating an editable bronze sculpture from three photos, with an AI agent orchestrating the job and Blender finishing it.",
+    "images": [
+      "https://cms-image.pandaily.com/1/manycore_aholo_lux3d_blender_8fa3a84252.png"
+    ]
+  },
+  {
+    "id": "a2f565d432bf06dc",
+    "title": "Tianjin University Lab Unveils 3-Gram Non-Invasive Brain-Computer Interface That Hides in Hair",
+    "link": "https://pandaily.com/tianjin-university-haihe-lab-3-gram-non-invasive-bci-cube-worlds-smallest",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-04T07:06:45.000Z",
+    "fetchedAt": "2026-10-04T16:37:15.877Z",
+    "snippet": "Tianjin University's Haihe BCI lab unveiled a 3-gram, 2-cubic-centimeter non-invasive brain-computer interface that packs electrodes, battery and wireless link into one unit.",
+    "images": [
+      "https://cms-image.pandaily.com/1/tju_haihe_bci_cube_ab882f7afe.png"
+    ]
+  },
+  {
+    "id": "98ec71391856d29a",
+    "title": "DeepSeek Harness v0.2.1-alpha.1 Adds Experimental Claude Code Mods Compatibility Layer",
+    "link": "https://pandaily.com/deepseek-harness-v0-2-1-alpha-1-claude-code-mods-compatibility-layer",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-04T07:06:31.000Z",
+    "fetchedAt": "2026-10-04T16:37:15.877Z",
+    "snippet": "DeepSeek Harness v0.2.1-alpha.1 adds an experimental bridge that runs Claude Code Mods as Harness plugins, plus a new entry for agent-built plugins and a developer toolkit.",
+    "images": [
+      "https://cms-image.pandaily.com/1/deepseek_harness_v021_cc_mods_8ff3b1a18d.png"
+    ]
+  },
+  {
     "id": "90d7410c18759be5",
     "title": "Cornell University boss breaks silence over rape case uproar",
     "link": "https://www.scmp.com/news/world/united-states-canada/article/3369677/cornell-university-boss-breaks-silence-over-rape-case-uproar?utm_source=rss_feed",
@@ -10,7 +220,12 @@
     "snippet": "Cornell University president Michael Kotlikoff said he was “deeply disturbed” by a student’s 2024 rape allegation that has drawn national outrage. “My heart aches when I think of what she experienced,” Kotlikoff said in a video message released on Saturday, sa",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/04/04876ea9-612b-4f39-92c9-99976b6a344e_2cb4060a.jpg?itok=Iy6ZbEyH&v=1791080505"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "7875851b44c47e00",
@@ -23,7 +238,12 @@
     "snippet": "Gotion's new 46-series cylindrical cell for low-altitude aircraft reaches 330Wh/kg, sustains 6C discharge below 25% charge and supports fast charging or swapping in under five minutes.",
     "images": [
       "https://cms-image.pandaily.com/1/gotion_low_altitude_battery_0b38439642.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "400cf33b750fa8d5",
@@ -36,7 +256,12 @@
     "snippet": "A Xi'an Jiaotong University team ran a 6.774-trillion-cell simulation of 33 interacting rocket plumes on tens of thousands of domestic GPUs, reaching 99.01% weak-scaling efficiency.",
     "images": [
       "https://cms-image.pandaily.com/1/xjtu_sugon_8000_rocket_plume_24e8939f90.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "9f8c904ebeb478ef",
@@ -49,7 +274,12 @@
     "snippet": "openJiuwen's X-Router sends easy agent requests to light models and hard ones to stronger models, learning from feedback. Tests show near-baseline scores at roughly half the cost.",
     "images": [
       "https://cms-image.pandaily.com/1/openjiuwen_x_router_c87b4da363.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "cbf35882a03f12b0",
@@ -62,7 +292,12 @@
     "snippet": "US President Donald Trump shared online the supposed phone number of a Republican US senator on Saturday in an escalating dispute over making daylight saving time permanent. In a social media post, the president urged people to call a phone number he said belo",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/04/f5024a01-9647-4458-987e-6d09e1810967_7f4491e0.jpg?itok=Eu9nZQnk&v=1791076899"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "55a49ccf70fa7b9b",
@@ -73,6 +308,24 @@
     "publishedAt": "2026-10-03T23:11:44.000Z",
     "fetchedAt": "2026-10-04T04:55:33.607Z",
     "snippet": "Latvian Prime Minister Andris Kulbergs’ centrist, pro-Ukraine United List party won Saturday’s parliamentary election by an unexpectedly wide margin, partial results showed, with many voters on edge amid warnings of potential Russian aggression. With 88 per ce",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/04/4aa0b38d-3db0-48f9-8fbd-19f34e1f3fcf_20927efc.jpg?itok=_Osildk2&v=1791069097"
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "47b38cda6fe444c0",
+    "title": "Latvia’s Andris Kulbergs wins big in election shadowed by Russia",
+    "link": "https://www.scmp.com/news/world/europe/article/3369674/latvian-leader-poised-big-win-election-shadowed-putin?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-03T23:11:44.000Z",
+    "fetchedAt": "2026-10-04T16:37:16.292Z",
+    "snippet": "Latvian lawmakers on Sunday planned to begin negotiations to form a new government following a parliamentary election in which pro-Ukraine Prime Minister Andris Kulbergs ‘s four-party coalition emerged with 35 per cent of the vote. The United List party is exp",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/04/4aa0b38d-3db0-48f9-8fbd-19f34e1f3fcf_20927efc.jpg?itok=_Osildk2&v=1791069097"
     ]
@@ -86,7 +339,12 @@
     "publishedAt": "2026-10-03T18:43:57.000Z",
     "fetchedAt": "2026-10-04T04:55:32.834Z",
     "snippet": "The CEO of Amazon Web Services tried to push back against widespread suspicion of data centers.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "1122c14832066cfc",
@@ -100,7 +358,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/o6Rt8XTz7gaqvL46TZcxzg-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/xi79WuWDZXzix4Fc7sXNMn-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "76d26f3897b86be9",
@@ -113,7 +376,12 @@
     "snippet": "The head of Tennessee’s prison system is resigning, Governor Bill Lee announced on Saturday, the first major staff shake-up since Christa Pike’s stunning failed execution left her unconscious and on a ventilator at a hospital. Frank Strada, commissioner of the",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/04/560d7622-21de-4bab-bb7e-48a22800371c_837c6ca0.jpg?itok=x2-Hlb2M&v=1791046401"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "bc7038901bd1b642",
@@ -124,7 +392,12 @@
     "publishedAt": "2026-10-03T16:30:01.000Z",
     "fetchedAt": "2026-10-04T04:55:32.836Z",
     "snippet": "By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e9cdc00a9008a737",
@@ -206,10 +479,15 @@
     "category": "China AI",
     "publishedAt": "2026-10-03T13:57:44.000Z",
     "fetchedAt": "2026-10-04T04:55:33.607Z",
-    "snippet": "Yemen’s Houthis claimed an attack on an oil facility near the Saudi capital on Saturday, where flames and smoke were seen, and accused the Gulf kingdom of striking Sanaa dozens of times. The foes have traded strikes since the Houthis seized all of Yemen’s Red ",
+    "snippet": "Yemen’s Houthis claimed an attack on an oil facility near the Saudi capital on Saturday, where flames and smoke were seen, and accused the Gulf kingdom of striking Sanaa dozens of times. The foes have traded strikes since the Houthis seized all of Yemen’s Red",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/03/759e9922-7fe1-4a79-9c42-3a639e753c84_636b51c5.jpg?itok=m1uC0S50&v=1791035862"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "84b76e7a21c06646",
@@ -369,10 +647,15 @@
     "category": "China AI",
     "publishedAt": "2026-10-03T04:53:37.000Z",
     "fetchedAt": "2026-10-04T04:55:33.608Z",
-    "snippet": "The Flydubai co-pilot who officials said nearly crashed a Tel Aviv-bound flight with 182 people aboard was barred from flying by his native Oman over concerns he had adopted extremist views, a person familiar with the matter said on Saturday. The co-pilot has ",
+    "snippet": "The Flydubai co-pilot who officials said nearly crashed a Tel Aviv-bound flight with 182 people aboard was barred from flying by his native Oman over concerns he had adopted extremist views, a person familiar with the matter said on Saturday. The co-pilot has",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/03/e2dc3beb-3e42-4c4a-826f-e053d41d753c_f84d2395.jpg?itok=ScXPB8Ho&v=1791003210"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "4824cbdf722aa153",
@@ -5729,311 +6012,6 @@
     "snippet": "US President Donald Trump said on Sunday that he expects talks with Iran to resume in the coming week, despite his rejection of a truce proposal put forward by Tehran. Iranian officials brought with them to the UN General Assembly in New York a plan for a seve",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/28/0f84f6fd-6ad5-4fe3-94b2-36a62d3f6406_6c900630.jpg?itok=V-r7o19m&v=1790557963"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "d292c2e0b7c051f5",
-    "title": "Shooting at Detroit after-hours strip club leaves 3 dead, 4 injured",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3368979/3-people-killed-and-4-injured-shooting-michigan-strip-club-police-say?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-27T18:44:34.000Z",
-    "fetchedAt": "2026-09-28T04:23:00.577Z",
-    "snippet": "Three people were killed and four more were injured when an argument led to gunfire at an after-hours strip club Sunday morning in Detroit, officials said. Police responding to the 7.21am shooting on a largely residential street found three men who had been fa",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/28/b3ac8105-2910-4c46-94ac-6d27c5d6f7dc_2c433152.jpg?itok=MGd0Jhmt&v=1790567145"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "89a70ae67cb14523",
-    "title": "Britain’s Labour Party launches annual conference buoyed by Burnham",
-    "link": "https://www.scmp.com/news/world/europe/article/3368977/uk-labour-party-meets-buoyed-burnham-seeking-concrete-plans?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-27T17:54:17.000Z",
-    "fetchedAt": "2026-09-28T04:23:00.577Z",
-    "snippet": "Britain’s ruling Labour Party on Sunday launched its first annual conference under Andy Burnham’s leadership, buoyed by his debut as prime minister as he pledged to take the tough decisions needed to tackle looming challenges. The former mayor of Manchester ha",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/28/9f396d4d-1278-49da-952f-216109da69a5_655e8479.jpg?itok=NQb34PF8&v=1790568615"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "77c8b2028341b02f",
-    "title": "Anthropic’s Dario Amodei gets the SNL treatment",
-    "link": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-27T16:30:00.000Z",
-    "fetchedAt": "2026-09-27T16:37:43.869Z",
-    "snippet": "\"AI is the devil and I its maker.\"",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c1350ce7a3a3ee3d",
-    "title": "Grab this 14-inch compact gaming laptop powerhouse for $1000 off",
-    "link": "https://www.tomshardware.com/laptops/gaming-laptops/grab-this-14-inch-compact-gaming-laptop-powerhouse-for-usd1000-off-hp-omen-transcend-14-with-rtx-5070-and-3k-oled-display-drops-to-usd1-999-99-at-best-buy",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-09-27T15:21:30.000Z",
-    "fetchedAt": "2026-09-27T16:37:44.135Z",
-    "snippet": "The gaming laptop pairs Intel’s Core Ultra 9 285H with Nvidia’s RTX 5070 Laptop GPU and a 3K 120Hz OLED display, giving buyers a powerful compact machine at a reduced price.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/erdKbEmhvbv97DEAfud9j3-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Qas5o5QfbuAX6gW84injxZ-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "2a5d40b04856dd34",
-    "title": "Afghanistan says 28 dead fighters came from Pakistan as Islamabad denies ties",
-    "link": "https://www.scmp.com/news/asia/south-asia/article/3368972/afghanistan-says-28-dead-fighters-came-pakistan-islamabad-denies-ties?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-27T14:37:53.000Z",
-    "fetchedAt": "2026-09-27T16:37:44.496Z",
-    "snippet": "Afghanistan’s defence ministry said on Sunday its forces had killed 28 fighters and wounded 32 in the eastern province of Nuristan after a group it said included Islamic State militants travelled from Pakistan. The ministry alleged Pakistani militias ‌had supp",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/27/46e05246-aece-4515-966b-68b827f70fdb_73de31c5.jpg?itok=0_oPSqAi&v=1790519871"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "aeefa0ffd340122b",
-    "title": "Thieves steal Nvidia-labeled trailers expecting massive AI GPU payday, but score 40,000 pounds of sand instead",
-    "link": "https://www.tomshardware.com/pc-components/gpus/thieves-steal-nvidia-labeled-trailers-expecting-massive-ai-gpu-payday-but-score-40-000-pounds-of-sand-instead-crooks-duped-by-20-tons-of-ballast-sand",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-09-27T14:14:40.000Z",
-    "fetchedAt": "2026-09-27T16:37:44.136Z",
-    "snippet": "The two PlusAI trailers with Nvidia-partner markings were apparently left outside the startup's warehouse, making it a juicy target for criminals looking to make easy money on AI GPUs. However, they were deliberately left outside as the trailers only contained",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/dWDECvVWttEe2GSWwb8AU5-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "48d278b85494b810",
-    "title": "UK police arrest 5 on terrorism charges near airbase used by US in Iran war",
-    "link": "https://www.scmp.com/news/world/europe/article/3368968/uk-arrests-5-after-incident-near-airbase-used-us-bombers?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-27T14:00:18.000Z",
-    "fetchedAt": "2026-09-27T16:37:44.496Z",
-    "snippet": "UK police said on Sunday that five men arrested in the middle of the night near an airbase used by the United States during its war against Iran are being held on suspicion of preparing a terrorist act that appeared to involve three trucks. London’s Metropolit",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/27/ad2c7e7c-4b59-4f41-89e8-6407ba7f009a_415becf7.jpg?itok=SNjUUew8&v=1790517616"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "2b68701ffcffcfd2",
-    "title": "Gigabyte 1000GM PG5 1000W power supply review: Impressive Platinum-level efficiency with T-Guard thermal protection",
-    "link": "https://www.tomshardware.com/pc-components/power-supplies/gigabyte-1000gm-pg5-1000w-power-supply-review",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-09-27T13:00:00.000Z",
-    "fetchedAt": "2026-09-27T16:37:44.136Z",
-    "snippet": "Gigabyte's new Gaming series flagship, the Gigabyte 1000GM PG5 1000W, pairs an HEC-built platform with all-Japanese capacitors, Platinum-level efficiency, and T-Guard thermal protection for the 12V-2x6 connector.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/3GmgMFiMuBv5oQX3eUy9CW-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/DMu6gPCbSUFq5gC5Prz8GW-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/EHpVrygebnfSmtrPiJutfW-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/acZwNnae7kK27xCv5TappW-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/cgoygc8uLLPZuCXdoS3jQW-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "aa4f6e0aec85f442",
-    "title": "Linux enthusiasts see 10-second kernel compilation times on the horizon",
-    "link": "https://www.tomshardware.com/software/linux/linux-enthusiasts-see-10-second-kernel-compilation-times-on-the-horizon-ai-assisted-patches-cut-build-times-by-nearly-a-third-without-a-ramdisk",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-09-27T12:20:00.000Z",
-    "fetchedAt": "2026-09-27T16:37:44.136Z",
-    "snippet": "It won’t be long until Linux enthusiasts will be able to complete a clean kernel build in under 10 seconds thanks to advances in PC hardware and the AI-assisted optimization of compilers.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/j3i4k4NSzmSB3zYSzK3mEE-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "0a3252dce59bb899",
-    "title": "Developer says AI decision model Jev beat Pokémon Red in under a week",
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/developer-says-jev-decision-model-beat-pokemon-red-in-under-a-week-non-llm-engine-succeeds-where-traditional-chatbots-stalled-for-months-but-claude-opus-5-coached-the-model-through-its-dead-ends",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-09-27T11:30:00.000Z",
-    "fetchedAt": "2026-09-27T16:37:44.137Z",
-    "snippet": "TypeSafe AI's Jev beat Pokémon Red in under a week, eventually reaching the Hall of Fame.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/fNUKHSKSPNBCvfema8pZ9H-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "aae6e3da7119ec99",
-    "title": "U.S. and UK navies successfully launch 3,700-pound submarine-sinking torpedo from robotic drone submarine in historic first",
-    "link": "https://www.tomshardware.com/tech-industry/u-s-and-uk-navies-successfully-launch-3-700-pound-submarine-sinking-torpedo-from-robotic-drone-submarine-in-historic-first-project-broadsword-proves-weapon-interchangeability-in-just-seven-months",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-09-27T10:30:00.000Z",
-    "fetchedAt": "2026-09-27T16:37:44.137Z",
-    "snippet": "The U.S. Navy and Royal Navy have successfully launched a 3,700-pound Mk 48 heavyweight torpedo from Britain’s uncrewed XV Excalibur submarine, marking the first time the weapon has been fired from an autonomous underwater vehicle",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/xotrTnPm378Mtb83RzACm6-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "f69f16373e1eee83",
-    "title": "Hamas leader says Israel to use ‘blood’ of Palestinians as fuel for election",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3368926/hamas-leader-says-israel-use-blood-palestinians-fuel-election?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-27T01:31:33.000Z",
-    "fetchedAt": "2026-09-27T04:22:01.440Z",
-    "snippet": "The leader of Hamas brushed aside the possibility of change from Israel’s coming election in an interview, saying he expected Israelis to campaign off Gaza’s “blood”. “Whether this or that person comes to power, or this party or another – our people have suffe",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/27/d7881c0d-f9bc-4821-8164-7a29520a1e0d_e0bc6184.jpg?itok=8PRrOfKZ&v=1790472686"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "4b31748634e59b25",
-    "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
-    "link": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-27T01:30:00.000Z",
-    "fetchedAt": "2026-09-27T04:22:00.917Z",
-    "snippet": "The limited test covers select products and users, with a broader rollout planned for later in October.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "9e5a0a722e995de6",
-    "title": "Powerful storm pummels northeast US with rain and high winds",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3368922/powerful-storm-pummels-northeast-us-rain-and-high-winds?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-26T22:17:40.000Z",
-    "fetchedAt": "2026-09-27T04:22:01.440Z",
-    "snippet": "Heavy rain and strong winds battered the northeastern US on Saturday as an unusually powerful autumn storm intensified, forcing the cancellation of hundreds of flights and leaving tens of thousands of people without power. New York, Boston and Philadelphia wer",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/27/e09a9654-805b-47b8-b759-80fb0a7d44ac_a2985fa6.jpg?itok=NwpaGmIu&v=1790461059"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "41a01f8ce9ca6eae",
-    "title": "Insurers claim AI is already increasing healthcare costs",
-    "link": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-26T21:02:06.000Z",
-    "fetchedAt": "2026-09-27T04:22:00.918Z",
-    "snippet": "Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "643917217515e480",
-    "title": "Thousands march in Spain over eviction of 87-year-old woman Maricarmen Abascal",
-    "link": "https://www.scmp.com/news/world/europe/article/3368920/thousands-march-spain-over-eviction-87-year-old-woman-maricarmen-abascal?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-26T20:18:09.000Z",
-    "fetchedAt": "2026-09-27T04:22:01.440Z",
-    "snippet": "Thousands of people marched through Madrid on Saturday to protest the eviction earlier this week of an 87-year-old woman from her lifelong home, calling for greater protection for tenants. Images of Maricarmen Abascal being carried from her Madrid flat on a st",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/27/275241fe-56e2-4ec2-9eba-61a5fcf8e6f4_84e6ddf6.jpg?itok=2dAlZaXm&v=1790453881"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "20e71c4fbf0ce11b",
-    "title": "Iran says only diplomacy can end Hormuz crisis after Trump rejects deal",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3368917/trump-rejects-iran-proposal-deal-reopen-hormuz?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-26T17:02:16.000Z",
-    "fetchedAt": "2026-09-27T04:22:01.440Z",
-    "snippet": "Iran on Sunday insisted that only diplomacy can solve its conflict with the United States and Israel after US President Donald Trump said he rejected an Iranian proposal to reopen the Strait of Hormuz and end fighting. “Our conditions are clear and any move to",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/27/0df8e795-72b0-4af7-9112-46876ded56bb_90dcf663.jpg?itok=WlHRLpG0&v=1790442129"
     ],
     "titleZh": "",
     "snippetZh": "",
