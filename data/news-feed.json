@@ -1,5 +1,563 @@
 [
   {
+    "id": "5f2bc12be117992c",
+    "title": "Training Numerical Intelligence via Auto-Diagnosis and Skill Discovery",
+    "link": "https://arxiv.org/abs/2610.03872",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-06T04:00:00.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.379Z",
+    "snippet": "arXiv:2610.03872v1 Announce Type: new Abstract: AI agents are becoming increasingly capable of generating scientific code, but generating code is not the same as improving the algorithms behind it. For numerical solvers, execution feedback can expose poor perf",
+    "images": []
+  },
+  {
+    "id": "3b728b1dad22510b",
+    "title": "REACT: Physically and Chemically Consistent Reconstruction of Marine Active Tracers",
+    "link": "https://arxiv.org/abs/2610.03888",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-06T04:00:00.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.379Z",
+    "snippet": "arXiv:2610.03888v1 Announce Type: new Abstract: Reconstructing global sea surface pH from sparse observations is critical for monitoring ocean acidification and understanding marine carbon cycling. Traditional assimilation and inverse models are physically gro",
+    "images": []
+  },
+  {
+    "id": "c84a6f5cd1dfa47e",
+    "title": "Proxy Confidence: Auditing Black-Box LLM Agents with a Surrogate's Log-Probabilities",
+    "link": "https://arxiv.org/abs/2610.03894",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-06T04:00:00.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.379Z",
+    "snippet": "arXiv:2610.03894v1 Announce Type: new Abstract: A deployed LLM agent emits tool calls, queries, and code that can be silently wrong -- by the time the error surfaces, the action has run. Frontier chat APIs hide the model's token probabilities; the agent's stat",
+    "images": []
+  },
+  {
+    "id": "73c59aac2bcb1008",
+    "title": "SGAnalog: An End-to-End Circuit Benchmark from Open-Source Silicon Tapeouts",
+    "link": "https://arxiv.org/abs/2610.03934",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-06T04:00:00.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.379Z",
+    "snippet": "arXiv:2610.03934v1 Announce Type: new Abstract: Existing analog integrated circuit design benchmarks make two questions hard to answer: whether a model has learned transferable circuit skills rather than recalled familiar examples, and whether its output works",
+    "images": []
+  },
+  {
+    "id": "b6fc28df7b8574fc",
+    "title": "MLLMs Fail to Refuse when Using Tools Agentically",
+    "link": "https://arxiv.org/abs/2610.03938",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-06T04:00:00.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.379Z",
+    "snippet": "arXiv:2610.03938v1 Announce Type: new Abstract: Agentic multimodal large language models (MLLMs) have recently pushed the frontier of visual reasoning by calling tools such as zooming and tagging. Despite the recent strong success of agentic MLLMs, this work u",
+    "images": []
+  },
+  {
+    "id": "881da18ab78ec324",
+    "title": "Retrieval-Augmented Large Language Model Decision-Making for Autonomous Driving Guided by Chinese Philosophical Wisdom",
+    "link": "https://arxiv.org/abs/2610.03948",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-06T04:00:00.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.379Z",
+    "snippet": "arXiv:2610.03948v1 Announce Type: new Abstract: Autonomous driving decision systems must balance safety, efficiency, and social norms in complex traffic interactions. Philosophical and ethical considerations have received limited attention in existing autonomo",
+    "images": []
+  },
+  {
+    "id": "528d43e35127b15f",
+    "title": "LatentQuant: Preserving the Policy-Facing Latent Contract under NVFP4 VAE Quantization",
+    "link": "https://arxiv.org/abs/2610.03959",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-06T04:00:00.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.379Z",
+    "snippet": "arXiv:2610.03959v1 Announce Type: new Abstract: Recent world action models (WAMs) reuse pretrained video VAEs whose encoder latents directly condition downstream action policies. Quantization must therefore preserve not only reconstruction fidelity but also th",
+    "images": []
+  },
+  {
+    "id": "aa68dfbe6af49b55",
+    "title": "ROAR: Unifying Runs across Heterogeneous AI-Driven Research Systems",
+    "link": "https://arxiv.org/abs/2610.03966",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-06T04:00:00.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.379Z",
+    "snippet": "arXiv:2610.03966v1 Announce Type: new Abstract: Each run of an AI-driven research system (ADRS) is an expensive search over a vast solution space, and dependable evaluation requires many runs, making run data both costly to produce and valuable to retain for l",
+    "images": []
+  },
+  {
+    "id": "c548b3e9e82e3f30",
+    "title": "Teaching Agents to Code Reliably",
+    "link": "https://arxiv.org/abs/2610.03984",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-06T04:00:00.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.379Z",
+    "snippet": "arXiv:2610.03984v1 Announce Type: new Abstract: Autonomous coding agents solve repository issues by reading code, running commands, editing files, and submitting patches. Extra inference-time compute yields gains only when it produces a useful repair and suppl",
+    "images": []
+  },
+  {
+    "id": "05be9b352db22033",
+    "title": "Behavioral History Outperforms Descriptions of the Person for LLM Synthetic Personas",
+    "link": "https://arxiv.org/abs/2610.03998",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-06T04:00:00.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.379Z",
+    "snippet": "arXiv:2610.03998v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used as synthetic personas representing survey respondents. Their validity as substitutes for particular respondents depends on whether they reproduce individuals' de",
+    "images": []
+  },
+  {
+    "id": "74401a0ab919c2df",
+    "title": "Trump approves firing squad execution for US military base shooter Nidal Hasan",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3369851/trump-approves-firing-squad-execution-us-military-base-shooter-nidal-hasan?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-06T02:17:38.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.570Z",
+    "snippet": "US President Donald Trump has approved the execution by firing squad of Nidal Hasan, a US Army psychiatrist who shot dead 13 people at a military base in 2009, the Pentagon said on Monday. Hasan’s execution for the attack at Fort Hood in Texas – which also wou",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/06/f346cd83-99f8-47df-8740-85e4f3ed43bc_626d4330.jpg?itok=sTIF2uBh&v=1791253056"
+    ]
+  },
+  {
+    "id": "3800a3729f9028f5",
+    "title": "POWERCHINA Connects 1-GW Gonghe Solar PV and Molten-Salt Tower Project in Qinghai to the Grid",
+    "link": "https://pandaily.com/powerchina-gonghe-qinghai-1gw-photovoltaic-solar-thermal-project-grid-connected",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-06T01:55:17.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.178Z",
+    "snippet": "POWERCHINA's Gonghe project in Qinghai, pairing 900 MW of PV with a 100 MW molten-salt tower plant and 10,310 heliostats, is on the grid, completing China's first three-tower solar thermal base.",
+    "images": [
+      "https://cms-image.pandaily.com/1/powerchina_gonghe_pv_csp_fe0ebba145.png"
+    ]
+  },
+  {
+    "id": "c0eb56bcf45fac14",
+    "title": "Hollow-Core Fiber Enters Commercial Use Between Ningxia Computing Centers, Cutting Latency Over 30%",
+    "link": "https://pandaily.com/hollow-core-fiber-commercial-use-zhongwei-ningxia-intelligent-computing-centers",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-06T01:55:02.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.178Z",
+    "snippet": "Hollow-core fiber is now in commercial use between intelligent computing centers in Zhongwei, Ningxia, cutting latency and loss by over 30% as light travels at 99.7% of its vacuum speed.",
+    "images": [
+      "https://cms-image.pandaily.com/1/hollow_core_fiber_zhongwei_33af144d5c.png"
+    ]
+  },
+  {
+    "id": "a263cc7e08ba1865",
+    "title": "Transfar Opens 300+ Industrial Scenarios to Embodied AI, From Chemical Plants to Logistics Parks",
+    "link": "https://pandaily.com/transfar-opens-300-industrial-scenarios-embodied-ai-robots-chemical-logistics",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-06T01:54:49.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.179Z",
+    "snippet": "Zhejiang manufacturer Transfar is opening 300+ real industrial scenarios, from chemical plants to logistics parks and farms, as test grounds where robots can be trained and deployed.",
+    "images": [
+      "https://cms-image.pandaily.com/1/transfar_300_scenarios_embodied_ai_d9dafcb581.png"
+    ]
+  },
+  {
+    "id": "55ee5ed3eba41d63",
+    "title": "Moxin Technology Puts Its MoWorld 4D World Model on a Phone, Turning Pet Photos into Digital Twins",
+    "link": "https://pandaily.com/moxin-technology-moworld-4d-world-model-huawei-mate-90-on-device-pet-digital-twin",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-06T01:54:34.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.179Z",
+    "snippet": "Moxin Technology's MoWorld turns a few pet photos into an animated 4D twin on Huawei's Mate 90, pairing Ascend cloud generation with a 600M-parameter model on Kirin.",
+    "images": [
+      "https://cms-image.pandaily.com/1/moxin_moworld_mate90_pet_twin_8d69dbec18.png"
+    ]
+  },
+  {
+    "id": "f2031a7c8b0d807d",
+    "title": "Backlash forces Trump to pay for TV ads featuring himself",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3369846/trump-says-will-pay-tv-ads-after-pushback-over-taxpayer-funding-close-election?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-05T23:34:24.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.570Z",
+    "snippet": "US President Donald Trump ⁠on Monday said taxpayers will no longer ⁠pay for television ads featuring him shortly before the November congressional elections after widespread criticism of the campaign-style spots. Ethics experts and lawmakers from both parties ",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/06/8f03f76e-b757-48f3-b77d-b3519b0a941f_d0d1e885.jpg?itok=i5p1GM6m&v=1791260147"
+    ]
+  },
+  {
+    "id": "ac79c2f2a851694e",
+    "title": "It's finally a good time to buy a Raptor Lake CPU during Prime Big Deals Day",
+    "link": "https://www.tomshardware.com/pc-components/cpus/its-finally-a-good-time-to-buy-a-raptor-lake-cpu-during-prime-big-deals-day-chips-drop-to-all-time-low-prices-as-inventory-seemingly-stabilizes",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-10-05T23:25:04.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.337Z",
+    "snippet": "Intel's 14th Gen Raptor Lake Refresh CPUs are finally getting some good discounts after a year of inconsistent pricing, and some of these chips are even dropping to all-time lows.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/YDXm98ttXn6ayyn3w5xA85-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/jBp8pv3MTsgV9U2yXWjp9f-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/XgkmCsVYS3HW3hcAQzhBEi-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/S2CBVfwVdCvQNwMPzrAJUA-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/ofp8rvVHJGEZcaJzc8Akek-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "237fc6db64af6d33",
+    "title": "MCP for agent-to-agent comms may be the riskiest protocol you&#039;ve never heard of",
+    "link": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
+    "source": "Ars Technica AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-05T22:26:35.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.456Z",
+    "snippet": "Trust gaps in the new protocol spread malicious prompts from one agent to another.",
+    "images": [
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-1152x648.jpg",
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-500x500.jpg"
+    ]
+  },
+  {
+    "id": "dffe8b7b3fd06017",
+    "title": "Trump says US moved bombers from UK airbase after threats",
+    "link": "https://www.scmp.com/news/world/europe/article/3369843/us-bombers-moved-uk-airbase-due-iran-linked-threats-trump-says?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-05T21:40:14.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.570Z",
+    "snippet": "US President Donald Trump said on Monday that a threat linked to Iran ⁠had prompted the removal of American B-1 bombers from a British airbase. The planes had been stationed at RAF Fairford, the preferred European base for US bombers, and had recently been use",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/06/d9f3be1b-1161-4322-bd21-f125807b982a_99785f64.jpg?itok=upVD_RHs&v=1791262771"
+    ]
+  },
+  {
+    "id": "8398586811578a86",
+    "title": "Jeffrey Archer, British novelist and former politician, dies at 86",
+    "link": "https://www.scmp.com/news/world/europe/article/3369841/jeffrey-archer-former-british-politician-and-novelist-dies-aged-86?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-05T21:11:08.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.570Z",
+    "snippet": "Jeffrey Archer, the bestselling British novelist and former politician who was jailed for lying in a high-profile libel case, has died aged 86, his publisher HarperCollins said on Monday. Archer sold over 300 million copies worldwide and was known for pacy thr",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/06/2aed7f2d-88fa-4e45-9a1d-9f4a4c7eafde_c20459dc.jpg?itok=I6Iuj2ud&v=1791254235"
+    ]
+  },
+  {
+    "id": "e36f45e9ca643f52",
+    "title": "Former American Idol singer Caleb Flynn sentenced to life for wife’s murder",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3369840/former-american-idol-singer-caleb-flynn-sentenced-life-prison-wifes-murder?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-05T20:52:23.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.570Z",
+    "snippet": "A former music pastor in Ohio who appeared briefly on American Idol was sentenced Monday to life in prison without the possibility of parole, after a jury convicted him last week of murdering his wife while he was having an affair. The judge said Caleb Flynn, ",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/06/c0ef42ea-ff9f-4b7b-be43-5b9c13273fe8_4c3ad049.jpg?itok=jOAdyCBC&v=1791257494"
+    ]
+  },
+  {
+    "id": "c3ce0911b09c0472",
+    "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
+    "link": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-05T20:36:48.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.124Z",
+    "snippet": "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",
+    "images": []
+  },
+  {
+    "id": "3678bab34bcc98bc",
+    "title": "International Criminal Court unseals arrest warrants for Taliban ministers",
+    "link": "https://www.scmp.com/news/asia/south-asia/article/3369838/icc-unseals-arrest-warrants-4-taliban-leaders-wanted-gender-persecution-charges?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-05T19:43:42.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.570Z",
+    "snippet": "The International Criminal Court on Monday gave more details about arrest warrants issued last year for two Afghan education ministers accused of committing crimes against humanity through the Taliban government’s restrictions on women and girls. The warrants,",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/06/13bbe5cd-f2a4-48f7-86dd-0774ccd05093_1bb21d65.jpg?itok=rVbEoZEv&v=1791262597"
+    ]
+  },
+  {
+    "id": "be1c071b3871b392",
+    "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+    "link": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-05T19:33:53.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.126Z",
+    "snippet": "Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build “AI factories,” a product that would let institutions build their own customized, local AI system by training Reflection’s AI models on their own proprietar",
+    "images": []
+  },
+  {
+    "id": "bfb9885f2b263f3d",
+    "title": "Nvidia RTX 5060 Ti gaming PC hits $999 with 8-core Ryzen CPU, 16GB RAM, and 1TB PCIe 4.0 SSD — $600 instant savings on a complete 1080p powerhouse",
+    "link": "https://www.tomshardware.com/pc-components/nvidia-rtx-5060-ti-gaming-pc-hits-usd999-with-8-core-ryzen-cpu-16gb-ram-and-1tb-pcie-4-0-ssd-usd600-instant-savings-on-a-complete-1080p-powerhouse",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-10-05T19:28:28.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.337Z",
+    "snippet": "MSI's Codex Z2C is on sale for $999 and comes with a Ryzen 7 8700F and a GeForce RTX 5060 Ti 8GB.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/V5X2m2ki282GPuvdoMEEQN-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/JkJE7dfeL5TBjwqPCyZDyf-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "b0cd900ff0497c94",
+    "title": "Command-line tool quickly removes Apple Intelligence from macOS 27",
+    "link": "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
+    "source": "Ars Technica AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-05T19:14:44.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.456Z",
+    "snippet": "The tool can free up over 12GB of storage.",
+    "images": [
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/03/Screenshot-2026-03-03-at-10.30.27-AM-1152x648.jpeg",
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/03/Screenshot-2026-03-03-at-10.30.27-AM-500x500.jpeg"
+    ]
+  },
+  {
+    "id": "8678d2bc991b7bd0",
+    "title": "Instinct brings its AI agent to group chats, even for friends without an account",
+    "link": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-05T18:54:30.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.126Z",
+    "snippet": "Instinct is launching group chats that let friends use its AI agent together for tasks like planning trips, organizing carpools, and coordinating events. The company says personal accounts remain separate, with permission required before personal agents share ",
+    "images": []
+  },
+  {
+    "id": "7887de647054e430",
+    "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
+    "link": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-05T18:29:00.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.126Z",
+    "snippet": "TikTok describes its new Shopping Assistant as a conversational AI agent designed to help users discover and purchase products.",
+    "images": []
+  },
+  {
+    "id": "42fa106111ab4c25",
+    "title": "Nintendo Switch 2 drops to £354.99 all-time low to defy the AI tax — pocket £65 in savings across these retailers",
+    "link": "https://www.tomshardware.com/video-games/nintendo/nintendo-switch-2-drops-to-gbp354-99-all-time-low-to-defy-the-ai-tax-pocket-gbp65-in-savings-across-these-retailers",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-10-05T18:13:45.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.337Z",
+    "snippet": "The Nintendo Switch 2, typically priced at £419.99, is now available for just £354.99, giving you a great 15% savings!",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/XX9Q4oYs6r8HYSRgBmMz9M-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/U6a6aKFbf7miCJ5zT5E2pi-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "1d15363c321d49cb",
+    "title": "Hot Girl Hotline is like &#8216;Dear Abby’ for the AI era",
+    "link": "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-05T17:29:22.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.126Z",
+    "snippet": "Founded by two sisters, Hot Girl Hotline uses AI to give young women personalized dating and relationship advice, with an emphasis on safety and avoiding emotional dependency.",
+    "images": []
+  },
+  {
+    "id": "0e37ee8ab185bf90",
+    "title": "Russia plays down plague reports after lab worker death",
+    "link": "https://www.scmp.com/news/world/russia-central-asia/article/3369836/after-plague-death-reports-siberia-lab-russia-says-situation-under-control?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-05T17:14:30.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.570Z",
+    "snippet": "Russia on Monday sought to play down reports that a laboratory technician had died of plague, even as US President Donald Trump said Washington was closely monitoring the situation and offered US help. Reports on Friday that pneumonic plague had killed a 28-ye",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/06/05249d3d-a959-4f55-a6f8-c5d8b6e200ff_37a4aa4f.jpg?itok=tBhoJwQZ&v=1791220379"
+    ]
+  },
+  {
+    "id": "060c967426c40bf3",
+    "title": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
+    "link": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-05T16:43:35.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.127Z",
+    "snippet": "HackerRank’s AI interviewer has already conducted more than 500,000 interviews, with Snowflake, Snorkel, and Capgemini among its early testers.",
+    "images": []
+  },
+  {
+    "id": "93014dafe51bc0de",
+    "title": "Intel's Googlebooks might not run some Android apps as well as Qualcomm's",
+    "link": "https://www.tomshardware.com/laptops/ultrabooks-ultraportables/intels-googlebooks-might-not-run-some-android-apps-as-well-as-qualcomms-google-says-this-is-because-android-apps-were-designed-for-arm-chips",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-10-05T15:53:44.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.338Z",
+    "snippet": "Some Android apps not optimized for x86-64 may have trouble running on Intel Googlebooks.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/S36LUQXQBe6D3TPy2TNwYM-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "facd0479c68e2e66",
+    "title": "Connecting AI agents to enterprise knowledge",
+    "link": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
+    "source": "MIT Technology Review",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-05T15:47:52.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.137Z",
+    "snippet": "For all the data that AI systems continually amass and analyze, enterprise AI agents often suffer from a curious shortcoming: a lack of knowledge. More than data, knowledge is the understanding of what the data means in the context of individual organizations.",
+    "images": [
+      "https://wp.technologyreview.com/wp-content/uploads/2026/10/Neo4j-Report-2026-cover.png",
+      "https://wp.technologyreview.com/wp-content/uploads/2026/10/Neo4j-Social-Card-3.png"
+    ]
+  },
+  {
+    "id": "d1ab268aa074c940",
+    "title": "AMD attempts to get ahead of expected RTX Spark launch with Gorgon Halo benchmarks",
+    "link": "https://www.tomshardware.com/pc-components/cpus/amd-attempts-to-get-ahead-of-expected-rtx-spark-launch-with-gorgon-halo-ai-benchmarks-company-says-it-has-shipped-over-half-a-million-agentic-pcs-to-date",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-10-05T15:38:45.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.338Z",
+    "snippet": "AMD is getting ahead of an expected RTX Spark launch later this week with a few benchmarks for its flagship Gorgon Halo chip, the Ryzen AI Max+ Pro 495.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/Kb7ipLjAkMtvShGfbBHACf-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Xh2MupWrRjJPiLLuopmKRB-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/97PWMs5ECyz3nqhLh2Cuu6-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/TfERuQxfCy3TJQtzSazPN6-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/W7wxx4TYAxfjMws47a2NN6-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "71197ed770420d23",
+    "title": "OpenAI launches visual ads that appear alongside image generation results",
+    "link": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-05T15:14:24.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.127Z",
+    "snippet": "The new ads will begin to appear later this month in the U.S. only for now, and will feature products and services from an initial test group of advertisers.",
+    "images": []
+  },
+  {
+    "id": "11fd5b9500f13334",
+    "title": "Open or closed AI? How founders are choosing what to build on at TechCrunch Disrupt 2026",
+    "link": "https://techcrunch.com/2026/10/05/open-or-closed-ai-how-founders-are-choosing-what-to-build-on-at-techcrunch-disrupt-2026/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-05T15:00:00.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.127Z",
+    "snippet": "Learn how founders are choosing between building on open or closed AI at TechCrunch Disrupt 2026. Register now to save up to $100 and get a second pass at 50% off.",
+    "images": []
+  },
+  {
+    "id": "861066e14472b944",
+    "title": "Researchers are tracking a Chinese AI &#8216;agent fleet’",
+    "link": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-05T14:35:09.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.127Z",
+    "snippet": "Independent researchers discovered an agent swarm that seems to be running on Tencent's infrastructure and targeting Alibaba's map service, Amap.",
+    "images": []
+  },
+  {
+    "id": "831336b7a68006a1",
+    "title": "Meet the Startup Battlefield 200 judges who’ll decide the winner at TechCrunch Disrupt 2026",
+    "link": "https://techcrunch.com/2026/10/05/meet-the-startup-battlefield-200-judges-wholl-decide-the-winner-at-techcrunch-disrupt-2026/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-05T14:30:00.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.127Z",
+    "snippet": "Meet the final five Startup Battlefield judges who'll decide who wins the pitch competition at TechCrunch Disrupt 2026. Get your pass now to save up to $100, and get a second at 50% off.",
+    "images": []
+  },
+  {
+    "id": "a143920e71b027da",
+    "title": "AI glasses face their first major government crackdown",
+    "link": "https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/",
+    "source": "Ars Technica AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-05T13:39:30.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.456Z",
+    "snippet": "Norway wants time to write permanent rules for glasses that can record bystanders.",
+    "images": [
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/03/546417470_31238681149113739_395523165946500898_n.jpg",
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/03/546417470_31238681149113739_395523165946500898_n-500x424.jpg"
+    ]
+  },
+  {
+    "id": "21b394ae07acedc7",
+    "title": "Bringing predictive analytics to the agentic AI era",
+    "link": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
+    "source": "MIT Technology Review",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-05T13:29:32.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.138Z",
+    "snippet": "In 2026, the question for enterprise AI is no longer whether predictive models can outperform statistical forecasts—that argument is settled. The big question now is how to enable predictive systems to act on their own conclusions without drifting from busines",
+    "images": [
+      "https://wp.technologyreview.com/wp-content/uploads/2026/09/MIT_TP_CoverPredictiveAnalyticsV9_9926.png?w=840",
+      "https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTR2026_TP3_SocialsV3_DannyKQuote.png"
+    ]
+  },
+  {
+    "id": "b0f9e015b26499b4",
+    "title": "The Download: AI’s popularity paradox and EmTech Future 2026",
+    "link": "https://www.technologyreview.com/2026/10/05/1145711/the-download-ai-popularity-paradox-emtech-future-2026/",
+    "source": "MIT Technology Review",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-05T12:10:00.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.138Z",
+    "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. People really hate AI, so why can’t they get enough? —Will Douglas Heaven Over the summer I talked to the CEO of Springboa",
+    "images": [
+      "https://wp.technologyreview.com/wp-content/uploads/2026/03/Clones-3.jpg?fit=2128,1196"
+    ]
+  },
+  {
+    "id": "b0bfabc9e87343ef",
+    "title": "People really hate AI, so why can’t they get enough?",
+    "link": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
+    "source": "MIT Technology Review",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-05T08:00:00.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.138Z",
+    "snippet": "Over the summer I talked to the CEO of Springboards, a startup building an LLM that’s designed to come up with a wider variety of responses than its mainstream rivals do. At the start of the call, he said something that’s been stuck in my head since: “We often",
+    "images": []
+  },
+  {
+    "id": "e2c5242c153d3888",
+    "title": "CosMX Details 40% Silicon-Anode Cell Behind Honor Magic9 Pro Max's 8,800mAh Battery",
+    "link": "https://pandaily.com/cosmx-40-percent-silicon-anode-battery-cell-honor-magic9-pro-max-8800mah-1000wh-l",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-05T07:14:44.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.179Z",
+    "snippet": "Zhuhai CosMX Battery is launch supplier of the 40% silicon-anode cell and pack in the Honor Magic9 Pro Max, using a new anode binder and low-expansion formula to curb swelling.",
+    "images": [
+      "https://cms-image.pandaily.com/1/cosmx_40pct_silicon_anode_honor_magic9_ae4fd48e14.png"
+    ]
+  },
+  {
+    "id": "b240ba3032025d03",
+    "title": "Dalian University of Technology's VA-Bench: Top Multimodal Models Finish Only Half of Robot Tasks",
+    "link": "https://pandaily.com/dalian-university-of-technology-va-bench-multimodal-models-robot-arm-tasks-qwen3-8-max",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-05T07:14:31.000Z",
+    "fetchedAt": "2026-10-06T05:29:33.180Z",
+    "snippet": "VA-Bench from Dalian University of Technology tests 12 multimodal model setups on robot-arm tasks; Qwen3.8-max leads at 53.93%, and none finishes a strict long-horizon task.",
+    "images": [
+      "https://cms-image.pandaily.com/1/dlut_va_bench_robot_arm_b0c88f90b4.png"
+    ]
+  },
+  {
     "id": "adc0d1be6e87b33f",
     "title": "EmTech Future 2026: When AI Meets Everything",
     "link": "https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/",
@@ -10,7 +568,12 @@
     "snippet": "Yossi Matias, Vice President &#38; Head of Google Research, explores how AI is beginning to reshape biology, infrastructure, manufacturing, and science, and why its greatest impact may come when it intersects with other fields.&#160; Step inside the newsroom w",
     "images": [
       "https://wp.technologyreview.com/wp-content/uploads/2026/10/EFT_On-Demad_WEB.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "bcba8dbb5e3a7d63",
@@ -21,7 +584,12 @@
     "publishedAt": "2026-10-05T04:00:00.000Z",
     "fetchedAt": "2026-10-05T04:43:04.953Z",
     "snippet": "arXiv:2610.02260v1 Announce Type: new Abstract: Flow matching models excel at generative modeling, and many downstream applications require their samples to satisfy prescribed constraints, such as observed measurements and physical laws. However, existing cons",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "16a9c9d56210913d",
@@ -32,7 +600,12 @@
     "publishedAt": "2026-10-05T04:00:00.000Z",
     "fetchedAt": "2026-10-05T04:43:04.953Z",
     "snippet": "arXiv:2610.02267v1 Announce Type: new Abstract: Agent harnesses make many small, typed decisions per task: which model to call, which tool to use, whether retrieved text is relevant, whether an input carries an injection. System-1 decision models answer such q",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "5a9aedb09f233abb",
@@ -43,7 +616,12 @@
     "publishedAt": "2026-10-05T04:00:00.000Z",
     "fetchedAt": "2026-10-05T04:43:04.953Z",
     "snippet": "arXiv:2610.02281v1 Announce Type: new Abstract: Societal resilience research relies on access to useful and actionable data, which motivates our main research question: Can annual reports, processed at scale with LLMs, provide a useful signal about how compani",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "f9ed4ede54d2ec37",
@@ -54,7 +632,12 @@
     "publishedAt": "2026-10-05T04:00:00.000Z",
     "fetchedAt": "2026-10-05T04:43:04.953Z",
     "snippet": "arXiv:2610.02300v1 Announce Type: new Abstract: Training-free safeguards for text-to-image generation often rely on a reusable safety signal, such as an unsafe direction or global toxic subspace, applied broadly across prompts. We provide a controlled geometri",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "46f347ed8b8887b8",
@@ -65,7 +648,12 @@
     "publishedAt": "2026-10-05T04:00:00.000Z",
     "fetchedAt": "2026-10-05T04:43:04.953Z",
     "snippet": "arXiv:2610.02330v1 Announce Type: new Abstract: Large language models (LLMs) rely on long-horizon tool invocation sequences for complex tasks, where each invocation can alter the task state and condition subsequent decisions. In long-horizon tool use, final-ou",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a40944a54015a2fa",
@@ -76,7 +664,12 @@
     "publishedAt": "2026-10-05T04:00:00.000Z",
     "fetchedAt": "2026-10-05T04:43:04.953Z",
     "snippet": "arXiv:2610.02331v1 Announce Type: new Abstract: Interactive world models are increasingly capable of generating environments and acting within them, yet deliberately editing an existing executable world remains underexplored. We formulate world editing as inte",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "7a205858c21d3e8a",
@@ -87,7 +680,12 @@
     "publishedAt": "2026-10-05T04:00:00.000Z",
     "fetchedAt": "2026-10-05T04:43:04.954Z",
     "snippet": "arXiv:2610.02342v1 Announce Type: new Abstract: Natural Visibility Graph (NVG) based analysis characterizes network traffic through topological descriptors reflecting different structural properties. However, not all descriptors contribute equally to cyber-att",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "6bc2e9bc5eced73e",
@@ -98,7 +696,12 @@
     "publishedAt": "2026-10-05T04:00:00.000Z",
     "fetchedAt": "2026-10-05T04:43:04.954Z",
     "snippet": "arXiv:2610.02351v1 Announce Type: new Abstract: ReAct-based agents typically rely on a single LLM policy to propose actions, interact with the environment, and decide when a task is complete. This coupling makes action authorization and completion control diff",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "00bc85e49aff3fb8",
@@ -109,7 +712,12 @@
     "publishedAt": "2026-10-05T04:00:00.000Z",
     "fetchedAt": "2026-10-05T04:43:04.954Z",
     "snippet": "arXiv:2610.02372v1 Announce Type: new Abstract: Text-to-image generation enables users to explore several images generated from the same prompt. For these generated images to be useful, each one must reflect the user's preferences, measured by a learned reward",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "924a9438df6bf7ab",
@@ -119,8 +727,13 @@
     "category": "Other AI Tech",
     "publishedAt": "2026-10-05T04:00:00.000Z",
     "fetchedAt": "2026-10-05T04:43:04.954Z",
-    "snippet": "arXiv:2610.02378v1 Announce Type: new Abstract: In Recirculating Aquaculture Systems (RAS), precision feeding is critical for minimizing costs and improving fish welfare. However, existing methods lack cognitive alignment between fish behaviors and management ",
-    "images": []
+    "snippet": "arXiv:2610.02378v1 Announce Type: new Abstract: In Recirculating Aquaculture Systems (RAS), precision feeding is critical for minimizing costs and improving fish welfare. However, existing methods lack cognitive alignment between fish behaviors and management",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "934e012f87d5b5fd",
@@ -133,7 +746,12 @@
     "snippet": "The haimacloud GEAR pairs a local Snapdragon 865 with cloud servers running Core i7-12700KF and RTX 70-class GPUs at 1080p/144 FPS; hardware starts at 3,149 yuan.",
     "images": [
       "https://cms-image.pandaily.com/1/haimacloud_gear_handheld_99f6013953.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "d39c31e44c77c966",
@@ -146,7 +764,12 @@
     "snippet": "Main works on the west zone of S3FEL, Shenzhen's 2.5 GeV, 1 MHz superconducting soft X-ray free-electron laser, began on September 30, with first light planned for September 2032.",
     "images": [
       "https://cms-image.pandaily.com/1/shenzhen_s3fel_west_zone_891fd03313.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "dcd32a593245840e",
@@ -159,7 +782,12 @@
     "snippet": "Phase II of the Hainan commercial launch site in Wenchang is basically complete after 612 days, with Pads 3 and 4 in full-system rehearsal and annual capacity set to reach 60 launches.",
     "images": [
       "https://cms-image.pandaily.com/1/hainan_commercial_launch_site_phase2_fc9dc52652.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "60340ab0a55a7faa",
@@ -172,7 +800,12 @@
     "snippet": "SuperCLUE's September embodied brain leaderboard puts Alibaba's Qwen3.8-Max-0902 and ZTE's Nebula-EmbodiedBrain level at 77.48, with Xiaomi's MiMo-Embodied-7B leading small models.",
     "images": [
       "https://cms-image.pandaily.com/1/superclue_embodied_brain_sep2026_b9a00dcaa9.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "4a6ad9f6e1e30bbd",
@@ -185,7 +818,12 @@
     "snippet": "FBI Director Kash Patel is engaged to his country singer girlfriend, Alexis Wilkins, the pair announced in a post to X on Sunday evening. Wilkins, 27, posted a black-and-white photo of herself standing with Patel, 46, flashing her hand in front of them to show",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/05/6ffd097d-376a-406f-805c-c48b650f3b61_7a66bdaa.jpg?itok=yzB0g-Ji&v=1791163699"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "933cc7ca4efba7c1",
@@ -198,7 +836,12 @@
     "snippet": "A Laotian citizen deported by the United States to eSwatini under Donald Trump administration’s immigration crackdown was released from a maximum-security prison in the African nation on Sunday after being held there for more than a year, his lawyer said. Phon",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/05/c354711c-e0e3-4d17-a666-d25c334cfc7b_d7e6b01d.jpg?itok=WedOk-e3&v=1791161290"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "9c353b3cf59a0659",
@@ -211,7 +854,12 @@
     "snippet": "US Authorities on Sunday suspended the search off the Massachusetts coast for six people on an air ambulance that disappeared during a flight from Bermuda to Boston. The US Coast Guard said authorities searched more than 7,081km (4,400 miles) over a span of 66",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/05/613edb59-8207-4c69-9909-5befa009a42c_e9ea316c.jpg?itok=EEyOy2OX&v=1791171965"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "dd2710553e873846",
@@ -221,10 +869,15 @@
     "category": "China AI",
     "publishedAt": "2026-10-04T21:31:53.000Z",
     "fetchedAt": "2026-10-05T04:43:05.146Z",
-    "snippet": "The US Air Force has removed its bombers stationed at a US-run military airbase in England used to strike Iran following an investigation into a planned terror attack at the RAF Fairford base. The bombers were redeployed back to their home bases in the United ",
+    "snippet": "The US Air Force has removed its bombers stationed at a US-run military airbase in England used to strike Iran following an investigation into a planned terror attack at the RAF Fairford base. The bombers were redeployed back to their home bases in the United",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/05/b61b0237-e3c7-4419-93e3-608a0a5aaf2c_1806a891.jpg?itok=Fodr46QT&v=1791168353"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e3b96c2e5665be0d",
@@ -235,7 +888,12 @@
     "publishedAt": "2026-10-04T20:31:07.000Z",
     "fetchedAt": "2026-10-05T04:43:04.502Z",
     "snippet": "AI slop seems to be overwhelming bug bounty programs.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c56ea1a5aac23bc4",
@@ -248,7 +906,12 @@
     "snippet": "Israeli Prime Minister Benjamin Netanyahu ordered a security review of international flights to Israel on Sunday, after an attempt by an Omani co-pilot to crash an Israel-bound plane from Dubai. Netanyahu “has instructed the head of the National Security Counc",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/05/8c093fda-f5ab-4e35-8142-9e297b96f1fb_4f1a3009.jpg?itok=cy8opGFq&v=1791171218"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "f046877e1985c3fa",
@@ -259,7 +922,12 @@
     "publishedAt": "2026-10-04T20:08:34.000Z",
     "fetchedAt": "2026-10-05T04:43:04.503Z",
     "snippet": "On Equity, we discussed the Trump administration's attempts to rebrand AI.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "1c0d62b4ab007e4f",
@@ -272,7 +940,12 @@
     "snippet": "Iran’s top diplomat insisted on Sunday that there would be no military solution to the United States’ war against the Islamic republic, with talks on ending the conflict apparently at an impasse. A campaign of heavy bombardment failed to bring a decisive close",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/05/2067ab65-e643-4b5b-88fb-0cbf706a73a4_00d45eb3.jpg?itok=X1L-OMAk&v=1791175206"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "6cc805e3a2a41dc3",
@@ -285,7 +958,12 @@
     "snippet": "Up to 500 schools across France will be totally or partly closed on Monday because of a wave of student protests that has shaken the country, the education minister said. Lessons will be “totally or partly suspended” in some “400-500” high schools as the secur",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/05/5c0acd37-d914-4fcf-b60c-6ca3939ea21a_2a77d21f.jpg?itok=FOmgefO1&v=1791169660"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "6b46203136ee7bc9",
@@ -298,7 +976,12 @@
     "snippet": "Police in Moscow detained about 60 people at a rally on Sunday held by Russia’s Kremlin-friendly Communist Party, the party said. The party said in a statement that the detentions happened as the rally was ending and that its Moscow branch was working to get t",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/05/f6e4f39e-cda1-4f83-9a53-24517e89a381_5df40f05.jpg?itok=XD02GooL&v=1791137760"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "cc80f54ba35c63d0",
@@ -5190,788 +5873,6 @@
     "snippet": "Israel’s domestic security service filed a complaint against a television channel that reported Prime Minister Benjamin Netanyahu visited the UAE, his office said on Monday, the government’s first acknowledgement of the trip despite not naming the destination.",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/29/5042c0fb-82e6-46a6-8a80-633f182d62ef_616de8a4.jpg?itok=9eT5h2RU&v=1790634211"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "095b39d6afcd2ef8",
-    "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
-    "link": "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
-    "source": "MIT Technology Review",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-28T22:17:07.000Z",
-    "fetchedAt": "2026-09-29T04:53:14.038Z",
-    "snippet": "Listen to the session or watch below The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreaking",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "37484167f65771bf",
-    "title": "Experts worry about Nvidia&#039;s AI chip sales in China and influence over Trump",
-    "link": "https://arstechnica.com/tech-policy/2026/09/nvidia-may-sell-more-chips-in-china-as-jensen-huangs-influence-over-trump-grows/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-28T21:49:10.000Z",
-    "fetchedAt": "2026-09-29T04:53:14.316Z",
-    "snippet": "China is reportedly mulling letting ByteDance, Alibaba buy banned Nvidia chips.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2296993009-1024x648.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2296993009-500x500.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "86c225165f9df014",
-    "title": "Pope Leo says AI doom concerns not ‘fake news’ in apparent rebuke of Trump",
-    "link": "https://www.scmp.com/news/world/europe/article/3369117/pope-leo-says-concerns-about-ai-doom-scenarios-are-not-fake-news?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-28T21:45:41.000Z",
-    "fetchedAt": "2026-09-29T04:53:14.668Z",
-    "snippet": "Pope Leo on Monday ⁠said concerns that artificial intelligence ⁠could destroy the world are not “fake news” and should be taken seriously, in an apparent rebuke of US President Donald Trump. The first US pope, who has warned of the dangers of AI throughout his",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/29/0906f92f-4f8a-4f97-91b7-12d5fa92ad4d_7b042427.jpg?itok=apZ1mYZx&v=1790654673"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "10de2336ac14c4c7",
-    "title": "In the US-China AI race, the real fight is keeping humans in control",
-    "link": "https://www.scmp.com/opinion/china-opinion/article/3368932/us-china-ai-race-real-fight-keeping-humans-control?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-28T21:30:12.000Z",
-    "fetchedAt": "2026-09-29T04:53:14.668Z",
-    "snippet": "The US-China AI competition faces a dilemma. Both countries see artificial intelligence as a source of economic, scientific and strategic power, so neither has much incentive to slow down. Yet the more capable and autonomous AI becomes, the more important the",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/28/de51f17f-3037-4b99-b720-6b204649ed5d_fbd31148.jpg?itok=JO0Ocqs6&v=1790563624"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "5ecf166aab9ae54a",
-    "title": "Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation",
-    "link": "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-28T21:29:18.000Z",
-    "fetchedAt": "2026-09-29T04:53:14.027Z",
-    "snippet": "The new financing is expected to more than triples the AI infrastructure startup's valuation from just four months ago.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "7ef21914076c17a7",
-    "title": "China pledges to ‘firmly support’ Cuba as US escalates pressure on Havana",
-    "link": "https://www.scmp.com/news/china/article/3369116/china-pledges-firmly-support-cuba-us-escalates-pressure-havana?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-28T21:21:54.000Z",
-    "fetchedAt": "2026-09-29T04:53:14.668Z",
-    "snippet": "China will stand by Cuba in defending its sovereignty and resisting outside interference, foreign ministry spokesman Guo Jiakun said on Monday as Washington stepped up its campaign to force political change in Havana. Guo made the remarks at a regular press br",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/29/67e7e50a-ec12-4558-81cd-27a019e85d0b_e6d803b6.jpg?itok=sZ9ookI_&v=1790630513"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "6f08b5409f816976",
-    "title": "Florida invokes extinction fears in legal bid to halt OpenAI development",
-    "link": "https://arstechnica.com/ai/2026/09/florida-asks-court-to-put-the-brakes-on-openais-frontier-ai-development/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-28T20:49:39.000Z",
-    "fetchedAt": "2026-09-29T04:53:14.316Z",
-    "snippet": "State says LLMs threaten civilization as \"the greatest public nuisance ever created.\"",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2213954141-1152x648.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2213954141-500x500.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "07a581379566b0bc",
-    "title": "AMD will acquire Fei-Fei Li’s World Labs for $8.2 billion",
-    "link": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-28T20:39:33.000Z",
-    "fetchedAt": "2026-09-29T04:53:14.027Z",
-    "snippet": "The acquisition will see World Labs founder Fei-Fei Li join AMD as executive vice president and chief scientist.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "64bf2d3a1bf1738b",
-    "title": "French far-right’s Bardella denies alleged antisemitic comments, files defamation lawsuit",
-    "link": "https://www.scmp.com/news/world/europe/article/3369113/french-far-rights-bardella-denies-alleged-antisemitic-comments-files-defamation-lawsuit?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-28T19:41:18.000Z",
-    "fetchedAt": "2026-09-29T04:53:14.669Z",
-    "snippet": "A French investigative website on Monday alleged that far-right National Rally (RN) leader Jordan Bardella made antisemitic comments in writing in 2013 but the close ally of presidential front runner Marine Le Pen dismissed the claims as fake. According to the",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/29/4e4a57b5-b09b-41a4-a2f5-11bd97f094bb_e433e556.jpg?itok=_Fr12Hr-&v=1790624409"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "70adca6d0eec00cf",
-    "title": "Shopify opens checkout to browser-based AI agents",
-    "link": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-28T19:33:57.000Z",
-    "fetchedAt": "2026-09-29T04:53:14.027Z",
-    "snippet": "Shopify is expanding WebMCP support to checkout, allowing browser-based AI agents to update order details and complete purchases with a buyer’s authorization.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c5f3a6afa60f7f3a",
-    "title": "The AI boom took over Climate Week and not everyone is happy about it",
-    "link": "https://techcrunch.com/2026/09/28/the-ai-boom-took-over-climate-week-and-not-everyone-is-happy-about-it/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-28T19:21:59.000Z",
-    "fetchedAt": "2026-09-29T04:53:14.027Z",
-    "snippet": "Just like the rest of the U.S., data centers and AI are dividing climate tech founders and investors.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "d91bcff8e84bf469",
-    "title": "Putin signs decree adding 15,500 troops to Russian army",
-    "link": "https://www.scmp.com/news/world/russia-central-asia/article/3369112/putin-signs-decree-adding-15500-troops-russian-army?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-28T19:08:28.000Z",
-    "fetchedAt": "2026-09-28T19:24:08.281Z",
-    "snippet": "Russian President Vladimir Putin signed a decree on Monday boosting the size of the army by 15,500 troops in the fourth such order this year. Putin’s order comes as both Russia and Ukraine suffer mounting casualties in the more than four-and-a-half-year Ukrain",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/29/7d2397a9-7061-48ea-a220-517dde6b8b3b_06fcf1e6.jpg?itok=94s_tZlJ&v=1790622252"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e1f9a1d13c983352",
-    "title": "Putin orders 15,500 additional troops for Russian army",
-    "link": "https://www.scmp.com/news/world/russia-central-asia/article/3369112/putin-signs-decree-adding-15500-troops-russian-army?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-28T19:08:28.000Z",
-    "fetchedAt": "2026-09-29T04:53:14.669Z",
-    "snippet": "Russian President Vladimir Putin signed a decree on Monday boosting the size of the army by 15,500 troops in the fourth such order this year. Putin’s order comes as both Russia and Ukraine suffer mounting casualties in the more than 4½-year Ukraine war. The de",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/29/7d2397a9-7061-48ea-a220-517dde6b8b3b_06fcf1e6.jpg?itok=94s_tZlJ&v=1790622252"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "fcc9858ce288289f",
-    "title": "Nvidia launches new platform for reining in rogue AI agents",
-    "link": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-28T18:31:23.000Z",
-    "fetchedAt": "2026-09-28T19:24:07.726Z",
-    "snippet": "As the debate rages over whether the recent spate of rogue AI agents is a step toward AGI or a more conventional engineering problem, Nvidia is offering its own answer to problem. Nvidia CEO Jensen Huang on Monday introduced a toolkit of software and hardware",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "dbdd476f14f7474a",
-    "title": "US to grant sanctions waiver for flights between Iran and Iraq’s Najaf, source says",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3369111/us-grant-sanctions-waiver-flights-between-iran-and-iraqs-najaf-source-says?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-28T18:28:29.000Z",
-    "fetchedAt": "2026-09-28T19:24:08.281Z",
-    "snippet": "US President Donald Trump’s administration was set to grant a limited waiver to its Iran sanctions programme on Monday to allow for flights carrying Shiite Muslim religious pilgrims between Iran and Iraq, a person with direct knowledge of the matter said. The",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/29/a736832f-e8bd-4382-bd74-f24c7939f9f1_94c667de.jpg?itok=coCA5hYk&v=1790619999"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "f2cede0dc5654cb0",
-    "title": "Trump announcing new Iowa steel plant the White House says will be biggest in US",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3369110/trump-announcing-new-iowa-steel-plant-white-house-says-will-be-biggest-us?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-28T18:02:58.000Z",
-    "fetchedAt": "2026-09-28T19:24:08.281Z",
-    "snippet": "US President Donald Trump is announcing a new US$15 billion steel plant in Iowa being built with backing from an Indian conglomerate, creating what the White House says will become the largest steel plant in US history. The White House said Trump will announce",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/29/859260d1-1fb4-4525-8b69-4fdc2e9a4c77_547fc7ae.jpg?itok=dk8LA1Oy&v=1790618507"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "4915e60ccd3c7660",
-    "title": "Anthropic releases Sonnet 5.5, which it calls a significantly cheaper, faster work partner",
-    "link": "https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-28T18:00:00.000Z",
-    "fetchedAt": "2026-09-28T19:24:07.727Z",
-    "snippet": "Anthropic has released the newest version of its mid-range model, boasting faster response times and less token burn.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "5e0b53ea3176b720",
-    "title": "Google is killing off Gemini’s Gems in favor of &#8216;skills’",
-    "link": "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-28T17:29:50.000Z",
-    "fetchedAt": "2026-09-28T19:24:07.727Z",
-    "snippet": "As all-in-one AI agents like Meta's Muse and Instinct take off, Google is opting to end a feature which built task-specific agents.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c12c51be10e41b16",
-    "title": "FBI deputy chief Andrew Bailey to resign after a little more than a year with agency",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3369109/fbi-deputy-chief-andrew-bailey-resign-after-little-more-year-agency?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-28T17:26:11.000Z",
-    "fetchedAt": "2026-09-28T19:24:08.281Z",
-    "snippet": "Andrew Bailey, one of the FBI’s two deputy directors, said on Monday he is resigning his position, leaving the most prominent US law enforcement agency after a little more than a ‌year. Bailey, a Republican ally of US President Donald Trump who left his job as",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/29/74bbf9a4-739b-4f4e-ba77-d045b26ffea2_c18873d3.jpg?itok=56VLFroe&v=1790621406"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "5e60f77466436625",
-    "title": "Early AMD 'Gorgon Halo' AI mini-PC packs 192GB RAM for an eye-watering $7,099",
-    "link": "https://www.tomshardware.com/desktops/mini-pcs/early-amd-gorgon-halo-ai-mini-pc-packs-192gb-ram-for-an-eye-watering-usd7-099-super-early-bird-deal-cuts-down-price-of-gmktec-evo-x5-with-ryzen-ai-max-pro-495-by-usd425",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-09-28T17:20:00.000Z",
-    "fetchedAt": "2026-09-28T19:24:08.066Z",
-    "snippet": "GMKtec launches the Evo-X5 Pro, an agentic mini-PC with AMD's Ryzen AI Max+ Pro 495, 192GB of RAM, and a price tag up to $7,099.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/TMSvSLPp4z66kcByzXoL7e-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Xh2MupWrRjJPiLLuopmKRB-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "84604d1cb10f8403",
-    "title": "OpenAI still doesn’t seem to have a handle on all of its rogue AI activity",
-    "link": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-28T17:09:02.000Z",
-    "fetchedAt": "2026-09-28T19:24:07.727Z",
-    "snippet": "On Friday, OpenAI published a new site devoted to “misalignment reports” and the breadth of the incidents is alarming.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "1487d4d9a90c7df5",
-    "title": "When can we say AI made a scientific discovery?",
-    "link": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
-    "source": "MIT Technology Review",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-28T17:03:16.000Z",
-    "fetchedAt": "2026-09-28T19:24:07.763Z",
-    "snippet": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Wednesday, Anthropic announced that earlier this year it had launched a molecular biology lab, where Claude agents re",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "2ac138da9c88afe5",
-    "title": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
-    "link": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-28T16:52:38.000Z",
-    "fetchedAt": "2026-09-28T19:24:07.727Z",
-    "snippet": "Meta says it will focus on bringing its full technology stack, including Muse, Meta Business Agent, Muse API, Muse Code, and more to businesses and developers.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "511f9aca7dc70d38",
-    "title": "OpenAI halts frontier-model training amid string of agent misalignment incidents",
-    "link": "https://arstechnica.com/ai/2026/09/openai-halts-frontier-model-training-amid-string-of-agent-misalignment-incidents/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-28T16:43:18.000Z",
-    "fetchedAt": "2026-09-28T19:24:07.796Z",
-    "snippet": "US Government websites among \"dozens of third parties\" OpenAI has recently notified.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/09/sleepyrobot-1152x648.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/09/sleepyrobot-500x500.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c1b46b174542761f",
-    "title": "Synopsys debuts Autopilot platform for developing chips autonomously using AI",
-    "link": "https://www.tomshardware.com/tech-industry/semiconductors/synopsys-debuts-autopilot-platform-for-developing-chips-autonomously-using-ai-new-agentengineer-platform-is-poised-for-general-availability-by-the-end-of-2026",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-09-28T16:35:00.000Z",
-    "fetchedAt": "2026-09-28T19:24:08.067Z",
-    "snippet": "Synopsys unveiled seven AgentEngineer agents on its new Autopilot platform, with general availability planned for the end of 2026.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/yC2guWPX2QDLmAx7bWYNZ9-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "31cad1bb98c091f2",
-    "title": "Steam adds low-latency Pyrowave codec to Remote Play — new codec offers better game streaming on local networks but costs '5-10 times' more bandwidth",
-    "link": "https://www.tomshardware.com/video-games/pc-gaming/steam-adds-low-latency-pyrowave-codec-to-remote-play-new-codec-offers-better-game-streaming-on-local-networks-but-costs-5-10-times-more-bandwidth",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-09-28T16:10:32.000Z",
-    "fetchedAt": "2026-09-28T19:24:08.068Z",
-    "snippet": "The Pyrowave codec was specifically created for the purpose of game streaming, taking advantage of the large bandwidth and powerful compute available on home networks.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/KjNqXqkMkdcR2XDgPYySGZ-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/2YXHXpscouqgVa9QxwunRP-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/ravrBa3rJETr2UswxHsJZU-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/uYCDAeJRX2oQXHmUsrm3nZ-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/3FGwZZ4jRo5EVFmP67MG9E-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "f3a7d73120c5651b",
-    "title": "OpenAI's custom Jalapeno AI inference ASIC is for OpenAI’s internal use, but company leaves the door open to broader rollout",
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-custom-jalapeno-ai-inference-asic-is-for-openais-internal-use-but-company-leaves-the-door-open-to-broader-rollout-firm-says-it-will-have-its-hands-full-with-jalapeno-for-a-good-long-time",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-09-28T15:45:00.000Z",
-    "fetchedAt": "2026-09-28T19:24:08.068Z",
-    "snippet": "OpenAI has danced with the idea of a broader rollout of its Jalapeño ASIC, but hardware VP Richard Ho tells us the chip is for internal use “first and foremost.”",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/fG6k3NRNFC6buLLATBY3Z7-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/PyV9Xz9GPD6kkHM73at223-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "588cb762235df802",
-    "title": "Anthropic, Gamma, and Clay share what happens when enterprises actually deploy AI at TechCrunch Disrupt 2026",
-    "link": "https://techcrunch.com/2026/09/28/anthropic-gamma-and-clay-share-what-happens-when-enterprises-actually-deploy-ai-at-techcrunch-disrupt-2026/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-28T15:30:00.000Z",
-    "fetchedAt": "2026-09-28T19:24:07.727Z",
-    "snippet": "Anthropic, Clay, and Gamma on what it takes for an AI product to go beyond the demo at the AI Stage at TechCrunchDisrupt 2026. Register to join and get 50% off a second pass.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "17a891a68423581c",
-    "title": "OpenAI Jalapeño design interview transcript",
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-jalapeno-design-interview-transcript-hardware-vp-richard-ho-explains-how-ai-assisted-design-may-shape-the-future-of-inference-asics",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-09-28T15:30:00.000Z",
-    "fetchedAt": "2026-09-28T19:24:08.068Z",
-    "snippet": "We sit down with OpenAI's Hardware boss to talk about its chart-topping Jalapeño inference chip in this unredacted interview transcript.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/BW36eueaAr7nekGhND23bY-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "a6f10755c50c1434",
-    "title": "Get free access to AI Chip Design week on Tom's Hardware Premium — sign up for an account to read all the in-depth reports",
-    "link": "https://www.tomshardware.com/tech-industry/get-free-access-to-ai-chip-design-week-on-toms-hardware-premium-sign-up-for-an-account-to-read-all-the-in-depth-reports",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-09-28T15:30:00.000Z",
-    "fetchedAt": "2026-09-28T19:24:08.068Z",
-    "snippet": "From September 28 to October 2, you can access Tom's Hardware Premium's AI Chip Week special features for free, no payment required.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/mGhDAAqYZfSzkURo9H7u5k-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/RZiWuzR4HNRoJJYAbkWDRX-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "73a154beb1785926",
-    "title": "You can now play Nintendo Switch games on a jailbroken PS5",
-    "link": "https://www.tomshardware.com/video-games/console-gaming/you-can-now-play-nintendo-switch-games-on-a-jailbroken-ps5-early-alpha-hits-40-fps-in-lighter-titles-but-chokes-on-zelda",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-09-28T15:20:00.000Z",
-    "fetchedAt": "2026-09-28T19:24:08.068Z",
-    "snippet": "An experimental emulator makes it possible to play Nintendo Switch games on a jailbroken PS5, with a variety of games having been tested.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/BN3XX6fDoAKNMba69AC2gb-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Ff8qW7gTwUZFZmPvceeLFd-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "78561a518b3637eb",
-    "title": "After a deepfake voice fooled her grandfather, this founder sprang into action",
-    "link": "https://techcrunch.com/2026/09/28/after-a-deepfake-voice-fooled-her-grandfather-this-founder-sprang-into-action/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-28T15:00:00.000Z",
-    "fetchedAt": "2026-09-28T19:24:07.727Z",
-    "snippet": "After her grandfather was scammed by a deepfake of his brother's voice, Tarini Padmanabhuni founded DetectifAI, a San Francisco startup building AI models small enough to run directly on smartphones and flag fake voices in real time, and it's now one of the co",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "22d9d64f885648dc",
-    "title": "SpaceX’s Starship rocket reaches orbit for first time",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3369106/spacexs-starship-rocket-reaches-orbit-first-time?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-28T14:52:05.000Z",
-    "fetchedAt": "2026-09-28T19:24:08.281Z",
-    "snippet": "SpaceX’s massive Starship rocket reached orbit for the first time on Monday morning, achieving a milestone for the programme after the mission briefly looked to be at risk because of an engine failure during ascent. Starship took off at 7.49am local time out o",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/28/7358253b-474b-47a9-813b-0a0bc23d773c_0f2b0df9.jpg?itok=uiW8WZcB&v=1790607123"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "3d3d356462e0993a",
-    "title": "Next 5 VCs judging Startup Battlefield 200 contenders at TechCrunch Disrupt 2026",
-    "link": "https://techcrunch.com/2026/09/28/next-five-vcs-judging-startup-battlefield-200-contenders-at-techcrunch-disrupt-2026/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-28T14:30:00.000Z",
-    "fetchedAt": "2026-09-28T19:24:07.727Z",
-    "snippet": "Thousands of applications. Multiple rounds of review. Hundreds of hours spent evaluating startups from around the world. Now comes the part everyone has been waiting for. Register for TechCrunch Disrupt 2026 today.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "b8d2d879d1e1ce04",
-    "title": "Modulate raises $25M for its voice models and analysis suite",
-    "link": "https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-28T14:05:00.000Z",
-    "fetchedAt": "2026-09-28T19:24:07.728Z",
-    "snippet": "Modulate deploys its models to detect deepfake, fraud and scam",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "2183e39599820484",
-    "title": "Insurtech Outmarket raises $34.5M just months after prior round",
-    "link": "https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-28T14:00:00.000Z",
-    "fetchedAt": "2026-09-28T19:24:07.728Z",
-    "snippet": "The startup uses AI to automate tedious paperwork for insurance agencies and brokers.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "5c8345701c18a817",
-    "title": "Child and 2 women ‘crushed to death’ during France to UK sea crossing",
-    "link": "https://www.scmp.com/news/world/europe/article/3369102/child-and-2-women-crushed-death-during-france-uk-sea-crossing?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-28T13:48:02.000Z",
-    "fetchedAt": "2026-09-28T19:24:08.281Z",
-    "snippet": "A 10-year-old child and two women died on Monday on the treacherous and illegal migration route across the English Channel from France, apparently trampled to death on a packed boat, French authorities said. The dinghy left the area of Sangatte in northern Fra",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/28/be24b143-7638-4cec-a2bd-241447f38175_7c65bca3.jpg?itok=fKwxhNSK&v=1790603274"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "ffe1e407909893f1",
-    "title": "Statement: We must pressure AI companies to immediately limit the use of recursive self improvement",
-    "link": "https://futureoflife.org/statement/statement-we-must-pressure-ai-companies-to-immediately-limit-the-use-of-recursive-self-improvement/",
-    "source": "Future of Life Institute",
-    "category": "AI Policy & Safety",
-    "publishedAt": "2026-09-28T13:39:20.000Z",
-    "fetchedAt": "2026-09-28T19:24:08.561Z",
-    "snippet": "FLI's Director of Policy Mark Brakel responds to \"A Call for Control of Frontier AI Models\", joint statement by heads of states.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "3ed831e9f4f626f4",
-    "title": "Government leaders call for treaty negotiations on autonomous weapons for the first time",
-    "link": "https://futureoflife.org/ai-policy/government-leaders-call-for-treaty-negotiations-on-autonomous-weapons-for-the-first-time/",
-    "source": "Future of Life Institute",
-    "category": "AI Policy & Safety",
-    "publishedAt": "2026-09-28T13:34:15.000Z",
-    "fetchedAt": "2026-09-28T19:24:08.561Z",
-    "snippet": "At a New York forum cosponsored by six governments, the ICRC, The Elders and FLI, ministers and UN officials called on states to begin negotiating a legally binding instrument on autonomous weapons at the CCW Review Conference in November.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "62c3751a437fff5a",
-    "title": "The Download: rogue agent liability and the AI Hype Index",
-    "link": "https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/",
-    "source": "MIT Technology Review",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-28T12:10:00.000Z",
-    "fetchedAt": "2026-09-28T19:24:07.763Z",
-    "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Who’s liable when AI agents go rogue? Over the past few months, a cascade of cyberattacks by AI agents has stunned the wor",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "3d42e1d0be1c61c5",
-    "title": "5 men arrested near US-run airbase released on bail as UK police investigate link to Iran",
-    "link": "https://www.scmp.com/news/world/europe/article/3369082/uk-investigates-if-arrests-near-us-run-base-prevented-iran-linked-attack?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-28T11:18:19.000Z",
-    "fetchedAt": "2026-09-28T19:24:08.281Z",
-    "snippet": "Five young British men arrested on explosives and terror charges near a US-operated air force base in England were released on bail on Monday, and counterterrorism detectives said they were investigating “multiple lines of inquiry”, including whether there is",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/28/eff5280e-43b5-4568-92e8-d47c18c854d2_bdea6f4b.jpg?itok=YJ3fqW35&v=1790594296"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "193810f9bdfe15b1",
-    "title": "Microsoft goes quiet after church groups ask for 1% of data center costs",
-    "link": "https://arstechnica.com/tech-policy/2026/09/microsoft-goes-quiet-after-church-groups-ask-for-1-of-data-center-costs/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-28T11:00:09.000Z",
-    "fetchedAt": "2026-09-28T19:24:07.796Z",
-    "snippet": "“Microsoft claims to want to be a good neighbor, but the jury is still out.\"",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/07/microsoft-data-center-champion-1152x648.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/07/microsoft-data-center-champion-500x500.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "64795acda0bde3cb",
-    "title": "Sweden’s Magdalena Andersson ends government-formation talks with no result",
-    "link": "https://www.scmp.com/news/world/europe/article/3369077/swedens-magdalena-andersson-ends-government-formation-talks-no-result?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-09-28T10:27:57.000Z",
-    "fetchedAt": "2026-09-28T19:24:08.281Z",
-    "snippet": "Sweden’s election winner Magdalena Andersson said she is not currently able to form a government, underscoring the difficulty of building a coalition in the fragmented parliament after the election earlier this month. The Social Democrat leader returned her ma",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/28/d498a04c-4043-4592-85a2-6e70aa4929e6_68e24eeb.jpg?itok=vKOepgYZ&v=1790591274"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e14ae0d29fea4a2d",
-    "title": "Who’s liable when AI agents go rogue?",
-    "link": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
-    "source": "MIT Technology Review",
-    "category": "US & Global AI",
-    "publishedAt": "2026-09-28T08:06:22.000Z",
-    "fetchedAt": "2026-09-28T19:24:07.763Z",
-    "snippet": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Over the past few months, a cascade of cyberattacks by AI agents has stunned the",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "205a9dd96806d238",
-    "title": "Tencent Yuanbao Native HarmonyOS App Ships With Hunyuan Hy4 Preview",
-    "link": "https://pandaily.com/tencent-yuanbao-native-harmonyos-hunyuan-hy4-preview",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-09-28T07:44:38.000Z",
-    "fetchedAt": "2026-09-28T19:24:09.151Z",
-    "snippet": "Tencent launched a native HarmonyOS Yuanbao app on September 25, 2026, powered by Hunyuan Hy4 preview with Expert mode, document deep-read and WeChat ecosystem search—not an Image 3.5 lead.",
-    "images": [
-      "https://cms-image.pandaily.com/1/tencent_yuanbao_harmonyos_hy4_8996c125f3.png"
     ],
     "titleZh": "",
     "snippetZh": "",
