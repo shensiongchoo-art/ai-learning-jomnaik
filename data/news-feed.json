@@ -1,5 +1,118 @@
 [
   {
+    "id": "c5cfb7a6501b3898",
+    "title": "Startup Led by Ex-Nvidia GPU Architect Designs Y10 Chip to Close Robot Control Loops in 1 ms",
+    "link": "https://pandaily.com/y10-physical-ai-chip-1ms-closed-loop-latency-fpga-platform-xu-feixiang",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-11T01:51:56.000Z",
+    "fetchedAt": "2026-10-11T04:45:21.219Z",
+    "snippet": "A Jiangsu chip startup founded by former Nvidia GPU architect Xu Feixiang is building Y10, a physical AI processor aiming for sub-millisecond closed-loop latency, with an FPGA platform due this year.",
+    "images": [
+      "https://cms-image.pandaily.com/1/y10_chip_0f3a110687.png"
+    ]
+  },
+  {
+    "id": "e74962d67bfc5907",
+    "title": "Westlake Robotics' WR1 Brain Has Two Humanoids Fold Trousers With Dexterous Hands",
+    "link": "https://pandaily.com/westlake-robotics-wr1-humanoid-general-brain-dexterous-hand-clothes-folding",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-11T01:51:42.000Z",
+    "fetchedAt": "2026-10-11T04:45:21.219Z",
+    "snippet": "Westlake Robotics' WR1 general brain drives humanoids through a kitchen-to-bedroom chore run and a two-robot trouser fold that the company calls a world first for dexterous hands.",
+    "images": [
+      "https://cms-image.pandaily.com/1/westlake_wr1_81c56f33c5.png"
+    ]
+  },
+  {
+    "id": "1ac49dda135534fc",
+    "title": "DeepSeek Harness v0.2.1-alpha.2 Pre-Release Adds Reasoning Translation and Git Worktrees",
+    "link": "https://pandaily.com/deepseek-harness-v0-2-1-alpha-2-reasoning-translation-git-worktrees-ssh-helper",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-11T01:51:26.000Z",
+    "fetchedAt": "2026-10-11T04:45:21.219Z",
+    "snippet": "DeepSeek's open-source agent runtime adds experimental reasoning translation and Git Worktrees plugins, a working_directory tool, SDK session-directory APIs and an SSH helper.",
+    "images": [
+      "https://cms-image.pandaily.com/1/dsh_alpha2_d4fbca3998.png"
+    ]
+  },
+  {
+    "id": "0c0ab7aa1e8b513a",
+    "title": "Tiger kills man who entered big cat enclosure at UK wildlife park",
+    "link": "https://www.scmp.com/news/world/europe/article/3370465/tiger-kills-man-who-entered-big-cat-enclosure-uk-wildlife-park?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-10T23:20:01.000Z",
+    "fetchedAt": "2026-10-11T04:45:21.034Z",
+    "snippet": "A man died on Saturday after he entered the tiger enclosure at a wildlife park in northern England and was attacked by one of the animals, police said. Emergency medical personnel responded to the Yorkshire Wildlife Park near the city of Doncaster after the in",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/11/6807170c-e41b-4b1d-bfe0-a7000f86c3c6_695e71f9.jpg?itok=5TZq4Y56&v=1791674389"
+    ]
+  },
+  {
+    "id": "54b580fe65559ded",
+    "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+    "link": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-10T21:47:51.000Z",
+    "fetchedAt": "2026-10-11T04:45:20.530Z",
+    "snippet": "In a Saturday morning post, Microsoft's CEO wrote that it’s time “to step back and assess the trust architecture” of AI.",
+    "images": []
+  },
+  {
+    "id": "c21e748c734a6fac",
+    "title": "9 dead, including children and pregnant woman, in shooting in Erie, Pennsylvania",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3370464/9-dead-including-children-and-pregnant-woman-shooting-erie-pennsylvania?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-10T21:25:34.000Z",
+    "fetchedAt": "2026-10-11T04:45:21.034Z",
+    "snippet": "A man killed eight people including a pregnant woman, children and other relatives at his home in Erie, Pennsylvania, before taking his own life as well, authorities said on Saturday. Erie Police Chief Rick Lorah said the 45-year-old man was related to seven o",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/11/ec239b7f-d041-46f2-b8f3-ed7da1f5c2a2_de2044fb.jpg?itok=Ix-NkvHJ&v=1791667524"
+    ]
+  },
+  {
+    "id": "2a758e58dc988ee5",
+    "title": "Isaias kills 4 in US, leaves 670,000 without power",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3370463/isaias-kills-4-us-leaves-670000-without-power?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-10T20:29:50.000Z",
+    "fetchedAt": "2026-10-11T04:45:21.034Z",
+    "snippet": "Four people died after Hurricane Isaias made landfall early on Saturday, and about 670,000 residents in Florida, Alabama, Georgia and Mississippi were still without power as the storm weakened to a post-tropical cyclone, according to local authorities and elec",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/11/7fd8deb0-f523-4f9d-bdd9-1c65b2c7d6b8_dcd406bc.jpg?itok=k_LXXlRj&v=1791664181"
+    ]
+  },
+  {
+    "id": "e7565234159d11ca",
+    "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
+    "link": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-10T19:50:00.000Z",
+    "fetchedAt": "2026-10-11T04:45:20.531Z",
+    "snippet": "Is Apple hoping to get into the AI-generated podcast business?",
+    "images": []
+  },
+  {
+    "id": "c760723480b120bd",
+    "title": "Trump demands Ukraine get new president, lashes out at Zelensky",
+    "link": "https://www.scmp.com/news/world/russia-central-asia/article/3370462/trump-demands-ukraine-get-new-president-lashes-out-zelensky?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-10T18:31:07.000Z",
+    "fetchedAt": "2026-10-11T04:45:21.034Z",
+    "snippet": "US President Donald Trump has called for Ukraine to replace President Volodymyr Zelensky, accusing him of rejecting multiple opportunities to end the war with Russia. “I think it’s time for Ukraine to get a new president,” Trump told reporters at the White Hou",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/11/b4653a7e-32c4-4eee-a1c3-6f86a8ebe31b_9b211339.jpg?itok=qKgzGqZ8&v=1791657058"
+    ]
+  },
+  {
     "id": "2122d5b3d00465d3",
     "title": "Christa Pike out of hospital and back in prison after surviving US execution attempt",
     "link": "https://www.scmp.com/news/world/united-states-canada/article/3370456/christa-pike-out-hospital-and-back-prison-after-surviving-us-execution-attempt?utm_source=rss_feed",
@@ -10,7 +123,12 @@
     "snippet": "Christa Pike, who survived Tennessee’s attempt to execute her by lethal injection, has been moved back to prison, her lawyers said on Saturday. Pike, 50, was discharged from the hospital and is back at the Debra K. Johnson Rehabilitation Centre, the women’s pr",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/11/6cb5b436-468a-4b05-a17d-1f00aa6451ad_79a09b21.jpg?itok=aiqmUmQv&v=1791650606"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "14d348c6a4aa92f5",
@@ -23,7 +141,12 @@
     "snippet": "SoftBank plans to buy companies that do not use AI or robotics, then apply new technologies to improve their operations and valuation.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/NJE7ecUR7gWFdjcKJvSty6-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "bcac96e6414e0773",
@@ -36,7 +159,12 @@
     "snippet": "Ting-Wei \"Willy\" Sun, one of the three people charged of smuggling Super Micro servers with advanced Nvidia AI chips to China, has pleaded guilty, with sentencing set for September of next year.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/MvLWd3opRKpJ3mfGeTKp8n-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "744c83e9ea2f2959",
@@ -47,7 +175,12 @@
     "publishedAt": "2026-10-10T15:00:00.000Z",
     "fetchedAt": "2026-10-10T17:06:33.609Z",
     "snippet": "TechCrunch Disrupt 2026 takes place October 13-15 in San Francisco. Over 300 startups will show what they’ve built to 10,000 tech leaders. Plus, 250+ speakers are ready to share insights across 200+ sessions. Register before doors open to save up to $100 and g",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "d4fb757763bd0205",
@@ -61,7 +194,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/jq3f9gJdDJqZFw6FQjz6MV-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/RZiWuzR4HNRoJJYAbkWDRX-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "59bcdc9e7580beea",
@@ -75,7 +213,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/Bz7D4w5AHyfAYVYhZ3v2vm-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "33a1ef90fba5ec24",
@@ -86,6 +229,24 @@
     "publishedAt": "2026-10-10T14:19:25.000Z",
     "fetchedAt": "2026-10-10T17:06:34.213Z",
     "snippet": "Many people ⁠were wounded in a blast at Riyadh’s international airport on Saturday, according to two eyewitnesses and two people briefed on the matter, and travellers were evacuated from parts of the facility. One of the eyewitnesses reported seeing ‌an explos",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/10/0466f43c-529f-45aa-a70d-4293fa14295b_d0e0b5b0.jpg?itok=Yba8m1pJ&v=1791641953"
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "a2676571eee754a7",
+    "title": "Houthi attack on Saudi airport kills 12, injures hundreds",
+    "link": "https://www.scmp.com/news/world/middle-east/article/3370454/loud-blast-heard-riyadh-airport-airlines-cancel-more-flights?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-10T14:19:25.000Z",
+    "fetchedAt": "2026-10-11T04:45:21.035Z",
+    "snippet": "The third attack this week on Riyadh’s international airport on Saturday left at least 12 people dead and more than 300 wounded, Saudi authorities said, as Iran-backed Houthis escalated the campaign they launched this summer against the kingdom. The dead inclu",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/10/0466f43c-529f-45aa-a70d-4293fa14295b_d0e0b5b0.jpg?itok=Yba8m1pJ&v=1791641953"
     ]
@@ -99,7 +260,12 @@
     "publishedAt": "2026-10-10T14:00:00.000Z",
     "fetchedAt": "2026-10-10T17:06:33.610Z",
     "snippet": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "9fde64988f95d193",
@@ -116,7 +282,12 @@
       "https://cdn.mos.cms.futurecdn.net/cuWUEZA4Nrgq3RtyP87Bib-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/7CaiQeDXQeeX7qQ5oKRShb-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/JbSoRpc63FHUwAN3ECgCib-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "9d59118738331b43",
@@ -129,7 +300,12 @@
     "snippet": "One focus of these contingency plans is how to manage Congress after a catastrophic event puts these labs in the spotlight.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/aaUMGJEBG5xJ4EZgtX34Ff-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "609eedaa3f517078",
@@ -142,7 +318,12 @@
     "snippet": "Easy Fox were surprised by the number of users and didn't expect that the demo's popularity would cause its AI expenses to go that high.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/E53mhvrBcEHTPBnPxgT4zD-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "be4494db011d07e4",
@@ -155,7 +336,12 @@
     "snippet": "Russian strikes killed at least 20 people in Ukraine’s Zaporizhzhia region, Ukrainian officials said on Saturday, a day after US President Donald Trump announced a deal to buy Russian diesel that Kyiv warned would help bankroll Moscow’s war in Ukraine. Three c",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/10/a08f2408-0dac-49cd-9d20-2c0d0c96a3b1_da0cfe57.jpg?itok=njVF_B_0&v=1791635113"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "635c77603a22b3a7",
@@ -168,7 +354,12 @@
     "snippet": "Nvidia reportedly discontinues GeForce RTX 5090-series products leaving GB202 for data center and professional graphics boards. GeForce RTX 5080 24 GB rumored to become de-facto flagship from the green camp for a while.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/tuvwapMiv2JLeJKiQ3PiWK-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "d3ec9014df06a1c2",
@@ -181,7 +372,12 @@
     "snippet": "Three people were injured in a ⁠stabbing attack at ⁠a further education ⁠college in Warsaw on Saturday, police said, the latest in a series of incidents that have stoked concerns in Poland about copycat violence among young people. On Friday, thousands of ‌pol",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/10/d725f392-de51-45a8-b877-604ab637b36c_4c2961d5.jpg?itok=uqb79d94&v=1791642643"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "479d6c8800c990ef",
@@ -194,7 +390,12 @@
     "snippet": "Chinese investors could face significant disruption if Indonesia imposes a moratorium on new nickel smelters to curb global overproduction and protect local industries across its vast minerals sector, analysts said. Indonesia was weighing a halt to the constru",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/09/d9a367dc-de83-4cc3-9699-6e11dcd8fb17_d8f80350.jpg?itok=1IeSrGaV&v=1791537059"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "14a2e8336d07ecb2",
@@ -207,7 +408,12 @@
     "snippet": "Maniformer's new crowdsourcing platform lets members of the public rent MEgo capture gear and get paid to record tasks like folding clothes or stocking shelves for robot training.",
     "images": [
       "https://cms-image.pandaily.com/1/maniformer_4b42ab7940.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "1473e2f3fe729e9e",
@@ -220,7 +426,12 @@
     "snippet": "Striding AI showed a humanoid H1, a narrow wheeled-arm C1 and an M1 fleet platform for round-the-clock convenience stores, saying they need no shelf or layout changes.",
     "images": [
       "https://cms-image.pandaily.com/1/striding_ai_4e3ea35fd8.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "d53cdb4d532f8fa4",
@@ -233,7 +444,12 @@
     "snippet": "Alibaba's Qoder coding agent has launched a Fast tier that answers in about three seconds at 0.8x credits, replacing the Performance tier on its international edition.",
     "images": [
       "https://cms-image.pandaily.com/1/qoder_fast_accfe3a54c.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "4779a6292f9e43f7",
@@ -5904,181 +6120,6 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/nd79YEyZjKpereVXCPBBMD-1920-80.png"
     ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "145c95844575c18b",
-    "title": "‘America is back’, AI ‘conspiracy’, China’s Laos deal: 7 global relations reads",
-    "link": "https://www.scmp.com/news/china/diplomacy/article/3369257/america-back-ai-conspiracy-chinas-laos-deal-7-global-relations-reads?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-02T14:00:15.000Z",
-    "fetchedAt": "2026-10-02T17:37:34.882Z",
-    "snippet": "We have selected seven of the most interesting and important news stories covering global relations from the past few weeks. If you would like to see more of our reporting, please consider subscribing. 1. Trump condemns ‘sick conspiracy’ against AI, says he is",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/30/c539a055-78da-4d5d-82dd-fa631dc4430a_25eee9a5.jpg?itok=3YlU8tBk&v=1790716521"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "9bd3a26d2767a012",
-    "title": "Last 24 hours: Exhibit at TechCrunch Disrupt 2026 and reach 10,000+ tech leaders",
-    "link": "https://techcrunch.com/2026/10/02/last-24-hours-exhibit-at-techcrunch-disrupt-2026-and-reach-10000-tech-leaders/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-02T14:00:00.000Z",
-    "fetchedAt": "2026-10-02T17:37:34.278Z",
-    "snippet": "Today is the last day to book your exhibit table at TechCrunch Disrupt 2026. From October 13–15, 10,000+ founders, investors, operators, and tech leaders will arrive at San Francisco’s Moscone West looking for companies, products, ideas, and people worth knowi",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "93e87e86356de3a7",
-    "title": "Amazon and Synopsys ink multi-year billion-dollar deal in multi-year IP agreement to accelerate AI chip design efforts",
-    "link": "https://www.tomshardware.com/tech-industry/amazon-and-synopsys-ink-multi-year-billion-dollar-deal-in-multi-year-ip-agreement-to-accelerate-ai-chip-design-efforts-synopsys-to-adopt-amazon-bedrock-to-deploy-ai-agents-harnessing-aws-compute-and-storage-capabilities",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-02T13:50:00.000Z",
-    "fetchedAt": "2026-10-02T17:37:34.413Z",
-    "snippet": "Amazon and chip design tool maker Synopsys have inked a multi-year partnership worth over a billion dollars. As part of the arrangement, Amazon will license Synopsys' chip designs and its design tools to create and optimize new AI chips. Synopsys will adopt Am",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/yobatAEjDQzCaExZNuCuof-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "63afc7fbf90bf563",
-    "title": "Flock drones with cameras deployed as first responders in some US cities amid privacy concerns",
-    "link": "https://www.tomshardware.com/tech-industry/drones/flock-drones-with-cameras-deployed-as-first-responders-in-some-us-cities-amid-privacy-concerns-uavs-connect-to-wider-emergency-services-system-and-streams-video-to-dispatchers-officers",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-02T13:20:00.000Z",
-    "fetchedAt": "2026-10-02T17:37:34.413Z",
-    "snippet": "U.S. cities consider deploying Flock drones that automatically respond to emergency calls. However, other jurisdictions are pushing back against the service due to privacy and other concerns.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/Vi3BKZaxSPgUMDJBwAxg4c-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "b9b4427eb8e916e7",
-    "title": "Nvidia introduces 64GB DGX Spark to throw local AI fans a lifeline amid the RAMpocalypse",
-    "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-02T13:00:00.000Z",
-    "fetchedAt": "2026-10-02T17:37:34.413Z",
-    "snippet": "Nvidia is introducing a 64GB version of its DGX Spark local AI workstation that's tailored for a new generation of highly intelligent yet compact local models. Starting at $4999, the more affordable configuration is otherwise identical to the original 128GB Sp",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/D4D8sJFKUe4PFUpqUAPSfB-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "cefccddbc4d23937",
-    "title": "OpenAI’s Jalapeño ASICs are deployed alongside AMD EPYC ‘Turin’ CPUs as hosts, not Nvidia's Vera",
-    "link": "https://www.tomshardware.com/pc-components/cpus/openais-jalapeno-asics-are-deployed-alongside-amd-epyc-turin-cpus-as-hosts-hardware-vp-says-nvidias-vera-standalone-is-a-little-bit-behind-on-that-maturity-level",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-02T12:40:00.000Z",
-    "fetchedAt": "2026-10-02T17:37:34.413Z",
-    "snippet": "OpenAI chose to pair rack-scale deployments of its Jalapeño ASIC with AMD EPYC Turin CPUs, not the wave of high-performance agentic chips like Arm’s AGI or Nvidia’s Vera.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/9mJ37sc39kgcyEigsUfgNn-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/rcRrMvi7TMFtUaXGwYUCh7-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e5ab498306d718e3",
-    "title": "Indian pilot hailed as hero recalls Flydubai cockpit attack",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3369612/indian-pilot-hailed-hero-recalls-flydubai-cockpit-attack?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-02T12:14:13.000Z",
-    "fetchedAt": "2026-10-02T17:37:34.882Z",
-    "snippet": "The Indian airline captain who helped thwart an apparent attempt to crash a Flydubai flight described on Friday how he fought for his life in the minutes after his co-pilot stabbed him and the plane began a steep descent. Captain Smit Machchhar, recovering in",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/02/2997d7a4-6784-4d2f-890b-0f3c6f5829b9_b3fd73ed.jpg?itok=2rTc_ofs&v=1790943252"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "deb1cc942b6743af",
-    "title": "The Download: a biological de-aging contest and why LLMs don’t reason",
-    "link": "https://www.technologyreview.com/2026/10/02/1145666/the-download-biological-de-aging-ai-reasoning/",
-    "source": "MIT Technology Review",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-02T12:10:00.000Z",
-    "fetchedAt": "2026-10-02T17:37:34.296Z",
-    "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A new contest pits competitors against each other in a race to biological youth —Jessica Hamzelou This week, I officially",
-    "images": [
-      "https://wp.technologyreview.com/wp-content/uploads/2026/04/SR-1_Freedom_Mars_flyby.jpg?fit=2128,1196"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "014bd288347096a0",
-    "title": "A new contest pits competitors against each other in a race to biological youth",
-    "link": "https://www.technologyreview.com/2026/10/02/1145610/younger-contest-race-to-biological-youth/",
-    "source": "MIT Technology Review",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-02T09:00:00.000Z",
-    "fetchedAt": "2026-10-02T17:37:34.296Z",
-    "snippet": "This week, I officially signed up for an unusual competition. One that rewards competitors for getting younger. I recently turned 40, and I don’t need reminding that both time and my chronological age only tick forward. But this game is focused on competitors’",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "fac243bb20a230b3",
-    "title": "Don’t be fooled—LLMs don’t reason",
-    "link": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
-    "source": "MIT Technology Review",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-02T08:00:00.000Z",
-    "fetchedAt": "2026-10-02T17:37:34.296Z",
-    "snippet": "On an afternoon in Seoul in March 2016, I watched a program I helped build put a stone on the fifth line of a Go board in what looked like a gift to its human opponent. Move 37 in game two of the five-game match looked so absurd that some commentators thought",
-    "images": [],
     "titleZh": "",
     "snippetZh": "",
     "translatedAt": "",
