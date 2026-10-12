@@ -1,5 +1,254 @@
 [
   {
+    "id": "7742beba7e5bdcb5",
+    "title": "Trump’s China-savvy spokeswoman, Hong Kong trail emergencies: 5 weekend reads you missed",
+    "link": "https://www.scmp.com/news/world/article/3370528/trumps-china-savvy-spokeswoman-hong-kong-trail-emergencies-5-weekend-reads-you-missed?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-12T04:15:05.000Z",
+    "fetchedAt": "2026-10-12T05:00:56.224Z",
+    "snippet": "We have put together stories from our coverage last weekend to help you stay informed about news across Asia and beyond. If you would like to see more of our reporting, please consider subscribing. 1. Trump’s new spokeswoman is a ‘devoted fan’ who lived in Bei",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/12/ac9c3fa5-4236-4d9f-a8b7-8232c1a4a267_b512f856.jpg?itok=liV2LbGr&v=1791774401"
+    ]
+  },
+  {
+    "id": "6a2153d33b89d099",
+    "title": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
+    "link": "https://arxiv.org/abs/2610.12493",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-12T04:00:00.000Z",
+    "fetchedAt": "2026-10-12T05:00:56.014Z",
+    "snippet": "arXiv:2610.12493v1 Announce Type: new Abstract: Explainable Artificial Intelligence (XAI) tools have often been presented as methods to increase trust in machine learning models by making aspects of their algorithms more human-understandable. However, evidence",
+    "images": []
+  },
+  {
+    "id": "64c1761d38d0d4f6",
+    "title": "EliteTable: Self-Improving Program Search for Executable Control Policies",
+    "link": "https://arxiv.org/abs/2610.12536",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-12T04:00:00.000Z",
+    "fetchedAt": "2026-10-12T05:00:56.014Z",
+    "snippet": "arXiv:2610.12536v1 Announce Type: new Abstract: EliteTable is a self-improving program-search algorithm guided by large language models (LLMs) that uses a fixed-capacity table of high-scoring solutions to guide new proposals, edits of existing solutions, and r",
+    "images": []
+  },
+  {
+    "id": "0bd7a72bbc702a34",
+    "title": "Equal-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study",
+    "link": "https://arxiv.org/abs/2610.12542",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-12T04:00:00.000Z",
+    "fetchedAt": "2026-10-12T05:00:56.014Z",
+    "snippet": "arXiv:2610.12542v1 Announce Type: new Abstract: Monte Carlo Tree Search (MCTS) is often proposed for scheduling directed-acyclic-graph (DAG) workflows, yet most studies never run the comparison that could refute it - giving a much simpler method the same searc",
+    "images": []
+  },
+  {
+    "id": "bede985ca958c234",
+    "title": "Know What You Don't Know: Agentic Data Synthesis by Evolving Generation Space for Closed-Loop Learning",
+    "link": "https://arxiv.org/abs/2610.12593",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-12T04:00:00.000Z",
+    "fetchedAt": "2026-10-12T05:00:56.014Z",
+    "snippet": "arXiv:2610.12593v1 Announce Type: new Abstract: The continued improvement of large language models increasingly depends on synthetic experience, yet effective data synthesis for interactive agents requires not only executable and verifiable trajectories, but a",
+    "images": []
+  },
+  {
+    "id": "8fed637068912d99",
+    "title": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
+    "link": "https://arxiv.org/abs/2610.12596",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-12T04:00:00.000Z",
+    "fetchedAt": "2026-10-12T05:00:56.014Z",
+    "snippet": "arXiv:2610.12596v1 Announce Type: new Abstract: Agentic large language models now tackle complex tasks, yet strategic reasoning over long horizons is under-studied: most agentic benchmarks are short and episodic, and performance on long tasks is hard to dissec",
+    "images": []
+  },
+  {
+    "id": "e22e587408a68748",
+    "title": "Beyond Binary Verifiable Rewards: Behavioral Self-Rewarding for SWE Agents",
+    "link": "https://arxiv.org/abs/2610.12598",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-12T04:00:00.000Z",
+    "fetchedAt": "2026-10-12T05:00:56.014Z",
+    "snippet": "arXiv:2610.12598v1 Announce Type: new Abstract: Reinforcement learning with verifiable rewards (RLVR) provides reliable supervision for software engineering agents through executable tests, but binary rewards fail to distinguish trajectories with substantially",
+    "images": []
+  },
+  {
+    "id": "298c4fe221cba89d",
+    "title": "CLEAT: Learning Value-Guided Clarification for Interactive Agents",
+    "link": "https://arxiv.org/abs/2610.12655",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-12T04:00:00.000Z",
+    "fetchedAt": "2026-10-12T05:00:56.015Z",
+    "snippet": "arXiv:2610.12655v1 Announce Type: new Abstract: LLM agents can execute increasingly complex tasks, but effective assistance also requires aligning their actions with goals and constraints that users may leave unstated. We study this problem as interactive inte",
+    "images": []
+  },
+  {
+    "id": "5a36ab4cc07e9836",
+    "title": "MagicBeanStalk: Escaping the RLVR Zero Advantage Trap with Recursive Data Synthesis",
+    "link": "https://arxiv.org/abs/2610.12659",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-12T04:00:00.000Z",
+    "fetchedAt": "2026-10-12T05:00:56.015Z",
+    "snippet": "arXiv:2610.12659v1 Announce Type: new Abstract: Data-centric scaling of RLVR has focused on collecting or generating verifiable training problems. However, corpus size alone does not determine whether the dataset provides a useful learning signal for a target ",
+    "images": []
+  },
+  {
+    "id": "91c75a6d5750a593",
+    "title": "Faithful and Complete LLM-Assisted Automated Construction of Hierarchical Hardware Knowledge Graphs",
+    "link": "https://arxiv.org/abs/2610.12762",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-12T04:00:00.000Z",
+    "fetchedAt": "2026-10-12T05:00:56.015Z",
+    "snippet": "arXiv:2610.12762v1 Announce Type: new Abstract: Hardware datasheets contain engineering specifications essential for component selection, system integration, and hardware compatibility verification. However, manual inspection is tedious and error-prone because",
+    "images": []
+  },
+  {
+    "id": "1b971db3cc7fe7b5",
+    "title": "Representation Alignment from a Few Paired Data via Distilled Optimal Transport",
+    "link": "https://arxiv.org/abs/2610.12781",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-12T04:00:00.000Z",
+    "fetchedAt": "2026-10-12T05:00:56.015Z",
+    "snippet": "arXiv:2610.12781v1 Announce Type: new Abstract: Aligning two independently pretrained unimodal encoders typically demands millions of paired examples. In this paper, we study the regime where only $N \\sim 100$--$500$ pairs are available, while unpaired data on",
+    "images": []
+  },
+  {
+    "id": "48de0d7a8fe810e7",
+    "title": "China Mobile Finishes Hohhot Computing Center Expansion, Taking Total Capacity to 20,100 PFLOPS",
+    "link": "https://pandaily.com/china-mobile-hohhot-intelligent-computing-center-expansion-20100-pflops-120mw",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-12T02:06:41.000Z",
+    "fetchedAt": "2026-10-12T05:00:55.694Z",
+    "snippet": "China Mobile's Hohhot expansion adds 120 MW of IT power. Once running, the site will offer 20,100 PFLOPS, 16,700 of it for AI, with 90% serving the Beijing-Tianjin-Hebei region.",
+    "images": [
+      "https://cms-image.pandaily.com/1/cm_hohhot_3ea63383d6.png"
+    ]
+  },
+  {
+    "id": "7adf4ef7f87c1399",
+    "title": "Tencent Will Shut Down Its Yuanqi AI Agent Platform on November 9",
+    "link": "https://pandaily.com/tencent-yuanqi-ai-agent-platform-shutdown-november-9-data-export-january-2027",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-12T02:06:26.000Z",
+    "fetchedAt": "2026-10-12T05:00:55.694Z",
+    "snippet": "Tencent Yuanqi stops creating new agents and API keys on October 29 and goes dark on November 9. Agents published to WeChat accounts will stop replying; data can be exported until January 9, 2027.",
+    "images": [
+      "https://cms-image.pandaily.com/1/tencent_yuanqi_shutdown_6688de3f00.png"
+    ]
+  },
+  {
+    "id": "b2b14591f49d98c3",
+    "title": "BeingBeyond's Being-M0.7 Uses 10,000 Hours of Human Video to Teach Humanoids to Walk and Grasp",
+    "link": "https://pandaily.com/beingbeyond-being-m0-7-latent-world-action-model-humanoid-loco-manipulation-simple-71-1",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-12T02:06:13.000Z",
+    "fetchedAt": "2026-10-12T05:00:55.694Z",
+    "snippet": "BeingBeyond's Being-M0.7 predicts future visual latents and whole-body motion before acting. It led SIMPLE simulation at 71.1% and tied the strongest baseline on a Unitree G1 robot.",
+    "images": [
+      "https://cms-image.pandaily.com/1/being_m07_5af65fabb3.png"
+    ]
+  },
+  {
+    "id": "f827de017c9de9df",
+    "title": "JAKA Robotics Debuts Kargo50 Heavy-Duty Wheeled Humanoid and Zu50 Cobot at Shanghai Industry Fair",
+    "link": "https://pandaily.com/jaka-robotics-kargo50-heavy-duty-wheeled-humanoid-zu50-cobot-ciif-2026",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-12T02:05:59.000Z",
+    "fetchedAt": "2026-10-12T05:00:55.694Z",
+    "snippet": "JAKA Robotics is launching the Kargo50, a heavy-duty wheeled humanoid for factory tote handling, and the Zu50, a 50 kg collaborative arm, at the China International Industry Fair in Shanghai.",
+    "images": [
+      "https://cms-image.pandaily.com/1/jaka_kargo50_f5621c2fc6.png"
+    ]
+  },
+  {
+    "id": "5c1a76c747ced268",
+    "title": "At least 139 migrants dead, dozens missing after boat capsizes off Djibouti",
+    "link": "https://www.scmp.com/news/world/middle-east/article/3370522/least-139-migrants-dead-dozens-missing-after-boat-capsizes-djibouti?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-12T01:05:42.000Z",
+    "fetchedAt": "2026-10-12T05:00:56.224Z",
+    "snippet": "At least 139 migrants died, including 15 children, and 84 went missing when an overcrowded boat sank while heading from Djibouti to Yemen, a UN agency said on Sunday. The vessel was carrying 305 people, most of them Ethiopian, when it capsized north of the Dji",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/12/18cfabc4-f74b-4b67-b59f-7803f86d93dc_ac1e5abc.jpg?itok=7bcvtVlH&v=1791767131"
+    ]
+  },
+  {
+    "id": "b21ea19aed8ff16c",
+    "title": "Will the HomeView be Apple’s first smart home success?",
+    "link": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-11T21:14:40.000Z",
+    "fetchedAt": "2026-10-12T05:00:55.603Z",
+    "snippet": "Over the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date.",
+    "images": []
+  },
+  {
+    "id": "ffe95717ecc40b0c",
+    "title": "US Homeland Security chief dismisses risk from live-streaming execution",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3370516/us-homeland-security-chief-dismisses-security-threat-live-streaming-execution?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-11T20:10:32.000Z",
+    "fetchedAt": "2026-10-12T05:00:56.225Z",
+    "snippet": "A top Trump administration official said on Sunday that the planned live-stream execution of the perpetrator of a mass killing of US soldiers would not pose an additional security risk to the United States. “I don’t see an elevated risk at this point at all be",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/12/a86bdc41-b94b-4b65-8b93-0240d35e8022_5120e8b7.jpg?itok=EkXwInzM&v=1791775793"
+    ]
+  },
+  {
+    "id": "d953b65260914d25",
+    "title": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
+    "link": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-11T19:00:00.000Z",
+    "fetchedAt": "2026-10-12T05:00:55.603Z",
+    "snippet": "Less than 48 hours, TechCrunch Disrupt 2026 starts in San Francisco’s Moscone West. Save up to $100 on your pass before prices increase at the door, plus get 50% on a second pass. Or score other deals.",
+    "images": []
+  },
+  {
+    "id": "4b75625036b94192",
+    "title": "UK’s Burnham says Russia interfered in 2016 Brexit vote",
+    "link": "https://www.scmp.com/news/world/europe/article/3370514/it-clear-russia-interfered-brexit-referendum-says-uk-pm-burnham?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-11T18:11:43.000Z",
+    "fetchedAt": "2026-10-12T05:00:56.225Z",
+    "snippet": "British Prime Minister Andy Burnham said Russia interfered ⁠in the 2016 ⁠Brexit vote, as he warned voters in ⁠France and Germany about Moscow-backed efforts to influence their politics. Burnham, who took over as Britain’s leader in July and said last month tha",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/12/9134565f-6045-4f5b-b052-8c04aff32f38_ba8a72d9.jpg?itok=XlafY1-C&v=1791776821"
+    ]
+  },
+  {
+    "id": "0ad32c2330295e2b",
+    "title": "Saudi Arabia’s main airport hit by new Houthi strike day after deadly attack kills 12",
+    "link": "https://www.scmp.com/news/world/middle-east/article/3370513/riyadh-airport-hit-fresh-houthi-strike-day-after-deadly-attack-killed-12?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-11T17:52:46.000Z",
+    "fetchedAt": "2026-10-12T05:00:56.225Z",
+    "snippet": "A fresh Houthi strike hit Riyadh’s international airport on Sunday, killing one person and wounding 11 others, a day after a deadly attack claimed by the Yemeni group forced authorities to suspend operations there. Saturday’s attack, the deadliest on Saudi soi",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/12/8541a5b5-1129-4ceb-b360-5989e066f71e_0ee9d83c.jpg?itok=BtFjYxZ-&v=1791770444"
+    ]
+  },
+  {
     "id": "c21bbff6947fa8c7",
     "title": "Trump’s Russian diesel deal may be illegal, says prominent Republican senator",
     "link": "https://www.scmp.com/news/world/united-states-canada/article/3370512/trumps-russian-diesel-deal-may-be-illegal-says-prominent-republican-senator?utm_source=rss_feed",
@@ -10,6 +259,24 @@
     "snippet": "Republican US Senator Thom ⁠Tillis on Sunday said US President Donald ⁠Trump’s diesel supply deal with Russia may be ⁠illegal and will put American lives at risk, adding to bipartisan criticism of the arrangement announced by the president on Friday. Trump sai",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/12/19b69f6d-acc7-4b02-b7d0-3c43a4c482c3_71b1afca.jpg?itok=NtxeOHBH&v=1791738789"
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "731ab65c5ff49525",
+    "title": "Republican and Democrat senators want Trump to reverse course on Russian diesel deal",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3370512/trumps-russian-diesel-deal-may-be-illegal-says-prominent-republican-senator?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-11T17:15:37.000Z",
+    "fetchedAt": "2026-10-12T05:00:56.225Z",
+    "snippet": "Republican and Democratic US senators called on President Donald ⁠Trump on Sunday to “reverse course” on his diesel supply deal with Russia, saying it runs counter to US law barring imports of energy until Russia ends its aggression against Ukraine. “Congress ",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/12/8c26208b-e918-4424-b5e0-d21b74c782e4_d52603f3.jpg?itok=7vXP0Y5E&v=1791779899"
     ]
   },
   {
@@ -23,6 +290,24 @@
     "snippet": "Eleven people were killed and 27 injured in western Turkey on Sunday when a coach turned over after colliding with a lorry, authorities said. The coach crashed near the entry to a motorway between the city of Bursa and the seaside city of Izmir, the governor’s",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/12/ce594bf6-9f6f-4e8c-826b-b1ad4a71a890_27ad4aea.jpg?itok=VxkT4jEl&v=1791737489"
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "4fcae6ef271d1491",
+    "title": "Drivers detained after coach and truck crash in Turkey, killing 11",
+    "link": "https://www.scmp.com/news/world/europe/article/3370511/11-dead-27-injured-after-coach-crashes-lorry-western-turkey-officials-say?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-11T16:54:09.000Z",
+    "fetchedAt": "2026-10-12T05:00:56.225Z",
+    "snippet": "Eleven people were killed and 27 injured in western Turkey on Sunday when a coach turned over after colliding with a truck, authorities said. The coach crashed near the entry to a motorway between the city of Bursa and the seaside city of Izmir, the governor’s",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/12/ce594bf6-9f6f-4e8c-826b-b1ad4a71a890_4112e66c.jpg?itok=wWnqZoIf&v=1791774693"
     ]
   },
   {
@@ -34,7 +319,12 @@
     "publishedAt": "2026-10-11T16:52:33.000Z",
     "fetchedAt": "2026-10-11T17:29:47.568Z",
     "snippet": "On Equity, we debate the impact of data center moratoriums and whether the AI industry has a communication problem.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "96dffeb2ee302b34",
@@ -47,6 +337,24 @@
     "snippet": "US President Donald Trump said in a brief statement on Sunday that Russia and Ukraine had agreed to halt strikes on each other’s energy infrastructure, prompting surprise from Ukraine’s leader, who said the announcement was “news for me”. There was no immediat",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/11/cab78d88-88cc-4ce0-8dac-f5b0ae421cba_c4f14152.jpg?itok=0e7-mye9&v=1791731514"
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "64cd0af35d6b9705",
+    "title": "Russia hits Ukraine power plants despite Trump’s ‘energy ceasefire’ declaration",
+    "link": "https://www.scmp.com/news/world/europe/article/3370510/trump-says-russia-ukraine-agree-energy-ceasefire?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-11T15:12:04.000Z",
+    "fetchedAt": "2026-10-12T05:00:56.225Z",
+    "snippet": "US President Donald Trump sowed confusion on Sunday, announcing an “energy ceasefire” between Ukraine and Russia that sparked astonishment in Kyiv, silence from Moscow and support from Ukraine’s Western allies. But the ceasefire appeared shaky at best as Ukrai",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/12/df424faf-fbf2-4145-94b8-623c274895a3_fe6d621a.jpg?itok=sKFEv6lS&v=1791772625"
     ]
   },
   {
@@ -61,7 +369,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/wJDbFvnkLTtTzjKhAnum3Q-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/EnQS6QiuhvcS7iBosdTS3Q-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "6c1c3bbc11f83366",
@@ -72,7 +385,12 @@
     "publishedAt": "2026-10-11T14:00:00.000Z",
     "fetchedAt": "2026-10-11T17:29:47.569Z",
     "snippet": "Voice AI's often misses important points for its context layer, and causes the whole pipeline to break",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "6edff8e893c92de0",
@@ -86,7 +404,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/wmDc2qYAL4pCfWnSCMvJnd-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/xNPJjE6CCj7e6rELEXrkWX-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "bd4ffcd6c3809c8c",
@@ -103,7 +426,12 @@
       "https://cdn.mos.cms.futurecdn.net/DKqghUFm6CkRYTz487p26T-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/Q3arT4PRFpsHLvGiuv4tyS-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/BiYVhJxRSYr3S3y53a8E2T-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "2ef0edc19871c92e",
@@ -116,7 +444,12 @@
     "snippet": "Polish Perime Minister Donald Tusk said on Sunday a man accused of threatening an assassination attack against him and his defence minister had been detained, following an earlier announcement of suspected threats from the interior ministry. “The man threateni",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/11/a59cb162-4f8e-4f54-9259-788b08c1abc9_59909524.jpg?itok=kE3yUsFu&v=1791721100"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c42d334aa361c56a",
@@ -129,7 +462,12 @@
     "snippet": "Game developer explains how $560,000 in Steam sales gets reduced to $146,000 in pockets — breakdown highlights harsh realities of gaming business",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/p2ZGsXXLDDgS5XTvdtvkag-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "0a31c65cf470bea7",
@@ -142,7 +480,12 @@
     "snippet": "Lumen's Black Lotus Labs says PoeLLM malware has hit more than 3,400 servers, most of them exposed AI tools like LiteLLM and Ollama.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/aqPrPS4qzkg5HW3n7K9Ypn-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "d5bb661b41416e20",
@@ -155,7 +498,12 @@
     "snippet": "Pope Leo said ⁠on Sunday that doctors had detected a small growth on his lung during a recent health check and he would be undergoing surgery this ‌week to remove it, in the first health scare of the 71-year-old pontiff’s tenure. Leo told pilgrims in St. Peter",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/11/7e223973-010d-465c-8b8d-a0307fc79602_18c6df8d.jpg?itok=6C1R3QQF&v=1791716296"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "73c99d446574925e",
@@ -168,7 +516,12 @@
     "snippet": "Huawei's HarmonyOS Interconnect app is now on Apple Watch, relaying notifications and finding devices across both ecosystems. Pura X View, Mate 90 series and Mate XT 2 phones are supported first.",
     "images": [
       "https://cms-image.pandaily.com/1/harmonyos_interconnect_watch_8be7f49d78.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "4af8338611f154f4",
@@ -181,7 +534,12 @@
     "snippet": "ByteDance's CapCut team, Tencent and Kuaishou are all rolling out AI tools for branching, playable stories. Costs are falling, but scripts, hit titles and distribution remain open problems.",
     "images": [
       "https://cms-image.pandaily.com/1/ai_interactive_film_1f918533de.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "74842761e5730b73",
@@ -194,7 +552,12 @@
     "snippet": "DS Bot, an unofficial open-source plugin for DeepSeek Harness, gives each bot its own role, model and memory, and routes group chats through a main bot to save tokens. Data stays local.",
     "images": [
       "https://cms-image.pandaily.com/1/ds_bot_314f7a96af.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "0a1a31699d5caca2",
@@ -207,7 +570,12 @@
     "snippet": "Sources close to the project say Ant Group's LingGuang is testing a version that remembers users, pushes tasks forward on its own and calls Skills and MCP tools, with a full rollout due this month.",
     "images": [
       "https://cms-image.pandaily.com/1/lingguang_2_e4a7a0ba51.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c5cfb7a6501b3898",
@@ -5671,437 +6039,6 @@
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/04/4aa0b38d-3db0-48f9-8fbd-19f34e1f3fcf_20927efc.jpg?itok=_Osildk2&v=1791069097"
     ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "b587b7cd3a856dfd",
-    "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
-    "link": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-03T18:43:57.000Z",
-    "fetchedAt": "2026-10-04T04:55:32.834Z",
-    "snippet": "The CEO of Amazon Web Services tried to push back against widespread suspicion of data centers.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "1122c14832066cfc",
-    "title": "7-year-old Nvidia Shield TV Pro gets shocking 50% price hike driven by AI memory shortage",
-    "link": "https://www.tomshardware.com/service-providers/streaming/7-year-old-nvidia-shield-tv-pro-gets-shocking-50-percent-price-hike-driven-by-ai-memory-shortage-chipmaker-axes-entry-level-shield-tv-as-component-prices-soar",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-03T16:59:51.000Z",
-    "fetchedAt": "2026-10-04T04:55:33.062Z",
-    "snippet": "The Shield TV Pro remains one of Nvidia’s longest-running consumer devices, but its $299.99 price tag now makes the streaming box considerably more expensive than when it launched.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/o6Rt8XTz7gaqvL46TZcxzg-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/xi79WuWDZXzix4Fc7sXNMn-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "76d26f3897b86be9",
-    "title": "Tennessee prisons chief resigning after botched execution of Christa Pike",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3369673/tennessee-prisons-chief-resigning-after-botched-execution-christa-pike?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-03T16:53:29.000Z",
-    "fetchedAt": "2026-10-04T04:55:33.607Z",
-    "snippet": "The head of Tennessee’s prison system is resigning, Governor Bill Lee announced on Saturday, the first major staff shake-up since Christa Pike’s stunning failed execution left her unconscious and on a ventilator at a hospital. Frank Strada, commissioner of the",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/04/560d7622-21de-4bab-bb7e-48a22800371c_837c6ca0.jpg?itok=x2-Hlb2M&v=1791046401"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "bc7038901bd1b642",
-    "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
-    "link": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-03T16:30:01.000Z",
-    "fetchedAt": "2026-10-04T04:55:32.836Z",
-    "snippet": "By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e9cdc00a9008a737",
-    "title": "Elon Musk confirms discussions with TSMC about Terafab chipmaking collaboration",
-    "link": "https://www.tomshardware.com/tech-industry/semiconductors/elon-musk-confirms-discussions-with-tsmc-about-terafab-chipmaking-collaboration-intel-is-the-only-other-named-partner-terafab-to-exclusively-supply-tesla-spacex-and-xai",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-03T14:50:50.000Z",
-    "fetchedAt": "2026-10-03T15:55:46.548Z",
-    "snippet": "Elon Musk and TSMC reportedly discuss multiple collaboration opportunities within the Terafab project.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/PoCxHQ8gKEscb2NWQov7wZ-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "9f4badd45b5024e9",
-    "title": "All the AI agents that can live in your text messages",
-    "link": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-03T14:00:00.000Z",
-    "fetchedAt": "2026-10-03T15:55:46.438Z",
-    "snippet": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "a6b2d0ae7fcca6ec",
-    "title": "This week on Tom's Hardware Premium: October 3, 2026",
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/this-week-on-toms-hardware-premium-october-3-2026-ai-chip-design-week-openai-interview-and-ai-agent-safety",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-03T14:00:00.000Z",
-    "fetchedAt": "2026-10-03T15:55:46.549Z",
-    "snippet": "This week on Tom's Hardware Premium, we open the floodgates with a free-to-access chip design week, including expert interviews, a sit-down with OpenAI on its custom ASIC, and much more.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/xYwy6BphRNaiV52nCF7ghn-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/KvpcNSrMJYcyr4xRQDYQjm-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/RZiWuzR4HNRoJJYAbkWDRX-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "786878d38d8e031b",
-    "title": "Flames, smoke seen at Aramco facility south of Saudi capital",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3369667/flames-smoke-seen-aramco-facility-south-saudi-capital?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-03T13:57:44.000Z",
-    "fetchedAt": "2026-10-03T15:55:46.825Z",
-    "snippet": "Flames and smoke were seen rising from a facility belonging to Saudi oil giant Aramco south of the kingdom’s capital Riyadh on Saturday, an AFP journalist said. The circumstances remained unclear but in recent weeks Aramco, majority-owned by the Saudi state, h",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/03/759e9922-7fe1-4a79-9c42-3a639e753c84_636b51c5.jpg?itok=m1uC0S50&v=1791035862"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "f4a7ddf67a57eda1",
-    "title": "Houthis say they struck Aramco oil facility, as Saudis hit Sanaa",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3369667/flames-smoke-seen-aramco-facility-south-saudi-capital?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-03T13:57:44.000Z",
-    "fetchedAt": "2026-10-04T04:55:33.607Z",
-    "snippet": "Yemen’s Houthis claimed an attack on an oil facility near the Saudi capital on Saturday, where flames and smoke were seen, and accused the Gulf kingdom of striking Sanaa dozens of times. The foes have traded strikes since the Houthis seized all of Yemen’s Red",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/03/759e9922-7fe1-4a79-9c42-3a639e753c84_636b51c5.jpg?itok=m1uC0S50&v=1791035862"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "84b76e7a21c06646",
-    "title": "AI agents use 5x more tokens than humans as cached prompts explode, headed for 10x",
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/futurum-ceo-says-agents-use-ai-5x-more-than-humans-number-will-eventually-hit-10x-but-agents-are-mostly-rereading-what-theyve-already-seen",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-03T13:10:00.000Z",
-    "fetchedAt": "2026-10-03T15:55:46.549Z",
-    "snippet": "Daniel Newman’s number comes from OpenRouter data, where agents passed humans in February and grew 14x by August.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/hNQivoNg7PnAeRNSivatuR-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/zvp279itG72czpcwiQhfTF-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "7c1a4c13ac5b0cd0",
-    "title": "Google freezes open-source bug bounty program amid flood of invalid AI slop submissions",
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-suspends-part-of-the-oss-vrp-bug-bounty-program-due-to-an-influx-of-invalid-ai-submissions-product-vulnerability-submissions-ended-october-1",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-03T12:00:00.000Z",
-    "fetchedAt": "2026-10-03T15:55:46.551Z",
-    "snippet": "Google suspends product vulnerability submissions to its Open Source Software Vulnerability Reward Program (OSS VRP) over an influx of invalid AI-driven reports.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/CrscyWC2mg69wBbrK9dcpa-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/z53fPgXjpKHTpeGv3RHpqj-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "5fc982b94ea84c61",
-    "title": "$5,245 prebuilt RTX 5090 PC's connectors melt after sitting boxed for a year",
-    "link": "https://www.tomshardware.com/desktops/gaming-pcs/usd5-245-prebuilt-rtx-5090-pcs-connectors-melt-after-sitting-boxed-for-a-year-digital-storm-and-pny-deny-warranty-claims-over-expired-coverage-and-third-party-cables",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-03T11:40:00.000Z",
-    "fetchedAt": "2026-10-03T15:55:46.551Z",
-    "snippet": "When one gamer's prebuilt PC had a GPU and power cables burn up, they didn't know where to turn: the system builder or the GPU manufacturer. It turned into a headache of differing policies and warranties.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/3PafanCD9Ws7RDdJ8SGBji-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/NueDwwWKAjYikHBnmMqnFj-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/w83kCXPjS7NLKeyC38Ho4j-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/r7s6asQqAHZYf6gqN9gaKj-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/2tdkhq6k8aAuACLGJMUyyi-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "a8f375af234d97bd",
-    "title": "Can Britain really afford to diverge from EU tariffs on Chinese EVs?",
-    "link": "https://www.scmp.com/opinion/world-opinion/article/3369331/can-britain-really-afford-diverge-eu-tariffs-chinese-evs?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-03T08:30:09.000Z",
-    "fetchedAt": "2026-10-03T15:55:46.826Z",
-    "snippet": "The European Union’s demand that Britain raise tariffs on Chinese cars exposes an awkward truth about post-Brexit trade. Britain might have left the EU, but it cannot easily escape the bloc’s industrial policy. According to the Financial Times, EU officials ha",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/01/907b0360-a906-4853-af43-192d26737dbd_6fbea140.jpg?itok=WVBgyk8R&v=1790836254"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "8f4d208b9d0d7de8",
-    "title": "As Saudi Arabia steps up war against Yemen’s Houthis, Pakistan set to play support role",
-    "link": "https://www.scmp.com/week-asia/politics/article/3369645/saudi-arabia-steps-war-against-yemens-houthis-pakistan-set-play-support-role?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-03T08:00:14.000Z",
-    "fetchedAt": "2026-10-03T15:55:46.826Z",
-    "snippet": "Pakistani troops are expected to take over various defensive functions for Saudi Arabia to enable the Middle East country to fight an all-out war aimed at defeating Yemen’s Iran-backed Houthi rebels. According to defence analysts, Pakistani troops are not expe",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/03/0ed260d1-2976-4a04-8131-480d173e2ce7_0333b661.jpg?itok=SzNoM2U3&v=1791005295"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "43bc37b3787f8c02",
-    "title": "Latvia holds election as concerns over Russia, inflation dominate",
-    "link": "https://www.scmp.com/news/world/europe/article/3369655/latvia-holds-election-concerns-over-russia-inflation-dominate?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-03T07:46:17.000Z",
-    "fetchedAt": "2026-10-03T15:55:46.826Z",
-    "snippet": "Latvia will vote on Saturday in an election shaped by concerns over neighbouring Russia and the cost of living, but the result is not expected to steer the country off its pro-European and pro-Ukrainian course. The centre-right United List party of incumbent P",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/03/f834c2c5-9aeb-4fb8-8a25-6e53d7a6735f_353a08d1.jpg?itok=jiuf79MU&v=1791013575"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "a4bc8209f7b9f02c",
-    "title": "G20 countries divided over US call to curb excess industrial capacity",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3369647/g20-countries-divided-over-us-call-curb-excess-industrial-capacity?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-03T05:59:32.000Z",
-    "fetchedAt": "2026-10-03T15:55:46.826Z",
-    "snippet": "A “handful” of Group of 20 trade ministers rejected US calls to curb excess industrial capacity and “non-market” policies, the US Trade Representative’s office said on Friday, exposing divisions within the group of major economies. The US, this year’s G20 chai",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/03/e4db90a5-1e61-40c0-b325-ab5d3ac7c677_c64c020e.jpg?itok=eFTqYsT9&v=1791007162"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "284cc77db327b46a",
-    "title": "Flydubai plane attack: co-pilot had been from flying over extremist views",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3369644/flydubai-plane-attack-co-pilot-previously-barred-flying-oman-over-extremist-views?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-03T04:53:37.000Z",
-    "fetchedAt": "2026-10-03T15:55:46.826Z",
-    "snippet": "The Flydubai co-pilot who officials said nearly crashed a Tel Aviv-bound flight with 182 people aboard was barred from flying by his native Oman over concerns he had adopted extremist views, a person familiar with the matter said on Saturday. The co-pilot has",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/03/e2dc3beb-3e42-4c4a-826f-e053d41d753c_f84d2395.jpg?itok=ScXPB8Ho&v=1791003210"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "a2f6cc933e6ff92c",
-    "title": "Flydubai plane attack: co-pilot had been banned from flying over extremist views",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3369644/flydubai-plane-attack-co-pilot-previously-barred-flying-oman-over-extremist-views?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-03T04:53:37.000Z",
-    "fetchedAt": "2026-10-04T04:55:33.608Z",
-    "snippet": "The Flydubai co-pilot who officials said nearly crashed a Tel Aviv-bound flight with 182 people aboard was barred from flying by his native Oman over concerns he had adopted extremist views, a person familiar with the matter said on Saturday. The co-pilot has",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/03/e2dc3beb-3e42-4c4a-826f-e053d41d753c_f84d2395.jpg?itok=ScXPB8Ho&v=1791003210"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "4824cbdf722aa153",
-    "title": "Meta wants your next gadget to be Muse-infused",
-    "link": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-03T00:45:39.000Z",
-    "fetchedAt": "2026-10-03T04:24:34.687Z",
-    "snippet": "Meta wants Muse in your TV and your toaster, so it's giving the code away for free.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c208819c0b134cc6",
-    "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
-    "link": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-02T23:03:16.000Z",
-    "fetchedAt": "2026-10-03T04:24:34.862Z",
-    "snippet": "Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-ai-agents-1152x648.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-ai-agents-500x500.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "41d06ba1d80aae7f",
-    "title": "Trump expected to name Jay Clayton as AI tsar",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3369639/trump-expected-name-jay-clayton-ai-tsar?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-02T22:41:49.000Z",
-    "fetchedAt": "2026-10-03T04:24:35.210Z",
-    "snippet": "US ⁠President Donald Trump is expected to name Director of National Intelligence Jay Clayton to be his top adviser on AI, a position the president has called “AI tsar” in ‌the past, according to a source familiar with the decision. Clayton already oversees 18",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/03/812497bb-230d-4346-955f-22ab8532faeb_0e066bea.jpg?itok=tiA9bxyr&v=1790981112"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "082deee68d97b82c",
-    "title": "Sean Parker is rebuilding Stability AI around music",
-    "link": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-02T21:09:14.000Z",
-    "fetchedAt": "2026-10-03T04:24:34.689Z",
-    "snippet": "Sean Parker, who once taught the music industry what asking for forgiveness looks like, is now back with the labels' blessing and money.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "685ae341954cad42",
-    "title": "Amazon’s $1B plan to combat data center backlash draws more backlash",
-    "link": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-02T20:30:27.000Z",
-    "fetchedAt": "2026-10-03T04:24:34.862Z",
-    "snippet": "Amazon praised for ending NDAs but slammed for downplaying data center pollution.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2292181016.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2292181016-500x500.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "b4eed08caa4e74ef",
-    "title": "Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
-    "link": "https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-02T19:15:51.000Z",
-    "fetchedAt": "2026-10-03T04:24:34.689Z",
-    "snippet": "Your next opportunity could be one conversation away. Get your Expo+ Pass for just $75. Limited to the first 100 qualifying people.",
-    "images": [],
     "titleZh": "",
     "snippetZh": "",
     "translatedAt": "",
