@@ -1,5 +1,184 @@
 [
   {
+    "id": "5f59ece6b0a28c09",
+    "title": "Bomb threat forces Austrian Airlines flight from Tel Aviv to divert to Bulgaria",
+    "link": "https://www.scmp.com/news/world/middle-east/article/3371337/bomb-threat-forces-austrian-airlines-flight-tel-aviv-divert-bulgaria?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-19T02:12:37.000Z",
+    "fetchedAt": "2026-10-19T03:49:01.011Z",
+    "snippet": "A bomb threat against an Austrian Airlines flight from Tel Aviv to Vienna on Sunday forced the plane to divert to Bulgaria, according to Bulgarian authorities and the airline. The Austrian Airlines crew decided to make an emergency landing in Sofia after repor",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/19/6e5b544b-ed13-4d78-8469-6ea4e45145f8_47480311.jpg?itok=8jwreOr3&v=1792375956"
+    ]
+  },
+  {
+    "id": "22feea19fe570652",
+    "title": "PHYBOT Debuts PhyHand, a 23-DoF Direct-Drive Dexterous Hand, at the Canton Fair",
+    "link": "https://pandaily.com/phybot-phyhand-23-dof-direct-drive-dexterous-hand-canton-fair-phybot-c-humanoid-double-fish",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-19T01:48:39.000Z",
+    "fetchedAt": "2026-10-19T03:49:00.037Z",
+    "snippet": "The 750-gram hand has 23 active degrees of freedom and dual encoders. It has passed lab validation and can perform gestures; PHYBOT says fine grasping is still in development.",
+    "images": [
+      "https://cms-image.pandaily.com/1/phybot_a54457a678.png"
+    ]
+  },
+  {
+    "id": "f01cfc76c3575027",
+    "title": "Shenzhen's International Quantum Academy Entangles Up to Six Phonon Modes on a 2D Chip",
+    "link": "https://pandaily.com/international-quantum-academy-shenzhen-science-genuine-multipartite-phonon-entanglement-hbar-2d-chip",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-19T01:48:05.000Z",
+    "fetchedAt": "2026-10-19T03:49:00.037Z",
+    "snippet": "Two acoustic resonators, superconducting qubits and a tunable coupler on one chip produced genuinely entangled states across up to six phonon modes and moved them between resonators.",
+    "images": [
+      "https://cms-image.pandaily.com/1/iqa_5009fedd71.png"
+    ]
+  },
+  {
+    "id": "20e6f4b3bb47cc8b",
+    "title": "X-Humanoid Sets Out Its Roadmap for a Unified Embodied Model and Self-Evolving Robot Policies",
+    "link": "https://pandaily.com/x-humanoid-roscon-china-2026-unified-embodied-model-roadmap-pelican-unify-world-model-simulator",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-19T01:47:40.000Z",
+    "fetchedAt": "2026-10-19T03:49:00.037Z",
+    "snippet": "At ROSCon China 2026, the Beijing center described four levels of generalization and a layered data plan built around a world model simulator, and introduced Pelican-Unify.",
+    "images": [
+      "https://cms-image.pandaily.com/1/xh_2747bbd202.png"
+    ]
+  },
+  {
+    "id": "a6659e3776b2ac80",
+    "title": "VAST Open-Sources EdenLive, a Real-Time Model That Renders Simple Game Footage as Detailed Video",
+    "link": "https://pandaily.com/vast-edenlive-open-source-real-time-generative-renderer-world-model-5b-14b-rtx-5090",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-19T01:47:28.000Z",
+    "fetchedAt": "2026-10-19T03:49:00.037Z",
+    "snippet": "Upstream code keeps the game state while EdenLive renders it into detailed frames. VAST says its 5B model tops 24 FPS at 720p on a single RTX 5090. Weights and code are open.",
+    "images": [
+      "https://cms-image.pandaily.com/1/eden_76c69f4ef3.png"
+    ]
+  },
+  {
+    "id": "a19fcf98d6582d6e",
+    "title": "How China made climate resilience part of its economic growth strategy",
+    "link": "https://www.scmp.com/opinion/china-opinion/article/3371034/how-china-made-climate-resilience-part-its-economic-growth-strategy?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-18T21:30:06.000Z",
+    "fetchedAt": "2026-10-19T03:49:01.011Z",
+    "snippet": "The war in the Middle East has disrupted oil and gas supplies, leaving governments to confront energy pressures as they prepare for next month’s Cop31 UN climate conference in Antalya, Turkey. The crisis raises an enduring question: how can climate action stre",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/16/d9fd49c4-5701-4512-ad17-4bd1d452d9d6_133c4806.jpg?itok=Lnr9Y9GT&v=1792139272"
+    ]
+  },
+  {
+    "id": "9d1c38fb6b15b418",
+    "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+    "link": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-18T20:37:40.000Z",
+    "fetchedAt": "2026-10-19T03:48:59.944Z",
+    "snippet": "Anthropic said that it will commit 5% of its shares to the fund.",
+    "images": []
+  },
+  {
+    "id": "ad0aae251a8ea0c9",
+    "title": "Falling crucifix kills priest during live-streamed mass in Ecuador",
+    "link": "https://www.scmp.com/news/world/americas/article/3371331/falling-crucifix-kills-priest-during-live-streamed-mass-ecuador?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-18T20:13:49.000Z",
+    "fetchedAt": "2026-10-19T03:49:01.011Z",
+    "snippet": "A Catholic priest died on Saturday after a heavy wooden crucifix fell from a wall and crushed him against the pulpit as he celebrated mass in the Ecuadorian port city of Guayaquil. Father Patricio Sanchez was conducting the service at Our Lady of Perpetual Hel",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/19/28f6b9a4-e74e-4748-9dab-dcae2f918439_33ec0458.jpg?itok=NoJESm3O&v=1792354133"
+    ]
+  },
+  {
+    "id": "6bd44688b3fa2ba1",
+    "title": "Truck crashes into Kansas youth soccer game, killing 2 and injuring 10",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3371330/2-dead-11-injured-after-truck-drives-through-kansas-football-field-during-youth-match?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-18T19:48:46.000Z",
+    "fetchedAt": "2026-10-19T03:49:01.011Z",
+    "snippet": "A woman who drove a pickup truck onto a soccer field during a weekend youth game in Kansas, killing two people and injuring 10 others, has been released without charges as the investigation continues, police said Sunday. The 34-year-old woman was released pend",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/19/28937d93-5c9e-45a9-b18a-3e8f2ef0ab99_2cd49427.jpg?itok=DjjZiJF4&v=1792352833"
+    ]
+  },
+  {
+    "id": "f87594f7a34bec2a",
+    "title": "Zelensky speaks to US envoys amid Trump spat after warning US not to side with Russia",
+    "link": "https://www.scmp.com/news/world/russia-central-asia/article/3371329/zelensky-speaks-us-envoys-amid-trump-spat-after-warning-us-not-side-russia?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-18T19:31:04.000Z",
+    "fetchedAt": "2026-10-19T03:49:01.011Z",
+    "snippet": "Ukraine’s Volodymyr Zelensky spoke to US envoys Steve Witkoff and Jared Kushner in the midst of his spat with US President Donald Trump on Sunday, saying “a lot depends on America” as he earlier warned Washington not to side with Moscow in Europe’s worst confl",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/19/3200bade-1d21-4644-8845-2610a13429c0_d64b25cd.jpg?itok=ksED2Ayw&v=1792351709"
+    ]
+  },
+  {
+    "id": "0694abfdbc931662",
+    "title": "Trump endorses ‘great warrior’ Netanyahu as tight Israeli election looms",
+    "link": "https://www.scmp.com/news/world/middle-east/article/3371326/trump-endorses-ally-netanyahu-israeli-election-praising-great-warrior-prime-minister?utm_source=rss_feed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-18T17:04:13.000Z",
+    "fetchedAt": "2026-10-19T03:49:01.011Z",
+    "snippet": "US President Donald Trump on Sunday endorsed his ally Benjamin Netanyahu as the long-time Israeli prime minister struggles for an edge in next week’s parliamentary election. Trump praised Netanyahu as a “great warrior prime minister” and peace partner, crediti",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/19/0cfba6e7-d84a-4836-a690-71aa5d3740fe_f9ab8d5c.jpg?itok=mmaMi2M8&v=1792379870"
+    ]
+  },
+  {
+    "id": "deaab0193bde8f90",
+    "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+    "link": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-18T16:30:00.000Z",
+    "fetchedAt": "2026-10-19T03:48:59.944Z",
+    "snippet": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
+    "images": []
+  },
+  {
+    "id": "1d2242bc593a349a",
+    "title": "Anthropic gives outside AI watchdog “employee-like” access",
+    "link": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+    "source": "Ars Technica AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-18T16:25:19.000Z",
+    "fetchedAt": "2026-10-19T03:49:00.180Z",
+    "snippet": "The outside watchdog can publish its findings without Anthropic's approval.",
+    "images": [
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/09/claudebyanthropic-1024x648.jpg",
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/09/claudebyanthropic-500x500.jpg"
+    ]
+  },
+  {
+    "id": "a274b7a97d79f4ee",
+    "title": "Modder brings full Nvidia DLSS 5 suite to three generations of AMD gaming GPUs",
+    "link": "https://www.tomshardware.com/pc-components/gpus/amd-cards-now-run-all-dlss-features-thanks-to-one-developers-project-plans-to-match-native-nvidia-gpu-performance",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-10-18T16:03:01.000Z",
+    "fetchedAt": "2026-10-19T03:49:00.257Z",
+    "snippet": "Radeon GPUs get the full DLSS experience as solo project ports all the DLSS features for RDNA2-4 GPUs.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/BeW2F22fUfKmgBpAPSsk2m-1920-80.jpg"
+    ]
+  },
+  {
     "id": "72adbd29f581941d",
     "title": "Lithuanians take shelter, Nato jets scramble as suspected drone explodes",
     "link": "https://www.scmp.com/news/world/europe/article/3371323/lithuanians-take-shelter-nato-jets-scramble-suspected-drone-explodes?utm_source=rss_feed",
@@ -10,7 +189,12 @@
     "snippet": "A suspected drone exploded over Lithuania ⁠after triggering an alert that forced residents in northern and central areas to seek shelter for an hour on Sunday morning, the president and other defence officials said. Ukraine’s Foreign Ministry said later it reg",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/18/34551725-ab81-4f2b-94b7-6e0714b2df0f_8a84fd02.jpg?itok=--0_ebWb&v=1792337008"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "65c97de5993b3ada",
@@ -23,7 +207,12 @@
     "snippet": "Hurricane Trudy lashed parts of Mexico’s Pacific coast with heavy rain and strong winds on Sunday as the US National Hurricane Centre warned of potentially life-threatening flooding and mudslides. A hurricane warning remained in effect from Manzanillo in Colim",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/18/70e867e2-1c28-4309-b0b1-2b15cfe19207_d9a7dcc7.jpg?itok=53TK1UZY&v=1792330570"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "38ccbaa6d235651e",
@@ -36,7 +225,12 @@
     "snippet": "Brazilian electronics and IT distributor Oderço claims that two pallets of Zotac RTX 5090 GPUs have arrived at the airport but has since completely disappeared.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/g6GuNaVQYV63v7z4CrSphL-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "7093c834756147bf",
@@ -53,7 +247,12 @@
       "https://cdn.mos.cms.futurecdn.net/v6w9zGd5inS7dcHZAudmyc-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/9hsKZP7fv6cnMLrupvjmyc-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/ERjkf5SAapdPfHfuGPsrnc-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c6327eeb0b0ef46c",
@@ -66,7 +265,12 @@
     "snippet": "Nvidia's latest DLSS Neural Renderer, extracted from NBA 2K27 (again), is being tested on unsupported games and shows up to a 90% performance gain over the previous NR model.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/D2wF99DV4KRfYPYVeR3eWb-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "15f74db4fb093139",
@@ -80,7 +284,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/AoiE9uB5AeDWhPjLmoTh43-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/jmknUwScupLEMzR9xMsXFn-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "97a9cbf1572617fa",
@@ -93,7 +302,12 @@
     "snippet": "Typo-squatting attacks with major domains are still viable — corner cases with Cyrillic characters still evade the best checks",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/SQzRnE4jQMZ8s6EjxkPFB6-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "3479965908632915",
@@ -106,7 +320,12 @@
     "snippet": "SemiAnalysis mapped more than 300 local data center moratoriums against the US pipeline and found only three projects actually delayed.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/LRwmwu7XEdDMQkb8uQgofm-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "963dd7e6f106227b",
@@ -116,10 +335,15 @@
     "category": "China AI",
     "publishedAt": "2026-10-18T11:22:38.000Z",
     "fetchedAt": "2026-10-18T15:33:36.255Z",
-    "snippet": "Riyadh’s Kingdom Centre skyscraper ordered remote working for office tenants on Sunday following repeated Houthi attacks on Saudi Arabia, as the Saudi-led coalition said two pilots were killed in a crash near the Yemen border. The imposing, 99-storey landmark ",
+    "snippet": "Riyadh’s Kingdom Centre skyscraper ordered remote working for office tenants on Sunday following repeated Houthi attacks on Saudi Arabia, as the Saudi-led coalition said two pilots were killed in a crash near the Yemen border. The imposing, 99-storey landmark",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/18/dc346815-de85-43ab-adc4-936e2eabcfd9_61494808.jpg?itok=fHilGvIg&v=1792322547"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "ae3b80f2a2f865c2",
@@ -132,7 +356,12 @@
     "snippet": "Gold nanoparticles and a 10nm ferroelectric gate let a WS2 device reach 1.36 x 10^14 Jones detectivity and a 9.51 ms response with no gate voltage, aimed at partial discharge monitoring.",
     "images": [
       "https://cms-image.pandaily.com/1/xjtu_ef7afbc92d.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "ac3fa7473b0626c6",
@@ -145,7 +374,12 @@
     "snippet": "The industrial AI company says QwenWork cuts the time to produce a sales solution proposal from more than five days to about one, and plans to extend it to procurement, finance, HR and R&D.",
     "images": [
       "https://cms-image.pandaily.com/1/supcon_db984fb4d3.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "cffde6c082c592b8",
@@ -158,7 +392,12 @@
     "snippet": "The benchmark's 2,554 executable episodes test whether agents can recall, update and reuse memories in simulated homes. The top model averages 64.2%; the team's EMem memory system adds large gains.",
     "images": [
       "https://cms-image.pandaily.com/1/emem_f9155459a6.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "35431691e1ca2d5f",
@@ -171,7 +410,12 @@
     "snippet": "The GF800 combines eight Cortex-A78 cores with Glenfly's own GPU, an NPU and unified memory. It has finished chip debugging and is now sampling to customers for edge AI and robotics.",
     "images": [
       "https://cms-image.pandaily.com/1/glenfly_a535e33571.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "2b143e1ee37a3dd3",
@@ -5865,260 +6109,6 @@
     "snippet": "A fresh Houthi strike hit Riyadh’s international airport on Sunday, killing one person and wounding 11 others, a day after a deadly attack claimed by the Yemeni group forced authorities to suspend operations there. Saturday’s attack, the deadliest on Saudi soi",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/12/8541a5b5-1129-4ceb-b360-5989e066f71e_0ee9d83c.jpg?itok=BtFjYxZ-&v=1791770444"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c21bbff6947fa8c7",
-    "title": "Trump’s Russian diesel deal may be illegal, says prominent Republican senator",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3370512/trumps-russian-diesel-deal-may-be-illegal-says-prominent-republican-senator?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-11T17:15:37.000Z",
-    "fetchedAt": "2026-10-11T17:29:48.161Z",
-    "snippet": "Republican US Senator Thom ⁠Tillis on Sunday said US President Donald ⁠Trump’s diesel supply deal with Russia may be ⁠illegal and will put American lives at risk, adding to bipartisan criticism of the arrangement announced by the president on Friday. Trump sai",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/12/19b69f6d-acc7-4b02-b7d0-3c43a4c482c3_71b1afca.jpg?itok=NtxeOHBH&v=1791738789"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "731ab65c5ff49525",
-    "title": "Republican and Democrat senators want Trump to reverse course on Russian diesel deal",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3370512/trumps-russian-diesel-deal-may-be-illegal-says-prominent-republican-senator?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-11T17:15:37.000Z",
-    "fetchedAt": "2026-10-12T05:00:56.225Z",
-    "snippet": "Republican and Democratic US senators called on President Donald ⁠Trump on Sunday to “reverse course” on his diesel supply deal with Russia, saying it runs counter to US law barring imports of energy until Russia ends its aggression against Ukraine. “Congress",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/12/8c26208b-e918-4424-b5e0-d21b74c782e4_d52603f3.jpg?itok=7vXP0Y5E&v=1791779899"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "ae2c8c1027f80749",
-    "title": "11 dead, 27 injured after coach crashes into lorry in western Turkey, officials say",
-    "link": "https://www.scmp.com/news/world/europe/article/3370511/11-dead-27-injured-after-coach-crashes-lorry-western-turkey-officials-say?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-11T16:54:09.000Z",
-    "fetchedAt": "2026-10-11T17:29:48.161Z",
-    "snippet": "Eleven people were killed and 27 injured in western Turkey on Sunday when a coach turned over after colliding with a lorry, authorities said. The coach crashed near the entry to a motorway between the city of Bursa and the seaside city of Izmir, the governor’s",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/12/ce594bf6-9f6f-4e8c-826b-b1ad4a71a890_27ad4aea.jpg?itok=VxkT4jEl&v=1791737489"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "4fcae6ef271d1491",
-    "title": "Drivers detained after coach and truck crash in Turkey, killing 11",
-    "link": "https://www.scmp.com/news/world/europe/article/3370511/11-dead-27-injured-after-coach-crashes-lorry-western-turkey-officials-say?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-11T16:54:09.000Z",
-    "fetchedAt": "2026-10-12T05:00:56.225Z",
-    "snippet": "Eleven people were killed and 27 injured in western Turkey on Sunday when a coach turned over after colliding with a truck, authorities said. The coach crashed near the entry to a motorway between the city of Bursa and the seaside city of Izmir, the governor’s",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/12/ce594bf6-9f6f-4e8c-826b-b1ad4a71a890_4112e66c.jpg?itok=wWnqZoIf&v=1791774693"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c056194b07ee36cf",
-    "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
-    "link": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-11T16:52:33.000Z",
-    "fetchedAt": "2026-10-11T17:29:47.568Z",
-    "snippet": "On Equity, we debate the impact of data center moratoriums and whether the AI industry has a communication problem.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "96dffeb2ee302b34",
-    "title": "Trump says Russia, Ukraine agree to ‘energy ceasefire’",
-    "link": "https://www.scmp.com/news/world/europe/article/3370510/trump-says-russia-ukraine-agree-energy-ceasefire?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-11T15:12:04.000Z",
-    "fetchedAt": "2026-10-11T17:29:48.161Z",
-    "snippet": "US President Donald Trump said in a brief statement on Sunday that Russia and Ukraine had agreed to halt strikes on each other’s energy infrastructure, prompting surprise from Ukraine’s leader, who said the announcement was “news for me”. There was no immediat",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/11/cab78d88-88cc-4ce0-8dac-f5b0ae421cba_c4f14152.jpg?itok=0e7-mye9&v=1791731514"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "64cd0af35d6b9705",
-    "title": "Russia hits Ukraine power plants despite Trump’s ‘energy ceasefire’ declaration",
-    "link": "https://www.scmp.com/news/world/europe/article/3370510/trump-says-russia-ukraine-agree-energy-ceasefire?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-11T15:12:04.000Z",
-    "fetchedAt": "2026-10-12T05:00:56.225Z",
-    "snippet": "US President Donald Trump sowed confusion on Sunday, announcing an “energy ceasefire” between Ukraine and Russia that sparked astonishment in Kyiv, silence from Moscow and support from Ukraine’s Western allies. But the ceasefire appeared shaky at best as Ukrai",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/12/df424faf-fbf2-4145-94b8-623c274895a3_fe6d621a.jpg?itok=sKFEv6lS&v=1791772625"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "88fcdf96a8a239b6",
-    "title": "Modder discovers that putting a GPU in the 'wrong place' can deliver a 19 degree cooler hotspot",
-    "link": "https://www.tomshardware.com/pc-components/gpus/modder-discovers-that-putting-a-gpu-in-the-wrong-place-can-deliver-a-19-degree-cooler-hotspot-breaking-convention-can-produce-great-results-despite-decades-of-pc-diy-evolution",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-11T14:23:20.000Z",
-    "fetchedAt": "2026-10-11T17:29:47.883Z",
-    "snippet": "In PC DIY it might still be worth challenging convention, as TrashBench shows with his GPU hotspot getting up to 19C cooler.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/wJDbFvnkLTtTzjKhAnum3Q-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/EnQS6QiuhvcS7iBosdTS3Q-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "6c1c3bbc11f83366",
-    "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
-    "link": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-11T14:00:00.000Z",
-    "fetchedAt": "2026-10-11T17:29:47.569Z",
-    "snippet": "Voice AI's often misses important points for its context layer, and causes the whole pipeline to break",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "6edff8e893c92de0",
-    "title": "Russia's Yandex bot traffic nearly eliminated overnight after Ukraine drone strikes cripple multiple of 'Russia's Google' data centers",
-    "link": "https://www.tomshardware.com/tech-industry/data-centers/russian-disinformation-bot-traffic-nearly-eliminated-overnight-after-ukraine-drone-strikes-cripple-multiple-of-russias-google-data-centers-ukraine-intensifies-bombing-of-yandex-data-centers-in-response-to-moscows-strikes-on-kyiv-data-centers",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-11T13:15:09.000Z",
-    "fetchedAt": "2026-10-11T17:29:47.883Z",
-    "snippet": "Russian bot traffic falls dramatically as Ukraine takes out several Yandex data centers.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/wmDc2qYAL4pCfWnSCMvJnd-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/xNPJjE6CCj7e6rELEXrkWX-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "bd4ffcd6c3809c8c",
-    "title": "Sandisk NAS 800 1.92TB SSD Review: Endurance at a premium",
-    "link": "https://www.tomshardware.com/pc-components/ssds/sandisk-nas-800-1-92tb-ssd-review",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-11T13:05:59.000Z",
-    "fetchedAt": "2026-10-11T17:29:47.884Z",
-    "snippet": "The Sandisk NAS 800 is a high-end PCIe 5.0 NVMe SSD built for NAS workloads, with high endurance, strong sustained write performance, and low 4KB random latency. It’s mainly held back by its high price.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/6SgLeeuy6ZMEuRhaZRfH7T-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/722T3BsLXENPqdPYYpxV8T-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/DKqghUFm6CkRYTz487p26T-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Q3arT4PRFpsHLvGiuv4tyS-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/BiYVhJxRSYr3S3y53a8E2T-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "2ef0edc19871c92e",
-    "title": "Poland detains suspect in alleged assassination attempt on PM, defence minister",
-    "link": "https://www.scmp.com/news/world/europe/article/3370502/poland-probes-suspected-assassination-attempts-pm-defence-minister?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-11T12:18:31.000Z",
-    "fetchedAt": "2026-10-11T17:29:48.161Z",
-    "snippet": "Polish Perime Minister Donald Tusk said on Sunday a man accused of threatening an assassination attack against him and his defence minister had been detained, following an earlier announcement of suspected threats from the interior ministry. “The man threateni",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/11/a59cb162-4f8e-4f54-9259-788b08c1abc9_59909524.jpg?itok=kE3yUsFu&v=1791721100"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c42d334aa361c56a",
-    "title": "Two Steam games generated $560,000 across 135,000 sales, but the co-creator only took home $15,000 annually",
-    "link": "https://www.tomshardware.com/video-games/pc-gaming/two-steam-games-generated-usd560-000-across-135-000-sales-but-the-co-creator-only-took-home-usd15-000-annually-high-chinese-refund-rates-steams-30-percent-fee-and-publisher-cuts-eat-most-of-the-profit-leaving-the-co-creator-driving-a-2012-mazda",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-11T12:10:00.000Z",
-    "fetchedAt": "2026-10-11T17:29:47.885Z",
-    "snippet": "Game developer explains how $560,000 in Steam sales gets reduced to $146,000 in pockets — breakdown highlights harsh realities of gaming business",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/p2ZGsXXLDDgS5XTvdtvkag-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "0a31c65cf470bea7",
-    "title": "Cryptomining malware used poetry to infect more than 3,400 servers, researchers say",
-    "link": "https://www.tomshardware.com/tech-industry/cyber-security/cryptomining-malware-used-poetry-to-infect-more-than-3-400-servers-researchers-say-four-words-in-the-poellm-verse-changed-11-times-point-the-botnet-to-new-servers",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-11T11:45:00.000Z",
-    "fetchedAt": "2026-10-11T17:29:47.885Z",
-    "snippet": "Lumen's Black Lotus Labs says PoeLLM malware has hit more than 3,400 servers, most of them exposed AI tools like LiteLLM and Ollama.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/aqPrPS4qzkg5HW3n7K9Ypn-1920-80.png"
     ],
     "titleZh": "",
     "snippetZh": "",
