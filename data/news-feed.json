@@ -1,5 +1,131 @@
 [
   {
+    "id": "8d3873b011b09b8b",
+    "title": "Baidu Health Adds a Video Health Camera and Doctor Matching, Says AI Services Top 50M Monthly Users",
+    "link": "https://pandaily.com/baidu-health-ai-50-million-mau-health-camera-video-consultation-real-doctors",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-25T01:58:56.000Z",
+    "fetchedAt": "2026-10-25T03:47:11.709Z",
+    "snippet": "Baidu Health upgraded its AI health assistant with a camera that accepts video and speech, plus services routing users to 150,000 hospital doctors. Baidu stresses doctors, not AI, make diagnoses.",
+    "images": [
+      "https://cms-image.pandaily.com/1/baiduhealth_678e039253.png"
+    ]
+  },
+  {
+    "id": "5cc33cd7e25f899e",
+    "title": "Lenovo Previews AI Host P7 With Houmo M50 and CIX P1 Chips, Opens Early-Access Program",
+    "link": "https://pandaily.com/lenovo-ai-host-p7-preview-houmo-m50-cix-p1-local-100b-models-early-access",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-25T01:58:14.000Z",
+    "fetchedAt": "2026-10-25T03:47:11.710Z",
+    "snippet": "Lenovo showed a preview of its palm-sized AI Host P7 at CSDN's 1024 developer conference and opened an early-access program. Two domestic chips let it run models of up to 125B parameters locally.",
+    "images": [
+      "https://cms-image.pandaily.com/1/lenovo_4bdbc7b3a0.png"
+    ]
+  },
+  {
+    "id": "a1e95741d2b3ee4b",
+    "title": "Alipay AI Pay Launches PAYATHON 2026, a Hackathon Judged on Whether AI Products Get Paying Users",
+    "link": "https://pandaily.com/alipay-ai-pay-payathon-2026-hackathon-vibe-skill-token-machine-agent-pay",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-25T01:57:59.000Z",
+    "fetchedAt": "2026-10-25T03:47:11.710Z",
+    "snippet": "Alipay AI Pay opened PAYATHON 2026 for developers of apps, skills and agents, with five payment tracks, a prize pool of 200,000 yuan and judging that weighs real paying users.",
+    "images": [
+      "https://cms-image.pandaily.com/1/payathon_8359cf5e50.png"
+    ]
+  },
+  {
+    "id": "9241cf505aa02e7b",
+    "title": "China Mobile Opens an Auto-Industry AI Foundation With 112.7 EFLOPS and Six Agents for Carmakers",
+    "link": "https://pandaily.com/china-mobile-auto-industry-ai-foundation-112-eflops-six-agents-open-to-carmakers",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-25T01:57:29.000Z",
+    "fetchedAt": "2026-10-25T03:47:11.710Z",
+    "snippet": "A China Mobile-led national AI pilot base for the auto sector opened a shared compute, data and model platform, with six agents for design, process planning, inspection, maintenance and driving.",
+    "images": [
+      "https://cms-image.pandaily.com/1/cmcc_feeb78a07c.png"
+    ]
+  },
+  {
+    "id": "e147ec929c97e724",
+    "title": "Obama blasts Trump’s ‘chaos and cruelty’ while campaigning for Democrats",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3372042/obama-blasts-trumps-chaos-and-cruelty-while-campaigning-democrats",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-24T22:50:31.000Z",
+    "fetchedAt": "2026-10-25T03:47:12.205Z",
+    "snippet": "Former US president Barack Obama delivered a scathing critique of his successor, Donald Trump, at a rally in Ohio on Saturday to support Democratic candidates ahead of the November 3 midterm elections. “After two years of chaos and cruelty and corruption and i",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/25/1fddbd52-cff9-4b33-bebb-9a20341c9731_2b749947.jpg?itok=f7SbtqJ1&v=1792882225"
+    ]
+  },
+  {
+    "id": "3c6c90fa9b2dee15",
+    "title": "How to share AI wealth? Neither the US nor Asia has the answer",
+    "link": "https://www.scmp.com/opinion/world-opinion/article/3371822/how-share-ai-wealth-neither-us-nor-asia-has-answer",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-24T21:30:06.000Z",
+    "fetchedAt": "2026-10-25T03:47:12.205Z",
+    "snippet": "On October 18, Anthropic, the artificial intelligence (AI) laboratory preparing one of the largest listings in history, committed 5 per cent of its shares to a public benefit fund. The next day, Elon Musk promised one SpaceX share, next year, for “every kid in",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/22/539c1860-6ff2-4d74-a7b5-af607d26b7e0_9620e4ca.jpg?itok=eAdmAv8X&v=1792680439"
+    ]
+  },
+  {
+    "id": "fcb9c9d7ac0d6cb4",
+    "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+    "link": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-24T19:00:00.000Z",
+    "fetchedAt": "2026-10-25T03:47:11.694Z",
+    "snippet": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+    "images": []
+  },
+  {
+    "id": "198227d5f5a9f630",
+    "title": "Musk admits he throttled Ukraine’s Starlink speeds, as access is restored",
+    "link": "https://www.scmp.com/news/world/russia-central-asia/article/3372040/ukraines-starlink-speeds-restored-after-week-frontline-disruption",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-24T18:00:35.000Z",
+    "fetchedAt": "2026-10-25T03:47:12.205Z",
+    "snippet": "Elon Musk said on Saturday that his company SpaceX had throttled the Starlink satellite internet service in Ukraine, disrupting operations that the country relies on to defend itself against Russia. Musk’s admission on social media came after Ukrainian Preside",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/25/6d2e28f2-b394-430f-9e15-d4d791a880ae_f73c443e.jpg?itok=dEsmjjzf&v=1792864827"
+    ]
+  },
+  {
+    "id": "4b36a5bcecdace40",
+    "title": "German man detained after fire wrecks Hitler’s ‘Eagle’s Nest’ mountain retreat",
+    "link": "https://www.scmp.com/news/world/europe/article/3372039/german-man-detained-after-fire-wrecks-hitlers-eagles-nest-mountain-retreat",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-24T16:35:33.000Z",
+    "fetchedAt": "2026-10-25T03:47:12.205Z",
+    "snippet": "Firefighters battled on Saturday to put out flames that tore through Adolf Hitler’s “Eagle’s Nest” mountain retreat while police detained a suspect who investigators said may have psychiatric problems. The alarm was raised late on Friday at the former guest ho",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/25/e4b0fb3a-25d4-4f1e-a22f-a0f6197be0f0_21b6cc9a.jpg?itok=ZKEGhIcJ&v=1792859723"
+    ]
+  },
+  {
+    "id": "fa32850134286faa",
+    "title": "Block’s new voice model sounds eerily human",
+    "link": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-24T16:00:00.000Z",
+    "fetchedAt": "2026-10-25T03:47:11.695Z",
+    "snippet": "Block said that the voice model can run locally on a MacBook M4 Max",
+    "images": []
+  },
+  {
     "id": "1f5499acff5ac701",
     "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
     "link": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
@@ -8,7 +134,12 @@
     "publishedAt": "2026-10-24T15:00:00.000Z",
     "fetchedAt": "2026-10-24T15:35:03.412Z",
     "snippet": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "b11dd36233a03ac6",
@@ -18,10 +149,15 @@
     "category": "China AI",
     "publishedAt": "2026-10-24T14:33:12.000Z",
     "fetchedAt": "2026-10-24T15:35:03.974Z",
-    "snippet": "Houthi media reported that Saudi strikes killed 11 people in Yemeni capital Sanaa on Saturday, shortly after the Saudi-led coalition fighting them said it had intercepted two missiles targeting Saudi cities. The Houthis’ Al-Masirah outlet reported a series of ",
+    "snippet": "Houthi media reported that Saudi strikes killed 11 people in Yemeni capital Sanaa on Saturday, shortly after the Saudi-led coalition fighting them said it had intercepted two missiles targeting Saudi cities. The Houthis’ Al-Masirah outlet reported a series of",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/24/66d83df5-5ad1-4bc6-b2c5-978fff126b62_3e2bda56.jpg?itok=oY-S-2Ni&v=1792852390"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "af768b5284850373",
@@ -32,7 +168,12 @@
     "publishedAt": "2026-10-24T14:00:00.000Z",
     "fetchedAt": "2026-10-24T15:35:03.413Z",
     "snippet": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e2758130e73aa218",
@@ -46,7 +187,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/nxPejVNdz8iABWsEJKshM8-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/asduWyopn7pwiRvs7GyRrj-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "5b33296c08235362",
@@ -60,7 +206,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/4diaf8rSLo53HumAAQtfag-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/MGkz5m8dh2MWXvAEnfEbC6-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "97464e3110216f2e",
@@ -74,7 +225,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/wZHrQo3SV2tfx5VmDhzVC8-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/Ff8qW7gTwUZFZmPvceeLFd-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c590cb31cfbf6fca",
@@ -88,7 +244,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/bBGEYE8htq38xZgt4xCdTQ-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/Wh9EZgD8NG9yUioNNgPB3d-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "cadcc747ffa65ad6",
@@ -101,7 +262,12 @@
     "snippet": "The Filin missile, which was deployed between late September and early October of this year, reportedly used 3D-printed and commercial parts to save on cost.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/pVq3CChwFLHDhnJgdAt7WC-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "260fa6fa1783b37f",
@@ -114,7 +280,12 @@
     "snippet": "Exhaustion with tech market prompt Youtuber to remake their first PC — 1996 build fueled by nostalgia and AI weariness",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/u9AdRV8q6QgDZepnnBW2rY-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "41e42cddd28e0808",
@@ -127,7 +298,12 @@
     "snippet": "In a rare overnight vote, the Czech ruling coalition pushed public media funding changes through a first parliamentary hurdle despite criticism that they could weaken broadcaster independence. The populist government of billionaire Prime Minister Andrej Babis,",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/24/01e67208-0d85-4b66-b29e-24a6cfe58389_5fe61ea0.jpg?itok=N5t0veuv&v=1792831417"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "f98864baea5a794e",
@@ -140,7 +316,12 @@
     "snippet": "360 founder Zhou Hongyi says the company's sovereign AI operating system, covering compute, models, knowledge bases and an agent factory under customer control, is now used by some organizations.",
     "images": [
       "https://cms-image.pandaily.com/1/sov360_e817b06600.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "478f7df9d073126a",
@@ -153,7 +334,12 @@
     "snippet": "Qwen Go! now lets users build long-lasting, shareable apps just by describing them. The My Apps feature runs on Alibaba Cloud's Meoo, which handles building, databases and deployment.",
     "images": [
       "https://cms-image.pandaily.com/1/qwengo_2a26f64f13.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "be267c9da6d72841",
@@ -166,7 +352,12 @@
     "snippet": "At its 1024 developer festival, iFLYTEK's open platform launched Agent OS for enterprise agent teamwork, APA for recorded workflow skills, the XFYUN CLI and a TaaS platform for business use.",
     "images": [
       "https://cms-image.pandaily.com/1/xfyun_ae1d3f3f0a.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "01b3e420a48beb34",
@@ -179,7 +370,12 @@
     "snippet": "A lab set up by Shaoxing and Fudan University is building a pilot line for 2D semiconductor chips on molybdenum disulfide wafers, with its own PDK and EDA tools and open foundry services planned.",
     "images": [
       "https://cms-image.pandaily.com/1/shaoxin_98e92ae44b.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "2af8346f14bba31b",
@@ -192,7 +388,12 @@
     "snippet": "Fudan researchers built RoboSkill, which turns methods a robot agent discovers into reusable text-and-code skills and adds touch sensing, cutting task time sharply in simulation and on real robots.",
     "images": [
       "https://cms-image.pandaily.com/1/roboskill_ba39ea1edf.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "7741a190745022c9",
@@ -205,7 +406,12 @@
     "snippet": "Israel’s military launched an operation in the occupied West Bank on Friday it said would last several days and include searches and building demolitions, after gunmen killed two soldiers days ahead of Israeli elections featuring security as a key focus. Prime",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/24/da8549c8-be95-4916-9db5-157dc279b97c_a37f03fb.jpg?itok=dMpmffPJ&v=1792824064"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "9c43f085b65ce8b1",
@@ -218,7 +424,12 @@
     "snippet": "Drinking water has been scarce for over a decade in Taiz, but the problem has reached crisis levels in recent weeks as Iran-backed Houthi rebels besiege Yemen’s third-largest city in their escalating conflict with government forces. The needs of Taiz’s more th",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/24/c9b0b710-9f1b-4551-b049-e7634702a15b_8943b797.jpg?itok=X-tu9e1L&v=1792821937"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "f43df201eb5ea9ea",
@@ -231,7 +442,12 @@
     "snippet": "Days ahead of close-fought Israeli elections, campaigns have gone into overdrive with poor-taste jibes and inflammatory attacks against candidates, sometimes crossing red lines. Fuelled in part by a boom in AI-generated images flooding social media, candidates",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/24/96a9c5a9-f7cd-4f8a-a98e-e9f141be3c2a_842ec433.jpg?itok=DjzL6ASm&v=1792814729"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "fe6e2fee59a207c8",
@@ -5879,194 +6095,6 @@
     "fetchedAt": "2026-10-18T03:39:01.974Z",
     "snippet": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
     "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "a1de0c30d1d2dd5a",
-    "title": "Replit makes OpenAI its default over Anthropic, CEO says",
-    "link": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-17T18:48:08.000Z",
-    "fetchedAt": "2026-10-18T03:39:01.974Z",
-    "snippet": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "dbc6790556c11408",
-    "title": "Israeli settlers attack European diplomats, beat up French mayor in West Bank",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3371275/israeli-settlers-attack-european-diplomats-beat-french-mayor-west-bank?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-17T18:33:59.000Z",
-    "fetchedAt": "2026-10-18T03:39:02.511Z",
-    "snippet": "Israeli settlers attacked a convoy of European diplomats in the West Bank and beat up a visiting French mayor on Saturday, witnesses said, while US Secretary of State Marco Rubio warned against a brewing “crisis” in the territory a day after an American photoj",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/18/8af7bbca-e7fd-4b10-84e3-2103d6c5033e_d8818083.jpg?itok=m8zFu60E&v=1792262026"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "26650ef0dbf7a023",
-    "title": "HyperX Cloud Alpha Air Review: Open-back and budget-friendly",
-    "link": "https://www.tomshardware.com/peripherals/gaming-headsets/hyperx-cloud-alpha-air-review",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-17T15:40:00.000Z",
-    "fetchedAt": "2026-10-18T03:39:02.157Z",
-    "snippet": "The HyperX Cloud Alpha Air is the brand's first open-back gaming headset. It's lightweight and comfortable, and it sounds very good. But microphone pickup is low, and it doesn't seem to work with the brand's peripheral software (yet).",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/vawnXZ8toNUPwKwGYDYpxh-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/6jCtpE7qv7JjstyDyrpKeh-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/7GRLXNUAUJu8QyruxhRQpg-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/aTKrJMQNqZysQ2seiSSq4h-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/GmhDCuYjcbc26VEa4AG7Yh-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "28d390d8547c6ce2",
-    "title": "Quad 8-pin mod protects the $8,500 RTX 5090 you can’t replace from melting",
-    "link": "https://www.tomshardware.com/pc-components/gpus/quad-8-pin-mod-protects-the-usd8-500-rtx-5090-you-cant-replace-from-melting-modders-custom-power-solution-claims-to-fix-nvidia-16-pin-gpu-meltdowns",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-17T15:20:00.000Z",
-    "fetchedAt": "2026-10-18T03:39:02.157Z",
-    "snippet": "Redditor showcases a new quad 8-pin power-conversion kit for the 16-pin power connector on Nvidia GeForce RTX graphics cards.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/Jb5jmGv4igA8EhyHvpgbcV-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Wh9EZgD8NG9yUioNNgPB3d-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "a35d24d10bc0d579",
-    "title": "Nvidia reportedly insists the RTX 5090 isn't dead despite severe shortages and removed listings at multiple retailers",
-    "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-reportedly-insists-the-rtx-5090-isnt-dead-despite-severe-shortages-and-removed-listings-at-multiple-retailers-flagship-gpu-is-missing-from-nvidias-store-and-commands-usd8-500-on-amazon",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-17T14:38:18.000Z",
-    "fetchedAt": "2026-10-17T15:12:19.902Z",
-    "snippet": "Nvidia states that RTX 5090 isn't discontinued, only that supply is constrained — and yet the card is effectively gone from storefronts",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/D2wF99DV4KRfYPYVeR3eWb-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "a17431da7e6e4738",
-    "title": "AI lab offers free plumbing and HVAC repairs across three cities to train AI robots",
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-lab-offers-free-plumbing-and-hvac-repairs-across-three-cities-to-train-ai-robots-wearable-sensors-record-video-of-repair-work-for-robotics-training-free-services-also-include-electrical-work-air-duct-cleaning-and-carpet-cleaning",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-17T13:21:20.000Z",
-    "fetchedAt": "2026-10-17T15:12:19.903Z",
-    "snippet": "HUMXN wants to pay for maintenance and repair services for homes in Minneapolis, Chicago, and Miami to gather data to train AI models and robots.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/neaZTrreV5EBmYCZpbZCoH-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/Xh2MupWrRjJPiLLuopmKRB-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "da07b0d2d7b8110b",
-    "title": "This week on Tom's Hardware Premium: October 17, 2026",
-    "link": "https://www.tomshardware.com/tech-industry/this-week-on-toms-hardware-premium-october-17-2026-packaging-roadmaps-chinese-dgx-spark-rival-emerges-and-digging-into-asmls-earnings",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-17T13:00:00.000Z",
-    "fetchedAt": "2026-10-17T15:12:19.903Z",
-    "snippet": "This week, Tom's Hardware Premium subscribers can read our EMIB and Foveros roadmaps, the latest on Chinese competition in the local AI system space, and much more.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/GZMmaG88xhwUumeVf4ej55-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/CBBS7c4u3Y3LJcY55ryv2W-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/qJ8AzHF86C7AK4DgmNfWmf-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/RZiWuzR4HNRoJJYAbkWDRX-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e06edb7909cadfec",
-    "title": "Taiwan targets illicit AI server exports to China with five-year prison terms",
-    "link": "https://www.tomshardware.com/tech-industry/semiconductors/taiwan-targets-illicit-ai-server-exports-to-china-with-five-year-prison-terms-strict-new-controls-follow-us-tariff-deal-and-super-micro-raid",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-17T12:20:00.000Z",
-    "fetchedAt": "2026-10-17T15:12:19.903Z",
-    "snippet": "Taiwan is expanding the Foreign Trade Act to include AI servers and semiconductors in its list of controlled exports.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/7SnFY4DF33SPY5kRM8YR2e-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "157ddaae18af7d44",
-    "title": "Crafty OpenAI agent willingly stole crypto from an account it didn't own to complete a task during test",
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-agent-took-eth-from-another-account-without-authorization-justified-stealing-in-its-chain-of-thought",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-17T12:00:00.000Z",
-    "fetchedAt": "2026-10-17T15:12:19.903Z",
-    "snippet": "GPT5.6-Sol didn't have funds to deploy smart contracts, so it looked for exposed accounts with enough money to pay for the gas fees.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/hsZx5kEavBi3nnzHpf7DvC-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "6691026a038dbc3a",
-    "title": "Game decompilation hub freezes leaderboard after AI turns progress into a hollow numbers game amid explosion of 'AI slop'",
-    "link": "https://www.tomshardware.com/video-games/retro-gaming/game-decompilation-tracker-decomp-dev-shuts-its-public-leaderboard-saying-ai-has-broken-the-community-its-creator-blames-forks-that-use-ai-to-finish-other-teams-projects-and-races-to-ship-rough-pc-ports",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-17T11:30:00.000Z",
-    "fetchedAt": "2026-10-17T15:12:19.903Z",
-    "snippet": "decomp.dev has closed its public index of game decompilation projects, saying AI-driven forks and ports broke the community.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/ncoxUFp5HXyLw8EqeEC8qN-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/NUmrabSXzb5PQrzbztT7r9-1920-80.png"
-    ],
     "titleZh": "",
     "snippetZh": "",
     "translatedAt": "",
