@@ -1,5 +1,358 @@
 [
   {
+    "id": "9759f9999fe1161f",
+    "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
+    "link": "https://arxiv.org/abs/2610.31701",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-27T04:00:00.000Z",
+    "fetchedAt": "2026-10-27T04:13:06.398Z",
+    "snippet": "arXiv:2610.31701v1 Announce Type: new Abstract: Enterprise customer journeys are shaped not only by product experiences and marketing, but also by recurring resource-allocation decisions. In B2B go-to-market (GTM) organizations, territory carving determines wh",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "48344a87a12f1772",
+    "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
+    "link": "https://arxiv.org/abs/2610.31789",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-27T04:00:00.000Z",
+    "fetchedAt": "2026-10-27T04:13:06.398Z",
+    "snippet": "arXiv:2610.31789v1 Announce Type: new Abstract: Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting. However, agent effectiveness depends heavil",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "4809c5527a2576c2",
+    "title": "Patronizing and Condescending Language Detection in English and Mandarin",
+    "link": "https://arxiv.org/abs/2610.31808",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-27T04:00:00.000Z",
+    "fetchedAt": "2026-10-27T04:13:06.398Z",
+    "snippet": "arXiv:2610.31808v1 Announce Type: new Abstract: Patronizing and condescending language (PCL) is a form of harmful language that belittles and assumes pity for vulnerable groups, reinforcing negative societal stereotypes. However, unlike overt hate speech, it i",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "829b292ec739a3b0",
+    "title": "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean",
+    "link": "https://arxiv.org/abs/2610.31810",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-27T04:00:00.000Z",
+    "fetchedAt": "2026-10-27T04:13:06.398Z",
+    "snippet": "arXiv:2610.31810v1 Announce Type: new Abstract: Even a carefully proofread paper can leave small gaps in its proofs or its stated assumptions. We introduce PaperFormalizer, a Lean-based agentic pipeline that helps authors find and close such gaps in their own ",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "cffbacc94272ad64",
+    "title": "Don't Forget What You Just Learned: Self-Directed Repair Turns Agent Mistakes Into Lasting Lessons",
+    "link": "https://arxiv.org/abs/2610.31846",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-27T04:00:00.000Z",
+    "fetchedAt": "2026-10-27T04:13:06.398Z",
+    "snippet": "arXiv:2610.31846v1 Announce Type: new Abstract: Intelligent agents should learn from their mistakes so that experience leads to continuous improvement. Yet today's agents recover from a mistake only temporarily: in-context reflections are easily forgotten acro",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "fb6d88ed948b889a",
+    "title": "TACS-RF: Tool-driven Agentic Circuit Synthesis of RF and mmWave Modules",
+    "link": "https://arxiv.org/abs/2610.31882",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-27T04:00:00.000Z",
+    "fetchedAt": "2026-10-27T04:13:06.398Z",
+    "snippet": "arXiv:2610.31882v1 Announce Type: new Abstract: We present the framework of TACS-RF - a Tool-driven Agentic Circuit Synthesis of RF and mmWave modules. In this framework, a large-language-model (LLM) coding agent (Claude Opus 4.8) directly drives industry-stan",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "2c33a11ca13fb98d",
+    "title": "Permission to Retry: A Study of Authorization and Recovery in AI Agent Workflows",
+    "link": "https://arxiv.org/abs/2610.31916",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-27T04:00:00.000Z",
+    "fetchedAt": "2026-10-27T04:13:06.398Z",
+    "snippet": "arXiv:2610.31916v1 Announce Type: new Abstract: A durable agent can resume a consequential action while its authority changes and the action's external outcome remains uncertain. We study execution-time reliability of tool-using AI agents, isolating recovery d",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "f76a718fc404c941",
+    "title": "Beyond On-Policy vs. Off-Policy: At What Level Should LLM Agent Distillation Follow the Student?",
+    "link": "https://arxiv.org/abs/2610.31918",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-27T04:00:00.000Z",
+    "fetchedAt": "2026-10-27T04:13:06.398Z",
+    "snippet": "arXiv:2610.31918v1 Announce Type: new Abstract: Distilling interactive LLM agents requires choosing between teacher-generated demonstrations and student-generated experience, corresponding broadly to off-policy and on-policy distillation. While both have prove",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "f6c8c612dd2894e5",
+    "title": "$M^3$: A Multi-LLM System for Multi-Turn Jailbreaking as a Markov Decision Process",
+    "link": "https://arxiv.org/abs/2610.31937",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-27T04:00:00.000Z",
+    "fetchedAt": "2026-10-27T04:13:06.398Z",
+    "snippet": "arXiv:2610.31937v1 Announce Type: new Abstract: Modern Large Language Models (LLMs) remain vulnerable to carefully orchestrated multi-turn interactions that progressively bypass safety mechanisms. However, many existing red-teaming approaches rely on heuristic",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "4348b055242b3add",
+    "title": "Knowing Whom to Trust is not Enough: The Trust--Agreement Gap in Repeated Multi-Party LLM Negotiation",
+    "link": "https://arxiv.org/abs/2610.31971",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-10-27T04:00:00.000Z",
+    "fetchedAt": "2026-10-27T04:13:06.399Z",
+    "snippet": "arXiv:2610.31971v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly participate in negotiations on behalf of individuals and organizations, yet they remain vulnerable to manipulation, particularly in repeated multi-party interactions",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "780d4f78f7e33077",
+    "title": "Myanmar refugee in Denmark demands justice over junta war crimes",
+    "link": "https://www.scmp.com/news/asia/southeast-asia/article/3372230/myanmar-refugee-denmark-demands-justice-over-junta-war-crimes",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-27T03:03:05.000Z",
+    "fetchedAt": "2026-10-27T04:13:06.698Z",
+    "snippet": "A Myanmar citizen living in Denmark on Monday filed a complaint with Danish authorities against the country’s ruling military junta for alleged war crimes committed against minorities. The complainant, Ngun Siang Dim, who is from the Chin minority, claims she ",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/27/c132aeb2-490d-4cef-bd97-92b4581a7d6d_690ae0b4.jpg?itok=bxTXahRe&v=1793069213"
+    ]
+  },
+  {
+    "id": "cb030a3cf9592bf4",
+    "title": "Shanghai Sets Satellite Internet Goals: 400 Gbps Laser Links, Onboard AI and Direct-to-Phone Access",
+    "link": "https://pandaily.com/shanghai-satellite-internet-action-plan-2027-2030-laser-links-onboard-ai-direct-to-phone",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-27T02:55:04.000Z",
+    "fetchedAt": "2026-10-27T04:13:06.193Z",
+    "snippet": "A new Shanghai action plan for 2027 to 2030 sets technical goals for satellite internet, from 400 Gbps inter-satellite laser links and onboard AI to consumer terminals that connect phones directly.",
+    "images": [
+      "https://cms-image.pandaily.com/1/shanghai_493dfaf9df.png"
+    ]
+  },
+  {
+    "id": "1c40500c2a99c0fc",
+    "title": "AgiBot G2 Max Goes to Work in JD Logistics' Robotic Warehouse, Handling 80 Boxes an Hour",
+    "link": "https://pandaily.com/agibot-g2-max-jd-logistics-warehouse-deployment-heavy-load-safety-rated-robot",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-27T02:53:05.000Z",
+    "fetchedAt": "2026-10-27T04:13:06.194Z",
+    "snippet": "AgiBot's new G2 Max is already handling inbound cartons in a JD Logistics goods-to-person warehouse, depalletizing 80 boxes an hour with a success rate above 99%.",
+    "images": [
+      "https://cms-image.pandaily.com/1/g2max_0be2fb7f80.png"
+    ]
+  },
+  {
+    "id": "d699e913a0c94237",
+    "title": "Kuaishou Rolls Out AI Digital Staff That Diagnose Stores and Run Video, Livestreams and After-Sales",
+    "link": "https://pandaily.com/kuaishou-ecommerce-ai-digital-staff-merchant-workbench-store-manager-video-livestream-after-sales",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-27T02:52:51.000Z",
+    "fetchedAt": "2026-10-27T04:13:06.194Z",
+    "snippet": "Kuaishou's merchant workbench now offers a team of AI digital staff, from a virtual store manager to video, livestream and after-sales agents, that diagnose a shop and act for the merchant.",
+    "images": [
+      "https://cms-image.pandaily.com/1/kuaishou_ff0eed4816.png"
+    ]
+  },
+  {
+    "id": "a5beee0f15aef61a",
+    "title": "Infinigence AI Builds a Three-Body Character Agent, Halving First-Token Time With Split Inference",
+    "link": "https://pandaily.com/infinigence-ai-three-body-universe-character-agent-agentworks-pdd-heterogeneous-inference",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-27T02:52:41.000Z",
+    "fetchedAt": "2026-10-27T04:13:06.194Z",
+    "snippet": "Infinigence AI and Three-Body Universe launched a character agent from the novel. It runs on Infinigence's AgentWorks platform and a split inference setup that cuts first-token time by 51.5%.",
+    "images": [
+      "https://cms-image.pandaily.com/1/zhizi_aff0a9fab0.png"
+    ]
+  },
+  {
+    "id": "91081d980ab3b29a",
+    "title": "Rock Matrix Open-Sources EdgeRock-4B, Cutting Qwen3.5-4B's 256K KV Cache From 8 GiB to 72 MiB",
+    "link": "https://pandaily.com/rock-matrix-edgerock-4b-open-source-bounded-state-model-qwen3-5-4b-72mib-kv-cache",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-27T02:52:23.000Z",
+    "fetchedAt": "2026-10-27T04:13:06.194Z",
+    "snippet": "Built from Qwen3.5-4B with HKUST and CMU, EdgeRock-4B keeps a fixed 72 MiB KV cache at 256K context and serves 6.42 times the throughput while keeping most of its reasoning scores.",
+    "images": [
+      "https://cms-image.pandaily.com/1/edgerock_2fd978d93b.png"
+    ]
+  },
+  {
+    "id": "5be237283ec4b36f",
+    "title": "Tencent Hunyuan Open-Sources Hy-SimulMT, a Speech-to-Speech Interpreter With About 3 Seconds of Lag",
+    "link": "https://pandaily.com/tencent-hunyuan-hy-simulmt-open-source-simultaneous-interpretation-voice-cloning-streamlaal",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-27T02:52:09.000Z",
+    "fetchedAt": "2026-10-27T04:13:06.194Z",
+    "snippet": "Hy-SimulMT translates Chinese and English speech in real time in the speaker's own voice. Tencent puts its official StreamLAAL latency at about 3 seconds on long-form speech.",
+    "images": [
+      "https://cms-image.pandaily.com/1/simulmt_0fc102e520.png"
+    ]
+  },
+  {
+    "id": "cddd253a196e660c",
+    "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+    "link": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-27T02:00:00.000Z",
+    "fetchedAt": "2026-10-27T04:13:06.093Z",
+    "snippet": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
+    "images": []
+  },
+  {
+    "id": "229dea5f994cb63c",
+    "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+    "link": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-27T01:12:21.000Z",
+    "fetchedAt": "2026-10-27T04:13:06.096Z",
+    "snippet": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI.",
+    "images": []
+  },
+  {
+    "id": "5919fd96bb786c7b",
+    "title": "Israel election: Netanyahu touts Trump backing, suggests they may restart war on Iran",
+    "link": "https://www.scmp.com/news/world/middle-east/article/3372222/netanyahu-touts-trump-endorsement-eve-vote-suggests-they-may-restart-war-iran",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-26T22:29:05.000Z",
+    "fetchedAt": "2026-10-27T04:13:06.698Z",
+    "snippet": "Israeli Prime Minister Benjamin Netanyahu boasted of ⁠his endorsement from Donald Trump on the eve of Israel’s election, suggesting the two leaders could restart their war against Iran if he wins, after Trump said they should “finish the job”. “US President Do",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/27/2313908b-cefd-43af-b3f5-0610b5b0fbe5_ce8fea01.jpg?itok=3v_8C_Sb&v=1793065872"
+    ]
+  },
+  {
+    "id": "ef97ddd8befd3582",
+    "title": "Trump claims Brazil election ‘rigged’ as Bolsonaro’s party acknowledges Lula win",
+    "link": "https://www.scmp.com/news/world/americas/article/3372220/brazils-flavio-bolsonaro-says-he-will-lead-opposition-lula-government",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-26T21:34:03.000Z",
+    "fetchedAt": "2026-10-27T04:13:06.699Z",
+    "snippet": "US President Donald Trump said on Monday that leftist incumbent Luiz Inacio Lula da Silva’s surprise win in Brazil’s presidential vote “looked like another rigged election”, although the party of defeated right-winger Flavio Bolsonaro later acknowledged the re",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/27/7c8092ed-c589-4b49-afe0-59e915e994b8_68fcc3b0.jpg?itok=VJ9nIOwH&v=1793051444"
+    ]
+  },
+  {
+    "id": "fe26e2b457179654",
+    "title": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo",
+    "link": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/",
+    "source": "Ars Technica AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-26T20:04:16.000Z",
+    "fetchedAt": "2026-10-27T04:13:06.399Z",
+    "snippet": "Included is the ability to limit which applications Siri can directly access.",
+    "images": [
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Siri-AI-1152x648.png",
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Siri-AI-500x500.png"
+    ]
+  },
+  {
+    "id": "b74d65f114338f6e",
+    "title": "Burnham rules out UK return to EU free movement without referendum",
+    "link": "https://www.scmp.com/news/world/europe/article/3372217/burnham-rules-out-uk-return-eu-free-movement-without-referendum",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-26T19:16:47.000Z",
+    "fetchedAt": "2026-10-27T04:13:06.699Z",
+    "snippet": "British Prime Minister Andy Burnham has said he would not return the UK to EU freedom of movement rules without a referendum, after ruling out the prospect of Britain rejoining the bloc within this parliamentary term. It comes after his call at the weekend for",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/27/7e65ec11-3689-48fe-a15e-bc47e8cfbed3_531251f1.jpg?itok=ZzIDOtt6&v=1793070241"
+    ]
+  },
+  {
+    "id": "545e1888b957e02b",
+    "title": "ICE plan to buy robot dogs spurs protest from hundreds of Boston Dynamics employees",
+    "link": "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/",
+    "source": "Ars Technica AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-26T18:50:41.000Z",
+    "fetchedAt": "2026-10-27T04:13:06.400Z",
+    "snippet": "US robotics company stands by ICE deal as more than 300 employees warn of risk.",
+    "images": [
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Radeco-Cerberus-robot-1152x648.jpg",
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Radeco-Cerberus-robot-500x500.jpg"
+    ]
+  },
+  {
+    "id": "19c7c27ebb06b2ea",
+    "title": "Intel quietly confirms Raptor Lake Next CPUs through internal driver publication",
+    "link": "https://www.tomshardware.com/pc-components/cpus/intel-quietly-confirms-raptor-lake-next-cpus-through-internal-driver-publication-lga-1700-chips-also-appear-in-shipping-manifests-dating-back-to-august",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-10-26T18:50:28.000Z",
+    "fetchedAt": "2026-10-27T04:13:06.353Z",
+    "snippet": "An internal driver and a shipping manifest reveal that Intel's desktop Raptor Lake Next parts may be on the way right now.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/sQkjcrWci3QikXR5qNxa4d-1920-80.jpg"
+    ]
+  },
+  {
     "id": "ab57b916d3b1f406",
     "title": "Daughter of ex-FBI director Comey was unlawfully fired as federal prosecutor, judge rules",
     "link": "https://www.scmp.com/news/world/united-states-canada/article/3372214/judge-rules-daughter-ex-fbi-director-comey-was-unlawfully-fired-federal-prosecutor",
@@ -10,7 +363,12 @@
     "snippet": "Maurene Comey, the daughter of former FBI Director James Comey, was unlawfully fired from her job as a federal prosecutor in New York last year, a federal judge ruled on Monday. Judge Jesse M Furman said Comey, who was an assistant US attorney for a decade, wa",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/27/9f6ff964-c31e-417f-b99f-d643bc4eb7b2_0e51cb02.jpg?itok=Hg3a73eG&v=1793037440"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "350210a8a501f6df",
@@ -21,7 +379,12 @@
     "publishedAt": "2026-10-26T17:45:43.000Z",
     "fetchedAt": "2026-10-26T18:26:50.092Z",
     "snippet": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are fo",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e18100cfc2aa230c",
@@ -35,7 +398,12 @@
     "images": [
       "https://cdn.arstechnica.net/wp-content/uploads/2026/10/via-Cook-County-Sheriffs-Office-X-1152x648-1793033307.jpeg",
       "https://cdn.arstechnica.net/wp-content/uploads/2026/10/via-Cook-County-Sheriffs-Office-X-500x500.jpeg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "43ec13fd45b037c9",
@@ -48,7 +416,12 @@
     "snippet": "Actor Walter Koenig, who played Ensign Pavel Chekov, the youthful Russian navigator on the Star Trek television series and several films, has died. He was 90. Koenig died on Monday at his home in the North Hollywood neighbourhood of Los Angeles, talent agent Z",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/27/6edbb4c1-932a-4108-9cb8-04b2b9a3f9d5_30fe465d.jpg?itok=_P1wsxee&v=1793035227"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "3092b75235e0a76d",
@@ -59,7 +432,12 @@
     "publishedAt": "2026-10-26T16:49:42.000Z",
     "fetchedAt": "2026-10-26T18:26:50.098Z",
     "snippet": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "f368a3f9dfdde5ba",
@@ -70,7 +448,12 @@
     "publishedAt": "2026-10-26T16:46:36.000Z",
     "fetchedAt": "2026-10-26T18:26:50.098Z",
     "snippet": "SpaceX has locked in a binding commitment for roughly $40 billion in financing to pay for AI chips and related data center equipment, the company disclosed in a regulatory filing Monday. In a statement, SpaceX called it the “largest committed GPU financing” ev",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "836541b7345470d2",
@@ -87,7 +470,12 @@
       "https://cdn.mos.cms.futurecdn.net/QKzPPrhoKf9kAs8cPdnJPb-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/THwqq5D6C765ncDNEbCAHb-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/RK5oe7CuhVUjWD26CnMsBb-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c5b6da9329f6aaa9",
@@ -101,7 +489,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/YkbQ6FaQKMZUoDz3pzPbp4-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/utcjC72BFWzJtfv8CPGCkf-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "9bfcbd8126b7ec4e",
@@ -112,7 +505,12 @@
     "publishedAt": "2026-10-26T14:35:22.000Z",
     "fetchedAt": "2026-10-26T18:26:50.098Z",
     "snippet": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "53b1a05087fe9850",
@@ -127,7 +525,12 @@
       "https://cdn.mos.cms.futurecdn.net/fqE7uiQeMahN3tCxTd8qRV-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/dW6AtZikRQ52dYnJxYHdVS-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/JxFPe52zfaYTDu5sAa6aKV-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "5aa5aa5ea5668883",
@@ -141,7 +544,12 @@
     "images": [
       "https://cdn.arstechnica.net/wp-content/uploads/2026/10/roadster-1152x648.jpg",
       "https://cdn.arstechnica.net/wp-content/uploads/2026/10/roadster-500x500.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "ba06c23673d8e74a",
@@ -154,7 +562,12 @@
     "snippet": "Anthropic disclosed steep losses and explosive revenue growth on ⁠Monday as the Claude parent moved closer to a potentially record-breaking IPO, betting on AI’s ability to reshape the global economy. The listing is shaping up to be a major test of appetite for",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/26/36bbbb46-4458-4dbe-9a5d-86949dbf0ca4_c52e88c9.jpg?itok=Mph2m32I&v=1793022777"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "d10522f03071d656",
@@ -168,7 +581,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/P8XPrtLpMc8eqkqoGb66Vo-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/RsAc8W5GdnGY4vrVtXnKEc-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "f1c23f3e59b59ffc",
@@ -181,7 +599,12 @@
     "snippet": "Jordanian security forces arrested two brothers ‌and their brother-in-law after a shoot-out on Monday over a church attack that killed nine people, and the suspects appear to have no ties to other cells, senior government security officials said. “God willing,",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/26/7dc116e5-497f-40e0-aec1-cd1f516aea80_bb9ce046.jpg?itok=Bx9SQFzp&v=1793019765"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "adb1f1f641a786df",
@@ -194,7 +617,12 @@
     "snippet": "US singer Chris ⁠Brown was spared an immediate prison sentence in Britain on Monday for attacking a producer with a tequila bottle in a London nightclub in 2023, with his fans cheering as the musician walked free from court. Brown, 37, was given an eight-month",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/26/d89b9e78-1e3f-49bc-89f9-d1a7a23ae201_dbd943c7.jpg?itok=hWXYC79M&v=1793018902"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "eaa3fc7329469d28",
@@ -207,7 +635,12 @@
     "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Opinion: The focus on AI safety disasters ignores everyday harms —Sam Hiner, cofounder of the Young People’s Alliance, and",
     "images": [
       "https://wp.technologyreview.com/wp-content/uploads/2026/03/260326_uterus.jpg?fit=2128,1196"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "70588ecce98fa849",
@@ -220,7 +653,12 @@
     "snippet": "Intel CEO Lip-Bu Tan has reportedly discussed potential areas of cooperation with AMD chief Lisa Su as Intel works to rebuild its CPU business and expand its foundry operations. The companies have already collaborated on x86 standards and CPU software, includi",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/wbhpXv9wcgo6udYTmNjvVX-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "cd80ce2ba208a326",
@@ -233,7 +671,12 @@
     "snippet": "In October, two technology executives offered Europe similar advice. In Turin, Alibaba Group Holding chairman Joe Tsai urged European companies to use open-source models and their proprietary industrial data to build AI capabilities. In Berlin, Nvidia chief Je",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/26/4b5842e5-90b9-401b-970d-2bf9c49bbbb1_7b405bb5.jpg?itok=wL5PU3Bw&v=1792981085"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "021e43088219bbf9",
@@ -243,10 +686,15 @@
     "category": "China AI",
     "publishedAt": "2026-10-26T09:07:52.000Z",
     "fetchedAt": "2026-10-26T18:26:50.632Z",
-    "snippet": "Brazilian leader Luiz Inacio Lula da Silva staged a surprise comeback to secure a fourth term in office, extending a presidency that has overseen deepening ties with China and sporadic clashes with the United States. With almost all of the ballots in Sunday’s ",
+    "snippet": "Brazilian leader Luiz Inacio Lula da Silva staged a surprise comeback to secure a fourth term in office, extending a presidency that has overseen deepening ties with China and sporadic clashes with the United States. With almost all of the ballots in Sunday’s",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/26/2651612d-9ecc-4b44-941b-f2c4c5d0268f_554867a5.jpg?itok=vwliXoIw&v=1793005660"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a389b924f73082ed",
@@ -257,7 +705,12 @@
     "publishedAt": "2026-10-26T09:01:00.000Z",
     "fetchedAt": "2026-10-26T18:26:50.093Z",
     "snippet": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide. A social media platform makes it more difficult for children to buy fentanyl. These are important protections, and they should have exist",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "209d210384a696d0",
@@ -270,7 +723,12 @@
     "snippet": "iFLYTEK's SparkAudio 1.0 pairs a 0.65B audio encoder with a 30B-A3B MoE model trained on domestic chips, while Robot Super Brain Platform 3.0 bundles boards, modules and a harness for robots.",
     "images": [
       "https://cms-image.pandaily.com/1/iflytek_b810537083.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "3650919d2a3c2ec2",
@@ -283,7 +741,12 @@
     "snippet": "The Nanbeige team at BOSS Zhipin parent Kanzhun released Nanbeige4.3-33B on Hugging Face, a teacher model for agentic coding and office work that will be distilled into a 3B version.",
     "images": [
       "https://cms-image.pandaily.com/1/nanbeige_20935cdff6.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "9e506f3ad8b2ade0",
@@ -296,7 +759,12 @@
     "snippet": "Kingdee added a manager-facing agent hub, an enterprise context layer and 70 ERP connectors with 1,127 tools to Lingee, and released Lingee Bench to test whether agents finish real business work.",
     "images": [
       "https://cms-image.pandaily.com/1/kingdee_81f6472026.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "44b2fa4c2e066a41",
@@ -309,7 +777,12 @@
     "snippet": "A team inside Xiaomi's technology committee has published HachimoDock, a desktop AI device that costs about 150 yuan to build, routes voice tasks to PC agents and controls Xiaomi smart home devices.",
     "images": [
       "https://cms-image.pandaily.com/1/hachimo_83a1cf70ac.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "b144f5476a474b54",
@@ -322,117 +795,12 @@
     "snippet": "Three-month-old Primotion is building robot chips by first training its own model. Paimon-0 tops several embodied AI leaderboards, by the company's account, and cuts action-chunk inference tenfold.",
     "images": [
       "https://cms-image.pandaily.com/1/primotion_25e98efb82.png"
-    ]
-  },
-  {
-    "id": "9759f9999fe1161f",
-    "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
-    "link": "https://arxiv.org/abs/2610.31701",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-10-26T04:00:00.000Z",
-    "fetchedAt": "2026-10-26T18:26:50.553Z",
-    "snippet": "arXiv:2610.31701v1 Announce Type: new Abstract: Enterprise customer journeys are shaped not only by product experiences and marketing, but also by recurring resource-allocation decisions. In B2B go-to-market (GTM) organizations, territory carving determines wh",
-    "images": []
-  },
-  {
-    "id": "48344a87a12f1772",
-    "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
-    "link": "https://arxiv.org/abs/2610.31789",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-10-26T04:00:00.000Z",
-    "fetchedAt": "2026-10-26T18:26:50.553Z",
-    "snippet": "arXiv:2610.31789v1 Announce Type: new Abstract: Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting. However, agent effectiveness depends heavil",
-    "images": []
-  },
-  {
-    "id": "4809c5527a2576c2",
-    "title": "Patronizing and Condescending Language Detection in English and Mandarin",
-    "link": "https://arxiv.org/abs/2610.31808",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-10-26T04:00:00.000Z",
-    "fetchedAt": "2026-10-26T18:26:50.553Z",
-    "snippet": "arXiv:2610.31808v1 Announce Type: new Abstract: Patronizing and condescending language (PCL) is a form of harmful language that belittles and assumes pity for vulnerable groups, reinforcing negative societal stereotypes. However, unlike overt hate speech, it i",
-    "images": []
-  },
-  {
-    "id": "829b292ec739a3b0",
-    "title": "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean",
-    "link": "https://arxiv.org/abs/2610.31810",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-10-26T04:00:00.000Z",
-    "fetchedAt": "2026-10-26T18:26:50.554Z",
-    "snippet": "arXiv:2610.31810v1 Announce Type: new Abstract: Even a carefully proofread paper can leave small gaps in its proofs or its stated assumptions. We introduce PaperFormalizer, a Lean-based agentic pipeline that helps authors find and close such gaps in their own ",
-    "images": []
-  },
-  {
-    "id": "cffbacc94272ad64",
-    "title": "Don't Forget What You Just Learned: Self-Directed Repair Turns Agent Mistakes Into Lasting Lessons",
-    "link": "https://arxiv.org/abs/2610.31846",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-10-26T04:00:00.000Z",
-    "fetchedAt": "2026-10-26T18:26:50.554Z",
-    "snippet": "arXiv:2610.31846v1 Announce Type: new Abstract: Intelligent agents should learn from their mistakes so that experience leads to continuous improvement. Yet today's agents recover from a mistake only temporarily: in-context reflections are easily forgotten acro",
-    "images": []
-  },
-  {
-    "id": "fb6d88ed948b889a",
-    "title": "TACS-RF: Tool-driven Agentic Circuit Synthesis of RF and mmWave Modules",
-    "link": "https://arxiv.org/abs/2610.31882",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-10-26T04:00:00.000Z",
-    "fetchedAt": "2026-10-26T18:26:50.554Z",
-    "snippet": "arXiv:2610.31882v1 Announce Type: new Abstract: We present the framework of TACS-RF - a Tool-driven Agentic Circuit Synthesis of RF and mmWave modules. In this framework, a large-language-model (LLM) coding agent (Claude Opus 4.8) directly drives industry-stan",
-    "images": []
-  },
-  {
-    "id": "2c33a11ca13fb98d",
-    "title": "Permission to Retry: A Study of Authorization and Recovery in AI Agent Workflows",
-    "link": "https://arxiv.org/abs/2610.31916",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-10-26T04:00:00.000Z",
-    "fetchedAt": "2026-10-26T18:26:50.554Z",
-    "snippet": "arXiv:2610.31916v1 Announce Type: new Abstract: A durable agent can resume a consequential action while its authority changes and the action's external outcome remains uncertain. We study execution-time reliability of tool-using AI agents, isolating recovery d",
-    "images": []
-  },
-  {
-    "id": "f76a718fc404c941",
-    "title": "Beyond On-Policy vs. Off-Policy: At What Level Should LLM Agent Distillation Follow the Student?",
-    "link": "https://arxiv.org/abs/2610.31918",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-10-26T04:00:00.000Z",
-    "fetchedAt": "2026-10-26T18:26:50.554Z",
-    "snippet": "arXiv:2610.31918v1 Announce Type: new Abstract: Distilling interactive LLM agents requires choosing between teacher-generated demonstrations and student-generated experience, corresponding broadly to off-policy and on-policy distillation. While both have prove",
-    "images": []
-  },
-  {
-    "id": "f6c8c612dd2894e5",
-    "title": "$M^3$: A Multi-LLM System for Multi-Turn Jailbreaking as a Markov Decision Process",
-    "link": "https://arxiv.org/abs/2610.31937",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-10-26T04:00:00.000Z",
-    "fetchedAt": "2026-10-26T18:26:50.554Z",
-    "snippet": "arXiv:2610.31937v1 Announce Type: new Abstract: Modern Large Language Models (LLMs) remain vulnerable to carefully orchestrated multi-turn interactions that progressively bypass safety mechanisms. However, many existing red-teaming approaches rely on heuristic",
-    "images": []
-  },
-  {
-    "id": "4348b055242b3add",
-    "title": "Knowing Whom to Trust is not Enough: The Trust--Agreement Gap in Repeated Multi-Party LLM Negotiation",
-    "link": "https://arxiv.org/abs/2610.31971",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-10-26T04:00:00.000Z",
-    "fetchedAt": "2026-10-26T18:26:50.554Z",
-    "snippet": "arXiv:2610.31971v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly participate in negotiations on behalf of individuals and organizations, yet they remain vulnerable to manipulation, particularly in repeated multi-party interactions",
-    "images": []
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "cdcad9d4e0ef5462",
@@ -992,6 +1360,17 @@
     "translatedAt": "",
     "translationProvider": "",
     "translationModel": ""
+  },
+  {
+    "id": "62ea5c19c24e5966",
+    "title": "Will AI expose the rickety infrastructure of the internet?",
+    "link": "https://techcrunch.com/2026/10/24/will-ai-expose-the-rickety-infrastructure-of-the-internet/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-24T20:15:33.000Z",
+    "fetchedAt": "2026-10-27T04:13:06.097Z",
+    "snippet": "The moment you realize the internet is \"held together by glue and dreams.\"",
+    "images": []
   },
   {
     "id": "fcb9c9d7ac0d6cb4",
@@ -5677,279 +6056,6 @@
     "publishedAt": "2026-10-20T01:27:03.000Z",
     "fetchedAt": "2026-10-20T04:00:18.018Z",
     "snippet": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "46fd22f5085ad5ee",
-    "title": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
-    "link": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-19T23:39:38.000Z",
-    "fetchedAt": "2026-10-20T04:00:18.020Z",
-    "snippet": "If the deal goes through, it would be the latest in a long string of giant compute deals Anthropic has struck over the past year.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "823b0c76976253b5",
-    "title": "Alberta votes on path to independence as Carney fights to keep Canada united",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3371435/alberta-votes-path-independence-carney-fights-keep-canada-united?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-19T23:03:17.000Z",
-    "fetchedAt": "2026-10-20T04:00:18.516Z",
-    "snippet": "Voters in Canada’s oil-rich Alberta province were deciding on Monday whether to begin a process that could lead to independence, testing national unity as Canadians rally against US President Donald Trump’s trade war and threats to claim Canada as the 51st US",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/20/cf79d315-2d02-4634-9a10-14c3a26adedc_2eea9127.jpg?itok=yc47noZ_&v=1792450803"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e3de7fbb77247dc2",
-    "title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
-    "link": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-19T22:49:27.000Z",
-    "fetchedAt": "2026-10-20T04:00:18.020Z",
-    "snippet": "The idea of embedded evaluators — in which supposedly \"neutral\" third-party observers are placed inside AI organizations — has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over the",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "ac09e4ddb7cac3f7",
-    "title": "Woman tells UK court Russell Brand dragged her into bar toilet and raped her",
-    "link": "https://www.scmp.com/news/world/europe/article/3371433/woman-tells-uk-court-comedian-russell-brand-raped-her?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-19T22:17:55.000Z",
-    "fetchedAt": "2026-10-20T04:00:18.516Z",
-    "snippet": "A woman told police that British actor and comedian Russell Brand had grabbed her breasts before dragging her into a toilet at a bar and orally raping her, a London court heard on Monday. Brand, once one of Britain’s most high-profile broadcasters and the form",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/20/43505ab2-18c3-4509-a546-45fc5485bf8a_dc49bf92.jpg?itok=vJb-FviI&v=1792462045"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "47bca1a1c08ec8d0",
-    "title": "Microsoft says AI agents are like insider threats as &#8216;frontier models can’t be trusted’",
-    "link": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-19T22:04:28.000Z",
-    "fetchedAt": "2026-10-20T04:00:18.020Z",
-    "snippet": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "6b6947f3a7981ece",
-    "title": "Zelensky should get ‘somebody else’ to negotiate to end Ukraine war, Trump says",
-    "link": "https://www.scmp.com/news/world/russia-central-asia/article/3371432/zelensky-should-get-somebody-else-negotiate-end-ukraine-war-trump-says?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-19T21:52:33.000Z",
-    "fetchedAt": "2026-10-20T04:00:18.516Z",
-    "snippet": "US ⁠President Donald Trump on Monday said he thought someone other than Ukrainian President Volodymyr Zelensky ‌should negotiate on Kyiv’s behalf as it seeks to end the war with Russia. “Maybe it’s time for Zelensky to ⁠get somebody else to negotiate,” said ‌T",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/20/ac46290f-caba-4d2b-98db-6d98c10ba731_1beb4852.jpg?itok=nv8enggT&v=1792446581"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "00f55fd56a8f7bf1",
-    "title": "US-China AI talks must ensure safety of both tech and business",
-    "link": "https://www.scmp.com/opinion/china-opinion/article/3370909/us-china-ai-talks-must-ensure-safety-both-tech-and-business?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-19T21:30:05.000Z",
-    "fetchedAt": "2026-10-20T04:00:18.516Z",
-    "snippet": "In New York last month, US-China talks on artificial intelligence opened up a path of cooperation. This was affirmed by the Xi-Trump summit in Washington where both presidents agreed to establish a formal AI dialogue and hotline. With the next AI meeting set t",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/14/ddba29c4-c322-4944-8267-747a1e7c922b_a43d58c4.jpg?itok=CWvCxGoU&v=1791983894"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "d829784431555d39",
-    "title": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
-    "link": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-19T20:21:53.000Z",
-    "fetchedAt": "2026-10-20T04:00:18.380Z",
-    "snippet": "US fears Saudi government will help ex-OpenAI engineer flee spying charges.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2214263510-1024x648.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2214263510-500x500.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "088fd7dc953eaec5",
-    "title": "Trump says he’s open to meeting Xi and Putin in China for nuclear talks",
-    "link": "https://www.scmp.com/news/us/article/3371428/trump-says-hes-open-xi-putin-meeting-china-nuclear-talks?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-19T20:20:55.000Z",
-    "fetchedAt": "2026-10-20T04:00:18.516Z",
-    "snippet": "US President Donald Trump said on Monday he was open to a three-way meeting with Chinese President Xi Jinping and Russian President Vladimir Putin during his visit to China next month, with nuclear weapons on the agenda. “We would have it to talk about nuclear",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/20/9e18c8dc-5a4d-4899-8066-1e5f3bc8d206_f9da1c89.jpg?itok=9Ez-SG6h&v=1792441544"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "d941abc211c16438",
-    "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
-    "link": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-19T20:09:24.000Z",
-    "fetchedAt": "2026-10-20T04:00:18.020Z",
-    "snippet": "Amazon wants to break Nvidia’s hold on PyTorch, the free toolkit used to build most AI apps, so that more developers run their apps on alternative chips like its own.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "efb246eb8f51c5cc",
-    "title": "China’s flag carrier scrambles to fly stranded passengers out of fuel-starved Cuba",
-    "link": "https://www.scmp.com/news/china/article/3371426/chinas-flag-carrier-scrambles-fly-stranded-passengers-out-fuel-starved-cuba?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-19T19:44:08.000Z",
-    "fetchedAt": "2026-10-20T04:00:18.517Z",
-    "snippet": "Dozens of Air China passengers stranded in Cuba by successive cancellations were due to fly out on an extra flight on Monday, as a US oil embargo deepens the island’s energy crisis. The disruption has hit one of Cuba’s last direct air links to Europe, the Chin",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/20/962a4f2e-8110-4f15-a784-3c4ea142a5a1_4ccb0c1a.jpg?itok=ls6lxTfM&v=1792439046"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c691803778a73b18",
-    "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
-    "link": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-19T19:28:34.000Z",
-    "fetchedAt": "2026-10-20T04:00:18.020Z",
-    "snippet": "OpenCode is an open source AI coding agent that's become a popular alternative to Claude Code and Cursor. But hackers got into part of its online platform and stole some users’ API keys, and the AI tools it turned to for help kept refusing to look at the malic",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "22996ebfdf7dc3e1",
-    "title": "Saudi Arabia executes 2 Bangladeshis over ‘indecent acts’ in a Mecca mosque",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3371424/saudi-arabia-executes-2-bangladeshis-over-indecent-acts-holy-city-mecca?utm_source=rss_feed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-19T19:13:26.000Z",
-    "fetchedAt": "2026-10-20T04:00:18.517Z",
-    "snippet": "Saudi Arabia has executed two Bangladeshi nationals, a man and a woman, after they were convicted of committing “indecent acts” in a mosque in the Muslim holy city of Mecca. Bangladesh said it was not informed before the sentences were carried out and has soug",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/20/a9116ba9-04e1-44f1-bede-684d0a7822c1_49ebb328.jpg?itok=InAKHtlM&v=1792464915"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "34ba9c897f01a9c4",
-    "title": "Tolan snags $30M for its AI companion that helps users navigate life",
-    "link": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-19T19:00:12.000Z",
-    "fetchedAt": "2026-10-20T04:00:18.020Z",
-    "snippet": "AI companion app Tolan has raised another $30 million after attracting more than 250,000 active users.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "ab627c37442ae003",
-    "title": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
-    "link": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-19T18:49:04.000Z",
-    "fetchedAt": "2026-10-20T04:00:18.020Z",
-    "snippet": "Eugenia Kuyda's newest startup Wabi is positioned to take advantage of an idea she had more than a decade ago. Wabi offers a personal AI assistant with a twist, free and downloadable to anyone today.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "5b0d626ac7dde3fe",
-    "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
-    "link": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-19T18:37:27.000Z",
-    "fetchedAt": "2026-10-20T04:00:18.020Z",
-    "snippet": "After drawing acquisition interest earlier this year, the Nvidia challenger raised $1.5 billion to remain independent.",
     "images": [],
     "titleZh": "",
     "snippetZh": "",
