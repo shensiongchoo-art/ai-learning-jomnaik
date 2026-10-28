@@ -1,5 +1,288 @@
 [
   {
+    "id": "482e83f2e1ae7bbc",
+    "title": "Google AI gets cagey when asked who won the 2020 elections",
+    "link": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
+    "source": "Ars Technica AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-28T17:46:32.000Z",
+    "fetchedAt": "2026-10-28T18:02:50.117Z",
+    "snippet": "But the AI responses get more forthright when asked outside the US.",
+    "images": [
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2181827335-1152x648.jpg",
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2181827335-500x500.jpg"
+    ]
+  },
+  {
+    "id": "42784e0329c6e3cd",
+    "title": "Netanyahu set to remain caretaker PM after inconclusive Israel election",
+    "link": "https://www.scmp.com/news/world/middle-east/article/3372487/netanyahu-set-remain-caretaker-pm-after-inconclusive-israel-election",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-28T17:39:33.000Z",
+    "fetchedAt": "2026-10-28T18:02:50.575Z",
+    "snippet": "Benjamin Netanyahu looked set to ⁠remain Israel’s caretaker prime minister after unexpectedly strong backing among Jewish voters left his opponents little apparent prospect of unseating him, despite his right-wing bloc losing its parliamentary majority. With n",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/29/b33b2517-b122-4a37-b1c1-ff2e2e1f4a13_26009afe.jpg?itok=g1Wfg2uW&v=1793209166"
+    ]
+  },
+  {
+    "id": "3046fc3cc123b94a",
+    "title": "Malaysia seizes $12 million worth of advanced AI chips hidden inside 30 servers",
+    "link": "https://www.tomshardware.com/tech-industry/policy/malaysia-seizes-usd12-million-worth-of-advanced-ai-chips-hidden-inside-30-servers-customs-says-suspected-smuggling-network-used-the-country-as-a-transit-hub",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-10-28T17:02:14.000Z",
+    "fetchedAt": "2026-10-28T18:02:50.342Z",
+    "snippet": "Malaysian customs seized 30 servers containing more than $12 million worth of advanced AI chips at Kuala Lumpur International Airport, as authorities investigate a suspected smuggling network linked to multiple previous seizures.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/mcUCEv8AzcMnUJJ3xjB6Cf-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Ff8qW7gTwUZFZmPvceeLFd-1920-80.png"
+    ]
+  },
+  {
+    "id": "9eae446d3cde53f7",
+    "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+    "link": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-28T17:00:00.000Z",
+    "fetchedAt": "2026-10-28T18:02:50.036Z",
+    "snippet": "A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps.",
+    "images": []
+  },
+  {
+    "id": "4fb61486dc49f30a",
+    "title": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
+    "link": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-28T17:00:00.000Z",
+    "fetchedAt": "2026-10-28T18:02:50.037Z",
+    "snippet": "The autofill update lets Chrome pull flight confirmations, tracking info, order details, and other information from your inbox, with your permission.",
+    "images": []
+  },
+  {
+    "id": "f840f9091492ccf4",
+    "title": "AI execs may be too out of touch to build for the general public",
+    "link": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-28T15:53:52.000Z",
+    "fetchedAt": "2026-10-28T18:02:50.037Z",
+    "snippet": "Tech leaders are flaunting how out of touch they are when they brag about using AI to connect with their families.",
+    "images": []
+  },
+  {
+    "id": "23794d2134dc31de",
+    "title": "South Korea’s financial industry hit by fresh wave of cyberattacks",
+    "link": "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-28T15:41:18.000Z",
+    "fetchedAt": "2026-10-28T18:02:50.037Z",
+    "snippet": "South Korea’s financial institutions have been hit by another wave of cyberattacks, highlighting the growing risk of AI-driven hacking in Asia.",
+    "images": []
+  },
+  {
+    "id": "3dda8fbb313f2bff",
+    "title": "AI component hikes force the world's largest PC makers to return manufacturing capacity to China",
+    "link": "https://www.tomshardware.com/tech-industry/manufacturing/ai-component-hikes-force-the-worlds-largest-pc-makers-to-return-manufacturing-capacity-to-china-brands-to-seek-lower-production-costs-and-efficiency-in-established-supply-chain",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-10-28T15:24:16.000Z",
+    "fetchedAt": "2026-10-28T18:02:50.342Z",
+    "snippet": "PC manufacturing in China tends to be cheaper because of an established supply chain and workforce. Smaller Chinese suppliers are also winning orders by offering easier access to domestic chip manufacturers like CXMT.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/96np8ZYRRhSJs3PgrHgg9L-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "2a63e756b3330ed6",
+    "title": "Amazon tells engineers to stop ‘tokenmaxxing’ to look productive",
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/amazon-tells-engineers-to-stop-tokenmaxxing-to-look-productive-says-ai-will-be-central-to-software-development-but-usage-is-not-the-goal-new-guidelines-claim",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-10-28T15:13:48.000Z",
+    "fetchedAt": "2026-10-28T18:02:50.342Z",
+    "snippet": "Amazon has published new engineering guidelines warning developers and managers against ‘tokenmaxxing,’ arguing that AI usage metrics are ‘deeply flawed’ unless tied to long-term outcomes. The move follows similar spending concerns at Uber and Accenture.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/X5VrhSL4p2oPLAfRk2LBb-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "dcb2083ac6de3e31",
+    "title": "FCC rebuffs TP-Link again as it attempts to sell Wi-Fi 8 gear in the US",
+    "link": "https://www.tomshardware.com/networking/routers/fcc-rebuffs-tp-link-again-as-it-attempts-to-sell-wi-fi-8-gear-in-the-us-fcc-alleges-inaccurate-documentation-and-out-of-spec-power-levels-for-routers",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-10-28T15:07:35.000Z",
+    "fetchedAt": "2026-10-28T18:02:50.342Z",
+    "snippet": "TP-Link just can’t seem to catch a break with the FCC, as it’s not under fire for exceeding power limits on its routers",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/MbZxghsMGayruAPEDs86j7-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "61f55a2025ae933b",
+    "title": "Voice AI in vogue: Nvidia releases new open transcription model",
+    "link": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-28T15:00:00.000Z",
+    "fetchedAt": "2026-10-28T18:02:50.037Z",
+    "snippet": "Nvidia just released a free speech-to-text model that can transcribe up to 40 languages, but it only works on recordings, not live audio, so it’s a big step for meeting and medical transcription tools while still leaving real-time use to rivals like ElevenLabs",
+    "images": []
+  },
+  {
+    "id": "1ecf485eca6bb5bc",
+    "title": "Corsair Warthog case review: A rugged, military-themed chassis with plenty of airflow",
+    "link": "https://www.tomshardware.com/pc-components/pc-cases/corsair-warthog-case-review",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-10-28T14:00:00.000Z",
+    "fetchedAt": "2026-10-28T18:02:50.342Z",
+    "snippet": "The military-inspired Warthog mid-tower borrows from Corsair’s Vengeance C70 and takes the military aesthetic up a couple of notches. Is the rugged look worth it?",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/qjVr5VcF7chqPNwCV9LWTR-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/ayVXzsieghpBkcUCuUp5RE-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/yfPw58FddtjoqV3sh9bWPE-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/7oTCGQPLNpAiNxX6Z7HuRE-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/BEx7qeVbKhkZ2qFhboqNSE-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "7403382b967256c2",
+    "title": "SK hynix-owned Solidigm is plotting a new $45 billion flash memory factory for the US, report claims",
+    "link": "https://www.tomshardware.com/tech-industry/manufacturing/sk-hynix-owned-solidigm-is-plotting-a-new-usd45-billion-flash-memory-factory-for-the-us-report-claims-wants-go-ahead-to-export-equipment-for-china-upgrades-in-return",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-10-28T13:01:21.000Z",
+    "fetchedAt": "2026-10-28T18:02:50.342Z",
+    "snippet": "Solidigm, an American subsidiary of SK hynix, is in discussions about potentially investing $45 billion in a new flash chip factory that would be built in the United States.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/9g9LtorKP9jLymzth9cSfd-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/xi79WuWDZXzix4Fc7sXNMn-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/Ff8qW7gTwUZFZmPvceeLFd-1920-80.png"
+    ]
+  },
+  {
+    "id": "77c4d25ed3a3ee29",
+    "title": "7 days until TechCrunch Founder Summit: Save up to $100 on your pass before doors open",
+    "link": "https://techcrunch.com/2026/10/28/7-days-until-techcrunch-founder-summit-save-up-to-100-before-doors-open/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-28T13:00:00.000Z",
+    "fetchedAt": "2026-10-28T18:02:50.037Z",
+    "snippet": "In just 7 days, TechCrunch Founder Summit takes over Boston’s SoWa Power Station on November 4. Your chance to save up to $100 on tickets is running out, and the opportunity to learn and connect directly with experienced founders, investors, and startup leader",
+    "images": []
+  },
+  {
+    "id": "72d5e6f5f674652d",
+    "title": "The Download: dead startups fueling AI and interspecies communication",
+    "link": "https://www.technologyreview.com/2026/10/28/1147767/the-download-dead-startups-fueling-ai-interspecies-communication/",
+    "source": "MIT Technology Review",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-28T12:10:00.000Z",
+    "fetchedAt": "2026-10-28T18:02:50.042Z",
+    "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI labs are buying data from dead startups to train their models When Keelan Miskell began winding down his crypto startup",
+    "images": [
+      "https://wp.technologyreview.com/wp-content/uploads/2025/04/20240926__DSC7922_PA.jpg?fit=3840,2560"
+    ]
+  },
+  {
+    "id": "89d54863762e76a9",
+    "title": "Pairing industrial AI autonomy and human control",
+    "link": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/",
+    "source": "MIT Technology Review",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-28T12:00:00.000Z",
+    "fetchedAt": "2026-10-28T18:02:50.043Z",
+    "snippet": "",
+    "images": []
+  },
+  {
+    "id": "767e13b1e7c4b906",
+    "title": "Assailant outside Israeli embassy in Serbia killed after attacking police officer",
+    "link": "https://www.scmp.com/news/world/europe/article/3372460/assailant-outside-israeli-embassy-serbia-killed-after-attacking-police-officer",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-28T11:06:41.000Z",
+    "fetchedAt": "2026-10-28T18:02:50.575Z",
+    "snippet": "An assailant with knives attacked a police officer from an elite unit guarding the Israeli embassy in Belgrade just after midnight on Wednesday, police said. The officer responded by fatally shooting the attacker. Interior Minister Ivica Dacic said that police",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/28/bc258ee4-a4ea-4bac-beea-268921a73838_b03dd17d.jpg?itok=jRbsLwu0&v=1793185600"
+    ]
+  },
+  {
+    "id": "b894d0b907487c60",
+    "title": "At least 68 dead in Spain after high-speed trains collide",
+    "link": "https://www.scmp.com/news/world/europe/article/3372446/least-10-dead-spain-after-high-speed-trains-collide",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-28T09:53:03.000Z",
+    "fetchedAt": "2026-10-28T18:02:50.575Z",
+    "snippet": "A high-speed train slammed into another that had stopped on the tracks in Spain Wednesday, killing at least 68 people and injuring dozens in the second deadly rail collision this year. The regional government of Castilla La Mancha confirmed the death toll and ",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/28/4bd364b9-4e36-4a0c-abc1-955699715831_7e0aa35c.jpg?itok=OF91PJAq&v=1793183310"
+    ]
+  },
+  {
+    "id": "24c90ab5c868ed66",
+    "title": "Hi3D Open-Sources Hi3D v1.0, a Sparc3D-Based Model That Refines 3D Meshes Up to 1536 Resolution",
+    "link": "https://pandaily.com/hi3d-v1-0-open-source-sparc3d-high-resolution-3d-geometry-refinement-1536",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-28T07:01:02.000Z",
+    "fetchedAt": "2026-10-28T18:02:50.138Z",
+    "snippet": "Hi3D has released inference code and weights for Hi3D v1.0, which turns a coarse mesh and a reference image into detailed geometry at a sparse grid resolution of up to 1536 cubed.",
+    "images": [
+      "https://cms-image.pandaily.com/1/hi3d_79b868bb1d.png"
+    ]
+  },
+  {
+    "id": "b18042c420f88587",
+    "title": "Doubao Work and Tencent WorkBuddy Both Push Desktop Agents Further Onto the Phone",
+    "link": "https://pandaily.com/doubao-work-recorded-computer-skills-mac-lock-screen-tencent-workbuddy-remote-control",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-28T06:59:11.000Z",
+    "fetchedAt": "2026-10-28T18:02:50.139Z",
+    "snippet": "ByteDance's Doubao Work can now turn a recorded, narrated computer task into a reusable skill and keep working on a locked Mac, while Tencent WorkBuddy adds live remote control from a phone.",
+    "images": [
+      "https://cms-image.pandaily.com/1/desk_dd4b902bb6.png"
+    ]
+  },
+  {
+    "id": "8d35ab2a779c32f2",
+    "title": "Ant Group Open-Sources Ling-3.1-flash-1019 and Its Base Model, Aiming at Personal Agents",
+    "link": "https://pandaily.com/ant-group-ling-3-1-flash-1019-ling-3-1-flash-base-open-source-personal-agent-aa-index-44",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-10-28T06:58:23.000Z",
+    "fetchedAt": "2026-10-28T18:02:50.139Z",
+    "snippet": "Ant Group's Ling team released Ling-3.1-flash-1019, a post-trained update scoring 44 on the Artificial Analysis Intelligence Index, plus the Ling-3.1-flash-base model under the MIT license.",
+    "images": [
+      "https://cms-image.pandaily.com/1/ling_c5e14ecd7a.png"
+    ]
+  },
+  {
+    "id": "99978b69b0b2ce7b",
+    "title": "As vote count keeps Israel in suspense, what happens next?",
+    "link": "https://www.scmp.com/news/world/middle-east/article/3372401/tight-vote-count-keeps-israel-suspense-what-happens-next",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-28T06:16:40.000Z",
+    "fetchedAt": "2026-10-28T18:02:50.575Z",
+    "snippet": "Israelis voted on Tuesday in their highest turnout for decades, with exit polls showing the camp of Prime Minister Benjamin Netanyahu and that of his rival are neck and neck. Exit polls from the three mainstream Israeli television networks gave the two blocs a",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/28/81056d95-4b69-400f-a9a1-cb34eff42fe4_30856f61.jpg?itok=SgIMWBQa&v=1793168198"
+    ]
+  },
+  {
     "id": "a5f5e42eeba85306",
     "title": "El Salvador deploys 1,000 troops to Haiti after gang ambush",
     "link": "https://www.scmp.com/news/world/americas/article/3372387/el-salvador-deploys-1000-troops-haiti-after-gang-ambush",
@@ -10,7 +293,12 @@
     "snippet": "El Salvador has sent about 1,000 troops to Haiti after four Salvadorean members of a UN-backed security mission went missing in a gang ambush on the outskirts of the capital on October 18, a security official in Haiti told Reuters on Tuesday. The troops’ arriv",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/28/46fa4a4e-cb8e-41b2-bd96-b3e88794c813_17316582.jpg?itok=gUXyCqBK&v=1793161847"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a354ccf85875b6d5",
@@ -23,7 +311,12 @@
     "snippet": "India has emerged as a major exporter of ammunition and other weapons to Europe since the outbreak of the Ukraine-Russia war, but analysts caution that New Delhi has yet to secure a lasting foothold in Europe’s defence market. Defence Secretary Rajesh Kumar Si",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/28/63082289-de64-4ca1-a263-38a7f62866b9_72a6f6da.jpg?itok=oZ4ytLO8&v=1793117980"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "6186f290f579f69c",
@@ -34,7 +327,12 @@
     "publishedAt": "2026-10-28T04:00:00.000Z",
     "fetchedAt": "2026-10-28T04:42:05.397Z",
     "snippet": "arXiv:2610.35942v1 Announce Type: new Abstract: I consider what it means for AI assistance to save time. I contrast a stopwatch view, on which time saved is whatever the clock records, with a ledger view, on which it is a counterfactual that has to be read nex",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "97204c12d7d38725",
@@ -45,7 +343,12 @@
     "publishedAt": "2026-10-28T04:00:00.000Z",
     "fetchedAt": "2026-10-28T04:42:05.397Z",
     "snippet": "arXiv:2610.35984v1 Announce Type: new Abstract: Deep learning models are highly effective in a wide range of domains, particu larly in plant disease diagnosis. However, their performance is often limited by challenges such as insufficient data and class imbala",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e2ef5c79b667f3ed",
@@ -56,7 +359,12 @@
     "publishedAt": "2026-10-28T04:00:00.000Z",
     "fetchedAt": "2026-10-28T04:42:05.398Z",
     "snippet": "arXiv:2610.36077v1 Announce Type: new Abstract: Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable enviro",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "0db84768a05c39bd",
@@ -67,7 +375,12 @@
     "publishedAt": "2026-10-28T04:00:00.000Z",
     "fetchedAt": "2026-10-28T04:42:05.398Z",
     "snippet": "arXiv:2610.36100v1 Announce Type: new Abstract: Language model agents for clinical cohort curation should accommodate evolving eligibility criteria without repeatedly processing unchanged requirements. We introduce CohortFlow, a steerable agent that represents",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c6b31c7541285f9e",
@@ -78,7 +391,12 @@
     "publishedAt": "2026-10-28T04:00:00.000Z",
     "fetchedAt": "2026-10-28T04:42:05.398Z",
     "snippet": "arXiv:2610.36116v1 Announce Type: new Abstract: As AI begins to match or exceed human researchers at core scientific tasks, two questions become pressing: \\emph{why} should humans keep doing science, and \\emph{how} should they use AI when they do? This paper a",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "33131a220f2867d1",
@@ -89,7 +407,12 @@
     "publishedAt": "2026-10-28T04:00:00.000Z",
     "fetchedAt": "2026-10-28T04:42:05.398Z",
     "snippet": "arXiv:2610.36146v1 Announce Type: new Abstract: Prompt optimization should improve the image a user receives without changing the scene the user requested. Yet stylistic rewriting can weaken object attributes and relations even when global text--image similari",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "df576650e02862db",
@@ -100,7 +423,12 @@
     "publishedAt": "2026-10-28T04:00:00.000Z",
     "fetchedAt": "2026-10-28T04:42:05.398Z",
     "snippet": "arXiv:2610.36169v1 Announce Type: new Abstract: A retrieval-augmented language model answers from two sources, the retrieved context and its own knowledge, and the two disagree whenever the context is incomplete or wrong. Existing methods settle the disagreeme",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c491d4e0b80de82e",
@@ -111,7 +439,12 @@
     "publishedAt": "2026-10-28T04:00:00.000Z",
     "fetchedAt": "2026-10-28T04:42:05.398Z",
     "snippet": "arXiv:2610.36183v1 Announce Type: new Abstract: We study time-to-arrival (TTA) in sports: the shortest plausible time a player needs to reach an arbitrary location on the pitch given their current kinematic state, estimated as the lower envelope of observed lo",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a90209cf47b81179",
@@ -122,7 +455,12 @@
     "publishedAt": "2026-10-28T04:00:00.000Z",
     "fetchedAt": "2026-10-28T04:42:05.398Z",
     "snippet": "arXiv:2610.36188v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly rely on reusable skills for complex software engineering tasks, making skill libraries essential for repository development and maintenance. However, repository-spec",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "d88e08209d30d950",
@@ -133,7 +471,12 @@
     "publishedAt": "2026-10-28T04:00:00.000Z",
     "fetchedAt": "2026-10-28T04:42:05.398Z",
     "snippet": "arXiv:2610.36234v1 Announce Type: new Abstract: Requirements engineering (RE) is foundational to systems engineering (SE), as requirement defects can propagate downstream and adversely affect development outcomes. Although large language models (LLMs) are prom",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "4119453d00977c18",
@@ -146,7 +489,12 @@
     "snippet": "RoboParty's RP1 is a 135 cm humanoid with 24 or 30 degrees of freedom, released as a full-stack open platform covering hardware, joint modules, firmware, robot models and training tools.",
     "images": [
       "https://cms-image.pandaily.com/1/rp1_ad3d8b3850.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "bcdced52a056ee2b",
@@ -159,7 +507,12 @@
     "snippet": "Southchip's SC3606 drives motorless piezoelectric fans from battery voltage, outputs up to 46Vpp and automatically locks onto the fan's resonant frequency, aiming at active cooling in thin devices.",
     "images": [
       "https://cms-image.pandaily.com/1/sc_e8d3fbb366.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "ab33a4652c15948d",
@@ -172,7 +525,12 @@
     "snippet": "OXR-1.0 from Chinese document-AI team SoMark parses 13 element types into Markdown or JSON with layout coordinates, using a pluggable layout module and a self-improvement loop in post-training.",
     "images": [
       "https://cms-image.pandaily.com/1/oxr_68260a5287.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "8872706210ca4e15",
@@ -185,7 +543,12 @@
     "snippet": "Baidu's Unlimited OCR 2 uses sparse reference sliding window attention to keep decoding cost nearly flat as documents grow. Weights and code are on GitHub and Hugging Face under the MIT license.",
     "images": [
       "https://cms-image.pandaily.com/1/ocr_df7fac9c42.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "65e24a91e5f9e8d3",
@@ -198,7 +561,12 @@
     "snippet": "At Decoding China 2026 in Shanghai, Huawei showed VitaAAU, an Upper 6GHz active antenna unit built for uplink-heavy AI traffic. It is already in commercial use in the UAE, Hong Kong and Macao.",
     "images": [
       "https://cms-image.pandaily.com/1/vita_7162808d0d.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "6a11072b047eee99",
@@ -211,7 +579,12 @@
     "snippet": "AgiBot's new embodied agent framework links an AI agent to G2 robots through a four-part execution protocol and two self-improvement loops. Six robots start a 24-hour livestreamed shift on Nov 2.",
     "images": [
       "https://cms-image.pandaily.com/1/genie_2df9e1bd8c.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "7e321ac8d6ba0513",
@@ -224,7 +597,12 @@
     "snippet": "Immigration restrictions, rising living costs and strains in US-India relations are testing support for President Donald Trump among some Indian-Americans who backed the Republican Party in 2024, analysts say, ahead of November’s midterm elections. A survey re",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/28/0b1b6722-9a0c-4c9e-ae53-3347b05938e4_28636dc4.jpg?itok=sVOXJtfB&v=1793119453"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "755bf6dc57f9274b",
@@ -235,7 +613,12 @@
     "publishedAt": "2026-10-28T01:15:28.000Z",
     "fetchedAt": "2026-10-28T04:42:05.079Z",
     "snippet": "Massive note conversions reveal the true extent of Amazon's ownership in Anthropic.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "96fff0d91332b498",
@@ -248,7 +631,12 @@
     "snippet": "A booming semiconductor industry is helping drive a surge in trade in Xian, one of China’s ancient capitals, making it the country’s top performer by trade growth among provincial capitals and provincial-level cities for which data is publicly available. The c",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/27/5bf72c8b-c161-4ee8-aa01-f05d7ce94ed0_5d0b953c.jpg?itok=AlZR3fmx&v=1793099217"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "8ab13bb3ae062f53",
@@ -258,10 +646,15 @@
     "category": "China AI",
     "publishedAt": "2026-10-27T23:36:51.000Z",
     "fetchedAt": "2026-10-28T04:42:05.726Z",
-    "snippet": "Britain’s King Charles arrived in the Bahamas on Tuesday as part of a nine-day trip to the Caribbean, where he faces calls for an apology and slavery reparations. It is his first official visit to the Bahamas as king, with the archipelago’s government closing ",
+    "snippet": "Britain’s King Charles arrived in the Bahamas on Tuesday as part of a nine-day trip to the Caribbean, where he faces calls for an apology and slavery reparations. It is his first official visit to the Bahamas as king, with the archipelago’s government closing",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/28/90d0be1d-b47f-48c1-b2d6-8eb390f9723c_3b325fbd.jpg?itok=HtP2bl_Y&v=1793144202"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "f2a5d995a4889ab8",
@@ -272,7 +665,12 @@
     "publishedAt": "2026-10-27T23:34:27.000Z",
     "fetchedAt": "2026-10-28T04:42:05.081Z",
     "snippet": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e99b962c6df00e82",
@@ -283,7 +681,12 @@
     "publishedAt": "2026-10-27T22:55:41.000Z",
     "fetchedAt": "2026-10-28T04:42:05.081Z",
     "snippet": "As the AI boom stresses the existing power grid, all sorts of new opportunities for grid modernization are also emerging as a result, industry insiders say.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "9488ca01ee2ff3f5",
@@ -297,7 +700,12 @@
     "images": [
       "https://cdn.arstechnica.net/wp-content/uploads/2023/09/robot-phone-headset-1152x648.jpg",
       "https://cdn.arstechnica.net/wp-content/uploads/2023/09/robot-phone-headset-500x500-1793134828.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "0a8b9e34106b4933",
@@ -308,7 +716,12 @@
     "publishedAt": "2026-10-27T21:44:34.000Z",
     "fetchedAt": "2026-10-28T04:42:05.081Z",
     "snippet": "The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "5667db2d8a7819fa",
@@ -319,7 +732,12 @@
     "publishedAt": "2026-10-27T21:38:28.000Z",
     "fetchedAt": "2026-10-28T04:42:05.081Z",
     "snippet": "Here's a clear explanation of Anthropic's incredibly complex governance structure.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "df7c030739fb5c97",
@@ -333,7 +751,12 @@
     "images": [
       "https://cdn.arstechnica.net/wp-content/uploads/2026/10/anthropic-crystal-ball-1152x648.jpg",
       "https://cdn.arstechnica.net/wp-content/uploads/2026/10/anthropic-crystal-ball-500x500.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "48f45a070dc7c04b",
@@ -346,7 +769,12 @@
     "snippet": "Eswatini probably does not register on most people’s mental maps. Its relatively recent name might sound unfamiliar as many people still know it as Swaziland. That it demands attention from pundits like yours truly has much to do with it being the only African",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/26/b2449779-a8c0-4c45-9235-b95ed850d097_14e8e0e9.jpg?itok=bfgUtJwf&v=1792986889"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "bb7ba2c3bfcf6d64",
@@ -359,7 +787,12 @@
     "snippet": "Award-winning mathematician Richard Brocherds says that it's a waste of time and money to grade AI answers, so he now only uses in-person exams to see how well his students are doing in his classes.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/vRpHVXiNv3LEuAqzNwhCkY-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "8b0b07a7ae1fffd1",
@@ -370,7 +803,12 @@
     "publishedAt": "2026-10-27T18:55:35.000Z",
     "fetchedAt": "2026-10-28T04:42:05.082Z",
     "snippet": "Disruptive has made headlines in recent years for pouring money into companies like chip startup Groq and the AI voice-generation startup ElevenLabs.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "2d0188d02381d246",
@@ -384,7 +822,12 @@
     "images": [
       "https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-615307388-832x648.jpg",
       "https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-615307388-500x500.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "758b72d3f65ff28e",
@@ -397,7 +840,12 @@
     "snippet": "The defense contractor aims to fully bring back laptop manufacturing on U.S. shores, with its first BlueChip laptop prototypes having 90% procurement cost coming from suppliers in the U.S. and other allied countries.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/oRpL4c7fewCVVQTqSzdVzM-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "5bf87defa989b423",
@@ -5606,377 +6054,6 @@
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/21/28df8a87-7bce-42a9-921d-89405539bef7_392b1ab8.jpg?itok=fxUAFVMe&v=1792546164"
     ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "76eb377df33c69a8",
-    "title": "Trump administration says it has revoked over 300,000 visas",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3371565/trump-administration-says-it-has-revoked-over-300000-visas",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-20T23:53:20.000Z",
-    "fetchedAt": "2026-10-21T03:49:30.966Z",
-    "snippet": "President Donald Trump’s administration has ⁠revoked over 300,000 ⁠US visas during his second ⁠term, the State Department said on Tuesday as the federal government continues its sweeping immigration crackdown. The number showed an acceleration in the pace of v",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/21/bb536f91-927a-4f11-9749-fd5ec0406266_6539859c.jpg?itok=qaYxf44w&v=1792540386"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "00f5b9ada7b3704f",
-    "title": "Musk says SpaceX and Tesla are exploring blockbuster merger deal",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3371564/musk-says-spacex-and-tesla-are-exploring-blockbuster-merger-deal",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-20T23:35:28.000Z",
-    "fetchedAt": "2026-10-21T03:49:30.966Z",
-    "snippet": "Elon Musk said SpaceX and Tesla Inc have formed special committees to explore a potential merger, a preliminary step towards what would rank as the largest corporate tie-up of all time. “I do think there’s a lot of merit to combining the companies,” Musk, the",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/21/36a778e0-478a-4b35-b73c-63d4b8cc3961_d97b2d51.jpg?itok=ZVReDHHp&v=1792539315"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "d80fcdaf787188f0",
-    "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
-    "link": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-20T23:01:23.000Z",
-    "fetchedAt": "2026-10-21T03:49:30.463Z",
-    "snippet": "The proposed policy seems to offer protections against AI run amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "b63102f0c6d9f8ee",
-    "title": "Musk ordered slowdown of Starlink service Ukraine military relies on, report says",
-    "link": "https://www.scmp.com/news/world/russia-central-asia/article/3371563/musk-ordered-slowdown-starlink-service-ukraine-military-relies-report-says",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-20T22:49:12.000Z",
-    "fetchedAt": "2026-10-21T03:49:30.966Z",
-    "snippet": "Elon Musk last week ⁠ordered the slowdown of ⁠a military-grade version of ⁠SpaceX’s Starlink satellite service that Ukraine relies on, The Wall Street Journal reported on Tuesday, citing US officials and people familiar with the matter. Musk, SpaceX and the Wh",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/21/d1e36ad3-cb43-4888-8fe1-6579cfcbe1ac_92e0020c.jpg?itok=leSnfE2-&v=1792536541"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "d8a01c350d8db769",
-    "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
-    "link": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-20T22:24:02.000Z",
-    "fetchedAt": "2026-10-21T03:49:30.464Z",
-    "snippet": "Before you share the Netflix documentary \"AI Gone Rogue\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "661bcf407affe437",
-    "title": "Britain’s ban on pro-Palestinian author Sally Rooney makes it a laughing stock",
-    "link": "https://www.scmp.com/opinion/world-opinion/article/3371369/britains-ban-pro-palestinian-author-sally-rooney-makes-it-laughing-stock",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-20T21:30:06.000Z",
-    "fetchedAt": "2026-10-21T03:49:30.966Z",
-    "snippet": "“Actions have consequences,” British Minister of State for Skills and former home secretary Baroness Jacqui Smith said of Palestine Action, the protest group proscribed as a terrorist organisation across the United Kingdom. She was lecturing the group’s member",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/19/3835ea30-b108-408a-b97b-d1eacdf6689f_8eefed46.jpg?itok=mTgIAGLe&v=1792399106"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "998eb1dbb2affd68",
-    "title": "Anthropic’s cloud partnerships are getting messy",
-    "link": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-20T21:25:22.000Z",
-    "fetchedAt": "2026-10-21T03:49:30.464Z",
-    "snippet": "Anthropic is reportedly struggling to secure enough compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of a planned November IPO.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "adb21ab9edb60013",
-    "title": "It’s a bird, it’s a plane … it’s a robo-puffin?",
-    "link": "https://www.technologyreview.com/2026/10/20/1145205/its-a-bird-its-a-plane-its-a-robo-puffin/",
-    "source": "MIT Technology Review",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-20T21:00:00.000Z",
-    "fetchedAt": "2026-10-21T03:49:30.466Z",
-    "snippet": "Given that water is 1,000 times denser than air, moving through those two mediums requires very different mechanics—or so one might assume. Yet birds like gulls and puffins can plunge into the sea, swim underwater, and leap back into the air to fly away. And n",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "f80491db71fc8537",
-    "title": "Melt it, spin it, use it again",
-    "link": "https://www.technologyreview.com/2026/10/20/1145276/melt-it-spin-it-use-it-again/",
-    "source": "MIT Technology Review",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-20T21:00:00.000Z",
-    "fetchedAt": "2026-10-21T03:49:30.466Z",
-    "snippet": "The average American throws out around 81 pounds of clothing each year, and there are few options for recycling it. MIT engineers hope to cut down on that textile waste with a new type of yarn.&#160; The thermoplastic yarn mimics the properties of conventional",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "ea1a56731657c1e1",
-    "title": "A reason to eat carbs",
-    "link": "https://www.technologyreview.com/2026/10/20/1145279/a-reason-to-eat-carbs/",
-    "source": "MIT Technology Review",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-20T21:00:00.000Z",
-    "fetchedAt": "2026-10-21T03:49:30.466Z",
-    "snippet": "A high-fat, low-carbohydrate diet can help some people lose weight, and some research has shown that it may protect against colon cancer. But a new study suggests that such a ketogenic diet may also increase the risk of cancer in the small intestine. This type",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "6991be2597e7d39e",
-    "title": "Robotic therapy for stroke patients",
-    "link": "https://www.technologyreview.com/2026/10/20/1145282/robotic-therapy-for-stroke-patients/",
-    "source": "MIT Technology Review",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-20T21:00:00.000Z",
-    "fetchedAt": "2026-10-21T03:49:30.466Z",
-    "snippet": "Strokes leave 5 million people with long-term impairments each year, and a growing shortage of physical therapists makes it hard for them to get the care they need. A new approach tries to solve that problem by combining artificial intelligence and human thera",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e97126a59facf553",
-    "title": "A champion for brain injury patients",
-    "link": "https://www.technologyreview.com/2026/10/20/1145297/a-champion-for-brain-injury-patients/",
-    "source": "MIT Technology Review",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-20T21:00:00.000Z",
-    "fetchedAt": "2026-10-21T03:49:30.466Z",
-    "snippet": "Alissa Totman ’13 was a sophomore when she joined MIT BrainTrust, a student-run organization that connects Institute undergraduates and people with brain injuries for support and socializing. “That group was a great way to learn about the human experience of w",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "6f6038044e59e7ee",
-    "title": "A cleaner path to rare earth metals",
-    "link": "https://www.technologyreview.com/2026/10/20/1145300/a-cleaner-path-to-rare-earth-metals/",
-    "source": "MIT Technology Review",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-20T21:00:00.000Z",
-    "fetchedAt": "2026-10-21T03:49:30.466Z",
-    "snippet": "Tomás Villalón Jr. ’14 was raised in San Antonio, Texas, but vividly remembers smog hanging over the city his family came from—Monterrey, Mexico, a steel manufacturing and metal fabrication hub. Even as a child, he realized it was problematic to breathe that a",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "a2ee1dc34e458323",
-    "title": "SpaceX’s AI business is beating expectations",
-    "link": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-20T20:40:41.000Z",
-    "fetchedAt": "2026-10-21T03:49:30.464Z",
-    "snippet": "SpaceX hit profitably in the third-quarter, with net income of $4.4 billion. AI was the engine.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c96c4d37751e1cca",
-    "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
-    "link": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-20T20:35:10.000Z",
-    "fetchedAt": "2026-10-21T03:49:30.464Z",
-    "snippet": "OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "2cf561617c7fa8fe",
-    "title": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
-    "link": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-20T20:07:58.000Z",
-    "fetchedAt": "2026-10-21T03:49:30.545Z",
-    "snippet": "Meta changes AI scraping policy but won’t add language respecting robots.txt.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2299491134-1152x648.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2299491134-500x500-1792525443.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "d389f1e9d5b9dcf4",
-    "title": "Gemini&#039;s Personal Intelligence is coming to cars",
-    "link": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-20T20:00:33.000Z",
-    "fetchedAt": "2026-10-21T03:49:30.546Z",
-    "snippet": "It's probably time to audit your Gemini settings.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/10/google-gemini-android-auto-1152x648.png",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/10/google-gemini-android-auto-500x500.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "d8ed396179ad98ec",
-    "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
-    "link": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-20T18:38:24.000Z",
-    "fetchedAt": "2026-10-21T03:49:30.464Z",
-    "snippet": "Google has joined Amazon in releasing a developer tool that makes it easy for PyTorch users to move their apps off Nvidia GPUs.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "14b22d1affa298f0",
-    "title": "ChatGPT now lets you lock your chats",
-    "link": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-20T18:36:53.000Z",
-    "fetchedAt": "2026-10-21T03:49:30.464Z",
-    "snippet": "The company says the feature is designed for situations where users might be discussing something personal or planning a surprise and want to keep those conversations private when handing their device to friends or family to show them something in another chat",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "f9c088472d07c696",
-    "title": "Ukraine’s drone rescue of wounded soldier puts much touted idea into practice",
-    "link": "https://arstechnica.com/gadgets/2026/10/ukraines-drone-rescue-of-wounded-soldier-puts-much-touted-idea-into-practice/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-20T18:22:54.000Z",
-    "fetchedAt": "2026-10-21T03:49:30.546Z",
-    "snippet": "Ukraine’s latest drone innovation may boost bleak odds of evacuating casualties.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Ukraine-drone-evacuation-1152x648.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Ukraine-drone-evacuation-500x500.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e202350090baf0ba",
-    "title": "Shark kills woman swimming off South Africa’s Eastern Cape",
-    "link": "https://www.scmp.com/news/world/africa/article/3371560/shark-kills-woman-swimming-south-africas-eastern-cape",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-20T18:03:29.000Z",
-    "fetchedAt": "2026-10-21T03:49:30.966Z",
-    "snippet": "A 65-year-old woman was killed on Tuesday in a shark attack off South Africa’s southeastern coast, police and municipal authorities said, prompting the closure of two beaches. Officers were called to Orient Beach in KuGompo city, formerly East London, at about",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/21/31d97a68-36f1-46f3-b07c-210eefe069cf_eeb8d173.jpg?itok=VZmGc7Kg&v=1792519401"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "9fd715b5ddf551da",
-    "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
-    "link": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-20T17:55:12.000Z",
-    "fetchedAt": "2026-10-21T03:49:30.464Z",
-    "snippet": "Eric Schmidt’s fortune is about to get even bigger.",
-    "images": [],
     "titleZh": "",
     "snippetZh": "",
     "translatedAt": "",
