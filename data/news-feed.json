@@ -1,5 +1,168 @@
 [
   {
+    "id": "73475dbbd8a11826",
+    "title": "SenseTime Open-Sources SenseNova-Loop-9B-Preview, a Looped Model That Runs Its Middle Layers Twice",
+    "link": "https://pandaily.com/sensetime-sensenova-loop-9b-preview-looped-transformer-mhc-open-source-apache-2",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-01T01:52:55.000Z",
+    "fetchedAt": "2026-11-01T05:00:13.586Z",
+    "snippet": "SenseTime's open-source SenseNova-Loop-9B-Preview runs a shared 24-layer block twice, giving 56 layer passes from 32 layers, and adds two-stream mHC. Weights are Apache 2.0.",
+    "images": [
+      "https://cms-image.pandaily.com/1/sn_landscape_1255cc057c.png"
+    ]
+  },
+  {
+    "id": "69a4cf86409ba015",
+    "title": "Westlake University Opens a World Model Research Center Led by Yu Kaicheng",
+    "link": "https://pandaily.com/westlake-university-world-model-research-center-yu-kaicheng-jin-yaochu-physical-intelligence",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-01T01:51:27.000Z",
+    "fetchedAt": "2026-11-01T05:00:13.586Z",
+    "snippet": "Westlake University opened a world model research center at its Yungu Campus on October 31, directed by Yu Kaicheng with Jin Yaochu as chief scientist, to focus on physical intelligence.",
+    "images": [
+      "https://cms-image.pandaily.com/1/wl_ffec4549bb.png"
+    ]
+  },
+  {
+    "id": "9a3c808728621767",
+    "title": "Peking University Team Ports DFT Software ABACUS to Huawei Kunpeng 920, Reports Up to 10.7x Speedups",
+    "link": "https://pandaily.com/peking-university-abacus-dft-huawei-kunpeng-920-sve-matrix-unit-19-operators-open-source",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-01T01:50:18.000Z",
+    "fetchedAt": "2026-11-01T05:00:13.586Z",
+    "snippet": "A Peking University team ported DFT package ABACUS to Huawei's Kunpeng 920 and tuned 19 core operators, reporting 1.3x to 3.9x speedups over a mainstream x86 CPU at 28 cores.",
+    "images": [
+      "https://cms-image.pandaily.com/1/kp_04f3347125.png"
+    ]
+  },
+  {
+    "id": "17941af4084d1f69",
+    "title": "DeepSeek Harness Team Open-Sources a Super-agent Prototype That Finds and Fixes Bugs on Its Own",
+    "link": "https://pandaily.com/deepseek-harness-super-agent-prototype-router-worker-event-driven-watchdog-open-source-mit",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-01T01:49:36.000Z",
+    "fetchedAt": "2026-11-01T05:00:13.586Z",
+    "snippet": "DeepSeek's Harness team released an MIT-licensed Super-agent prototype: a resident Router dispatches work to isolated Workers that react to GitHub and chat events, fix bugs and open PRs.",
+    "images": [
+      "https://cms-image.pandaily.com/1/ds_8395f143ad.png"
+    ]
+  },
+  {
+    "id": "873f722fce680b75",
+    "title": "Woman arrested for threatening to shoot Trump at Florida rally",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3372859/woman-arrested-threatening-shoot-trump-florida-rally",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-01T00:59:07.000Z",
+    "fetchedAt": "2026-11-01T05:00:13.997Z",
+    "snippet": "A 21-year-old woman who posted on social media that she was planning to shoot US President Donald Trump at his rally in Florida’s Daytona Beach has been arrested, authorities said. Trump visited Daytona on Friday to help drum up the vote for Republican guberna",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/01/20c6fefa-788c-4454-b32c-1d8ea656922b_ae52eba0.jpg?itok=jVA7tody&v=1793494738"
+    ]
+  },
+  {
+    "id": "02ad6ac1ee59d13c",
+    "title": "FBI blames North Korea for stolen billions from Binance in biggest hack in history",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3372858/fbi-blames-north-korea-stolen-billions-binance-biggest-hack-history",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-31T23:49:22.000Z",
+    "fetchedAt": "2026-11-01T05:00:13.997Z",
+    "snippet": "The theft of billions of dollars from Binance within a matter of minutes, the biggest cryptocurrency heist in history, was orchestrated by North Korean hackers, the FBI said on Saturday. The Federal Bureau of Investigation said in a statement that this week’s ",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/01/1bc84aa6-128d-4616-b768-c391c6904eb4_5b3a267f.jpg?itok=lsdLij3E&v=1793490556"
+    ]
+  },
+  {
+    "id": "49f47a91e5accd84",
+    "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+    "link": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-31T21:41:00.000Z",
+    "fetchedAt": "2026-11-01T05:00:13.508Z",
+    "snippet": "Apple's new CEO defended the company's current position in the AI landscape.",
+    "images": []
+  },
+  {
+    "id": "be1a20951bc62460",
+    "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
+    "link": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-31T21:36:07.000Z",
+    "fetchedAt": "2026-11-01T05:00:13.508Z",
+    "snippet": "On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door",
+    "images": []
+  },
+  {
+    "id": "c864b9e24de25675",
+    "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+    "link": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-10-31T21:17:03.000Z",
+    "fetchedAt": "2026-11-01T05:00:13.508Z",
+    "snippet": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+    "images": []
+  },
+  {
+    "id": "a72876b9c14810ab",
+    "title": "Judge throws out Trump lawsuit against Wall Street Journal over Epstein birthday letter",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3372857/judge-throws-out-trump-lawsuit-against-wall-street-journal-over-epstein-birthday-letter",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-31T20:24:33.000Z",
+    "fetchedAt": "2026-11-01T05:00:13.997Z",
+    "snippet": "Saying the US president was “grasping at straws”, a federal judge on Saturday threw out Donald Trump’s US$10 billion lawsuit against The Wall Street Journal and media mogul Rupert Murdoch over a story reporting on his ties to wealthy financier Jeffrey Epstein.",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/01/95f749e0-b4ef-4913-bb83-8d8e0e2e5d59_33013e0b.jpg?itok=f6hz0YSo&v=1793478263"
+    ]
+  },
+  {
+    "id": "f5f0550dd006445c",
+    "title": "G20 foreign ministers end Atlanta meeting without consensus on key issues",
+    "link": "https://www.scmp.com/news/china/diplomacy/article/3372855/g20-foreign-ministers-end-atlanta-meeting-without-consensus-key-issues",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-31T19:32:58.000Z",
+    "fetchedAt": "2026-11-01T05:00:13.997Z",
+    "snippet": "As Washington seeks to loosen China’s dominance over critical minerals, US Secretary of State Marco Rubio urged other members of the Group of 20 (G20) to strengthen supply chains and secure strategic trade routes as the group’s foreign ministers’ meeting drew ",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/01/768289e0-5821-475b-8182-4320436bafd7_648026c4.jpg?itok=pxsPybBo&v=1793475169"
+    ]
+  },
+  {
+    "id": "2d3de2fdfe0a672d",
+    "title": "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets",
+    "link": "https://www.scmp.com/news/world/europe/article/3372854/clashes-break-out-frances-halloween-protests-hundreds-thousands-take-streets",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-31T18:23:31.000Z",
+    "fetchedAt": "2026-11-01T05:00:13.997Z",
+    "snippet": "Police fired tear gas and clashed with protesters in Paris and elsewhere on Saturday as hundreds of thousands marched across France against soaring living costs and police violence, with some demonstrators dressed as clowns and witches for Halloween. While the",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/01/9aafe63c-c2f1-4524-babf-b11a350a1300_6425ea8d.jpg?itok=7uK6Otoc&v=1793471001"
+    ]
+  },
+  {
+    "id": "3f4df0b839ca806b",
+    "title": "Quad not ‘anti-China’, says Rubio as first summit in two years set before Trump-Xi talks",
+    "link": "https://www.scmp.com/news/china/diplomacy/article/3372852/quad-diplomats-finalise-first-leaders-summit-two-years-trump-xi-meeting",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-10-31T16:17:17.000Z",
+    "fetchedAt": "2026-11-01T05:00:13.997Z",
+    "snippet": "US Secretary of State Marco Rubio said on Saturday that the Quadrilateral Security Dialogue, or the Quad, was not an “anti-China” coalition, as the grouping’s top diplomats finalised preparations for the leaders’ summit in the Philippines next month. Rubio’s s",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/01/1ff7404d-f98f-4730-b782-f6055db459cb_21620cf4.jpg?itok=AsVPrEJi&v=1793463426"
+    ]
+  },
+  {
     "id": "5860d5e31b076970",
     "title": "OpenAI reportedly lowers funding target for new round",
     "link": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
@@ -8,7 +171,12 @@
     "publishedAt": "2026-10-31T16:12:55.000Z",
     "fetchedAt": "2026-10-31T16:58:56.279Z",
     "snippet": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "366636e4e80ada97",
@@ -18,10 +186,15 @@
     "category": "AI Hardware",
     "publishedAt": "2026-10-31T15:37:41.000Z",
     "fetchedAt": "2026-10-31T16:58:56.452Z",
-    "snippet": "Fraudsters are using the identities of high school graduates who skipped college to apply for student loans and steal the excess proceeds that do not go to schools. They use AI to keep the charade going and make it seem like the fake student is actually going ",
+    "snippet": "Fraudsters are using the identities of high school graduates who skipped college to apply for student loans and steal the excess proceeds that do not go to schools. They use AI to keep the charade going and make it seem like the fake student is actually going",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/3QDubn6i56tX4gPckKhuJd-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "82baf2462f71b3cf",
@@ -34,7 +207,12 @@
     "snippet": "Iran’s supreme leader Mojtaba Khamenei on Saturday warned the United States and Israel against returning to war, according to a written statement, following threats from the Islamic republic’s foes of a possible resumption of strikes. “If the enemies once agai",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/31/9d83694f-57fd-466d-aa2d-31ce14f66a1e_848d1b03.jpg?itok=T8285_Wu&v=1793456180"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "869c1071391f5500",
@@ -51,7 +229,12 @@
       "https://cdn.mos.cms.futurecdn.net/35hvG7ckxeGvyt533oLj5b-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/43LNBcYfNusYvtAmskJHs9-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/Y9QmkGaPaBzJv2BEH92ciZ-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "915fd65c7a2038b1",
@@ -65,7 +248,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/LDtU8drypUytifFp3KaAU-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/z53fPgXjpKHTpeGv3RHpqj-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "33435e5e1a2751d0",
@@ -79,7 +267,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/rVargrx2PRrE3QdGAf22wX-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/Xh2MupWrRjJPiLLuopmKRB-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "8b94e084c13fd411",
@@ -95,7 +288,12 @@
       "https://cdn.mos.cms.futurecdn.net/ttXzpdJeex8CWmBTXFHorN-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/JnvQ8BzfvVaXiyC3EVxKxN-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/P8kTxZiwZwtDJPaXe2EFzN-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "4194143c80ab0da4",
@@ -108,7 +306,12 @@
     "snippet": "Anthropic's Opus 5.5 model blocking attempts at videogame recreation — users also claim their non-malicious generic reverse-engineering tasks are block",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/uCXNTvaQDC2MRU8U37YwaV-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "254610915bd643ce",
@@ -121,7 +324,12 @@
     "snippet": "Prime Minister Andy Burnham said on Saturday he was “open” to the UK issuing a formal apology for its role in the transatlantic slave trade, but ruled out financial reparations. The Labour leader made the remarks days before attending a Commonwealth leaders su",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/31/57e96498-7819-4451-be8c-d5f1a8cfeb17_19812a48.jpg?itok=41Cw9leS&v=1793448391"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "19976fe9de42fb4b",
@@ -134,7 +342,12 @@
     "snippet": "The team had to use Sonnet after Opus 5.5 outright refused to run the experiment, while Opus 5 warned that it could stop working in the midst of the operation.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/eoGRcXGHJPaiRv8XJmVA96-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "70e4565850292d73",
@@ -147,7 +360,12 @@
     "snippet": "Democracy and rights are declining in Africa as leaders take their cues from the rise of strongmen in other parts of the world, the head of a governance monitor told AFP. Mo Ibrahim, 80, is a Sudanese-British billionaire who made a fortune in telecoms and plou",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/31/b23e9f67-a00c-4356-836d-aaf43a41a0a4_69dd949d.jpg?itok=b8DSmcOQ&v=1793441181"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "f9bf3280add3e2d2",
@@ -160,7 +378,12 @@
     "snippet": "Residents of the Russian-occupied city of Oleshky, ravaged by years of war, began arriving in Ukraine on Saturday after being evacuated via Belarus during a rare truce brokered by US First Lady Melania Trump. “As of now, Ukrainian citizens from Oleshky have cr",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/31/5a25eb8e-f0a6-4438-ab94-9831b5d257ad_a0d977f4.jpg?itok=o80UU5s4&v=1793452790"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "dbfd3b991d978a7b",
@@ -173,7 +396,12 @@
     "snippet": "Zhipu, DeepSeek, ModelBest, Moonshot AI, Alibaba, ByteDance and Xiaomi all show recursive self-improvement work, but each aims AI at the machinery around models, not the weights.",
     "images": [
       "https://cms-image.pandaily.com/1/rsi_58fad8fa68.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c186df6cb65b0433",
@@ -186,7 +414,12 @@
     "snippet": "HarnessPro, from Tsinghua, Zhipu and partners, has agents study their own runs and rewrite their harness without reference answers, raising pass rates 2 points and cutting cost per task 26.1%.",
     "images": [
       "https://cms-image.pandaily.com/1/hp_9dc600f68a.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "bf2722a0ce604917",
@@ -199,7 +432,12 @@
     "snippet": "China Southern Power Grid and Huawei signed a deeper strategic cooperation agreement on October 27 covering power-carbon-compute coordination, AI, the Dianhong power IoT OS and the industry ecosystem.",
     "images": [
       "https://cms-image.pandaily.com/1/csg_f5b3de1aa9.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "1c1fed3e01a0a92a",
@@ -212,7 +450,12 @@
     "snippet": "Mundo turns one to 12 photos of a real place into an editable 3D scene with physics, then renders robot navigation and manipulation in it. Code and weights are due by the end of November.",
     "images": [
       "https://cms-image.pandaily.com/1/ace_f6b27cf1d9.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "9dfa4bc14e1ee05e",
@@ -225,7 +468,12 @@
     "snippet": "Tencent Map laid out its agent stack, opening route planning, place search and ride-hailing to developers via MCP, Agent Skills and connectors, and launched LBSwork, a desktop AI map workbench.",
     "images": [
       "https://cms-image.pandaily.com/1/tm_ec1f825153.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "bd4adafd73355e4c",
@@ -238,7 +486,12 @@
     "snippet": "A Huawei post comparing five generations of Mate Pro phones lists the Mate 60 Pro processor as Kirin 9000S, the first time Huawei has named the chip in its own spec documents.",
     "images": [
       "https://cms-image.pandaily.com/1/kr_bd74ff0fc6.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "ca876466d65e3633",
@@ -251,7 +504,12 @@
     "snippet": "After spending three months in a coma following a brain haemorrhage, a patient in China has regained the ability to speak, eat and walk with support – part of an early clinical trial using targeted sound waves to help “wake up” severely damaged brains, accordi",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/30/0ece54a4-c48c-4710-9ca4-ca72ef5f3a18_bcb3dc8a.jpg?itok=nK79p_0Q&v=1793367339"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "ccd38521bf2286a5",
@@ -5841,240 +6099,6 @@
     "snippet": "Exhaustion with tech market prompt Youtuber to remake their first PC — 1996 build fueled by nostalgia and AI weariness",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/u9AdRV8q6QgDZepnnBW2rY-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "41e42cddd28e0808",
-    "title": "Populist Czech government pushes through media funding changes",
-    "link": "https://www.scmp.com/news/world/europe/article/3372018/populist-czech-government-pushes-through-media-funding-changes",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-24T08:43:40.000Z",
-    "fetchedAt": "2026-10-24T15:35:03.974Z",
-    "snippet": "In a rare overnight vote, the Czech ruling coalition pushed public media funding changes through a first parliamentary hurdle despite criticism that they could weaken broadcaster independence. The populist government of billionaire Prime Minister Andrej Babis,",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/24/01e67208-0d85-4b66-b29e-24a6cfe58389_5fe61ea0.jpg?itok=N5t0veuv&v=1792831417"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "f98864baea5a794e",
-    "title": "360's Zhou Hongyi Says Its Sovereign AI Operating System Is Already in Use at Some Organizations",
-    "link": "https://pandaily.com/360-zhou-hongyi-sovereign-ai-operating-system-enterprise-private-deployment-agent-factory",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-10-24T07:07:49.000Z",
-    "fetchedAt": "2026-10-24T15:35:04.731Z",
-    "snippet": "360 founder Zhou Hongyi says the company's sovereign AI operating system, covering compute, models, knowledge bases and an agent factory under customer control, is now used by some organizations.",
-    "images": [
-      "https://cms-image.pandaily.com/1/sov360_e817b06600.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "478f7df9d073126a",
-    "title": "Qwen Go! Adds My Apps, Letting Users Build Shareable Apps by Description With Alibaba Cloud Meoo",
-    "link": "https://pandaily.com/qwen-go-my-apps-no-code-shareable-apps-alibaba-cloud-meoo-invite-beta",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-10-24T07:07:35.000Z",
-    "fetchedAt": "2026-10-24T15:35:04.731Z",
-    "snippet": "Qwen Go! now lets users build long-lasting, shareable apps just by describing them. The My Apps feature runs on Alibaba Cloud's Meoo, which handles building, databases and deployment.",
-    "images": [
-      "https://cms-image.pandaily.com/1/qwengo_2a26f64f13.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "be267c9da6d72841",
-    "title": "iFLYTEK Open Platform Launches Agent OS, APA and XFYUN CLI for 700-Plus AI Capabilities",
-    "link": "https://pandaily.com/iflytek-open-platform-agent-os-apa-xfyun-cli-700-ai-capabilities-taas",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-10-24T07:07:22.000Z",
-    "fetchedAt": "2026-10-24T15:35:04.731Z",
-    "snippet": "At its 1024 developer festival, iFLYTEK's open platform launched Agent OS for enterprise agent teamwork, APA for recorded workflow skills, the XFYUN CLI and a TaaS platform for business use.",
-    "images": [
-      "https://cms-image.pandaily.com/1/xfyun_ae1d3f3f0a.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "01b3e420a48beb34",
-    "title": "Shaoxin Laboratory Builds a Pilot Line for 2D Semiconductor Chips, Due by End of 2027",
-    "link": "https://pandaily.com/shaoxin-laboratory-2d-semiconductor-pilot-line-molybdenum-disulfide-pdk-eda-fudan-2027",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-10-24T07:07:09.000Z",
-    "fetchedAt": "2026-10-24T15:35:04.731Z",
-    "snippet": "A lab set up by Shaoxing and Fudan University is building a pilot line for 2D semiconductor chips on molybdenum disulfide wafers, with its own PDK and EDA tools and open foundry services planned.",
-    "images": [
-      "https://cms-image.pandaily.com/1/shaoxin_98e92ae44b.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "2af8346f14bba31b",
-    "title": "Fudan's RoboSkill Lets Robot Agents Save What They Learn as Reusable Text-and-Code Skills",
-    "link": "https://pandaily.com/fudan-roboskill-robot-agents-reusable-text-code-skills-tactile-feedback-libero-10",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-10-24T07:06:55.000Z",
-    "fetchedAt": "2026-10-24T15:35:04.731Z",
-    "snippet": "Fudan researchers built RoboSkill, which turns methods a robot agent discovers into reusable text-and-code skills and adds touch sensing, cutting task time sharply in simulation and on real robots.",
-    "images": [
-      "https://cms-image.pandaily.com/1/roboskill_ba39ea1edf.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "7741a190745022c9",
-    "title": "Israel launches major operation in West Bank after soldiers killed",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3372010/israel-launches-major-operation-west-bank-after-soldiers-killed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-24T07:00:20.000Z",
-    "fetchedAt": "2026-10-24T15:35:03.975Z",
-    "snippet": "Israel’s military launched an operation in the occupied West Bank on Friday it said would last several days and include searches and building demolitions, after gunmen killed two soldiers days ahead of Israeli elections featuring security as a key focus. Prime",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/24/da8549c8-be95-4916-9db5-157dc279b97c_a37f03fb.jpg?itok=dMpmffPJ&v=1792824064"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "9c43f085b65ce8b1",
-    "title": "In besieged Yemeni city, drinking water supplies hit crisis levels",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3372006/besieged-yemeni-city-drinking-water-supplies-hit-crisis-levels",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-24T06:05:46.000Z",
-    "fetchedAt": "2026-10-24T15:35:03.975Z",
-    "snippet": "Drinking water has been scarce for over a decade in Taiz, but the problem has reached crisis levels in recent weeks as Iran-backed Houthi rebels besiege Yemen’s third-largest city in their escalating conflict with government forces. The needs of Taiz’s more th",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/24/c9b0b710-9f1b-4551-b049-e7634702a15b_8943b797.jpg?itok=X-tu9e1L&v=1792821937"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "f43df201eb5ea9ea",
-    "title": "Israeli election campaign turns ugly with jibes, attacks against candidates",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3371998/israeli-election-campaign-turns-ugly-jibes-attacks-against-candidates",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-24T04:30:10.000Z",
-    "fetchedAt": "2026-10-24T15:35:03.975Z",
-    "snippet": "Days ahead of close-fought Israeli elections, campaigns have gone into overdrive with poor-taste jibes and inflammatory attacks against candidates, sometimes crossing red lines. Fuelled in part by a boom in AI-generated images flooding social media, candidates",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/24/96a9c5a9-f7cd-4f8a-a98e-e9f141be3c2a_842ec433.jpg?itok=DjzL6ASm&v=1792814729"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "fe6e2fee59a207c8",
-    "title": "Some Parisians buy pepper spray, tear gas for self-defence during protests",
-    "link": "https://www.scmp.com/news/world/europe/article/3371994/some-parisians-buy-pepper-spray-tear-gas-self-defence-during-protests",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-24T03:30:17.000Z",
-    "fetchedAt": "2026-10-24T03:48:18.049Z",
-    "snippet": "Parisians are buying tear-gas canisters and pepper sprays to defend themselves and their property during protests, which are expected to continue over the weekend, the owner of a weapons shop in the French capital has said. France was hit by its worst social u",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/24/e0c8b99c-ff2f-4884-9543-2ac60dc10dbc_a602a761.jpg?itok=8VBGl9xw&v=1792811629"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "7bea44648ecdb212",
-    "title": "iFLYTEK Healthcare Upgrades Spark Medical Model to V3.7 and Reports 99.6 on MedBench 5.0",
-    "link": "https://pandaily.com/iflytek-healthcare-spark-medical-model-v3-7-multimodal-agents-medbench-5-0",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-10-24T02:08:05.000Z",
-    "fetchedAt": "2026-10-24T03:48:17.372Z",
-    "snippet": "iFLYTEK Healthcare upgraded its Spark medical model to V3.7, merging speech, imaging and language for medical agents. The company says it scored 99.6 on Shanghai AI Lab's MedBench 5.0.",
-    "images": [
-      "https://cms-image.pandaily.com/1/iflyhc_56d84e818b.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "425d82b269b9751c",
-    "title": "Huawei Upgrades Celia With Save-Anything Notes and Proactive Suggestions in More Than 100 Apps",
-    "link": "https://pandaily.com/huawei-celia-notes-triggered-ai-proactive-suggestions-autofill-100-apps-mate-90",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-10-24T02:07:24.000Z",
-    "fetchedAt": "2026-10-24T03:48:17.373Z",
-    "snippet": "Huawei upgraded two Celia features: one saves and summarizes content from any app, and one proactively suggests form fills and follow-up questions. More than 100 apps now support them.",
-    "images": [
-      "https://cms-image.pandaily.com/1/celia_7ff283d656.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "404f0143ca04312c",
-    "title": "OpenAnolis Builds Anolis OS 27 Agent-Native as Alibaba Cloud Says Agents Write 95% of New Code",
-    "link": "https://pandaily.com/openanolis-anolis-os-27-agentic-native-alibaba-cloud-95-percent-agent-generated-code-gosim",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-10-24T02:06:43.000Z",
-    "fetchedAt": "2026-10-24T03:48:17.373Z",
-    "snippet": "At GOSIM in Zhuhai, OpenAnolis chair Ma Tao said Anolis OS 27 is being built agent-native and that agents now write 95% of new code in Alibaba Cloud's basic software team.",
-    "images": [
-      "https://cms-image.pandaily.com/1/anolis_a2342ea792.png"
     ],
     "titleZh": "",
     "snippetZh": "",
