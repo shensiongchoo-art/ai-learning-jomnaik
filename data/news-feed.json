@@ -1,5 +1,294 @@
 [
   {
+    "id": "c41a2c788d62943d",
+    "title": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
+    "link": "https://arxiv.org/abs/2610.40758",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-02T05:00:00.000Z",
+    "fetchedAt": "2026-11-02T05:00:59.023Z",
+    "snippet": "arXiv:2610.40758v1 Announce Type: new Abstract: Self-evolving agents rewrite a persistent state from feedback, but it is largely untested whether this lets them learn a rule nobody told them. An agent can also pass by writing down each correction as an excepti",
+    "images": []
+  },
+  {
+    "id": "5ce2f682b547b395",
+    "title": "Beyond Plausible Prediction: Safety Sufficiency in Web World Models",
+    "link": "https://arxiv.org/abs/2610.40798",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-02T05:00:00.000Z",
+    "fetchedAt": "2026-11-02T05:00:59.023Z",
+    "snippet": "arXiv:2610.40798v1 Announce Type: new Abstract: Web world models increasingly predict the consequences of candidate actions before agents act, yet a plausible predicted future does not necessarily support the correct safety decision. In a matched human evaluat",
+    "images": []
+  },
+  {
+    "id": "e67232267d9ebf4e",
+    "title": "Circumventing the Computational Hardness of Computational Arbitrage",
+    "link": "https://arxiv.org/abs/2610.40831",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-02T05:00:00.000Z",
+    "fetchedAt": "2026-11-02T05:00:59.023Z",
+    "snippet": "arXiv:2610.40831v1 Announce Type: new Abstract: AI model marketplaces host providers with heterogeneous costs and capabilities. These differences create an opportunity for computational arbitrage (Olmedo et al., 2026), in which an intermediary purchases infere",
+    "images": []
+  },
+  {
+    "id": "8896b3ecd19cfecc",
+    "title": "Incongruence-Aware Evaluation of Multimodal Speech Emotion Recognition in Audio Large Language Models",
+    "link": "https://arxiv.org/abs/2610.40883",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-02T05:00:00.000Z",
+    "fetchedAt": "2026-11-02T05:00:59.023Z",
+    "snippet": "arXiv:2610.40883v1 Announce Type: new Abstract: Voice-interactive large language models process both what a speaker says and how they say it, yet the two channels do not always agree. We ask whether that disagreement degrades speech emotion recognition. Mappin",
+    "images": []
+  },
+  {
+    "id": "35bbd377e65f72f9",
+    "title": "ChatGPT as a Surveillance Assistant? An Exploratory Case Study of AI-Assisted Surveillance Risks",
+    "link": "https://arxiv.org/abs/2610.40890",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-02T05:00:00.000Z",
+    "fetchedAt": "2026-11-02T05:00:59.023Z",
+    "snippet": "arXiv:2610.40890v1 Announce Type: new Abstract: Large language models (LLMs) can generate detailed guidance, functional code, and persuasive text at scale. As one of the most widely used consumer language model products as of 2026, ChatGPT gives broad public a",
+    "images": []
+  },
+  {
+    "id": "0418fadcd7212c95",
+    "title": "Does Recursive Knowledge Construction Help Agents Verify Consensus Claims in Science?",
+    "link": "https://arxiv.org/abs/2610.40906",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-02T05:00:00.000Z",
+    "fetchedAt": "2026-11-02T05:00:59.024Z",
+    "snippet": "arXiv:2610.40906v1 Announce Type: new Abstract: Recent scientific agents build knowledge recursively by retrieving evidence, constructing an intermediate state, and judging whether that state contains sufficient information. These agents are evaluated end-to-e",
+    "images": []
+  },
+  {
+    "id": "a7b22809bda524f8",
+    "title": "Towards Portable Specification of the Agent Harness",
+    "link": "https://arxiv.org/abs/2610.40917",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-02T05:00:00.000Z",
+    "fetchedAt": "2026-11-02T05:00:59.024Z",
+    "snippet": "arXiv:2610.40917v1 Announce Type: new Abstract: Large language models act only through the infrastructure that surrounds them. That infrastructure, the harness, determines what a model can accomplish and how it fails, yet it has no settled definition. To addre",
+    "images": []
+  },
+  {
+    "id": "7d62db6e5837c2ae",
+    "title": "Agentic World Modeling for Agent Test-time Scaling without Environment Replica",
+    "link": "https://arxiv.org/abs/2610.40927",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-02T05:00:00.000Z",
+    "fetchedAt": "2026-11-02T05:00:59.024Z",
+    "snippet": "arXiv:2610.40927v1 Announce Type: new Abstract: Test-time scaling (TTS) improves large language model agents by sampling and selecting among multiple candidate trajectories, but common realizations assume that these trajectories can be executed in parallel. Th",
+    "images": []
+  },
+  {
+    "id": "77c8120403703996",
+    "title": "DiRAFT: Privacy-Aware Financial Transcript Synthesis from Aggregate Discourse Priors",
+    "link": "https://arxiv.org/abs/2610.40938",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-02T05:00:00.000Z",
+    "fetchedAt": "2026-11-02T05:00:59.024Z",
+    "snippet": "arXiv:2610.40938v1 Announce Type: new Abstract: Using customer conversations to train and evaluate financial language models raises confidentiality concerns because non-public financial facts can remain after direct identifiers are masked. Synthetic transcript",
+    "images": []
+  },
+  {
+    "id": "35f77273d88e969a",
+    "title": "The First Few Tokens Matter: Understanding Chain-of-Thought Controllability",
+    "link": "https://arxiv.org/abs/2610.40939",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-02T05:00:00.000Z",
+    "fetchedAt": "2026-11-02T05:00:59.024Z",
+    "snippet": "arXiv:2610.40939v1 Announce Type: new Abstract: Chain-of-thought (CoT) monitoring is a promising way to oversee increasingly capable agents. It succeeds in part because current models appear limited in their ability to control what they verbalize in their reas",
+    "images": []
+  },
+  {
+    "id": "b08ec2e4ce86fbd6",
+    "title": "Elite path for China’s returning students, CCP promotions: 5 weekend reads you missed",
+    "link": "https://www.scmp.com/news/world/article/3372927/elite-path-chinas-returning-students-ccp-promotions-5-weekend-reads-you-missed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-02T04:45:14.000Z",
+    "fetchedAt": "2026-11-02T05:00:59.410Z",
+    "snippet": "We have put together stories from our coverage last weekend to help you stay informed about news across Asia and beyond. If you would like to see more of our reporting, please consider subscribing. 1. China narrows the path to elite official training scheme fo",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/98dabf7a-866e-4ccd-b280-28e50797f68f_7abc5323.jpg?itok=7oIdP75j&v=1793589528"
+    ]
+  },
+  {
+    "id": "5f85c7d1d96668ff",
+    "title": "CASIA Adds Fingertip Touch to Robot Insertion, Lifting 0.05 mm Clearance Success From 52% to 67%",
+    "link": "https://pandaily.com/casia-tactile-augmented-precision-insertion-iros-2026-imitation-reinforcement-learning-0-05mm",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-02T02:12:38.000Z",
+    "fetchedAt": "2026-11-02T05:00:58.840Z",
+    "snippet": "CASIA's IROS 2026 paper pairs imitation learning for reaching with tactile-augmented RL for insertion, lifting 0.05 mm success from 52% to 67% and cutting peak contact force 60%.",
+    "images": [
+      "https://cms-image.pandaily.com/1/ta_652c992bff.png"
+    ]
+  },
+  {
+    "id": "62e405a9d37750ad",
+    "title": "Qwen AI Glasses Add Call Translation and Media Translation in New OTA Update",
+    "link": "https://pandaily.com/qwen-ai-glasses-ota-call-translation-media-translation-noise-reduction",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-02T02:11:57.000Z",
+    "fetchedAt": "2026-11-02T05:00:58.841Z",
+    "snippet": "Qwen AI Glasses gain real-time call translation for phone calls and meetings, media translation shown in the companion app, and better speech recognition in noisy places.",
+    "images": [
+      "https://cms-image.pandaily.com/1/qw_2dab03b9a1.png"
+    ]
+  },
+  {
+    "id": "71d4a893567850c2",
+    "title": "InterstellOr Completes Modal Test of CYZ1 Escape Capsule, Setting a Dynamics Baseline for Reuse",
+    "link": "https://pandaily.com/interstellor-cyz1-escape-capsule-modal-test-push-type-escape-reusable-dynamics-baseline",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-02T02:11:43.000Z",
+    "fetchedAt": "2026-11-02T05:00:58.841Z",
+    "snippet": "InterstellOr hammer-tested a 4 m, 1.1 t CYZ1 escape capsule at 100+ points, validating its push-type escape model and setting a vibration baseline for checking the reusable craft after flights.",
+    "images": [
+      "https://cms-image.pandaily.com/1/cy_1d486146f4.png"
+    ]
+  },
+  {
+    "id": "5304cdd7e30b9cc8",
+    "title": "CCID Says China's AI Inference Data Has Overtaken Training Data, With 175 Trillion Daily Token Calls",
+    "link": "https://pandaily.com/ccid-china-ai-inference-data-surpasses-training-data-175-trillion-daily-token-calls",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-02T02:11:29.000Z",
+    "fetchedAt": "2026-11-02T05:00:58.841Z",
+    "snippet": "CCID says AI inference data in China has overtaken training data for the first time, with daily token calls above 175 trillion as of June, more than 1,000 times the early-2024 level.",
+    "images": [
+      "https://cms-image.pandaily.com/1/ccid_c4b4bf057e.png"
+    ]
+  },
+  {
+    "id": "f67b4ba581470772",
+    "title": "Meituan Releases LongCat-2.5, a 1.6T Native Multimodal Model Built for Long-Horizon Agentic Coding",
+    "link": "https://pandaily.com/meituan-longcat-2-5-official-release-1-6t-native-multimodal-long-horizon-agentic-coding-w4a4",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-02T02:10:33.000Z",
+    "fetchedAt": "2026-11-02T05:00:58.841Z",
+    "snippet": "Meituan's LongCat-2.5 is a 1.6T native multimodal model with about 48B active per token, trained with long-horizon RL for agentic coding and optimized for W4A4 inference on domestic compute.",
+    "images": [
+      "https://cms-image.pandaily.com/1/lc_c37c419d2d.png"
+    ]
+  },
+  {
+    "id": "e7b2feeff3084f78",
+    "title": "Heat director Michael Mann accidentally shoots self at gun range",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3372914/heat-director-michael-mann-accidentally-shoots-self-gun-range",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-02T01:39:55.000Z",
+    "fetchedAt": "2026-11-02T05:00:59.410Z",
+    "snippet": "Michael Mann, the acclaimed director of crime classics Heat and Collateral, accidentally shot himself at a gun range in Los Angeles, resulting in minor injuries, a statement released on Sunday said. “On Saturday, at a gun range, a weapon accidentally discharge",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/35c058c1-f485-4aa2-8212-b30f419583e4_f1abc458.jpg?itok=F9kIl4Ub&v=1793583589"
+    ]
+  },
+  {
+    "id": "5288a17b82a57e8b",
+    "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+    "link": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-01T21:55:23.000Z",
+    "fetchedAt": "2026-11-02T05:00:58.789Z",
+    "snippet": "Data centers are deeply unpopular. But what if we called them something else?",
+    "images": []
+  },
+  {
+    "id": "3b7677d222db8bfa",
+    "title": "‘We’re out of time’: 9 dead as private jet crashes in fireball in Florida",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3372912/private-jet-carrying-9-crashes-florida-roadside-erupting-massive-fireball",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-01T21:31:36.000Z",
+    "fetchedAt": "2026-11-02T05:00:59.410Z",
+    "snippet": "A Learjet crashed on Sunday afternoon in a residential area in Palm Beach County, Florida, killing all nine people on board, US transport officials said. The private jet had taken off from Austin-Bergstrom International Airport in Texas and ‌was headed to Nort",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/2809e1a5-665e-4a94-a55b-470307ce880c_544c9743.jpg?itok=H1BX3qb8&v=1793590619"
+    ]
+  },
+  {
+    "id": "78e10324d8a19ff5",
+    "title": "Michigan Senate race upended as Democrat endorses Republican",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3372911/democratic-divisions-shake-pivotal-michigan-senate-race-congresswoman-breaks-ranks",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-01T21:00:36.000Z",
+    "fetchedAt": "2026-11-02T05:00:59.410Z",
+    "snippet": "A Democratic congresswoman in Michigan broke ranks with her party on Sunday to endorse the Republican candidate in her state’s key US Senate race against left-wing progressive candidate Abdul El-Sayed. In a startling display of party infighting just two days b",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/8d511269-3ba3-4403-b079-b0291a58541a_27fe492c.jpg?itok=Xae4kdWP&v=1793586540"
+    ]
+  },
+  {
+    "id": "c582004efd4ecab9",
+    "title": "New AI-driven Windows malware feeds stolen data to Claude to rank victims’ assets by value, then deletes itself",
+    "link": "https://www.tomshardware.com/tech-industry/cyber-security/new-ai-driven-windows-malware-feeds-stolen-data-to-claude-to-rank-victims-assets-by-value-then-deletes-itself-payload-builds-custom-target-assessment-can-switch-models-if-one-refuses-or-skip-the-ai-step-entirely",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-01T21:00:00.000Z",
+    "fetchedAt": "2026-11-02T05:00:58.989Z",
+    "snippet": "Cisco Talos says the VOLTA infostealer sends stolen victim data to Claude Opus 4.6 to rank assets by monetization value.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/SwXoTJq5pcxA7urt6ryrQZ-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/P399f9VMT5tSeccWEbxT6e-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "2d703426a6798f3e",
+    "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+    "link": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-01T20:57:58.000Z",
+    "fetchedAt": "2026-11-02T05:00:58.790Z",
+    "snippet": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
+    "images": []
+  },
+  {
+    "id": "32451499aaa81857",
+    "title": "Iliana Iotova wins Bulgaria’s presidential run-off election",
+    "link": "https://www.scmp.com/news/world/europe/article/3372909/bulgarian-acting-president-iliana-iotova-wins-run-election-exit-polls-show",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-01T19:14:49.000Z",
+    "fetchedAt": "2026-11-02T05:00:59.410Z",
+    "snippet": "Bulgaria’s President Iliana Iotova, who favours dialogue with Moscow and opposes military aid to Ukraine, won a presidential run-off vote on Sunday. The race for the largely ceremonial post had pitted Iotova, an ally of Prime Minister Rumen Radev, against Andr",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/0d0eeb3c-8160-41ab-b4b2-8730ec2c67c1_fc057dfa.jpg?itok=1WRsNx7c&v=1793584794"
+    ]
+  },
+  {
+    "id": "e00a9eda7be59aec",
+    "title": "Emergency apps in Ukraine and Russia hacked after longest truce of war ends",
+    "link": "https://www.scmp.com/news/world/russia-central-asia/article/3372908/longest-truce-ukraine-war-kherson-region-set-end",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-01T18:25:28.000Z",
+    "fetchedAt": "2026-11-02T05:00:59.410Z",
+    "snippet": "Russia said its emergency warnings app came under a “massive cyberattack” on Monday, hours after Ukraine reported a hack in an apparent exchange of blows between the foes, as their longest truce came to an end. Moscow’s emergencies ministry said hackers posted",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/79622a66-1ae4-49ba-a966-9e64ff9a7e01_5689dd20.jpg?itok=7-tXze9v&v=1793582697"
+    ]
+  },
+  {
     "id": "6534e3fb47731b7f",
     "title": "6 dead, dozens injured in Halloween weekend gun violence across US",
     "link": "https://www.scmp.com/news/world/united-states-canada/article/3372906/4-dead-15-injured-3-separate-shootings-dallas-texas-halloween-night-police-say",
@@ -7,9 +296,27 @@
     "category": "China AI",
     "publishedAt": "2026-11-01T17:02:08.000Z",
     "fetchedAt": "2026-11-01T17:44:57.521Z",
-    "snippet": "Dozens of people were injured and at least six people died in mass shootings as gun violence broke out at nightlife districts in half a dozen cities across the country over the Halloween weekend. Police in Dallas, the site of the deadliest violence, said four ",
+    "snippet": "Dozens of people were injured and at least six people died in mass shootings as gun violence broke out at nightlife districts in half a dozen cities across the country over the Halloween weekend. Police in Dallas, the site of the deadliest violence, said four",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/95dece95-7fb5-4911-a35c-141751c0ea32_ac74ae9a.jpg?itok=HPHknn-H&v=1793552316"
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "51af5e6f1ac9064c",
+    "title": "Wave of US Halloween weekend shootings leaves 6 dead, dozens wounded",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3372906/4-dead-15-injured-3-separate-shootings-dallas-texas-halloween-night-police-say",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-01T17:02:08.000Z",
+    "fetchedAt": "2026-11-02T05:00:59.410Z",
+    "snippet": "Mass shootings over the Halloween weekend - largely in nightlife districts across the US - left at least six people dead and dozens injured, officials said. The deadliest violence occurred in Dallas, where a handful of shootings in the city’s Deep Ellum neighb",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/ba9aa9fe-ec5d-4e95-a074-20dd753da844_53f3a746.jpg?itok=Fe1qKP1v&v=1793580478"
     ]
   },
   {
@@ -24,7 +331,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/ppjCSvvoKjjF8kkB4DZLL3-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/eCGqa8PriXtgUf62z3Zbad-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "33aff45e7e2d4d31",
@@ -37,7 +349,12 @@
     "snippet": "The lawyers of a plaintiff in a labor case attempted to use prompt injection to influence the court's AI but were caught. They won the case anyway, as the defendant did not respond, making the move totally unnecessary.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/L2TSrQuGFDhmVGdBfr2ytV-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "1ca5272161885aa3",
@@ -50,7 +367,12 @@
     "snippet": "Thingiverse partners with Anycubic to bring models directly to 3D printers.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/GQ5rY3W6jXYkFxs2idTMe-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "d4b9a283240d3dad",
@@ -67,7 +389,12 @@
       "https://cdn.mos.cms.futurecdn.net/Tpb4Geddjn9hu2XRsNiGqG-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/a6uqDc4UGUZzScVoZwGeqG-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/GNsxUyZnEqToBXnKbJk3UG-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "7a7dc183a7bd29f4",
@@ -80,7 +407,12 @@
     "snippet": "Somali pirates have seized an Iranian fishing vessel carrying 23 people, the European Union’s Maritime Security Centre Indian Ocean (MSCIO) said, warning that the ship was approaching a commercial shipping lane and could become a floating base for further atta",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/01/4956339a-0e4b-4620-852d-84c2e4aed9b0_b2863036.jpg?itok=ANp7aA26&v=1793544836"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "5c26670a996f9266",
@@ -97,7 +429,12 @@
       "https://cdn.mos.cms.futurecdn.net/gcGWpEdt8uzvAvBmUWVJjf-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/XmXE8xZmw2PsSqCjRTUsPC-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/GwJpBsud3xSuBdU7v38JRN-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "588fd37bf10a325c",
@@ -110,7 +447,12 @@
     "snippet": "OpenAI CEO Sam Altman met with around 50 Samsung executives in South Korea on October 31 to discuss AI's future, business opportunities and the technology's impact on corporate operations. The meeting comes as demand for memory chips grows alongside AI infrast",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/rw7Lei27qRFKGy9CThFftZ-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "43c4ee154d616801",
@@ -126,7 +468,12 @@
       "https://cdn.mos.cms.futurecdn.net/8hKjW8J3WuVJBi5tGD2nKa-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/5ykHQj7HGujeCcJUYvGrJH-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/doYzDt43RDzWyG3gz8yjCd-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "61b06fb77050b15a",
@@ -139,7 +486,12 @@
     "snippet": "The Plymouth City Council was left with no choice but to physically disconnect the cameras after Flock failed to respond to its demands.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/jsH4CTh6HEfAjGURKfaJNH-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e6d50a2bd72d4265",
@@ -152,7 +504,12 @@
     "snippet": "Neuralink's second product, Blindsight, aims to bring sight back for blind patients, with the company \"just waiting on regulatory approval.\"",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/4RFbDB3BHoht5b4WeDDvWg-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "b4081e4babff3363",
@@ -166,7 +523,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/m5tLgsKmfPcc5fZ3Ygd8Wc-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "091269674c977e5f",
@@ -179,7 +541,12 @@
     "snippet": "Last week, the United Nations General Assembly called for the 34th time for an end to the US embargo on Cuba. The resolution passed by 130 votes to 17, with 25 abstentions. It came as Cuba struggles with a severe energy crisis, mainly caused by a US fuel embar",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/30/589b0a65-be10-40e8-8cf5-7912f8cc3e03_df136933.jpg?itok=Ivqnwde0&v=1793342209"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "8bd170f771938c39",
@@ -192,7 +559,12 @@
     "snippet": "The UAE is hoping for a breakthrough in negotiations between Iran and the United States while being prepared for the worst, a senior official said on Sunday, following threats of a resumption of the Middle East war. “We’re hoping that there is a diplomatic bre",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/01/e95ccd75-f3a7-430c-a54b-6c0afb3cfae7_dbedf38c.jpg?itok=xoEuFjkP&v=1793532945"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "22af6c23e93227fa",
@@ -205,7 +577,12 @@
     "snippet": "Turkey has moved the country’s Kurdish militant leader to a newly built part of an island prison where he has been incarcerated since 1999 as part of efforts to end decades of conflict, a senior Kurdish official said. Improving prison conditions for Abdullah O",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/01/3b9ec653-9ca7-4591-95fb-90f48b3eb129_e8426485.jpg?itok=CU3WVMqu&v=1793526301"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "8028bd93c3de68d1",
@@ -218,7 +595,12 @@
     "snippet": "Huawei Qiankun ADS has logged more than 17.3 billion km of assisted driving and avoided over 6.91 million potential collisions, about 1.3 billion km more than in early October.",
     "images": [
       "https://cms-image.pandaily.com/1/qk_3303e609b5.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "2ac1c399abd25181",
@@ -231,7 +613,12 @@
     "snippet": "Tencent Cloud says agents now create over 20,000 TDSQL-C database instances a day, with over 1 million active. WorkBuddy user Li Ning runs about 50 agents and plans to reach 200 within a year.",
     "images": [
       "https://cms-image.pandaily.com/1/tc_43f7b4de84.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "29ed2801497d0cb3",
@@ -244,7 +631,12 @@
     "snippet": "CXMT says its sixth-gen DRAM platform is built on 4F² and has passed engineering-sample checks, and responds to Micron's argument that capacitor pitch, not cell layout, limits density.",
     "images": [
       "https://cms-image.pandaily.com/1/cx_d7c598a77f.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e2f4a5685bb1071b",
@@ -254,10 +646,15 @@
     "category": "China AI",
     "publishedAt": "2026-11-01T06:00:13.000Z",
     "fetchedAt": "2026-11-01T17:44:57.521Z",
-    "snippet": "Driving along the wide boulevards of Astana during a recent trip to the Kazakh capital, signs of China’s growing commercial footprint were everywhere. Chinese cars were becoming a common sight on the streets here, as brands from BYD to Changan made aggressive ",
+    "snippet": "Driving along the wide boulevards of Astana during a recent trip to the Kazakh capital, signs of China’s growing commercial footprint were everywhere. Chinese cars were becoming a common sight on the streets here, as brands from BYD to Changan made aggressive",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/30/efcead60-18ca-4015-990a-6053a136f570_d5f80ff8.jpg?itok=jlzJW3-E&v=1793370090"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "73475dbbd8a11826",
@@ -5637,457 +6034,6 @@
     "snippet": "Bona Film Group's 100-minute Sanxingdui: Future Past, made through its own cloud studio with more than 1.2 million base images, is the first AI-workflow feature cleared for Chinese cinemas.",
     "images": [
       "https://cms-image.pandaily.com/1/sanxingdui_03a9b266da.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "a15324ad8e838b62",
-    "title": "Kimi Apologizes for K3.1 Pro Rate Limits, Resets 25% of Members' Monthly Quota and Trims Sub-Agents",
-    "link": "https://pandaily.com/kimi-apologizes-k3-1-pro-rate-limits-resets-25-percent-monthly-quota-fewer-sub-agent-calls",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-10-26T01:52:22.000Z",
-    "fetchedAt": "2026-10-26T03:50:43.287Z",
-    "snippet": "Two days after launching K3.1 Pro, Moonshot AI's Kimi apologized for rate limits and wasted quota, gave every paid member back 25% of their monthly allowance and cut unneeded sub-agent calls.",
-    "images": [
-      "https://cms-image.pandaily.com/1/kimi_381314a029.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "fa0f5ce33847d3a1",
-    "title": "Amap's Robot Dog Tutu Starts Patrols at Alibaba's Xixi Campus, Filing Evidence Into Work Orders",
-    "link": "https://pandaily.com/amap-robot-dog-tutu-alibaba-xixi-campus-patrol-abot-agentos-work-orders",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-10-26T01:52:09.000Z",
-    "fetchedAt": "2026-10-26T03:50:43.287Z",
-    "snippet": "Amap's quadruped robot Tutu now runs security inspections at Alibaba's Hangzhou Xixi campus, using the ABot stack to plan routes, photograph checkpoints and send evidence into campus work orders.",
-    "images": [
-      "https://cms-image.pandaily.com/1/amap_dbd502cebf.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "8bf8d994995aaa56",
-    "title": "Lula pulls off Brazil’s first-ever run-off comeback to beat Trump ally Flavio Bolsonaro",
-    "link": "https://www.scmp.com/news/china/article/3372099/lula-pulls-brazils-first-ever-run-comeback-beat-trump-ally-flavio-bolsonaro",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-26T00:30:22.000Z",
-    "fetchedAt": "2026-10-26T03:50:43.746Z",
-    "snippet": "Brazilian President Luiz Inacio Lula da Silva won re-election on Sunday in a dramatic comeback after trailing in the first round, extending the rule of a government that has overseen record Chinese investment. The Superior Electoral Court said Lula had 51.79 p",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/26/b3491802-04f3-4f51-9bf5-69808ae9ede2_18de8c42.jpg?itok=RSU51r9l&v=1792981242"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "9731fa8d499572ac",
-    "title": "Trump cites 9/11 in urging Michigan voters to oppose Muslim Senate candidate El-Sayed",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3372097/trump-cites-9/11-urging-michigan-voters-oppose-muslim-senate-candidate-el-sayed",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-25T22:29:09.000Z",
-    "fetchedAt": "2026-10-26T03:50:43.746Z",
-    "snippet": "US President Donald Trump at a Sunday campaign rally ratcheted up his push to link US Senate candidate Abdul El-Sayed to Muslim extremists, comparing him to the September 11 attackers while saying Democrats would let violent anti-American terrorists into the U",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/26/f6e3f813-9764-4971-a313-b8503da78a11_bed0b221.jpg?itok=BGx7GE-o&v=1792967206"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "104b8815ed7dd7ff",
-    "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
-    "link": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-25T21:31:16.000Z",
-    "fetchedAt": "2026-10-26T03:50:43.228Z",
-    "snippet": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "ad8a9ff8b23b9467",
-    "title": "Machado makes a dramatic return to Venezuela after a year in exile",
-    "link": "https://www.scmp.com/news/world/americas/article/3372094/venezuelas-opposition-leader-maria-corina-machado-returns-after-months-exile",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-25T19:31:04.000Z",
-    "fetchedAt": "2026-10-26T03:50:43.747Z",
-    "snippet": "Venezuelan opposition leader Maria Corina Machado returned home on Sunday after nearly a year away, ⁠following several failed attempts to return that strained her ties with US President Donald Trump’s administration. “I’m here. With you all,” the Nobel Peace P",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/26/c75ef130-dcb0-4d23-a46f-b3e2d72c3ea0_7fac949d.jpg?itok=Y56zw9cg&v=1792980334"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "419d1bf72b70a863",
-    "title": "Le Pen launches presidential bid amid French unrest, vows to ‘restore rule of law’",
-    "link": "https://www.scmp.com/news/world/europe/article/3372092/frances-le-pen-vows-restore-rule-law-presidential-campaign-launch",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-25T18:01:33.000Z",
-    "fetchedAt": "2026-10-26T03:50:43.747Z",
-    "snippet": "Marine Le Pen, France’s far-right candidate to succeed President Emmanuel Macron, kicked off her campaign Sunday vowing to “restore the rule of law” if elected next year. Le Pen – the front runner in the polls – seems to be benefiting from the convulsions Fran",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/26/cb70c5fc-f0e7-4b50-be57-a1fdda31a795_62036ef9.jpg?itok=PikmhziC&v=1792982623"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "1477e644c23582a1",
-    "title": "Netanyahu warns Iran may try to disrupt Israel election: ‘don’t test us’",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3372091/netanyahu-warns-iran-may-try-disrupt-election-says-dont-test-us",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-25T17:29:00.000Z",
-    "fetchedAt": "2026-10-26T03:50:43.747Z",
-    "snippet": "Prime Minister Benjamin Netanyahu said that Iran and its allies might try to disrupt Tuesday’s Israeli elections, warning the Islamic republic against any hostile acts. The remarks came as Israel’s Channel 12 reported, citing unnamed sources, that there had be",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/26/5ab40cdf-cba2-46a2-8432-aa08e3a43454_3f685b99.jpg?itok=dLCimNUN&v=1792977932"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "0d7ded8b3bd678ba",
-    "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
-    "link": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-25T16:57:32.000Z",
-    "fetchedAt": "2026-10-26T03:50:43.229Z",
-    "snippet": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "38e9ebaa7d83faef",
-    "title": "Big Tech is cashing in on AI while the rest of corporate America sees no financial returns",
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/big-tech-is-cashing-in-on-ai-while-the-rest-of-corporate-america-sees-no-financial-returns-report-outlines-how-rising-token-costs-threaten-to-squeeze-corporate-profit-margins",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-25T15:25:40.000Z",
-    "fetchedAt": "2026-10-25T15:45:26.085Z",
-    "snippet": "Revenue per employee at the Magnificent Seven has outpaced the S&P 493, and a new comparison highlights the growing divide in fortunes between America’s largest technology companies and the rest of the S&P 500.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/eUsopxGWaQRSbUiwq7RUch-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/LLRDN4X47os6aLwu8MHMjE-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "64d5f26939fd0605",
-    "title": "The hottest AI wearables and gadgets you should know about",
-    "link": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-10-25T14:10:00.000Z",
-    "fetchedAt": "2026-10-25T15:45:25.942Z",
-    "snippet": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c173b37d2d3c1b89",
-    "title": "Ukrainian drone attacks hammer Russia's finance ministry data center, damaged facility reportedly holds tax databases",
-    "link": "https://www.tomshardware.com/tech-industry/data-centers/ukrainian-drone-attacks-hammer-russias-finance-ministry-data-center-damaged-facility-reportedly-holds-tax-databases-facility-also-holds-other-important-state-registry-data",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-25T14:05:00.000Z",
-    "fetchedAt": "2026-10-25T15:45:26.086Z",
-    "snippet": "Reports say that this is one of three data centers that the Russian finance ministry operated.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/wmDc2qYAL4pCfWnSCMvJnd-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "809486d6476f5e52",
-    "title": "Nvidia discusses $2,000-per-GPU annual fee for software that 'runs agents on AI factories'",
-    "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-25T13:00:00.000Z",
-    "fetchedAt": "2026-10-25T15:45:26.086Z",
-    "snippet": "Nvidia CEO Jensen Huang is reportedly weighing annual software fees of around $2,000 per GPU for enterprise AI, a model that could generate $10 billion a year if five million licenses were sold. The pricing and launch timeline remain unconfirmed, while Nvidia",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/TwfFbH55Mt433hRvkWbSD5-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "8606c2ea70dca3eb",
-    "title": "Jailbroken PS5s can now run Steam PC games",
-    "link": "https://www.tomshardware.com/video-games/playstation/jailbroken-ps5s-can-now-run-steam-pc-games-you-can-now-sign-in-with-your-steam-account-and-install-games-from-your-library-directly-to-the-console",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-25T12:40:11.000Z",
-    "fetchedAt": "2026-10-25T15:45:26.087Z",
-    "snippet": "Playden for PS5 creates an app for each Steam game that it downloads, allowing it to appear as a separate tile on the console's home screen.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/nd79YEyZjKpereVXCPBBMD-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "fb1b377d7dc6a732",
-    "title": "The West’s double standard on global unrest",
-    "link": "https://www.scmp.com/opinion/world-opinion/article/3371928/wests-double-standard-global-unrest",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-25T12:30:08.000Z",
-    "fetchedAt": "2026-10-25T15:45:26.469Z",
-    "snippet": "In the early days of the student protests in France, mainstream Western media took the protesters’ claims about poor school facilities and declining resources at face value. Only when the violence spread across the country, and to some of its European neighbou",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/23/b21061b1-b28d-463e-9390-a96a1753bf26_63d7cc3f.jpg?itok=ezCakO6D&v=1792747192"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "f57a4eaeb96297b0",
-    "title": "Windows XP debuted 25 years ago today",
-    "link": "https://www.tomshardware.com/software/windows/windows-xp-debuted-25-years-ago-today-microsofts-biggest-launch-since-95-was-its-first-consumer-os-to-remove-the-dos-underpinnings",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-25T12:20:00.000Z",
-    "fetchedAt": "2026-10-25T15:45:26.087Z",
-    "snippet": "Windows XP became available at retailers for the first time on this day back in 2001.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/nwKzoi7A4Wp8QDVRRJRLMW-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/YPaGTWMGEuUiVftvR8okaC-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/FYb3Tw54WjQe4rrBkJDVYC-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/YDU7Zs4QV5pfXq6z6FKRcC-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "7649ccfc52a8a81f",
-    "title": "New CD players keep launching, but a drive shortage could make them unfixable",
-    "link": "https://www.tomshardware.com/peripherals/new-cd-players-keep-launching-but-a-drive-shortage-could-make-them-unfixable-almost-nobody-makes-the-drives-anymore",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-25T12:00:00.000Z",
-    "fetchedAt": "2026-10-25T15:45:26.087Z",
-    "snippet": "The lack of optical drive manufacturers is raising questions about the repairability and longevity of new CD players that are coming out on the market today.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/477Pst2PY8oMP9NJizdqmL-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "0df4c206a925d233",
-    "title": "OpenAI's isolated red-team agents built a hidden CPU cache channel to talk with no network or shared files",
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-isolated-red-team-ai-agents-built-a-hidden-cpu-cache-channel-to-talk-with-no-network-or-shared-files-exploited-cpu-cache-timing-to-bypass-microvm-sandboxes",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-25T11:30:00.000Z",
-    "fetchedAt": "2026-10-25T15:45:26.087Z",
-    "snippet": "OpenAI’s red-team agents passed hidden messages through the CPU cache, a covert trick already shown to move data between cloud VMs.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/zj2rCLfrU42mkGH93V5iU-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/ccgf38QZVjtoD9yhNqCPTm-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "b6ca3fd4a5ef1ae5",
-    "title": "AMD CEO Lisa Su proposed bringing back the Ryzen 7 5800X3D, set plan in motion before DDR5 shortages",
-    "link": "https://www.tomshardware.com/pc-components/cpus/amd-ceo-lisa-su-proposed-bringing-back-the-ryzen-7-5800x3d-set-plan-in-motion-before-ddr5-shortages-am4-cpu-considered-a-final-gift-to-loyal-fans-of-the-decade-old-socket",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-25T11:00:00.000Z",
-    "fetchedAt": "2026-10-25T15:45:26.087Z",
-    "snippet": "AMD Director Travis Kirsch confirmed the rationale for relaunching the first X3D chip and explained why the company no longer offers many Ryzen 3 SKUs.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/p3Kjz2uFDawbqt4hPoaDaW-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Xh2MupWrRjJPiLLuopmKRB-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "aafcf498f7ad827a",
-    "title": "Meituan Waimai Offers Restaurants a Free AI Store Manager for Diagnosis, Store Checks and Menus",
-    "link": "https://pandaily.com/meituan-waimai-free-ai-store-manager-restaurants-diagnosis-store-inspection-menu-operations",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-10-25T06:58:12.000Z",
-    "fetchedAt": "2026-10-25T15:45:26.010Z",
-    "snippet": "Meituan Waimai will give restaurant merchants across China free access to an AI store manager that diagnoses operations, inspects stores, manages menus and helps new outlets, then tracks the results.",
-    "images": [
-      "https://cms-image.pandaily.com/1/meituan_1aa590013a.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "faf6e978672f5433",
-    "title": "MOSS-Image Passes 1 Million Downloads in Four Days and Tops Hugging Face Text-to-Image Trends",
-    "link": "https://pandaily.com/moss-image-1-million-downloads-four-days-hugging-face-trending-community-lora-quantized-versions",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-10-25T06:58:12.000Z",
-    "fetchedAt": "2026-10-25T15:45:26.010Z",
-    "snippet": "Four days after release, the open-source MOSS-Image model from MOSI and OpenMOSS drew about 1.3 million downloads across repositories, 1.4k GitHub stars and a wave of community speed-ups and LoRAs.",
-    "images": [
-      "https://cms-image.pandaily.com/1/moss_09d0f0fa5f.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "6d132b69c7a5631b",
-    "title": "Qwen's Jiang Guanjun Lays Out a Personal Agent Framework Built on Models, Memory and Ecosystem",
-    "link": "https://pandaily.com/qwen-jiang-guanjun-cncc-personal-agent-framework-model-memory-ecosystem-8000-atomic-capabilities",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-10-25T06:56:30.000Z",
-    "fetchedAt": "2026-10-25T15:45:26.011Z",
-    "snippet": "At CNCC 2026, Alibaba's Qwen AI algorithm lead said personal agents need models, memory and an ecosystem working together, and described a map of 8,000+ atomic capabilities across 30+ industries.",
-    "images": [
-      "https://cms-image.pandaily.com/1/qwen_82f8b3994d.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "ef1fc4c43ab74460",
-    "title": "Israel widens West Bank crackdown, displacing Hebron families after attack",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3372058/israel-widens-west-bank-crackdown-displacing-hebron-families-after-attack",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-25T06:23:07.000Z",
-    "fetchedAt": "2026-10-25T15:45:26.469Z",
-    "snippet": "Israel said on Sunday all land crossings with the West Bank will be closed on the day of next week’s election, as it pledged a harder line on militancy after Palestinian gunmen killed two soldiers in the territory. The announcement came a day after Israeli for",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/25/032a6e62-8370-4964-9c1d-e5f558770fa0_8eaa0669.jpg?itok=5CFs_5dr&v=1792909377"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "aa102babfc32ed76",
-    "title": "Trump hails tariffs for new US$4.2 billion Audi plant in Georgia",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3372051/trump-hails-tariffs-new-us42-billion-audi-plant-georgia",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-25T04:44:54.000Z",
-    "fetchedAt": "2026-10-25T15:45:26.469Z",
-    "snippet": "President Donald Trump defended his decision to wield tariffs during a campaign rally in Georgia, saying they have made the US richer, as he announced that Volkswagen agreed to build a new US$4.2 billion Audi plant in the state. “Think of that. 200,000 cars a",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/25/8ba5f983-040b-4d46-a09c-8d86e70737e4_bd929529.jpg?itok=iLR4TWV1&v=1792903486"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "8d3873b011b09b8b",
-    "title": "Baidu Health Adds a Video Health Camera and Doctor Matching, Says AI Services Top 50M Monthly Users",
-    "link": "https://pandaily.com/baidu-health-ai-50-million-mau-health-camera-video-consultation-real-doctors",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-10-25T01:58:56.000Z",
-    "fetchedAt": "2026-10-25T03:47:11.709Z",
-    "snippet": "Baidu Health upgraded its AI health assistant with a camera that accepts video and speech, plus services routing users to 150,000 hospital doctors. Baidu stresses doctors, not AI, make diagnoses.",
-    "images": [
-      "https://cms-image.pandaily.com/1/baiduhealth_678e039253.png"
     ],
     "titleZh": "",
     "snippetZh": "",
