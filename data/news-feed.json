@@ -1,5 +1,105 @@
 [
   {
+    "id": "e3bf52b815516e37",
+    "title": "Unitree's Wang Xingxing Calls Security Robots a Coming Growth Area, Citing Overseas Demand",
+    "link": "https://pandaily.com/unitree-wang-xingxing-security-robots-overseas-demand-zhejiang-entrepreneurs",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-08T01:46:29.000Z",
+    "fetchedAt": "2026-11-08T05:05:36.964Z",
+    "snippet": "Unitree's Wang Xingxing said security robots could be the next growth area, citing strong overseas demand, while conceding humanoids are not yet in large-scale use.",
+    "images": [
+      "https://cms-image.pandaily.com/1/unitree_164d5d2884.png"
+    ]
+  },
+  {
+    "id": "854584e5c4343e5b",
+    "title": "Tencent Upgrades WorkRally With Three Video Models and Expands Beyond Animated Short Dramas",
+    "link": "https://pandaily.com/tencent-workrally-upgrade-rally-video-edit-upscale-models",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-08T01:46:21.000Z",
+    "fetchedAt": "2026-11-08T05:05:36.964Z",
+    "snippet": "Tencent's WorkRally adds Rally-Video, a local-edit model and an upscaler it says is 80% faster, plus script and editing tools, widening its focus beyond animated dramas.",
+    "images": [
+      "https://cms-image.pandaily.com/1/workrally_2ebc267672.png"
+    ]
+  },
+  {
+    "id": "21e48cdfd1acc0e3",
+    "title": "X-Humanoid Releases Hi-WBC Whole-Body Control Model for Tiangong Humanoid Robots",
+    "link": "https://pandaily.com/x-humanoid-hi-wbc-whole-body-control-model-tiangong-humanoid",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-08T01:46:11.000Z",
+    "fetchedAt": "2026-11-08T05:05:36.964Z",
+    "snippet": "X-Humanoid's Hi-WBC model blends human motion references with force sensing and terrain perception; the company showed it in sports-event and room-tidying demos.",
+    "images": [
+      "https://cms-image.pandaily.com/1/xhumanoid_2af5b079b7.png"
+    ]
+  },
+  {
+    "id": "ebf8ae8a8eb9aa21",
+    "title": "Huawei Ascend Adapts Kimi K3.1 Pro for LoRA Fine-Tuning on a 128-Card Atlas 950 SuperPoD",
+    "link": "https://pandaily.com/huawei-ascend-kimi-k3-1-pro-lora-fine-tuning-atlas-950-superpod",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-08T01:46:02.000Z",
+    "fetchedAt": "2026-11-08T05:05:36.964Z",
+    "snippet": "Ascend says it validated LoRA fine-tuning of the 2.8-trillion-parameter Kimi K3.1 Pro on a 128-card Atlas 950 SuperPoD, citing a 15% average gain from Swap Core caching.",
+    "images": [
+      "https://cms-image.pandaily.com/1/ascend_33a4c5594a.png"
+    ]
+  },
+  {
+    "id": "b02fe5f3a7cb2f4c",
+    "title": "Want to fly to the moon? Nasa is looking for new astronauts for the Artemis programme",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3373673/want-fly-moon-nasa-looking-new-astronauts-artemis-programme",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-07T23:53:33.000Z",
+    "fetchedAt": "2026-11-08T05:05:37.454Z",
+    "snippet": "Want to fly to the moon and help build a permanent lunar base? Nasa is accepting applications for a new astronaut class that will help grow the Artemis programme. Officials announced the news on Saturday during a Kennedy Space Centre air show promoting lunar e",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/08/68d02546-39cf-40a1-9f42-fed4770e56a3_e63826c3.jpg?itok=b_NwQgUs&v=1794095603"
+    ]
+  },
+  {
+    "id": "04d1723e61ec4b9f",
+    "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+    "link": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-07T22:07:22.000Z",
+    "fetchedAt": "2026-11-08T05:05:36.920Z",
+    "snippet": "On Equity, we unpacked what the midterms mean for the tech industry.",
+    "images": []
+  },
+  {
+    "id": "2db948a39a21db40",
+    "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+    "link": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-07T21:17:08.000Z",
+    "fetchedAt": "2026-11-08T05:05:36.921Z",
+    "snippet": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
+    "images": []
+  },
+  {
+    "id": "f905b98521b9e0d0",
+    "title": "Clashes in Paris after new French protests",
+    "link": "https://www.scmp.com/news/world/europe/article/3373669/clashes-paris-after-new-french-protests",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-07T18:05:42.000Z",
+    "fetchedAt": "2026-11-08T05:05:37.455Z",
+    "snippet": "Thousands of people protested across France on Saturday in a new show of anger against the government with clashes erupting between police and some protesters in Paris despite a lower turnout than in previous weeks. The protests marked the fourth consecutive w",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/08/c16a6879-ae61-405d-aa6e-c4db712f9236_273d125f.jpg?itok=bPV5rUVG&v=1794074734"
+    ]
+  },
+  {
     "id": "1a1b52d013914ff1",
     "title": "5 killed in shooting in tourist heart of Krakow, Poland",
     "link": "https://www.scmp.com/news/world/europe/article/3373667/5-killed-shooting-tourist-heart-krakow-poland",
@@ -7,10 +107,15 @@
     "category": "China AI",
     "publishedAt": "2026-11-07T16:33:05.000Z",
     "fetchedAt": "2026-11-07T17:35:07.197Z",
-    "snippet": "A shooting in the tourist heart of Poland’s second city of Krakow on Saturday left five people dead and around a dozen wounded, police said. “A man drove a car onto Krakow’s main square and began shooting at random people,” a Krakow police spokesman said. “As ",
+    "snippet": "A shooting in the tourist heart of Poland’s second city of Krakow on Saturday left five people dead and around a dozen wounded, police said. “A man drove a car onto Krakow’s main square and began shooting at random people,” a Krakow police spokesman said. “As",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/08/16a19a40-d1c7-4139-adcc-8c56e4368e73_fb96467c.jpg?itok=4Apsac0k&v=1794069173"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "202af5703f8c2e08",
@@ -23,7 +128,12 @@
     "snippet": "A Guatemalan ⁠lawmaker and three ⁠police officers were ⁠killed in an armed attack in the eastern department of Zacapa, President Bernardo Arevalo said, condemning the violence and ordering security forces to ‌help identify those responsible. Lawmaker Julio Ces",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/07/e9239e04-e1c4-4520-afc6-a445d218503d_99ed2a8b.jpg?itok=pp0T3mJT&v=1794063694"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "2d4390621ef03e9a",
@@ -37,7 +147,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/fjFkN4c5HUsWwQPK4dVKZR-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/z53fPgXjpKHTpeGv3RHpqj-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "ca94d380f1ed1ff2",
@@ -51,7 +166,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/umLVLKxLCxcj2CWHug2Wb8-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "5b1b40b8dc69f098",
@@ -65,7 +185,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/inWCPzXNVFbyYDRmxtthn3-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/xi79WuWDZXzix4Fc7sXNMn-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "201b1ef9bda3e6bd",
@@ -78,7 +203,12 @@
     "snippet": "China has framed its relationship with Switzerland as a model of practical, mutually beneficial cooperation at a time when its broader ties with the European Union remain more complicated and politically charged. Just before Swiss President Guy Parmelin’s rece",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/04/8f2e6202-887f-4687-aa49-58c08346c8dd_7721d95d.jpg?itok=RBvwzRBF&v=1793807326"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "b0389c4778b28808",
@@ -92,7 +222,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/GpApBtoCh4tb9AUh89kM3m-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/wBuvNMx5YeRCRLep5SfEiT-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "b4e6ea4c479d1628",
@@ -105,7 +240,12 @@
     "snippet": "The US federal Aviation Administration (FAA) is finally moving to retire floppy disks from its air traffic control infrastructure, with plans to to replace four decades-old information systems across 435 facilities by the end of 2028.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/QmF9S6XUtsUo8pn66PSXMh-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "0a6dcdc7f6470384",
@@ -118,7 +258,12 @@
     "snippet": "The next US-China talk on artificial intelligence should begin with a simple question: do the two governments actually understand how rapidly AI’s capabilities are improving? Before deciding what to do about the technology, Washington and Beijing need a common",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/06/af80520e-442b-4b87-8f19-8591bd5c2d9b_3f77e22d.jpg?itok=2r5CDhlt&v=1793935878"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e666b1bfa36bb977",
@@ -131,7 +276,12 @@
     "snippet": "MIIT's draft proposes a unique code for each robot across industrial, service and special-purpose categories. Public comments are open through December 5.",
     "images": [
       "https://cms-image.pandaily.com/1/miit_4f09089a60.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "ce510e332d4dde4b",
@@ -144,7 +294,12 @@
     "snippet": "DEEP Robotics says X50 can carry 50 kilograms at 3 m/s for over two kilometers, targeting industrial inspection, equipment transport and emergency response.",
     "images": [
       "https://cms-image.pandaily.com/1/robot_058ae551da.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "9e2718add34e30ae",
@@ -157,7 +312,12 @@
     "snippet": "OpenCSG's 27B agent model targets tool selection and failure recovery, with single-A800 test results. Its license requires permission for commercial use.",
     "images": [
       "https://cms-image.pandaily.com/1/opencsg_ad49c8082b.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "b3f86f9c75bc6b70",
@@ -170,7 +330,12 @@
     "snippet": "Huawei's standalone HarmonyOS PC assistant adds an official office-agent release with cloud or local execution, phone task dispatch and AI-point membership billing.",
     "images": [
       "https://cms-image.pandaily.com/1/huawei_610b905a5a.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "dc6c1b77aa29764f",
@@ -5927,159 +6092,6 @@
     "snippet": "Fraudsters are using the identities of high school graduates who skipped college to apply for student loans and steal the excess proceeds that do not go to schools. They use AI to keep the charade going and make it seem like the fake student is actually going",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/3QDubn6i56tX4gPckKhuJd-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "82baf2462f71b3cf",
-    "title": "Iran’s supreme leader warns US, Israel against war",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3372847/irans-supreme-leader-warns-us-israel-against-war",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-31T14:16:26.000Z",
-    "fetchedAt": "2026-10-31T16:58:56.757Z",
-    "snippet": "Iran’s supreme leader Mojtaba Khamenei on Saturday warned the United States and Israel against returning to war, according to a written statement, following threats from the Islamic republic’s foes of a possible resumption of strikes. “If the enemies once agai",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/31/9d83694f-57fd-466d-aa2d-31ce14f66a1e_848d1b03.jpg?itok=T8285_Wu&v=1793456180"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "869c1071391f5500",
-    "title": "Grab a new 3D printer this Halloween weekend, with prices as low as $199",
-    "link": "https://www.tomshardware.com/3d-printing/grab-a-new-3d-printer-this-halloween-weekend-with-prices-as-low-as-usd199-big-discounts-from-elegoo-creality-prusa-and-more-with-filament-and-resin-printers-and-consumables-on-sale",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-31T14:00:00.000Z",
-    "fetchedAt": "2026-10-31T16:58:56.453Z",
-    "snippet": "Pick up a bargain 3D printer, thanks to these big discounts on resin and filament 3DP models from big names like Creality, Elegoo, Prusa and more.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/7Wgw6aVWKwYgYCZwpuwgSX-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/GwJpBsud3xSuBdU7v38JRN-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/35hvG7ckxeGvyt533oLj5b-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/43LNBcYfNusYvtAmskJHs9-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Y9QmkGaPaBzJv2BEH92ciZ-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "915fd65c7a2038b1",
-    "title": "Firm that lets you rent out your idle Mac for AI inference workloads warns of plummeting token costs",
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/firm-that-lets-you-rent-out-your-idle-mac-for-ai-inference-workloads-warns-of-plummeting-token-costs-darkbloom-network-sees-earnings-drop-to-usd1-23-a-day-as-anthropic-tokens-fall-77-percent",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-31T13:49:09.000Z",
-    "fetchedAt": "2026-10-31T16:58:56.454Z",
-    "snippet": "Mac users sharing their compute for AI inference are seeing declining revenues as token prices continue to drop, with Anthropic token falling 77% in under five months.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/LDtU8drypUytifFp3KaAU-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/z53fPgXjpKHTpeGv3RHpqj-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "33435e5e1a2751d0",
-    "title": "Intel shifts production capacity from consumer to server CPUs in face of 'unprecedented' AI demand",
-    "link": "https://www.tomshardware.com/pc-components/cpus/intel-shifts-production-capacity-from-consumer-to-server-cpus-in-face-of-unprecedented-ai-demand-company-navigating-one-of-the-most-significant-supply-shortages-in-history",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-31T13:00:00.000Z",
-    "fetchedAt": "2026-10-31T16:58:56.455Z",
-    "snippet": "Intel is expanding chipmaking and advanced packaging capacity across the U.S., Ireland, and Malaysia to meet surging AI-driven demand for data center CPUs amid shrinking PC market and persistent supply constraints.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/rVargrx2PRrE3QdGAf22wX-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Xh2MupWrRjJPiLLuopmKRB-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "8b94e084c13fd411",
-    "title": "Developer builds a complete Intel 486 PC emulator in a browser",
-    "link": "https://www.tomshardware.com/video-games/retro-gaming/developer-builds-a-complete-intel-486-pc-emulator-in-a-browser-100-percent-pure-javascript-retro486-includes-modular-tabs-for-screen-motherboard-storage-expansion-cards-and-more",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-31T12:40:00.000Z",
-    "fetchedAt": "2026-10-31T16:58:56.455Z",
-    "snippet": "A developer has created a full Intel 486 PC system, using 100% pure-JavaScript, in a browser.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/nWhHVXxy2EeJYkKiEScazN-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/ttXzpdJeex8CWmBTXFHorN-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/JnvQ8BzfvVaXiyC3EVxKxN-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/P8kTxZiwZwtDJPaXe2EFzN-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "4194143c80ab0da4",
-    "title": "Anthropic's Claude AI blocks video game cloning and reverse-engineering",
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-31T12:20:00.000Z",
-    "fetchedAt": "2026-10-31T16:58:56.455Z",
-    "snippet": "Anthropic's Opus 5.5 model blocking attempts at videogame recreation — users also claim their non-malicious generic reverse-engineering tasks are block",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/uCXNTvaQDC2MRU8U37YwaV-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "254610915bd643ce",
-    "title": "UK PM Burnham ‘open’ to slavery apology, but not reparations",
-    "link": "https://www.scmp.com/news/world/europe/article/3372842/uk-pm-burnham-open-slavery-apology-not-reparations",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-10-31T12:06:40.000Z",
-    "fetchedAt": "2026-10-31T16:58:56.757Z",
-    "snippet": "Prime Minister Andy Burnham said on Saturday he was “open” to the UK issuing a formal apology for its role in the transatlantic slave trade, but ruled out financial reparations. The Labour leader made the remarks days before attending a Commonwealth leaders su",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/31/57e96498-7819-4451-be8c-d5f1a8cfeb17_19812a48.jpg?itok=41Cw9leS&v=1793448391"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "19976fe9de42fb4b",
-    "title": "AI agent used to perform controversial brain surgery on a mouse, Anthropic Sonnet controlled motorized surgery rig",
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/startup-uses-ai-agent-to-perform-controversial-brain-surgery-on-a-mouse-anthropic-sonnet-controlled-motorized-surgery-rig-ai-given-free-reign-to-treat-epilepsy-with-a-range-of-gene-therapy-vectors-after-opus-5-5-refused-to-conduct-biological-experiment",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-10-31T12:00:00.000Z",
-    "fetchedAt": "2026-10-31T16:58:56.455Z",
-    "snippet": "The team had to use Sonnet after Opus 5.5 outright refused to run the experiment, while Opus 5 warned that it could stop working in the midst of the operation.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/eoGRcXGHJPaiRv8XJmVA96-1920-80.png"
     ],
     "titleZh": "",
     "snippetZh": "",
