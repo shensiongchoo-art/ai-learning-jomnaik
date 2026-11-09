@@ -1,5 +1,256 @@
 [
   {
+    "id": "5fff426c1dd07e67",
+    "title": "Enhancing Academic Advisement with Case-Based Reasoning",
+    "link": "https://arxiv.org/abs/2611.08572",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-09T05:00:00.000Z",
+    "fetchedAt": "2026-11-09T05:18:04.130Z",
+    "snippet": "arXiv:2611.08572v1 Announce Type: new Abstract: This research involved the study of an application of Case-Based Reasoning (CBR) in the field of academic advising. Academic advisement has been recognised as an important function of higher education. However, t",
+    "images": []
+  },
+  {
+    "id": "055d1476279f772a",
+    "title": "NormGym: Evaluating Normative Competence through Social Interaction",
+    "link": "https://arxiv.org/abs/2611.08613",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-09T05:00:00.000Z",
+    "fetchedAt": "2026-11-09T05:18:04.130Z",
+    "snippet": "arXiv:2611.08613v1 Announce Type: new Abstract: Normative competence, the ability to infer socially enforced expectations from interaction and adjust behavior accordingly, is essential for agents operating in unfamiliar human communities. Yet existing evaluati",
+    "images": []
+  },
+  {
+    "id": "7449b399dc7c57ef",
+    "title": "LLM-Based Feature Extraction for Multi-Criteria Inventory Classification",
+    "link": "https://arxiv.org/abs/2611.08626",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-09T05:00:00.000Z",
+    "fetchedAt": "2026-11-09T05:18:04.130Z",
+    "snippet": "arXiv:2611.08626v1 Announce Type: new Abstract: E-commerce supply chains generate large volumes of customer feedback and operational data that remain underutilized in inventory management. Traditional inventory classification techniques such as ABC analysis re",
+    "images": []
+  },
+  {
+    "id": "d0225e68e42b4a88",
+    "title": "Aspect-wise Pairwise Tournaments for Test-Time Selection",
+    "link": "https://arxiv.org/abs/2611.08640",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-09T05:00:00.000Z",
+    "fetchedAt": "2026-11-09T05:18:04.130Z",
+    "snippet": "arXiv:2611.08640v1 Announce Type: new Abstract: Scaling test-time compute has proven highly effective at improving LLM reasoning. A popular method is best-of-n sampling, where a model generates many candidate solutions and one is selected. This motivates the q",
+    "images": []
+  },
+  {
+    "id": "4750f1d7c981f83e",
+    "title": "Decision Context: Persistent Behavioral Learning for AI Agents",
+    "link": "https://arxiv.org/abs/2611.08644",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-09T05:00:00.000Z",
+    "fetchedAt": "2026-11-09T05:18:04.130Z",
+    "snippet": "arXiv:2611.08644v1 Announce Type: new Abstract: LLM agents do not learn from corrections across sessions. A user fixes the same mistake at the start of every conversation. Existing agent memory systems primarily handle facts, such as preferences, entities, and",
+    "images": []
+  },
+  {
+    "id": "de1d2d02c260ec0e",
+    "title": "IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection",
+    "link": "https://arxiv.org/abs/2611.08647",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-09T05:00:00.000Z",
+    "fetchedAt": "2026-11-09T05:18:04.130Z",
+    "snippet": "arXiv:2611.08647v1 Announce Type: new Abstract: Intra-weight injection lets one model change another model's behaviour by editing its weights directly, without gradients. Such edits can range from altering lexical associations to enforcing output formats or up",
+    "images": []
+  },
+  {
+    "id": "2b2349cc29bec609",
+    "title": "Pdb or Not to Be: Comparing Debugging Interfaces With Pass$_{X}$@$k$",
+    "link": "https://arxiv.org/abs/2611.08666",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-09T05:00:00.000Z",
+    "fetchedAt": "2026-11-09T05:18:04.130Z",
+    "snippet": "arXiv:2611.08666v1 Announce Type: new Abstract: Interactive debuggers are indispensable to human software development, yet coding agents overwhelmingly rely on edit-execute-observe loops, using common bash tools, test scripts, and print statements to debug via",
+    "images": []
+  },
+  {
+    "id": "e04099845add7e88",
+    "title": "ChainFlow: Few-Step Latent Flow Matching for Speculative Decoding",
+    "link": "https://arxiv.org/abs/2611.08669",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-09T05:00:00.000Z",
+    "fetchedAt": "2026-11-09T05:18:04.130Z",
+    "snippet": "arXiv:2611.08669v1 Announce Type: new Abstract: Speculative decoding has become a standard way to accelerate LLM inference: a lightweight drafter proposes tokens that the target verifies in one parallel pass. Existing drafters face trade-offs that limits their",
+    "images": []
+  },
+  {
+    "id": "52a2fa8becc77b7d",
+    "title": "Transporting the Past: An Optimal Transport View of Backtracking Counterfactuals",
+    "link": "https://arxiv.org/abs/2611.08682",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-09T05:00:00.000Z",
+    "fetchedAt": "2026-11-09T05:18:04.131Z",
+    "snippet": "arXiv:2611.08682v1 Announce Type: new Abstract: We study backtracking counterfactual inference for Structural Causal Models (SCMs) through the lens of optimal transport. In SCMs, a factual observation generally induces a posterior distribution over exogenous v",
+    "images": []
+  },
+  {
+    "id": "8b15038a67447139",
+    "title": "Cancellation Is Not Enough: What Retries Leave Behind in an Overloaded LLM Engine",
+    "link": "https://arxiv.org/abs/2611.08684",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-09T05:00:00.000Z",
+    "fetchedAt": "2026-11-09T05:18:04.131Z",
+    "snippet": "arXiv:2611.08684v1 Announce Type: new Abstract: Clients and proxies in front of an LLM engine retry calls that time out. After a transient overload, these retries can keep the engine from recovering even when calls arrive below its capacity. Since the engine m",
+    "images": []
+  },
+  {
+    "id": "e50df7569d8c7690",
+    "title": "PrimeBOT Reports 98% Monthly Activity as Personal-Robot Output Reaches 10,000",
+    "link": "https://pandaily.com/primebot-personal-robots-monthly-activity-production-ten-thousand",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-09T01:51:00.000Z",
+    "fetchedAt": "2026-11-09T05:18:03.834Z",
+    "snippet": "PrimeBOT reports over 98% monthly activity and three hours online daily, but gives no methodology. Its 10,000-unit figure measures production, not sales.",
+    "images": [
+      "https://cms-image.pandaily.com/1/robot_500fa8493a.png"
+    ]
+  },
+  {
+    "id": "282852df0b24f948",
+    "title": "Unconfirmed Report Puts Kimi K4 at 5.4 Trillion Parameters With a 2027 Release Target",
+    "link": "https://pandaily.com/kimi-k4-unconfirmed-roadmap-report-parameters-release-target",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-09T01:50:54.000Z",
+    "fetchedAt": "2026-11-09T05:18:03.834Z",
+    "snippet": "An unconfirmed Chinese report suggests a 5.4-trillion-parameter Kimi K4 in 2027. Moonshot has not confirmed the proposed names, specifications or timing.",
+    "images": [
+      "https://cms-image.pandaily.com/1/kimi_2fb2a7261d.png"
+    ]
+  },
+  {
+    "id": "7c7d10dad09fc1ac",
+    "title": "Visinex Introduces VS815V RISC-V Vision Chip With Four Camera Inputs and 4K Video",
+    "link": "https://pandaily.com/visinex-vs815v-risc-v-vision-chip-four-camera-inputs-4k",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-09T01:50:38.000Z",
+    "fetchedAt": "2026-11-09T05:18:03.835Z",
+    "snippet": "Visinex lists a 1.6-TOPS NPU, four sensor inputs and 4K30 video for VS815V; finished devices are expected as early as 2027.",
+    "images": [
+      "https://cms-image.pandaily.com/1/visinex_125882cf9b.png"
+    ]
+  },
+  {
+    "id": "570bac0f1a8a49d3",
+    "title": "China Mobile Cloud and Zhipu Plan GLM Integration, Coding Products and Token Research",
+    "link": "https://pandaily.com/china-mobile-cloud-zhipu-glm-moma-token-research-coding-partnership",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-09T01:50:29.000Z",
+    "fetchedAt": "2026-11-09T05:18:03.835Z",
+    "snippet": "China Mobile Cloud and Zhipu plan GLM integration on MoMA, token-efficiency research and joint AI coding products; deployment details remain undisclosed.",
+    "images": [
+      "https://cms-image.pandaily.com/1/zhipu_d63ca42d85.png"
+    ]
+  },
+  {
+    "id": "93850d70342a3431",
+    "title": "Trump says ‘only kidding’ about naming UFC’s Dana White as press secretary",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3373723/trump-says-only-kidding-about-naming-ufcs-dana-white-press-secretary",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-09T00:38:23.000Z",
+    "fetchedAt": "2026-11-09T05:18:04.288Z",
+    "snippet": "US President Donald Trump on Sunday said he was “only kidding” when he suggested UFC CEO Dana White could become his next White House press secretary, ‌after a social media post a day earlier stirred speculation about recruiting his feisty ally and signalled a",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/961f6785-92d7-4fde-8db3-ab9c026f0159_8ae64228.jpg?itok=Dlvy8Rw5&v=1794184824"
+    ]
+  },
+  {
+    "id": "6a06e7d0b086b49d",
+    "title": "Drone attack on Iraq gas complex causes power outages",
+    "link": "https://www.scmp.com/news/world/middle-east/article/3373721/attack-iraq-gas-complex-disrupts-supply-regions-power-plants-authorities-say",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-08T22:09:47.000Z",
+    "fetchedAt": "2026-11-09T05:18:04.288Z",
+    "snippet": "An Emirati-owned gas complex in Iraq’s autonomous Kurdistan region was attacked on Sunday, disrupting the gas supply to the region’s power plants, local Kurdish authorities said. “At 11pm (2000 GMT), the Khor Mor gas field came under a terrorist attack,” the r",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/e3423188-fa11-48d5-b8ea-0d665ccc3331_bf7ce915.jpg?itok=yrRWpc4t&v=1794175736"
+    ]
+  },
+  {
+    "id": "05ce177ee53eed7f",
+    "title": "Nvidia CEO Jensen Huang admits to having an affair with suspected Chinese spy",
+    "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-ceo-jensen-huang-admits-to-having-an-affair-with-suspected-chinese-spy-jensen-apologizes-in-letter-to-staff-company-board-forms-independent-committee-to-investigate",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-08T21:27:29.000Z",
+    "fetchedAt": "2026-11-09T05:18:04.078Z",
+    "snippet": "Nvidia's board of directors is investigating a report about Jensen Huang's alleged affair with a client, claims it is still confident in Jensen and leadership team.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/Kjestg9jiuvnbE868dhwjf-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "f9d8181201e1ba62",
+    "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+    "link": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-08T21:00:11.000Z",
+    "fetchedAt": "2026-11-09T05:18:03.765Z",
+    "snippet": "In a memo to the company, Huang admitted that he had an affair.",
+    "images": []
+  },
+  {
+    "id": "b04da23f729c2593",
+    "title": "UK’s King Charles, Prince Harry honour war dead at separate Remembrance Day events",
+    "link": "https://www.scmp.com/news/world/europe/article/3373720/king-charles-and-prince-harry-mark-remembrance-day-separately",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-08T20:05:03.000Z",
+    "fetchedAt": "2026-11-09T05:18:04.288Z",
+    "snippet": "Prince Harry attended a Remembrance Sunday event in a small English town, far away from Britain’s main ceremony to honour the country’s war dead led by his father, King Charles. Ceremonies are held at war memorials across Britain on the Sunday closest to Armis",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/8ae1e7c2-5222-4203-b782-1bf0af7c01db_d1733d96.jpg?itok=HsAAesNU&v=1794185475"
+    ]
+  },
+  {
+    "id": "65aa9966e04bb984",
+    "title": "Police make arrest in deadly shooting at a North Carolina university",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3373719/police-make-arrest-deadly-shooting-north-carolina-university",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-08T18:59:32.000Z",
+    "fetchedAt": "2026-11-09T05:18:04.288Z",
+    "snippet": "Authorities on Sunday arrested a man in a shooting during homecoming weekend at Winston-Salem State University in North Carolina that left one person dead and at least one other person injured. Winston-Salem police said officers who were on campus for homecomi",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/82473f3d-3bfe-4124-84b1-9fbbd068ea03_ee4422da.jpg?itok=oERTo3sC&v=1794188095"
+    ]
+  },
+  {
+    "id": "b797862e77e2086f",
+    "title": "Media industry still plagued by sexual abuse, UK minister warns",
+    "link": "https://www.scmp.com/news/world/europe/article/3373718/media-industry-still-has-problem-sexual-abuse-uk-culture-minister-says",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-08T18:35:55.000Z",
+    "fetchedAt": "2026-11-09T05:18:04.288Z",
+    "snippet": "Britain’s culture minister, Lisa Nandy, said on ⁠Sunday there ⁠was still a problem ⁠with sexual abuse in the media industry after Russell Brand, once a high-profile comedian and actor, was convicted of raping a woman and sexually assaulting three more. Brand’s",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/2265b649-9251-4f5f-958b-a07fb46269aa_6922ad6a.jpg?itok=VjcLaQUn&v=1794190606"
+    ]
+  },
+  {
     "id": "bf9bb0951c671683",
     "title": "Iran executes 3 more men over January protests, judiciary says",
     "link": "https://www.scmp.com/news/world/middle-east/article/3373716/iran-executes-3-more-men-over-january-protests-judiciary-says",
@@ -10,6 +261,24 @@
     "snippet": "Iranian authorities executed three men on Sunday on charges linked to January 2026 protests, the judiciary said, after what rights groups described as an unfair trial. Norway-based Iran Human Rights (IHR) said the hangings at dawn of Hassan Divband, Hamid Kaze",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/87085d78-ebe8-4579-a9ae-9051d63774b2_38505930.jpg?itok=YBwkfwR1&v=1794157512"
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "61209b11de9aa732",
+    "title": "Iran executes 3 more men over January protests",
+    "link": "https://www.scmp.com/news/world/middle-east/article/3373716/iran-executes-3-more-men-over-january-protests-judiciary-says",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-08T17:06:47.000Z",
+    "fetchedAt": "2026-11-09T05:18:04.288Z",
+    "snippet": "Iranian authorities executed three men on Sunday on charges linked to January 2026 protests, the judiciary said, after what rights groups described as an unfair trial. Norway-based Iran Human Rights (IHR) said the hangings at dawn of Hassan Divband, Hamid Kaze",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/f0037b3f-4696-4f90-b7cb-ffa9754b598c_d680353f.jpg?itok=C4lPzW70&v=1794189923"
     ]
   },
   {
@@ -23,6 +292,24 @@
     "snippet": "Tens of thousands of people dressed in red thronged the streets of Amsterdam on Sunday to denounce ongoing violence against Palestinians in Gaza, carrying signs reading “Stop the Genocide”. Organisers said some 20,000 people attended the “red line” protest, de",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/8d62968f-8796-4e06-8cb2-3029cb29f06a_2d468645.jpg?itok=ez3dotK_&v=1794155666"
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "67d01f81a47efe54",
+    "title": "Thousands march through Amsterdam in solidarity with Palestinians",
+    "link": "https://www.scmp.com/news/world/europe/article/3373715/tens-thousands-dutch-protesters-take-amsterdam-streets-support-palestinians",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-08T16:35:44.000Z",
+    "fetchedAt": "2026-11-09T05:18:04.288Z",
+    "snippet": "Tens of thousands of people dressed in red thronged the streets of Amsterdam on Sunday to denounce ongoing violence against Palestinians in Gaza, carrying signs reading “Stop the Genocide”. Organisers said some 20,000 people attended the “red line” protest, de",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/562e60cd-350f-4f73-8d89-e3ab2a5b9800_235743c8.jpg?itok=5i_IgRkT&v=1794191802"
     ]
   },
   {
@@ -39,7 +326,12 @@
       "https://cdn.mos.cms.futurecdn.net/xhAUnMhwcXcDyBHwo4SkdQ-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/NMVYfJu9ZZJU2aspMfP6XB-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/LbAvq59jxhbKKg82YriwWB-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "8b68baecd1c89592",
@@ -56,7 +348,12 @@
       "https://cdn.mos.cms.futurecdn.net/BrCjMbioSMgyVYdB53F5N9-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/H2bRMJmcMFc8jdgdapqNN9-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/Li3NThtVeKNXdba5YjZ7R9-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "cdec19e252bc7c1f",
@@ -69,7 +366,12 @@
     "snippet": "Two trains collided south of the Egyptian capital on Sunday, derailing several carriages, killing four and injuring dozens, according to the authorities. Egypt’s railway authority said a train travelling from Giza to Fayoum crashed into the rear of another ser",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/08/93202e10-d48a-42ac-bc88-32a4844ab2d8_f41d3a0e.jpg?itok=XgW5ZU2u&v=1794149797"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "3138418a4178ddc8",
@@ -82,7 +384,12 @@
     "snippet": "Linux developers are preparing to make Intel’s ancient MultiMedia eXtensions irrelevant, with the last MMX code now set to be removed from the kernel.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/rXG5LfQBM4KrVowgfX4A3g-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "94d3f86451bd4970",
@@ -95,7 +402,12 @@
     "snippet": "Ukraine is developing a new class of combat robots designed to operate inside underground gas pipelines.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/LxFmy4cYLLRUZKdapra5MC-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "90c6b2d731be8978",
@@ -112,7 +424,12 @@
       "https://cdn.mos.cms.futurecdn.net/GgXRGS23X6wVgnAFhHScjA-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/eJ8WTgNh6f6jBBde6bGMtA-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/NVQyyU27qufLmxJjdKVuUA-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "4e9f135dde2ec8f8",
@@ -127,7 +444,12 @@
       "https://cdn.mos.cms.futurecdn.net/j6M4fBvsjExPSFtuP5xYyG-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/CJLAMoHHwMZL8chMPQ8k6H-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/wi6yEzpHEwnvbN3qSJbG6H-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c4ab6ffb47202aa3",
@@ -141,7 +463,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/TwLpg3gN7h8B8fkmMySvu4-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "38c8fd6ff957be16",
@@ -154,7 +481,12 @@
     "snippet": "The offices for New Matrix and Maginfra, both approved to receive H200 chips, appear abandoned, and people in the buildings say they're unfamiliar with the companies or have never seen anyone working there.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/RAnrUYUPEDMbGSwoqAPETM-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "aa2fa4e81221fe79",
@@ -167,7 +499,12 @@
     "snippet": "CPU-Z data reveals PC memory capacity is dropping for the first time ever. Driven by skyrocketing AI DRAM prices, 64GB RAM adoption plummeted 18% YoY.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/vp5VEBetgZmgodQQoxWEvY-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e7e57a21f81bc7b6",
@@ -180,7 +517,12 @@
     "snippet": "Windows were blown out across several floors of Saudi oil giant Aramco’s corporate office in the heart of the financial district of the capital Riyadh on Sunday by what the energy ministry said was debris from an attempt to attack the building. The ministry sa",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/08/53e72927-8a5e-47a5-a91e-6e9ec360bc2d_e2ad55b6.jpg?itok=SEjcCnDx&v=1794137655"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "3cd764657fab5b66",
@@ -193,7 +535,12 @@
     "snippet": "Baidu Maps' HarmonyOS version adds automatic floor switching and continuous indoor-outdoor guidance, starting with 106 malls in 22 cities using Huawei positioning.",
     "images": [
       "https://cms-image.pandaily.com/1/baidu_6fd98834ac.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "576aadf38ea79dce",
@@ -206,7 +553,12 @@
     "snippet": "NavInfo's AutoChips targets a single-chip cockpit, L2/L2+ assistance and parking platform with on-device models. AC8035 engineering samples are due in Q1 2027.",
     "images": [
       "https://cms-image.pandaily.com/1/autochips_f8d8973d39.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "6098ca1bef0bf033",
@@ -219,7 +571,12 @@
     "snippet": "MTT AIOS 1.6.1 adds Matter/ZigBee control, Olares file management, semantic photo search and a desktop-pet mode to Moore Threads' AICUBE.",
     "images": [
       "https://cms-image.pandaily.com/1/moore_01a91f6899.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "68ed8a67f991dd4c",
@@ -232,7 +589,12 @@
     "snippet": "SMEE showed a cutaway model for a shared i-line/KrF lithography platform and cited over 10 million wafers processed by equipment already on production lines.",
     "images": [
       "https://cms-image.pandaily.com/1/smee_deb257c9a0.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "29b4e8b54a0e0348",
@@ -245,7 +607,12 @@
     "snippet": "The Republicans’ defeat in the US midterm elections was watched closely in Russia, where some observers are predicting it could herald more support for Ukraine when the Democrats take over Congress in January. But if the Kremlin is hearing the ticking of a clo",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/08/f6a34fd1-7f9e-4933-985b-96e58a0d26c5_8f506424.jpg?itok=SpCYz5SY&v=1794118405"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e3bf52b815516e37",
@@ -5640,432 +6007,6 @@
     "snippet": "A Learjet crashed on Sunday afternoon in a residential area in Palm Beach County, Florida, killing all nine people on board, US transport officials said. The private jet had taken off from Austin-Bergstrom International Airport in Texas and ‌was headed to Nort",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/2809e1a5-665e-4a94-a55b-470307ce880c_544c9743.jpg?itok=H1BX3qb8&v=1793590619"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "78e10324d8a19ff5",
-    "title": "Michigan Senate race upended as Democrat endorses Republican",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3372911/democratic-divisions-shake-pivotal-michigan-senate-race-congresswoman-breaks-ranks",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-01T21:00:36.000Z",
-    "fetchedAt": "2026-11-02T05:00:59.410Z",
-    "snippet": "A Democratic congresswoman in Michigan broke ranks with her party on Sunday to endorse the Republican candidate in her state’s key US Senate race against left-wing progressive candidate Abdul El-Sayed. In a startling display of party infighting just two days b",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/8d511269-3ba3-4403-b079-b0291a58541a_27fe492c.jpg?itok=Xae4kdWP&v=1793586540"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c582004efd4ecab9",
-    "title": "New AI-driven Windows malware feeds stolen data to Claude to rank victims’ assets by value, then deletes itself",
-    "link": "https://www.tomshardware.com/tech-industry/cyber-security/new-ai-driven-windows-malware-feeds-stolen-data-to-claude-to-rank-victims-assets-by-value-then-deletes-itself-payload-builds-custom-target-assessment-can-switch-models-if-one-refuses-or-skip-the-ai-step-entirely",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-01T21:00:00.000Z",
-    "fetchedAt": "2026-11-02T05:00:58.989Z",
-    "snippet": "Cisco Talos says the VOLTA infostealer sends stolen victim data to Claude Opus 4.6 to rank assets by monetization value.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/SwXoTJq5pcxA7urt6ryrQZ-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/P399f9VMT5tSeccWEbxT6e-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "2d703426a6798f3e",
-    "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
-    "link": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-01T20:57:58.000Z",
-    "fetchedAt": "2026-11-02T05:00:58.790Z",
-    "snippet": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "32451499aaa81857",
-    "title": "Iliana Iotova wins Bulgaria’s presidential run-off election",
-    "link": "https://www.scmp.com/news/world/europe/article/3372909/bulgarian-acting-president-iliana-iotova-wins-run-election-exit-polls-show",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-01T19:14:49.000Z",
-    "fetchedAt": "2026-11-02T05:00:59.410Z",
-    "snippet": "Bulgaria’s President Iliana Iotova, who favours dialogue with Moscow and opposes military aid to Ukraine, won a presidential run-off vote on Sunday. The race for the largely ceremonial post had pitted Iotova, an ally of Prime Minister Rumen Radev, against Andr",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/0d0eeb3c-8160-41ab-b4b2-8730ec2c67c1_fc057dfa.jpg?itok=1WRsNx7c&v=1793584794"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e00a9eda7be59aec",
-    "title": "Emergency apps in Ukraine and Russia hacked after longest truce of war ends",
-    "link": "https://www.scmp.com/news/world/russia-central-asia/article/3372908/longest-truce-ukraine-war-kherson-region-set-end",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-01T18:25:28.000Z",
-    "fetchedAt": "2026-11-02T05:00:59.410Z",
-    "snippet": "Russia said its emergency warnings app came under a “massive cyberattack” on Monday, hours after Ukraine reported a hack in an apparent exchange of blows between the foes, as their longest truce came to an end. Moscow’s emergencies ministry said hackers posted",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/79622a66-1ae4-49ba-a966-9e64ff9a7e01_5689dd20.jpg?itok=7-tXze9v&v=1793582697"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "6534e3fb47731b7f",
-    "title": "6 dead, dozens injured in Halloween weekend gun violence across US",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3372906/4-dead-15-injured-3-separate-shootings-dallas-texas-halloween-night-police-say",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-01T17:02:08.000Z",
-    "fetchedAt": "2026-11-01T17:44:57.521Z",
-    "snippet": "Dozens of people were injured and at least six people died in mass shootings as gun violence broke out at nightlife districts in half a dozen cities across the country over the Halloween weekend. Police in Dallas, the site of the deadliest violence, said four",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/95dece95-7fb5-4911-a35c-141751c0ea32_ac74ae9a.jpg?itok=HPHknn-H&v=1793552316"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "51af5e6f1ac9064c",
-    "title": "Wave of US Halloween weekend shootings leaves 6 dead, dozens wounded",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3372906/4-dead-15-injured-3-separate-shootings-dallas-texas-halloween-night-police-say",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-01T17:02:08.000Z",
-    "fetchedAt": "2026-11-02T05:00:59.410Z",
-    "snippet": "Mass shootings over the Halloween weekend - largely in nightlife districts across the US - left at least six people dead and dozens injured, officials said. The deadliest violence occurred in Dallas, where a handful of shootings in the city’s Deep Ellum neighb",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/ba9aa9fe-ec5d-4e95-a074-20dd753da844_53f3a746.jpg?itok=Fe1qKP1v&v=1793580478"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c837f01e862b4f33",
-    "title": "Walmart honors massive shelf price mistake, lucky buyer gets two $2,299 CyberPowerPC gaming rigs for $1,099 each",
-    "link": "https://www.tomshardware.com/desktops/gaming-pcs/lucky-pc-buyer-gets-usd1-200-discount-on-9900x3d-gaming-pc-walmart-honors-usd1-099-shelf-price-on-usd2-299-unit",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-01T15:53:45.000Z",
-    "fetchedAt": "2026-11-01T17:44:57.336Z",
-    "snippet": "Redditor gets a gaming PC at more than 50% off in a physical Walmart retail store.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/ppjCSvvoKjjF8kkB4DZLL3-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/eCGqa8PriXtgUf62z3Zbad-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "33aff45e7e2d4d31",
-    "title": "Brazilian lawyers busted for attempting to manipulate court's AI with prompt injection hidden in filing",
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/brazilian-lawyers-busted-for-attempting-to-manipulate-courts-ai-with-prompt-injection-hidden-in-filing-courts-ai-flags-hidden-text-that-demanded-superficial-legal-scrutiny-lawyers-fined-usd16-000",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-01T15:05:00.000Z",
-    "fetchedAt": "2026-11-01T17:44:57.336Z",
-    "snippet": "The lawyers of a plaintiff in a labor case attempted to use prompt injection to influence the court's AI but were caught. They won the case anyway, as the defendant did not respond, making the move totally unnecessary.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/L2TSrQuGFDhmVGdBfr2ytV-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "1ca5272161885aa3",
-    "title": "Anycubic and Thingiverse announce exclusive 3D printing partnership",
-    "link": "https://www.tomshardware.com/3d-printing/anycubic-and-thingiverse-announce-exclusive-3d-printing-partnership-makeronline-platform-to-offer-1-click-multicolor-3mf-models",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-01T15:00:00.000Z",
-    "fetchedAt": "2026-11-01T17:44:57.336Z",
-    "snippet": "Thingiverse partners with Anycubic to bring models directly to 3D printers.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/GQ5rY3W6jXYkFxs2idTMe-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "d4b9a283240d3dad",
-    "title": "Biwin M560 2TB SSD Review: The DRAM-less drive to beat",
-    "link": "https://www.tomshardware.com/pc-components/ssds/biwin-m560-2tb-ssd-review",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-01T15:00:00.000Z",
-    "fetchedAt": "2026-11-01T17:44:57.336Z",
-    "snippet": "The Biwin M560 brings SMI’s SM2504XT to retail with top-tier responsiveness and excellent efficiency, though not the fastest post-cache writes.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/9739tEjY7imERJsLeBjqZG-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/TworWVDkzkei8S79y9t2fG-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Tpb4Geddjn9hu2XRsNiGqG-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/a6uqDc4UGUZzScVoZwGeqG-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/GNsxUyZnEqToBXnKbJk3UG-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "7a7dc183a7bd29f4",
-    "title": "Somali piracy resurges as Iranian vessel seized carrying 23 crew",
-    "link": "https://www.scmp.com/news/world/africa/article/3372904/somali-piracy-resurges-iranian-vessel-seized-carrying-23-crew",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-01T14:54:00.000Z",
-    "fetchedAt": "2026-11-01T17:44:57.521Z",
-    "snippet": "Somali pirates have seized an Iranian fishing vessel carrying 23 people, the European Union’s Maritime Security Centre Indian Ocean (MSCIO) said, warning that the ship was approaching a commercial shipping lane and could become a floating base for further atta",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/01/4956339a-0e4b-4620-852d-84c2e4aed9b0_b2863036.jpg?itok=ANp7aA26&v=1793544836"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "5c26670a996f9266",
-    "title": "Bambu Lab's Black Friday sale cuts up to $300 on the flagship H2C printer and more",
-    "link": "https://www.tomshardware.com/3d-printing/bambu-labs-black-friday-sale-cuts-up-to-usd300-on-the-flagship-h2c-printer-and-more-deep-cuts-across-companys-3d-printer-and-filament-lineup",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-01T14:30:00.000Z",
-    "fetchedAt": "2026-11-01T17:44:57.337Z",
-    "snippet": "Strike an early bargain in Bambu Lab's Black Friday sale. Running until December 1st, save up to $300 on their flagship 3D printer.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/QHHDyeWtfDyw3bJGSHEJnC-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/6jiQs2kEtvV9rZqK9rXcwn-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/gcGWpEdt8uzvAvBmUWVJjf-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/XmXE8xZmw2PsSqCjRTUsPC-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/GwJpBsud3xSuBdU7v38JRN-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "588fd37bf10a325c",
-    "title": "Sam Altman meets with Samsung leadership to secure more RAM for data centers amid crushing shortages",
-    "link": "https://www.tomshardware.com/tech-industry/data-centers/sam-altman-travels-to-south-korea-to-meet-samsung-leadership-to-secure-more-ram-for-data-centers-amid-crushing-shortages-openai-ceo-meets-samsung-leadership-to-discuss-future-ai-data-centers",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-01T14:21:23.000Z",
-    "fetchedAt": "2026-11-01T17:44:57.337Z",
-    "snippet": "OpenAI CEO Sam Altman met with around 50 Samsung executives in South Korea on October 31 to discuss AI's future, business opportunities and the technology's impact on corporate operations. The meeting comes as demand for memory chips grows alongside AI infrast",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/rw7Lei27qRFKGy9CThFftZ-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "43c4ee154d616801",
-    "title": "Open-source USB tool unlocks Nvidia's half-speed GPU AI limiter on Windows",
-    "link": "https://www.tomshardware.com/pc-components/gpus/open-source-usb-tool-unlocks-nvidias-half-speed-gpu-ai-limiter-on-windows-lifts-gpus-fp16-math-performance-up-to-65-percent-uefi-unlocker-covers-rtx-20-30-and-40-series-desktops-and-laptops",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-01T14:00:00.000Z",
-    "fetchedAt": "2026-11-01T17:44:57.337Z",
-    "snippet": "An open-source UEFI tool, nv-uefi-unlocker, lifts Nvidia’s tensor rate cap on RTX 20, 30, and 40-series GPUs under Windows.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/u2vby2U8BuWxjdFzkUxZg9-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/8hKjW8J3WuVJBi5tGD2nKa-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/5ykHQj7HGujeCcJUYvGrJH-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/doYzDt43RDzWyG3gz8yjCd-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "61b06fb77050b15a",
-    "title": "Police Chief physically unplugs Flock cameras after the company ignores contract cancellation",
-    "link": "https://www.tomshardware.com/tech-industry/big-tech/police-chief-physically-unplugs-flock-cameras-after-the-company-ignores-contract-cancellation-city-takes-matters-into-its-own-hands-amid-privacy-controversies",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-01T13:55:26.000Z",
-    "fetchedAt": "2026-11-01T17:44:57.337Z",
-    "snippet": "The Plymouth City Council was left with no choice but to physically disconnect the cameras after Flock failed to respond to its demands.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/jsH4CTh6HEfAjGURKfaJNH-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e6d50a2bd72d4265",
-    "title": "Elon Musk says Neuralink's 'BlindSight' is ready to cure blindness",
-    "link": "https://www.tomshardware.com/peripherals/wearable-tech/elon-musk-says-neuralink-is-ready-to-cure-blindness-says-blindsight-will-enable-even-those-who-are-completely-blind-or-have-never-seen-to-see",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-01T13:30:00.000Z",
-    "fetchedAt": "2026-11-01T17:44:57.338Z",
-    "snippet": "Neuralink's second product, Blindsight, aims to bring sight back for blind patients, with the company \"just waiting on regulatory approval.\"",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/4RFbDB3BHoht5b4WeDDvWg-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "b4081e4babff3363",
-    "title": "Lenovo's 'encrypted' fingerprint USB drive is just an unencrypted SD card in a fancy case",
-    "link": "https://www.tomshardware.com/tech-industry/cyber-security/lenovo-fingerprint-usb-stick-sold-as-aes-256-encrypted-had-a-plain-sd-card-inside-ai-assisted-follow-up-finds-a-backdoor-and-hardcoded-keys-in-other-secure-usb-products",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-01T13:00:00.000Z",
-    "fetchedAt": "2026-11-01T17:44:57.338Z",
-    "snippet": "Lenovo’s ThinkPlus FU100 fingerprint USB drive held an unencrypted SD card, and Codex found fixed keys in other ‘secure’ USB products.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/m5tLgsKmfPcc5fZ3Ygd8Wc-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "091269674c977e5f",
-    "title": "Washington’s unending vendetta against Cuba",
-    "link": "https://www.scmp.com/opinion/world-opinion/article/3372693/washingtons-unending-vendetta-against-cuba",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-01T12:30:10.000Z",
-    "fetchedAt": "2026-11-01T17:44:57.521Z",
-    "snippet": "Last week, the United Nations General Assembly called for the 34th time for an end to the US embargo on Cuba. The resolution passed by 130 votes to 17, with 25 abstentions. It came as Cuba struggles with a severe energy crisis, mainly caused by a US fuel embar",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/30/589b0a65-be10-40e8-8cf5-7912f8cc3e03_df136933.jpg?itok=Ivqnwde0&v=1793342209"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "8bd170f771938c39",
-    "title": "US-Iran talks: UAE ‘braced for the worst’, hoping for diplomacy",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3372891/us-iran-talks-uae-braced-worst-hoping-diplomacy",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-01T11:35:47.000Z",
-    "fetchedAt": "2026-11-01T17:44:57.521Z",
-    "snippet": "The UAE is hoping for a breakthrough in negotiations between Iran and the United States while being prepared for the worst, a senior official said on Sunday, following threats of a resumption of the Middle East war. “We’re hoping that there is a diplomatic bre",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/01/e95ccd75-f3a7-430c-a54b-6c0afb3cfae7_dbedf38c.jpg?itok=xoEuFjkP&v=1793532945"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "22af6c23e93227fa",
-    "title": "Turkey moves Kurdish militant leader as part of peace process",
-    "link": "https://www.scmp.com/news/world/europe/article/3372883/turkey-moves-kurdish-militant-leader-part-peace-process",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-01T09:45:06.000Z",
-    "fetchedAt": "2026-11-01T17:44:57.521Z",
-    "snippet": "Turkey has moved the country’s Kurdish militant leader to a newly built part of an island prison where he has been incarcerated since 1999 as part of efforts to end decades of conflict, a senior Kurdish official said. Improving prison conditions for Abdullah O",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/01/3b9ec653-9ca7-4591-95fb-90f48b3eb129_e8426485.jpg?itok=CU3WVMqu&v=1793526301"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "8028bd93c3de68d1",
-    "title": "Huawei Qiankun ADS Passes 17.3 Billion Kilometers of Cumulative Assisted Driving",
-    "link": "https://pandaily.com/huawei-qiankun-ads-17-3-billion-km-assisted-driving-6-91-million-collisions-avoided",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-01T06:50:54.000Z",
-    "fetchedAt": "2026-11-01T17:44:57.061Z",
-    "snippet": "Huawei Qiankun ADS has logged more than 17.3 billion km of assisted driving and avoided over 6.91 million potential collisions, about 1.3 billion km more than in early October.",
-    "images": [
-      "https://cms-image.pandaily.com/1/qk_3303e609b5.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "2ac1c399abd25181",
-    "title": "AI Agents Now Create Over 20,000 Tencent Cloud TDSQL-C Databases a Day, Up More Than 80x",
-    "link": "https://pandaily.com/tencent-cloud-ai-agents-create-20000-tdsql-c-databases-daily-li-ning-50-agents-workbuddy",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-01T06:50:42.000Z",
-    "fetchedAt": "2026-11-01T17:44:57.061Z",
-    "snippet": "Tencent Cloud says agents now create over 20,000 TDSQL-C database instances a day, with over 1 million active. WorkBuddy user Li Ning runs about 50 agents and plans to reach 200 within a year.",
-    "images": [
-      "https://cms-image.pandaily.com/1/tc_43f7b4de84.png"
     ],
     "titleZh": "",
     "snippetZh": "",
