@@ -1,5 +1,313 @@
 [
   {
+    "id": "6d212388510215ac",
+    "title": "California billionaire tax measure defeated in contentious vote",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3373896/california-billionaire-tax-defeated-contentious-vote",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-10T05:53:40.000Z",
+    "fetchedAt": "2026-11-10T06:29:59.313Z",
+    "snippet": "A billionaire tax that US Senator Bernie Sanders and other progressives championed as an antidote to economic inequality and a potential model for the rest of the country was defeated in California, US media projected on Monday. Proponents had estimated Prop 4",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/10/3373c169-b377-4db4-94b1-4bd161cfc22a_90bc4f70.jpg?itok=c3moWlem&v=1794290007"
+    ]
+  },
+  {
+    "id": "5fff426c1dd07e67",
+    "title": "Enhancing Academic Advisement with Case-Based Reasoning",
+    "link": "https://arxiv.org/abs/2611.08572",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-10T05:00:00.000Z",
+    "fetchedAt": "2026-11-10T06:29:58.898Z",
+    "snippet": "arXiv:2611.08572v1 Announce Type: new Abstract: This research involved the study of an application of Case-Based Reasoning (CBR) in the field of academic advising. Academic advisement has been recognised as an important function of higher education. However, t",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "055d1476279f772a",
+    "title": "NormGym: Evaluating Normative Competence through Social Interaction",
+    "link": "https://arxiv.org/abs/2611.08613",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-10T05:00:00.000Z",
+    "fetchedAt": "2026-11-10T06:29:58.898Z",
+    "snippet": "arXiv:2611.08613v1 Announce Type: new Abstract: Normative competence, the ability to infer socially enforced expectations from interaction and adjust behavior accordingly, is essential for agents operating in unfamiliar human communities. Yet existing evaluati",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "7449b399dc7c57ef",
+    "title": "LLM-Based Feature Extraction for Multi-Criteria Inventory Classification",
+    "link": "https://arxiv.org/abs/2611.08626",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-10T05:00:00.000Z",
+    "fetchedAt": "2026-11-10T06:29:58.898Z",
+    "snippet": "arXiv:2611.08626v1 Announce Type: new Abstract: E-commerce supply chains generate large volumes of customer feedback and operational data that remain underutilized in inventory management. Traditional inventory classification techniques such as ABC analysis re",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "d0225e68e42b4a88",
+    "title": "Aspect-wise Pairwise Tournaments for Test-Time Selection",
+    "link": "https://arxiv.org/abs/2611.08640",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-10T05:00:00.000Z",
+    "fetchedAt": "2026-11-10T06:29:58.899Z",
+    "snippet": "arXiv:2611.08640v1 Announce Type: new Abstract: Scaling test-time compute has proven highly effective at improving LLM reasoning. A popular method is best-of-n sampling, where a model generates many candidate solutions and one is selected. This motivates the q",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "4750f1d7c981f83e",
+    "title": "Decision Context: Persistent Behavioral Learning for AI Agents",
+    "link": "https://arxiv.org/abs/2611.08644",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-10T05:00:00.000Z",
+    "fetchedAt": "2026-11-10T06:29:58.899Z",
+    "snippet": "arXiv:2611.08644v1 Announce Type: new Abstract: LLM agents do not learn from corrections across sessions. A user fixes the same mistake at the start of every conversation. Existing agent memory systems primarily handle facts, such as preferences, entities, and",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "de1d2d02c260ec0e",
+    "title": "IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection",
+    "link": "https://arxiv.org/abs/2611.08647",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-10T05:00:00.000Z",
+    "fetchedAt": "2026-11-10T06:29:58.899Z",
+    "snippet": "arXiv:2611.08647v1 Announce Type: new Abstract: Intra-weight injection lets one model change another model's behaviour by editing its weights directly, without gradients. Such edits can range from altering lexical associations to enforcing output formats or up",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "2b2349cc29bec609",
+    "title": "Pdb or Not to Be: Comparing Debugging Interfaces With Pass$_{X}$@$k$",
+    "link": "https://arxiv.org/abs/2611.08666",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-10T05:00:00.000Z",
+    "fetchedAt": "2026-11-10T06:29:58.899Z",
+    "snippet": "arXiv:2611.08666v1 Announce Type: new Abstract: Interactive debuggers are indispensable to human software development, yet coding agents overwhelmingly rely on edit-execute-observe loops, using common bash tools, test scripts, and print statements to debug via",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "e04099845add7e88",
+    "title": "ChainFlow: Few-Step Latent Flow Matching for Speculative Decoding",
+    "link": "https://arxiv.org/abs/2611.08669",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-10T05:00:00.000Z",
+    "fetchedAt": "2026-11-10T06:29:58.899Z",
+    "snippet": "arXiv:2611.08669v1 Announce Type: new Abstract: Speculative decoding has become a standard way to accelerate LLM inference: a lightweight drafter proposes tokens that the target verifies in one parallel pass. Existing drafters face trade-offs that limits their",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "52a2fa8becc77b7d",
+    "title": "Transporting the Past: An Optimal Transport View of Backtracking Counterfactuals",
+    "link": "https://arxiv.org/abs/2611.08682",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-10T05:00:00.000Z",
+    "fetchedAt": "2026-11-10T06:29:58.899Z",
+    "snippet": "arXiv:2611.08682v1 Announce Type: new Abstract: We study backtracking counterfactual inference for Structural Causal Models (SCMs) through the lens of optimal transport. In SCMs, a factual observation generally induces a posterior distribution over exogenous v",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "8b15038a67447139",
+    "title": "Cancellation Is Not Enough: What Retries Leave Behind in an Overloaded LLM Engine",
+    "link": "https://arxiv.org/abs/2611.08684",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-10T05:00:00.000Z",
+    "fetchedAt": "2026-11-10T06:29:58.899Z",
+    "snippet": "arXiv:2611.08684v1 Announce Type: new Abstract: Clients and proxies in front of an LLM engine retry calls that time out. After a transient overload, these retries can keep the engine from recovering even when calls arrive below its capacity. Since the engine m",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "6f0f91c364cadb50",
+    "title": "Shanxi's First University-Built Satellite Returns First Orbital Data for the Taihang Constellation",
+    "link": "https://pandaily.com/shanxi-first-university-satellite-first-orbital-data-taihang-constellation",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-10T01:57:46.000Z",
+    "fetchedAt": "2026-11-10T06:29:58.644Z",
+    "snippet": "North University of China's satellite, the first of 128 planned for Shanxi's Taihang Constellation, returned first telemetry and remote-sensing data a day after launch.",
+    "images": [
+      "https://cms-image.pandaily.com/1/taihang_310be38dcc.png"
+    ]
+  },
+  {
+    "id": "ac8221c7fc1136c7",
+    "title": "Nebula Constellation Plan Unveiled to Build a Domestic Space Computing Network, Chips to Satellites",
+    "link": "https://pandaily.com/nebula-constellation-plan-domestic-space-computing-network-hefei",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-10T01:57:37.000Z",
+    "fetchedAt": "2026-11-10T06:29:58.644Z",
+    "snippet": "The Nebula Constellation Plan targets a domestic space computing network from chips to satellites; a new Hefei company with 16 backers outlines a three-step path.",
+    "images": [
+      "https://cms-image.pandaily.com/1/nebula_e0409f0a5b.png"
+    ]
+  },
+  {
+    "id": "547822a62cb62ecc",
+    "title": "ModelBest Details LES, the Method Behind a 35B MoE Model Running on Phones at Over 20 Tokens/s",
+    "link": "https://pandaily.com/modelbest-les-lookahead-expert-scheduling-35b-moe-on-device",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-10T01:57:27.000Z",
+    "fetchedAt": "2026-11-10T06:29:58.644Z",
+    "snippet": "ModelBest's LES prefetches next-layer experts from phone flash; it reports 20.51 tokens/s on an iPhone, 6.07x its baseline, and has open-sourced the code.",
+    "images": [
+      "https://cms-image.pandaily.com/1/les_996b04afc3.png"
+    ]
+  },
+  {
+    "id": "7a35c76b854ee782",
+    "title": "Hygon Launches 14XX Industrial-Control CPU With 10W TDP and a -40°C to 105°C Operating Range",
+    "link": "https://pandaily.com/hygon-14xx-industrial-control-cpu-10w-wide-temperature",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-10T01:57:18.000Z",
+    "fetchedAt": "2026-11-10T06:29:58.644Z",
+    "snippet": "Hygon's 14XX is the first industrial-control CPU in its 1000 series: C86 cores, integrated GPU, 10W TDP, -40°C to 105°C operation and a 10-year supply promise.",
+    "images": [
+      "https://cms-image.pandaily.com/1/hygon_8858e08ae1.png"
+    ]
+  },
+  {
+    "id": "00436939e08d052d",
+    "title": "Alibaba's Qianwen Office 2.0 Brings AI Agents Into Team Workspaces and Event-Triggered Tasks",
+    "link": "https://pandaily.com/alibaba-qianwen-office-2-team-agent-collaboration-automatic-tasks",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-10T01:57:09.000Z",
+    "fetchedAt": "2026-11-10T06:29:58.645Z",
+    "snippet": "Qianwen Office 2.0 adds shared agent workspaces linked to DingTalk chats and docs, event-triggered Automatic Tasks, in-place co-editing and a mobile app.",
+    "images": [
+      "https://cms-image.pandaily.com/1/qw_34d4cb1dca.png"
+    ]
+  },
+  {
+    "id": "e59e81250047658d",
+    "title": "Anthropic reportedly plans to move forward with IPO plans",
+    "link": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-10T01:27:12.000Z",
+    "fetchedAt": "2026-11-10T06:29:58.622Z",
+    "snippet": "The AI company is expected to set its valuation range this week, the Wall Street Journal reported.",
+    "images": []
+  },
+  {
+    "id": "81422bf04465fe1e",
+    "title": "M. John Harrison wins Booker Prize for The End of Everything",
+    "link": "https://www.scmp.com/news/world/europe/article/3373860/m-john-harrison-wins-booker-prize-end-everything",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-10T01:07:45.000Z",
+    "fetchedAt": "2026-11-10T06:29:59.313Z",
+    "snippet": "UK author M. John Harrison won the Booker Prize on Monday for his enigmatic novel The End of Everything, which echoes concerns about artificial intelligence in a darkly satirical depiction of post-apocalyptic Britain. Harrison, 81, became the oldest winner of ",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/10/23b76f26-ba15-41f8-95d3-4127bf799c0b_51388a85.jpg?itok=Isi0mdmb&v=1794272853"
+    ]
+  },
+  {
+    "id": "1415f2d24454fc60",
+    "title": "Law firm files class-action lawsuit against Nvidia after CEO Jensen Huang confirms affair with alleged Chinese spy",
+    "link": "https://www.tomshardware.com/tech-industry/big-tech/law-firm-files-class-action-lawsuit-against-nvidia-after-ceo-jensen-huang-confirms-affair-with-alleged-chinese-spy-more-to-come-as-multiple-other-law-firms-investigate-securities-fraud-following-stock-drop",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-10T00:03:08.000Z",
+    "fetchedAt": "2026-11-10T06:29:58.921Z",
+    "snippet": "Class-action lawsuit and legal investigations against Nvidia over securities fraud start flying",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/vmfpT5LqUXTgKosXsbK9nj-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "7db9ec9ce418dbcb",
+    "title": "Jensen Huang reportedly engaged a PR firm with a history of handling high-profile sex scandals a year ago",
+    "link": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-09T23:28:37.000Z",
+    "fetchedAt": "2026-11-10T06:29:58.624Z",
+    "snippet": "The PR firm was enlisted shortly after an October 2025 New York Times report described Alice Huang's business dealings with Jensen Huang, Wired reported.",
+    "images": []
+  },
+  {
+    "id": "745244b2f39aab54",
+    "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
+    "link": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-09T22:46:09.000Z",
+    "fetchedAt": "2026-11-10T06:29:58.624Z",
+    "snippet": "Six months before Nvidia's spy scandal erupted, Culper Research was already questioning Jensen Huang's unusually close relationship with a Chinese executive.",
+    "images": []
+  },
+  {
+    "id": "4c43c4890fc1107d",
+    "title": "The race is on to sue Nvidia",
+    "link": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-09T22:23:42.000Z",
+    "fetchedAt": "2026-11-10T06:29:58.624Z",
+    "snippet": "Nvidia’s stock slid more than 4% after its board opened an investigation into Jensen Huang’s relationship with a suspected Chinese spy, and one securities law expert says the company’s earlier insistence that it was all “normal” could turn into a very expensiv",
+    "images": []
+  },
+  {
     "id": "a75464db564437c9",
     "title": "US judge denies Lindsay Clancy’s motion to dismiss charges in the deaths of her 3 children",
     "link": "https://www.scmp.com/news/world/united-states-canada/article/3373851/judge-denies-lindsay-clancys-motion-dismiss-charges-deaths-her-3-children",
@@ -8,6 +316,24 @@
     "publishedAt": "2026-11-09T21:42:15.000Z",
     "fetchedAt": "2026-11-09T22:03:15.423Z",
     "snippet": "A judge on Monday denied a motion to dismiss charges against Lindsay Clancy in the deaths of her three young children, potentially clearing the way for a retrial in the case next year. Clancy’s defence team had asked the court to end the case based on an unusu",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/10/ed1f88f8-6c1b-46a4-865c-71fe5bb174c6_4e8636fd.jpg?itok=YSki7FHo&v=1794260396"
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "98162699b6ca4b47",
+    "title": "US mother Lindsay Clancy faces retrial after bid to dismiss murder case fails",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3373851/judge-denies-lindsay-clancys-motion-dismiss-charges-deaths-her-3-children",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-09T21:42:15.000Z",
+    "fetchedAt": "2026-11-10T06:29:59.313Z",
+    "snippet": "A Massachusetts judge cleared the way on Monday for ⁠Lindsay Clancy to be tried ⁠again on murder charges for killing her three young ⁠children at her home in 2023, saying a retrial would not unconstitutionally subject her to a double prosecution for the same c",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/10/ed1f88f8-6c1b-46a4-865c-71fe5bb174c6_4e8636fd.jpg?itok=YSki7FHo&v=1794260396"
     ]
@@ -23,7 +349,12 @@
     "snippet": "The death toll from air strikes near Yemen’s capital has increased to 44, most of them women and children, health authorities from the Iran-backed Houthi rebels said overnight. The strikes on the village of Al-Shariya, east of Sanaa, wounded 40 others, includi",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/10/67d62451-24e7-4a2b-b201-c2b4b461eccf_07a74163.jpg?itok=igCO_FNp&v=1794256235"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "d868d59856938729",
@@ -34,7 +365,12 @@
     "publishedAt": "2026-11-09T20:09:06.000Z",
     "fetchedAt": "2026-11-09T22:03:14.874Z",
     "snippet": "The Nvidia CEO also pulled out of an Anthropic event earlier.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "008cadd2fbc73b24",
@@ -47,7 +383,12 @@
     "snippet": "A Rwandan man jailed in the United States for lying about his involvement in the 1994 genocide has been deported to his home country, the state prosecutor said on Monday. The Rwandan genocide began in April 1994, and over approximately 100 days some 800,000 pe",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/10/8135a044-686f-4419-8aac-301b24e52b7f_ff4e391b.jpg?itok=t0K5l9yO&v=1794256271"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "b6854cea9465b882",
@@ -58,7 +399,12 @@
     "publishedAt": "2026-11-09T19:35:33.000Z",
     "fetchedAt": "2026-11-09T22:03:14.894Z",
     "snippet": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what’s known as Data Center Alley",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "0767acb207a9b792",
@@ -71,7 +417,12 @@
     "snippet": "Facing an expected impeachment resolution in Congress, Defence Secretary Pete Hegseth said he is eager to litigate the military actions that he and US President Donald Trump have taken against Iran, Yemen’s Iranian-backed Houthi rebels and Venezuela’s previous",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/10/94e59291-2104-4212-981f-da679356c556_5534cf44.jpg?itok=47lNLTcF&v=1794252790"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "987d7c0f41d0a982",
@@ -82,7 +433,12 @@
     "publishedAt": "2026-11-09T19:24:51.000Z",
     "fetchedAt": "2026-11-09T22:03:14.876Z",
     "snippet": "Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "9d967cd56ea9b693",
@@ -93,7 +449,12 @@
     "publishedAt": "2026-11-09T18:09:52.000Z",
     "fetchedAt": "2026-11-09T22:03:14.876Z",
     "snippet": "Jensen Huang’s alleged affair with a suspected Chinese spy threatens to complicate Nvidia’s lobbying efforts to loosen U.S. chip export restrictions and maintain access to China’s lucrative AI market.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "4176309207337c27",
@@ -104,7 +465,12 @@
     "publishedAt": "2026-11-09T18:00:00.000Z",
     "fetchedAt": "2026-11-09T22:03:14.876Z",
     "snippet": "At 10 cents per million input tokens, Ember is significantly cheaper than frontier competitors like Haiku and Luna.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "b25b1b5c3cd4d131",
@@ -114,6 +480,24 @@
     "category": "China AI",
     "publishedAt": "2026-11-09T17:53:50.000Z",
     "fetchedAt": "2026-11-09T22:03:15.424Z",
+    "snippet": "Meghan, the Duchess of Sussex, has pulled out of making a joint speech with the Duke of Sussex in Brussels about online child safety because she is “not strong enough” after her father’s arrest. Prince Harry and Meghan had both been due to deliver the keynote",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/10/f456fe58-3ca1-44dc-bbaf-c96981307a65_52977d69.jpg?itok=OjvTLUP3&v=1794246742"
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "c9c2f4e1a71184e3",
+    "title": "Meghan Markle pulls out of Brussels speech following father’s US arrest",
+    "link": "https://www.scmp.com/news/world/europe/article/3373846/meghan-markle-pulls-out-brussels-speech-after-dads-arrest-over-child-sex-abuse-images",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-09T17:53:50.000Z",
+    "fetchedAt": "2026-11-10T06:29:59.314Z",
     "snippet": "Meghan, the Duchess of Sussex, has pulled out of making a joint speech with the Duke of Sussex in Brussels about online child safety because she is “not strong enough” after her father’s arrest. Prince Harry and Meghan had both been due to deliver the keynote ",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/10/f456fe58-3ca1-44dc-bbaf-c96981307a65_52977d69.jpg?itok=OjvTLUP3&v=1794246742"
@@ -130,7 +514,12 @@
     "snippet": "Nvidia may cap cloud partners’ Chinese business at 49% as Chinese firms buy up more than 1 million gaming and workstation GPUs.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/n3JSWEEYTE8ywDfC8rkMiS-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "f99d1b7cd8c6744b",
@@ -144,7 +533,12 @@
     "images": [
       "https://cdn.arstechnica.net/wp-content/uploads/2026/11/claude-github-leaks-1152x648.jpg",
       "https://cdn.arstechnica.net/wp-content/uploads/2026/11/claude-github-leaks-500x500.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "01c120057202e965",
@@ -155,7 +549,12 @@
     "publishedAt": "2026-11-09T17:05:43.000Z",
     "fetchedAt": "2026-11-09T22:03:14.894Z",
     "snippet": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in settin",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "8b6761bbe99f3d07",
@@ -166,7 +565,12 @@
     "publishedAt": "2026-11-09T16:56:54.000Z",
     "fetchedAt": "2026-11-09T22:03:14.876Z",
     "snippet": "Anthropic bought billions of dollars' worth of natural gas turbines in a deal that could give it buyer's remorse.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "2c5a938de765e297",
@@ -179,6 +583,24 @@
     "snippet": "France on Monday said Iran’s Revolutionary Guards were behind “unprecedented” cyberattacks on supermarket fridges in the country last month, vowing sanctions on a European level against Tehran. That would make the hacks among the most disruptive cyberattacks o",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/10/bbd5ee5d-9915-4d80-a842-964fefc53a3f_ffe12e60.jpg?itok=409LtZCZ&v=1794255484"
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "cf99753fe6d21189",
+    "title": "France accuses Iran of cyberattacks on supermarket fridges",
+    "link": "https://www.scmp.com/news/world/europe/article/3373845/french-officials-suspect-iran-behind-fridge-cyberattacks-sources-say",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-09T16:42:10.000Z",
+    "fetchedAt": "2026-11-10T06:29:59.314Z",
+    "snippet": "France on Monday said Iran’s Revolutionary Guards were behind cyberattacks on supermarket fridges in the country last month, vowing sanctions on a European level against Tehran over the first such large-scale cyber sabotage on French territory. Numerous French",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/10/56ed7dcc-b7f6-4d5d-9526-b027006aa273_dfaec204.jpg?itok=TO38WoWz&v=1794242355"
     ]
   },
   {
@@ -190,7 +612,12 @@
     "publishedAt": "2026-11-09T16:12:28.000Z",
     "fetchedAt": "2026-11-09T22:03:14.877Z",
     "snippet": "Medium's new writing app embraces AI-assisted writing, despite growing controversy over the technology's role in publishing.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c037f62b2bdb6352",
@@ -203,7 +630,12 @@
     "snippet": "Jensen Huang has been summoned to appear before Congress's Select Committee on the CCP.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/t75kmqCZia9XGcHiAKqZ5T-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "3f945b5beb88b4eb",
@@ -217,7 +649,12 @@
     "images": [
       "https://cdn.arstechnica.net/wp-content/uploads/2026/03/huang-1152x648.jpg",
       "https://cdn.arstechnica.net/wp-content/uploads/2026/03/huang-500x500.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "eed8e0e629d83696",
@@ -230,7 +667,12 @@
     "snippet": "DEEPX demonstrated its DX-M1 processor’s cool running capabilities in a bizarre dairy-based thermal benchmark.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/ZgC56W69q8WA6rhcBjxWKn-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "ec2f2b0b6e34b69e",
@@ -243,7 +685,12 @@
     "snippet": "Comedian Russell Brand, once one of Britain’s most ‌high-profile broadcasters and a Hollywood star, was jailed for 10 1/2 years on Monday after he was convicted of raping one woman and sexually assaulting three more around two decades ago. Brand – the former h",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/8453f9f1-c84f-496d-8f31-43973c3003ac_35ece4ff.jpg?itok=ZzAXmgRH&v=1794236083"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "88f2fcbe29e95b81",
@@ -260,7 +707,12 @@
       "https://cdn.mos.cms.futurecdn.net/cuG2jGZYjfF5343BLPJKzW-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/n2zjUgW34qAg9RxxyfFc4X-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/pZ6uZXfeoDxx9dTPhLDP4X-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "08513839955a2090",
@@ -271,7 +723,12 @@
     "publishedAt": "2026-11-09T14:00:00.000Z",
     "fetchedAt": "2026-11-09T22:03:14.877Z",
     "snippet": "Automattic aims to compete with the likes of Lovable with Spacefast.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "4f575417014221da",
@@ -284,7 +741,12 @@
     "snippet": "The 12V-2x6 connector nearly took out two RTX PRO 6000 Blackwell Workstation GPUs; luckily, the owner spotted the damaged cables before they melted the GPU connectors.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/NiWh9ANHtY2jbEjGf9jRq7-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "49fd3db576eb7edf",
@@ -298,7 +760,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/wZHrQo3SV2tfx5VmDhzVC8-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "5c351599a84bc7d8",
@@ -311,7 +778,12 @@
     "snippet": "French Prime ⁠Minister Sebastien Lecornu said on Monday he was bringing forward a planned hike in the minimum wage to December from January, as he sought to defuse a cost-of-living crisis that has sparked some of France’s worst civil unrest in years. The gover",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/aad1bb03-fc0c-4522-bbc4-15301cd3034e_e4e7bb76.jpg?itok=MpGTsVu5&v=1794231633"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "48989c5438394434",
@@ -324,7 +796,12 @@
     "snippet": "A lawyer runs DeepSeek V4.1 Flash on eight used 2018-era Nvidia V100 GPUs at up to 215 tokens/s, keeping case files in the office.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/rVsGebxqLHMe26dYgdPxF9-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e4590e6bae5c1c19",
@@ -338,7 +815,12 @@
     "images": [
       "https://s.w.org/images/core/emoji/17.0.2/72x72/1f3f4-200d-2620-fe0f.png",
       "https://wp.technologyreview.com/wp-content/uploads/2025/04/Unknown-3-thumb.jpg?w=840"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "757bfd83b54a6a63",
@@ -349,7 +831,12 @@
     "publishedAt": "2026-11-09T13:00:00.000Z",
     "fetchedAt": "2026-11-09T22:03:14.895Z",
     "snippet": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to ma",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "d3fd119d16e81a06",
@@ -363,7 +850,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/rqn39aj9hMqYUZdPPwgxYd-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/YuNXysWLvA7Cmq3Mtz6TP4-1920-80.webp"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "2ed198062218be34",
@@ -374,7 +866,12 @@
     "publishedAt": "2026-11-09T10:00:00.000Z",
     "fetchedAt": "2026-11-09T22:03:14.895Z",
     "snippet": "This week, as countries meet in Antalya, Turkey for the United Nations climate conference, one topic likely to dominate the conversation is artificial intelligence. The host has already called on countries to commit to ensuring that AI is designed, powered, an",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "0c4b1d9c751d7ac2",
@@ -387,7 +884,12 @@
     "snippet": "BYD showed a robotic arm in the UAE that opens the port, plugs in and unplugs flash-charging cars by itself, at a solar-and-storage site rated at 1,000 kW.",
     "images": [
       "https://cms-image.pandaily.com/1/byd_63931cf3c4.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "6f52ca39c91e1121",
@@ -400,7 +902,12 @@
     "snippet": "Topstar showed Star, a 172 cm, 72 kg biped with a 10 kg dual-arm payload for factory handling, plus the S400 five-axis machine for humanoid parts.",
     "images": [
       "https://cms-image.pandaily.com/1/topstar_4b97578ffa.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e0577053b9ba5769",
@@ -413,7 +920,12 @@
     "snippet": "Goke plans the GK6950 edge AI chip series for next year: 10 TOPS INT8, mixed precision for interactive models and FP16 spatial reconstruction.",
     "images": [
       "https://cms-image.pandaily.com/1/goke_5fe17431ee.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "15b338a6ce3f1f97",
@@ -426,7 +938,12 @@
     "snippet": "NeoHorse-1.5-Flash Preview, built on Qwen3.8-Flash with 6B active parameters, is in limited beta; company-run tests show gains on agent benchmarks.",
     "images": [
       "https://cms-image.pandaily.com/1/neo_6386eb8c1f.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "485ec6fc26515e85",
@@ -439,7 +956,12 @@
     "snippet": "TeleAgent V3.0 runs agent tasks on a dedicated cloud PC shared by phone, desktop and web clients, adds nine connectors and enterprise-only skills.",
     "images": [
       "https://cms-image.pandaily.com/1/tele_043d641c1e.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "890317f07e64a650",
@@ -450,161 +972,6 @@
     "publishedAt": "2026-11-09T05:26:29.000Z",
     "fetchedAt": "2026-11-09T22:03:14.877Z",
     "snippet": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
-    "images": []
-  },
-  {
-    "id": "5fff426c1dd07e67",
-    "title": "Enhancing Academic Advisement with Case-Based Reasoning",
-    "link": "https://arxiv.org/abs/2611.08572",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-11-09T05:00:00.000Z",
-    "fetchedAt": "2026-11-09T05:18:04.130Z",
-    "snippet": "arXiv:2611.08572v1 Announce Type: new Abstract: This research involved the study of an application of Case-Based Reasoning (CBR) in the field of academic advising. Academic advisement has been recognised as an important function of higher education. However, t",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "055d1476279f772a",
-    "title": "NormGym: Evaluating Normative Competence through Social Interaction",
-    "link": "https://arxiv.org/abs/2611.08613",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-11-09T05:00:00.000Z",
-    "fetchedAt": "2026-11-09T05:18:04.130Z",
-    "snippet": "arXiv:2611.08613v1 Announce Type: new Abstract: Normative competence, the ability to infer socially enforced expectations from interaction and adjust behavior accordingly, is essential for agents operating in unfamiliar human communities. Yet existing evaluati",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "7449b399dc7c57ef",
-    "title": "LLM-Based Feature Extraction for Multi-Criteria Inventory Classification",
-    "link": "https://arxiv.org/abs/2611.08626",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-11-09T05:00:00.000Z",
-    "fetchedAt": "2026-11-09T05:18:04.130Z",
-    "snippet": "arXiv:2611.08626v1 Announce Type: new Abstract: E-commerce supply chains generate large volumes of customer feedback and operational data that remain underutilized in inventory management. Traditional inventory classification techniques such as ABC analysis re",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "d0225e68e42b4a88",
-    "title": "Aspect-wise Pairwise Tournaments for Test-Time Selection",
-    "link": "https://arxiv.org/abs/2611.08640",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-11-09T05:00:00.000Z",
-    "fetchedAt": "2026-11-09T05:18:04.130Z",
-    "snippet": "arXiv:2611.08640v1 Announce Type: new Abstract: Scaling test-time compute has proven highly effective at improving LLM reasoning. A popular method is best-of-n sampling, where a model generates many candidate solutions and one is selected. This motivates the q",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "4750f1d7c981f83e",
-    "title": "Decision Context: Persistent Behavioral Learning for AI Agents",
-    "link": "https://arxiv.org/abs/2611.08644",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-11-09T05:00:00.000Z",
-    "fetchedAt": "2026-11-09T05:18:04.130Z",
-    "snippet": "arXiv:2611.08644v1 Announce Type: new Abstract: LLM agents do not learn from corrections across sessions. A user fixes the same mistake at the start of every conversation. Existing agent memory systems primarily handle facts, such as preferences, entities, and",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "de1d2d02c260ec0e",
-    "title": "IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection",
-    "link": "https://arxiv.org/abs/2611.08647",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-11-09T05:00:00.000Z",
-    "fetchedAt": "2026-11-09T05:18:04.130Z",
-    "snippet": "arXiv:2611.08647v1 Announce Type: new Abstract: Intra-weight injection lets one model change another model's behaviour by editing its weights directly, without gradients. Such edits can range from altering lexical associations to enforcing output formats or up",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "2b2349cc29bec609",
-    "title": "Pdb or Not to Be: Comparing Debugging Interfaces With Pass$_{X}$@$k$",
-    "link": "https://arxiv.org/abs/2611.08666",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-11-09T05:00:00.000Z",
-    "fetchedAt": "2026-11-09T05:18:04.130Z",
-    "snippet": "arXiv:2611.08666v1 Announce Type: new Abstract: Interactive debuggers are indispensable to human software development, yet coding agents overwhelmingly rely on edit-execute-observe loops, using common bash tools, test scripts, and print statements to debug via",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e04099845add7e88",
-    "title": "ChainFlow: Few-Step Latent Flow Matching for Speculative Decoding",
-    "link": "https://arxiv.org/abs/2611.08669",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-11-09T05:00:00.000Z",
-    "fetchedAt": "2026-11-09T05:18:04.130Z",
-    "snippet": "arXiv:2611.08669v1 Announce Type: new Abstract: Speculative decoding has become a standard way to accelerate LLM inference: a lightweight drafter proposes tokens that the target verifies in one parallel pass. Existing drafters face trade-offs that limits their",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "52a2fa8becc77b7d",
-    "title": "Transporting the Past: An Optimal Transport View of Backtracking Counterfactuals",
-    "link": "https://arxiv.org/abs/2611.08682",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-11-09T05:00:00.000Z",
-    "fetchedAt": "2026-11-09T05:18:04.131Z",
-    "snippet": "arXiv:2611.08682v1 Announce Type: new Abstract: We study backtracking counterfactual inference for Structural Causal Models (SCMs) through the lens of optimal transport. In SCMs, a factual observation generally induces a posterior distribution over exogenous v",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "8b15038a67447139",
-    "title": "Cancellation Is Not Enough: What Retries Leave Behind in an Overloaded LLM Engine",
-    "link": "https://arxiv.org/abs/2611.08684",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-11-09T05:00:00.000Z",
-    "fetchedAt": "2026-11-09T05:18:04.131Z",
-    "snippet": "arXiv:2611.08684v1 Announce Type: new Abstract: Clients and proxies in front of an LLM engine retry calls that time out. After a transient overload, these retries can keep the engine from recovering even when calls arrive below its capacity. Since the engine m",
     "images": [],
     "titleZh": "",
     "snippetZh": "",
@@ -5684,276 +6051,6 @@
     "fetchedAt": "2026-11-03T05:49:36.796Z",
     "snippet": "The one-year-old startup is now valued at $300 million.",
     "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "106bf542f22c4997",
-    "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
-    "link": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-02T22:14:50.000Z",
-    "fetchedAt": "2026-11-03T05:49:36.796Z",
-    "snippet": "RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no return.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "86a8e5c05266607e",
-    "title": "US mother Lindsay Clancy in bid to dismiss charges she killed her 3 children",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3373044/lindsay-clancy-back-court-bid-dismiss-charges-she-killed-her-3-young-children",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-02T20:14:49.000Z",
-    "fetchedAt": "2026-11-03T05:49:37.336Z",
-    "snippet": "Lindsay Clancy’s lawyer urged a judge Monday to either the dismiss the murder charges against her, or get on with the business of putting her back on trial. This was the second time the Massachusetts mother has been in court since her first trial with ended wi",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/93afdd2c-fc01-4882-91cd-cc9d978af91b_59294383.jpg?itok=RQBspJ5e&v=1793650159"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "8e1f2b567478859a",
-    "title": "Web host Squarespace lays off 19% of its employees",
-    "link": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-02T19:25:59.000Z",
-    "fetchedAt": "2026-11-03T05:49:36.796Z",
-    "snippet": "The website builder said that the job losses are part of a broader restructuring of its organization.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "8b03b630a926f6eb",
-    "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
-    "link": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-02T19:19:17.000Z",
-    "fetchedAt": "2026-11-02T21:30:21.009Z",
-    "snippet": "The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "500e91fb2b5c47a5",
-    "title": "OpenAI considers rebranding data centers to 'AI compute campuses\" as data center backlash intensifies",
-    "link": "https://www.tomshardware.com/tech-industry/data-centers/openai-considers-rebranding-data-centers-to-ai-compute-campuses-as-data-center-backlash-intensifies-company-reportedly-sees-2028-presidential-election-becoming-an-ai-issue",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-02T19:15:31.000Z",
-    "fetchedAt": "2026-11-02T21:30:21.236Z",
-    "snippet": "OpenAI expects AI to become a major issue in the 2028 presidential election and is preparing a policy and public relations push after the U.S. midterm elections. The company is also promoting the term “AI compute campuses” for its data centers as it seeks to a",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/bqKbbbB3ZdRgDH7Pz95FKT-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "1e9376f1596ba3ee",
-    "title": "Russia bombs aid centre and shelter in southern Ukraine, killing 24, authorities say",
-    "link": "https://www.scmp.com/news/world/russia-central-asia/article/3373043/russia-bombs-aid-centre-and-shelter-southern-ukraine-killing-24-authorities-say",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-02T19:06:35.000Z",
-    "fetchedAt": "2026-11-02T21:30:21.679Z",
-    "snippet": "At least 24 people have been killed in a Russian air strike in Ukraine’s Zaporizhzhia region, civil defence authorities said on Monday. Ukrainian President Volodymyr Zelensky wrote on social media that another five people were injured in the attack on a school",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/83f71b81-3160-4a91-91d3-2ffc8617d1c0_999db638.jpg?itok=I5cqf1m7&v=1793651132"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "6463ac768f1a3e4f",
-    "title": "Russian bombing of Ukraine aid centre and shelter kills 26",
-    "link": "https://www.scmp.com/news/world/russia-central-asia/article/3373043/russia-bombs-aid-centre-and-shelter-southern-ukraine-killing-24-authorities-say",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-02T19:06:35.000Z",
-    "fetchedAt": "2026-11-03T05:49:37.336Z",
-    "snippet": "Russian forces on Monday bombed a school being used as an aid distribution point in a village in Ukraine’s southeastern Zaporizhzhia region, killing 26 people, Ukrainian President Volodymyr Zelensky and the country’s emergency services said. The emergency serv",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/bc208da4-b8e6-4dcc-b1b4-4fa7ba44fd25_b6c88b64.jpg?itok=0y3RC2gB&v=1793672052"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "f03b75e5c8a6a232",
-    "title": "Coming in 2027: Apple’s $1,000 home robot for FaceTime and switching on lights",
-    "link": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-02T18:32:21.000Z",
-    "fetchedAt": "2026-11-02T21:30:21.296Z",
-    "snippet": "Apple robot backed by CEO John Ternus may have hefty price tag and limited uses.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Apple-CEO-John-Ternus-1152x648.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Apple-CEO-John-Ternus-500x500.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "765bb29383c06f3c",
-    "title": "UK exempts carers from plan to impose long delays on migrants seeking residence",
-    "link": "https://www.scmp.com/news/world/europe/article/3373042/uk-make-some-migrants-wait-10-years-settle-eases-rules-carers",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-02T18:21:56.000Z",
-    "fetchedAt": "2026-11-02T21:30:21.679Z",
-    "snippet": "Britain watered down plans on Monday to impose long delays on immigrants seeking to receive permanent residence, announcing exemptions for hundreds of thousands of care workers to defuse a political outcry within the governing Labour ‌Party. The government had",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/ed52b2c7-87ea-4846-a2bc-ab9704f3a2d9_71a5ec45.jpg?itok=eE_EfnFP&v=1793643515"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "3d2d4143e15efe50",
-    "title": "UK exempts care workers from plan to extend residency wait for migrants",
-    "link": "https://www.scmp.com/news/world/europe/article/3373042/uk-make-some-migrants-wait-10-years-settle-eases-rules-carers",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-02T18:21:56.000Z",
-    "fetchedAt": "2026-11-03T05:49:37.336Z",
-    "snippet": "Britain watered down plans on Monday to impose long delays on immigrants seeking to receive permanent residence, announcing exemptions for hundreds of thousands of care workers to defuse a political outcry within the governing Labour ‌Party. The government had",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/f401a3cb-6f23-4830-bc10-c0028e9a25a5_546125ae.jpg?itok=72Y6e_1H&v=1793679226"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "1a0e83431b166484",
-    "title": "Claude’s new rules against game cloning won’t stop the AI copying boom",
-    "link": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-02T18:05:31.000Z",
-    "fetchedAt": "2026-11-02T21:30:21.296Z",
-    "snippet": "The tsunami of imitators is way bigger than any one model maker can stem.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1180626096-1152x648.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1180626096-500x500.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "147250b33f90c411",
-    "title": "Putin demands Russian data centers supply capacity to the state in wake of Ukraine drone attacks",
-    "link": "https://www.tomshardware.com/tech-industry/data-centers/putin-demands-russian-data-centers-supply-capacity-to-the-state-in-wake-of-ukraine-drone-attacks-10-percent-capacity-must-be-available-for-state-it-infrastructure-with-24-hours-notice",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-02T18:00:32.000Z",
-    "fetchedAt": "2026-11-02T21:30:21.236Z",
-    "snippet": "President Putin has told non-state Russian data centers that they must set aside 10% of their total capacity for use by the country's own IT infrastructure.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/adoRykAYgMwZ7YUsL97ZLk-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Ff8qW7gTwUZFZmPvceeLFd-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "4464b78dccbca82a",
-    "title": "Trump administration asks Supreme Court to set aside 20,000 disputed California ballots",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3373041/trump-administration-asks-supreme-court-set-aside-20000-disputed-california-ballots",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-02T17:57:38.000Z",
-    "fetchedAt": "2026-11-02T21:30:21.679Z",
-    "snippet": "On Monday, the ⁠eve of the US midterm elections, the Trump administration asked the Supreme Court to temporarily block California from counting mail-in ballots from more than 20,000 registered voters who federal officials allege are probably non-US citizens. E",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/3f750930-5f24-489f-bcd6-a943dfbd7ab9_11511102.jpg?itok=JOYBHL7P&v=1793642167"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "5571a30a165a5186",
-    "title": "Martha Stewart sorry for ‘insensitive’ homeless Halloween costume post on social media",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3373040/martha-stewart-sorry-insensitive-homeless-halloween-costume-post-social-media",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-02T17:03:55.000Z",
-    "fetchedAt": "2026-11-02T21:30:21.679Z",
-    "snippet": "American lifestyle guru Martha Stewart has apologised for an “insensitive and not funny” Halloween costume after she appeared to dress up as a homeless person. “It’s hard to admit when you’ve really screwed up,” the billionaire, 85, wrote on Instagram after sh",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/60e5df99-0ca3-4305-806e-b0e8a76af472_37fbc64f.jpg?itok=VFj764Vn&v=1793638513"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "41f7312d1ae5a258",
-    "title": "Raising the quality of insights in agentic analytics",
-    "link": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
-    "source": "MIT Technology Review",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-02T17:00:00.000Z",
-    "fetchedAt": "2026-11-02T21:30:21.051Z",
-    "snippet": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insi",
-    "images": [
-      "https://wp.technologyreview.com/wp-content/uploads/2026/10/Snowflake-cover-2026.png",
-      "https://wp.technologyreview.com/wp-content/uploads/2026/11/Snowflake-Social-Card-2026-v4.png"
-    ],
     "titleZh": "",
     "snippetZh": "",
     "translatedAt": "",
