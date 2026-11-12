@@ -1,5 +1,424 @@
 [
   {
+    "id": "33d7681a51eec44f",
+    "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+    "link": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-12T19:27:45.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.032Z",
+    "snippet": "Powered by Gemini 4 Hydrogen, Google's AI Mode is getting better at understanding complex queries, surfacing relevant links, and delivering richer visual responses.",
+    "images": []
+  },
+  {
+    "id": "1b0a2ffa1f5b3ab5",
+    "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+    "link": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+    "source": "Ars Technica AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-12T19:23:03.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.194Z",
+    "snippet": "Gemini 4 Hydrogen isn't getting a slow, security-conscious release like Carbon and Argon.",
+    "images": [
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-6-1152x648.jpg",
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-6-500x500.jpg"
+    ]
+  },
+  {
+    "id": "f13c8bbc411e5142",
+    "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+    "link": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-12T19:11:00.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.033Z",
+    "snippet": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
+    "images": []
+  },
+  {
+    "id": "c073a2e07b7eee49",
+    "title": "Putin indicates he will not compromise on Ukraine in meeting with US envoys",
+    "link": "https://www.scmp.com/news/world/russia-central-asia/article/3374265/putin-indicates-he-will-not-compromise-ukraine-meeting-us-envoys",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-12T19:05:17.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.644Z",
+    "snippet": "Vladimir Putin indicated on Thursday that Russia will not compromise on its hardline demands to end the Ukraine offensive but offered a short-term ceasefire in a key frontline city during a Kremlin meeting with US envoys. The Russian president said he would no",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/13/ed82df5b-f0a7-456c-9ab5-f3c2022497e8_cdf400aa.jpg?itok=vDe7zoG4&v=1794510042"
+    ]
+  },
+  {
+    "id": "81a6d74ce9fd97b4",
+    "title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
+    "link": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
+    "source": "Ars Technica AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-12T18:57:45.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.194Z",
+    "snippet": "Families confront Google after teen’s lawsuit labels Gemini a “suicide coach.”",
+    "images": [
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Win-win-1152x648.jpeg",
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Win-win-500x500-1794505063.jpeg"
+    ]
+  },
+  {
+    "id": "2ab9106709f04478",
+    "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+    "link": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-12T18:39:23.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.033Z",
+    "snippet": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
+    "images": []
+  },
+  {
+    "id": "77199a63e558976c",
+    "title": "Israeli strike on Gaza hospital kills 11 in deadliest attack since election",
+    "link": "https://www.scmp.com/news/world/middle-east/article/3374264/israeli-strike-gaza-hospital-kills-11-deadliest-attack-election",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-12T18:32:12.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.644Z",
+    "snippet": "Israeli fire killed 11 people in Gaza on Thursday, six of them in the bombing of Nasser hospital in south Gaza early in the day, health officials said, the deadliest single strike since Israel’s elections last month. The Israeli military confirmed the attack, ",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/13/1ddb9112-00db-4775-b5e3-8e2fba1ab228_6e6872c7.jpg?itok=4JT8-GS1&v=1794508170"
+    ]
+  },
+  {
+    "id": "cadc5d644eb42b96",
+    "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+    "link": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-12T17:36:40.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.033Z",
+    "snippet": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
+    "images": []
+  },
+  {
+    "id": "fee7248371282630",
+    "title": "Save $119 on DDR5 RAM with this high-end AM5 gaming combo from Newegg",
+    "link": "https://www.tomshardware.com/pc-components/save-usd119-on-ddr5-ram-with-this-high-end-am5-gaming-combo-from-newegg-3-item-gaming-pc-combo-includes-9800x3d-32gb-corsair-vengeance-ddr5-ram-and-premium-msi-x870e-carbon-wifi-motherboard-for-only-usd1-250",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-12T17:34:56.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.253Z",
+    "snippet": "Newegg's latest combo deal pairs 32GB of Corsair Vengeance DDR5-6000 RAM, Ryzen 7 9800X3D, a MSI X870E Carbon Wifi motherboard and a free Rosewill Frostmax 360mm AIO for only $1,250, a savings of $119.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/UTVYgAgrmiW4oPuuxDS6r4-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/9GBpPCzKF8y4vsqQJ9vQHn-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "aff9434bbedd35e2",
+    "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+    "link": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-12T17:17:58.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.033Z",
+    "snippet": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
+    "images": []
+  },
+  {
+    "id": "d6a9871dbb59fc75",
+    "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+    "link": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-12T17:00:52.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.033Z",
+    "snippet": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
+    "images": []
+  },
+  {
+    "id": "d703f9106cc233e7",
+    "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
+    "link": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-12T17:00:00.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.033Z",
+    "snippet": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it’s easier for anyone to turn everyday moments into better photos.",
+    "images": []
+  },
+  {
+    "id": "2d756cc727bd7efa",
+    "title": "Jensen Huang agrees to testify before Congress",
+    "link": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-12T16:36:37.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.034Z",
+    "snippet": "Huang, who was ousted as CEO following reports of an alleged affair with a woman suspected of spying for China, agreed to testify Wednesday after several senior lawmakers threatened to subpoena him.",
+    "images": []
+  },
+  {
+    "id": "46dbb6cbdb30ae9a",
+    "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
+    "link": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-12T16:32:33.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.034Z",
+    "snippet": "Nvidia's ousted CEO Jensen Huang's downfall isn’t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways.",
+    "images": []
+  },
+  {
+    "id": "ed5c17445866d622",
+    "title": "President Trump says Apple’s Tim Cook is the only man to replace Jensen Huang as Nvidia CEO",
+    "link": "https://www.tomshardware.com/tech-industry/president-trump-says-apples-tim-cook-is-the-only-man-to-replace-jensen-huang-as-nvidia-ceo-proposes-a-legend-replaces-a-legend-in-call-for-apples-executive-chairman-of-its-board",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-12T16:16:54.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.254Z",
+    "snippet": "President Trump says Tim Cook should replace Jensen Huang as CEO of Nvidia.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/FfXomTDxeW73SWiSBjJufX-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "5dfd95238050e889",
+    "title": "Trump floats Apple chairman Tim Cook as Jensen Huang’s successor",
+    "link": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-12T16:12:44.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.034Z",
+    "snippet": "In a post on Truth Social, President Trump says only one man can take Jensen Huang's place as head of Nvidia: Tim Cook.",
+    "images": []
+  },
+  {
+    "id": "b6bff76a6e06de1c",
+    "title": "Elon Musk says it ‘would be an honor’ to hire ousted Nvidia CEO Jensen Huang",
+    "link": "https://www.tomshardware.com/tech-industry/semiconductors/elon-musk-says-it-would-be-an-honor-to-hire-ousted-nvidia-ceo-jensen-huang-possible-projects-could-include-terafab-spacexs-planned-gpu-manufacturing-or-teslas-ai-accelerators",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-12T15:46:04.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.254Z",
+    "snippet": "A random X poster urged Elon Musk to hire Jensen Huang just hours before the former Nvidia chief resigned from his position.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/4WktTU4NebnQ67ZkTVRuoS-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "e86440d523675598",
+    "title": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
+    "link": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
+    "source": "Ars Technica AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-12T14:50:17.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.194Z",
+    "snippet": "The first Gemini smartglasses are a collab between Google, Samsung, Gentle Monster, and Warby Parker.",
+    "images": [
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/WP_ALDEN-Carousel_Lifestyle-copy-1152x648.jpg",
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/WP_ALDEN-Carousel_Lifestyle-copy-500x500.jpg"
+    ]
+  },
+  {
+    "id": "b6b6848697ed1dfb",
+    "title": "Armed robbers flee Paris De Beers store with goods worth hundreds of thousands",
+    "link": "https://www.scmp.com/news/world/europe/article/3374261/armed-robbers-flee-paris-de-beers-store-goods-worth-hundreds-thousands",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-12T14:36:14.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.644Z",
+    "snippet": "Armed robbers stole hundreds of thousands of euros’ worth of luxury goods from a De Beers jewellery store in an upscale district of the French capital before fleeing on motorcycles, Paris police said on Thursday. The robbery took place around 11.15am in the 2n",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/12/52b2e436-7a44-49c2-9943-8ace9770b19f_6197d8e6.jpg?itok=uevG7fYC&v=1794494162"
+    ]
+  },
+  {
+    "id": "a122113bc953332c",
+    "title": "Trump says US does not ‘need a deal with Iran’",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3374257/trump-says-us-does-not-need-deal-iran",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-12T14:17:38.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.644Z",
+    "snippet": "US President Donald Trump said Thursday that he was directing Vice-President J.D. Vance to focus completely on domestic anti-fraud efforts and not negotiations towards a deal to end war with Tehran. “We don’t need a deal with Iran. Those days have long since p",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/12/7fd289bb-6b3a-4406-84a2-368e6548ff98_1bb4c14c.jpg?itok=qlw9HBWz&v=1794493045"
+    ]
+  },
+  {
+    "id": "463aea173522f211",
+    "title": "Corsair HX1000i Shift Crystal power supply review: 1000W Platinum efficiency with an eye-catching transparent aesthetic",
+    "link": "https://www.tomshardware.com/pc-components/power-supplies/corsair-hx1000i-shift-crystal-power-supply-review",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-12T14:00:00.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.254Z",
+    "snippet": "Corsair puts the internals of a CWT-built, Cybenetics Platinum 1000W platform on display behind three clear panels, adding side-mounted connectors, iCUE LINK integration and per-pin 12V-2x6 protection.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/NDWEzQHAU2HsBo6xKkMNQK-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/5LcTHfxAt4RrWa8K3CbNQK-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/WvLpShbJh4Kz5Jz4fAqkTK-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/tcAphb4akpeCxAJYLC5eaK-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/WvXcUfh6z99WiJLbEMeEWK-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "d1b0cf26771d6bf1",
+    "title": "Nvidia CEO Jensen Huang resigns in the wake of multiple affairs, Chinese spy allegations",
+    "link": "https://www.tomshardware.com/tech-industry/nvidia-confirms-jensen-huang-has-resigned-as-ceo-colette-kress-executive-vice-president-and-chief-financial-officer-appointed-interim-ceo",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-12T13:58:41.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.254Z",
+    "snippet": "NVIDIA (NASDAQ: NVDA) Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/t75kmqCZia9XGcHiAKqZ5T-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "7d1333d72ea7d118",
+    "title": "Death toll rises to 8 in New York building collapse as rescuers search for survivors",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3374250/death-toll-new-york-building-collapse-rises-8",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-12T13:43:09.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.644Z",
+    "snippet": "At least eight people died after a three-storey building in Brooklyn collapsed at the edge of a construction site, New York City’s mayor said on Thursday, as firefighters kept digging through the rubble to find others who may be trapped beneath the wreckage. S",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/12/f2318a6c-04db-4e4d-9e40-a3fec2008684_1c9bfad7.jpg?itok=bL5KVTsj&v=1794490975"
+    ]
+  },
+  {
+    "id": "3281e87406c6cf0f",
+    "title": "The Download: COP31’s climate challenge and the quest for immortality",
+    "link": "https://www.technologyreview.com/2026/11/12/1148444/the-download-cop31-climate-talks-cognitive-immortality/",
+    "source": "MIT Technology Review",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-12T13:10:00.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.057Z",
+    "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What to know about this year’s UN climate talks Thousands of delegates, lobbyists, and journalists have gathered in Antaly",
+    "images": [
+      "https://wp.technologyreview.com/wp-content/uploads/2026/05/260424_Cdrama.webp?fit=2128,1196"
+    ]
+  },
+  {
+    "id": "bcfa7602c9473ca0",
+    "title": "Noctua brings space-grade carbon nanotube thermal pad to AMD AM5 and AM4 processors",
+    "link": "https://www.tomshardware.com/pc-components/thermal-paste/noctua-brings-space-grade-carbon-nanotube-thermal-pad-to-amd-am5-and-am4-processors-promises-years-of-maintenance-free-performance-for-usd24-95",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-12T13:04:13.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.254Z",
+    "snippet": "Noctua says the NT-CP1 uses carbon nanotubes originally developed for aerospace applications, with the material gradually adapting to microscopic surface imperfections to improve heat transfer over repeated heating and cooling cycles.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/hdiDYx5ocDbtVydvJJ9bN8-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "8dedb8729e472b87",
+    "title": "Suspected Chinese spy at center of Jensen Huang affair surfaces in Beijing",
+    "link": "https://www.tomshardware.com/tech-industry/suspected-chinese-spy-at-center-of-jensen-huang-affair-surfaces-in-beijing-alice-huang-last-spotted-heading-to-shanghai-after-being-detained-questioned-in-singapore-in-2025-allegedly-helped-china-smuggle-hundreds-of-thousands-of-banned-chips",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-12T12:53:36.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.254Z",
+    "snippet": "There are multiple speculations about Alice Huang's s history and how she built her relationship with Jensen Huang.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/3u6uEdoESwssuQgkYfM4T9-1920-80.png"
+    ]
+  },
+  {
+    "id": "84525ac680a96acd",
+    "title": "UK fines Meta US$597,000 over repeated inaccuracies in WhatsApp data",
+    "link": "https://www.scmp.com/news/world/europe/article/3374238/uk-fines-meta-us597000-over-repeated-inaccuracies-whatsapp-data",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-12T12:00:47.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.644Z",
+    "snippet": "Britain’s ⁠media regulator Ofcom ⁠said on Thursday ⁠it had fined Meta £450,000 (US$597,000) for providing inaccurate information about its WhatsApp Business service in response to requests it made as part of its ‌telecoms market review. Ofcom reviewed the mark",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/12/2e707d4a-60e3-4307-9eab-ef1f2f38c1cd_3489c591.jpg?itok=xv94djIX&v=1794484834"
+    ]
+  },
+  {
+    "id": "7432d56df300d060",
+    "title": "Google reworks TPU silicon into specialized systems for agents and security",
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-adds-two-new-specialized-chips-for-ai-agents-and-security-to-8th-gen-tpu-lineup-tpu-8i-max-puts-two-chips-on-one-package-for-long-context-work-tpu-8tx-swaps-arm-hosts-for-amd-epyc",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-12T11:00:00.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.255Z",
+    "snippet": "Google’s TPU 8i Max and TPU 8tx reuse TPU 8i and TPU 8t silicon to target long-context agents and confidential inference.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/Ut57hXr6UTF3v4LJmkuGSi-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/KcaSgrdyhPSQKD5Y38ihWB-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "0ed78fd8e751deec",
+    "title": "Techie uses voltage glitching hack to turn $2,500 Nvidia 8GB cryptomining GPU into a full-fat $20,000 A100 with 80GB of VRAM",
+    "link": "https://www.tomshardware.com/pc-components/gpus/techie-turns-usd2-500-cmp-170hx-8gb-mining-card-into-a-full-fat-a100-80gb-with-voltage-glitching-carefully-blowing-onboard-fuses-to-unlock-entire-vram-and-shader-modules",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-12T10:30:00.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.255Z",
+    "snippet": "A techie turned a $2,500 CMP-170HX 8GB mining card into a full-fat $20,000 A100 80GB by carefully blowing onboard fuses to unlock entire VRAM and shader modules.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/QaaiweaJKxjDDJTGrtCSU5-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Wh9EZgD8NG9yUioNNgPB3d-1920-80.png"
+    ]
+  },
+  {
+    "id": "d19831f100a64d18",
+    "title": "DAMO Academy's XuanTie XL-300 Interconnect IP Links Up to Eight RISC-V Cores With 32MB of L3",
+    "link": "https://pandaily.com/damo-academy-xuantie-xl-300-cache-coherent-interconnect-ip-risc-v-eight-core",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-12T08:39:50.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.204Z",
+    "snippet": "XuanTie's XL-300 cache-coherent interconnect IP links up to eight RISC-V cores with up to 32MB of L3, doubles XL-200 bandwidth and claims over 90% eight-core scaling.",
+    "images": [
+      "https://cms-image.pandaily.com/1/xuantie_91bff21707.png"
+    ]
+  },
+  {
+    "id": "9633440855c3d747",
+    "title": "Baidu Puts ERNIE Lightning Reasoning Model and ERNIE-Wizshot-ME Expressive Video Model on Qianfan",
+    "link": "https://pandaily.com/baidu-ernie-lightning-wizshot-me-micro-expression-video-models-qianfan",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-12T08:39:38.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.204Z",
+    "snippet": "Baidu's ERNIE Lightning, built for search, uses sparse attention and fast and slow thinking. ERNIE-Wizshot-ME turns still portraits into 4- to 15-second expressive 1080p clips.",
+    "images": [
+      "https://cms-image.pandaily.com/1/ernie_9304ed3559.png"
+    ]
+  },
+  {
+    "id": "a78bf094b77299ca",
+    "title": "ByteDance Releases Seedance 2.5 Flash, a Faster Video Model Priced About 34% Below Seedance 2.5",
+    "link": "https://pandaily.com/bytedance-seedance-2-5-flash-faster-lower-cost-video-model-volcano-ark-api",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-12T08:39:30.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.204Z",
+    "snippet": "Volcano Engine's Seedance 2.5 Flash makes video twice as fast as Seedance 2.5 at about 0.99 yuan per second at 720p, roughly 34% cheaper. API access opens on Volcano Ark on Nov 15.",
+    "images": [
+      "https://cms-image.pandaily.com/1/seedance_96adab67c5.png"
+    ]
+  },
+  {
+    "id": "5362c2214968556f",
+    "title": "Baidu Launches Token Exchange, a Model Marketplace That Fingerprints Models and Rates Suppliers",
+    "link": "https://pandaily.com/baidu-token-exchange-model-marketplace-fingerprinting-supplier-credit-ratings",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-12T08:39:20.000Z",
+    "fetchedAt": "2026-11-12T19:40:10.204Z",
+    "snippet": "Baidu's Token Exchange lists models from many suppliers behind one API, with fingerprint checks, admission tests and supplier credit ratings. Baidu says it serves 700 billion tokens a day.",
+    "images": [
+      "https://cms-image.pandaily.com/1/tokenx_f137e6fc74.png"
+    ]
+  },
+  {
     "id": "f19ed7fa27c564bf",
     "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
     "link": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
@@ -8,7 +427,12 @@
     "publishedAt": "2026-11-12T03:13:10.000Z",
     "fetchedAt": "2026-11-12T06:20:59.525Z",
     "snippet": "Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "45f9fdd17ba05791",
@@ -21,7 +445,12 @@
     "snippet": "Tencent's Yuanbao Search, at so.qq.com and in QQ Browser, gives AI answers over the web, WeChat Official Accounts, Channels and academic papers, with cited sources and collapsible ads.",
     "images": [
       "https://cms-image.pandaily.com/1/yuanbao_65c7bb3717.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "fa5141db9c87cb00",
@@ -34,7 +463,12 @@
     "snippet": "AgiBot's open-source LIFE gives robots continuous sensing via RoboBeats models, reanalyzable memory and reusable tools. Its own tests show 60.5% on SSS-Bench and faster day-long recall.",
     "images": [
       "https://cms-image.pandaily.com/1/life_95b4fa99a6.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "6dda36924c06c5dc",
@@ -47,7 +481,12 @@
     "snippet": "Qwen4-Max-Preview is live only on Alibaba's Token Plan until Nov 25, with a 1M-token context, image and video input and tool calling. No benchmarks, parameter count or weights yet.",
     "images": [
       "https://cms-image.pandaily.com/1/qwen4_3c199cc304.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "1eebad2be61517f9",
@@ -60,7 +499,12 @@
     "snippet": "Moore Threads' MDC 2026 runs Dec 29-30 in Beijing with 10+ launches promised. Reports point to an S6000 AI card and Lushan graphics GPUs on the Huagang architecture.",
     "images": [
       "https://cms-image.pandaily.com/1/moore_8ab6eb7c48.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "99a61143256bf856",
@@ -71,7 +515,12 @@
     "publishedAt": "2026-11-11T23:50:00.000Z",
     "fetchedAt": "2026-11-12T06:20:59.526Z",
     "snippet": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c5c31f5b81fd4ff9",
@@ -84,7 +533,12 @@
     "snippet": "Nvidia Board reportedly moves to expel Jensen Huang as stock tumbles on latest scandals and lack of succession plans at Nvidia.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/e4nHqRWu6AkHKhFz9QVnLZ-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "eab32f1c56a5464a",
@@ -95,7 +549,12 @@
     "publishedAt": "2026-11-11T23:28:45.000Z",
     "fetchedAt": "2026-11-12T06:20:59.527Z",
     "snippet": "As soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e961c03395201920",
@@ -106,7 +565,12 @@
     "publishedAt": "2026-11-11T23:17:05.000Z",
     "fetchedAt": "2026-11-12T06:20:59.527Z",
     "snippet": "Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "9ceb5a738139089c",
@@ -119,7 +583,12 @@
     "snippet": "A soldier guarding the Tomb of the Unknown Soldier issued a verbal reprimand to a group of advisers and staffers with US Defence Secretary Pete Hegseth following a Veterans Day ceremony at Arlington National Cemetery. Video shows Hegseth taking photos on the e",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/12/435c2754-0e09-49a0-96cb-1d4acdf0771a_22192060.jpg?itok=SQEZVAY5&v=1794449936"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "78dd3f0586e4b3d9",
@@ -132,7 +601,12 @@
     "snippet": "Nvidia CEO Jensen Huang reportedly had an extramarital affair with a direct report, following a separate affair with a woman suspected of being a Chinese spy.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/Q57X2C2kb7mvEAhLmcPtrj-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "bbf748b23831d847",
@@ -148,7 +622,12 @@
       "https://cdn.mos.cms.futurecdn.net/aJ4mx9nLhHNk3cW2JFuZQe-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/xX2BFEMAtwvLEQzieBy6AX-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/kEkE9diY9LxvtRrnHyNp4F-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "5436ad1912c9c574",
@@ -161,7 +640,12 @@
     "snippet": "Joe Biden says he did not know he had cancer while he was US president and would not have sought a second term if he already had been diagnosed. The former Democratic president’s comments came in an interview with People magazine before the release of his Whit",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/12/92e306c4-257a-4306-b373-f7882dfc40a0_4b1d9126.jpg?itok=yaP10R_y&v=1794454270"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "51f973d139a8fac6",
@@ -174,7 +658,12 @@
     "snippet": "Pope Leo drew vast crowds to Argentina’s holiest shrine on Wednesday, the final day of his visit before he departs for Peru, where he spent nearly two decades as a missionary. Authorities said over 3 million people packed the streets around the Basilica of Luj",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/12/b126afd0-b6c1-4250-905f-a63ddd32476b_476bef4c.jpg?itok=eIeWOy_l&v=1794429832"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "bb28b266650d93c3",
@@ -187,7 +676,12 @@
     "snippet": "US President Donald Trump defended the war against Iran Wednesday at a US Veterans Day commemoration that saw his defence secretary publicly admonished for a lack of decorum. “The bravery and skill of our amazing American warriors has absolutely been incredibl",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/12/b778402e-0cc8-441d-858e-be419c6e2593_7fae9a0e.jpg?itok=6P0GPz_R&v=1794450983"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "44d5486f18d98fa0",
@@ -198,7 +692,12 @@
     "publishedAt": "2026-11-11T20:15:15.000Z",
     "fetchedAt": "2026-11-12T06:20:59.527Z",
     "snippet": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity.&#160;Before those challenges even come into play, though, there’s a more basic problem: A lot of the projec",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "17fd5e081689bb27",
@@ -209,7 +708,12 @@
     "publishedAt": "2026-11-11T20:12:01.000Z",
     "fetchedAt": "2026-11-12T06:20:59.527Z",
     "snippet": "Santosh Janardhan, who originally joined the company in 2009, will be stepping down from his role.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "0fa05cb465b3c3bf",
@@ -220,7 +724,12 @@
     "publishedAt": "2026-11-11T20:02:14.000Z",
     "fetchedAt": "2026-11-12T06:20:59.527Z",
     "snippet": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity.&#160;Before those challenges even come into play, though, there’s a more basic problem: A lot of the projec",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "bf858ca4e5e80a34",
@@ -231,7 +740,12 @@
     "publishedAt": "2026-11-11T19:54:00.000Z",
     "fetchedAt": "2026-11-12T06:20:59.527Z",
     "snippet": "CoreWeave is increasingly asking customers to pay up front, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company’s third-quarter earnings.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "ea94c9c8f3fb61ed",
@@ -242,7 +756,12 @@
     "publishedAt": "2026-11-11T19:34:55.000Z",
     "fetchedAt": "2026-11-12T06:20:59.527Z",
     "snippet": "Fractile has now become one of the top-funded players in the race for purpose-built AI chips.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "16901861c1e42aab",
@@ -5461,579 +5980,6 @@
     "snippet": "Russell Brand was convicted on Thursday of rape and sexual assault charges on allegations dating back more than 20 years. Judge Joel Bennathan said Brand would receive a prison term when he is sentenced on Monday. He was taken into custody. A prosecutor said t",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/05/d247c9f8-eef4-47a9-8fa2-db26e0cb318e_044fa07b.jpg?itok=8Xm5yW1E&v=1793890490"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "479282a14a9d74dd",
-    "title": "Aina’s smart ring has a screen, a joystick, and a mic so you can talk to AI agents",
-    "link": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-05T14:42:00.000Z",
-    "fetchedAt": "2026-11-05T19:40:22.590Z",
-    "snippet": "Aina's ring can also take calls and help you dictate notes on your Mac.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "d4c482a35fa68340",
-    "title": "US labour market holds firm as weekly lay-offs tumble to 57-year low",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3373451/us-labour-market-holds-firm-weekly-lay-offs-tumble-57-year-low",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-05T14:31:21.000Z",
-    "fetchedAt": "2026-11-05T19:40:23.394Z",
-    "snippet": "The number of Americans filing new claims for unemployment slipped to a 57-year low last week as lay-offs fell against the backdrop of a resilient labour market. Initial claims for state unemployment benefits dropped 6,000 to a seasonally adjusted 189,000 for",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/05/372362c4-b833-468f-926b-25ac0d73a5ac_540e39e5.jpg?itok=dN6tAgv5&v=1793889075"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "2f29219147a97788",
-    "title": "Micron's $4.5 billion Taoyuan plant construction halted amidst labor dispute",
-    "link": "https://www.tomshardware.com/tech-industry/semiconductors/microns-usd4-5-billion-taoyuan-plant-construction-halted-amidst-labor-dispute-company-and-union-still-havent-reached-agreement-as-latter-asks-for-clearer-profit-sharing-terms",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-05T14:28:30.000Z",
-    "fetchedAt": "2026-11-05T19:40:22.999Z",
-    "snippet": "Micron and the Taoyuan labor union is set to meet again on November 6 as the two parties engage in a protracted labor dispute regarding profit-sharing.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/xDHo6JHbRwqU3VtPmCmG2n-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "ccc313c06783f70f",
-    "title": "Statement: The pro-human movement is winning",
-    "link": "https://futureoflife.org/statement/statement-the-pro-human-movement-is-winning/",
-    "source": "Future of Life Institute",
-    "category": "AI Policy & Safety",
-    "publishedAt": "2026-11-05T14:06:00.000Z",
-    "fetchedAt": "2026-11-05T19:40:23.483Z",
-    "snippet": "FLI's Head of U.S. Policy Michael Kleinman issues a statement on the U.S. Senate Midterm Election results.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "6e10766b52ab0f4d",
-    "title": "Box taps Nvidia’s Nemotron for new agent-first content retrieval system",
-    "link": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-05T14:00:00.000Z",
-    "fetchedAt": "2026-11-05T19:40:22.590Z",
-    "snippet": "The system can supposedly answer queries four times faster, with 20% fewer errors and 90% fewer tokens used.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "78290dd236443dea",
-    "title": "Apple MacBook Pro (14-inch, M6) review: Speedy M6 chip slips into comfortable shoes",
-    "link": "https://www.tomshardware.com/laptops/macbooks/apple-macbook-pro-14-inch-m6-review",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-05T14:00:00.000Z",
-    "fetchedAt": "2026-11-05T19:40:22.999Z",
-    "snippet": "Apple’s brings its powerful M6 chip and N1 Wi-Fi 7 chip to the MacBook Pro.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/XboBy8yJ9eRv85BbDErmUM-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/wnEuP6XrBifmiZ2fPFEMVM-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/HW4E3W7ZbgLxfoQEX4dcMM-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/NeJH8eHLVxREYe9not8wQM-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/qbgcaX4or2PsFDbEojBDQM-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "d20a8901d965ffb3",
-    "title": "Boost your Nintendo Switch 2's storage for Zelda: Ocarina of Time with these microSD Express deals, starting at $48",
-    "link": "https://www.tomshardware.com/pc-components/microsd-cards/boost-your-nintendo-switch-2s-storage-for-zelda-ocarina-of-time-with-these-microsd-express-deals-starting-at-usd48-make-room-for-hyrule-with-these-high-speed-cards-that-double-or-triple-your-game-storage",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-05T14:00:00.000Z",
-    "fetchedAt": "2026-11-05T19:40:22.999Z",
-    "snippet": "With the Legend of Zelda: Ocarina of Time remake now available for the Nintendo Switch 2, you're going to need enough storage to install it. Here are some Switch 2 microSD Express card deals to help you.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/Q4r3HMpNUujz2WFpSvzgNe-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/Rxvwhhtu7kEpngkAyzhSTg-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/nnkPCGHc6nhv7PBLUMs3Jc-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/As673LWLmjKLfdtUbcXnCA-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/PgtXwYx499YQEzr8tRaqbD-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "44dd54fbac710f8d",
-    "title": "Boy George hailed ‘hero’ for defying cultural boycott to perform in Israel",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3373444/boy-george-hailed-hero-defying-cultural-boycott-perform-israel",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-05T13:26:58.000Z",
-    "fetchedAt": "2026-11-05T19:40:23.395Z",
-    "snippet": "When cheers erupted at a packed Tel Aviv stadium for Boy George, it was not only a sign of the 65-year-old singer’s enduring fame. It was the sound of national delight at an international pop star willing to perform in an increasingly isolated Israel. A smatte",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/05/b91c2b8f-d334-4f13-902a-5e234e8b1c21_b5dffea7.jpg?itok=VjqgX4MF&v=1793885214"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "ec1bfefada90c737",
-    "title": "The Download: Texas’s fragile AI boom and energy policy shifts",
-    "link": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
-    "source": "MIT Technology Review",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-05T13:10:00.000Z",
-    "fetchedAt": "2026-11-05T19:40:22.632Z",
-    "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Texas was the new epicenter of the AI data center buildout. That might be kaput. Texas is the fastest-growing data center",
-    "images": [
-      "https://wp.technologyreview.com/wp-content/uploads/2024/09/ECUA-240705-Serhii-Beskrestnov-45766_grad.jpg?fit=1920,1280"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "72ae115afac9dc46",
-    "title": "US borrowing outlook steadies after midterms, but Treasury yields face new tests: analysts",
-    "link": "https://www.scmp.com/economy/global-economy/article/3373359/us-borrowing-outlook-steadies-after-midterms-treasury-yields-face-new-tests-analysts",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-05T13:00:07.000Z",
-    "fetchedAt": "2026-11-05T19:40:23.395Z",
-    "snippet": "After the Democrats swept the US midterm elections, a divided government may help restrain future Treasury borrowing and prevent fresh deficit blowouts, though it will not necessarily bring down elevated bond yields, analysts say. The US Treasury Department un",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/05/b843bcae-3dd8-4dec-9e16-500b96579959_9934c2e8.jpg?itok=gmT8J_t8&v=1793861063"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "64891167ac9ed0a5",
-    "title": "A YC startup is putting $1M behind 5 unsolved materials science problems for AI",
-    "link": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-05T13:00:00.000Z",
-    "fetchedAt": "2026-11-05T19:40:22.590Z",
-    "snippet": "While frontier AI models have solved a remarkable series of outstanding mathematics problems and made progress in the life sciences, they have yet to truly plumb the complex physics in advanced materials.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "d831e94a700d6525",
-    "title": "Finland jails Russian cargo ship captain over Baltic Sea cable sabotage",
-    "link": "https://www.scmp.com/news/world/europe/article/3373432/finland-jails-russian-cargo-ship-captain-over-baltic-sea-cable-sabotage",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-05T12:30:38.000Z",
-    "fetchedAt": "2026-11-05T19:40:23.395Z",
-    "snippet": "A Finnish court on Thursday jailed the Russian captain and an Azerbaijani crew member of the cargo ship Fitburg for aggravated sabotage over damage to two subsea ‌telecommunications cables in the Gulf of Finland last year. Finland on December 31 seized the ves",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/05/59bb462f-b4d6-45f7-a889-48d9d589bd03_9fbca563.jpg?itok=ADvtfRC_&v=1793881826"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "bbcdf74be2ee85c0",
-    "title": "Agility Robotics&#039; Nasdaq debut invites scrutiny of humanoid robot market",
-    "link": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-05T12:00:41.000Z",
-    "fetchedAt": "2026-11-05T19:40:22.920Z",
-    "snippet": "US leader in deploying humanoid robots goes public on the Nasdaq stock exchange.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Agility-Digit-5-humanoid-robots-at-work-1152x648.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Agility-Digit-5-humanoid-robots-at-work-500x500.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "7a51a3a032a396f0",
-    "title": "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
-    "link": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-05T12:00:00.000Z",
-    "fetchedAt": "2026-11-05T19:40:22.590Z",
-    "snippet": "Agility arrives on the Nasdaq today as the first publicly traded pure-play humanoid robotics company.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "664dc5b0256134d7",
-    "title": "SuperCLUE Office Agent Benchmark Crowns Doubao Work Ahead of Kimi Work and WorkBuddy",
-    "link": "https://pandaily.com/superclue-office-agent-benchmark-doubao-work-kimi-work-workbuddy",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-05T07:13:27.000Z",
-    "fetchedAt": "2026-11-05T19:40:23.859Z",
-    "snippet": "SuperCLUE's October 2026 office-agent test scored Doubao Work 85.33 overall, with Kimi Work and Tencent WorkBuddy close behind across document, writing and data tasks.",
-    "images": [
-      "https://cms-image.pandaily.com/1/superclue_baa3417d3d.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "2b57f04af01fdf91",
-    "title": "Huawei's First HarmonyOS Desktops, Qingyun HM650 and HM650G, Debut With Kirin X90",
-    "link": "https://pandaily.com/huawei-qingyun-hm650-hm650g-first-harmonyos-desktop-kirin-x90",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-05T07:09:32.000Z",
-    "fetchedAt": "2026-11-05T19:40:23.859Z",
-    "snippet": "Huawei showed its first HarmonyOS desktop PCs, Qingyun HM650 for enterprises and HM650G for government buyers, both with the Kirin X90, at a Wuhan office-industry summit.",
-    "images": [
-      "https://cms-image.pandaily.com/1/qingyun_51b318fe7d.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "f59aa18f068bc051",
-    "title": "Alibaba Cloud Lingjun Zhenwu M890 SuperPoD Adds Day-Zero Support for Kimi K3.1 Pro",
-    "link": "https://pandaily.com/alibaba-cloud-lingjun-zhenwu-m890-day-zero-kimi-k3-1-pro-zhongwei-panmai-920",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-05T07:09:19.000Z",
-    "fetchedAt": "2026-11-05T19:40:23.859Z",
-    "snippet": "Alibaba Cloud says its Lingjun Zhenwu M890 SuperPoD now runs Moonshot AI's 2.8T Kimi K3.1 Pro on day zero via vLLM and SGLang, with Zhongwei invite testing and Panmai 920 NICs.",
-    "images": [
-      "https://cms-image.pandaily.com/1/zhenwu_20edfdfc46.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "697048c57b9ee984",
-    "title": "Moonshot AI Launches Kimi Hosted Agents as a Managed Agent-Harness Cloud Service",
-    "link": "https://pandaily.com/moonshot-ai-kimi-hosted-agents-harness-as-a-service-sandbox-inference-hook",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-05T07:09:06.000Z",
-    "fetchedAt": "2026-11-05T19:40:23.859Z",
-    "snippet": "Moonshot AI's Kimi Hosted Agents offers a 24/7 managed agent harness with sandboxes, audit trails, Inference Hook and eight finance templates, so teams need not self-host the runtime.",
-    "images": [
-      "https://cms-image.pandaily.com/1/hosted_fde2023f05.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e4ba24955e19bd6c",
-    "title": "Who May Overrule the Agent? Evidence-Gated Authority in LLM Review Institutions",
-    "link": "https://arxiv.org/abs/2611.05390",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-11-05T05:00:00.000Z",
-    "fetchedAt": "2026-11-05T05:43:47.557Z",
-    "snippet": "arXiv:2611.05390v1 Announce Type: new Abstract: Multi-agent language-model systems often add a reviewer to improve an upstream agent's decision. Yet a reviewer can both repair errors and replace decisions that were already correct. We study this as a problem o",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "7098ce9d76be045b",
-    "title": "Agent Harness Awareness: Turning Verified Telemetry into Operational Control for Tool-Using Agents",
-    "link": "https://arxiv.org/abs/2611.05391",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-11-05T05:00:00.000Z",
-    "fetchedAt": "2026-11-05T05:43:47.557Z",
-    "snippet": "arXiv:2611.05391v1 Announce Type: new Abstract: Tool descriptions tell an agent what an action can do, but they do not necessarily reveal whether that action is healthy or suitable at the moment of use. Execution harnesses often possess this information throug",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "a61c4ee5627b626a",
-    "title": "Uncertainty-Aware Resource Orchestration for Agentic AI Systems",
-    "link": "https://arxiv.org/abs/2611.05392",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-11-05T05:00:00.000Z",
-    "fetchedAt": "2026-11-05T05:43:47.557Z",
-    "snippet": "arXiv:2611.05392v1 Announce Type: new Abstract: Agentic artificial intelligence (AI) systems powered by large language models (LLMs) execute as autonomous multi-step pipelines that dynamically invoke tools, integrate observations into memory, and iterate until",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "edb1e9676be26057",
-    "title": "Challenge-Aware Knowledge Recruitment with Meta-Agent Supervision for Medical Multi-Agent Reasoning",
-    "link": "https://arxiv.org/abs/2611.05393",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-11-05T05:00:00.000Z",
-    "fetchedAt": "2026-11-05T05:43:47.557Z",
-    "snippet": "arXiv:2611.05393v1 Announce Type: new Abstract: Large language models perform strongly on standard medical QA but degrade on harder reasoning tasks, where multi-agent debate often fails to beat strong single-model prompting. We argue that a key limitation is t",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "049e54f8e56da5f6",
-    "title": "A Feasibility Condition for Confidence-Gated Tiered LLM Inference",
-    "link": "https://arxiv.org/abs/2611.05394",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-11-05T05:00:00.000Z",
-    "fetchedAt": "2026-11-05T05:43:47.557Z",
-    "snippet": "arXiv:2611.05394v1 Announce Type: new Abstract: Tiered inference distributes large language model computation across a hierarchy of devices, from on-device and edge hardware to the datacenter, and is increasingly offered as the route to cheaper, lower-latency,",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "75440cb016d728d6",
-    "title": "Towards Robust Long-Lived Agents: Benchmarking Experience Lifecycles in Evolving Environments",
-    "link": "https://arxiv.org/abs/2611.05450",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-11-05T05:00:00.000Z",
-    "fetchedAt": "2026-11-05T05:43:47.557Z",
-    "snippet": "arXiv:2611.05450v1 Announce Type: new Abstract: As agents become more capable, they are moving beyond one-off tasks toward sustained assistance across successive user goals. Such assistance requires agents to discover how unfamiliar environments work, reuse wh",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "56d39afef45ad30c",
-    "title": "Can Large Language Models Review the Scientific Literature? A Test Against a 102-Article Benchmark",
-    "link": "https://arxiv.org/abs/2611.05459",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-11-05T05:00:00.000Z",
-    "fetchedAt": "2026-11-05T05:43:47.557Z",
-    "snippet": "arXiv:2611.05459v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used to support scientific literature reviews, yet evaluations often examine individual tasks rather than the review process as a whole. We assess six AI tools across",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "bf8e124149435bf0",
-    "title": "SlackBench: Benchmarking Agents on Collaborative Projects Grounded in Real Code Repositories",
-    "link": "https://arxiv.org/abs/2611.05512",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-11-05T05:00:00.000Z",
-    "fetchedAt": "2026-11-05T05:43:47.557Z",
-    "snippet": "arXiv:2611.05512v1 Announce Type: new Abstract: AI Agents are becoming digital coworkers that can browse the web, write code, run experiments, and assist humans over extended horizons. Yet existing benchmarks fall short of real knowledge work: many rely on syn",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "28fadd4e9049d267",
-    "title": "MA-SafeDiffuser: Safe Multi-Agent Planning with Diffusion Probabilistic Models",
-    "link": "https://arxiv.org/abs/2611.05524",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-11-05T05:00:00.000Z",
-    "fetchedAt": "2026-11-05T05:43:47.557Z",
-    "snippet": "arXiv:2611.05524v1 Announce Type: new Abstract: We propose MA-SafeDiffuser, a multi-agent extension of SafeDiffuser that equips diffusion-based trajectory planners with finite-time diffusion invariance guarantees for joint-agent safety specifications. Building",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "ad0a314aa941d440",
-    "title": "Towards Efficient Whole Page Ranking with One-Pass Inference",
-    "link": "https://arxiv.org/abs/2611.05542",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-11-05T05:00:00.000Z",
-    "fetchedAt": "2026-11-05T05:43:47.557Z",
-    "snippet": "arXiv:2611.05542v1 Announce Type: new Abstract: Whole-page ranking jointly optimizes advertisements and organic content to balance business outcomes and user engagement under complex layout and business constraints. Existing non-autoregressive (NAR) approaches",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "aad29a7b6176c9c8",
-    "title": "Russia’s ‘eastward pivot’ gains steam as Putin confirms new China border railway",
-    "link": "https://www.scmp.com/economy/china-economy/article/3373339/russias-eastward-pivot-gains-steam-putin-confirms-new-china-border-railway",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-05T04:00:58.000Z",
-    "fetchedAt": "2026-11-05T05:43:48.395Z",
-    "snippet": "Russian President Vladimir Putin has signed into law a deal to build a second standard-gauge railway track at a key border crossing with China, as Moscow looks to accelerate its eastward pivot and boost ties with Beijing ahead of the Apec summit. According to",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/05/a051d7fa-5e69-4f83-b10b-d886b00fc393_e2380439.jpg?itok=CHsT-HYn&v=1793851256"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "f9409a8f2743f1ad",
-    "title": "China Merchants' LionRock AI Lab Open-Sources Lion-ER-35B-A3B Embodied Reasoning Model",
-    "link": "https://pandaily.com/china-merchants-lionrock-ai-lab-lion-er-35b-a3b-embodied-reasoning-model-open-source",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-05T02:25:49.000Z",
-    "fetchedAt": "2026-11-05T05:43:47.287Z",
-    "snippet": "China Merchants' LionRock AI Lab open-sourced Lion-ER-35B-A3B, a 3B-active embodied reasoning model built with a capability-driven data engine that beat its base on ten benchmarks.",
-    "images": [
-      "https://cms-image.pandaily.com/1/lion_e7fb08c586.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "0d25ac87661285bf",
-    "title": "openJiuwen's Hyper-Agent Swarm Puts Persistent AI Agents Into Work Chats as Digital Employees",
-    "link": "https://pandaily.com/openjiuwen-hyper-agent-swarm-architecture-persistent-agents-workswarm-digital-employees",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-05T02:25:34.000Z",
-    "fetchedAt": "2026-11-05T05:43:47.287Z",
-    "snippet": "openJiuwen's Hyper-Agent swarm architecture lets persistent agents with their own identities and inboxes join Feishu and DingTalk groups as digital employees via WorkSwarm.",
-    "images": [
-      "https://cms-image.pandaily.com/1/swarm_6eac2fd713.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e901e99b624988b4",
-    "title": "Moxin Technology Launches MoWorld 2.0, an Ascend-Native 4D World Model That Simulates Physics",
-    "link": "https://pandaily.com/moxin-technology-moworld-2-0-ascend-native-4d-world-model-physics-gaussian-assets",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-05T02:25:19.000Z",
-    "fetchedAt": "2026-11-05T05:43:47.288Z",
-    "snippet": "Moxin Technology's MoWorld 2.0 adds gravity, elasticity and fluids to 4D Gaussian scenes, runs video inference at about 70 fps and is trained and deployed on Huawei Ascend.",
-    "images": [
-      "https://cms-image.pandaily.com/1/moworld_ce276fd05d.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "6fb606c108f7d83b",
-    "title": "Huawei's Xiaoyi Work Is First to Run openPangu-2.1-Pro, Billed for HarmonyOS Task Enhancement",
-    "link": "https://pandaily.com/huawei-xiaoyi-work-openpangu-2-1-pro-harmonyos-task-enhancement-agent",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-05T02:23:44.000Z",
-    "fetchedAt": "2026-11-05T05:43:47.288Z",
-    "snippet": "IT Home found openPangu-2.1-Pro live first in Huawei's Xiaoyi Work agent, labeled HarmonyOS task enhancement, days after openPangu-2.0 was slated to leave Huawei Cloud MaaS.",
-    "images": [
-      "https://cms-image.pandaily.com/1/pangu_c916d63624.png"
     ],
     "titleZh": "",
     "snippetZh": "",
