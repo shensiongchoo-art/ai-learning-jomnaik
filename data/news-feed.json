@@ -1,5 +1,187 @@
 [
   {
+    "id": "9cf9b586c7c721d2",
+    "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+    "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-14T17:30:00.000Z",
+    "fetchedAt": "2026-11-14T17:46:00.924Z",
+    "snippet": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+    "images": []
+  },
+  {
+    "id": "037c011c29dc8ae4",
+    "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+    "link": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-14T16:34:15.000Z",
+    "fetchedAt": "2026-11-14T17:46:00.926Z",
+    "snippet": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+    "images": []
+  },
+  {
+    "id": "adf2a4652ed472f8",
+    "title": "Samsung's 1TB 990 SSD drops to 19 cents per GB amid the memory crisis — grab it for $40 off",
+    "link": "https://www.tomshardware.com/pc-components/samsungs-1tb-990-ssd-drops-to-19-cents-per-gb-amid-the-memory-crisis-grab-it-for-usd40-off",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-14T16:32:48.000Z",
+    "fetchedAt": "2026-11-14T17:46:01.081Z",
+    "snippet": "Whether you're building a new PC, expanding your gaming library, or replacing an older SATA drive, Samsung's 990 offers a straightforward way to add high-speed PCIe 4.0 storage to your system.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/z9Tr9cwLtbapB8rpe8ZWCk-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/znK77crkDS9TcMNLNHqzQo-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/huSu4Dw7psJhLuEr2ZgQQJ-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/wtamdjkwxBL67cLykwm7RJ-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/yN5LHCPbnSak8XH73mtWWJ-1920-80.png"
+    ]
+  },
+  {
+    "id": "cdba70b609d710a2",
+    "title": "This week in Tom's Hardware Premium: November 14, 2026 — Mac Studio versus DGX Spark, AMD's MEXT cuts DRAM requirements in half, and the Huang saga reaches critical mass",
+    "link": "https://www.tomshardware.com/tech-industry/this-week-in-toms-hardware-premium-november-14-2026-mac-studio-versus-dgx-spark-amds-mext-cuts-dram-requirements-in-half-and-the-huang-saga-reaches-critical-mass",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-14T16:00:00.000Z",
+    "fetchedAt": "2026-11-14T17:46:01.081Z",
+    "snippet": "Catch up with everything we've published this week on our subscription service, Tom's Hardware Premium, including exclusive interviews, local AI deep dives, and much more.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/pf5brSWLeHYxEan3spiqvT-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/vfLy5PcKHn93qzbpMvFh34-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Ut57hXr6UTF3v4LJmkuGSi-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/RZiWuzR4HNRoJJYAbkWDRX-1920-80.png"
+    ]
+  },
+  {
+    "id": "5afecb8a4160b9fd",
+    "title": "U.S. Treasury Secretary questions whether Nvidia knowingly sold AI GPUs to shell companies, says company itself is responsible",
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/u-s-treasury-secretary-questions-whether-nvidia-knowingly-sold-ai-gpus-to-shell-companies-says-company-itself-is-responsible-i-think-it-is-important-that-anyone-at-the-company-there-be-held-accountable-for-that",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-14T15:35:48.000Z",
+    "fetchedAt": "2026-11-14T17:46:01.082Z",
+    "snippet": "Scott Bessent wonders whether Nvidia's management knew about selling restricted hardware to shell companies, but does not directly blame Jensen Huang of anything.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/jakBnPpBNjF9ncTK4KKtGG-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Wh9EZgD8NG9yUioNNgPB3d-1920-80.png"
+    ]
+  },
+  {
+    "id": "af5decbec5767084",
+    "title": "We tested the RAM-saving storage tech in Gears of War: E-Day",
+    "link": "https://www.tomshardware.com/pc-components/ssds/we-tested-the-ram-saving-storage-tech-in-gears-of-war-e-day-up-to-3-7-gb-s-of-ssd-streaming-speed-saves-several-gigabytes-of-system-ram-usage",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-14T15:30:00.000Z",
+    "fetchedAt": "2026-11-14T17:46:01.082Z",
+    "snippet": "Today we’re focusing on a less-discussed technology that plays an equally important role in bringing this visually rich, densely detailed world to systems with more limited hardware resources: storage technology designed to reduce RAM usage.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/yn667374DegfCJkCaiBeUC-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/w7auhA24e8rMuJqSREJ8JB-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/QQfLigvwzGJA4DBj6A3J9C-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/oVWhB6bSLehtVynECCkxeC-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/JQ6Fy4zbzZjv7mfK6o2cEB-1920-80.png"
+    ]
+  },
+  {
+    "id": "07512ce70531a43b",
+    "title": "Zelensky says US floated idea of Ukraine ceding Donbas for Nato membership",
+    "link": "https://www.scmp.com/news/world/europe/article/3374450/zelensky-says-us-floated-idea-ukraine-ceding-donbas-nato-membership",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-14T15:14:00.000Z",
+    "fetchedAt": "2026-11-14T17:46:01.384Z",
+    "snippet": "US negotiators have floated the idea of Ukraine’s potential withdrawal from its eastern region of Donbas in exchange for joining Nato, President Volodymyr Zelensky said, following the latest round of peace talks with Russia in Abu Dhabi. This is the first time",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/14/149237ae-cd09-428b-9490-8965f6f68aa4_cde817be.jpg?itok=rSUGnRpA&v=1794671248"
+    ]
+  },
+  {
+    "id": "9bcd58fd8b4a44fa",
+    "title": "Malaysia plans new law using data center power consumption to catch AI GPU smugglers",
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-plans-new-law-using-data-center-power-consumption-to-catch-ai-gpu-smugglers-but-real-world-tdp-variance-and-lack-of-physical-audits-could-undermine-it-new-law-also-forces-operators-to-pay-for-unused-electricity-capacity",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-14T15:10:00.000Z",
+    "fetchedAt": "2026-11-14T17:46:01.082Z",
+    "snippet": "Malaysia plans to track AI GPU imports and data center power consumption to combat chip smuggling. But will it be able to do so?",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/XC7BztBiYaLzNEMYPXdhWc-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "a2ec55a35b453cbe",
+    "title": "AMD's fastest gaming CPU and the Radeon RX 9070 just hit a massive $550 discount",
+    "link": "https://www.tomshardware.com/desktops/gaming-pcs/amds-fastest-gaming-cpu-and-the-radeon-rx-9070-just-hit-a-massive-usd550-discount-32gb-ddr5-ram-and-1tb-ssd-round-off-usd1-749-99-gaming-rig",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-14T15:00:00.000Z",
+    "fetchedAt": "2026-11-14T17:46:01.082Z",
+    "snippet": "Alongside the Ryzen 7 9800X3D and Radeon RX 9070, buyers get a 360mm AIO liquid cooler, 850W PSU, 32GB DDR5-5600 memory, and a 1TB SSD, all inside a premium mid-tower chassis with RGB lighting.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/gXVr5e46qSaMd9JE7fJdb7-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/JAQxNz7wH235qnWKjAaPUg-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/Huc985Ry4n2nCoMjcj5tvW-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/jXJvkFKNAMrFvkvZwGqCpW-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/jaqarvKwqg6rcJwNW9YBiW-1920-80.png"
+    ]
+  },
+  {
+    "id": "99135b4b927999b5",
+    "title": "Researchers allege DeepSeek, Kimi, and other Chinese AI models were trained using banned Nvidia Blackwell GPUs",
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/researchers-allege-deepseek-kimi-and-other-chinese-ai-models-were-trained-on-export-controlled-nvidia-blackwell-chips-statistical-analysis-on-model-weights-reveals-high-correlation-to-nvidia-hardware",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-14T14:50:00.000Z",
+    "fetchedAt": "2026-11-14T17:46:01.082Z",
+    "snippet": "Researchers pinpoint that DeepSeek, Kimi, and other Chinese AI models were trained on export-controlled Nvidia Blackwell chips — statistical analysis on model weights reveals high correlation to Nvidia hardware",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/5aWG7kU6H464LoRvSKtru3-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/XRa7CMviZW4v4j2KMd8DHX-1920-80.png"
+    ]
+  },
+  {
+    "id": "84c3b81e43381740",
+    "title": "Weeks after shipment was swiped by China, Pentagon ‘struggles to account for’ $31 billion in missing F-35 aircraft parts",
+    "link": "https://www.tomshardware.com/tech-industry/pentagon-struggles-to-account-for-usd31-billion-in-missing-f-35-aircraft-parts-weeks-after-shipment-was-swiped-by-china-tracking-of-estimated-26-million-parts-is-outdated-inaccurate-and-incomplete-says-watchdog",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-14T14:00:00.000Z",
+    "fetchedAt": "2026-11-14T17:46:01.083Z",
+    "snippet": "The Pentagon is struggling to track an astonishing 26 million F-35 warfighter parts, worth an estimated $31 billion, according to analysis published by the Government Accountability Office this week.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/EekQz3qCtB2JkSggFCv4aK-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "45d9835f3687b32b",
+    "title": "Turkey detains 6 over deadly steel blast that killed 17",
+    "link": "https://www.scmp.com/news/world/europe/article/3374446/turkey-detains-6-over-deadly-steel-blast-killed-17",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-14T12:40:28.000Z",
+    "fetchedAt": "2026-11-14T17:46:01.385Z",
+    "snippet": "Six people were arrested overnight after a huge blast at a steel plant near the western city of Izmir killed 17 workers, with grieving families waiting on Tuesday to receive their loved ones’ bodies for burial. Onlookers said Monday’s massive explosion felt li",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/14/15f001d1-b07e-4610-8d81-5e66dd4a9414_7182b943.jpg?itok=cuM3jVTE&v=1794660017"
+    ]
+  },
+  {
+    "id": "b5de2f3e1de3e078",
+    "title": "Musk ordered to preserve records on Ukraine’s Starlink access by Democratic US senators",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3374425/musk-ordered-preserve-records-ukraines-starlink-access-democratic-us-senators",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-14T05:31:58.000Z",
+    "fetchedAt": "2026-11-14T17:46:01.385Z",
+    "snippet": "Democratic US senators have told Elon Musk to preserve all records related to his company SpaceX’s restrictions on Ukraine’s use of its Starlink and Starshield satellite services. Ukrainian forces say Starshield, the military-grade version of ‌Starlink, is vit",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/14/c6545ba5-92e5-4880-a8d4-70d7a8580239_e6cc6b08.jpg?itok=6n9XpdsI&v=1794634306"
+    ]
+  },
+  {
     "id": "70e273c2a2480057",
     "title": "openJiuwen's RSI-Native AgentOS Lets Agents Build, Install and Roll Back Their Own Plugins",
     "link": "https://pandaily.com/openjiuwen-rsi-native-agentos-extension-packages-workswarm-system-plugins",
@@ -10,7 +192,12 @@
     "snippet": "openJiuwen's RSI-native AgentOS lets agents ship features as hot-pluggable, versioned extension packages. WorkSwarm agents can now write, install and roll back their own plugins.",
     "images": [
       "https://cms-image.pandaily.com/1/openjiuwen_1e9e4da92b.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "359e9fc9134e1b8a",
@@ -23,7 +210,12 @@
     "snippet": "MOSS-Live tops six full-duplex metrics, wrongly answering background speech 2% of the time. It trails GPT-Live-1 on multi-turn tasks and Doubao on audio understanding.",
     "images": [
       "https://cms-image.pandaily.com/1/mosslive_867915574e.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "01c7145ee69e187c",
@@ -36,7 +228,12 @@
     "snippet": "The Endless Frontier's open-weight Fx-Bio-1031 runs multi-step bioinformatics work. It reports 70.59% on BioMysteryBench's hardest subset but trails GPT-6-Astra on BixBench3.",
     "images": [
       "https://cms-image.pandaily.com/1/fxbio_9842b247eb.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "5e887adeead153f8",
@@ -49,7 +246,12 @@
     "snippet": "Tencent Hunyuan's Hy Realtime voice model rebuilds intent from half-finished speech, decides when to search the web and sings on request. It is live in Yuanbao voice calls.",
     "images": [
       "https://cms-image.pandaily.com/1/hunyuan_caa5ebbda7.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "0c43cee9035f4b94",
@@ -62,7 +264,12 @@
     "snippet": "DeepSeek has opened web search, deep thinking search, file input, URL reading and safety checks inside its APIs, plus standalone Search, Fetch, OCR, ASR and TTS, so developers can rebuild its app.",
     "images": [
       "https://cms-image.pandaily.com/1/deepseek_de120fabb7.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "aa6a33e15656b3a4",
@@ -75,7 +282,12 @@
     "snippet": "US Air Force personnel at the RAF Lakenheath base in Britain responded to “suspected unauthorised drone activity” on Friday evening, although no personnel, aircraft or infrastructure were affected, a US Air Force spokesman said. “We continue ‌to work closely w",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/14/57e9d0cb-d165-4c67-a2ad-621090e47173_f1d255bd.jpg?itok=lFb5djNG&v=1794613661"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "79277a1ebf320be6",
@@ -85,10 +297,15 @@
     "category": "China AI",
     "publishedAt": "2026-11-13T23:23:21.000Z",
     "fetchedAt": "2026-11-14T05:31:04.649Z",
-    "snippet": "SpaceX launched Starship towards orbit on Friday in its boldest test yet: a 22-hour flight that aimed to capture the entire rocket in a move meant to accelerate moon and Mars travel. But Elon Musk’s company had to lower its expectations when the first part of ",
+    "snippet": "SpaceX launched Starship towards orbit on Friday in its boldest test yet: a 22-hour flight that aimed to capture the entire rocket in a move meant to accelerate moon and Mars travel. But Elon Musk’s company had to lower its expectations when the first part of",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/14/b1e848bd-16b3-40bd-9445-55a49b31e145_265c7ec9.jpg?itok=evnSO9wu&v=1794612195"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "96e6689eafb713e9",
@@ -99,7 +316,12 @@
     "publishedAt": "2026-11-13T22:43:00.000Z",
     "fetchedAt": "2026-11-14T05:31:04.007Z",
     "snippet": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "7847630ef225cac8",
@@ -132,7 +354,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/qBiTnikCtK5QZ46zhHfiXm-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "d5eca19c2b0b10c2",
@@ -145,7 +372,12 @@
     "snippet": "At least 180 passengers and crew members were rescued Friday after a tanker lost control, hit and sank a paddleboat on the Mississippi River, the mayor of New Orleans said. Video from the scene showed the much larger Atlantic Asphalt tanker hit the cruise boat",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/14/4768064f-4b29-4406-b530-e2f26d2b6497_30e92c5d.jpg?itok=Sr8dao9W&v=1794602943"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "f3974f7d408fd7a8",
@@ -156,7 +388,12 @@
     "publishedAt": "2026-11-13T19:37:57.000Z",
     "fetchedAt": "2026-11-14T05:31:04.008Z",
     "snippet": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "de191fcad7e14f74",
@@ -5866,230 +6103,6 @@
     "snippet": "UNI-DOGGIE debuts at CIIE with a 2,000-unit worldwide limit. Launch reports say distributor ADATA purchased 1,000 units; that is not verified consumer sell-through.",
     "images": [
       "https://cms-image.pandaily.com/1/dog_b1a3f2a898.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "9931d9eebfec150d",
-    "title": "AgiBot Refreshes Lingxi X2 for Guided Tours, Retail and Entertainment",
-    "link": "https://pandaily.com/agibot-lingxi-x2-refresh-humanoid-service-retail-guided-tours",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-07T02:00:06.000Z",
-    "fetchedAt": "2026-11-07T05:11:29.307Z",
-    "snippet": "AgiBot's refreshed Lingxi X2 offers configuration-dependent articulation and optional dexterous hands, with navigation and runtime limits that vary by setup.",
-    "images": [
-      "https://cms-image.pandaily.com/1/agibot_100cba8da6.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "3ae9389c1831e46a",
-    "title": "NearLink Alliance Publishes Embodied AI Connectivity Blue Book With 30-Plus Contributors",
-    "link": "https://pandaily.com/nearlink-alliance-embodied-ai-short-range-connectivity-blue-book",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-07T01:58:47.000Z",
-    "fetchedAt": "2026-11-07T05:11:29.307Z",
-    "snippet": "More than 30 contributors helped define NearLink connectivity requirements for robot internals, multi-device collaboration and device-edge-cloud coordination.",
-    "images": [
-      "https://cms-image.pandaily.com/1/nearlink_d2b0312211.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "6b13aa9dbde9331d",
-    "title": "Moore Threads Adds Day-Zero Kimi K3.1 Pro Support on MTT S5000 GPUs",
-    "link": "https://pandaily.com/moore-threads-mtt-s5000-musa-day-zero-kimi-k3-1-pro-inference",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-07T01:57:30.000Z",
-    "fetchedAt": "2026-11-07T05:11:29.307Z",
-    "snippet": "Moore Threads says MTT S5000 and MUSA can load and serve Kimi K3.1 Pro with text and image inference, including sparse-attention and online weight-conversion support.",
-    "images": [
-      "https://cms-image.pandaily.com/1/moore_d67a5563b6.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "b08c75fd3712d2d9",
-    "title": "Crusoe sells troubled Wyoming data center project to Google",
-    "link": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-07T01:40:28.000Z",
-    "fetchedAt": "2026-11-07T05:11:29.245Z",
-    "snippet": "The deal highlights the challenges of developing massive AI data centers.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "0320430c4a69ee3e",
-    "title": "Cornell faculty vote no-confidence in leadership after gang rape case",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3373621/cornell-faculty-vote-no-confidence-leadership-after-gang-rape-case",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-06T23:06:09.000Z",
-    "fetchedAt": "2026-11-07T05:11:29.825Z",
-    "snippet": "Faculty members at Cornell University on Friday passed a no-confidence resolution against the elite college’s leadership over its handling of an alleged gang rape that has sparked outcry in the US. The vote is not binding but marks a strong symbolic rebuke of",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/07/fbe8e90a-1474-4f75-9761-2525290d89ae_95738b2d.jpg?itok=ar-1Lm39&v=1794006367"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "ccf9c689a4989594",
-    "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-    "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-06T22:53:46.000Z",
-    "fetchedAt": "2026-11-07T05:11:29.247Z",
-    "snippet": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "f348622e3e1c0779",
-    "title": "Can China champion the Global South without speaking for it?",
-    "link": "https://www.scmp.com/opinion/china-opinion/article/3373154/can-china-champion-global-south-without-speaking-it",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-06T21:30:08.000Z",
-    "fetchedAt": "2026-11-07T05:11:29.825Z",
-    "snippet": "Travelling through South America earlier this year, I was repeatedly reminded of China’s growing importance. At Ezeiza International Airport in Buenos Aires, I spotted the logo of the Industrial and Commercial Bank of China. ICBC acquired an 80 per cent stake",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/06/5a1ca581-277c-4766-83b6-98e79e16b36f_e15f67e3.jpg?itok=TOnEL1Xk&v=1793935344"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "2bc86a401fceba0d",
-    "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-    "link": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-06T18:44:38.000Z",
-    "fetchedAt": "2026-11-06T19:01:55.122Z",
-    "snippet": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "a6ce14dbaa89deae",
-    "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
-    "link": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-06T18:44:20.000Z",
-    "fetchedAt": "2026-11-06T19:01:55.123Z",
-    "snippet": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "ed585750e2bd0698",
-    "title": "How a Blue Wave midterm might reshape the AI industry",
-    "link": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-06T18:00:00.000Z",
-    "fetchedAt": "2026-11-06T19:01:55.123Z",
-    "snippet": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center de",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "f8a3b18fef5b8e37",
-    "title": "“Does Meta think we can’t read?” Meta abandons sketchy commercial terms update.",
-    "link": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-06T17:43:02.000Z",
-    "fetchedAt": "2026-11-06T19:01:55.481Z",
-    "snippet": "Meta won't force Facebook page owners to allow AI training on linked content.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1363244761-1152x648.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1363244761-500x500.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "2ba5be6b3061467f",
-    "title": "After the midterms, is the AI industry in for a rough two years?",
-    "link": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-06T17:23:52.000Z",
-    "fetchedAt": "2026-11-06T19:01:55.123Z",
-    "snippet": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center de",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "ee4c9e095f049a84",
-    "title": "Could potential AI clones of GTA VI force a quicker official port?",
-    "link": "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-06T16:19:12.000Z",
-    "fetchedAt": "2026-11-06T19:01:55.481Z",
-    "snippet": "A former Rockstar tech director thinks the developer is facing new time pressures.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/gta6-1152x648.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/gta6-500x500-1793980851.jpg"
     ],
     "titleZh": "",
     "snippetZh": "",
