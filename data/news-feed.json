@@ -1,5 +1,92 @@
 [
   {
+    "id": "ed741f1c0d28ba5b",
+    "title": "COMAC's CE-25A Electric Commercial Aircraft Completes Its First Crewed Flight",
+    "link": "https://pandaily.com/comac-ce-25a-electric-commercial-aircraft-first-crewed-flight",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-15T01:48:00.000Z",
+    "fetchedAt": "2026-11-15T05:29:13.141Z",
+    "snippet": "COMAC's 19-seat CE-25A electric aircraft flew with two pilots and a flight test engineer aboard for the first time, covering 60.4 km in 16 minutes 38 seconds.",
+    "images": [
+      "https://cms-image.pandaily.com/1/ce25a_6ce88ceb70.png"
+    ]
+  },
+  {
+    "id": "b34d521fe2b88be7",
+    "title": "UniPat AI's SPU Benchmark Asks AI Agents to Predict Real Wet-Lab Results, and None Score Above 0.5",
+    "link": "https://pandaily.com/unipat-ai-science-prediction-universe-spu-benchmark-wet-lab-outcome-prediction-agents",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-15T01:47:52.000Z",
+    "fetchedAt": "2026-11-15T05:29:13.142Z",
+    "snippet": "UniPat AI's SPU benchmark has AI agents rank the outcomes of 4,207 real wet-lab experiments. The best of 13 configurations averaged 0.486 out of 1.",
+    "images": [
+      "https://cms-image.pandaily.com/1/spu_5529717e25.png"
+    ]
+  },
+  {
+    "id": "70dd39d8edf8b9af",
+    "title": "DeepSeek's Web Code Shows Quota Management Pointing to a 'Coding Plan', but No Plan Is Announced",
+    "link": "https://pandaily.com/deepseek-web-frontend-code-quota-management-coding-plan-unannounced",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-15T01:47:42.000Z",
+    "fetchedAt": "2026-11-15T05:29:13.142Z",
+    "snippet": "Developers found quota-management code on DeepSeek's web chat that points to a 'Coding Plan'. DeepSeek has announced no subscription, price, tier or launch date.",
+    "images": [
+      "https://cms-image.pandaily.com/1/dscoding_f650f7c885.png"
+    ]
+  },
+  {
+    "id": "9424cd85bdfca73c",
+    "title": "Where was Nvidia’s security team?",
+    "link": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-15T00:08:07.000Z",
+    "fetchedAt": "2026-11-15T05:29:11.461Z",
+    "snippet": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak ",
+    "images": []
+  },
+  {
+    "id": "86b29b17f1586780",
+    "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+    "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-14T21:41:22.000Z",
+    "fetchedAt": "2026-11-15T05:29:11.462Z",
+    "snippet": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+    "images": []
+  },
+  {
+    "id": "e7af673ad225d542",
+    "title": "SpaceX successfully carries out first-ever spaceship catch",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3374463/spacex-successfully-carries-out-first-ever-spaceship-catch",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-14T21:32:46.000Z",
+    "fetchedAt": "2026-11-15T05:29:11.957Z",
+    "snippet": "SpaceX’s Starship made a triumphant return to Earth on Saturday, caught in mid-air by giant mechanical arms where its journey began 22 hours earlier. It was the grand finale that Elon Musk and his team hoped for – the first-ever capture of a Starship flying ba",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/15/c660f1ae-8b76-472f-acc7-d56c6e5e8e98_c44e6f59.jpg?itok=yfxd8i33&v=1794691954"
+    ]
+  },
+  {
+    "id": "3104053c3aa7e268",
+    "title": "Transport chief blames US-wide flight disruptions on upgrade of old copper wiring",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3374456/transport-chief-blames-us-wide-flight-disruptions-upgrade-old-copper-wiring",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-14T18:26:10.000Z",
+    "fetchedAt": "2026-11-15T05:29:11.957Z",
+    "snippet": "Weary travellers braced for more flight disruptions on Saturday as service resumed from US airports after an hours-long stoppage that the Trump administration blamed on faulty equipment or an error by a contractor tasked with switching out old copper wire comm",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/15/4ede1a99-197d-4059-a644-957e7efe7f4e_70850f30.jpg?itok=0B25Proe&v=1794680756"
+    ]
+  },
+  {
     "id": "9cf9b586c7c721d2",
     "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
     "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
@@ -8,7 +95,12 @@
     "publishedAt": "2026-11-14T17:30:00.000Z",
     "fetchedAt": "2026-11-14T17:46:00.924Z",
     "snippet": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "037c011c29dc8ae4",
@@ -19,7 +111,12 @@
     "publishedAt": "2026-11-14T16:34:15.000Z",
     "fetchedAt": "2026-11-14T17:46:00.926Z",
     "snippet": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "adf2a4652ed472f8",
@@ -36,7 +133,12 @@
       "https://cdn.mos.cms.futurecdn.net/huSu4Dw7psJhLuEr2ZgQQJ-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/wtamdjkwxBL67cLykwm7RJ-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/yN5LHCPbnSak8XH73mtWWJ-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "cdba70b609d710a2",
@@ -52,7 +154,12 @@
       "https://cdn.mos.cms.futurecdn.net/vfLy5PcKHn93qzbpMvFh34-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/Ut57hXr6UTF3v4LJmkuGSi-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/RZiWuzR4HNRoJJYAbkWDRX-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "5afecb8a4160b9fd",
@@ -66,7 +173,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/jakBnPpBNjF9ncTK4KKtGG-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/Wh9EZgD8NG9yUioNNgPB3d-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "af5decbec5767084",
@@ -83,7 +195,12 @@
       "https://cdn.mos.cms.futurecdn.net/QQfLigvwzGJA4DBj6A3J9C-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/oVWhB6bSLehtVynECCkxeC-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/JQ6Fy4zbzZjv7mfK6o2cEB-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "07512ce70531a43b",
@@ -96,7 +213,12 @@
     "snippet": "US negotiators have floated the idea of Ukraine’s potential withdrawal from its eastern region of Donbas in exchange for joining Nato, President Volodymyr Zelensky said, following the latest round of peace talks with Russia in Abu Dhabi. This is the first time",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/14/149237ae-cd09-428b-9490-8965f6f68aa4_cde817be.jpg?itok=rSUGnRpA&v=1794671248"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "9bcd58fd8b4a44fa",
@@ -109,7 +231,12 @@
     "snippet": "Malaysia plans to track AI GPU imports and data center power consumption to combat chip smuggling. But will it be able to do so?",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/XC7BztBiYaLzNEMYPXdhWc-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a2ec55a35b453cbe",
@@ -126,7 +253,12 @@
       "https://cdn.mos.cms.futurecdn.net/Huc985Ry4n2nCoMjcj5tvW-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/jXJvkFKNAMrFvkvZwGqCpW-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/jaqarvKwqg6rcJwNW9YBiW-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "99135b4b927999b5",
@@ -140,7 +272,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/5aWG7kU6H464LoRvSKtru3-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/XRa7CMviZW4v4j2KMd8DHX-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "84c3b81e43381740",
@@ -153,7 +290,12 @@
     "snippet": "The Pentagon is struggling to track an astonishing 26 million F-35 warfighter parts, worth an estimated $31 billion, according to analysis published by the Government Accountability Office this week.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/EekQz3qCtB2JkSggFCv4aK-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "45d9835f3687b32b",
@@ -166,7 +308,12 @@
     "snippet": "Six people were arrested overnight after a huge blast at a steel plant near the western city of Izmir killed 17 workers, with grieving families waiting on Tuesday to receive their loved ones’ bodies for burial. Onlookers said Monday’s massive explosion felt li",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/14/15f001d1-b07e-4610-8d81-5e66dd4a9414_7182b943.jpg?itok=cuM3jVTE&v=1794660017"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "b5de2f3e1de3e078",
@@ -179,7 +326,12 @@
     "snippet": "Democratic US senators have told Elon Musk to preserve all records related to his company SpaceX’s restrictions on Ukraine’s use of its Starlink and Starshield satellite services. Ukrainian forces say Starshield, the military-grade version of ‌Starlink, is vit",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/14/c6545ba5-92e5-4880-a8d4-70d7a8580239_e6cc6b08.jpg?itok=6n9XpdsI&v=1794634306"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "70e273c2a2480057",
@@ -5977,132 +6129,6 @@
     "snippet": "DEEP Robotics says X50 can carry 50 kilograms at 3 m/s for over two kilometers, targeting industrial inspection, equipment transport and emergency response.",
     "images": [
       "https://cms-image.pandaily.com/1/robot_058ae551da.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "9e2718add34e30ae",
-    "title": "OpenCSG Releases Agentic-27B for Tool Workflows, With Commercial Use Requiring Permission",
-    "link": "https://pandaily.com/opencsg-agentic-27b-tool-workflows-single-gpu-commercial-license",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-07T07:06:50.000Z",
-    "fetchedAt": "2026-11-07T17:35:06.777Z",
-    "snippet": "OpenCSG's 27B agent model targets tool selection and failure recovery, with single-A800 test results. Its license requires permission for commercial use.",
-    "images": [
-      "https://cms-image.pandaily.com/1/opencsg_ad49c8082b.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "b3f86f9c75bc6b70",
-    "title": "Huawei Releases Standalone HarmonyOS PC Assistant With Office Task Automation",
-    "link": "https://pandaily.com/huawei-harmonyos-pc-standalone-assistant-work-office-agent-release",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-07T07:06:42.000Z",
-    "fetchedAt": "2026-11-07T17:35:06.777Z",
-    "snippet": "Huawei's standalone HarmonyOS PC assistant adds an official office-agent release with cloud or local execution, phone task dispatch and AI-point membership billing.",
-    "images": [
-      "https://cms-image.pandaily.com/1/huawei_610b905a5a.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "dc6c1b77aa29764f",
-    "title": "Trump confirms fresh Iran strikes days after voters punish war at polls",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3373633/trump-confirms-fresh-iran-strikes-days-after-voters-punish-war-polls",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-07T04:25:50.000Z",
-    "fetchedAt": "2026-11-07T05:11:29.825Z",
-    "snippet": "US President Donald Trump said the American military on Friday carried out new limited strikes on Iran, targeting an Iranian air defence system. Iranian state media reported the sound of two explosions in the Suza area of Qeshm Island, which is in a crucial wa",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/07/0933f6ae-bad4-4d0a-bbb9-4bcccb1f7a43_4e35d704.jpg?itok=UjPjNRif&v=1794025548"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "483e84e42321d326",
-    "title": "US regulator investigates tumour risk in children given Novartis gene therapy",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3373631/us-regulator-investigates-tumour-risk-children-given-novartis-gene-therapy",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-07T03:35:18.000Z",
-    "fetchedAt": "2026-11-07T05:11:29.825Z",
-    "snippet": "The US ⁠Food and Drug Administration said ⁠on Friday it was investigating a ⁠risk of neoplasia, or tumour formation including malignancy, associated with Novartis’ gene therapy Zolgensma. The Swiss drug maker earlier in the day disclosed two cases in which tum",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/07/8f1557d3-c632-41d0-9c30-84ce4bd4afc6_a5fb303c.jpg?itok=pz8H-5fu&v=1794022517"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "543ef0f1b512666a",
-    "title": "Iran’s nuclear programme: US offers US$20 million reward for information",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3373625/irans-nuclear-programme-us-offers-us20-million-reward-information",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-07T02:04:14.000Z",
-    "fetchedAt": "2026-11-07T05:11:29.825Z",
-    "snippet": "Washington is offering a US$20 million reward “and possible relocation” for information about Iran’s nuclear programme, the US military has said, as President Donald Trump reiterated that Tehran wants to make a deal to end the war. A State Department programme",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/07/8978bea8-0a55-4eee-a57d-1bf9253ea02e_0d415751.jpg?itok=1vO7f1y9&v=1794017043"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "624c457c87549023",
-    "title": "Galactic Energy Ceres-2 Returns to Flight, Sending Four Satellites Into Orbit",
-    "link": "https://pandaily.com/galactic-energy-ceres-2-y3-return-to-flight-four-satellites",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-07T02:02:39.000Z",
-    "fetchedAt": "2026-11-07T05:11:29.306Z",
-    "snippet": "Ceres-2's Y3 flight delivered four satellites from Jiuquan, returning the rocket to flight nearly ten months after its unsuccessful maiden mission.",
-    "images": [
-      "https://cms-image.pandaily.com/1/ceres_2235b60eb1.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "dbb175d5e74c2c1c",
-    "title": "Unitree and Star Plus Legend Launch Limited-Edition UNI-DOGGIE Robot at 43,900 Yuan",
-    "link": "https://pandaily.com/unitree-star-plus-legend-uni-doggie-collectible-robot-dog",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-07T02:01:23.000Z",
-    "fetchedAt": "2026-11-07T05:11:29.307Z",
-    "snippet": "UNI-DOGGIE debuts at CIIE with a 2,000-unit worldwide limit. Launch reports say distributor ADATA purchased 1,000 units; that is not verified consumer sell-through.",
-    "images": [
-      "https://cms-image.pandaily.com/1/dog_b1a3f2a898.png"
     ],
     "titleZh": "",
     "snippetZh": "",
