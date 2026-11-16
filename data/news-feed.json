@@ -1,5 +1,319 @@
 [
   {
+    "id": "a0d62b91f8bb3ff3",
+    "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
+    "link": "https://arxiv.org/abs/2611.17338",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-16T05:00:00.000Z",
+    "fetchedAt": "2026-11-16T05:27:44.631Z",
+    "snippet": "arXiv:2611.17338v1 Announce Type: new Abstract: LLM memory systems often delete facts classified as stale. We show that this hard-filtering step can reduce downstream accuracy when resolver errors delete query-critical facts. Across three models, a controlled ",
+    "images": []
+  },
+  {
+    "id": "c94f7fe84c8d050b",
+    "title": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
+    "link": "https://arxiv.org/abs/2611.17339",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-16T05:00:00.000Z",
+    "fetchedAt": "2026-11-16T05:27:44.631Z",
+    "snippet": "arXiv:2611.17339v1 Announce Type: new Abstract: Hallucination detection for large language models is dominated by methods evaluated on 7B-70B research models with abundant sampling budgets and exact-match or ROUGE correctness labels. The small models practitio",
+    "images": []
+  },
+  {
+    "id": "e62c118f9faaffd0",
+    "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
+    "link": "https://arxiv.org/abs/2611.17340",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-16T05:00:00.000Z",
+    "fetchedAt": "2026-11-16T05:27:44.631Z",
+    "snippet": "arXiv:2611.17340v1 Announce Type: new Abstract: Large language models are expensive to update through full retraining. Parameter-efficient fine-tuning reduces the cost of adaptation, but repeated adaptation creates a growing pool of task-specific LoRA adapters",
+    "images": []
+  },
+  {
+    "id": "861eb48879b87bcf",
+    "title": "Tabular Population Priors as Structured Retrieval for EHR Medication Set Prediction",
+    "link": "https://arxiv.org/abs/2611.17341",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-16T05:00:00.000Z",
+    "fetchedAt": "2026-11-16T05:27:44.631Z",
+    "snippet": "arXiv:2611.17341v1 Announce Type: new Abstract: Medication prediction from electronic health records is a fixed vocabulary structured prediction problem, yet recent clinical RAG systems often treat it like open ended case based reasoning: retrieve similar pati",
+    "images": []
+  },
+  {
+    "id": "88e9a117310c34ae",
+    "title": "An Operationalization of Opaque Serial Depth",
+    "link": "https://arxiv.org/abs/2611.17495",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-16T05:00:00.000Z",
+    "fetchedAt": "2026-11-16T05:27:44.631Z",
+    "snippet": "arXiv:2611.17495v1 Announce Type: new Abstract: Chain-of-thought (CoT) is currently a valuable tool for overseeing AI models, but some architectural shifts could significantly reduce CoT monitorability. We operationalize a measure that serves as a proxy for th",
+    "images": []
+  },
+  {
+    "id": "be89a9e2c31fbfed",
+    "title": "Advancing Quantization for R&R Models with Microscaling Formats",
+    "link": "https://arxiv.org/abs/2611.17501",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-16T05:00:00.000Z",
+    "fetchedAt": "2026-11-16T05:27:44.631Z",
+    "snippet": "arXiv:2611.17501v1 Announce Type: new Abstract: Recommendation and Ranking (R&R) models, particularly in digital advertising, require massive inference throughput but exhibit extreme sensitivity to precision loss. Unlike Large Language Models (LLMs) that frequ",
+    "images": []
+  },
+  {
+    "id": "a2cfb0c0378b3227",
+    "title": "A Push Down the Mountain: Framing Effects and Internal State Interventions on Collusive Behavior in a Long-Horizon LLM Agent",
+    "link": "https://arxiv.org/abs/2611.17515",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-16T05:00:00.000Z",
+    "fetchedAt": "2026-11-16T05:27:44.631Z",
+    "snippet": "arXiv:2611.17515v1 Announce Type: new Abstract: Can sustained gain-loss (valence) framing sway an LLM agent toward market manipulation? We place Gemma 3 12B into the seat of a defendant in the London silver-fixing litigation, in a market simulation built from ",
+    "images": []
+  },
+  {
+    "id": "2a316b4324846c89",
+    "title": "Model Annealing: Data-Efficient Learning through Review and Consolidation",
+    "link": "https://arxiv.org/abs/2611.17524",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-16T05:00:00.000Z",
+    "fetchedAt": "2026-11-16T05:27:44.631Z",
+    "snippet": "arXiv:2611.17524v1 Announce Type: new Abstract: A small labelled dataset is memorized long before the training budget runs out, and the one-hot labels that remain to be fitted then mostly sharpen confidence. Model annealing spends the rest of the budget on rev",
+    "images": []
+  },
+  {
+    "id": "bbcf1bdd1edb627f",
+    "title": "Astrocyte Biocomputing: Astrocytic Contributions to Neural Network Computation",
+    "link": "https://arxiv.org/abs/2611.17532",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-16T05:00:00.000Z",
+    "fetchedAt": "2026-11-16T05:27:44.631Z",
+    "snippet": "arXiv:2611.17532v1 Announce Type: new Abstract: Conductors are critical for the performance of an orchestra even though they do not emit sound. Basic research and clinical studies in the last decade are revealing that astrocytes may be the \"conductors\" of the ",
+    "images": []
+  },
+  {
+    "id": "f12493e90c1ac3d1",
+    "title": "Verifiable pXRD: Hill-climbing pXRD structure determination with LLM agents",
+    "link": "https://arxiv.org/abs/2611.17539",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-16T05:00:00.000Z",
+    "fetchedAt": "2026-11-16T05:27:44.631Z",
+    "snippet": "arXiv:2611.17539v1 Announce Type: new Abstract: Autonomous crystal-structure determination from powder X-ray diffraction (pXRD) remains a key bottleneck for self-driving materials laboratories. We formulate the task of pXRD structure determination as a verifia",
+    "images": []
+  },
+  {
+    "id": "a6cd880c6af35e5e",
+    "title": "Sun Yat-sen University's GeoThinker-F Speeds Up Spatial Reasoning 3.6x by Dropping the 3D Encoder",
+    "link": "https://pandaily.com/sun-yat-sen-university-geothinker-f-spatial-reasoning-without-3d-encoder",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-16T02:09:26.000Z",
+    "fetchedAt": "2026-11-16T05:27:44.572Z",
+    "snippet": "Sun Yat-sen University's GeoThinker-F learns 3D cues from VGGT during training, then drops it, cutting spatial reasoning latency from 1.45 s to 0.40 s.",
+    "images": [
+      "https://cms-image.pandaily.com/1/geothinker_305023ef24.png"
+    ]
+  },
+  {
+    "id": "24902fdf9987473f",
+    "title": "Future Doctor Says MedGPT Outscored Doctors in 88% of Comparisons on Complex Lung Cancer Cases",
+    "link": "https://pandaily.com/future-doctor-medgpt-lung-cancer-multicenter-study-250-doctors",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-16T02:09:13.000Z",
+    "fetchedAt": "2026-11-16T05:27:44.572Z",
+    "snippet": "Future Doctor says MedGPT beat unassisted doctors in 660 of 750 comparisons on 40 complex lung cancer cases, scored by AI judges. The figures are self-reported.",
+    "images": [
+      "https://cms-image.pandaily.com/1/medgpt_1bc4aff908.png"
+    ]
+  },
+  {
+    "id": "16ee1c145359ed99",
+    "title": "Qianfan Constellation Reaches 274 Satellites, 50 Short of SpaceSail's Year-End Service Target",
+    "link": "https://pandaily.com/qianfan-spacesail-constellation-274-satellites-phase-one-target-brazil-terminal",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-16T02:09:03.000Z",
+    "fetchedAt": "2026-11-16T05:27:44.572Z",
+    "snippet": "Qianfan has 274 satellites in orbit, 50 short of the 324 SpaceSail needs to start service by year-end. A user terminal is certified in Brazil, its likely first market.",
+    "images": [
+      "https://cms-image.pandaily.com/1/qianfan_6b7ec72346.png"
+    ]
+  },
+  {
+    "id": "1277d3063b48ed0f",
+    "title": "Huawei Cloud Opens openPangu-2.1-Pro on MaaS With Output Priced at 3.2 Yuan per Million Tokens",
+    "link": "https://pandaily.com/huawei-cloud-maas-openpangu-2-1-pro-api-agents-arkts-ascend-operators",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-16T02:08:43.000Z",
+    "fetchedAt": "2026-11-16T05:27:44.572Z",
+    "snippet": "openPangu-2.1-Pro is now a public API on Huawei Cloud MaaS, tuned for agents, ArkTS and Ascend operators, at 0.8 yuan input and 3.2 yuan output per million tokens.",
+    "images": [
+      "https://cms-image.pandaily.com/1/pangu_b7562765cd.png"
+    ]
+  },
+  {
+    "id": "3683d032e833a510",
+    "title": "Anatrix Intelligence Tapes Out AX100, an Analog Chip It Says Solves Matrix Equations in One Step",
+    "link": "https://pandaily.com/anatrix-intelligence-ax100-analog-matrix-equation-solver-chip-tape-out",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-16T02:08:33.000Z",
+    "fetchedAt": "2026-11-16T05:27:44.572Z",
+    "snippet": "Anatrix Intelligence says its newly taped-out AX100 analog chip solves a matrix equation in under 100 ns at about 80 mW. All figures are self-reported.",
+    "images": [
+      "https://cms-image.pandaily.com/1/ax100_1f17b031d5.png"
+    ]
+  },
+  {
+    "id": "f0f2c28300b2ba18",
+    "title": "Rocket launch in US fails, destroying payload of 40 Amazon satellites",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3374525/rocket-launch-us-fails-destroying-payload-40-amazon-satellites",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-16T01:32:37.000Z",
+    "fetchedAt": "2026-11-16T05:27:45.004Z",
+    "snippet": "A Vulcan rocket owned by United Launch Alliance, the joint venture of Boeing and Lockheed Martin, failed on Sunday shortly after lift-off from Florida, destroying its payload of 40 satellites from Amazon’s Leo internet network in the launch company’s first mis",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/16/eec0ba2a-eaa6-43db-88be-31fe9977d627_9a004f68.jpg?itok=3CbUgQLu&v=1794805276"
+    ]
+  },
+  {
+    "id": "1f35ee6e4dc3ad34",
+    "title": "Apple launches new app to study how people use AI for health",
+    "link": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-16T01:30:00.000Z",
+    "fetchedAt": "2026-11-16T05:27:44.542Z",
+    "snippet": "Apple's new app for a study will answer everyday medical questions",
+    "images": []
+  },
+  {
+    "id": "d365b1ba701dd9b1",
+    "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+    "link": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-15T23:30:00.000Z",
+    "fetchedAt": "2026-11-16T05:27:44.544Z",
+    "snippet": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.",
+    "images": []
+  },
+  {
+    "id": "4cd021e6cd300f93",
+    "title": "Britain’s Prince Harry meets war-wounded on surprise Ukraine trip",
+    "link": "https://www.scmp.com/news/world/europe/article/3374521/prince-harry-salutes-wounded-ukrainian-veterans-role-models-surprise-ukraine-visit",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-15T23:27:25.000Z",
+    "fetchedAt": "2026-11-16T05:27:45.004Z",
+    "snippet": "Britain’s Prince Harry hailed wounded Ukrainian veterans as society’s role models on Sunday and said they need to continue receiving support from Kyiv as he wrapped up an unannounced weekend visit to the war-torn country. It was Harry’s fourth visit to Ukraine",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/16/80323d6d-712d-49c7-a150-f74d754ccd36_70d4914d.jpg?itok=PwpN1q4E&v=1794797790"
+    ]
+  },
+  {
+    "id": "76d8ac03e46f3720",
+    "title": "Journalist who covered missing persons in Mexico found dead",
+    "link": "https://www.scmp.com/news/world/americas/article/3374520/mexican-journalist-who-reported-missing-persons-found-dead-acapulco",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-15T22:23:36.000Z",
+    "fetchedAt": "2026-11-16T05:27:45.004Z",
+    "snippet": "Mexican authorities said on Sunday they have ⁠launched a murder ⁠investigation into the death of ⁠journalist Eduardo Flores, who covered security, social issues and missing persons from the coastal city of Acapulco and whose killing would mark the latest in a ",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/16/4bc7d366-a46c-4f89-91ba-b002e2c5b933_b3bf9bd9.jpg?itok=Aem-780N&v=1794793731"
+    ]
+  },
+  {
+    "id": "1f74fa3bef6a7576",
+    "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+    "link": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-15T21:56:35.000Z",
+    "fetchedAt": "2026-11-16T05:27:44.544Z",
+    "snippet": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
+    "images": []
+  },
+  {
+    "id": "8dfe33668715573b",
+    "title": "Australia, UK, Canada, Italy urge Israel to let aid into Gaza after flooding",
+    "link": "https://www.scmp.com/news/world/middle-east/article/3374519/australia-uk-canada-and-italy-urge-israel-allow-rapid-gaza-aid-access",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-15T21:43:53.000Z",
+    "fetchedAt": "2026-11-16T05:27:45.004Z",
+    "snippet": "Australia, the UK, Canada and Italy on Sunday urged Israel to allow “rapid and unimpeded” humanitarian access to Gaza, calling the situation on the ground “dire”. “We today urge the Government of Israel to stop the delays now and allow immediate, rapid and uni",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/16/204abf46-2551-42e4-9f17-c2f36c0503af_87fead42.jpg?itok=mx6IuThj&v=1794801919"
+    ]
+  },
+  {
+    "id": "6244616319d9c2ee",
+    "title": "Hundreds of thousands of Czechs rally against public-media funding overhaul",
+    "link": "https://www.scmp.com/news/world/europe/article/3374518/czechs-stage-huge-rally-against-public-media-funding-overhaul",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-15T21:11:44.000Z",
+    "fetchedAt": "2026-11-16T05:27:45.004Z",
+    "snippet": "Hundreds of thousands of Czechs rallied in Prague on Sunday against the nationalist government’s plan to overhaul public-media funding, which critics see as a threat to press freedom. The government of billionaire Prime Minister Andrej Babis wants to switch fr",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/16/310cf5de-acb8-4ea2-8d63-fa80b3f70f3d_9fb67d89.jpg?itok=5oLcIgmC&v=1794799030"
+    ]
+  },
+  {
+    "id": "a8721df958eb82eb",
+    "title": "30 must-have PC tool gifts for hobbyists and makers",
+    "link": "https://www.tomshardware.com/gift-guides-seasonal-sales/30-must-have-pc-tool-gifts-for-hobbyists-and-makers-essential-bench-upgrades-for-enthusiasts-with-a-project-from-electric-screwdrivers-to-cordless-air-dusters",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-15T21:00:00.000Z",
+    "fetchedAt": "2026-11-16T05:27:44.598Z",
+    "snippet": "Whether you're a PC builder or a hobbyist with a 3D printer, you'll need tools to build, clean, repair and complete your projects. Here are some of the best ones you can pick up for a techie over this holiday season.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/FSp9tWj3BREGgiDNZx5CAM-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/W23qY4Cs7nywzo5NhenAaF-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/8QNCHeuLE38QWWi3kSWThX-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/P4iTxSxQ588axkUSVJBR2G-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/WkeS9UYzLPN5FTRmsSxREX-1920-80.png"
+    ]
+  },
+  {
+    "id": "56e1feb3dc2da112",
+    "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
+    "link": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-15T20:20:57.000Z",
+    "fetchedAt": "2026-11-16T05:27:44.544Z",
+    "snippet": "While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once.",
+    "images": []
+  },
+  {
+    "id": "0a34080892116d10",
+    "title": "Nato to skip 2027 summit as high-level meetings are scaled back",
+    "link": "https://www.scmp.com/news/world/europe/article/3374517/nato-skip-leaders-summit-albania-next-year-high-level-meetings-are-scaled-back",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-15T19:35:48.000Z",
+    "fetchedAt": "2026-11-16T05:27:45.004Z",
+    "snippet": "Nato is scaling back its high-level meetings and will not hold a leaders’ summit in Albania next year as previously planned amid tension within the alliance over defence spending, Iran and the war in Ukraine. Albanian Prime Minister Edi Rama said on Thursday t",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/16/35b9cba3-1819-4331-a911-66ce1689fd5e_8dffdcbb.jpg?itok=hUQmyhll&v=1794801248"
+    ]
+  },
+  {
     "id": "019e34ea189791b6",
     "title": "Zelensky says Starshield restrictions threaten Ukraine’s energy defences ahead of winter",
     "link": "https://www.scmp.com/news/world/russia-central-asia/article/3374516/zelensky-says-starshield-restrictions-threaten-ukraines-energy-defences-ahead-winter",
@@ -10,6 +324,24 @@
     "snippet": "Restrictions on Ukraine’s Starshield satellite communications system are hindering its ability to intercept Russian drones, President Volodymyr Zelensky said on Sunday. He warned that limitations on the system, operated by Elon Musk’s SpaceX, could weaken defe",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/16/b5290dca-b924-4d21-a192-e0e44831c4ea_a8d13228.jpg?itok=q5cKnp4t&v=1794765978"
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "3620d42d39f5c546",
+    "title": "Zelensky warns Starshield limits weaken Ukraine defences against aerial attacks",
+    "link": "https://www.scmp.com/news/world/russia-central-asia/article/3374516/zelensky-says-starshield-restrictions-threaten-ukraines-energy-defences-ahead-winter",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-15T18:10:29.000Z",
+    "fetchedAt": "2026-11-16T05:27:45.004Z",
+    "snippet": "Restrictions on Ukraine’s Starshield satellite communications system are hindering its ability to intercept Russian drones, President Volodymyr Zelensky said on Sunday. He warned that limitations on the system, operated by Elon Musk’s SpaceX, could weaken defe",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/16/c90e3607-4a8e-44d7-b75d-75e6dbb02d3a_8a7334e7.jpg?itok=_dkP4XcM&v=1794802045"
     ]
   },
   {
@@ -23,7 +355,12 @@
     "snippet": "Dai's post shows how much Nvidia employees looked up to the former CEO.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/V58pCYCTU9ChhLRLiLHMe5-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e8f9e2ec0a1945ba",
@@ -37,7 +374,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/jzKCnT5TDpoxxFHV85FXgk-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/dEo68vKHBzmhHAKc8axnpk-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "d6d20486977195e2",
@@ -47,10 +389,15 @@
     "category": "China AI",
     "publishedAt": "2026-11-15T16:56:37.000Z",
     "fetchedAt": "2026-11-15T18:36:41.598Z",
-    "snippet": "Estonia said on Sunday it would close its border with Russia after stopping what it said was an attempted arson attack by Russia’s GRU military intelligence on a drone factory. “Estonia will close all Estonian-Russian border crossing points as of 1 December,” ",
+    "snippet": "Estonia said on Sunday it would close its border with Russia after stopping what it said was an attempted arson attack by Russia’s GRU military intelligence on a drone factory. “Estonia will close all Estonian-Russian border crossing points as of 1 December,”",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/16/335abb15-1d26-42c4-a017-589e61e18fbc_dfeaf4de.jpg?itok=JFIEuLoZ&v=1794763380"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "43c0df16bd7f8eb6",
@@ -63,7 +410,12 @@
     "snippet": "US Treasury Secretary Scott Bessent on Sunday said Nvidia needs to “go outside the company” as it seeks a ‌new chief executive after Jensen Huang abruptly stepped down last week. Huang stepped down on Thursday after revelations of extramarital affairs, includi",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/16/d298aa75-9051-4ea8-9c74-046652614b48_71eef34c.jpg?itok=NQ323kj2&v=1794760527"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e22376875d34d192",
@@ -76,7 +428,12 @@
     "snippet": "US DoJ partially disrupts FaceStealer campaign that's taken $400m from victims and threatens open-source software — gov techs disrupt cloud infrastructure and find 900 videos of targeted tech workers",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/eRmC2ngDGJBX3pdq9XNxjX-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "5d64c691e2569b67",
@@ -92,7 +449,12 @@
       "https://cdn.mos.cms.futurecdn.net/8wzDfPq3rAtqfTQCkCjHCU-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/oFAeup9fMTnGd2Hh9PEd9U-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/WTuQwFZj7aECmiicMA8AvT-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "ee84cf22c8156d44",
@@ -106,7 +468,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/LVU3kxMU42xw93Lbc2p2Wc-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "4e7a2b908d685985",
@@ -120,7 +487,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/vnqdtRupVqWHAik43ZWctH-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/xi79WuWDZXzix4Fc7sXNMn-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "58c62fc8e2ba4dc9",
@@ -130,10 +502,15 @@
     "category": "China AI",
     "publishedAt": "2026-11-15T15:00:00.000Z",
     "fetchedAt": "2026-11-15T18:36:41.598Z",
-    "snippet": "US President Donald Trump on Sunday broke his silence on the nationwide ground stop that snarled airline travel this weekend, using the incident to push Congress on money to fully upgrade America’s air traffic control system. The Republican president has been ",
+    "snippet": "US President Donald Trump on Sunday broke his silence on the nationwide ground stop that snarled airline travel this weekend, using the incident to push Congress on money to fully upgrade America’s air traffic control system. The Republican president has been",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/15/2e46881c-08a9-49ce-9eaa-eed61cc08ef8_8392bd78.jpg?itok=5ITT--wB&v=1794754784"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "d00ef9ee00e22aa2",
@@ -146,7 +523,12 @@
     "snippet": "The Pentagon has been testing packs of autonomous ground vehicles in simulated combat situations.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/aLBJMibNLNdwySjZPXCJmB-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "7c565d1c40b81779",
@@ -159,7 +541,12 @@
     "snippet": "Many see the US war on Iran as a colossal geopolitical bungle, failing to secure its larger strategic objectives. Yet it has allowed the blundering Trump administration to move into an immensely powerful position – one it seems ready to embrace. With its new-f",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/12/d2a0b0c9-011f-4631-b777-cbef24015464_aacbe524.jpg?itok=ToyjgzvU&v=1794489215"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "6707758d34968efc",
@@ -169,10 +556,15 @@
     "category": "China AI",
     "publishedAt": "2026-11-15T12:02:08.000Z",
     "fetchedAt": "2026-11-15T18:36:41.599Z",
-    "snippet": "Hamas said on Sunday that a senior commander who helped plan and oversee the October 7, 2023, attack on Israel had been killed in an Israeli air strike, with the Israeli ‌military confirming his death. Samir Abu Younis, 53, the commander of the Rafah brigade, ",
+    "snippet": "Hamas said on Sunday that a senior commander who helped plan and oversee the October 7, 2023, attack on Israel had been killed in an Israeli air strike, with the Israeli ‌military confirming his death. Samir Abu Younis, 53, the commander of the Rafah brigade,",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/15/9dd51bb9-974a-4d4b-8fba-d3f5a9645717_f9254521.jpg?itok=hMysTpsG&v=1794744123"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "86abd9cb283b5d78",
@@ -185,7 +577,12 @@
     "snippet": "Huawei says the Kirin 9050's Balong AI Modem runs three of four SIMs on standby and flags over 90% of forwarded overseas scam calls, and claims gains over an unnamed rival.",
     "images": [
       "https://cms-image.pandaily.com/1/balong_ddabbbb105.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "54b5ab7710712350",
@@ -198,7 +595,12 @@
     "snippet": "HyperS2C, formed from S2C and HyperSilicon, launched a '5+1' digital front-end EDA toolchain, the HyperHybrid platform and two verification agents.",
     "images": [
       "https://cms-image.pandaily.com/1/hypers2c_0eff4efbd9.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c91b3c031f9aa710",
@@ -211,7 +613,12 @@
     "snippet": "yetone's Alma was third in a Nov. 11 snapshot of the FrontierHarness v1.1 coding-harness benchmark. On the completed board it ranks sixth by pass rate, at 59.7%.",
     "images": [
       "https://cms-image.pandaily.com/1/alma_1b16546ac0.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "98808518691409c5",
@@ -224,7 +631,12 @@
     "snippet": "D-Robotics and Infinigence AI link RLark, RLinf, RPent and APXInf to Sunrise chips and RoboGo. RLinf is on RoboGo, and APXInf runs Pi0.5 on Sunrise S600.",
     "images": [
       "https://cms-image.pandaily.com/1/drobotics_73cc38016f.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "68dc079cf95143cd",
@@ -237,7 +649,12 @@
     "snippet": "When Iran’s military planners prepared to hit American bases in the Middle East, they relied on intelligence from an unlikely source: US service members themselves. According to security experts and even the US military, Iran harvested data from social media a",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/15/a8afdfeb-c34e-456a-a531-077e2cb82bf2_6dd78aa9.jpg?itok=8ObgZ0ZY&v=1794722222"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "ed741f1c0d28ba5b",
@@ -5582,504 +5999,6 @@
     "snippet": "US President Donald Trump on Sunday said he was “only kidding” when he suggested UFC CEO Dana White could become his next White House press secretary, ‌after a social media post a day earlier stirred speculation about recruiting his feisty ally and signalled a",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/961f6785-92d7-4fde-8db3-ab9c026f0159_8ae64228.jpg?itok=Dlvy8Rw5&v=1794184824"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "6a06e7d0b086b49d",
-    "title": "Drone attack on Iraq gas complex causes power outages",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3373721/attack-iraq-gas-complex-disrupts-supply-regions-power-plants-authorities-say",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-08T22:09:47.000Z",
-    "fetchedAt": "2026-11-09T05:18:04.288Z",
-    "snippet": "An Emirati-owned gas complex in Iraq’s autonomous Kurdistan region was attacked on Sunday, disrupting the gas supply to the region’s power plants, local Kurdish authorities said. “At 11pm (2000 GMT), the Khor Mor gas field came under a terrorist attack,” the r",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/e3423188-fa11-48d5-b8ea-0d665ccc3331_bf7ce915.jpg?itok=yrRWpc4t&v=1794175736"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "05ce177ee53eed7f",
-    "title": "Nvidia CEO Jensen Huang admits to having an affair with suspected Chinese spy",
-    "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-ceo-jensen-huang-admits-to-having-an-affair-with-suspected-chinese-spy-jensen-apologizes-in-letter-to-staff-company-board-forms-independent-committee-to-investigate",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-08T21:27:29.000Z",
-    "fetchedAt": "2026-11-09T05:18:04.078Z",
-    "snippet": "Nvidia's board of directors is investigating a report about Jensen Huang's alleged affair with a client, claims it is still confident in Jensen and leadership team.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/Kjestg9jiuvnbE868dhwjf-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "f9d8181201e1ba62",
-    "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
-    "link": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-08T21:00:11.000Z",
-    "fetchedAt": "2026-11-09T05:18:03.765Z",
-    "snippet": "In a memo to the company, Huang admitted that he had an affair.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "b04da23f729c2593",
-    "title": "UK’s King Charles, Prince Harry honour war dead at separate Remembrance Day events",
-    "link": "https://www.scmp.com/news/world/europe/article/3373720/king-charles-and-prince-harry-mark-remembrance-day-separately",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-08T20:05:03.000Z",
-    "fetchedAt": "2026-11-09T05:18:04.288Z",
-    "snippet": "Prince Harry attended a Remembrance Sunday event in a small English town, far away from Britain’s main ceremony to honour the country’s war dead led by his father, King Charles. Ceremonies are held at war memorials across Britain on the Sunday closest to Armis",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/8ae1e7c2-5222-4203-b782-1bf0af7c01db_d1733d96.jpg?itok=HsAAesNU&v=1794185475"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "65aa9966e04bb984",
-    "title": "Police make arrest in deadly shooting at a North Carolina university",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3373719/police-make-arrest-deadly-shooting-north-carolina-university",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-08T18:59:32.000Z",
-    "fetchedAt": "2026-11-09T05:18:04.288Z",
-    "snippet": "Authorities on Sunday arrested a man in a shooting during homecoming weekend at Winston-Salem State University in North Carolina that left one person dead and at least one other person injured. Winston-Salem police said officers who were on campus for homecomi",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/82473f3d-3bfe-4124-84b1-9fbbd068ea03_ee4422da.jpg?itok=oERTo3sC&v=1794188095"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "b797862e77e2086f",
-    "title": "Media industry still plagued by sexual abuse, UK minister warns",
-    "link": "https://www.scmp.com/news/world/europe/article/3373718/media-industry-still-has-problem-sexual-abuse-uk-culture-minister-says",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-08T18:35:55.000Z",
-    "fetchedAt": "2026-11-09T05:18:04.288Z",
-    "snippet": "Britain’s culture minister, Lisa Nandy, said on ⁠Sunday there ⁠was still a problem ⁠with sexual abuse in the media industry after Russell Brand, once a high-profile comedian and actor, was convicted of raping a woman and sexually assaulting three more. Brand’s",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/2265b649-9251-4f5f-958b-a07fb46269aa_6922ad6a.jpg?itok=VjcLaQUn&v=1794190606"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "bf9bb0951c671683",
-    "title": "Iran executes 3 more men over January protests, judiciary says",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3373716/iran-executes-3-more-men-over-january-protests-judiciary-says",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-08T17:06:47.000Z",
-    "fetchedAt": "2026-11-08T17:45:16.138Z",
-    "snippet": "Iranian authorities executed three men on Sunday on charges linked to January 2026 protests, the judiciary said, after what rights groups described as an unfair trial. Norway-based Iran Human Rights (IHR) said the hangings at dawn of Hassan Divband, Hamid Kaze",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/87085d78-ebe8-4579-a9ae-9051d63774b2_38505930.jpg?itok=YBwkfwR1&v=1794157512"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "61209b11de9aa732",
-    "title": "Iran executes 3 more men over January protests",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3373716/iran-executes-3-more-men-over-january-protests-judiciary-says",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-08T17:06:47.000Z",
-    "fetchedAt": "2026-11-09T05:18:04.288Z",
-    "snippet": "Iranian authorities executed three men on Sunday on charges linked to January 2026 protests, the judiciary said, after what rights groups described as an unfair trial. Norway-based Iran Human Rights (IHR) said the hangings at dawn of Hassan Divband, Hamid Kaze",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/f0037b3f-4696-4f90-b7cb-ffa9754b598c_d680353f.jpg?itok=C4lPzW70&v=1794189923"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "23a0cfaff7462519",
-    "title": "Tens of thousands of Dutch protesters take to Amsterdam streets to support Palestinians",
-    "link": "https://www.scmp.com/news/world/europe/article/3373715/tens-thousands-dutch-protesters-take-amsterdam-streets-support-palestinians",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-08T16:35:44.000Z",
-    "fetchedAt": "2026-11-08T17:45:16.138Z",
-    "snippet": "Tens of thousands of people dressed in red thronged the streets of Amsterdam on Sunday to denounce ongoing violence against Palestinians in Gaza, carrying signs reading “Stop the Genocide”. Organisers said some 20,000 people attended the “red line” protest, de",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/8d62968f-8796-4e06-8cb2-3029cb29f06a_2d468645.jpg?itok=ez3dotK_&v=1794155666"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "67d01f81a47efe54",
-    "title": "Thousands march through Amsterdam in solidarity with Palestinians",
-    "link": "https://www.scmp.com/news/world/europe/article/3373715/tens-thousands-dutch-protesters-take-amsterdam-streets-support-palestinians",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-08T16:35:44.000Z",
-    "fetchedAt": "2026-11-09T05:18:04.288Z",
-    "snippet": "Tens of thousands of people dressed in red thronged the streets of Amsterdam on Sunday to denounce ongoing violence against Palestinians in Gaza, carrying signs reading “Stop the Genocide”. Organisers said some 20,000 people attended the “red line” protest, de",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/562e60cd-350f-4f73-8d89-e3ab2a5b9800_235743c8.jpg?itok=5i_IgRkT&v=1794191802"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "d9d6e27754fdbd55",
-    "title": "Diamond Foundry creates world's first 200mm single-crystal diamond wafer",
-    "link": "https://www.tomshardware.com/pc-components/cooling/diamond-foundry-creates-worlds-first-200mm-single-crystal-diamond-wafer-massive-gem-aims-to-solve-ai-chip-cooling-crisis-envisioned-as-a-cooling-material-for-semiconductors",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-08T15:25:00.000Z",
-    "fetchedAt": "2026-11-08T17:45:15.741Z",
-    "snippet": "This 200mm single-crystal diamond wafer is designed to efficiently remove heat and prevent hotspots from forming on AI processors.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/PhYnHgbq2oQkd3ZZoMnZXj-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/xhAUnMhwcXcDyBHwo4SkdQ-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/NMVYfJu9ZZJU2aspMfP6XB-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/LbAvq59jxhbKKg82YriwWB-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "8b68baecd1c89592",
-    "title": "Logitech G502 X Lightspeed Review: No lights, same price",
-    "link": "https://www.tomshardware.com/peripherals/gaming-mice/logitech-g502-x-lightspeed-review",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-08T15:00:00.000Z",
-    "fetchedAt": "2026-11-08T17:45:15.741Z",
-    "snippet": "Logitech's G502 X Lightspeed strips the G502 X Plus of its lighting, but retains the $160 price tag.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/LRYNJSMjBm7jkB5d34dfZ9-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/a3fLpUpJ3xJD8mJa67FdR9-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/BrCjMbioSMgyVYdB53F5N9-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/H2bRMJmcMFc8jdgdapqNN9-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Li3NThtVeKNXdba5YjZ7R9-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "cdec19e252bc7c1f",
-    "title": "Train collision in Egypt kills 4, injures 88",
-    "link": "https://www.scmp.com/news/world/africa/article/3373713/train-collision-egypt-kills-4-injures-88",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-08T14:56:42.000Z",
-    "fetchedAt": "2026-11-08T17:45:16.138Z",
-    "snippet": "Two trains collided south of the Egyptian capital on Sunday, derailing several carriages, killing four and injuring dozens, according to the authorities. Egypt’s railway authority said a train travelling from Giza to Fayoum crashed into the rear of another ser",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/08/93202e10-d48a-42ac-bc88-32a4844ab2d8_f41d3a0e.jpg?itok=XgW5ZU2u&v=1794149797"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "3138418a4178ddc8",
-    "title": "The end of an era as Linux 7.5 purges the last 30-year-old Intel MMX optimizations from Pentium age",
-    "link": "https://www.tomshardware.com/software/linux/the-end-of-an-era-as-linux-7-5-purges-the-last-30-year-old-intel-mmx-optimizations-from-pentium-age-open-source-os-retires-ancient-1997-pentium-instructions-to-streamline-code",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-08T14:40:00.000Z",
-    "fetchedAt": "2026-11-08T17:45:15.741Z",
-    "snippet": "Linux developers are preparing to make Intel’s ancient MultiMedia eXtensions irrelevant, with the last MMX code now set to be removed from the kernel.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/rXG5LfQBM4KrVowgfX4A3g-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "94d3f86451bd4970",
-    "title": "Ukraine builds combat robots to hunt Russian troops in underground gas pipelines",
-    "link": "https://www.tomshardware.com/tech-industry/robotics/ukraine-builds-combat-robots-to-hunt-russian-troops-in-underground-gas-pipelines-ugvs-adapted-following-15-kilometer-subterranean-assault",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-08T14:36:39.000Z",
-    "fetchedAt": "2026-11-08T17:45:15.741Z",
-    "snippet": "Ukraine is developing a new class of combat robots designed to operate inside underground gas pipelines.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/LxFmy4cYLLRUZKdapra5MC-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "90c6b2d731be8978",
-    "title": "Nvidia released its 8800 GTX GPU 20 years ago today, celebrates with Steam game homage",
-    "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-released-its-8800-gtx-gpu-20-years-ago-today-celebrates-with-steam-game-homage-interactive-demos-eye-watering-minimum-requirements-include-rtx-4070-32gb-ram-and-30gb-storage",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-08T14:20:00.000Z",
-    "fetchedAt": "2026-11-08T17:45:15.742Z",
-    "snippet": "On this day in 2006, Nvidia released the legendary GeForce 8800 GTX graphics card and it is celebrating the event with a very demanding (but free) interactive Steam demo.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/TmUVtxVZfu7Yc9Rnd5tCtA-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/x24zVCi3L9xn9GwXvgMDeA-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/GgXRGS23X6wVgnAFhHScjA-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/eJ8WTgNh6f6jBBde6bGMtA-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/NVQyyU27qufLmxJjdKVuUA-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "4e9f135dde2ec8f8",
-    "title": "Open-source GPU task manager reveals exactly what's eating your VRAM",
-    "link": "https://www.tomshardware.com/pc-components/gpus/open-source-gpu-task-manager-reveals-exactly-whats-eating-your-vram-microsoft-vps-new-gpu-taskman-tool-reveals-every-process-using-your-gpu-how-much-memory-each-uses-and-breaks-down-ai-and-llm-workloads",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-08T13:40:00.000Z",
-    "fetchedAt": "2026-11-08T17:45:15.742Z",
-    "snippet": "A new open-source GitHub project called gputaskman has been released by Microsoft VP Scott Hanselman.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/j6M4fBvsjExPSFtuP5xYyG-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/CJLAMoHHwMZL8chMPQ8k6H-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/wi6yEzpHEwnvbN3qSJbG6H-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c4ab6ffb47202aa3",
-    "title": "Hundreds arrested after Microsoft data center protest turns violent",
-    "link": "https://www.tomshardware.com/tech-industry/data-centers/hundreds-arrested-after-microsoft-data-center-protest-turns-violent-stop-dirty-data-centers-coalition-demands-halt-to-ai-data-center-expansion-dutch-police-seize-break-in-tools-suspected-stolen-items-from-construction-site",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-08T13:20:00.000Z",
-    "fetchedAt": "2026-11-08T17:45:15.742Z",
-    "snippet": "It's unclear which group entered the construction site first, but the action led to the arrest of 150 to 200 protesters.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/TwLpg3gN7h8B8fkmMySvu4-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "38c8fd6ff957be16",
-    "title": "Two Chinese companies cleared to buy banned Nvidia AI chips have empty offices and unknown addresses",
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/two-chinese-companies-cleared-to-buy-banned-nvidia-ai-chips-have-empty-offices-and-unknown-addresses-investigation-reveals-businesses-have-ties-to-sanctioned-chinese-military-suppliers",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-08T13:00:00.000Z",
-    "fetchedAt": "2026-11-08T17:45:15.742Z",
-    "snippet": "The offices for New Matrix and Maginfra, both approved to receive H200 chips, appear abandoned, and people in the buildings say they're unfamiliar with the companies or have never seen anyone working there.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/RAnrUYUPEDMbGSwoqAPETM-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "aa2fa4e81221fe79",
-    "title": "PC's with 64GB of RAM plummet 18% as memory prices soar",
-    "link": "https://www.tomshardware.com/pc-components/ram/pcs-with-64gb-of-ram-plummet-18-percent-as-memory-prices-soar-cpu-z-install-base-data-shows-ddr4-making-a-surprise-comeback",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-08T12:40:00.000Z",
-    "fetchedAt": "2026-11-08T17:45:15.742Z",
-    "snippet": "CPU-Z data reveals PC memory capacity is dropping for the first time ever. Driven by skyrocketing AI DRAM prices, 64GB RAM adoption plummeted 18% YoY.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/vp5VEBetgZmgodQQoxWEvY-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e7e57a21f81bc7b6",
-    "title": "Houthi attack damages Aramco building in Riyadh’s financial district",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3373700/saudi-aramco-building-riyadh-damaged-attempted-attack",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-08T11:34:24.000Z",
-    "fetchedAt": "2026-11-08T17:45:16.138Z",
-    "snippet": "Windows were blown out across several floors of Saudi oil giant Aramco’s corporate office in the heart of the financial district of the capital Riyadh on Sunday by what the energy ministry said was debris from an attempt to attack the building. The ministry sa",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/08/53e72927-8a5e-47a5-a91e-6e9ec360bc2d_e2ad55b6.jpg?itok=SEjcCnDx&v=1794137655"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "3cd764657fab5b66",
-    "title": "Baidu Maps Adds HarmonyOS Indoor Navigation for 106 Malls Across 22 Cities",
-    "link": "https://pandaily.com/baidu-maps-harmonyos-indoor-navigation-malls-huawei-positioning",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-08T07:03:58.000Z",
-    "fetchedAt": "2026-11-08T17:45:15.624Z",
-    "snippet": "Baidu Maps' HarmonyOS version adds automatic floor switching and continuous indoor-outdoor guidance, starting with 106 malls in 22 cities using Huawei positioning.",
-    "images": [
-      "https://cms-image.pandaily.com/1/baidu_6fd98834ac.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "576aadf38ea79dce",
-    "title": "AutoChips Unveils AC8035 Cockpit-Driving SoC, Targets Engineering Samples in Q1 2027",
-    "link": "https://pandaily.com/autochips-ac8035-cockpit-driving-soc-engineering-samples",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-08T07:03:48.000Z",
-    "fetchedAt": "2026-11-08T17:45:15.625Z",
-    "snippet": "NavInfo's AutoChips targets a single-chip cockpit, L2/L2+ assistance and parking platform with on-device models. AC8035 engineering samples are due in Q1 2027.",
-    "images": [
-      "https://cms-image.pandaily.com/1/autochips_f8d8973d39.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "6098ca1bef0bf033",
-    "title": "Moore Threads Updates AICUBE With Smart-Home Control and Local AI NAS Management",
-    "link": "https://pandaily.com/moore-threads-aicube-aios-smart-home-control-local-ai-nas",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-08T07:03:41.000Z",
-    "fetchedAt": "2026-11-08T17:45:15.625Z",
-    "snippet": "MTT AIOS 1.6.1 adds Matter/ZigBee control, Olares file management, semantic photo search and a desktop-pet mode to Moore Threads' AICUBE.",
-    "images": [
-      "https://cms-image.pandaily.com/1/moore_01a91f6899.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "68ed8a67f991dd4c",
-    "title": "SMEE Displays a Dry Lithography Platform Model at CIIE",
-    "link": "https://pandaily.com/smee-ciie-dry-lithography-platform-model-i-line-krf",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-08T07:03:34.000Z",
-    "fetchedAt": "2026-11-08T17:45:15.625Z",
-    "snippet": "SMEE showed a cutaway model for a shared i-line/KrF lithography platform and cited over 10 million wafers processed by equipment already on production lines.",
-    "images": [
-      "https://cms-image.pandaily.com/1/smee_deb257c9a0.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "29b4e8b54a0e0348",
-    "title": "Will Democrats sway ‘unshackled’ Trump’s Russia-Ukraine stance after midterm rout?",
-    "link": "https://www.scmp.com/news/world/russia-central-asia/article/3373681/will-democrats-sway-unshackled-trumps-russia-ukraine-stance-after-midterm-rout",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-08T07:00:34.000Z",
-    "fetchedAt": "2026-11-08T17:45:16.138Z",
-    "snippet": "The Republicans’ defeat in the US midterm elections was watched closely in Russia, where some observers are predicting it could herald more support for Ukraine when the Democrats take over Congress in January. But if the Kremlin is hearing the ticking of a clo",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/08/f6a34fd1-7f9e-4933-985b-96e58a0d26c5_8f506424.jpg?itok=SpCYz5SY&v=1794118405"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e3bf52b815516e37",
-    "title": "Unitree's Wang Xingxing Calls Security Robots a Coming Growth Area, Citing Overseas Demand",
-    "link": "https://pandaily.com/unitree-wang-xingxing-security-robots-overseas-demand-zhejiang-entrepreneurs",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-08T01:46:29.000Z",
-    "fetchedAt": "2026-11-08T05:05:36.964Z",
-    "snippet": "Unitree's Wang Xingxing said security robots could be the next growth area, citing strong overseas demand, while conceding humanoids are not yet in large-scale use.",
-    "images": [
-      "https://cms-image.pandaily.com/1/unitree_164d5d2884.png"
     ],
     "titleZh": "",
     "snippetZh": "",
