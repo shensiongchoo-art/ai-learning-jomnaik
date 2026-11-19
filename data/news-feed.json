@@ -1,5 +1,323 @@
 [
   {
+    "id": "8825d1bd05c9dd69",
+    "title": "Anthropic’s IPO could deliver $156 billion to charity",
+    "link": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-19T19:10:45.000Z",
+    "fetchedAt": "2026-11-19T20:10:17.949Z",
+    "snippet": "At a stock price of $95, the frontier lab's Public Benefit Foundation, its employee donations, and the company's match tot up to $156 billion.",
+    "images": []
+  },
+  {
+    "id": "0369c7076a961aa0",
+    "title": "Trump bought up to US$265,000 of Nvidia stock in September, disclosure shows",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3375129/trump-bought-us265000-nvidia-stock-september-disclosure-shows",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-19T18:57:18.000Z",
+    "fetchedAt": "2026-11-19T20:10:18.990Z",
+    "snippet": "US President Donald Trump bought as much as US$265,000 in Nvidia stock and sold as much as US$15,000 worth of the stock in September, weeks before reports surfaced of CEO Jensen Huang’s ties to an alleged Chinese spy, according to Trump’s latest financial disc",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/20/426257b2-ef6a-4bd9-b99f-359f6d94bec4_20909ad6.jpg?itok=r4Wbm-xS&v=1795114631"
+    ]
+  },
+  {
+    "id": "3c3cd384cd382664",
+    "title": "Google gives Gemini the ability to use your Mac for you",
+    "link": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-19T18:09:11.000Z",
+    "fetchedAt": "2026-11-19T20:10:17.949Z",
+    "snippet": "Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows.",
+    "images": []
+  },
+  {
+    "id": "76a6d5ec4a7a9fb6",
+    "title": "4 UK men guilty of sex crimes against drugged woman in case with echoes of Pelicot",
+    "link": "https://www.scmp.com/news/world/europe/article/3375127/4-uk-men-guilty-sex-crimes-against-drugged-woman-case-echoes-pelicot",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-19T17:46:13.000Z",
+    "fetchedAt": "2026-11-19T20:10:18.990Z",
+    "snippet": "Four British men were convicted on Thursday of raping or sexually abusing a woman who was drugged by her then husband in a case with echoes of that of Gisele Pelicot, the French woman who became a global symbol in the fight against sexual violence. Joanne Youn",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/20/4359d875-b52c-4feb-b5b5-c108a39fc756_8db8b48f.jpg?itok=QG_Z0mwt&v=1795110366"
+    ]
+  },
+  {
+    "id": "2c9adb8c4b5214d8",
+    "title": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+    "link": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-19T17:38:40.000Z",
+    "fetchedAt": "2026-11-19T20:10:17.949Z",
+    "snippet": "In some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank account balances that didn't belong to them.",
+    "images": []
+  },
+  {
+    "id": "c6d9a801496cc5d8",
+    "title": "Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories",
+    "link": "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-19T17:00:00.000Z",
+    "fetchedAt": "2026-11-19T20:10:17.949Z",
+    "snippet": "Everful has raised $48.5 million to expand its factory-direct sourcing platform, helping retailers source products from overseas manufacturers.",
+    "images": []
+  },
+  {
+    "id": "e447b89f71d535b2",
+    "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
+    "link": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-19T16:59:23.000Z",
+    "fetchedAt": "2026-11-19T20:10:17.949Z",
+    "snippet": "Anthropic's IPO price was set at $83, representing more than $80 billion in new capital raised.",
+    "images": []
+  },
+  {
+    "id": "9ae0ea2137c209e5",
+    "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
+    "link": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-19T16:19:41.000Z",
+    "fetchedAt": "2026-11-19T20:10:17.949Z",
+    "snippet": "In his Nasdaq opening bell speech, Dario Amodei reiterated Anthropic's commitment to pacing AI development, regardless of business or political pressure.",
+    "images": []
+  },
+  {
+    "id": "19a9fe0fc1835af9",
+    "title": "3 dead, 3 trapped as Georgia building collapses after gas blast",
+    "link": "https://www.scmp.com/news/world/europe/article/3375125/3-dead-3-trapped-georgia-building-collapses-after-gas-blast",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-19T15:52:57.000Z",
+    "fetchedAt": "2026-11-19T20:10:18.990Z",
+    "snippet": "A suspected natural gas explosion in a residential block in Tbilisi in the country of Georgia killed three people on Thursday, while three others remained trapped under rubble, officials said. “Rescuers recovered the bodies of two women and a child from the wr",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/19/3add7fef-54b5-40e6-98f9-d2471a08081a_e73bbf3a.jpg?itok=hvDQ_yBs&v=1795103570"
+    ]
+  },
+  {
+    "id": "4c3678308d74e3a3",
+    "title": "Power plays, verbal displays, Xi-Trump-Putin talk: historic Apec summit explained",
+    "link": "https://www.scmp.com/news/china/diplomacy/article/3375122/power-plays-verbal-displays-xi-trump-putin-talk-historic-apec-summit-explained",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-19T15:13:57.000Z",
+    "fetchedAt": "2026-11-19T20:10:18.990Z",
+    "snippet": "We have put together the top 12 stories from our coverage of the 2026 Apec summit held in Shenzhen, China. If you would like to see more of our reporting, please consider subscribing. 1. China, Russia and US: 3 presidents, 3 nuclear powers and 1 historic prece",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/20/914a961c-1be3-4cd2-b0e7-7ad746d2ce1c_3ccca0ee.jpg?itok=sD6OXTwF&v=1795104653"
+    ]
+  },
+  {
+    "id": "527dc29adf2965da",
+    "title": "Intel continues layoffs with cuts to its IT department, hundreds of employees reportedly affected",
+    "link": "https://www.tomshardware.com/pc-components/cpus/intel-continues-layoffs-with-cuts-to-its-it-department-hundreds-of-employees-reportedly-affected-companys-workforce-reduced-by-27-800-under-lip-bu-tan",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-19T14:58:13.000Z",
+    "fetchedAt": "2026-11-19T20:10:18.305Z",
+    "snippet": "Intel continues to reduce headcount, IT department affected this time.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/HtxYQrfbwNDmi4SjXbdcqn-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "bf471e4efe5db3aa",
+    "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+    "link": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-19T14:54:39.000Z",
+    "fetchedAt": "2026-11-19T20:10:17.949Z",
+    "snippet": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead.",
+    "images": []
+  },
+  {
+    "id": "9f2f3781e55b2dd8",
+    "title": "Superhuman pushes its Go assistant everywhere",
+    "link": "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-19T14:00:00.000Z",
+    "fetchedAt": "2026-11-19T20:10:17.949Z",
+    "snippet": "Superhuman is making Go its central agent and making it available in Docs and Mail.",
+    "images": []
+  },
+  {
+    "id": "3060edc013881348",
+    "title": "Supermicro sued by shareholders over claims Nvidia executive’s wife knew about illicit China sales",
+    "link": "https://www.tomshardware.com/tech-industry/big-tech/supermicro-sued-by-shareholders-over-claims-nvidia-executives-wife-must-have-known-about-illicit-china-sales-former-chief-growth-officer-cenly-chen-is-married-to-outgoing-nvidia-vp-jay-puri",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-19T14:00:00.000Z",
+    "fetchedAt": "2026-11-19T20:10:18.305Z",
+    "snippet": "A civil lawsuit claimed that there was \"no way Cenly Chen lacked knowledge about the company's illicit sales.\"",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/Rs4SbA8spx4NMQeGPyN2G8-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "f91a9f8a93099685",
+    "title": "Developer vibe codes Windows 11 alternative operating system for amd64, arm64, and riscv64 hardware",
+    "link": "https://www.tomshardware.com/software/windows/developer-vibe-codes-windows-11-alternative-operating-system-for-amd64-arm64-and-riscv64-hardware-libernt-is-a-free-64-bit-clone-promising-reliable-stable-and-efficient-performance",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-19T13:30:00.000Z",
+    "fetchedAt": "2026-11-19T20:10:18.305Z",
+    "snippet": "There’s a new vibe-coded OS in town going by the name of LiberNT.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/5p8cbG9PKWyM6kkPPAFXyP-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/fuzrtrpitT58iLG7oZTDwP-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "8025a9c98fa0bf43",
+    "title": "The Download: a living liver, a billion-dollar battery deal, and AI hype",
+    "link": "https://www.technologyreview.com/2026/11/19/1148979/the-download-liver-kept-alive-sila-battery-deal-ai-hype/",
+    "source": "MIT Technology Review",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-19T13:10:00.000Z",
+    "fetchedAt": "2026-11-19T20:10:17.947Z",
+    "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A human liver has been kept alive outside the body for a record seven weeks Researchers in Australia claim they’ve kept a ",
+    "images": [
+      "https://wp.technologyreview.com/wp-content/uploads/2026/05/china-bci.jpg?fit=2128,1196"
+    ]
+  },
+  {
+    "id": "3563077df4279e0c",
+    "title": "Intel 18A yields hit 70% as company signs Microsoft as EMIB customer",
+    "link": "https://www.tomshardware.com/tech-industry/semiconductors/intel-18a-yields-hit-70-percent-as-company-signs-microsoft-as-emib-customer-the-first-company-to-publicly-commit-to-intels-new-packaging-technology",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-19T13:00:00.000Z",
+    "fetchedAt": "2026-11-19T20:10:18.305Z",
+    "snippet": "Intel's 18A yields achieve an important milestone as the company signs a long-term Xeon supply deal and EMIB usage agreement with Microsoft.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/hrvPDHp2MHzLKpBMubSioa-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/kF34ZcVuL5GZsmkRd7GZND-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "c0f4425a673c478e",
+    "title": "Pakistan undersea cable fault causes internet failure near Strait of Hormuz",
+    "link": "https://www.tomshardware.com/networking/pakistan-undersea-cable-fault-causes-internet-failure-near-strait-of-hormuz-fault-detected-offshore-weeks-after-iran-threatened-infrastructure-in-the-region",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-19T12:30:00.000Z",
+    "fetchedAt": "2026-11-19T20:10:18.305Z",
+    "snippet": "Pakistan's telecommunications authority has confirmed that an undersea network cable fault is behind internet connectivity issues in the country, adding that Transworld Associates is looking into what caused the issue and when it expects it to be fixed. Traffi",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/PcZjwetE46JiY4feLoHyr3-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/oFSwGGLZ7oRFPndvsMchAQ-1920-80.png"
+    ]
+  },
+  {
+    "id": "a70ab24d7f9d492e",
+    "title": "A human liver has been kept alive outside the body for a record seven weeks",
+    "link": "https://www.technologyreview.com/2026/11/19/1148934/a-human-liver-has-been-kept-alive-outside-the-body-for-seven-weeks-setting-a-record/",
+    "source": "MIT Technology Review",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-19T12:00:00.000Z",
+    "fetchedAt": "2026-11-19T20:10:17.947Z",
+    "snippet": "Researchers in Australia claim they’ve kept a human liver alive, on life support, outside the body for seven weeks, opening up speculative new possibilities in biomedical engineering. The feat, whose details are pending publication, was carried out in Sydney a",
+    "images": []
+  },
+  {
+    "id": "3f0c246b26ce92d0",
+    "title": "Intel Diamond Rapids shows signs of life in SC26 demo running live server",
+    "link": "https://www.tomshardware.com/pc-components/cpus/intel-diamond-rapids-shows-signs-of-life-in-sc26-demo-running-live-server-next-gen-xeon-7-cpu-breaks-cover-at-partner-booths-no-showcase-from-intel",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-19T11:30:00.000Z",
+    "fetchedAt": "2026-11-19T20:10:18.306Z",
+    "snippet": "Intel’s next-gen Xeon Diamond Rapids CPUs appeared at two booths during SC26, one of which featured a running server, but neither were directly from Intel.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/c6wWW88xn4YtKrcAiGix3h-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/kHXpNs8MuRKsaEtRKs3JF5-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/pWfhVnLSkYUW5qijhHRPp8-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/ZJSVRpaCtkGTUSuxavfnsC-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/W4WCaZBckuhGj6fxnMmRLM-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "4e0d5cf5a52fd303",
+    "title": "Ukraine deploys homemade 'flying modems' in daring drone attack to destroy Crimean Bridge, ditching Elon Musk's Starlink",
+    "link": "https://www.tomshardware.com/networking/ukraine-deploys-homemade-flying-modems-in-daring-drone-attack-to-destroy-crimean-bridge-ditching-elon-musks-starlink-airborne-relay-stations-allow-pilots-to-dodge-russian-air-defences-to-deliver-1-200kg-payload",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-19T11:11:29.000Z",
+    "fetchedAt": "2026-11-19T20:10:18.306Z",
+    "snippet": "Ukrainian forces ditched Elon Musk's Starlink and used a network of \"flying modems\" to build a relay network that allowed them to maintain a live feed of an attack on the Crimean Bridge, even as Russia tried to block the signal.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/W4bNjvtdxZJqKsG4ybdwT7-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Ff8qW7gTwUZFZmPvceeLFd-1920-80.png"
+    ]
+  },
+  {
+    "id": "dc6903d34f26f60d",
+    "title": "What a billion-dollar deal says about the US battery market",
+    "link": "https://www.technologyreview.com/2026/11/19/1148922/sila-panasonic-battery-deal/",
+    "source": "MIT Technology Review",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-19T11:00:00.000Z",
+    "fetchedAt": "2026-11-19T20:10:17.948Z",
+    "snippet": "After a tough few years littered with some high-profile failures, there’s some positive news for next-generation batteries in the US. Sila just signed an agreement with Panasonic Energy, a global battery manufacturer, to supply silicon-carbon anode material, a",
+    "images": []
+  },
+  {
+    "id": "577d47f0d47bdb34",
+    "title": "Three 'e-waste' Nvidia V100s hit 100 tokens per second on Qwen 3.6 35B in a $1,042 homelab rig",
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/three-e-waste-nvidia-v100s-hit-100-tokens-per-second-on-qwen-3-6-35b-in-a-usd1-042-homelab-rig-decommissioned-gpus-outpace-a-usd5-399-m5-max-mac-studio-at-long-contexts",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-19T11:00:00.000Z",
+    "fetchedAt": "2026-11-19T20:10:18.306Z",
+    "snippet": "A homelab builder runs Qwen 3.6 35B on three used Nvidia Tesla V100 GPUs at about 100 tokens per second, in a $1,042 build.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/Mmy36NYLic3BaS5bAHCZZ7-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/A6SeePQLEXNDjF65NZGeNf-1920-80.png"
+    ]
+  },
+  {
+    "id": "0a64b17a5a20e0ae",
+    "title": "Get 32GB of DDR5 for $240 with this blistering Intel gaming PC bundle",
+    "link": "https://www.tomshardware.com/pc-components/get-32gb-of-ddr5-for-usd240-with-this-blistering-intel-gaming-pc-bundle-the-270k-plus-cpu-also-comes-with-a-1tb-990-pro-ssd-z890-and-a-cooler-for-just-usd1-079",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-19T10:54:03.000Z",
+    "fetchedAt": "2026-11-19T20:10:18.306Z",
+    "snippet": "Score Intel's latest Core Ultra 7 270K Plus with a Z890 motherboard and 32GB of DDR5-6000 memory for $240 off with this bundle.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/ygsGxc5LMXakijQcKnAgCi-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/4nA8PkChwLvD3CxEf5JVrR-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/S5p9FDhxSiTDiTr2A2NmeN-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/5i8CKruQqaeZhPqNP63KcN-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/a2H4hirv6Fnv7jHvka5RcN-1920-80.png"
+    ]
+  },
+  {
+    "id": "f0b43d4bef0538b4",
+    "title": "Phancy Announces Phai-A1 Coding Model and Phai-M1 Video Generator",
+    "link": "https://pandaily.com/phancy-phai-a1-coding-weights-ascend-phai-m1-video",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-19T06:49:44.000Z",
+    "fetchedAt": "2026-11-19T20:10:18.301Z",
+    "snippet": "Phancy details Ascend-post-trained Phai-A1 coding weights and the Phai-M1 video trial, with benchmark, context and availability caveats.",
+    "images": [
+      "https://cms-image.pandaily.com/1/phai_official_m1_sample_22ce985095.png"
+    ]
+  },
+  {
     "id": "e5f197ac1d0d8fcd",
     "title": "Van Gogh painting sells for record US$190.4 million after dispute",
     "link": "https://www.scmp.com/news/world/united-states-canada/article/3375017/van-gogh-painting-sells-record-us1904-million-after-dispute",
@@ -10,7 +328,12 @@
     "snippet": "A Vincent van Gogh painting has set a record after selling for US$190.4 million at a Sotheby’s auction in New York. At its first appearance at auction, the painting Chataigniers en fleurs (Blossoming Chestnut Trees) set the highest price a Van Gogh painting ha",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/19/07fecd53-d4ed-4b4c-a7e8-f93775ca1f1d_246aaac7.jpg?itok=VJQtfWHj&v=1795067147"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "15699e2ad5c30ddf",
@@ -20,8 +343,13 @@
     "category": "Other AI Tech",
     "publishedAt": "2026-11-19T05:00:00.000Z",
     "fetchedAt": "2026-11-19T06:31:58.270Z",
-    "snippet": "arXiv:2611.23322v1 Announce Type: new Abstract: One hope for a good human future alongside advanced AI rests on enduring mutualism: humans and AI will need each other, so the relationship will stay good for both. We argue that this hope fails as AI capability ",
-    "images": []
+    "snippet": "arXiv:2611.23322v1 Announce Type: new Abstract: One hope for a good human future alongside advanced AI rests on enduring mutualism: humans and AI will need each other, so the relationship will stay good for both. We argue that this hope fails as AI capability",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "776454535d1baa4d",
@@ -32,7 +360,12 @@
     "publishedAt": "2026-11-19T05:00:00.000Z",
     "fetchedAt": "2026-11-19T06:31:58.270Z",
     "snippet": "arXiv:2611.23365v1 Announce Type: new Abstract: Language models increasingly exhibit behaviors that are difficult to detect in transcripts, such as reward hacking, deception, and sycophancy. Asking the assistant follow-up questions about its actions is unrelia",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "5e9e9a5a6bdd0184",
@@ -42,8 +375,13 @@
     "category": "Other AI Tech",
     "publishedAt": "2026-11-19T05:00:00.000Z",
     "fetchedAt": "2026-11-19T06:31:58.270Z",
-    "snippet": "arXiv:2611.23375v1 Announce Type: new Abstract: Coding agents are billed by the token, yet software engineering says nothing about what a token actually buys. Here we introduce a theory of software thermodynamics. The theory draws analogues from classical and ",
-    "images": []
+    "snippet": "arXiv:2611.23375v1 Announce Type: new Abstract: Coding agents are billed by the token, yet software engineering says nothing about what a token actually buys. Here we introduce a theory of software thermodynamics. The theory draws analogues from classical and",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "5503bc111250ed9d",
@@ -54,7 +392,12 @@
     "publishedAt": "2026-11-19T05:00:00.000Z",
     "fetchedAt": "2026-11-19T06:31:58.270Z",
     "snippet": "arXiv:2611.23398v1 Announce Type: new Abstract: The rapid scale-up of AI infrastructure has made datacenter reliability a cornerstone of the cloud business economy. Since hardware failures in hyper-scale AI clusters can stall multi-million dollar training work",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "0afb35b82c0032dc",
@@ -65,7 +408,12 @@
     "publishedAt": "2026-11-19T05:00:00.000Z",
     "fetchedAt": "2026-11-19T06:31:58.270Z",
     "snippet": "arXiv:2611.23410v1 Announce Type: new Abstract: While multimodal language models can interpret diagrams and generate structured outputs, their capacity to connect passive radio-frequency (RF) design intent, layout geometry, and electromagnetic behavior remains",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "33009d44dbccb6e2",
@@ -76,7 +424,12 @@
     "publishedAt": "2026-11-19T05:00:00.000Z",
     "fetchedAt": "2026-11-19T06:31:58.271Z",
     "snippet": "arXiv:2611.23445v1 Announce Type: new Abstract: Deep vision models operating in resource-constrained environments depend heavily on low-bit quantization, yet compressing weights below 4 bits frequently induces catastrophic accuracy collapse. While mixed-precis",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "d7e58975ac58ca26",
@@ -87,7 +440,12 @@
     "publishedAt": "2026-11-19T05:00:00.000Z",
     "fetchedAt": "2026-11-19T06:31:58.271Z",
     "snippet": "arXiv:2611.23454v1 Announce Type: new Abstract: Access to large-scale clinical text collections is crucial for advancing medical information retrieval research, including clinical note search, patient cohort identification, and domain-adapted retrieval models.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "5d950f85d3596d75",
@@ -97,8 +455,13 @@
     "category": "Other AI Tech",
     "publishedAt": "2026-11-19T05:00:00.000Z",
     "fetchedAt": "2026-11-19T06:31:58.271Z",
-    "snippet": "arXiv:2611.23456v1 Announce Type: new Abstract: Automatic generation of mathematics assessment items is a growing area in educational artificial intelligence, yet classroom deployment remains challenging. Generated questions must satisfy multiple constraints: ",
-    "images": []
+    "snippet": "arXiv:2611.23456v1 Announce Type: new Abstract: Automatic generation of mathematics assessment items is a growing area in educational artificial intelligence, yet classroom deployment remains challenging. Generated questions must satisfy multiple constraints:",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "205d27584574cde7",
@@ -108,8 +471,13 @@
     "category": "Other AI Tech",
     "publishedAt": "2026-11-19T05:00:00.000Z",
     "fetchedAt": "2026-11-19T06:31:58.271Z",
-    "snippet": "arXiv:2611.23476v1 Announce Type: new Abstract: Autonomous AI agents pair a frozen base model with an editable harness of prompts, skills, tool rules, and memory. Recursive self-improvement (RSI) adapts this harness from experience without weight updates, yet ",
-    "images": []
+    "snippet": "arXiv:2611.23476v1 Announce Type: new Abstract: Autonomous AI agents pair a frozen base model with an editable harness of prompts, skills, tool rules, and memory. Recursive self-improvement (RSI) adapts this harness from experience without weight updates, yet",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "cbd4a7ace451dc5f",
@@ -119,8 +487,13 @@
     "category": "Other AI Tech",
     "publishedAt": "2026-11-19T05:00:00.000Z",
     "fetchedAt": "2026-11-19T06:31:58.271Z",
-    "snippet": "arXiv:2611.23480v1 Announce Type: new Abstract: Purpose. To evaluate the diagnostic accuracy and image navigation behavior of vision-language model (VLM) agents under varying exploration strategies. Materials and Methods. In this retrospective study, six VLMs ",
-    "images": []
+    "snippet": "arXiv:2611.23480v1 Announce Type: new Abstract: Purpose. To evaluate the diagnostic accuracy and image navigation behavior of vision-language model (VLM) agents under varying exploration strategies. Materials and Methods. In this retrospective study, six VLMs",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "7c4abc30ddab30f7",
@@ -133,7 +506,12 @@
     "snippet": "BAAI and Qingmao Intelligence extend FlagOS into commercial inference, reporting kernel, serving-latency and prefix-cache improvements.",
     "images": [
       "https://cms-image.pandaily.com/1/flagos_4fc205efd5.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "2b0fe7a04628d90e",
@@ -146,7 +524,12 @@
     "snippet": "Horizon Robotics describes LoFT for reconstructing video geometry; its paper, code and weights remain pending, and results are team-reported.",
     "images": [
       "https://cms-image.pandaily.com/1/loft_f8562abce1.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c8d6190a457353b7",
@@ -159,7 +542,12 @@
     "snippet": "DeepSeek removes separate model-triggered search and fetch fees; model tokens still bill, and direct Search/Fetch calls retain per-request pricing.",
     "images": [
       "https://cms-image.pandaily.com/1/deepseek_1138c65d55.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "8d09520ef5eba568",
@@ -169,10 +557,15 @@
     "category": "China AI",
     "publishedAt": "2026-11-19T01:33:25.000Z",
     "fetchedAt": "2026-11-19T06:31:58.598Z",
-    "snippet": "We have put together stories from our coverage of the first day of Apec in Shenzhen. If you would like to see more of our reporting, please consider subscribing. 1. Rare hug and roaring flyover set stage for historic firsts at Apec in Shenzhen It was a day of ",
+    "snippet": "We have put together stories from our coverage of the first day of Apec in Shenzhen. If you would like to see more of our reporting, please consider subscribing. 1. Rare hug and roaring flyover set stage for historic firsts at Apec in Shenzhen It was a day of",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/19/acc05d23-607c-4b3d-b7b4-eac7f16e25ad_6d194aa2.jpg?itok=Onx45RPr&v=1795051855"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "524b2f4e0a84cdd8",
@@ -183,7 +576,12 @@
     "publishedAt": "2026-11-19T00:42:56.000Z",
     "fetchedAt": "2026-11-19T06:31:58.019Z",
     "snippet": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you might",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "40be1d68d543a8e7",
@@ -194,7 +592,12 @@
     "publishedAt": "2026-11-18T23:45:00.000Z",
     "fetchedAt": "2026-11-19T06:31:58.020Z",
     "snippet": "The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a948a97e699079e3",
@@ -205,7 +608,12 @@
     "publishedAt": "2026-11-18T23:25:17.000Z",
     "fetchedAt": "2026-11-19T06:31:58.020Z",
     "snippet": "“I don’t think [Huang is] disloyal to the United States,\" Musk said.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "2a85860b49cd1d1e",
@@ -216,7 +624,12 @@
     "publishedAt": "2026-11-18T23:17:28.000Z",
     "fetchedAt": "2026-11-19T06:31:58.020Z",
     "snippet": "Microsoft CEO Satya Nadella expressed confidence in Jensen Huang's successor Colette Kress, who is serving as Nvidia's interim CEO.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "68370e13192efa8a",
@@ -229,7 +642,12 @@
     "snippet": "⁠Christian Emmanuel Sanon, a ⁠US-Haitian pastor accused of conspiring ⁠to assassinate and usurp the Caribbean nation’s last sitting president, has been convicted of all charges linked to the murder by a judge in Miami, the Miami Herald reported on Wednesday. S",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/19/74a8f886-877e-44ed-80ec-05a3324eef32_28eed995.jpg?itok=qQVudR04&v=1795043093"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "1cf8502076254049",
@@ -240,7 +658,12 @@
     "publishedAt": "2026-11-18T22:58:11.000Z",
     "fetchedAt": "2026-11-19T06:31:58.020Z",
     "snippet": "Microsoft's CEO says AI agents could disrupt advertising-driven business models, forcing companies like Amazon to rethink how they compete for customers.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "67f7a02c079e870e",
@@ -251,7 +674,12 @@
     "publishedAt": "2026-11-18T22:11:15.000Z",
     "fetchedAt": "2026-11-19T06:31:58.020Z",
     "snippet": "The long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "5785214e307b61c1",
@@ -262,7 +690,12 @@
     "publishedAt": "2026-11-18T21:57:40.000Z",
     "fetchedAt": "2026-11-19T06:31:58.020Z",
     "snippet": "One Wall Street analyst got to the bottom of Nvidia's surprise announcement that it wouldn't be filing its formal quarterly results document, the 10-Q, for weeks.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "b42031f140fd2ebb",
@@ -273,7 +706,12 @@
     "publishedAt": "2026-11-18T21:34:13.000Z",
     "fetchedAt": "2026-11-19T06:31:58.021Z",
     "snippet": "The Anduril co-founder says outdated technology is leaving systems vulnerable to a new wave of AI-enabled attacks.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "5fb26b67d3aa307b",
@@ -284,7 +722,12 @@
     "publishedAt": "2026-11-18T21:31:21.000Z",
     "fetchedAt": "2026-11-19T06:31:58.021Z",
     "snippet": "\"It makes America weaker to knock him out,\" the Anduril CEO said about ousted Nvidia leader Jensen Huang.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "ae1eddde29c0961a",
@@ -295,7 +738,12 @@
     "publishedAt": "2026-11-18T21:04:15.000Z",
     "fetchedAt": "2026-11-19T06:31:58.807Z",
     "snippet": "Experts agree that the breakneck pursuit of recursive self-improvement (RSI) &#8211; AI that can build itself &#8211; will rapidly create [&#8230;]",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e041ee150cd280a9",
@@ -309,7 +757,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/Qrx3YDjFfkMfvHwJgVHPSA-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/Ff8qW7gTwUZFZmPvceeLFd-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "1c56e24b950d27b7",
@@ -322,7 +775,12 @@
     "snippet": "Nvidia’s GeForce 621.14 and 621.24 drivers reportedly rewrite a log file nonstop, writing gigabytes to SSDs every hour.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/MmqRv6C4cxpsk7GWCfvm88-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "fe7a7fddefcc697b",
@@ -349,7 +807,12 @@
     "publishedAt": "2026-11-18T20:07:01.000Z",
     "fetchedAt": "2026-11-19T06:31:58.021Z",
     "snippet": "\"It doesn't feel like it's in like the top 10 weirdest things about my life,\" Altman said.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "ff2c113078bc4a7b",
@@ -415,7 +878,12 @@
     "snippet": "The United States and Venezuela have signed a deal to re-establish military ties that will range from conducting joint training to intelligence sharing, US Defence Secretary Pete Hegseth said on Wednesday in Caracas while visiting the South American nation’s i",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/19/7d003073-7a9c-4f1a-9687-d6e6e18f8b36_d270f03f.jpg?itok=IIzGtGn-&v=1795057182"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "8d5666884e3a3a8e",
@@ -465,7 +933,12 @@
     "snippet": "El Salvador’s President Nayib Bukele said on Wednesday that his troops had demolished the lavish home of a prominent gang leader in Haiti known as Jeff. It was not immediately clear if he was killed. Bukele posted a video on social media that begins with old f",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/19/e97fadfb-845c-40ee-9e05-44d3455f6c72_ca7dbca6.jpg?itok=_ztJFfM1&v=1795063459"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "8db9fd3c69223979",
@@ -5534,452 +6007,6 @@
     "fetchedAt": "2026-11-12T19:40:10.033Z",
     "snippet": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
     "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "fee7248371282630",
-    "title": "Save $119 on DDR5 RAM with this high-end AM5 gaming combo from Newegg",
-    "link": "https://www.tomshardware.com/pc-components/save-usd119-on-ddr5-ram-with-this-high-end-am5-gaming-combo-from-newegg-3-item-gaming-pc-combo-includes-9800x3d-32gb-corsair-vengeance-ddr5-ram-and-premium-msi-x870e-carbon-wifi-motherboard-for-only-usd1-250",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-12T17:34:56.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.253Z",
-    "snippet": "Newegg's latest combo deal pairs 32GB of Corsair Vengeance DDR5-6000 RAM, Ryzen 7 9800X3D, a MSI X870E Carbon Wifi motherboard and a free Rosewill Frostmax 360mm AIO for only $1,250, a savings of $119.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/UTVYgAgrmiW4oPuuxDS6r4-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/9GBpPCzKF8y4vsqQJ9vQHn-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "aff9434bbedd35e2",
-    "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
-    "link": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-12T17:17:58.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.033Z",
-    "snippet": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "d6a9871dbb59fc75",
-    "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
-    "link": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-12T17:00:52.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.033Z",
-    "snippet": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "d703f9106cc233e7",
-    "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
-    "link": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-12T17:00:00.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.033Z",
-    "snippet": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it’s easier for anyone to turn everyday moments into better photos.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "2d756cc727bd7efa",
-    "title": "Jensen Huang agrees to testify before Congress",
-    "link": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-12T16:36:37.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.034Z",
-    "snippet": "Huang, who was ousted as CEO following reports of an alleged affair with a woman suspected of spying for China, agreed to testify Wednesday after several senior lawmakers threatened to subpoena him.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "46dbb6cbdb30ae9a",
-    "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
-    "link": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-12T16:32:33.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.034Z",
-    "snippet": "Nvidia's ousted CEO Jensen Huang's downfall isn’t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "ed5c17445866d622",
-    "title": "President Trump says Apple’s Tim Cook is the only man to replace Jensen Huang as Nvidia CEO",
-    "link": "https://www.tomshardware.com/tech-industry/president-trump-says-apples-tim-cook-is-the-only-man-to-replace-jensen-huang-as-nvidia-ceo-proposes-a-legend-replaces-a-legend-in-call-for-apples-executive-chairman-of-its-board",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-12T16:16:54.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.254Z",
-    "snippet": "President Trump says Tim Cook should replace Jensen Huang as CEO of Nvidia.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/FfXomTDxeW73SWiSBjJufX-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "5dfd95238050e889",
-    "title": "Trump floats Apple chairman Tim Cook as Jensen Huang’s successor",
-    "link": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-12T16:12:44.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.034Z",
-    "snippet": "In a post on Truth Social, President Trump says only one man can take Jensen Huang's place as head of Nvidia: Tim Cook.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "b6bff76a6e06de1c",
-    "title": "Elon Musk says it ‘would be an honor’ to hire ousted Nvidia CEO Jensen Huang",
-    "link": "https://www.tomshardware.com/tech-industry/semiconductors/elon-musk-says-it-would-be-an-honor-to-hire-ousted-nvidia-ceo-jensen-huang-possible-projects-could-include-terafab-spacexs-planned-gpu-manufacturing-or-teslas-ai-accelerators",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-12T15:46:04.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.254Z",
-    "snippet": "A random X poster urged Elon Musk to hire Jensen Huang just hours before the former Nvidia chief resigned from his position.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/4WktTU4NebnQ67ZkTVRuoS-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e86440d523675598",
-    "title": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
-    "link": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-12T14:50:17.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.194Z",
-    "snippet": "The first Gemini smartglasses are a collab between Google, Samsung, Gentle Monster, and Warby Parker.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/WP_ALDEN-Carousel_Lifestyle-copy-1152x648.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/WP_ALDEN-Carousel_Lifestyle-copy-500x500.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "b6b6848697ed1dfb",
-    "title": "Armed robbers flee Paris De Beers store with goods worth hundreds of thousands",
-    "link": "https://www.scmp.com/news/world/europe/article/3374261/armed-robbers-flee-paris-de-beers-store-goods-worth-hundreds-thousands",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-12T14:36:14.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.644Z",
-    "snippet": "Armed robbers stole hundreds of thousands of euros’ worth of luxury goods from a De Beers jewellery store in an upscale district of the French capital before fleeing on motorcycles, Paris police said on Thursday. The robbery took place around 11.15am in the 2n",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/12/52b2e436-7a44-49c2-9943-8ace9770b19f_6197d8e6.jpg?itok=uevG7fYC&v=1794494162"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "ceebbe9d578d4f9d",
-    "title": "US doctor shoots building manager dead, then wounds 4 in Washington",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3374259/5-people-shot-neighbourhood-north-us-white-house",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-12T14:23:48.000Z",
-    "fetchedAt": "2026-11-13T05:41:31.593Z",
-    "snippet": "A disgruntled resident shot dead his building manager and wounded four other people in an upscale neighbourhood of Washington on Thursday before killing himself, police said amid a massive law enforcement response that shut down part of the city. The shooting,",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/13/483ba7e8-979f-41b3-9cef-153474969343_8f491905.jpg?itok=vhgyvmCx&v=1794538391"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "a122113bc953332c",
-    "title": "Trump says US does not ‘need a deal with Iran’",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3374257/trump-says-us-does-not-need-deal-iran",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-12T14:17:38.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.644Z",
-    "snippet": "US President Donald Trump said Thursday that he was directing Vice-President J.D. Vance to focus completely on domestic anti-fraud efforts and not negotiations towards a deal to end war with Tehran. “We don’t need a deal with Iran. Those days have long since p",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/12/7fd289bb-6b3a-4406-84a2-368e6548ff98_1bb4c14c.jpg?itok=qlw9HBWz&v=1794493045"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "463aea173522f211",
-    "title": "Corsair HX1000i Shift Crystal power supply review: 1000W Platinum efficiency with an eye-catching transparent aesthetic",
-    "link": "https://www.tomshardware.com/pc-components/power-supplies/corsair-hx1000i-shift-crystal-power-supply-review",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-12T14:00:00.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.254Z",
-    "snippet": "Corsair puts the internals of a CWT-built, Cybenetics Platinum 1000W platform on display behind three clear panels, adding side-mounted connectors, iCUE LINK integration and per-pin 12V-2x6 protection.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/NDWEzQHAU2HsBo6xKkMNQK-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/5LcTHfxAt4RrWa8K3CbNQK-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/WvLpShbJh4Kz5Jz4fAqkTK-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/tcAphb4akpeCxAJYLC5eaK-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/WvXcUfh6z99WiJLbEMeEWK-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "d1b0cf26771d6bf1",
-    "title": "Nvidia CEO Jensen Huang resigns in the wake of multiple affairs, Chinese spy allegations",
-    "link": "https://www.tomshardware.com/tech-industry/nvidia-confirms-jensen-huang-has-resigned-as-ceo-colette-kress-executive-vice-president-and-chief-financial-officer-appointed-interim-ceo",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-12T13:58:41.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.254Z",
-    "snippet": "NVIDIA (NASDAQ: NVDA) Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/t75kmqCZia9XGcHiAKqZ5T-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "7d1333d72ea7d118",
-    "title": "Death toll rises to 8 in New York building collapse as rescuers search for survivors",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3374250/death-toll-new-york-building-collapse-rises-8",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-12T13:43:09.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.644Z",
-    "snippet": "At least eight people died after a three-storey building in Brooklyn collapsed at the edge of a construction site, New York City’s mayor said on Thursday, as firefighters kept digging through the rubble to find others who may be trapped beneath the wreckage. S",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/12/f2318a6c-04db-4e4d-9e40-a3fec2008684_1c9bfad7.jpg?itok=bL5KVTsj&v=1794490975"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "3281e87406c6cf0f",
-    "title": "The Download: COP31’s climate challenge and the quest for immortality",
-    "link": "https://www.technologyreview.com/2026/11/12/1148444/the-download-cop31-climate-talks-cognitive-immortality/",
-    "source": "MIT Technology Review",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-12T13:10:00.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.057Z",
-    "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What to know about this year’s UN climate talks Thousands of delegates, lobbyists, and journalists have gathered in Antaly",
-    "images": [
-      "https://wp.technologyreview.com/wp-content/uploads/2026/05/260424_Cdrama.webp?fit=2128,1196"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "bcfa7602c9473ca0",
-    "title": "Noctua brings space-grade carbon nanotube thermal pad to AMD AM5 and AM4 processors",
-    "link": "https://www.tomshardware.com/pc-components/thermal-paste/noctua-brings-space-grade-carbon-nanotube-thermal-pad-to-amd-am5-and-am4-processors-promises-years-of-maintenance-free-performance-for-usd24-95",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-12T13:04:13.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.254Z",
-    "snippet": "Noctua says the NT-CP1 uses carbon nanotubes originally developed for aerospace applications, with the material gradually adapting to microscopic surface imperfections to improve heat transfer over repeated heating and cooling cycles.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/hdiDYx5ocDbtVydvJJ9bN8-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "8dedb8729e472b87",
-    "title": "Suspected Chinese spy at center of Jensen Huang affair surfaces in Beijing",
-    "link": "https://www.tomshardware.com/tech-industry/suspected-chinese-spy-at-center-of-jensen-huang-affair-surfaces-in-beijing-alice-huang-last-spotted-heading-to-shanghai-after-being-detained-questioned-in-singapore-in-2025-allegedly-helped-china-smuggle-hundreds-of-thousands-of-banned-chips",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-12T12:53:36.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.254Z",
-    "snippet": "There are multiple speculations about Alice Huang's s history and how she built her relationship with Jensen Huang.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/3u6uEdoESwssuQgkYfM4T9-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "84525ac680a96acd",
-    "title": "UK fines Meta US$597,000 over repeated inaccuracies in WhatsApp data",
-    "link": "https://www.scmp.com/news/world/europe/article/3374238/uk-fines-meta-us597000-over-repeated-inaccuracies-whatsapp-data",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-12T12:00:47.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.644Z",
-    "snippet": "Britain’s ⁠media regulator Ofcom ⁠said on Thursday ⁠it had fined Meta £450,000 (US$597,000) for providing inaccurate information about its WhatsApp Business service in response to requests it made as part of its ‌telecoms market review. Ofcom reviewed the mark",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/12/2e707d4a-60e3-4307-9eab-ef1f2f38c1cd_3489c591.jpg?itok=xv94djIX&v=1794484834"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "7432d56df300d060",
-    "title": "Google reworks TPU silicon into specialized systems for agents and security",
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-adds-two-new-specialized-chips-for-ai-agents-and-security-to-8th-gen-tpu-lineup-tpu-8i-max-puts-two-chips-on-one-package-for-long-context-work-tpu-8tx-swaps-arm-hosts-for-amd-epyc",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-12T11:00:00.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.255Z",
-    "snippet": "Google’s TPU 8i Max and TPU 8tx reuse TPU 8i and TPU 8t silicon to target long-context agents and confidential inference.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/Ut57hXr6UTF3v4LJmkuGSi-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/KcaSgrdyhPSQKD5Y38ihWB-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "0ed78fd8e751deec",
-    "title": "Techie uses voltage glitching hack to turn $2,500 Nvidia 8GB cryptomining GPU into a full-fat $20,000 A100 with 80GB of VRAM",
-    "link": "https://www.tomshardware.com/pc-components/gpus/techie-turns-usd2-500-cmp-170hx-8gb-mining-card-into-a-full-fat-a100-80gb-with-voltage-glitching-carefully-blowing-onboard-fuses-to-unlock-entire-vram-and-shader-modules",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-12T10:30:00.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.255Z",
-    "snippet": "A techie turned a $2,500 CMP-170HX 8GB mining card into a full-fat $20,000 A100 80GB by carefully blowing onboard fuses to unlock entire VRAM and shader modules.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/QaaiweaJKxjDDJTGrtCSU5-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Wh9EZgD8NG9yUioNNgPB3d-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "d19831f100a64d18",
-    "title": "DAMO Academy's XuanTie XL-300 Interconnect IP Links Up to Eight RISC-V Cores With 32MB of L3",
-    "link": "https://pandaily.com/damo-academy-xuantie-xl-300-cache-coherent-interconnect-ip-risc-v-eight-core",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-12T08:39:50.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.204Z",
-    "snippet": "XuanTie's XL-300 cache-coherent interconnect IP links up to eight RISC-V cores with up to 32MB of L3, doubles XL-200 bandwidth and claims over 90% eight-core scaling.",
-    "images": [
-      "https://cms-image.pandaily.com/1/xuantie_91bff21707.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "9633440855c3d747",
-    "title": "Baidu Puts ERNIE Lightning Reasoning Model and ERNIE-Wizshot-ME Expressive Video Model on Qianfan",
-    "link": "https://pandaily.com/baidu-ernie-lightning-wizshot-me-micro-expression-video-models-qianfan",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-12T08:39:38.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.204Z",
-    "snippet": "Baidu's ERNIE Lightning, built for search, uses sparse attention and fast and slow thinking. ERNIE-Wizshot-ME turns still portraits into 4- to 15-second expressive 1080p clips.",
-    "images": [
-      "https://cms-image.pandaily.com/1/ernie_9304ed3559.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "a78bf094b77299ca",
-    "title": "ByteDance Releases Seedance 2.5 Flash, a Faster Video Model Priced About 34% Below Seedance 2.5",
-    "link": "https://pandaily.com/bytedance-seedance-2-5-flash-faster-lower-cost-video-model-volcano-ark-api",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-12T08:39:30.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.204Z",
-    "snippet": "Volcano Engine's Seedance 2.5 Flash makes video twice as fast as Seedance 2.5 at about 0.99 yuan per second at 720p, roughly 34% cheaper. API access opens on Volcano Ark on Nov 15.",
-    "images": [
-      "https://cms-image.pandaily.com/1/seedance_96adab67c5.png"
-    ],
     "titleZh": "",
     "snippetZh": "",
     "translatedAt": "",
