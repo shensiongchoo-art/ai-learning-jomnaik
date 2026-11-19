@@ -1,5 +1,330 @@
 [
   {
+    "id": "e5f197ac1d0d8fcd",
+    "title": "Van Gogh painting sells for record US$190.4 million after dispute",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3375017/van-gogh-painting-sells-record-us1904-million-after-dispute",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-19T05:45:48.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.597Z",
+    "snippet": "A Vincent van Gogh painting has set a record after selling for US$190.4 million at a Sotheby’s auction in New York. At its first appearance at auction, the painting Chataigniers en fleurs (Blossoming Chestnut Trees) set the highest price a Van Gogh painting ha",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/19/07fecd53-d4ed-4b4c-a7e8-f93775ca1f1d_246aaac7.jpg?itok=VJQtfWHj&v=1795067147"
+    ]
+  },
+  {
+    "id": "15699e2ad5c30ddf",
+    "title": "Human-AI Mutualism Is Unstable under Capability Asymmetry",
+    "link": "https://arxiv.org/abs/2611.23322",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-19T05:00:00.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.270Z",
+    "snippet": "arXiv:2611.23322v1 Announce Type: new Abstract: One hope for a good human future alongside advanced AI rests on enduring mutualism: humans and AI will need each other, so the relationship will stay good for both. We argue that this hope fails as AI capability ",
+    "images": []
+  },
+  {
+    "id": "776454535d1baa4d",
+    "title": "Training Language Models for Introspective Oversight",
+    "link": "https://arxiv.org/abs/2611.23365",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-19T05:00:00.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.270Z",
+    "snippet": "arXiv:2611.23365v1 Announce Type: new Abstract: Language models increasingly exhibit behaviors that are difficult to detect in transcripts, such as reward hacking, deception, and sycophancy. Asking the assistant follow-up questions about its actions is unrelia",
+    "images": []
+  },
+  {
+    "id": "5e9e9a5a6bdd0184",
+    "title": "Where the Tokens Go: Heat, Entropy and Error in Agentic Coding",
+    "link": "https://arxiv.org/abs/2611.23375",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-19T05:00:00.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.270Z",
+    "snippet": "arXiv:2611.23375v1 Announce Type: new Abstract: Coding agents are billed by the token, yet software engineering says nothing about what a token actually buys. Here we introduce a theory of software thermodynamics. The theory draws analogues from classical and ",
+    "images": []
+  },
+  {
+    "id": "5503bc111250ed9d",
+    "title": "HardwareDx: A Foundational Graph Model System for Datacenter Machine Repairs",
+    "link": "https://arxiv.org/abs/2611.23398",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-19T05:00:00.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.270Z",
+    "snippet": "arXiv:2611.23398v1 Announce Type: new Abstract: The rapid scale-up of AI infrastructure has made datacenter reliability a cornerstone of the cloud business economy. Since hardware failures in hyper-scale AI clusters can stall multi-million dollar training work",
+    "images": []
+  },
+  {
+    "id": "0afb35b82c0032dc",
+    "title": "RFBench: A Simulator-Grounded Multimodal Benchmark for Passive RF Layout Design and Understanding",
+    "link": "https://arxiv.org/abs/2611.23410",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-19T05:00:00.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.270Z",
+    "snippet": "arXiv:2611.23410v1 Announce Type: new Abstract: While multimodal language models can interpret diagrams and generate structured outputs, their capacity to connect passive radio-frequency (RF) design intent, layout geometry, and electromagnetic behavior remains",
+    "images": []
+  },
+  {
+    "id": "33009d44dbccb6e2",
+    "title": "Why Sub-4-Bit Vision CNNs Collapse and Where Mixed-Precision Recovery Stops",
+    "link": "https://arxiv.org/abs/2611.23445",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-19T05:00:00.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.271Z",
+    "snippet": "arXiv:2611.23445v1 Announce Type: new Abstract: Deep vision models operating in resource-constrained environments depend heavily on low-bit quantization, yet compressing weights below 4 bits frequently induces catastrophic accuracy collapse. While mixed-precis",
+    "images": []
+  },
+  {
+    "id": "d7e58975ac58ca26",
+    "title": "LusoClin: A Synthetic Clinical Note Dataset for Medical Information Retrieval in European Portuguese",
+    "link": "https://arxiv.org/abs/2611.23454",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-19T05:00:00.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.271Z",
+    "snippet": "arXiv:2611.23454v1 Announce Type: new Abstract: Access to large-scale clinical text collections is crucial for advancing medical information retrieval research, including clinical note search, patient cohort identification, and domain-adapted retrieval models.",
+    "images": []
+  },
+  {
+    "id": "5d950f85d3596d75",
+    "title": "VeriMath: Human-in-the-Loop Generation and Verification of Curriculum-Aligned Mathematics Assessment Items",
+    "link": "https://arxiv.org/abs/2611.23456",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-19T05:00:00.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.271Z",
+    "snippet": "arXiv:2611.23456v1 Announce Type: new Abstract: Automatic generation of mathematics assessment items is a growing area in educational artificial intelligence, yet classroom deployment remains challenging. Generated questions must satisfy multiple constraints: ",
+    "images": []
+  },
+  {
+    "id": "205d27584574cde7",
+    "title": "GUARD: Stabilizing Recursive Self-Improvement with Regret Guidance",
+    "link": "https://arxiv.org/abs/2611.23476",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-19T05:00:00.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.271Z",
+    "snippet": "arXiv:2611.23476v1 Announce Type: new Abstract: Autonomous AI agents pair a frozen base model with an editable harness of prompts, skills, tool rules, and memory. Recursive self-improvement (RSI) adapts this harness from experience without weight updates, yet ",
+    "images": []
+  },
+  {
+    "id": "cbd4a7ace451dc5f",
+    "title": "Diagnostic Accuracy and Navigation Behavior of Vision-Language Model Agents Reading Emergency CT and MRI Examinations",
+    "link": "https://arxiv.org/abs/2611.23480",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-19T05:00:00.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.271Z",
+    "snippet": "arXiv:2611.23480v1 Announce Type: new Abstract: Purpose. To evaluate the diagnostic accuracy and image navigation behavior of vision-language model (VLM) agents under varying exploration strategies. Materials and Methods. In this retrospective study, six VLMs ",
+    "images": []
+  },
+  {
+    "id": "7c4abc30ddab30f7",
+    "title": "BAAI and Qingmao Intelligence Launch FlagOS-Based End-to-End Inference Solution",
+    "link": "https://pandaily.com/baai-flagos-qingmao-end-to-end-inference-optimization",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-19T01:57:24.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.103Z",
+    "snippet": "BAAI and Qingmao Intelligence extend FlagOS into commercial inference, reporting kernel, serving-latency and prefix-cache improvements.",
+    "images": [
+      "https://cms-image.pandaily.com/1/flagos_4fc205efd5.png"
+    ]
+  },
+  {
+    "id": "2b0fe7a04628d90e",
+    "title": "Horizon Robotics Announces LoFT Video Geometry Model With Resources Still Pending",
+    "link": "https://pandaily.com/horizon-robotics-loft-video-geometry-model-camera-depth",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-19T01:53:13.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.102Z",
+    "snippet": "Horizon Robotics describes LoFT for reconstructing video geometry; its paper, code and weights remain pending, and results are team-reported.",
+    "images": [
+      "https://cms-image.pandaily.com/1/loft_f8562abce1.png"
+    ]
+  },
+  {
+    "id": "c8d6190a457353b7",
+    "title": "DeepSeek Removes Separate Fees for Model-Triggered Search and Web Fetch",
+    "link": "https://pandaily.com/deepseek-model-triggered-search-fetch-fee-change-client-api-pricing",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-19T01:52:50.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.103Z",
+    "snippet": "DeepSeek removes separate model-triggered search and fetch fees; model tokens still bill, and direct Search/Fetch calls retain per-request pricing.",
+    "images": [
+      "https://cms-image.pandaily.com/1/deepseek_1138c65d55.png"
+    ]
+  },
+  {
+    "id": "8d09520ef5eba568",
+    "title": "Peng’s English and Cantonese classics: the Shenzhen Apec details you may have missed",
+    "link": "https://www.scmp.com/news/china/diplomacy/article/3374974/pengs-english-and-cantonese-classics-shenzhen-apec-details-you-may-have-missed",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-19T01:33:25.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.598Z",
+    "snippet": "We have put together stories from our coverage of the first day of Apec in Shenzhen. If you would like to see more of our reporting, please consider subscribing. 1. Rare hug and roaring flyover set stage for historic firsts at Apec in Shenzhen It was a day of ",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/19/acc05d23-607c-4b3d-b7b4-eac7f16e25ad_6d194aa2.jpg?itok=Onx45RPr&v=1795051855"
+    ]
+  },
+  {
+    "id": "524b2f4e0a84cdd8",
+    "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+    "link": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-19T00:42:56.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.019Z",
+    "snippet": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you might",
+    "images": []
+  },
+  {
+    "id": "40be1d68d543a8e7",
+    "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is &#8216;unpatchable’",
+    "link": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-18T23:45:00.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.020Z",
+    "snippet": "The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world.",
+    "images": []
+  },
+  {
+    "id": "a948a97e699079e3",
+    "title": "Elon Musk says ousting Jensen Huang is like &#8216;kicking Michael Jordan off your team’",
+    "link": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-18T23:25:17.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.020Z",
+    "snippet": "“I don’t think [Huang is] disloyal to the United States,\" Musk said.",
+    "images": []
+  },
+  {
+    "id": "2a85860b49cd1d1e",
+    "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
+    "link": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-18T23:17:28.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.020Z",
+    "snippet": "Microsoft CEO Satya Nadella expressed confidence in Jensen Huang's successor Colette Kress, who is serving as Nvidia's interim CEO.",
+    "images": []
+  },
+  {
+    "id": "68370e13192efa8a",
+    "title": "US court convicts Florida pastor over plot to assassinate Haiti’s president",
+    "link": "https://www.scmp.com/news/world/americas/article/3374968/us-court-convicts-florida-pastor-over-plot-assassinate-haitis-president",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-18T23:05:08.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.598Z",
+    "snippet": "⁠Christian Emmanuel Sanon, a ⁠US-Haitian pastor accused of conspiring ⁠to assassinate and usurp the Caribbean nation’s last sitting president, has been convicted of all charges linked to the murder by a judge in Miami, the Miami Herald reported on Wednesday. S",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/19/74a8f886-877e-44ed-80ec-05a3324eef32_28eed995.jpg?itok=qQVudR04&v=1795043093"
+    ]
+  },
+  {
+    "id": "1cf8502076254049",
+    "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+    "link": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-18T22:58:11.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.020Z",
+    "snippet": "Microsoft's CEO says AI agents could disrupt advertising-driven business models, forcing companies like Amazon to rethink how they compete for customers.",
+    "images": []
+  },
+  {
+    "id": "67f7a02c079e870e",
+    "title": "Anthropic prices IPO at $83 a share, above projected range",
+    "link": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-18T22:11:15.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.020Z",
+    "snippet": "The long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis.",
+    "images": []
+  },
+  {
+    "id": "5785214e307b61c1",
+    "title": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
+    "link": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-18T21:57:40.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.020Z",
+    "snippet": "One Wall Street analyst got to the bottom of Nvidia's surprise announcement that it wouldn't be filing its formal quarterly results document, the 10-Q, for weeks.",
+    "images": []
+  },
+  {
+    "id": "b42031f140fd2ebb",
+    "title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: &#8216;It’s time to start running’",
+    "link": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-18T21:34:13.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.021Z",
+    "snippet": "The Anduril co-founder says outdated technology is leaving systems vulnerable to a new wave of AI-enabled attacks.",
+    "images": []
+  },
+  {
+    "id": "5fb26b67d3aa307b",
+    "title": "Palmer Luckey thinks China is &#8216;thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated",
+    "link": "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-18T21:31:21.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.021Z",
+    "snippet": "\"It makes America weaker to knock him out,\" the Anduril CEO said about ousted Nvidia leader Jensen Huang.",
+    "images": []
+  },
+  {
+    "id": "ae1eddde29c0961a",
+    "title": "Leading figures condemn Anthropic for reckless race to recursive self-improvement",
+    "link": "https://futureoflife.org/statement/leaders-condemn-anthropic-for-race-to-rsi/",
+    "source": "Future of Life Institute",
+    "category": "AI Policy & Safety",
+    "publishedAt": "2026-11-18T21:04:15.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.807Z",
+    "snippet": "Experts agree that the breakneck pursuit of recursive self-improvement (RSI) &#8211; AI that can build itself &#8211; will rapidly create [&#8230;]",
+    "images": []
+  },
+  {
+    "id": "e041ee150cd280a9",
+    "title": "AMD’s Twitter brag that it ‘loves gamers’ met with savage Community Note",
+    "link": "https://www.tomshardware.com/pc-components/amds-twitter-brag-that-it-loves-gamers-met-with-savage-community-note-post-met-with-backlash-over-the-companys-pivot-to-ai",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-18T21:00:00.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.276Z",
+    "snippet": "Following a post on X, AMD Japan's claim that the company values gamers \"above all else\" saw those gamers point out that its own CEO believes the company is more focused on data centers.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/Qrx3YDjFfkMfvHwJgVHPSA-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Ff8qW7gTwUZFZmPvceeLFd-1920-80.png"
+    ]
+  },
+  {
+    "id": "1c56e24b950d27b7",
+    "title": "Nvidia GeForce driver bug reportedly hammers SSDs with up to 30GB of writes per hour",
+    "link": "https://www.tomshardware.com/pc-components/gpu-drivers/nvidia-geforce-driver-bug-reportedly-hammers-ssds-with-up-to-30gb-of-writes-per-hour-users-trace-massive-idle-wear-to-background-service-newer-driver-reportedly-still-affected",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-18T21:00:00.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.276Z",
+    "snippet": "Nvidia’s GeForce 621.14 and 621.24 drivers reportedly rewrite a log file nonstop, writing gigabytes to SSDs every hour.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/MmqRv6C4cxpsk7GWCfvm88-1920-80.jpg"
+    ]
+  },
+  {
     "id": "fe7a7fddefcc697b",
     "title": "Sam Altman says his life is so weird that he’s unphased by Andrew Garfield portraying him in upcoming movie",
     "link": "https://techcrunch.com/2026/11/18/sam-altman-says-his-life-is-so-weird-that-hes-unphased-by-andrew-garfield-portraying-him-in-upcoming-movie/",
@@ -7,6 +332,22 @@
     "category": "US & Global AI",
     "publishedAt": "2026-11-18T20:07:01.000Z",
     "fetchedAt": "2026-11-18T20:08:58.978Z",
+    "snippet": "\"It doesn't feel like it's in like the top 10 weirdest things about my life,\" Altman said.",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "d7e8196b269c497c",
+    "title": "Sam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie",
+    "link": "https://techcrunch.com/2026/11/18/sam-altman-says-his-life-is-so-weird-that-hes-unfazed-by-andrew-garfield-portraying-him-in-upcoming-movie/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-18T20:07:01.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.021Z",
     "snippet": "\"It doesn't feel like it's in like the top 10 weirdest things about my life,\" Altman said.",
     "images": []
   },
@@ -19,7 +360,12 @@
     "publishedAt": "2026-11-18T19:56:39.000Z",
     "fetchedAt": "2026-11-18T20:08:58.979Z",
     "snippet": "Lens creators can describe the Lens they want in plain language, and their AI assistant handles the process from start to finish, Snapchat says.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "77d0fc712e2d06c5",
@@ -33,7 +379,12 @@
     "images": [
       "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2299665210-1024x648.jpg",
       "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2299665210-500x500-1795023220.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "9c8eb6b4fe58a7f1",
@@ -46,6 +397,24 @@
     "snippet": "The United States and Venezuela have signed a deal to re-establish military ties, from training to intelligence sharing, US Defence Secretary Pete Hegseth said Wednesday on a visit with the South American nation’s interim leaders. Hegseth said that following t",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/19/fae98942-4ea0-425d-94b7-4d5663b30c32_8b9ad221.jpg?itok=TiAzUym6&v=1795028454"
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "b23eb030e2f38b1d",
+    "title": "Hegseth hails ‘compliant’ Venezuela as US signs new military pact",
+    "link": "https://www.scmp.com/news/world/americas/article/3374965/us-and-venezuela-sign-deal-re-establish-military-ties-during-hegseth-visit",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-18T19:01:08.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.598Z",
+    "snippet": "The United States and Venezuela have signed a deal to re-establish military ties that will range from conducting joint training to intelligence sharing, US Defence Secretary Pete Hegseth said on Wednesday in Caracas while visiting the South American nation’s i",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/19/7d003073-7a9c-4f1a-9687-d6e6e18f8b36_d270f03f.jpg?itok=IIzGtGn-&v=1795057182"
     ]
   },
   {
@@ -60,7 +429,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/jC6LizcvMphD42WpsXmGun-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/Ff8qW7gTwUZFZmPvceeLFd-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "92944b1dd44e11f0",
@@ -73,6 +447,24 @@
     "snippet": "El Salvador’s President Nayib Bukele said on Wednesday that his troops had demolished the lavish home of a prominent gang leader in Haiti known as Jeff. It was not immediately clear if he was killed. Bukele posted a video on social media that begins with old f",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/19/572f6b0d-53d8-4aaf-95a5-8b4f4a10fda6_f6254c5e.jpg?itok=CBLRdX8v&v=1795026872"
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "d135ea4b65fc61b6",
+    "title": "El Salvador’s president says forces in Haiti demolished gang leader’s lavish home",
+    "link": "https://www.scmp.com/news/world/americas/article/3374964/el-salvadors-bukele-says-his-troops-destroyed-gang-leaders-mansion-haiti",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-18T18:34:47.000Z",
+    "fetchedAt": "2026-11-19T06:31:58.598Z",
+    "snippet": "El Salvador’s President Nayib Bukele said on Wednesday that his troops had demolished the lavish home of a prominent gang leader in Haiti known as Jeff. It was not immediately clear if he was killed. Bukele posted a video on social media that begins with old f",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/19/e97fadfb-845c-40ee-9e05-44d3455f6c72_ca7dbca6.jpg?itok=_ztJFfM1&v=1795063459"
     ]
   },
   {
@@ -87,7 +479,12 @@
     "images": [
       "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Moonlit-walk-1152x648.png",
       "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Moonlit-walk-500x500.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "118f05b7b1f8b4c4",
@@ -98,7 +495,12 @@
     "publishedAt": "2026-11-18T18:04:05.000Z",
     "fetchedAt": "2026-11-18T20:08:58.979Z",
     "snippet": "Google's new temporary threads let users have conversations in AI Mode without adding them to their search history or influencing future recommendations.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "cbec44abf6a30076",
@@ -109,7 +511,12 @@
     "publishedAt": "2026-11-18T17:32:10.000Z",
     "fetchedAt": "2026-11-18T20:08:58.979Z",
     "snippet": "Citi is the latest major financial institution to put the breaks on personal finance AI agents.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "5f8fc856f67b4a8c",
@@ -120,7 +527,12 @@
     "publishedAt": "2026-11-18T16:59:00.000Z",
     "fetchedAt": "2026-11-18T20:08:58.979Z",
     "snippet": "Sam Altman and Greg Brockman pushed back against Silicon Valley's growing debate over an AI takeover, while acknowledging the challenges of keeping advanced models under human control.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "3b99c3e35bd1bd71",
@@ -131,7 +543,12 @@
     "publishedAt": "2026-11-18T16:14:09.000Z",
     "fetchedAt": "2026-11-18T20:08:58.979Z",
     "snippet": "Nvidia founder and former CEO Jensen Huang stepped down last week amid several scandals, including an affair with an alleged Chinese spy.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "6eff9ca03eb95226",
@@ -141,10 +558,15 @@
     "category": "China AI",
     "publishedAt": "2026-11-18T16:01:07.000Z",
     "fetchedAt": "2026-11-18T20:08:59.431Z",
-    "snippet": "Islam is expected to surpass Christianity as the world’s largest religion by 2035, according to detailed projections released on Wednesday by the Pew Research Centre. Pew, which has been issuing authoritative reports on religious demography for 25 years, said ",
+    "snippet": "Islam is expected to surpass Christianity as the world’s largest religion by 2035, according to detailed projections released on Wednesday by the Pew Research Centre. Pew, which has been issuing authoritative reports on religious demography for 25 years, said",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/19/eece4462-ea8e-4113-a86b-30b19f619263_97b408df.jpg?itok=t0iF9xpQ&v=1795021732"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "4a3d88cb0500eec4",
@@ -158,7 +580,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/wdQ45S9jtuGPuURS79mUbA-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/Ff8qW7gTwUZFZmPvceeLFd-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "4bd8d6559c6fc057",
@@ -172,7 +599,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/MX9ZgfJcjpjFTu4aNfmAhP-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/eXLFBd3VeLbbGiDKVLt9D8-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a17559eea90ae697",
@@ -183,7 +615,12 @@
     "publishedAt": "2026-11-18T14:42:44.000Z",
     "fetchedAt": "2026-11-18T20:08:59.139Z",
     "snippet": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up th",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "55c212a6b3393fca",
@@ -198,7 +635,12 @@
       "https://cdn.mos.cms.futurecdn.net/qenN65eHB42UpqUiKhdHSf-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/Ff8qW7gTwUZFZmPvceeLFd-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "9d4089acbb46c988",
@@ -214,7 +656,12 @@
       "https://cdn.mos.cms.futurecdn.net/S98GzMyJm7P5xwioZvaQG7-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/EjoBUVevVde7qbBdwgKJHn-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/7V9ueZXh85UyPKGS7ipzR8-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "12a77a432023b4a4",
@@ -227,7 +674,12 @@
     "snippet": "A Spanish court opened a probe into veteran crooner Julio Iglesias on Wednesday after two women ex-employees filed a complaint against him for alleged sexual abuse, which he denies. The announcement marks a turnaround after a first complaint was shelved on the",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/18/24502427-80c6-4c04-96da-b015407c2813_95c3bcb3.jpg?itok=k5LgqCE2&v=1795008942"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "18da520c146c6cea",
@@ -240,7 +692,12 @@
     "snippet": "President Xi Jinping has called for closer economic links between major coastal innovation centres across the globe – a proposal observers said could create new opportunities and exchanges for China and the United States. Speaking at the opening of the Apec CE",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/18/d4b60bd7-ca95-4bd3-8d53-1b4f55b4f8cd_27263ac3.jpg?itok=clgmJ3nJ&v=1795008719"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a3a99504803ab428",
@@ -254,7 +711,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/QicyzQMVLnsDMjT5SC4mZY-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/Ff8qW7gTwUZFZmPvceeLFd-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c0b3d570966bb68c",
@@ -267,7 +729,12 @@
     "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. This smell startup says its AI nose is as good as a human’s In a New Jersey lab, researchers are trying to sniff every odo",
     "images": [
       "https://wp.technologyreview.com/wp-content/uploads/2026/05/260505_IVF_heroNEW-e1778701373952.jpg?w=840"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "35d950c666c16437",
@@ -278,7 +745,12 @@
     "publishedAt": "2026-11-18T13:00:00.000Z",
     "fetchedAt": "2026-11-18T20:08:58.980Z",
     "snippet": "If Nvidia is backstopping a data center loan, it won't be on the hook unless the neocould has independent financing and gets the facility built, with Nvidia gear installed, interim CEO Colette Kress explained.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "87ccf56a0f440327",
@@ -295,7 +767,12 @@
       "https://cdn.mos.cms.futurecdn.net/ECk933JbM6o3pUvJW8idzi-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/tZDm8VD6AFzRhBinAey44j-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/nsL6mvfY975sBZGYWaUQti-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "3f91716220019b05",
@@ -308,7 +785,12 @@
     "snippet": "Retro Song Bird can play music directly from original cartridges, export individual audio channels to a PC, back up game saves, flash writable cartridges, and sync two units for chiptune DJ performances.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/YZeY8SiSjY6mbTyGzgPQKN-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "3353b6b0c360d5f3",
@@ -319,7 +801,12 @@
     "publishedAt": "2026-11-18T12:00:00.000Z",
     "fetchedAt": "2026-11-18T20:08:58.980Z",
     "snippet": "With a team of just seven, Unsiloed AI plans to compete with tech giants and specialized startups in the crowded AI document-processing market.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "cc15ca013d8efbc8",
@@ -332,7 +819,12 @@
     "snippet": "The European Union on Wednesday proposed member states give Ukraine an extra €45 billion (US$49 billion) loan to plug its 2027 budget shortfalls as Russia’s invasion drags on. The funding would fill two-thirds of a €70 billion black hole Kyiv faces next year –",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/18/f0be32f2-b8aa-4837-8d82-8d5fafa2fe79_7d70c8c6.jpg?itok=3ENgpLF4&v=1795001354"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "f9c24d7268b8a4dc",
@@ -343,7 +835,12 @@
     "publishedAt": "2026-11-18T11:30:00.000Z",
     "fetchedAt": "2026-11-18T20:08:58.980Z",
     "snippet": "Founded in February, Humyn Labs competes with startups such as Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "99c782760b3cf74e",
@@ -353,10 +850,15 @@
     "category": "US & Global AI",
     "publishedAt": "2026-11-18T10:20:30.000Z",
     "fetchedAt": "2026-11-18T20:08:59.139Z",
-    "snippet": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich ",
+    "snippet": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich",
     "images": [
       "https://wp.technologyreview.com/wp-content/uploads/2026/11/Copy-of-Copy-of-BH1_6183_Ben_Hider_250430.jpg?w=840"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "05b39f1aa8e911f6",
@@ -369,7 +871,12 @@
     "snippet": "Kling Image 4.0 adds native 8K output, up to 2,000 characters per image and coordinated sets of up to 10 images, according to Kling AI.",
     "images": [
       "https://cms-image.pandaily.com/1/kling_48e0d0ce9f.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "1c88f620418a983b",
@@ -382,7 +889,12 @@
     "snippet": "Tencent releases standard, FP8 and base Hy4 flash checkpoints, with verified download access and license and deployment conditions.",
     "images": [
       "https://cms-image.pandaily.com/1/hy4_59a43d1a88.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "dc649df434a15efb",
@@ -5467,547 +5979,6 @@
     "snippet": "Volcano Engine's Seedance 2.5 Flash makes video twice as fast as Seedance 2.5 at about 0.99 yuan per second at 720p, roughly 34% cheaper. API access opens on Volcano Ark on Nov 15.",
     "images": [
       "https://cms-image.pandaily.com/1/seedance_96adab67c5.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "5362c2214968556f",
-    "title": "Baidu Launches Token Exchange, a Model Marketplace That Fingerprints Models and Rates Suppliers",
-    "link": "https://pandaily.com/baidu-token-exchange-model-marketplace-fingerprinting-supplier-credit-ratings",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-12T08:39:20.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.204Z",
-    "snippet": "Baidu's Token Exchange lists models from many suppliers behind one API, with fingerprint checks, admission tests and supplier credit ratings. Baidu says it serves 700 billion tokens a day.",
-    "images": [
-      "https://cms-image.pandaily.com/1/tokenx_f137e6fc74.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "f19ed7fa27c564bf",
-    "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
-    "link": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-12T03:13:10.000Z",
-    "fetchedAt": "2026-11-12T06:20:59.525Z",
-    "snippet": "Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "45f9fdd17ba05791",
-    "title": "Tencent Launches Yuanbao Search, a Standalone AI Search Product at so.qq.com",
-    "link": "https://pandaily.com/tencent-yuanbao-search-standalone-ai-search-so-qq-com",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-12T02:19:02.000Z",
-    "fetchedAt": "2026-11-12T06:20:59.562Z",
-    "snippet": "Tencent's Yuanbao Search, at so.qq.com and in QQ Browser, gives AI answers over the web, WeChat Official Accounts, Channels and academic papers, with cited sources and collapsible ads.",
-    "images": [
-      "https://cms-image.pandaily.com/1/yuanbao_65c7bb3717.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "fa5141db9c87cb00",
-    "title": "AgiBot Open-Sources LIFE, a Lifelong Embodied AI Framework Built Around RoboBeats Models",
-    "link": "https://pandaily.com/agibot-life-lifelong-embodied-intelligence-framework-robobeats-open-source",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-12T02:18:53.000Z",
-    "fetchedAt": "2026-11-12T06:20:59.562Z",
-    "snippet": "AgiBot's open-source LIFE gives robots continuous sensing via RoboBeats models, reanalyzable memory and reusable tools. Its own tests show 60.5% on SSS-Bench and faster day-long recall.",
-    "images": [
-      "https://cms-image.pandaily.com/1/life_95b4fa99a6.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "6dda36924c06c5dc",
-    "title": "Alibaba Opens Qwen4-Max Preview on Token Plan, With a 1M-Token Context Until November 25",
-    "link": "https://pandaily.com/alibaba-qwen4-max-preview-token-plan-1m-context",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-12T02:18:43.000Z",
-    "fetchedAt": "2026-11-12T06:20:59.562Z",
-    "snippet": "Qwen4-Max-Preview is live only on Alibaba's Token Plan until Nov 25, with a 1M-token context, image and video input and tool calling. No benchmarks, parameter count or weights yet.",
-    "images": [
-      "https://cms-image.pandaily.com/1/qwen4_3c199cc304.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "1eebad2be61517f9",
-    "title": "Moore Threads Sets MDC 2026 for December 29-30, With S6000 Card and Lushan GPUs Expected",
-    "link": "https://pandaily.com/moore-threads-mdc-musa-developer-conference-s6000-lushan-huagang",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-12T02:18:33.000Z",
-    "fetchedAt": "2026-11-12T06:20:59.562Z",
-    "snippet": "Moore Threads' MDC 2026 runs Dec 29-30 in Beijing with 10+ launches promised. Reports point to an S6000 AI card and Lushan graphics GPUs on the Huagang architecture.",
-    "images": [
-      "https://cms-image.pandaily.com/1/moore_8ab6eb7c48.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c5c31f5b81fd4ff9",
-    "title": "Nvidia’s Board reportedly preparing to oust CEO Jensen Huang as second extra-marital affair emerges",
-    "link": "https://www.tomshardware.com/pc-components/gpus/nvidias-board-reportedly-preparing-to-oust-ceo-jensen-huang-as-second-extra-marital-affair-emerges-stock-has-plunged-20-percent-since-scandals-began-huang-has-been-first-and-only-ceo-for-33-years",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-11T23:45:00.000Z",
-    "fetchedAt": "2026-11-12T06:20:59.650Z",
-    "snippet": "Nvidia Board reportedly moves to expel Jensen Huang as stock tumbles on latest scandals and lack of succession plans at Nvidia.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/e4nHqRWu6AkHKhFz9QVnLZ-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "eab32f1c56a5464a",
-    "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
-    "link": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-11T23:28:45.000Z",
-    "fetchedAt": "2026-11-12T06:20:59.527Z",
-    "snippet": "As soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e961c03395201920",
-    "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
-    "link": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-11T23:17:05.000Z",
-    "fetchedAt": "2026-11-12T06:20:59.527Z",
-    "snippet": "Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "9ceb5a738139089c",
-    "title": "Hegseth and aides reprimanded by guard at Tomb of the Unknown Soldier",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3374128/hegseth-and-staff-scolded-guard-after-laughter-heard-tomb-unknown-soldier",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-11T22:40:30.000Z",
-    "fetchedAt": "2026-11-12T06:21:00.002Z",
-    "snippet": "A soldier guarding the Tomb of the Unknown Soldier issued a verbal reprimand to a group of advisers and staffers with US Defence Secretary Pete Hegseth following a Veterans Day ceremony at Arlington National Cemetery. Video shows Hegseth taking photos on the e",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/12/435c2754-0e09-49a0-96cb-1d4acdf0771a_22192060.jpg?itok=SQEZVAY5&v=1794449936"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "78dd3f0586e4b3d9",
-    "title": "Jensen Huang now accused of affair with Nvidia executive who reported to him, alleged cover-up attempt",
-    "link": "https://www.tomshardware.com/tech-industry/jensen-huang-now-accused-of-affair-with-nvidia-executive-who-reported-to-him-alleged-cover-up-attempt-new-indiscretion-comes-in-wake-of-admitted-affair-with-alleged-chinese-spy",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-11T22:31:39.000Z",
-    "fetchedAt": "2026-11-12T06:20:59.650Z",
-    "snippet": "Nvidia CEO Jensen Huang reportedly had an extramarital affair with a direct report, following a separate affair with a woman suspected of being a Chinese spy.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/Q57X2C2kb7mvEAhLmcPtrj-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "bbf748b23831d847",
-    "title": "AMD’s Venice-X maxes out family at 5.3 GHz, returning 3D V-Cache to data center after four years",
-    "link": "https://www.tomshardware.com/pc-components/cpus/amds-venice-x-maxes-out-family-at-5-3-ghz-returning-3d-v-cache-to-data-center-after-four-years-chips-target-hpc-workloads-with-pcie-6-0-and-1-6-tb-s-memory-bandwidth",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-11T21:30:00.000Z",
-    "fetchedAt": "2026-11-12T06:20:59.650Z",
-    "snippet": "AMD's Venice-X CPUs launch in the second half of 2027, bringing 3D V-Cache back to the data center after four years on the sidelines.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/aLSGanWgBzwJhr9LcYMiwb-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/aJ4mx9nLhHNk3cW2JFuZQe-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/xX2BFEMAtwvLEQzieBy6AX-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/kEkE9diY9LxvtRrnHyNp4F-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "5436ad1912c9c574",
-    "title": "Biden says he would not have run again had he known of cancer",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3374126/biden-says-he-wouldnt-have-run-second-term-if-hed-known-he-had-cancer",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-11T20:55:07.000Z",
-    "fetchedAt": "2026-11-12T06:21:00.002Z",
-    "snippet": "Joe Biden says he did not know he had cancer while he was US president and would not have sought a second term if he already had been diagnosed. The former Democratic president’s comments came in an interview with People magazine before the release of his Whit",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/12/92e306c4-257a-4306-b373-f7882dfc40a0_4b1d9126.jpg?itok=yaP10R_y&v=1794454270"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "51f973d139a8fac6",
-    "title": "Pope Leo draws 3-million-strong crowd at Argentina’s holiest shrine",
-    "link": "https://www.scmp.com/news/world/americas/article/3374124/pope-leo-draws-3-million-strong-crowd-argentinas-holiest-shrine",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-11T20:44:05.000Z",
-    "fetchedAt": "2026-11-12T06:21:00.002Z",
-    "snippet": "Pope Leo drew vast crowds to Argentina’s holiest shrine on Wednesday, the final day of his visit before he departs for Peru, where he spent nearly two decades as a missionary. Authorities said over 3 million people packed the streets around the Basilica of Luj",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/12/b126afd0-b6c1-4250-905f-a63ddd32476b_476bef4c.jpg?itok=eIeWOy_l&v=1794429832"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "bb28b266650d93c3",
-    "title": "Trump defends war against Iran in US Veterans Day address",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3374123/trump-defends-iran-war-veterans-day-speech",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-11T20:30:57.000Z",
-    "fetchedAt": "2026-11-12T06:21:00.002Z",
-    "snippet": "US President Donald Trump defended the war against Iran Wednesday at a US Veterans Day commemoration that saw his defence secretary publicly admonished for a lack of decorum. “The bravery and skill of our amazing American warriors has absolutely been incredibl",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/12/b778402e-0cc8-441d-858e-be419c6e2593_7fae9a0e.jpg?itok=6P0GPz_R&v=1794450983"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "44d5486f18d98fa0",
-    "title": "Why the data center you dread might never even be built",
-    "link": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-11T20:15:15.000Z",
-    "fetchedAt": "2026-11-12T06:20:59.527Z",
-    "snippet": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity.&#160;Before those challenges even come into play, though, there’s a more basic problem: A lot of the projec",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "17fd5e081689bb27",
-    "title": "Meta is losing its longtime head of infrastructure",
-    "link": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-11T20:12:01.000Z",
-    "fetchedAt": "2026-11-12T06:20:59.527Z",
-    "snippet": "Santosh Janardhan, who originally joined the company in 2009, will be stepping down from his role.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "0fa05cb465b3c3bf",
-    "title": "How backlash and red tape continue to slow data centers post-Blue Wave",
-    "link": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-11T20:02:14.000Z",
-    "fetchedAt": "2026-11-12T06:20:59.527Z",
-    "snippet": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity.&#160;Before those challenges even come into play, though, there’s a more basic problem: A lot of the projec",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "bf858ca4e5e80a34",
-    "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
-    "link": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-11T19:54:00.000Z",
-    "fetchedAt": "2026-11-12T06:20:59.527Z",
-    "snippet": "CoreWeave is increasingly asking customers to pay up front, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company’s third-quarter earnings.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "ea94c9c8f3fb61ed",
-    "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
-    "link": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-11T19:34:55.000Z",
-    "fetchedAt": "2026-11-12T06:20:59.527Z",
-    "snippet": "Fractile has now become one of the top-funded players in the race for purpose-built AI chips.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "16901861c1e42aab",
-    "title": "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
-    "link": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-11T19:22:22.000Z",
-    "fetchedAt": "2026-11-11T19:32:46.568Z",
-    "snippet": "Nvidia CEO Jensen Huang has until the end of the day Wednesday to answer a call from House Republicans for a closed-door briefing on his affair with alleged Chinese spy.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "d33c012afb2937f6",
-    "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
-    "link": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-11T18:16:40.000Z",
-    "fetchedAt": "2026-11-11T19:32:46.808Z",
-    "snippet": "Latest example of the AI boom’s circular financing comes as AI trade wobbles.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/TSMC-Fab-18-1152x648.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/TSMC-Fab-18-500x500.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "14b9868b8743bb1d",
-    "title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
-    "link": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-11T17:37:32.000Z",
-    "fetchedAt": "2026-11-11T19:32:46.808Z",
-    "snippet": "Any amount of AI coding is too much for many Indie Game Festival judges.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/bigwalkdebate-1152x648.png",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/bigwalkdebate-500x500.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "526123a8357497d5",
-    "title": "What to know about this year’s UN climate talks",
-    "link": "https://www.technologyreview.com/2026/11/11/1148308/un-climate-talks/",
-    "source": "MIT Technology Review",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-11T17:00:00.000Z",
-    "fetchedAt": "2026-11-11T19:32:46.578Z",
-    "snippet": "It’s that time of year again: Thousands of delegates, lobbyists, and journalists are gathered for the annual UN climate talks, taking place this time in Antalya, Turkey. COP31 officially kicked off on November 8, marking the beginning of negotiations on one of",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "dfc770c6e04f50be",
-    "title": "OpenAI and Georgia county leaders hit with Mafia-style RICO racketeering lawsuit over $30 billion AI data center",
-    "link": "https://www.tomshardware.com/tech-industry/data-centers/georgia-politicians-openai-slapped-with-racketeering-lawsuit-over-3-2-gigawatt-ai-data-centers-plaintiffs-allege-multiple-violations-were-part-of-a-coordinated-scheme-to-get-project-camellia-approved",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-11T16:30:00.000Z",
-    "fetchedAt": "2026-11-11T19:32:46.706Z",
-    "snippet": "The plaintiffs alleged that the parties committed fraud and concealment through NDAs and misleading public statements.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/rqn39aj9hMqYUZdPPwgxYd-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "daf918c294436650",
-    "title": "Is Jensen Huang’s bad behavior more commonplace than it seems?",
-    "link": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-11T16:16:07.000Z",
-    "fetchedAt": "2026-11-11T19:32:46.569Z",
-    "snippet": "“There are a lot of senior people in the industry that know this is happening, and are effectively condoning it,” an investment intel consultant said.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "0da9737b893eb948",
-    "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
-    "link": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-11T16:14:44.000Z",
-    "fetchedAt": "2026-11-11T19:32:46.570Z",
-    "snippet": "Sales of $10 billion represents an almost 50% jump from revenue of $6.7 billion the company recorded in the second quarter.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "a8d0a0de7ef9e6e0",
-    "title": "SpaceX develops its own ‘Kessel’ rack-scale system featuring 72 Nvidia Rubin GPUs for data centers in space, report claims",
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/spacex-develops-its-own-kessel-rack-scale-system-featuring-72-nvidia-rubin-gpus-for-data-centers-in-space-report-claims-replaces-conventional-nvlink-cable-assemblies-with-a-massive-84-layer-printed-circuit-board",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-11T15:03:08.000Z",
-    "fetchedAt": "2026-11-11T19:32:46.706Z",
-    "snippet": "SpaceX is reportedly developing a 'Kessel' rack-scale system design with 72 Nvidia Rubin GPUs that relies on a massive 84-layer PCB midplane.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/H9AoDYcDEGHaWVoTNcrLHK-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/Wh9EZgD8NG9yUioNNgPB3d-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "35788d9766edfc01",
-    "title": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
-    "link": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-11T15:00:00.000Z",
-    "fetchedAt": "2026-11-11T19:32:46.570Z",
-    "snippet": "With Databricks at 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to. He uses Databricks' newly revised Genie agent for that.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "a6856d178ee7fef6",
-    "title": "Russia, Ukraine agree on prisoner exchange as talks end without major breakthrough",
-    "link": "https://www.scmp.com/news/world/europe/article/3374117/russia-ukraine-agree-prisoner-exchange-talks-end-without-major-breakthrough",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-11T14:54:11.000Z",
-    "fetchedAt": "2026-11-11T19:32:47.131Z",
-    "snippet": "Russia and Ukraine agreed to a large exchange of prisoners of war, both sides said Wednesday as two days of US mediated talks concluded, but they announced no major breakthrough on ending the conflict that began after Moscow’s full-scale invasion nearly five y",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/11/6172028c-ff8c-4c7e-97db-d0d30268356d_5892fb4c.jpg?itok=99CwTZlZ&v=1794408837"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "7686248aec481159",
-    "title": "Softbank loses $3.7 billion on canceled AI data center gas turbine orders days after denying Elon Musk’s claim it was defaulting",
-    "link": "https://www.tomshardware.com/tech-industry/data-centers/softbank-loses-usd3-7-billion-on-canceled-ai-data-center-gas-turbine-orders-days-after-denying-elon-musks-claim-it-was-defaulting-company-kills-reserved-13-gigawatts-of-power-more-than-six-hoover-dams-worth-of-capacity",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-11T14:29:43.000Z",
-    "fetchedAt": "2026-11-11T19:32:46.707Z",
-    "snippet": "SoftBank might not have defaulted on a raft of gas turbine orders, but it has pulled out of deals for unwanted power units after overestimating how many it could use amid the AI data center buildout boom.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/oVtZCcAvC5GeZw8jGbrs65-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Ff8qW7gTwUZFZmPvceeLFd-1920-80.png"
     ],
     "titleZh": "",
     "snippetZh": "",
