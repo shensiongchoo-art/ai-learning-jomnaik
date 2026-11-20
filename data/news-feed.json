@@ -1,5 +1,323 @@
 [
   {
+    "id": "d722fd3573ed5b0e",
+    "title": "Closing the Analyze-to-Design Gap: An Authorization-Bounded Agent for Self-Driving Laboratories",
+    "link": "https://arxiv.org/abs/2611.25043",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-20T05:00:00.000Z",
+    "fetchedAt": "2026-11-20T06:19:28.277Z",
+    "snippet": "arXiv:2611.25043v1 Announce Type: new Abstract: Artificial intelligence (AI) agents are increasingly integrated into self-driving laboratories (SDLs) to plan experiments and interpret results. However, analytical reasoning alone does not make a laboratory auto",
+    "images": []
+  },
+  {
+    "id": "5c91fb40b6240207",
+    "title": "An LLM-Agentic Framework for Intelligent Work Order Management in Industrial Maintenance",
+    "link": "https://arxiv.org/abs/2611.25070",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-20T05:00:00.000Z",
+    "fetchedAt": "2026-11-20T06:19:28.277Z",
+    "snippet": "arXiv:2611.25070v1 Announce Type: new Abstract: This paper presents an AI-driven framework, CodeReAct agent, designed to enhance industrial equipment maintenance through natural language (NL) interactions. The framework employs an advanced AI agentic approach ",
+    "images": []
+  },
+  {
+    "id": "a5af97c0d8a1967c",
+    "title": "SailSearch: Agent-Assisted Discovery in Combinatorial Optimization",
+    "link": "https://arxiv.org/abs/2611.25087",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-20T05:00:00.000Z",
+    "fetchedAt": "2026-11-20T06:19:28.277Z",
+    "snippet": "arXiv:2611.25087v1 Announce Type: new Abstract: We present SailSearch, a human-guided workflow for algorithmic research with two language-model agents, and report results on Market Split and maximum independent set (MIS). For Market Split, our randomized algor",
+    "images": []
+  },
+  {
+    "id": "1519abe1e413a163",
+    "title": "BuggyMLE: Scaling Machine Learning Engineering Difficulty with Bug Injection",
+    "link": "https://arxiv.org/abs/2611.25088",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-20T05:00:00.000Z",
+    "fetchedAt": "2026-11-20T06:19:28.277Z",
+    "snippet": "arXiv:2611.25088v1 Announce Type: new Abstract: Enabling AI systems to autonomously improve AI models requires agents capable of performing machine learning engineering (MLE). In practice, designing, training, and evaluating complex models demands modifying mu",
+    "images": []
+  },
+  {
+    "id": "3e73e925c26bff5b",
+    "title": "CoMPASS: A Multi-Turn Benchmark for Measuring LLM Reinforcement of Parasocial Behavior",
+    "link": "https://arxiv.org/abs/2611.25109",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-20T05:00:00.000Z",
+    "fetchedAt": "2026-11-20T06:19:28.277Z",
+    "snippet": "arXiv:2611.25109v1 Announce Type: new Abstract: Users of conversational LLMs sometimes anthropomorphize these systems, form emotional attachments to them, and become dependent on them. This behavior, known as parasocial attachment, has been linked to multiple ",
+    "images": []
+  },
+  {
+    "id": "9ad6a0488b8803e3",
+    "title": "DSFlow: A Neuro-Symbolic Data Workflow Agent with Statistical Diagnostic Guardrails",
+    "link": "https://arxiv.org/abs/2611.25111",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-20T05:00:00.000Z",
+    "fetchedAt": "2026-11-20T06:19:28.277Z",
+    "snippet": "arXiv:2611.25111v1 Announce Type: new Abstract: Data science workflows often require tools that presume non-trivial technical knowledge. Large language models (LLMs) reduce this barrier, but a gap remains between flexible general-purpose agents and statistical",
+    "images": []
+  },
+  {
+    "id": "5ef01999d281ace1",
+    "title": "Calibrated Decision Rewards: Training Language Models with a Judge That Knows How Sure It Is",
+    "link": "https://arxiv.org/abs/2611.25135",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-20T05:00:00.000Z",
+    "fetchedAt": "2026-11-20T06:19:28.277Z",
+    "snippet": "arXiv:2611.25135v1 Announce Type: new Abstract: Reinforcement learning (RL) can only teach a language model what its reward can recognize. Answer checkers are exact but need a reference answer; learned reward models and LLM judges work everywhere, but their sc",
+    "images": []
+  },
+  {
+    "id": "07968fce8bf6d651",
+    "title": "EverydayBench: Evaluating Satisfactory Completion of Live User-Facing Digital Work",
+    "link": "https://arxiv.org/abs/2611.25146",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-20T05:00:00.000Z",
+    "fetchedAt": "2026-11-20T06:19:28.277Z",
+    "snippet": "arXiv:2611.25146v1 Announce Type: new Abstract: Everyday digital tasks, from selecting products and planning trips to conducting research and creating artifacts, require AI agents to deliver useful outcomes rather than merely retrieve web information. Yet eval",
+    "images": []
+  },
+  {
+    "id": "c8dbb890baa6a56e",
+    "title": "A Verifier from the Past: Test-Time Compute for Time Series Foundation Models",
+    "link": "https://arxiv.org/abs/2611.25171",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-20T05:00:00.000Z",
+    "fetchedAt": "2026-11-20T06:19:28.277Z",
+    "snippet": "arXiv:2611.25171v1 Announce Type: new Abstract: Test-time compute (TTC) improves language models by spending additional inference compute to generate, verify, and select among candidate outputs, but this recipe has not transferred directly to time series forec",
+    "images": []
+  },
+  {
+    "id": "444bfc9261e77c93",
+    "title": "An AI-Powered Multiverse Analysis of Empirical Finance Research: Evidence from Reused Natural Experiments",
+    "link": "https://arxiv.org/abs/2611.25184",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-20T05:00:00.000Z",
+    "fetchedAt": "2026-11-20T06:19:28.277Z",
+    "snippet": "arXiv:2611.25184v1 Announce Type: new Abstract: Empirical finance research often reuses natural experiments to study other outcomes, raising concerns about multiple testing and publication bias. We use AI agents to run a multiverse analysis of 324 papers that ",
+    "images": []
+  },
+  {
+    "id": "c6c692b9e8706d50",
+    "title": "Comb restores hair growth; Kim Jong-un daughter’s luxury ski gear: SCMP’s 7 highlights",
+    "link": "https://www.scmp.com/news/world/article/3375020/comb-restores-hair-growth-kim-jong-un-daughters-luxury-ski-gear-scmps-7-highlights",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-20T04:15:08.000Z",
+    "fetchedAt": "2026-11-20T06:19:29.162Z",
+    "snippet": "We have selected seven stories from this week’s news across Hong Kong, mainland China, the wider Asia region and beyond that resonated with our readers and shed light on topical issues. If you would like to see more of our reporting, please consider subscribin",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/20/3f026f43-8e8b-48c7-af37-e2235590ab0c_d754e20d.jpg?itok=Sxm0JE4T&v=1795141540"
+    ]
+  },
+  {
+    "id": "d9794801ef561753",
+    "title": "White House fires cyber chief after tech chaos rattles US",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3375152/white-house-fires-cybersecurity-chief-after-tech-chaos-rattles-us",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-20T03:04:01.000Z",
+    "fetchedAt": "2026-11-20T06:19:29.163Z",
+    "snippet": "⁠White House national cyber director Sean ⁠Cairncross was “fired” from his job, a person close to the White House said on Thursday, days after technology outages disrupted US air travel, banking and national security systems. The ousting comes as US President ",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/20/7ed65cd8-90d5-480a-bbe1-0ecf1c201c60_cecf08ee.jpg?itok=2lKhL4qk&v=1795143839"
+    ]
+  },
+  {
+    "id": "dfe1f4bfdd79851b",
+    "title": "Russian barrage damages embassies and cathedral in Ukraine capital",
+    "link": "https://www.scmp.com/news/world/europe/article/3375146/russian-barrage-damages-embassies-and-cathedral-ukraine-capital",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-20T02:33:41.000Z",
+    "fetchedAt": "2026-11-20T06:19:29.163Z",
+    "snippet": "A wave of daytime Russian strikes on Kyiv on Thursday killed one person and damaged a historic cathedral as well as the embassies of Austria and the Netherlands. Loud explosions erupted across the Ukrainian capital throughout the day as the leaders of Russia, ",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/20/2c2033cb-f5be-4a43-a02c-3070f3af781b_20763361.jpg?itok=mTV3P2mI&v=1795142018"
+    ]
+  },
+  {
+    "id": "cffb3944fe929b97",
+    "title": "LandSpace Details 185-Second Test of Recovered Zhuque-3 Engine",
+    "link": "https://pandaily.com/landspace-recovered-zhuque-3-engines-inspection-hot-fire-reuse",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-20T02:06:16.000Z",
+    "fetchedAt": "2026-11-20T06:19:28.212Z",
+    "snippet": "CCTV footage adds a roughly 185-second firing and reuse-delivery details after LandSpace’s earlier disclosure that nine recovered engines passed tests.",
+    "images": [
+      "https://cms-image.pandaily.com/1/landspace_editorial_abc180433a.png"
+    ]
+  },
+  {
+    "id": "b9c1180388c209b3",
+    "title": "BioMap Launches AI System for Nonclinical Drug Safety Assessment",
+    "link": "https://pandaily.com/biomap-xtrimotox-nonclinical-drug-safety-assessment-system",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-20T02:05:42.000Z",
+    "fetchedAt": "2026-11-20T06:19:28.212Z",
+    "snippet": "BioMap combines xTrimoTox toxicity predictions with nonclinical research workflows, while animal studies remain part of model validation.",
+    "images": [
+      "https://cms-image.pandaily.com/1/biomap_editorial_7d1987f82a.png"
+    ]
+  },
+  {
+    "id": "4a633208f5ab613d",
+    "title": "Get an RTX 5070 for just $839.99, a rare savings in the GPU wasteland",
+    "link": "https://www.tomshardware.com/pc-components/get-an-rtx-5070-for-just-usd839-99-a-rare-savings-in-the-gpu-wasteland-msi-geforce-rtx-5070-ventus-2x-oc-12-gb-is-currently-on-sale-at-newegg",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-20T00:59:02.000Z",
+    "fetchedAt": "2026-11-20T06:19:28.288Z",
+    "snippet": "Get an RTX 5070 for just $839.99 — MSI GeForce RTX 5070 Ventus 2X OC 12 GB is currently on sale at Newegg",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/x5Wt639xFBjw8uibLD6PtX-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/77yhF8ajKTTosserzsARYN-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/cCbGspLq5yrwLNtkmB8vYN-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/oUxzMouhsE3X4GJbF62FZN-1920-80.png"
+    ]
+  },
+  {
+    "id": "1b871a27cee54881",
+    "title": "Apple may be developing its own AI agent that runs your Mac",
+    "link": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-20T00:56:01.000Z",
+    "fetchedAt": "2026-11-20T06:19:28.103Z",
+    "snippet": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
+    "images": []
+  },
+  {
+    "id": "e3367e76b42efc30",
+    "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+    "link": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-20T00:43:50.000Z",
+    "fetchedAt": "2026-11-20T06:19:28.104Z",
+    "snippet": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion.",
+    "images": []
+  },
+  {
+    "id": "6595e4ee7d4158cb",
+    "title": "Trump says no rush to decide on new Iran strikes, looks to 2027",
+    "link": "https://www.scmp.com/news/world/middle-east/article/3375136/trump-says-no-rush-decide-new-iran-strikes-looks-next-year",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-19T23:49:34.000Z",
+    "fetchedAt": "2026-11-20T06:19:29.163Z",
+    "snippet": "US President Donald Trump on Thursday appeared to push a decision on renewed major strikes against Iran into next year, extending a timeline that he had previously suggested could come to a head after this month’s US midterm elections. Asked in an interview ab",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/20/d1d84aa7-2355-42a4-8477-813360430318_3b14a11e.jpg?itok=CrG_CEtG&v=1795149766"
+    ]
+  },
+  {
+    "id": "d2184f35e7be70d6",
+    "title": "World-famous hippo Fiona dies in US days after swallowing visitor’s hat",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3375134/world-famous-hippo-fiona-dies-us-days-after-swallowing-visitors-hat",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-19T22:36:05.000Z",
+    "fetchedAt": "2026-11-20T06:19:29.163Z",
+    "snippet": "World-famous hippopotamus Fiona has died after several failed attempts by vets to remove a woolly hat that she accidentally swallowed, the Cincinnati Zoo announced Thursday. Beloved for her antics on social media, the nine-year-old Nile hippo ingested the knit",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/20/c9f7294d-d2c6-4be8-9bc3-dbb6454dfd42_392f1278.jpg?itok=bmrq7VKM&v=1795127756"
+    ]
+  },
+  {
+    "id": "341beb7aa25c9b89",
+    "title": "Meta’s new Muse Charm device may cost $300",
+    "link": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-19T21:58:06.000Z",
+    "fetchedAt": "2026-11-20T06:19:28.104Z",
+    "snippet": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable.",
+    "images": []
+  },
+  {
+    "id": "45f49b10f564ecab",
+    "title": "These tech outages are giving Y2K, AI agent style",
+    "link": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-19T21:42:31.000Z",
+    "fetchedAt": "2026-11-20T06:19:28.104Z",
+    "snippet": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.",
+    "images": []
+  },
+  {
+    "id": "fa7e1891b79a3e67",
+    "title": "AI data center power demand will double by 2030 thanks to $4 trillion in spending, adding an entire Great Britain to energy strain",
+    "link": "https://www.tomshardware.com/tech-industry/data-centers/ai-data-center-power-demand-will-double-by-2030-thanks-to-usd4-trillion-in-spending-adding-an-entire-great-britain-to-energy-strain-93-large-ai-factories-with-projected-capacity-of-around-50-gigawatts",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-19T21:00:00.000Z",
+    "fetchedAt": "2026-11-20T06:19:28.289Z",
+    "snippet": "IEA's report says that power production and distribution is barely keeping up with the rapid growth of AI data centers.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/3pB5DDnWsYfMZvsBuMorfF-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "0493d5bbcb59f412",
+    "title": "AI models favour US and UK accents, score Chinese and Nigerian ones lowest, study finds",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3375132/ai-models-favour-us-and-uk-accents-score-chinese-and-nigerian-ones-lowest-study-finds",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-19T20:31:24.000Z",
+    "fetchedAt": "2026-11-20T06:19:29.163Z",
+    "snippet": "Ask an artificial intelligence model to grade a job interview or test answers, and a person’s accent may change the score. That is according to new University of Washington research that looked at how some of the most advanced AI models rated English speakers ",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/20/1542df5a-0374-43b5-94e1-baea319540d5_82fa0d30.jpg?itok=-a0xcXiU&v=1795120277"
+    ]
+  },
+  {
+    "id": "ae0481dbefe1ebf1",
+    "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
+    "link": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+    "source": "Ars Technica AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-19T20:19:28.000Z",
+    "fetchedAt": "2026-11-20T06:19:28.240Z",
+    "snippet": "Lawsuit: Over 99% of school system’s AI gun alerts were false positives.",
+    "images": [
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-458680569-1152x648-1795115965.jpg",
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-458680569-500x500.jpg"
+    ]
+  },
+  {
+    "id": "2b5f93bac35e833c",
+    "title": "The unfolding Jensen Huang scandal: a timeline",
+    "link": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-19T20:18:49.000Z",
+    "fetchedAt": "2026-11-20T06:19:28.104Z",
+    "snippet": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
     "id": "8825d1bd05c9dd69",
     "title": "Anthropic’s IPO could deliver $156 billion to charity",
     "link": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
@@ -7,6 +325,22 @@
     "category": "US & Global AI",
     "publishedAt": "2026-11-19T19:10:45.000Z",
     "fetchedAt": "2026-11-19T20:10:17.949Z",
+    "snippet": "At a stock price of $95, the frontier lab's Public Benefit Foundation, its employee donations, and the company's match tot up to $156 billion.",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "c7067e79c6976b73",
+    "title": "Anthropic’s IPO could deliver $156B to charity",
+    "link": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-19T19:10:45.000Z",
+    "fetchedAt": "2026-11-20T06:19:28.104Z",
     "snippet": "At a stock price of $95, the frontier lab's Public Benefit Foundation, its employee donations, and the company's match tot up to $156 billion.",
     "images": []
   },
@@ -21,7 +355,12 @@
     "snippet": "US President Donald Trump bought as much as US$265,000 in Nvidia stock and sold as much as US$15,000 worth of the stock in September, weeks before reports surfaced of CEO Jensen Huang’s ties to an alleged Chinese spy, according to Trump’s latest financial disc",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/20/426257b2-ef6a-4bd9-b99f-359f6d94bec4_20909ad6.jpg?itok=r4Wbm-xS&v=1795114631"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "3c3cd384cd382664",
@@ -32,7 +371,12 @@
     "publishedAt": "2026-11-19T18:09:11.000Z",
     "fetchedAt": "2026-11-19T20:10:17.949Z",
     "snippet": "Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "76a6d5ec4a7a9fb6",
@@ -45,6 +389,24 @@
     "snippet": "Four British men were convicted on Thursday of raping or sexually abusing a woman who was drugged by her then husband in a case with echoes of that of Gisele Pelicot, the French woman who became a global symbol in the fight against sexual violence. Joanne Youn",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/20/4359d875-b52c-4feb-b5b5-c108a39fc756_8db8b48f.jpg?itok=QG_Z0mwt&v=1795110366"
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "3cf6276833629cbc",
+    "title": "4 UK men guilty of sex crimes against woman drugged by husband",
+    "link": "https://www.scmp.com/news/world/europe/article/3375127/4-uk-men-guilty-sex-crimes-against-drugged-woman-case-echoes-pelicot",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-19T17:46:13.000Z",
+    "fetchedAt": "2026-11-20T06:19:29.163Z",
+    "snippet": "Four British men were convicted on Thursday of raping or sexually abusing a woman who was drugged by her then husband in a case with echoes of that of Gisele Pelicot, the French woman who became a global symbol in the fight against sexual violence. Joanne Youn",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/20/548b914e-9605-4ee9-9213-b44db11fb567_5ada4b70.jpg?itok=afJzAG94&v=1795146688"
     ]
   },
   {
@@ -56,7 +418,12 @@
     "publishedAt": "2026-11-19T17:38:40.000Z",
     "fetchedAt": "2026-11-19T20:10:17.949Z",
     "snippet": "In some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank account balances that didn't belong to them.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c6d9a801496cc5d8",
@@ -67,7 +434,12 @@
     "publishedAt": "2026-11-19T17:00:00.000Z",
     "fetchedAt": "2026-11-19T20:10:17.949Z",
     "snippet": "Everful has raised $48.5 million to expand its factory-direct sourcing platform, helping retailers source products from overseas manufacturers.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e447b89f71d535b2",
@@ -78,7 +450,12 @@
     "publishedAt": "2026-11-19T16:59:23.000Z",
     "fetchedAt": "2026-11-19T20:10:17.949Z",
     "snippet": "Anthropic's IPO price was set at $83, representing more than $80 billion in new capital raised.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "9ae0ea2137c209e5",
@@ -89,7 +466,12 @@
     "publishedAt": "2026-11-19T16:19:41.000Z",
     "fetchedAt": "2026-11-19T20:10:17.949Z",
     "snippet": "In his Nasdaq opening bell speech, Dario Amodei reiterated Anthropic's commitment to pacing AI development, regardless of business or political pressure.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "19a9fe0fc1835af9",
@@ -102,7 +484,12 @@
     "snippet": "A suspected natural gas explosion in a residential block in Tbilisi in the country of Georgia killed three people on Thursday, while three others remained trapped under rubble, officials said. “Rescuers recovered the bodies of two women and a child from the wr",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/19/3add7fef-54b5-40e6-98f9-d2471a08081a_e73bbf3a.jpg?itok=hvDQ_yBs&v=1795103570"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "4c3678308d74e3a3",
@@ -115,7 +502,12 @@
     "snippet": "We have put together the top 12 stories from our coverage of the 2026 Apec summit held in Shenzhen, China. If you would like to see more of our reporting, please consider subscribing. 1. China, Russia and US: 3 presidents, 3 nuclear powers and 1 historic prece",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/20/914a961c-1be3-4cd2-b0e7-7ad746d2ce1c_3ccca0ee.jpg?itok=sD6OXTwF&v=1795104653"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "527dc29adf2965da",
@@ -128,7 +520,12 @@
     "snippet": "Intel continues to reduce headcount, IT department affected this time.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/HtxYQrfbwNDmi4SjXbdcqn-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "bf471e4efe5db3aa",
@@ -139,7 +536,12 @@
     "publishedAt": "2026-11-19T14:54:39.000Z",
     "fetchedAt": "2026-11-19T20:10:17.949Z",
     "snippet": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "9f2f3781e55b2dd8",
@@ -150,7 +552,12 @@
     "publishedAt": "2026-11-19T14:00:00.000Z",
     "fetchedAt": "2026-11-19T20:10:17.949Z",
     "snippet": "Superhuman is making Go its central agent and making it available in Docs and Mail.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "3060edc013881348",
@@ -163,7 +570,12 @@
     "snippet": "A civil lawsuit claimed that there was \"no way Cenly Chen lacked knowledge about the company's illicit sales.\"",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/Rs4SbA8spx4NMQeGPyN2G8-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "f91a9f8a93099685",
@@ -177,7 +589,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/5p8cbG9PKWyM6kkPPAFXyP-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/fuzrtrpitT58iLG7oZTDwP-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "8025a9c98fa0bf43",
@@ -187,10 +604,15 @@
     "category": "US & Global AI",
     "publishedAt": "2026-11-19T13:10:00.000Z",
     "fetchedAt": "2026-11-19T20:10:17.947Z",
-    "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A human liver has been kept alive outside the body for a record seven weeks Researchers in Australia claim they’ve kept a ",
+    "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A human liver has been kept alive outside the body for a record seven weeks Researchers in Australia claim they’ve kept a",
     "images": [
       "https://wp.technologyreview.com/wp-content/uploads/2026/05/china-bci.jpg?fit=2128,1196"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "3563077df4279e0c",
@@ -204,7 +626,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/hrvPDHp2MHzLKpBMubSioa-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/kF34ZcVuL5GZsmkRd7GZND-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c0f4425a673c478e",
@@ -218,7 +645,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/PcZjwetE46JiY4feLoHyr3-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/oFSwGGLZ7oRFPndvsMchAQ-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a70ab24d7f9d492e",
@@ -229,7 +661,12 @@
     "publishedAt": "2026-11-19T12:00:00.000Z",
     "fetchedAt": "2026-11-19T20:10:17.947Z",
     "snippet": "Researchers in Australia claim they’ve kept a human liver alive, on life support, outside the body for seven weeks, opening up speculative new possibilities in biomedical engineering. The feat, whose details are pending publication, was carried out in Sydney a",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "3f0c246b26ce92d0",
@@ -246,7 +683,12 @@
       "https://cdn.mos.cms.futurecdn.net/pWfhVnLSkYUW5qijhHRPp8-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/ZJSVRpaCtkGTUSuxavfnsC-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/W4WCaZBckuhGj6fxnMmRLM-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "4e0d5cf5a52fd303",
@@ -260,7 +702,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/W4bNjvtdxZJqKsG4ybdwT7-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/Ff8qW7gTwUZFZmPvceeLFd-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "dc6903d34f26f60d",
@@ -271,7 +718,12 @@
     "publishedAt": "2026-11-19T11:00:00.000Z",
     "fetchedAt": "2026-11-19T20:10:17.948Z",
     "snippet": "After a tough few years littered with some high-profile failures, there’s some positive news for next-generation batteries in the US. Sila just signed an agreement with Panasonic Energy, a global battery manufacturer, to supply silicon-carbon anode material, a",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "577d47f0d47bdb34",
@@ -285,7 +737,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/Mmy36NYLic3BaS5bAHCZZ7-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/A6SeePQLEXNDjF65NZGeNf-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "0a64b17a5a20e0ae",
@@ -302,7 +759,12 @@
       "https://cdn.mos.cms.futurecdn.net/S5p9FDhxSiTDiTr2A2NmeN-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/5i8CKruQqaeZhPqNP63KcN-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/a2H4hirv6Fnv7jHvka5RcN-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "f0b43d4bef0538b4",
@@ -315,7 +777,12 @@
     "snippet": "Phancy details Ascend-post-trained Phai-A1 coding weights and the Phai-M1 video trial, with benchmark, context and availability caveats.",
     "images": [
       "https://cms-image.pandaily.com/1/phai_official_m1_sample_22ce985095.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e5f197ac1d0d8fcd",
@@ -5085,22 +5552,6 @@
     "translationModel": ""
   },
   {
-    "id": "a80f661ff447d6a1",
-    "title": "The unfolding Jensen Huang scandal: a timeline",
-    "link": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-13T15:58:00.000Z",
-    "fetchedAt": "2026-11-13T19:22:00.640Z",
-    "snippet": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
     "id": "ad864895bac5b600",
     "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
     "link": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
@@ -5534,478 +5985,6 @@
     "publishedAt": "2026-11-13T05:00:00.000Z",
     "fetchedAt": "2026-11-13T19:22:00.778Z",
     "snippet": "arXiv:2611.14804v1 Announce Type: new Abstract: Costly simulations and experiments limit the data available for engineering design. This paper proposes GenPFN, a training-free candidate generator guided by a pretrained tabular Prior-Data Fitted Network (TabPFN",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "d76136ab75431fbb",
-    "title": "Jensen Huang quits Nvidia; non-invasive treatment for kidney tumours: SCMP’s 7 highlights",
-    "link": "https://www.scmp.com/news/china/article/3374278/jensen-huang-quits-nvidia-non-invasive-treatment-kidney-tumours-scmps-7-highlights",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-13T04:15:04.000Z",
-    "fetchedAt": "2026-11-13T05:41:31.592Z",
-    "snippet": "We have selected seven stories from this week’s news across Hong Kong, mainland China, the wider Asia region and beyond that resonated with our readers and shed light on topical issues. If you would like to see more of our reporting, please consider subscribin",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/13/522d5079-9693-441b-a9ce-2de242113a2f_d7759fe6.jpg?itok=PAqOdvBb&v=1794535972"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "dfa3afcf83fae41c",
-    "title": "Former Cainiao CTO's Robot Startup Joins Double 11 Warehouse Work, Reports Nearly 5,000 Unit Orders",
-    "link": "https://pandaily.com/quantum-dynamics-li-qiang-embodied-robots-cainiao-double-11-warehouse-orders",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-13T02:33:11.000Z",
-    "fetchedAt": "2026-11-13T05:41:31.118Z",
-    "snippet": "Quantum Dynamics, founded by ex-Cainiao CTO Li Qiang, says its robots worked Double 11 in Cainiao warehouses. Its nearly 5,000 unit orders include many not yet delivered.",
-    "images": [
-      "https://cms-image.pandaily.com/1/kunteng_2faa5c8f3a.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "002240b0365a6160",
-    "title": "ACE Robotics Pairs Mundo World Model With Self-Improving Skills to Run a Hotel Laundry Workflow",
-    "link": "https://pandaily.com/ace-robotics-mundo-world-model-dual-brain-rsi-hotel-laundry-robot",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-13T02:33:01.000Z",
-    "fetchedAt": "2026-11-13T05:41:31.118Z",
-    "snippet": "ACE Robotics uses its Mundo world model, a cloud planner and on-robot skills to run hotel laundry end to end. Skills improve from real failures, it says, cutting a full run to 18.6 seconds.",
-    "images": [
-      "https://cms-image.pandaily.com/1/ace_bf9b4fd621.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "1f4db7ab17df9ffd",
-    "title": "Andrew Yao and Yang Zhilin Co-Author TCSExam as Kimi K3 Adds an Edge to a Graph Record",
-    "link": "https://pandaily.com/tcsexam-andrew-yao-yang-zhilin-theoretical-computer-science-benchmark-kimi-k3-graph",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-13T02:32:53.000Z",
-    "fetchedAt": "2026-11-13T05:41:31.118Z",
-    "snippet": "TCSExam, co-authored by Andrew Yao and Yang Zhilin, checks AI research in theoretical CS with Lean 4 and program checkers. Kimi K3 found a 124-vertex graph with a record 630 edges.",
-    "images": [
-      "https://cms-image.pandaily.com/1/tcsexam_2d2f26cec5.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "1b4f59f2b85da6ef",
-    "title": "HiSilicon CS6286 Image Sensor Puts AI On-Chip, Stretching Dashcam Sentry Mode Past Seven Days",
-    "link": "https://pandaily.com/hisilicon-cs6286-8mp-image-sensor-on-sensor-ai-dashcam-sentry-mode",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-13T02:32:44.000Z",
-    "fetchedAt": "2026-11-13T05:41:31.118Z",
-    "snippet": "HiSilicon's CS6286 puts a 50 GOPS AI engine inside an 8MP sensor. It spots people with 95%+ accuracy and lets dashcams sleep, stretching sentry mode past seven days.",
-    "images": [
-      "https://cms-image.pandaily.com/1/hisilicon_3b65dc6c30.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "5a0d6c9daad51d7f",
-    "title": "Huawei Cloud Sets November 16 Launch for CloudRobo-WM1.2, Its First Ascend-Native World Model",
-    "link": "https://pandaily.com/huawei-cloud-cloudrobo-wm1-2-ascend-native-embodied-world-model-launch-preview",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-13T02:32:35.000Z",
-    "fetchedAt": "2026-11-13T05:41:31.118Z",
-    "snippet": "Huawei Cloud will unveil CloudRobo-WM1.2, billed as the first Ascend-native world model from its Industry AI Dream Factory, at an online launch on Nov 16. Specs are not yet public.",
-    "images": [
-      "https://cms-image.pandaily.com/1/cloudrobo_8db61b66e2.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "0965487fd8f34b4f",
-    "title": "Climate-vulnerable nations urge immediate action at UN Cop31 summit",
-    "link": "https://www.scmp.com/news/world/europe/article/3374271/climate-vulnerable-nations-urge-immediate-action-un-cop31-summit",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-12T23:01:00.000Z",
-    "fetchedAt": "2026-11-13T05:41:31.592Z",
-    "snippet": "Urgent action is needed to help countries hardest-hit by the effects of climate change, small island leaders said on Thursday at the United Nations climate talks in Turkey, describing global warming as a life-or-death issue for their people. “It is time to mov",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/13/c31b05db-1f6e-482c-8ea6-2a58c46708f8_03640e4a.jpg?itok=HhiSgZtb&v=1794546855"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "53db981af07e27fa",
-    "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s &#8216;scheme’ with Trump",
-    "link": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-12T22:42:51.000Z",
-    "fetchedAt": "2026-11-13T05:41:30.984Z",
-    "snippet": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "e4fe92fe4c10a85e",
-    "title": "Muse can now place calls to US businesses — if you pay",
-    "link": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-12T22:22:28.000Z",
-    "fetchedAt": "2026-11-13T05:41:30.985Z",
-    "snippet": "Muse's AI can now place outbound calls to U.S. businesses — but it's not free.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "4389df125c728f0e",
-    "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
-    "link": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-12T21:27:10.000Z",
-    "fetchedAt": "2026-11-13T05:41:30.986Z",
-    "snippet": "Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "051fc8840699fc96",
-    "title": "Pro-Palestinian group seeks court ban on Israeli real estate fair in Paris",
-    "link": "https://www.scmp.com/news/world/europe/article/3374269/pro-palestinian-group-seeks-ban-israeli-property-fair-paris",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-12T21:26:51.000Z",
-    "fetchedAt": "2026-11-13T05:41:31.592Z",
-    "snippet": "Pro-Palestinian activists have asked a French court to ban an Israeli real estate fair in Paris which they say offers a bonus to prospective Jewish settlers in the occupied territories, sources told Agence France-Presse on Thursday. The Franco-Palestinian NIDA",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/13/7a27d9f0-d828-4ec5-a6a8-500bd2449877_552e57f7.jpg?itok=nWPomXjH&v=1794541577"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "a2cba132f9fc1668",
-    "title": "Russia’s Google says nearly 3% of its data was lost after crippling Ukraine drone strikes, opens secret availability zones",
-    "link": "https://www.tomshardware.com/tech-industry/data-centers/russias-google-says-nearly-3-percent-of-its-data-was-lost-after-crippling-ukraine-drone-strikes-opens-secret-availability-zones-yandex-cloud-blames-lack-of-user-backups-for-lost-data-now-forcibly-applies-backup-rules-by-default",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-12T21:00:00.000Z",
-    "fetchedAt": "2026-11-13T05:41:31.223Z",
-    "snippet": "Yandex Cloud boasted that it had 'restored access to more than 97% of customer data' after Ukrainian drone attack damage.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/SSHr8ChABANVpqAjMA7RPP-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "4bddc99f979e6c70",
-    "title": "Jensen Huang was having a third affair, Reuters reports",
-    "link": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-12T20:26:47.000Z",
-    "fetchedAt": "2026-11-13T05:41:30.986Z",
-    "snippet": "Reuters is withholding the name of the new employee linked to Huang, but says she is an employee of Nvidia.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "7c3e0f8791fffd1a",
-    "title": "White House discussing Howard Lutnick’s future as commerce secretary, sources say",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3374266/white-house-discussing-howard-lutnicks-future-commerce-secretary-sources-say",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-12T20:19:33.000Z",
-    "fetchedAt": "2026-11-13T05:41:31.592Z",
-    "snippet": "Senior White House officials are discussing whether Commerce Secretary Howard Lutnick should be pushed out amid a spy scandal surrounding Nvidia’s now-former CEO Jensen Huang, two people familiar with the situation said on Thursday. A growing number of lawmake",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/13/7a39a5d0-2894-4f42-b75d-5aad2ae909eb_cee3e745.jpg?itok=uubLfILy&v=1794514667"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "26db1a98e76b54dc",
-    "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
-    "link": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
-    "source": "MIT Technology Review",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-12T20:16:24.000Z",
-    "fetchedAt": "2026-11-13T05:41:30.990Z",
-    "snippet": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while a",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "14d1204a7d2640af",
-    "title": "Ars Live: What drone attacks on data centers mean for modern life in the cloud",
-    "link": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-12T19:59:59.000Z",
-    "fetchedAt": "2026-11-13T05:41:31.210Z",
-    "snippet": "A livestream Ars discussion is happening on November 17 at 1 pm Eastern Time.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ukraine-data-center-under-attack-1152x648.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ukraine-data-center-under-attack-500x500.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "33d7681a51eec44f",
-    "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
-    "link": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-12T19:27:45.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.032Z",
-    "snippet": "Powered by Gemini 4 Hydrogen, Google's AI Mode is getting better at understanding complex queries, surfacing relevant links, and delivering richer visual responses.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "1b0a2ffa1f5b3ab5",
-    "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
-    "link": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-12T19:23:03.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.194Z",
-    "snippet": "Gemini 4 Hydrogen isn't getting a slow, security-conscious release like Carbon and Argon.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-6-1152x648.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-6-500x500.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "f13c8bbc411e5142",
-    "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
-    "link": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-12T19:11:00.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.033Z",
-    "snippet": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c073a2e07b7eee49",
-    "title": "Putin indicates he will not compromise on Ukraine in meeting with US envoys",
-    "link": "https://www.scmp.com/news/world/russia-central-asia/article/3374265/putin-indicates-he-will-not-compromise-ukraine-meeting-us-envoys",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-12T19:05:17.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.644Z",
-    "snippet": "Vladimir Putin indicated on Thursday that Russia will not compromise on its hardline demands to end the Ukraine offensive but offered a short-term ceasefire in a key frontline city during a Kremlin meeting with US envoys. The Russian president said he would no",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/13/ed82df5b-f0a7-456c-9ab5-f3c2022497e8_cdf400aa.jpg?itok=vDe7zoG4&v=1794510042"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "77f70533cf1d0ade",
-    "title": "US, Ukraine say Europe to join Russia talks as Putin holds firm",
-    "link": "https://www.scmp.com/news/world/russia-central-asia/article/3374265/putin-indicates-he-will-not-compromise-ukraine-meeting-us-envoys",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-12T19:05:17.000Z",
-    "fetchedAt": "2026-11-13T05:41:31.592Z",
-    "snippet": "Ukraine’s President Volodymyr Zelensky and US envoy Jared Kushner said Thursday Europe would join the next round of talks with Russia, as Vladimir Putin indicated Moscow will not compromise on its hardline demands to end almost five years of war. In a packed d",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/13/1add762e-03ae-4661-b41d-125b407125cd_ac475030.jpg?itok=1Z0jCfrq&v=1794533393"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "81a6d74ce9fd97b4",
-    "title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
-    "link": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-12T18:57:45.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.194Z",
-    "snippet": "Families confront Google after teen’s lawsuit labels Gemini a “suicide coach.”",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Win-win-1152x648.jpeg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Win-win-500x500-1794505063.jpeg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "2ab9106709f04478",
-    "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
-    "link": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-12T18:39:23.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.033Z",
-    "snippet": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "77199a63e558976c",
-    "title": "Israeli strike on Gaza hospital kills 11 in deadliest attack since election",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3374264/israeli-strike-gaza-hospital-kills-11-deadliest-attack-election",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-12T18:32:12.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.644Z",
-    "snippet": "Israeli fire killed 11 people in Gaza on Thursday, six of them in the bombing of Nasser hospital in south Gaza early in the day, health officials said, the deadliest single strike since Israel’s elections last month. The Israeli military confirmed the attack,",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/13/1ddb9112-00db-4775-b5e3-8e2fba1ab228_6e6872c7.jpg?itok=4JT8-GS1&v=1794508170"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "a44465cf6ec2429e",
-    "title": "Israeli strike on Gaza hospital deadliest since election",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3374264/israeli-strike-gaza-hospital-kills-11-deadliest-attack-election",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-12T18:32:12.000Z",
-    "fetchedAt": "2026-11-13T05:41:31.592Z",
-    "snippet": "Israeli fire killed 11 people in Gaza on Thursday, six of them in the bombing of Nasser hospital in south Gaza early in the day, health officials said, the deadliest single strike since Israel’s elections last month. The Israeli military confirmed the attack,",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/13/13c688e7-6760-4803-9ab5-e55505ec7396_c6797d15.jpg?itok=i1n0Y4zw&v=1794540448"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "1f2772c0dc08ea0a",
-    "title": "US father denied bail after infant survived being buried alive in dog crate",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3374263/us-infant-survives-being-buried-alive-father-charged-attempted-murder",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-12T17:54:32.000Z",
-    "fetchedAt": "2026-11-13T05:41:31.592Z",
-    "snippet": "A South Carolina man accused of burying his 11-month-old son in a dog crate in a clump of scrubby pines was denied bond Thursday. Michael Comer, 25, has been charged with attempted murder, burglary and unlawfully placing a child at risk in connection with the",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/13/3579afac-f434-45e6-9abb-8aeb59045879_5f75ab47.jpg?itok=haWIkusp&v=1794505936"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "cadc5d644eb42b96",
-    "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
-    "link": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-12T17:36:40.000Z",
-    "fetchedAt": "2026-11-12T19:40:10.033Z",
-    "snippet": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
     "images": [],
     "titleZh": "",
     "snippetZh": "",
