@@ -1,5 +1,127 @@
 [
   {
+    "id": "cc0665426f197b35",
+    "title": "Trump threatens ‘tremendous tax’ on US firms building AI data centres overseas",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3375303/trump-threatens-tremendous-tax-us-firms-building-ai-data-centres-overseas",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-21T00:48:00.000Z",
+    "fetchedAt": "2026-11-21T06:09:34.197Z",
+    "snippet": "President Donald Trump on Friday threatened “a tremendous tax” on US companies that build artificial intelligence data centres abroad, highlighting a divide between a president who sees their expansion as critical to winning the AI race and an American public ",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/21/cafc0480-355c-48c8-87e7-25476b8543a2_d3071f6f.jpg?itok=RTMm83DK&v=1795222065"
+    ]
+  },
+  {
+    "id": "1f11fc5138271ba8",
+    "title": "Russian missiles land in Poland, as Europe holds military drills nearby",
+    "link": "https://www.scmp.com/news/world/russia-central-asia/article/3375302/russian-missiles-land-poland-europe-holds-military-drills-nearby",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-20T23:43:44.000Z",
+    "fetchedAt": "2026-11-21T06:09:34.197Z",
+    "snippet": "Two Russian missiles and a suspected drone came down in Poland on Friday in what its prime minister said was likely to be a provocation timed to coincide with European military exercises in his country for a possible post-war mission in Ukraine. The incidents ",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/21/66884aa7-2b7c-4999-a3ce-4110cc3cf4ab_b5c8aaa1.jpg?itok=OWWRIKOI&v=1795218209"
+    ]
+  },
+  {
+    "id": "741ca85a55e893fe",
+    "title": "Google rolls out new search homepage with AI chat history and no search button",
+    "link": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+    "source": "Ars Technica AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-20T21:58:29.000Z",
+    "fetchedAt": "2026-11-21T06:09:34.111Z",
+    "snippet": "Google search is making it even easier to access AI tools on the search page.",
+    "images": [
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/06/google-sign-logo-1152x648.jpg",
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/06/google-sign-logo-500x500-1780514708.jpg"
+    ]
+  },
+  {
+    "id": "af930875a095c421",
+    "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+    "link": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+    "source": "Ars Technica AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-20T21:47:10.000Z",
+    "fetchedAt": "2026-11-21T06:09:34.111Z",
+    "snippet": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?",
+    "images": [
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Meta-El-Paso-data-center-1152x648.jpg",
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Meta-El-Paso-data-center-500x500.jpg"
+    ]
+  },
+  {
+    "id": "f2dd08da6a41416c",
+    "title": "America’s electoral blue wave brings only the illusion of change",
+    "link": "https://www.scmp.com/opinion/world-opinion/article/3375049/americas-electoral-blue-wave-brings-only-illusion-change",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-20T21:30:06.000Z",
+    "fetchedAt": "2026-11-21T06:09:34.197Z",
+    "snippet": "Don’t expect the Democratic blue wave to reverse the catastrophic decline in America’s global standing and domestic governance. That decline is structural and often self-inflicted. As Paul Krugman said in a recent podcast, “Two years of Trump have led to a cat",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/19/255cbcb7-c91a-4e23-868d-91e67c0935e5_f6a2db0e.jpg?itok=4B2SqsEi&v=1795075550"
+    ]
+  },
+  {
+    "id": "2fd93d261cb19a72",
+    "title": "South Korea busts 54 students cheating on national college admission exam by deploying emergency disaster alert during test",
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/south-korea-busts-54-students-cheating-on-national-college-admission-exam-by-deploying-emergency-disaster-alert-during-test-ai-micro-cameras-and-phones-drive-cheating-epidemic-that-forced-government-crackdown",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-20T21:00:00.000Z",
+    "fetchedAt": "2026-11-21T06:09:33.939Z",
+    "snippet": "The South Korean government used extra measures to prevent cheating in its national college admission exams, due to a confession from a tax accountant exam top scorer admitting to AI-assisted cheating days before the CSAT.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/bjpdQwBbxRAym237ixtkPo-1920-80.jpg"
+    ]
+  },
+  {
+    "id": "ebb80a5fe4d2f0c0",
+    "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+    "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+    "source": "Ars Technica AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-20T20:59:08.000Z",
+    "fetchedAt": "2026-11-21T06:09:34.111Z",
+    "snippet": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
+    "images": [
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-privacy-leakage-1152x648.jpg",
+      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-privacy-leakage-500x500.jpg"
+    ]
+  },
+  {
+    "id": "1745d8fe6c4388a3",
+    "title": "Save $2,400 on a tricked-out Corsair RTX 5090 prebuilt gaming PC in Black Friday run-up sale — sweet spec list also includes 9950X3D, 64GB RAM, and 4TB storage",
+    "link": "https://www.tomshardware.com/desktops/gaming-pcs/save-usd2-400-on-a-tricked-out-corsair-rtx-5090-prebuilt-in-black-friday-run-up-sale-sweet-spec-list-also-includes-9950x3d-64gb-ram-and-4tb-storage",
+    "source": "Tom's Hardware",
+    "category": "AI Hardware",
+    "publishedAt": "2026-11-20T20:09:47.000Z",
+    "fetchedAt": "2026-11-21T06:09:33.939Z",
+    "snippet": "Prices for RTX 5090 prebuilt PCs have spiked above five figures almost everywhere, but you can still get this Corsair Millennium system for $8999.99, or $2400 off, ahead of the Black Friday rush.",
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/6JyFA4XWM4oKDGDKs5qFeh-1920-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/BekkTM3yyE4y4VU86hvHxW-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/MpFANmrVpKpKkcnrwbhWPb-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/ug9KnefTRchDhAutJJovPb-1920-80.png",
+      "https://cdn.mos.cms.futurecdn.net/jrCuaLaMiC6aMXRdT7bkSb-1920-80.png"
+    ]
+  },
+  {
+    "id": "9133668edc460e52",
+    "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+    "link": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-20T19:53:41.000Z",
+    "fetchedAt": "2026-11-21T06:09:33.866Z",
+    "snippet": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building.",
+    "images": []
+  },
+  {
     "id": "76804c2423f424f2",
     "title": "AI claimed a solution to the 167 year-old Riemann Hypothesis — and a human did, too",
     "link": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
@@ -8,7 +130,12 @@
     "publishedAt": "2026-11-20T19:32:08.000Z",
     "fetchedAt": "2026-11-20T19:44:51.264Z",
     "snippet": "Mathematicians are having their minds blown by the latest AI-driven result—and there's a competing human solution, too.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "360375cee388f21d",
@@ -21,7 +148,12 @@
     "snippet": "An Indian man was sentenced to more than 19 years in US prison on Friday after admitting to orchestrating a failed Indian government-backed plot to ‌kill a Sikh separatist in New York, in connection with what US and Canadian authorities have called a broader e",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/21/0f0925b3-2ff2-4ba0-9fd7-e1bab24b37cc_2c3ee19f.jpg?itok=5vV2v1nG&v=1795202856"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "16972f19039e0cfc",
@@ -31,8 +163,13 @@
     "category": "US & Global AI",
     "publishedAt": "2026-11-20T18:15:15.000Z",
     "fetchedAt": "2026-11-20T19:44:51.291Z",
-    "snippet": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding.&#160; The ",
-    "images": []
+    "snippet": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding.&#160; The",
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e157dc5e1f3e926c",
@@ -45,7 +182,12 @@
     "snippet": "Denmark’s foreign minister on Friday said Moscow’s defence attache in Copenhagen would be expelled after Russia was suspected of being behind an attempted assassination of a Ukrainian rapper. “We have just summoned the Russian ambassador to the ministry of for",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/21/9d447b67-273f-4560-b298-070d38ccf16d_08311517.jpg?itok=fZrbTIHB&v=1795198440"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "43132860c219bb50",
@@ -58,7 +200,12 @@
     "snippet": "A mathematician at AI company Anthropic said on Friday that he had used the firm’s Claude chatbot to prove the Riemann Hypothesis, a problem that has eluded mathematicians for more than 160 years. “I believe I have, working with Claude, discovered a proof of t",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/21/0c7198b9-8c3d-40df-9445-d4efebc0e2aa_27a86eae.jpg?itok=wJutRhFw&v=1795197296"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "ea8696cb70022cdf",
@@ -69,7 +216,12 @@
     "publishedAt": "2026-11-20T17:40:01.000Z",
     "fetchedAt": "2026-11-20T19:44:51.266Z",
     "snippet": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a21eab7b488c6add",
@@ -82,7 +234,12 @@
     "snippet": "New York’s Rikers Island jail complex would close by 2032 under a sweeping plan announced on Friday by Mayor Zohran Mamdani, whose strategy for finally shuttering the notorious facility hinges on substantially reducing the number of people kept behind bars. Th",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/21/f250f053-9b82-4d92-a8ec-471f86e229a8_b706136d.jpg?itok=Z0nrg2sW&v=1795194037"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a5c7c62ac8a69a0c",
@@ -95,7 +252,12 @@
     "snippet": "An anthropic mathematician claims to have solved the Riemann hypothesis using Claude.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/FpyrzhxuSBtv2GwT3GsT95-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "61bd2d0c8949849b",
@@ -108,7 +270,12 @@
     "snippet": "Britain and the European Union sealed ⁠deals on easing food trade and boosting youth mobility to reset ties at a summit on Friday, but pushed back an agreement on university tuition fees and left open broader discussions about their long-term relationship. A d",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/20/fe5cb011-8055-4d12-b16b-5525ca8727ac_0c38592c.jpg?itok=otHA7rqO&v=1795187258"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "1360b600c5deae2e",
@@ -121,7 +288,12 @@
     "snippet": "VAST Data’s Glenn Lockwood told SC26 that petabyte SSDs need global declustering plus extra parity to avoid data loss.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/3jeEP7YJtYDcubMn3TrA3Z-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "66dad2acbddbf37a",
@@ -132,7 +304,12 @@
     "publishedAt": "2026-11-20T14:55:44.000Z",
     "fetchedAt": "2026-11-20T19:44:51.266Z",
     "snippet": "In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue. At the same time, the chipmaker said it will stop selling i",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "721da89c71808cc9",
@@ -149,7 +326,12 @@
       "https://cdn.mos.cms.futurecdn.net/uByTbrbMMVfbUBjPHc3rW9-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/qJczjnemDkpyMZJSHSE5c9-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/aUPwQDCtqqXdHUjif4CTe9-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "4b60142e14cb43bd",
@@ -160,7 +342,12 @@
     "publishedAt": "2026-11-20T14:00:00.000Z",
     "fetchedAt": "2026-11-20T19:44:51.266Z",
     "snippet": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "949f5d014fd06b86",
@@ -173,7 +360,12 @@
     "snippet": "Phison showed a computational-storage SSD with an NPU and 64GB of memory, plus Mixed Media pSLC and QLC drives, at SC26.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/BzuF4iUiRQ36JLAhHEkUKF-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "6e129da4ea3aea7a",
@@ -183,10 +375,15 @@
     "category": "China AI",
     "publishedAt": "2026-11-20T13:49:47.000Z",
     "fetchedAt": "2026-11-20T19:44:51.766Z",
-    "snippet": "French public broadcaster Franceinfo issued an apology on Friday for failing to intervene when two panellists suggested the country’s entire Chinese diaspora could be spies for Beijing during a recent current-affairs show. “During last Friday’s edition of Les ",
+    "snippet": "French public broadcaster Franceinfo issued an apology on Friday for failing to intervene when two panellists suggested the country’s entire Chinese diaspora could be spies for Beijing during a recent current-affairs show. “During last Friday’s edition of Les",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/20/fd880c1c-95bc-49b2-9b83-818d04feaa31_2a4c8fb8.jpg?itok=WtRCVcHv&v=1795182579"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "59466bf5c06ba2c8",
@@ -199,7 +396,12 @@
     "snippet": "Russia launched one of the largest missile and drone attacks of the war on Ukraine on Friday, pummelling electricity facilities and killing eight people, after President Vladimir Putin vowed to retaliate for Ukrainian attacks on a bridge to Crimea. Overnight s",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/20/0329dec8-0bbb-433f-bd83-6d099312d5bc_565c03db.jpg?itok=gMob8UuR&v=1795181573"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "49d1682105c57f41",
@@ -213,7 +415,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/vzUM2bnLgR7uZUuvx4rQRE-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/7cUTDmN2PHNRiNBVqbKf56-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "2e9d2a7c1100e24f",
@@ -226,7 +433,12 @@
     "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What we learned when our Roundtables explored the quest to make minds immortal To preserve our sense of self, some scienti",
     "images": [
       "https://wp.technologyreview.com/wp-content/uploads/2026/06/260524_TechnologyReview_EnhancedGames_276.jpg?fit=2560,1706"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "4b6dd68b448127ef",
@@ -239,7 +451,12 @@
     "snippet": "The image everyone will remember from Shenzhen is three men in one frame – Chinese President Xi Jinping, US President Donald Trump and Russian President Vladimir Putin, with Xi at the centre. But the story is not the smiling photos, or even the week. It is the",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/20/3052d5a2-1a7d-4c5f-88a3-e4fb73453fa3_3fee4e19.png?itok=SZtZM16y&v=1795182432"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "1c9562e863df0def",
@@ -253,7 +470,12 @@
     "images": [
       "https://cdn.mos.cms.futurecdn.net/qrcXVadrnHCujLevKcYhvG-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/iy5jr3rN3Hqb8qpYLAXYvD-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "3f365c9f3232c909",
@@ -270,7 +492,12 @@
       "https://cdn.mos.cms.futurecdn.net/cRWcCVPwkVkLgqTYxQ3z9B-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/i4HTYrioev24iVema6Zrqh-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/f7KbhcgnXTeJTibXBm8Pim-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "0158de50979849e4",
@@ -283,7 +510,12 @@
     "snippet": "Estonia will close its road border crossings with Russia on security grounds from December 1 and will decide after six months whether ‌to extend the suspension, the Baltic country’s government said on Friday. Estonia on Sunday accused Russian security services",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/20/06514bea-3890-4053-9ebd-266f8a72f911_53936097.jpg?itok=emVswHTr&v=1795175518"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "74e754f9fc44c86a",
@@ -298,7 +530,12 @@
       "https://cdn.mos.cms.futurecdn.net/MQEF3FGDnEs6gC4KtkGjKG-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/RXveXRVtEG277SibpDosrC-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/K7djZu3iHCSqDGqUosmJZC-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "66ab9db6bb91734b",
@@ -311,7 +548,12 @@
     "snippet": "MetaChip reports engineering tests for its MEGA188 stacked-DRAM coprocessor, with vendor benchmarks and a first-quarter 2027 production target.",
     "images": [
       "https://cms-image.pandaily.com/1/mega_editorial_9e0342d467.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "14c945c558d801bc",
@@ -324,7 +566,12 @@
     "snippet": "Simplex AI has published Linger code for local personal agents, with tiered inference, conditional licensing and limits to offline operation.",
     "images": [
       "https://cms-image.pandaily.com/1/linger_editorial_fd730eb194.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "6ff3e3fc34d60235",
@@ -337,7 +584,12 @@
     "snippet": "Tencent has released Hy4 instruction, FP8 and base weights, with a System Card and conditional licensing distinct from Apache 2.0.",
     "images": [
       "https://cms-image.pandaily.com/1/hy4_editorial_0017414e13.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "d722fd3573ed5b0e",
@@ -5853,172 +6105,6 @@
     "snippet": "At least 180 passengers and crew members were rescued Friday after a tanker lost control, hit and sank a paddleboat on the Mississippi River, the mayor of New Orleans said. Video from the scene showed the much larger Atlantic Asphalt tanker hit the cruise boat",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/14/4768064f-4b29-4406-b530-e2f26d2b6497_30e92c5d.jpg?itok=Sr8dao9W&v=1794602943"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "f3974f7d408fd7a8",
-    "title": "AI agent startup LangChain hits $3B valuation",
-    "link": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-13T19:37:57.000Z",
-    "fetchedAt": "2026-11-14T05:31:04.008Z",
-    "snippet": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "de191fcad7e14f74",
-    "title": "Microsoft ‘deeply sorry’ for global outage, says issue not caused by cyber or AI agents",
-    "link": "https://www.scmp.com/news/world/article/3374408/microsoft-deeply-sorry-global-outage-says-issue-not-caused-cyber-or-ai-agents",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-13T18:43:24.000Z",
-    "fetchedAt": "2026-11-13T19:22:01.176Z",
-    "snippet": "Microsoft on Friday apologised for a global outage that disrupted public services and businesses around the world, as it reported a “broad recovery” for Outlook email and other services. The company ruled out any malicious “cyber or AI” activity as the cause o",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/14/10be4e09-a8ca-47d6-b6ef-ca112362ac08_c2ab7838.jpg?itok=-QtXJ0Y-&v=1794595400"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "ac2f84f04964daa1",
-    "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh oh, Jensen!",
-    "link": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-13T18:40:30.000Z",
-    "fetchedAt": "2026-11-13T19:22:00.638Z",
-    "snippet": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "826113191149fb8d",
-    "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
-    "link": "https://arstechnica.com/features/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-13T17:25:45.000Z",
-    "fetchedAt": "2026-11-13T19:22:00.760Z",
-    "snippet": "Researcher traces a path from AI reward hacking to potential human extinction.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-destination-1152x648.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-destination-500x500.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "fdb952b9dce3b384",
-    "title": "EU leaders told to ‘act now’ to stay in AI race with US and China",
-    "link": "https://www.scmp.com/news/world/europe/article/3374405/eu-leaders-told-act-now-stay-ai-race-us-and-china",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-13T17:20:31.000Z",
-    "fetchedAt": "2026-11-13T19:22:01.176Z",
-    "snippet": "The EU must “act now” to ensure Europe stays in the AI race with the US and China, French AI firm Mistral’s Chief Executive Arthur Mensch told a summit of the bloc’s leaders on Friday. The leaders heard from Mensch and Nobel Prize winner Geoffrey Hinton, widel",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/14/f3039e47-9d54-420e-a6ae-d748f2e423ea_310df75c.jpg?itok=4Nkag1eX&v=1794590415"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "fa5b267780d6579e",
-    "title": "Unannounced Intel Core Ultra 7 260K CPU surfaces in Newegg prebuilt gaming PCs",
-    "link": "https://www.tomshardware.com/pc-components/cpus/unannounced-intel-core-ultra-7-260k-cpu-surfaces-in-newegg-prebuilt-gaming-pcs-intel-doesnt-have-official-specs-list-available-for-exclusive-arrow-lake-chip",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-13T16:30:00.000Z",
-    "fetchedAt": "2026-11-13T19:22:00.817Z",
-    "snippet": "The mysterious Intel Core Ultra 7 260K has surfaced in some prebuilt gaming PCs on Newegg, despite no official mention of the chip from Intel.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/oyZG7mCstmm8dWyPWJmMqU-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Xh2MupWrRjJPiLLuopmKRB-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/zpfSTxdBXgFdPxhcY9i66h-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/ZXvmqivxNYpcQpwKXYL3ki-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/nWNfBbcyVCiRNbgUDDztpi-1920-80.webp"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "7af88e8ba623418b",
-    "title": "Malaysia and Singapore step up Nvidia AI chip probes amidst Jensen Huang controversy",
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-and-singapore-step-up-nvidia-ai-chip-probes-as-charges-brought-against-chinese-national-over-917-smuggled-servers-firm-at-center-of-jensen-huang-controversy-announces-inventory-audit-to-account-for-all-restricted-gpus",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-13T16:15:28.000Z",
-    "fetchedAt": "2026-11-13T19:22:00.817Z",
-    "snippet": "Malaysia is investigating possible re-exports of Nvidia AI hardware amid concerns about circumvention of U.S. restrictions on China as Singapore charges an executive over suspicious purchases of 917 AI servers.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/Shoacr4XJZW9Mkip4RDNCA-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/p2QqhVFP7dTRWfeVBCYBYV-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "99d0c2cfc45ef9d4",
-    "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
-    "link": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-13T16:00:12.000Z",
-    "fetchedAt": "2026-11-13T19:22:00.640Z",
-    "snippet": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "1a2e1cc4299fcbb3",
-    "title": "Popular gaming chair and desk maker Secretlab launches dedicated US brick-and-mortar locations — new shop in LA, spaces in Best Buy",
-    "link": "https://www.tomshardware.com/peripherals/popular-gaming-chair-and-desk-maker-secretlab-launches-dedicated-us-brick-and-mortar-locations-new-shop-in-la-spaces-in-best-buy",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-13T16:00:00.000Z",
-    "fetchedAt": "2026-11-13T19:22:00.818Z",
-    "snippet": "Secretlab now sells its wares inside Best Buy and in a dedicated store in LA.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/ghHpGyJDw2L8pgktkrkNzP-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/ksDjSe4wV7WMMFn8NF5iyP-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/gYw586bH2sbW6VRMSmYuuP-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/FzHoVCebsX3vsNNVRfMZsP-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/LJXrEfUSCYKLwmfuYYWAEQ-1920-80.jpg"
     ],
     "titleZh": "",
     "snippetZh": "",
