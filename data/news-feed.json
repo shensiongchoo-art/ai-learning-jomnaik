@@ -1,5 +1,169 @@
 [
   {
+    "id": "86dcf58654bd2d40",
+    "title": "Ant Group Releases Ling-3.2-air Multimodal Model With 5.5B Active Parameters",
+    "link": "https://pandaily.com/ant-group-ling-3-2-air-multimodal-open-weights",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-24T07:06:23.000Z",
+    "fetchedAt": "2026-11-24T08:58:57.716Z",
+    "snippet": "Ant Group released Ling-3.2-air with text, image and video input, 124B total parameters and downloadable weights under a model-card MIT declaration.",
+    "images": [
+      "https://cms-image.pandaily.com/1/ling_editorial_8abb85f2c5.png"
+    ]
+  },
+  {
+    "id": "1d4b95ed811deea0",
+    "title": "SenseTime Opens SenseNova U1.6 With Native Image Self-Correction",
+    "link": "https://pandaily.com/sensetime-sensenova-u1-6-native-image-self-correction",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-24T07:05:50.000Z",
+    "fetchedAt": "2026-11-24T08:58:57.716Z",
+    "snippet": "SenseTime released open SenseNova U1.6 weights and a hosted Lite update, with company-reported gains from checking and correcting image text.",
+    "images": [
+      "https://cms-image.pandaily.com/1/sense_editorial_a834cc3523.png"
+    ]
+  },
+  {
+    "id": "b030820064310f85",
+    "title": "SAMA: Training-Free Consensus Ridge Tracking for Camera-Based Heart Rate on Five Public Datasets",
+    "link": "https://arxiv.org/abs/2611.28185",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-24T05:00:00.000Z",
+    "fetchedAt": "2026-11-24T08:58:57.834Z",
+    "snippet": "arXiv:2611.28185v1 Announce Type: new Abstract: Remote photoplethysmography (rPPG) is usually benchmarked by one heart rate per video, a figure that hides the short windows in which a tele-consultation would actually read the pulse. We present SAMA, a training",
+    "images": []
+  },
+  {
+    "id": "95e54be690cf9be9",
+    "title": "torchtsetlin: Fast, Interpretable Tsetlin Machines for PyTorch",
+    "link": "https://arxiv.org/abs/2611.28195",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-24T05:00:00.000Z",
+    "fetchedAt": "2026-11-24T08:58:57.834Z",
+    "snippet": "arXiv:2611.28195v1 Announce Type: new Abstract: The Tsetlin machine learns propositional rules with teams of Tsetlin automata that are driven by reward and penalty rather than gradients, so its models are interpretable by construction and cheap to evaluate. It",
+    "images": []
+  },
+  {
+    "id": "e428db8828b27ac4",
+    "title": "From Point Clouds to Engineering Models: Benchmarking Agentic 3D Reconstruction in the Built Environment",
+    "link": "https://arxiv.org/abs/2611.28197",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-24T05:00:00.000Z",
+    "fetchedAt": "2026-11-24T08:58:57.834Z",
+    "snippet": "arXiv:2611.28197v1 Announce Type: new Abstract: Coding agents can translate 3D measurements into CAD geometry, but reconstructing engineering models for the built environment demands semantic interpretation and consistent construction constraints beyond surfac",
+    "images": []
+  },
+  {
+    "id": "2de096abc2454a48",
+    "title": "AutoPILOT: A Visual Agent Harness for Real-Time Gameplay",
+    "link": "https://arxiv.org/abs/2611.28202",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-24T05:00:00.000Z",
+    "fetchedAt": "2026-11-24T08:58:57.835Z",
+    "snippet": "arXiv:2611.28202v1 Announce Type: new Abstract: Multimodal foundation models can play video games well when the game waits for them, but often fail when it keeps running. We find that much of this gap lies in the harness, which decides what the model sees, wha",
+    "images": []
+  },
+  {
+    "id": "75e3c5f70e34b68d",
+    "title": "FinEvo: Recursive Self-Improvement for Long-Horizon Financial Modeling",
+    "link": "https://arxiv.org/abs/2611.28239",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-24T05:00:00.000Z",
+    "fetchedAt": "2026-11-24T08:58:57.835Z",
+    "snippet": "arXiv:2611.28239v1 Announce Type: new Abstract: Advances in large language models (LLMs) have expanded their role in high-value productivity tasks, including financial analysis and modeling, while enabling models to play an increasingly active role in their ow",
+    "images": []
+  },
+  {
+    "id": "b02ecf8a9662cab0",
+    "title": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
+    "link": "https://arxiv.org/abs/2611.28244",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-24T05:00:00.000Z",
+    "fetchedAt": "2026-11-24T08:58:57.835Z",
+    "snippet": "arXiv:2611.28244v1 Announce Type: new Abstract: Autoresearch agents, which autonomously design, run, and refine experiments, are accelerating scientific progress, particularly in AI research. However, existing agents rely on harnesses that combine multiple mec",
+    "images": []
+  },
+  {
+    "id": "96f88f97a9180d54",
+    "title": "A Nepali-Accented English Evaluation Dataset for Automatic Speech Recognition",
+    "link": "https://arxiv.org/abs/2611.28263",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-24T05:00:00.000Z",
+    "fetchedAt": "2026-11-24T08:58:57.835Z",
+    "snippet": "arXiv:2611.28263v1 Announce Type: new Abstract: Automatic speech recognition (ASR) systems perform strongly on native-English benchmarks, yet their accuracy degrades sharply when the input speech comes from under represented non-native accents. Nepali-accented",
+    "images": []
+  },
+  {
+    "id": "29d8e8c022e09ad9",
+    "title": "Specialized Large Language Models for Markovian Reasoning: Structural Cache Compression, Transition Pretraining, and Dual-Loop Transformers",
+    "link": "https://arxiv.org/abs/2611.28285",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-24T05:00:00.000Z",
+    "fetchedAt": "2026-11-24T08:58:57.835Z",
+    "snippet": "arXiv:2611.28285v1 Announce Type: new Abstract: Standard autoregressive large language models attend to the growing history of generated tokens, making the key-value (KV) cache a central memory and throughput bottleneck in long-chain reasoning and multi-branch",
+    "images": []
+  },
+  {
+    "id": "779376a9fae87cb1",
+    "title": "Feedback-Driven Prompt Refinement for Educational AI: Affective Trajectory Estimation and Bloom's Taxonomy Classification",
+    "link": "https://arxiv.org/abs/2611.28293",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-24T05:00:00.000Z",
+    "fetchedAt": "2026-11-24T08:58:57.835Z",
+    "snippet": "arXiv:2611.28293v1 Announce Type: new Abstract: Contribution: This study has shown that a shared prompt-refinement procedure, guided by distinct affective and cognitive feedback signals, can improve held-out reference agreement and multi-label classification w",
+    "images": []
+  },
+  {
+    "id": "25de1491fa683771",
+    "title": "Hacked Russian data suggests nearly 500,000 soldiers dead, reports say",
+    "link": "https://www.scmp.com/news/world/russia-central-asia/article/3375557/hacked-russian-data-suggests-nearly-500000-soldiers-dead-reports-say",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-24T03:50:26.000Z",
+    "fetchedAt": "2026-11-24T08:58:58.209Z",
+    "snippet": "Data allegedly stolen by hackers from Russia’s statistics agency Rosstat show the number of recorded Russian military dead is approaching 500,000, several Russian media outlets and German news magazine Der Spiegel reported on Monday. The outlets said they had ",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/24/56b9ec8d-e5b1-4267-b2fe-f8f8ac020199_50e98cc1.jpg?itok=JRy-WoWR&v=1795492223"
+    ]
+  },
+  {
+    "id": "d824cadb5af26658",
+    "title": "XPeng Upgrades X-World 1.6 With Repeatable Virtual City Driving Tests",
+    "link": "https://pandaily.com/xpeng-x-world-1-6-virtual-city-driving-simulation",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-24T01:59:33.000Z",
+    "fetchedAt": "2026-11-24T08:58:57.717Z",
+    "snippet": "XPeng’s world-model upgrade recreates recorded roads for repeatable driving-AI tests, with company-reported gains in trajectory consistency and interaction latency.",
+    "images": [
+      "https://cms-image.pandaily.com/1/xpeng_editorial_12576b6bc3.png"
+    ]
+  },
+  {
+    "id": "419ad2264b76a32d",
+    "title": "Israel leadership rivals clash over Iran threat ahead of coalition talks",
+    "link": "https://www.scmp.com/news/world/middle-east/article/3375535/israel-leadership-rivals-clash-over-iran-threat-ahead-coalition-talks",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-23T23:58:57.000Z",
+    "fetchedAt": "2026-11-24T08:58:58.209Z",
+    "snippet": "Gadi Eisenkot, who is tasked with forming the next Israeli government, said he saw no immediate reason for attacking Iran on Monday, contradicting caretaker Prime Minister Benjamin Netanyahu who warned against playing down “grave threats”. The remarks from bot",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/24/f9d09074-67a3-4175-9426-b78a727fb9a6_3af6c17b.jpg?itok=DrkoKmuq&v=1795481747"
+    ]
+  },
+  {
     "id": "0b8dbf5e6331b6fa",
     "title": "Germans reject choosing between US and China as faith in the West crumbles",
     "link": "https://www.scmp.com/news/china/diplomacy/article/3375525/germans-reject-choosing-between-us-and-china-faith-west-crumbles",
@@ -10,7 +174,12 @@
     "snippet": "Amid heated superpower rivalry, a vast majority of Germans want to remain neutral between the United States and China, even as a major new survey also reveals anxiety about the economic threat posed by Beijing. The Berlin Pulse, an annual survey, showed that 8",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/24/b949fb19-f950-4270-96b1-55a84bf9d0c2_2b2fd2e6.jpg?itok=eYgJvupT&v=1795456173"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "ae2153d3487cc519",
@@ -20,9 +189,27 @@
     "category": "China AI",
     "publishedAt": "2026-11-23T22:26:15.000Z",
     "fetchedAt": "2026-11-23T23:34:10.304Z",
-    "snippet": "Elon Musk’s businesses harmed consumers by avoiding safeguards when they designed and launched an artificial intelligence chatbot capable of creating sexualised images, two Democratic attorneys general argued in lawsuits filed on Monday. The choices that went ",
+    "snippet": "Elon Musk’s businesses harmed consumers by avoiding safeguards when they designed and launched an artificial intelligence chatbot capable of creating sexualised images, two Democratic attorneys general argued in lawsuits filed on Monday. The choices that went",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/24/de3f5890-b95e-4fd5-b4db-cee4d05b6e7c_dd2ac57f.jpg?itok=aPmv98vn&v=1795472706"
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "6e63bd90420f20a6",
+    "title": "US states sue Musk companies over sexualised images made with Grok",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3375532/us-states-sue-musk-companies-over-flood-sexualised-images-made-ai-chatbot-grok",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-23T22:26:15.000Z",
+    "fetchedAt": "2026-11-24T08:58:58.210Z",
+    "snippet": "Elon Musk’s businesses harmed consumers by avoiding safeguards when they designed and launched an artificial intelligence chatbot capable of creating sexualised images, two Democratic attorneys general argued in lawsuits filed on Monday. The choices that went ",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/24/554b7e6e-f428-4208-9798-d368ff163e89_857f63b1.jpg?itok=OWKvh4lO&v=1795486268"
     ]
   },
   {
@@ -34,7 +221,12 @@
     "publishedAt": "2026-11-23T22:05:50.000Z",
     "fetchedAt": "2026-11-23T23:34:09.933Z",
     "snippet": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c98a28349f770847",
@@ -45,7 +237,12 @@
     "publishedAt": "2026-11-23T22:02:05.000Z",
     "fetchedAt": "2026-11-23T23:34:09.935Z",
     "snippet": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "36084ad456e20e38",
@@ -60,7 +257,12 @@
       "https://cdn.mos.cms.futurecdn.net/kbnZrASYje3B6GAvhTYukR-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/DMm66WxK5C2ZjeVN4gqKjU-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/WmwnREp36QsmNgh3cqCRbP-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "fd5daa33de38c733",
@@ -71,7 +273,12 @@
     "publishedAt": "2026-11-23T21:47:41.000Z",
     "fetchedAt": "2026-11-23T23:34:09.935Z",
     "snippet": "\"The mistake has been corrected,\" Elon Musk chimed in.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "2e8ccd97aa825b17",
@@ -85,7 +292,12 @@
     "images": [
       "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2284791219-1024x648.jpg",
       "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2284791219-500x500.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "100d61f11f54a9b7",
@@ -96,7 +308,12 @@
     "publishedAt": "2026-11-23T21:25:42.000Z",
     "fetchedAt": "2026-11-23T23:34:09.935Z",
     "snippet": "Megaspeed, which was previously led by Alice Huang, would be barred from doing business with U.S. companies unless those companies attained a special license from the federal government.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "0e58c2638c204bbc",
@@ -109,6 +326,24 @@
     "snippet": "European Commission President Ursula von der Leyen has announced a proposal for the next sanctions package over Russia’s war against Ukraine that would ban Russian teams and individual athletes from competing under the Russian flag at events in the EU in the f",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/24/49cec5c0-9558-4081-8339-56e458517bc5_b9cfc21f.jpg?itok=MXhIGFxC&v=1795469908"
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "aedb59e1bc92bb90",
+    "title": "EU proposes banning Russian flags at sports events under new sanctions",
+    "link": "https://www.scmp.com/news/world/europe/article/3375530/eu-moves-ban-russian-flags-sports-events-under-new-sanctions",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-23T21:15:30.000Z",
+    "fetchedAt": "2026-11-24T08:58:58.210Z",
+    "snippet": "European Commission President Ursula von der Leyen has announced a proposal for the next sanctions package over Russia’s war against Ukraine that would ban Russian teams and individual athletes from competing under the Russian flag at events in the EU in the f",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/24/4e7312fb-2ba5-4f60-b92a-078ebbec04ee_88fd1da5.jpg?itok=RNccD952&v=1795485172"
     ]
   },
   {
@@ -126,7 +361,12 @@
       "https://cdn.mos.cms.futurecdn.net/K72senDGMY6rYkXijUi52H-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/MsBsq8dwfoiPGqBB3LCq2H-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/6UN8qSZvqWCQ5WfxzJGq3H-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "395f6aa661168ec4",
@@ -139,7 +379,12 @@
     "snippet": "Jensen Huang returned to the office after being reinstated to CEO to cheers, according to videos spread on social media.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/sDEMAVk3qrauvEM3EtLfHJ-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "2274da06900bccdc",
@@ -150,7 +395,12 @@
     "publishedAt": "2026-11-23T20:38:53.000Z",
     "fetchedAt": "2026-11-23T23:34:09.935Z",
     "snippet": "\"I'm going to be a better CEO the second time around,\" Huang told employees.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "39a2161644bb593a",
@@ -160,10 +410,15 @@
     "category": "China AI",
     "publishedAt": "2026-11-23T20:29:04.000Z",
     "fetchedAt": "2026-11-23T23:34:10.304Z",
-    "snippet": "Britain ⁠on Monday announced sanctions against five ‌people under its Myanmar and global human rights sanctions ⁠regimes, including senior ‌members of the nation’s military. The ‌sanctions were announced ⁠after ⁠the ‌International Court of Justice (ICJ) ruled ",
+    "snippet": "Britain ⁠on Monday announced sanctions against five ‌people under its Myanmar and global human rights sanctions ⁠regimes, including senior ‌members of the nation’s military. The ‌sanctions were announced ⁠after ⁠the ‌International Court of Justice (ICJ) ruled",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/24/fa2e58fe-6132-4684-bd98-70882876c9fd_f91a3c59.jpg?itok=qN9z-_W_&v=1795468760"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "b7c7a8a429370749",
@@ -176,6 +431,24 @@
     "snippet": "Armenian leader Nikol Pashinyan unveiled a proposed new constitution on Monday that would get rid of a claim to the Karabakh region, saying it was the only way to reach a peace deal with Azerbaijan. The Caucasus foes spent three decades locked in a territorial",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/24/4eaf1701-cdf9-4770-8e86-184b2b74c1c1_2c36292f.jpg?itok=uBWnWUE_&v=1795461682"
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "89bc2d31459edc1b",
+    "title": "Armenia unveils draft constitution, key to peace with neighbour Azerbaijan",
+    "link": "https://www.scmp.com/news/world/europe/article/3375528/armenian-pm-unveils-draft-constitution-key-azerbaijan-peace-deal",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-23T19:27:08.000Z",
+    "fetchedAt": "2026-11-24T08:58:58.210Z",
+    "snippet": "Armenian leader Nikol Pashinyan unveiled a proposed new constitution on Monday that would get rid of a claim to the Karabakh region, saying it was the only way to reach a peace deal with Azerbaijan. The Caucasus foes spent three decades locked in a territorial",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/24/0d7c0d27-413c-40ac-ae70-0566ad4e16de_78194151.jpg?itok=925gJ2JR&v=1795489715"
     ]
   },
   {
@@ -193,7 +466,12 @@
       "https://cdn.mos.cms.futurecdn.net/xhqpMMcwxZdPFeZKdviH8c-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/2REfjsjfiUTQz7U4Y8i9Tc-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/jBp8pv3MTsgV9U2yXWjp9f-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "81a25dc162de17aa",
@@ -204,7 +482,12 @@
     "publishedAt": "2026-11-23T19:14:46.000Z",
     "fetchedAt": "2026-11-23T23:34:09.935Z",
     "snippet": "By bringing Personal Intelligence in AI Mode to Drive, Wallet, and the Gemini app, Google is leveraging the wealth of user data that's already within its ecosystem",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "3a90f30b806fb440",
@@ -217,7 +500,12 @@
     "snippet": "Britain’s former prince Andrew received £750,000 (US$976,000) as an alleged “bribe” to help a Turkish heiress, the High Court in London was told on Monday, with the disgraced British royal due to testify in the civil trial. The claim around the payment emerged",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/24/a4cfbcb9-7609-4781-bb5f-26efd9c0e14c_557b3c13.jpg?itok=7kwstvud&v=1795459580"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "b0c1bb292c46e16c",
@@ -228,7 +516,12 @@
     "publishedAt": "2026-11-23T18:12:22.000Z",
     "fetchedAt": "2026-11-23T23:34:09.935Z",
     "snippet": "The public hearing follows bipartisan calls for Huang to testify about the affair with the suspected Chinese spy.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "3cd287e9f8f8dc51",
@@ -243,7 +536,12 @@
       "https://cdn.mos.cms.futurecdn.net/y4Btk5SJY5BAa8r7oqC7Nh-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/Ct4WwiXj7xMHU238w3ncFo-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/F8qE7EMEDAX5XTJw3CWrLo-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "b1a2cbc556e70cf7",
@@ -256,7 +554,12 @@
     "snippet": "UK Prime Minister Andy Burnham accused predecessors who have warned him against reigniting the Brexit debate of being “stuck in the past” on Monday, as he trumpeted his EU reset deal. Burnham has in recent weeks smashed a general consensus that Britain’s acrim",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/24/c83b6e63-d686-412a-a6ee-a1467e44ea41_5f9a1ac0.jpg?itok=fqFLUA_-&v=1795456619"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "4a655a5ebc6b8069",
@@ -267,7 +570,12 @@
     "publishedAt": "2026-11-23T17:36:08.000Z",
     "fetchedAt": "2026-11-23T23:34:09.972Z",
     "snippet": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic named the possibility that AI could be conscious or sentient as a risk factor for",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "83697a5bacd76153",
@@ -278,7 +586,12 @@
     "publishedAt": "2026-11-23T17:14:23.000Z",
     "fetchedAt": "2026-11-23T23:34:09.935Z",
     "snippet": "Amazon is acquiring Decart’s AI optimization technology and research team in a reported $7.5 billion deal.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "249f10e07b56123f",
@@ -294,7 +607,12 @@
       "https://cdn.mos.cms.futurecdn.net/4rZqRFXXvpj73XFyQVmZmg-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/WQQ2fdzz6pzxCDbcM9ZMbc-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/PoDtz29UzSrdaVqUceqPrM-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "94543859c35e5505",
@@ -305,7 +623,12 @@
     "publishedAt": "2026-11-23T16:57:40.000Z",
     "fetchedAt": "2026-11-23T23:34:09.935Z",
     "snippet": "Tech leaders should be clear-eyed about all the problems likely to come with Huang's reinstatement.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "269da2139ea2e409",
@@ -318,7 +641,12 @@
     "snippet": "Nato chief Mark Rutte said on Monday the alliance would defend against threats in space when asked about German media reports that Russia may be preparing to launch a nuclear-armed satellite. The media reports, citing unnamed German military and BND spy agency",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/24/fa13036d-c127-4d1c-874c-daa1accececf_80ca42a3.jpg?itok=Byh6YoT4&v=1795452534"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a3827b6180e63759",
@@ -329,7 +657,12 @@
     "publishedAt": "2026-11-23T16:39:10.000Z",
     "fetchedAt": "2026-11-23T23:34:09.935Z",
     "snippet": "\"I spoke to them, let me put it that way … And I convinced them,\" the president told CNBC.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a37068ce98bb469b",
@@ -342,7 +675,12 @@
     "snippet": "The $899 Co Print Quadro IQEX 3D printer raised over $500,000 on Kickstarter, exceeding its $50,000 goal.",
     "images": [
       "https://cdn.mos.cms.futurecdn.net/NZ2oDCFTTQdt97wjDXCUTU-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "33837f3828454ed1",
@@ -355,7 +693,12 @@
     "snippet": "Mexico and China agreed on Monday to create a working group focused on bilateral economic priorities, Mexico’s ⁠Economy Ministry said. Economy ministers Marcelo ‌Ebrard of Mexico and Wang Wentao of China will look at ways to boost Mexican exports to China, the",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/24/c9b66a25-ce6b-4797-9e5b-c3fc4ce7f888_872d4fe1.jpg?itok=zvSH_Ua8&v=1795451328"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "ecd0de343fc1d399",
@@ -369,7 +712,12 @@
     "images": [
       "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2301328096-1024x648.jpg",
       "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2301328096-500x500.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "314e0f940072ecc4",
@@ -382,7 +730,12 @@
     "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The most misunderstood graph in AI just got a major update A new report from the AI evaluation nonprofit METR finds that s",
     "images": [
       "https://wp.technologyreview.com/wp-content/uploads/2025/08/starlink-grid-gradient.jpg?fit=1920,1280"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "4957e4e7b6887f50",
@@ -396,7 +749,12 @@
     "images": [
       "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Asus-P16-3-1152x648.jpg",
       "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Asus-P16-3-500x500.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "2c3348ec08beda4c",
@@ -409,7 +767,12 @@
     "snippet": "X Square Robot reports zero-shot results across 312 robot tasks and introduces XR Harness; public Lite checkpoints have a narrower evaluation scope.",
     "images": [
       "https://cms-image.pandaily.com/1/wall_editorial_36f4173ab3.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "42111abe3c0d8e17",
@@ -422,7 +785,12 @@
     "snippet": "Zhipu says GLM-5.4 adds vision and stronger coding, with a 1.5× usage allowance for specified plans; technical details remain limited.",
     "images": [
       "https://cms-image.pandaily.com/1/glm_editorial_d4db992f25.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "84cc6343e94dcecd",
@@ -5664,311 +6032,6 @@
     "fetchedAt": "2026-11-17T20:36:34.181Z",
     "snippet": "arXiv:2611.18905v1 Announce Type: new Abstract: Ambiguity is a core challenge in human--AI interaction, where models must decide when to make assumptions and when to seek clarification. Existing approaches to ambiguity evaluation largely focus on coverage over",
     "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "0138573a523ffb60",
-    "title": "MemeEconomy: Do LLM Agents Trade Ethics for Survival?",
-    "link": "https://arxiv.org/abs/2611.18908",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-11-17T05:00:00.000Z",
-    "fetchedAt": "2026-11-17T20:36:34.181Z",
-    "snippet": "arXiv:2611.18908v1 Announce Type: new Abstract: Alignment-trained large language model (LLM) agents are increasingly deployed in autonomous, multi-round settings where ethical compliance can come into direct tension with task success. While safety literature e",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "aeceb754f2c21149",
-    "title": "Between Rigor and Reality: How AI Safety Benchmark Developers Understand Benchmark Use and Maintenance",
-    "link": "https://arxiv.org/abs/2611.18930",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-11-17T05:00:00.000Z",
-    "fetchedAt": "2026-11-17T20:36:34.181Z",
-    "snippet": "arXiv:2611.18930v1 Announce Type: new Abstract: Safety benchmarks are cited as the primary tool to understand the risks posed by generative AI (GenAI) systems, yet growing evidence suggests they often fail to meet the needs of real-world safety evaluation. We",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "ddee4311bbd92392",
-    "title": "Third US aircraft carrier reaches Middle East as Trump weighs Iran options",
-    "link": "https://www.scmp.com/news/world/middle-east/article/3374663/third-us-aircraft-carrier-reaches-middle-east-trump-weighs-iran-options",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-17T02:32:44.000Z",
-    "fetchedAt": "2026-11-17T07:05:41.099Z",
-    "snippet": "A third American aircraft carrier has arrived in the Middle East, US Central Command said in a social media post on Monday, making a dramatic show of military might as US President Donald Trump keeps his options open for next steps in the Iran war. The USS The",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/17/c4251cc8-6aac-402d-9334-aeeb322e4865_2c1df2ec.jpg?itok=0-Zz9UAD&v=1794882753"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "5379b5201c20f9e8",
-    "title": "METASTONE Launches Multimodal Inference Service, Reports 2.48x Video Speedup in Self-Tests",
-    "link": "https://pandaily.com/metastone-multimodal-inference-service-adaptive-cache-context-engine",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-17T02:04:38.000Z",
-    "fetchedAt": "2026-11-17T07:05:40.741Z",
-    "snippet": "METASTONE's multimodal service combines adaptive caching, token compression and a Context Engine. Its 2.48x video speedup and quality claims are vendor self-tests.",
-    "images": [
-      "https://cms-image.pandaily.com/1/metastone_a899db213a.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "1ce5b853e6974b0d",
-    "title": "Doubao Work Adds AI Workbenches for 21 Professional Scenarios",
-    "link": "https://pandaily.com/doubao-work-industry-workbenches-professional-skills-tools-sharing",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-17T02:04:29.000Z",
-    "fetchedAt": "2026-11-17T07:05:40.742Z",
-    "snippet": "Doubao Work bundles skills and tools into workbenches for 21 professional scenarios, with custom configurations users can save and share.",
-    "images": [
-      "https://cms-image.pandaily.com/1/doubao_4ceba5d773.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "19facd0c86c5e458",
-    "title": "Robbyant's LingBot-VLA 2.0 Challenge Ends With a 48-Hour Real-Robot Final",
-    "link": "https://pandaily.com/robbyant-lingbot-vla-2-0-challenge-final-real-robot-tars",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-17T02:04:18.000Z",
-    "fetchedAt": "2026-11-17T07:05:40.742Z",
-    "snippet": "Fifteen teams adapted LingBot-VLA 2.0 on real robots in 48 hours. Robbyant's Shanghai final exposed challenges in data, perception and execution.",
-    "images": [
-      "https://cms-image.pandaily.com/1/robbyant_e4cb0d2da2.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "587bcddb9d996858",
-    "title": "ByteDance Opens Seedance 2.5 4K API to Developers and Enterprises",
-    "link": "https://pandaily.com/bytedance-seedance-2-5-4k-api-general-availability-draft-mode",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-17T02:04:00.000Z",
-    "fetchedAt": "2026-11-17T07:05:40.742Z",
-    "snippet": "Seedance 2.5 4K API access is now generally available. Its Draft mode lets users test 480p previews before separately billed 4K rendering.",
-    "images": [
-      "https://cms-image.pandaily.com/1/seedance_7c00d00a03.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "36e6be823475db9a",
-    "title": "Alibaba's QwenWork Adds Third-Party Models From Kimi, GLM and DeepSeek",
-    "link": "https://pandaily.com/alibaba-qwenwork-third-party-model-selection-kimi-glm-deepseek",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-17T02:03:52.000Z",
-    "fetchedAt": "2026-11-17T07:05:40.742Z",
-    "snippet": "Alibaba's QwenWork expands model choice to Kimi, GLM, DeepSeek and other providers, with enterprise access controls by department, group or member.",
-    "images": [
-      "https://cms-image.pandaily.com/1/qwenwork_0e12e29ad2.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "ec4d6d1bc66294e1",
-    "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
-    "link": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-16T23:32:32.000Z",
-    "fetchedAt": "2026-11-17T07:05:40.672Z",
-    "snippet": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "b6f2a5171806ed69",
-    "title": "United Airlines hit by system outage days after US-wide ground stop",
-    "link": "https://www.scmp.com/news/world/united-states-canada/article/3374655/united-airlines-has-widespread-system-failure-just-days-after-nationwide-ground-stop",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-16T23:05:34.000Z",
-    "fetchedAt": "2026-11-17T07:05:41.099Z",
-    "snippet": "A system outage that lasted more than 90 minutes forced United Airlines to delay departing flights Monday, just days after a malfunction in the Federal Aviation Administration’s network prompted a nationwide ground stop. Chicago-based United said in a statemen",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/17/f9c845ce-3834-4fcb-87f8-51eea0f5677b_b54d689d.jpg?itok=cGfavH6u&v=1794879158"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "d3a768de7ad07103",
-    "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
-    "link": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
-    "source": "Ars Technica AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-16T22:58:27.000Z",
-    "fetchedAt": "2026-11-17T07:05:41.008Z",
-    "snippet": "Robotics startup misses payroll a year after CEO used funds for luxury home.",
-    "images": [
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Foundation-Phantom-MK-1-mortar-demo-1152x648.jpg",
-      "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Foundation-Phantom-MK-1-mortar-demo-500x500.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "793473a38bec4a24",
-    "title": "China retains fastest supercomputer in the world crown as AI data centers soak up new hardware",
-    "link": "https://www.tomshardware.com/tech-industry/supercomputers/china-retains-fastest-supercomputer-in-the-world-crown-as-ai-data-centers-soak-up-new-hardware-top500-records-fewest-new-systems-in-33-years",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-16T22:17:02.000Z",
-    "fetchedAt": "2026-11-17T07:05:40.903Z",
-    "snippet": "The Top 500 list records the fewest new entrants in its history amid a massive shift in compute infrastructure investments towards AI factories.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/kiQWCdGYbYcrsLVKdCSDi3-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/PchizavCQC3mEngxrrs6bg-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "3ac0ea64f0587c5e",
-    "title": "UK’s Burnham says Brexit ‘has not worked’ before key EU talks",
-    "link": "https://www.scmp.com/news/world/europe/article/3374654/uk-pm-andy-burnham-says-brexit-has-not-worked-ahead-reset-summit-eu",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-16T22:08:48.000Z",
-    "fetchedAt": "2026-11-17T07:05:41.100Z",
-    "snippet": "UK Prime Minister Andy Burnham said on Monday that it is time to admit that Brexit has not delivered for the UK and that the country needs a much closer relationship with the European Union to combat growing isolationism around the world. He compared the outco",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/17/c1755b2b-625a-46e1-bc96-81aef46e3753_fe3a6dd7.jpg?itok=dHGOMCHr&v=1794885194"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "885f23c9f7423b2a",
-    "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
-    "link": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-16T22:03:02.000Z",
-    "fetchedAt": "2026-11-17T07:05:40.674Z",
-    "snippet": "Nvidia interim CEO and longtime CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third-quarter results. Given the turmoil Nvidia is in, there are a number of questions that Nvidia should answer.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "9fba5d1bc164073f",
-    "title": "New US rules aim to restrict Chinese firms’ remote access to AI servers and infrastructure",
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/new-us-rules-aim-to-restrict-remote-access-to-ai-servers-and-infrastructure-seeks-to-combat-cloud-rental-workarounds-to-gpu-export-controls",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-16T21:50:00.000Z",
-    "fetchedAt": "2026-11-17T07:05:40.903Z",
-    "snippet": "The Bureau of Industry and Security has announced a new interim final rule to ensure restrictions on the export of physical AI hardware cannot be bypassed by accessing it remotely in data centers around the world.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/n4uucZP4dV7mmuFv43MWGE-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/p2QqhVFP7dTRWfeVBCYBYV-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Ff8qW7gTwUZFZmPvceeLFd-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "b4d20ca20a608769",
-    "title": "Squeezed in the US, China’s CATL bets on Argentina’s battery storage boom",
-    "link": "https://www.scmp.com/news/china/article/3374653/squeezed-us-chinas-catl-bets-argentinas-battery-storage-boom",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-16T21:38:43.000Z",
-    "fetchedAt": "2026-11-16T21:45:24.750Z",
-    "snippet": "China’s CATL, the world’s largest battery maker, has opened a commercial office in Argentina as a base to expand from grid batteries in Buenos Aires into storage for mines, data centres and Patagonian wind farms, Argentine media reported on Monday. Contemporar",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/17/43f52936-be4c-4e4b-8a99-972e6d3da279_39bfd50d.jpg?itok=gBo8pAda&v=1794865118"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "6197b59992e9d69c",
-    "title": "Researchers ‘recognize that AI will never replace HPC,’ says AMD executive — high-precision workloads will ‘exist for a very long time’ even as AI usage expands",
-    "link": "https://www.tomshardware.com/tech-industry/supercomputers/researchers-recognize-that-ai-will-never-replace-hpc-says-amd-executive-high-precision-workloads-will-exist-for-a-very-long-time-even-as-ai-usage-expands",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-16T21:30:00.000Z",
-    "fetchedAt": "2026-11-16T21:45:24.322Z",
-    "snippet": "The emergence of AI has seemingly posed a threat to high-precision FP64 computation, but AMD doesn't think the HPC world is moving away from those complex calculations in the wake of AI.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/odrYnFH3kdkxQe7pL2cCGb-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/3BFHbcRr5aki3FZCTBPAG5-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/pk3xH2YfEacihEjQauD3nJ-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/fHioj7u5XgSaFQhFyg8ASd-1920-80.jpg"
-    ],
     "titleZh": "",
     "snippetZh": "",
     "translatedAt": "",
