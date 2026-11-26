@@ -1,5 +1,243 @@
 [
   {
+    "id": "9ac04f7f6764a1c9",
+    "title": "Huawei Says Qiankun Intelligent Automotive Solution Parts Have Topped 100 Million",
+    "link": "https://pandaily.com/huawei-qiankun-intelligent-automotive-parts-100-million",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-26T07:26:02.000Z",
+    "fetchedAt": "2026-11-26T07:26:05.778Z",
+    "snippet": "Huawei says Qiankun intelligent automotive solution parts have exceeded 100 million cumulative shipments, covering 26 brands and more than 60 models, as a parts count rather than vehicle sales.",
+    "images": [
+      "https://cms-image.pandaily.com/1/qiankun_editorial_355681d2a6.png"
+    ]
+  },
+  {
+    "id": "709f2b879577294f",
+    "title": "DataCanvas Launches Physical AI Factory and Opens Infra and Dev APIs",
+    "link": "https://pandaily.com/datacanvas-physical-ai-factory-infra-dev-apis",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-26T07:25:30.000Z",
+    "fetchedAt": "2026-11-26T07:26:05.778Z",
+    "snippet": "DataCanvas launched Physical AI Factory and opened Physical AI Infra API and Physical AI Dev API at a Shenzhen summit, a tool-stack release rather than a new model or robot.",
+    "images": [
+      "https://cms-image.pandaily.com/1/datacanvas_editorial_3f17cf8d08.png"
+    ]
+  },
+  {
+    "id": "e8b78512935dfdeb",
+    "title": "Context Scaling: A New Frontier of AI Scaling",
+    "link": "https://arxiv.org/abs/2611.33160",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-26T05:00:00.000Z",
+    "fetchedAt": "2026-11-26T07:26:04.492Z",
+    "snippet": "arXiv:2611.33160v1 Announce Type: new Abstract: Many failures of deployed AI arise not from weak inference but from a mismatch between the state a task depends on and the context available when the system acts. Relevant user state, repository revisions, tool t",
+    "images": []
+  },
+  {
+    "id": "8d5f53769e4d0bb4",
+    "title": "Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection",
+    "link": "https://arxiv.org/abs/2611.33161",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-26T05:00:00.000Z",
+    "fetchedAt": "2026-11-26T07:26:04.492Z",
+    "snippet": "arXiv:2611.33161v1 Announce Type: new Abstract: When an LLM or VLM produces several candidate answers, picking the best one usually relies on the model's own confidence, a learned judge model, or a domain check. Each has a known weakness: an answer can be flue",
+    "images": []
+  },
+  {
+    "id": "d0bf4e6572a35d6c",
+    "title": "AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics",
+    "link": "https://arxiv.org/abs/2611.33165",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-26T05:00:00.000Z",
+    "fetchedAt": "2026-11-26T07:26:04.493Z",
+    "snippet": "arXiv:2611.33165v1 Announce Type: new Abstract: AI systems are increasingly capable of producing machine-checked Lean proofs of advanced mathematical results. Real mathematical formalization, however, is not isolated theorem proving: it requires building the d",
+    "images": []
+  },
+  {
+    "id": "022299a9d31a3d69",
+    "title": "General-Purpose Decision Models for AI Configuration Tuning",
+    "link": "https://arxiv.org/abs/2611.33190",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-26T05:00:00.000Z",
+    "fetchedAt": "2026-11-26T07:26:04.493Z",
+    "snippet": "arXiv:2611.33190v1 Announce Type: new Abstract: AI configuration tuning searches for settings that improve the performance of AI systems under a limited budget. Existing tuners use different sampling and search policies, making the choice of decision strategy ",
+    "images": []
+  },
+  {
+    "id": "0cc5fbec1e6a20a5",
+    "title": "What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning",
+    "link": "https://arxiv.org/abs/2611.33263",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-26T05:00:00.000Z",
+    "fetchedAt": "2026-11-26T07:26:04.493Z",
+    "snippet": "arXiv:2611.33263v1 Announce Type: new Abstract: The growing use of large language models (LLMs) for mental health support raises important safety concerns. Existing guard models primarily identify categories of harmful content, often overlooking the context ne",
+    "images": []
+  },
+  {
+    "id": "d713c2b79893f827",
+    "title": "Certify What You Plant: Shortcut-Free Proof Depth in Logical Reasoning Data",
+    "link": "https://arxiv.org/abs/2611.33303",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-26T05:00:00.000Z",
+    "fetchedAt": "2026-11-26T07:26:04.493Z",
+    "snippet": "arXiv:2611.33303v1 Announce Type: new Abstract: Procedurally generated logic problems are used to both evaluate and train reasoning in language models. Their difficulty is usually set by planting a proof, that is, by sampling a proof of the desired depth and s",
+    "images": []
+  },
+  {
+    "id": "40509df4aca5b9fb",
+    "title": "The Platonic Representation Hypothesis in Jacobian-Space: Language and Vision Models Agree Approximately Up to a Rotation",
+    "link": "https://arxiv.org/abs/2611.33304",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-26T05:00:00.000Z",
+    "fetchedAt": "2026-11-26T07:26:04.493Z",
+    "snippet": "arXiv:2611.33304v1 Announce Type: new Abstract: The Platonic Representation Hypothesis (PRH) posits that AI models converge toward a shared representation of the world, even when trained on different data modalities. Previous work has found evidence for the PR",
+    "images": []
+  },
+  {
+    "id": "2219d6eb1a08313b",
+    "title": "Brand Recall and Category Accuracy in Language Models: An Audit of 1,000 B2B SaaS Brands",
+    "link": "https://arxiv.org/abs/2611.33322",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-26T05:00:00.000Z",
+    "fetchedAt": "2026-11-26T07:26:04.493Z",
+    "snippet": "arXiv:2611.33322v1 Announce Type: new Abstract: A language model can name a brand without classifying it correctly. This study measures these outcomes separately for 1,000 B2B SaaS brands across 333 product categories. On Gemma 4 12B, with no external retrieva",
+    "images": []
+  },
+  {
+    "id": "e2184cdf3da12d2b",
+    "title": "Confidence scores for gated automation of large language models",
+    "link": "https://arxiv.org/abs/2611.33394",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-26T05:00:00.000Z",
+    "fetchedAt": "2026-11-26T07:26:04.493Z",
+    "snippet": "arXiv:2611.33394v1 Announce Type: new Abstract: AI agents built on large language models (LLMs) demonstrate strong capabilities in automated decision-making. However, LLMs may produce incorrect answers with high confidence, limiting their applicability in deci",
+    "images": []
+  },
+  {
+    "id": "7ddd7ba1767cf602",
+    "title": "Partial Routing: Trace-Tuned Delegation for Resource-Efficient Agentic Workflows",
+    "link": "https://arxiv.org/abs/2611.33402",
+    "source": "arXiv AI",
+    "category": "Other AI Tech",
+    "publishedAt": "2026-11-26T05:00:00.000Z",
+    "fetchedAt": "2026-11-26T07:26:04.493Z",
+    "snippet": "arXiv:2611.33402v1 Announce Type: new Abstract: AI models vary enormously in capability and price. Model routing exploits this by sending easier tasks to cheaper models. However, a single agentic task often combines easy and difficult subtasks, making one mode",
+    "images": []
+  },
+  {
+    "id": "0319f2ad0419ca54",
+    "title": "FedEx cargo plane overshoots runway at Miami airport",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3375859/fedex-cargo-plane-overshoots-runway-miami-airport",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-26T04:35:06.000Z",
+    "fetchedAt": "2026-11-26T07:26:04.723Z",
+    "snippet": "A FedEx cargo plane overran a runway at Miami International Airport on Wednesday night, forcing all but one runway to temporarily close the day before Thanksgiving, according to officials. There were no reports of injuries after the plane ran off the runway at",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/26/97f0ae65-29da-414b-8013-310404471ab9_ed78e9fa.jpg?itok=ZSGcEK_V&v=1795667702"
+    ]
+  },
+  {
+    "id": "f0c2bbcc0cdfae23",
+    "title": "Beyond Moore’s Law: Huawei Is Rewriting the Rules of AI Compute with 3D Chips and Optoelectronics",
+    "link": "https://pandaily.com/huawei-ip-forum-tau-unifiedbus-hi-one-ai-compute",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-26T03:27:27.000Z",
+    "fetchedAt": "2026-11-26T07:26:05.778Z",
+    "snippet": "Huawei used its 7th Innovation and Intellectual Property Forum to present the Tau Scaling Law, UnifiedBus and the Hi-ONE NPO engine, alongside official 2025 R&D and patent figures.",
+    "images": [
+      "https://cms-image.pandaily.com/1/forum_editorial_c0ba08d91b.png"
+    ]
+  },
+  {
+    "id": "a33ca565b02e8f78",
+    "title": "Zhejiang Humanoid Robot Innovation Center Rolls Out SPIRE 2.0 and Navi-Dataset",
+    "link": "https://pandaily.com/zhejiang-humanoid-spire-2-naviai-dataset",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-26T02:20:54.000Z",
+    "fetchedAt": "2026-11-26T07:26:05.778Z",
+    "snippet": "Zhejiang Humanoid Robot Innovation Center reports SPIRE 2.0 and a Navi-Dataset of more than 220,000 labeled real-robot operations. The update is a system iteration, not a new robot debut.",
+    "images": [
+      "https://cms-image.pandaily.com/1/spire_editorial_8dc6c33849.png"
+    ]
+  },
+  {
+    "id": "7891ae6f005dcb28",
+    "title": "Galaxea Releases G0.7 Embodied Foundation Model With Long Context and Fast Mode",
+    "link": "https://pandaily.com/galaxea-g07-embodied-foundation-model-wam-fast-mode",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-26T02:20:15.000Z",
+    "fetchedAt": "2026-11-26T07:26:05.779Z",
+    "snippet": "Galaxea's G0.7 world action model uses up to five minutes of observation history. The company says Fast mode decodes 16-step action chunks in 60 ms on one RTX 5090 in FP8.",
+    "images": [
+      "https://cms-image.pandaily.com/1/galaxea_editorial_f1c440d552.png"
+    ]
+  },
+  {
+    "id": "48a6e5445bceaa2f",
+    "title": "Huawei Lists Four ISSCC 2027 Papers on LogicFolding, Stacked IVR and Custom HBM",
+    "link": "https://pandaily.com/huawei-isscc-2027-logicfolding-stacked-ivr-custom-hbm",
+    "source": "Pandaily",
+    "category": "China AI",
+    "publishedAt": "2026-11-26T02:19:42.000Z",
+    "fetchedAt": "2026-11-26T07:26:05.779Z",
+    "snippet": "Huawei has four papers in the ISSCC 2027 Advance Program on a LogicFolding SoC, a stacked 33A IVR, a 71.3fs PLL and custom HBM. The listings are conference slots, not a product launch.",
+    "images": [
+      "https://cms-image.pandaily.com/1/isscc_editorial_51d14b9f7b.png"
+    ]
+  },
+  {
+    "id": "6c303bf53e8a579b",
+    "title": "Pair stole cufflinks and clock in break-in at home of British royals",
+    "link": "https://www.scmp.com/news/world/europe/article/3375831/pair-stole-cufflinks-and-clock-break-home-british-royals",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-26T02:19:09.000Z",
+    "fetchedAt": "2026-11-26T07:26:04.723Z",
+    "snippet": "Two homeless Albanian men climbed a drainpipe to break into the country home of Prince William and Princess Catherine in eastern England, making off with cufflinks and a clock, police and prosecutors said Wednesday. The suspects were arrested nearby after a se",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/26/537b08ed-8b0b-426c-b2cf-c4f4c688c752_3763a7f3.jpg?itok=1WT9xk6c&v=1795659545"
+    ]
+  },
+  {
+    "id": "ac280921af455b8a",
+    "title": "Andy Taylor, guitarist who helped define Duran Duran’s 80s sound, dead at 65",
+    "link": "https://www.scmp.com/news/world/europe/article/3375817/duran-duran-guitarist-andy-taylor-sound-1980s-dies-65",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-25T23:20:50.000Z",
+    "fetchedAt": "2026-11-26T07:26:04.723Z",
+    "snippet": "Andy Taylor, the former guitarist with new wave pop group Duran Duran, has died after a “long and courageous battle with prostate cancer”, the band and his family said on social media late on Wednesday. He was 65. “Andy passed away peacefully at home, surround",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/26/b34675b9-560a-47de-b443-46730a101aad_3fe16e5d.jpg?itok=8uips6hs&v=1795648842"
+    ]
+  },
+  {
+    "id": "04345ca20fd5a126",
+    "title": "S&#038;P considers Nvidia credit downgrade over governance and &#8216;key man’ risks",
+    "link": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+    "source": "TechCrunch AI",
+    "category": "US & Global AI",
+    "publishedAt": "2026-11-25T22:44:32.000Z",
+    "fetchedAt": "2026-11-26T07:26:04.397Z",
+    "snippet": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
+    "images": []
+  },
+  {
     "id": "5579227200555c36",
     "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
     "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
@@ -8,7 +246,12 @@
     "publishedAt": "2026-11-25T20:03:27.000Z",
     "fetchedAt": "2026-11-25T21:17:57.921Z",
     "snippet": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "8492c77eeabee253",
@@ -19,7 +262,12 @@
     "publishedAt": "2026-11-25T19:54:57.000Z",
     "fetchedAt": "2026-11-25T21:17:57.922Z",
     "snippet": "Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "4d77d7b2b6d4b4a1",
@@ -30,7 +278,12 @@
     "publishedAt": "2026-11-25T19:44:24.000Z",
     "fetchedAt": "2026-11-25T21:17:57.922Z",
     "snippet": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "c6a746c21c0d386a",
@@ -43,6 +296,24 @@
     "snippet": "A fire erupted in Egypt’s capital on Wednesday, killing at least 30 people, according to the health ministry, after a fuel truck reportedly overturned on a packed highway. Footage shot by passers-by showed a massive blaze and huge clouds of smoke rising from t",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/26/32069a56-5da9-4af3-9a89-ab350d647beb_efc6a4d2.jpg?itok=CtHQU8rm&v=1795635686"
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
+  },
+  {
+    "id": "85720fe928b52d8e",
+    "title": "Dozens dead and injured after overturned fuel tanker sparks inferno in Cairo",
+    "link": "https://www.scmp.com/news/world/middle-east/article/3375814/massive-blaze-kills-least-30-cairo-egypt-after-fuel-truck-overturns",
+    "source": "SCMP Tech",
+    "category": "China AI",
+    "publishedAt": "2026-11-25T19:41:27.000Z",
+    "fetchedAt": "2026-11-26T07:26:04.723Z",
+    "snippet": "A fire erupted in Egyptian capital Cairo on Wednesday killing at least 31 people, the health ministry said, after a fuel truck reportedly overturned on a packed highway. A huge fireball and thick black smoke rose above the densely populated capital’s Al-Waraq ",
+    "images": [
+      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/26/205516fe-f878-4444-a402-10030f0b38f9_b8ae4e24.jpg?itok=i9xPerX0&v=1795664310"
     ]
   },
   {
@@ -58,7 +329,12 @@
       "https://cdn.mos.cms.futurecdn.net/yTrcpQi6UyoVD9s68zZe5f-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/HXLd5TKdxEhvnQH7XvnWnJ-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/eJ4oJipo2uUyMLpb5kw748-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "3d7de2c143d286b3",
@@ -71,7 +347,12 @@
     "snippet": "US ⁠officials found no evidence ⁠that tech executive Alice Huang was directed by Beijing to spy on Nvidia CEO Jensen Huang, The Wall Street Journal reported on Wednesday, citing people familiar with a classified briefing. The briefing ‌comes after US President",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/26/e2968a75-e8ae-47e4-b3df-eebb3d3fe42b_17b0bb3d.jpg?itok=bPdvj7FX&v=1795631008"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "84aa49a7b2a37d86",
@@ -82,7 +363,12 @@
     "publishedAt": "2026-11-25T18:11:46.000Z",
     "fetchedAt": "2026-11-25T21:17:57.922Z",
     "snippet": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "d548ff08351cc86c",
@@ -99,7 +385,12 @@
       "https://cdn.mos.cms.futurecdn.net/S2dWGYMNiFF3AitnrtYxHS-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/JVktK8AtnLYW6KbPwcTTPV-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/PiM2NseEgvH6r5ujuDmiYn-1920-80.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "e4fa65f956355be7",
@@ -116,7 +407,12 @@
       "https://cdn.mos.cms.futurecdn.net/MpFANmrVpKpKkcnrwbhWPb-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/ug9KnefTRchDhAutJJovPb-1920-80.png",
       "https://cdn.mos.cms.futurecdn.net/jrCuaLaMiC6aMXRdT7bkSb-1920-80.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "b98a7d582aee179e",
@@ -127,7 +423,12 @@
     "publishedAt": "2026-11-25T17:35:58.000Z",
     "fetchedAt": "2026-11-25T21:17:57.922Z",
     "snippet": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "1ddfa5916fa4e732",
@@ -160,7 +461,12 @@
     "publishedAt": "2026-11-25T17:00:00.000Z",
     "fetchedAt": "2026-11-25T21:17:57.946Z",
     "snippet": "In May 2025, my colleague David Rotman wrote a feature story describing how AI could keep us dependent on natural gas. Just 18 months later, I’ve lost count of how many times he’s already been proved right. Sure, it’s technically possible to meet the world’s r",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "3ed40ad1d688e58e",
@@ -174,7 +480,12 @@
     "images": [
       "https://cdn.arstechnica.net/wp-content/uploads/2026/10/yandex-data-center_sasovo-ryazan-russia.jpg",
       "https://cdn.arstechnica.net/wp-content/uploads/2026/10/yandex-data-center_sasovo-ryazan-russia-500x500.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "0ac413e366b20a08",
@@ -185,7 +496,12 @@
     "publishedAt": "2026-11-25T15:41:43.000Z",
     "fetchedAt": "2026-11-25T21:17:57.922Z",
     "snippet": "⁠Nvidia has made clear⁠ it won’t backstop an AI data center until it’s nearly ready to run, and that’s landing just as neoclouds report construction delays and more expensive debt. The message to developers is that land, power, and a finished building matter m",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "2337e4066194e49b",
@@ -196,7 +512,12 @@
     "publishedAt": "2026-11-25T14:10:18.000Z",
     "fetchedAt": "2026-11-25T21:17:57.922Z",
     "snippet": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "58bf7d8d0abbfcbf",
@@ -209,7 +530,12 @@
     "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI is straining America’s open records systems AI has intensified investors’ interest in public records. Over the last few",
     "images": [
       "https://wp.technologyreview.com/wp-content/uploads/2026/08/3_HighChair-crop.jpg?w=840"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "13335ed3cae0c73f",
@@ -220,7 +546,12 @@
     "publishedAt": "2026-11-25T13:00:00.000Z",
     "fetchedAt": "2026-11-25T21:17:57.922Z",
     "snippet": "The central question for investigators is what Nvidia knew about where those chips ended up and whether Huang's affair with a Megaspeed executive gave the company reason to doubt Megaspeed's assurances.",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "7d906265c676c53b",
@@ -234,7 +565,12 @@
     "images": [
       "https://cdn.arstechnica.net/wp-content/uploads/2026/11/physics-and-ai-1152x648.jpg",
       "https://cdn.arstechnica.net/wp-content/uploads/2026/11/physics-and-ai-500x500.jpg"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "1ab3e5ea54220de7",
@@ -244,10 +580,15 @@
     "category": "China AI",
     "publishedAt": "2026-11-25T10:11:05.000Z",
     "fetchedAt": "2026-11-25T21:17:58.500Z",
-    "snippet": "Britain will introduce restrictions on legally binding confidentiality agreements from next year, according to a government statement, after concerns they are being used to silence victims of sexual and workplace harassment. The planned changes come after the ",
+    "snippet": "Britain will introduce restrictions on legally binding confidentiality agreements from next year, according to a government statement, after concerns they are being used to silence victims of sexual and workplace harassment. The planned changes come after the",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/25/903a7596-7b09-49bf-b6b4-2106a5176e74_f535b304.jpg?itok=ApjHAnVc&v=1795601454"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "a2914e02d3a90b27",
@@ -258,7 +599,12 @@
     "publishedAt": "2026-11-25T10:00:00.000Z",
     "fetchedAt": "2026-11-25T21:17:57.947Z",
     "snippet": "In Panton, Vermont, population 660, town clerk Kyle Rowe did it all. He crafted budgets, paid vendors, handled property tax disputes, and served as the town’s zoning supervisor and presiding elections officer. During morning office hours at the town hall—a woo",
-    "images": []
+    "images": [],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "4487092608eac195",
@@ -268,10 +614,15 @@
     "category": "China AI",
     "publishedAt": "2026-11-25T09:27:55.000Z",
     "fetchedAt": "2026-11-25T21:17:58.500Z",
-    "snippet": "An Israeli strike killed a Gaza security official, his wife and their two daughters on Wednesday, first responders and officials said, while the Israeli military said it “targeted a Hamas terrorist”. Civil defence spokesman Mahmoud Bassal said that an Israeli ",
+    "snippet": "An Israeli strike killed a Gaza security official, his wife and their two daughters on Wednesday, first responders and officials said, while the Israeli military said it “targeted a Hamas terrorist”. Civil defence spokesman Mahmoud Bassal said that an Israeli",
     "images": [
       "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/25/8068602e-d2b1-4b10-8534-4cc3fc724a3b_43d6e5d7.jpg?itok=MqcOkeWj&v=1795598872"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "f8e044483cfb2e5c",
@@ -284,7 +635,12 @@
     "snippet": "FiveAges reports a CE-related assessment package and cooperation agreement with SGS. The announcement does not establish blanket permission for fence-free operation.",
     "images": [
       "https://cms-image.pandaily.com/1/five_editorial_c2675c4a82.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "d6e79a2d539cfef2",
@@ -297,7 +653,12 @@
     "snippet": "Qwen Go can make authorized calls for restaurant bookings, courier inquiries and lost-item checks, including scheduled calls, according to the November 25 announcement.",
     "images": [
       "https://cms-image.pandaily.com/1/go_editorial_e7ebf6f062.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "b77632388ec0108b",
@@ -310,7 +671,12 @@
     "snippet": "Huawei and Phlexing reported linking domestic EDA tools in real chip projects. The claimed milestone does not establish a complete replacement for every design workflow.",
     "images": [
       "https://cms-image.pandaily.com/1/eda_editorial_bbc8872765.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "24186158de5cf3c8",
@@ -555,7 +921,12 @@
     "snippet": "The full MAGI-2 has 480B total parameters and supports longer audio-video generation, Sand.ai says. It is distinct from the smaller Preview, and open weights remain forthcoming.",
     "images": [
       "https://cms-image.pandaily.com/1/magi_editorial_5165708cec.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "86ec82db8aba6c2c",
@@ -568,7 +939,12 @@
     "snippet": "NetEase and LiuGong demonstrated a 922FE AI excavator and agreed to pursue production and exports. Broader operating figures concern NetEase’s existing loader fleet.",
     "images": [
       "https://cms-image.pandaily.com/1/excavator_editorial_8c461aad24.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "60addaee96d889a8",
@@ -581,7 +957,12 @@
     "snippet": "BAAI introduced a physical-AI assessment framework alongside embodied models and a staged HumanCOIN dataset release, not a full 12,500-hour download.",
     "images": [
       "https://cms-image.pandaily.com/1/baai_editorial_7d0fb7cdc6.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "7288aec90827d544",
@@ -594,7 +975,12 @@
     "snippet": "LingSante-Pulse has public MIT-licensed encoder weights. Ant’s longer-term disease-risk claims describe downstream research, not an included diagnostic tool.",
     "images": [
       "https://cms-image.pandaily.com/1/pulse_editorial_a51ed68937.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "7bc8c1eb2fc1bd20",
@@ -607,7 +993,12 @@
     "snippet": "Amap has released 5B Iris weights for interactive video. Its larger Halo audio-video model is separate, and general cloud access remains unverified.",
     "images": [
       "https://cms-image.pandaily.com/1/abot_editorial_d26cff4ca2.png"
-    ]
+    ],
+    "titleZh": "",
+    "snippetZh": "",
+    "translatedAt": "",
+    "translationProvider": "",
+    "translationModel": ""
   },
   {
     "id": "6d48e3e562dbe77b",
@@ -5637,379 +6028,6 @@
       "https://cdn.mos.cms.futurecdn.net/wdQ45S9jtuGPuURS79mUbA-1920-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/Ff8qW7gTwUZFZmPvceeLFd-1920-80.png"
     ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "4bd8d6559c6fc057",
-    "title": "Nvidia says it’s ‘absurd’ to assume it predicted the agentic moment during Vera’s development",
-    "link": "https://www.tomshardware.com/pc-components/cpus/nvidia-says-its-absurd-to-assume-it-predicted-the-agentic-moment-during-veras-development-product-intuition-helped-drive-cpu-design-superior-memory-bandwidth-will-play-critical-role-in-future-ai-agents-cpu-boss-claims",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-18T15:00:00.000Z",
-    "fetchedAt": "2026-11-18T20:08:59.266Z",
-    "snippet": "AMD has criticized Nvidia, and to a lesser extent Arm, for claims about creating a CPU designed for agentic AI. Nvidia is pushing back on that characterization, instead saying Vera was designed with “base principles, product intuition, and oftentimes simple al",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/MX9ZgfJcjpjFTu4aNfmAhP-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/eXLFBd3VeLbbGiDKVLt9D8-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "a17559eea90ae697",
-    "title": "The AI Hype Index: AI is everywhere",
-    "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
-    "source": "MIT Technology Review",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-18T14:42:44.000Z",
-    "fetchedAt": "2026-11-18T20:08:59.139Z",
-    "snippet": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up th",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "55c212a6b3393fca",
-    "title": "Elon Musk’s SpaceXAI suffers chemical spill at Mississippi AI data center",
-    "link": "https://www.tomshardware.com/tech-industry/data-centers/elon-musks-spacexai-suffers-chemical-spill-at-mississippi-ai-data-center-up-to-6-000-gallons-of-propylene-glycol-heat-transfer-fluid-lost-environment-agency-says-no-threat-to-residents",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-18T14:30:00.000Z",
-    "fetchedAt": "2026-11-18T20:08:59.266Z",
-    "snippet": "5,000 to 6,000 gallons of propylene glycol spilled from a SpaceXAI facility in Southaven, Mississippi, before reaching a nearby drainage ditch. State environmental officials have sought to ease the worries of locals, saying there is no risk to their health.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/qenN65eHB42UpqUiKhdHSf-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Ff8qW7gTwUZFZmPvceeLFd-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "9d4089acbb46c988",
-    "title": "The Downfall of Jensen Huang — a timeline of allegations and scandals that brought down the king of AI infrastructure",
-    "link": "https://www.tomshardware.com/tech-industry/the-downfall-of-jensen-huang",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-18T14:10:32.000Z",
-    "fetchedAt": "2026-11-18T20:08:59.267Z",
-    "snippet": "Jensen’s affairs dominated headlines, but the seeds of his downfall were planted in both the bedroom and the boardroom and stretched from Beijing to Washington, with Nvidia sitting right in the middle.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/fjFkN4c5HUsWwQPK4dVKZR-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/S98GzMyJm7P5xwioZvaQG7-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/EjoBUVevVde7qbBdwgKJHn-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/7V9ueZXh85UyPKGS7ipzR8-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "12a77a432023b4a4",
-    "title": "Spanish court opens sexual abuse probe into Julio Iglesias",
-    "link": "https://www.scmp.com/news/world/europe/article/3374943/spanish-court-opens-sexual-abuse-probe-julio-iglesias",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-18T13:35:53.000Z",
-    "fetchedAt": "2026-11-18T20:08:59.431Z",
-    "snippet": "A Spanish court opened a probe into veteran crooner Julio Iglesias on Wednesday after two women ex-employees filed a complaint against him for alleged sexual abuse, which he denies. The announcement marks a turnaround after a first complaint was shelved on the",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/18/24502427-80c6-4c04-96da-b015407c2813_95c3bcb3.jpg?itok=k5LgqCE2&v=1795008942"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "18da520c146c6cea",
-    "title": "From Shenzhen to Silicon Valley: Xi Jinping calls for global association of bay areas",
-    "link": "https://www.scmp.com/economy/china-economy/article/3374942/shenzhen-silicon-valley-xi-jinping-calls-global-association-bay-areas",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-18T13:32:01.000Z",
-    "fetchedAt": "2026-11-18T20:08:59.431Z",
-    "snippet": "President Xi Jinping has called for closer economic links between major coastal innovation centres across the globe – a proposal observers said could create new opportunities and exchanges for China and the United States. Speaking at the opening of the Apec CE",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/18/d4b60bd7-ca95-4bd3-8d53-1b4f55b4f8cd_27263ac3.jpg?itok=clgmJ3nJ&v=1795008719"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "a3a99504803ab428",
-    "title": "Nvidia board faction angling for Jensen Huang return as CEO, report claims",
-    "link": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-board-faction-angling-for-jensen-huang-return-as-ceo-report-claims-company-defiant-at-earnings-calls-says-no-possibility-of-reinstatement",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-18T13:30:00.000Z",
-    "fetchedAt": "2026-11-18T20:08:59.267Z",
-    "snippet": "Despite Nvidia's board saying it has no intention of bringing former CEO Jensen Huang back to the company, some directors are reportedly still pushing for that to happen.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/QicyzQMVLnsDMjT5SC4mZY-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/Ff8qW7gTwUZFZmPvceeLFd-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "c0b3d570966bb68c",
-    "title": "The Download: AI learns to smell and hydropower struggles",
-    "link": "https://www.technologyreview.com/2026/11/18/1148845/the-download-ai-learns-to-smell-hydropower-struggles/",
-    "source": "MIT Technology Review",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-18T13:10:00.000Z",
-    "fetchedAt": "2026-11-18T20:08:59.139Z",
-    "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. This smell startup says its AI nose is as good as a human’s In a New Jersey lab, researchers are trying to sniff every odo",
-    "images": [
-      "https://wp.technologyreview.com/wp-content/uploads/2026/05/260505_IVF_heroNEW-e1778701373952.jpg?w=840"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "35d950c666c16437",
-    "title": "Nvidia clarifies when it will — and won’t — keep financing neoclouds",
-    "link": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-18T13:00:00.000Z",
-    "fetchedAt": "2026-11-18T20:08:58.980Z",
-    "snippet": "If Nvidia is backstopping a data center loan, it won't be on the hook unless the neocould has independent financing and gets the facility built, with Nvidia gear installed, interim CEO Colette Kress explained.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "87ccf56a0f440327",
-    "title": "Nvidia's revenue hits $115.8 billion as Vera Rubin generates $20 billion in another record-setting quarter",
-    "link": "https://www.tomshardware.com/pc-components/gpus/nvidias-revenue-hits-usd115-8-billion-as-vera-rubin-generates-usd20-billion-in-another-record-setting-quarter-commitments-increase-to-usd390-billion-fy28-forecast-raised",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-18T13:00:00.000Z",
-    "fetchedAt": "2026-11-18T20:08:59.267Z",
-    "snippet": "Nvidia's quarterly revenue surged to $115.8 billion as Vera Rubin achieved a record $20 billion debut, while total commitments to suppliers and customers climbed to $540 billion and rising costs prompted a revised pricing strategy for FY2028.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/Kjestg9jiuvnbE868dhwjf-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/5xZs8XRh7RnVA4Uv3Eus4j-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/ECk933JbM6o3pUvJW8idzi-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/tZDm8VD6AFzRhBinAey44j-1920-80.png",
-      "https://cdn.mos.cms.futurecdn.net/nsL6mvfY975sBZGYWaUQti-1920-80.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "3f91716220019b05",
-    "title": "Retro Kickstarter speaker can play soundtracks directly from original Game Boy cartridges",
-    "link": "https://www.tomshardware.com/video-games/retro-gaming/retro-kickstarter-speaker-can-play-soundtracks-directly-from-original-game-boy-cartridges-retro-song-bird-supports-over-1-900-with-physical-controls-for-media",
-    "source": "Tom's Hardware",
-    "category": "AI Hardware",
-    "publishedAt": "2026-11-18T12:45:00.000Z",
-    "fetchedAt": "2026-11-18T20:08:59.267Z",
-    "snippet": "Retro Song Bird can play music directly from original cartridges, export individual audio channels to a PC, back up game saves, flash writable cartridges, and sync two units for chiptune DJ performances.",
-    "images": [
-      "https://cdn.mos.cms.futurecdn.net/YZeY8SiSjY6mbTyGzgPQKN-1920-80.jpg"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "3353b6b0c360d5f3",
-    "title": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
-    "link": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-18T12:00:00.000Z",
-    "fetchedAt": "2026-11-18T20:08:58.980Z",
-    "snippet": "With a team of just seven, Unsiloed AI plans to compete with tech giants and specialized startups in the crowded AI document-processing market.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "cc15ca013d8efbc8",
-    "title": "EU proposes new US$49 billion Ukraine loan for 2027",
-    "link": "https://www.scmp.com/news/world/europe/article/3374925/eu-proposes-new-us49-billion-ukraine-loan-2027",
-    "source": "SCMP Tech",
-    "category": "China AI",
-    "publishedAt": "2026-11-18T11:45:06.000Z",
-    "fetchedAt": "2026-11-18T20:08:59.431Z",
-    "snippet": "The European Union on Wednesday proposed member states give Ukraine an extra €45 billion (US$49 billion) loan to plug its 2027 budget shortfalls as Russia’s invasion drags on. The funding would fill two-thirds of a €70 billion black hole Kyiv faces next year –",
-    "images": [
-      "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/18/f0be32f2-b8aa-4837-8d82-8d5fafa2fe79_7d70c8c6.jpg?itok=3ENgpLF4&v=1795001354"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "f9c24d7268b8a4dc",
-    "title": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need",
-    "link": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
-    "source": "TechCrunch AI",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-18T11:30:00.000Z",
-    "fetchedAt": "2026-11-18T20:08:58.980Z",
-    "snippet": "Founded in February, Humyn Labs competes with startups such as Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "99c782760b3cf74e",
-    "title": "This smell startup says its AI nose is as good as a human’s",
-    "link": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
-    "source": "MIT Technology Review",
-    "category": "US & Global AI",
-    "publishedAt": "2026-11-18T10:20:30.000Z",
-    "fetchedAt": "2026-11-18T20:08:59.139Z",
-    "snippet": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich",
-    "images": [
-      "https://wp.technologyreview.com/wp-content/uploads/2026/11/Copy-of-Copy-of-BH1_6183_Ben_Hider_250430.jpg?w=840"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "05b39f1aa8e911f6",
-    "title": "Kling AI Launches Kling Image 4.0 With Native 8K and Coordinated Image Sets",
-    "link": "https://pandaily.com/kling-image-4-native-8k-text-coordinated-image-sets",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-18T07:10:56.000Z",
-    "fetchedAt": "2026-11-18T20:08:59.208Z",
-    "snippet": "Kling Image 4.0 adds native 8K output, up to 2,000 characters per image and coordinated sets of up to 10 images, according to Kling AI.",
-    "images": [
-      "https://cms-image.pandaily.com/1/kling_48e0d0ce9f.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "1c88f620418a983b",
-    "title": "Tencent Releases Downloadable Hy4 flash Weights in Three Variants",
-    "link": "https://pandaily.com/tencent-hy4-flash-downloadable-weights-fp8-base-license",
-    "source": "Pandaily",
-    "category": "China AI",
-    "publishedAt": "2026-11-18T07:10:43.000Z",
-    "fetchedAt": "2026-11-18T20:08:59.208Z",
-    "snippet": "Tencent releases standard, FP8 and base Hy4 flash checkpoints, with verified download access and license and deployment conditions.",
-    "images": [
-      "https://cms-image.pandaily.com/1/hy4_59a43d1a88.png"
-    ],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "dc649df434a15efb",
-    "title": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
-    "link": "https://arxiv.org/abs/2611.21682",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-11-18T05:00:00.000Z",
-    "fetchedAt": "2026-11-18T06:30:12.716Z",
-    "snippet": "arXiv:2611.21682v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly being explored for knowledge-intensive and safety-critical applications in nuclear engineering. However, existing nuclear-domain benchmarks provide limited content co",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "230cb0bd02bede04",
-    "title": "Chain-of-Thought Controllability Can Reduce Chain-of-Thought Monitorability",
-    "link": "https://arxiv.org/abs/2611.21799",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-11-18T05:00:00.000Z",
-    "fetchedAt": "2026-11-18T06:30:12.716Z",
-    "snippet": "arXiv:2611.21799v1 Announce Type: new Abstract: Chain-of-thought (CoT) monitoring is a promising tool for detecting hidden goals, off-task behavior, and other failures in AI agents. One risk is that models could deliberately shape their reasoning to make it op",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "ffe074462cc081b5",
-    "title": "How Much of SAR Vehicle Recognition Is the Vehicle? Background Shortcuts, Angle Gaps and Partial Libraries on MSTAR and ATRNet-STAR",
-    "link": "https://arxiv.org/abs/2611.21827",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-11-18T05:00:00.000Z",
-    "fetchedAt": "2026-11-18T06:30:12.716Z",
-    "snippet": "arXiv:2611.21827v1 Announce Type: new Abstract: Deep networks score near 99% on the MSTAR vehicle benchmark, and the newer ATRNet-STAR benchmark was built to be harder. We ask how much of these scores comes from the vehicle itself. With a modern network (ConvN",
-    "images": [],
-    "titleZh": "",
-    "snippetZh": "",
-    "translatedAt": "",
-    "translationProvider": "",
-    "translationModel": ""
-  },
-  {
-    "id": "0674ead6f7d2cdb2",
-    "title": "Auditors Struggle to Catch Sabotage In End-to-End Transcripts of AI Safety Research",
-    "link": "https://arxiv.org/abs/2611.21832",
-    "source": "arXiv AI",
-    "category": "Other AI Tech",
-    "publishedAt": "2026-11-18T05:00:00.000Z",
-    "fetchedAt": "2026-11-18T06:30:12.716Z",
-    "snippet": "arXiv:2611.21832v1 Announce Type: new Abstract: As AI systems are increasingly used to automate AI R&D, misaligned systems could sabotage research intended to improve model safety and alignment. To stress-test defenses against such sabotage, we use a human exp",
-    "images": [],
     "titleZh": "",
     "snippetZh": "",
     "translatedAt": "",
